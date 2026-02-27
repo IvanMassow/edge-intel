@@ -4,7 +4,7 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Tips Desk — NOAH Edge Magazine</title>
-<meta name="description" content="Pharma and litigation intelligence from our signal engine">
+<meta name="description" content="Information Asymmetry intelligence from our signal engine">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400&family=Montserrat:wght@700;800&display=swap" rel="stylesheet">
@@ -161,7 +161,7 @@ img { display: block; max-width: 100%; }
 .editors-notes-text p:last-child { margin-bottom: 0; }
 .editors-notes-sig { margin-top: 0.8rem; font-size: 0.78rem; font-weight: 700; color: var(--ink); }
 
-/* -- TIPS DESK -- */
+/* -- TIPS DESK (rich cards) -- */
 .tips-section { padding: 0 0 2rem; }
 .tips-list { margin-top: 1rem; }
 .tip-item { padding: 1rem 0; border-bottom: 1px solid var(--rule); display: grid; grid-template-columns: 1fr auto; gap: 1.5rem; align-items: start; }
@@ -170,6 +170,68 @@ img { display: block; max-width: 100%; }
 .tip-context { font-size: 0.78rem; font-weight: 300; line-height: 1.55; color: var(--muted); }
 .tip-meta { font-size: 0.64rem; color: var(--light); margin-top: 0.3rem; }
 .tip-link { font-size: 0.72rem; font-weight: 700; color: var(--teal); white-space: nowrap; align-self: center; }
+
+/* Tip cards grid */
+.tip-cards-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 1.2rem; margin-bottom: 2rem; }
+.tip-card { background: var(--bg); border: 1px solid var(--rule); padding: 1.2rem; position: relative; transition: border-color 0.2s; }
+.tip-card:hover { border-color: var(--teal); }
+.tip-card-header { display: flex; align-items: center; gap: 0.5rem; margin-bottom: 0.6rem; flex-wrap: wrap; }
+.tip-sector-tag { font-size: 0.54rem; font-weight: 700; letter-spacing: 0.08em; text-transform: uppercase; padding: 0.12rem 0.4rem; border-radius: 2px; background: var(--off); color: var(--muted); }
+.tip-dir-badge { font-size: 0.6rem; font-weight: 800; letter-spacing: 0.04em; padding: 0.15rem 0.5rem; border-radius: 2px; }
+.tip-dir-short { background: #fde8e8; color: #dc2626; }
+.tip-dir-long { background: #dcfce7; color: #16a34a; }
+.tip-dir-fade { background: #fef3c7; color: #d97706; }
+.tip-dir-mixed { background: var(--off); color: var(--muted); }
+.tip-ticker { font-size: 0.65rem; font-weight: 800; letter-spacing: 0.06em; color: var(--teal); font-family: 'Montserrat', sans-serif; margin-left: auto; }
+.tip-card-headline { font-weight: 700; font-size: 0.84rem; line-height: 1.35; margin-bottom: 0.5rem; }
+.tip-card-headline a { color: var(--ink); text-decoration: none; }
+.tip-card-headline a:hover { color: var(--teal); }
+.tip-card-narrative { font-size: 0.74rem; font-weight: 300; line-height: 1.55; color: var(--muted); margin-bottom: 0.8rem; }
+.tip-card-footer { display: flex; align-items: center; justify-content: space-between; gap: 0.5rem; }
+.tip-conviction-wrap { flex: 1; max-width: 140px; }
+.tip-conviction-label { font-size: 0.58rem; font-weight: 700; letter-spacing: 0.04em; color: var(--muted); }
+.tip-conviction-bar { height: 4px; background: var(--rule); border-radius: 2px; margin-top: 0.2rem; overflow: hidden; }
+.tip-conviction-fill { height: 100%; border-radius: 2px; transition: width 0.3s; }
+.tip-conviction-fill.tip-dir-short { background: #dc2626; }
+.tip-conviction-fill.tip-dir-long { background: #16a34a; }
+.tip-conviction-fill.tip-dir-fade { background: #d97706; }
+.tip-conviction-fill.tip-dir-mixed { background: var(--muted); }
+.tip-card-badges { display: flex; gap: 0.35rem; align-items: center; }
+.tip-edge-badge { font-size: 0.52rem; font-weight: 700; letter-spacing: 0.06em; text-transform: uppercase; padding: 0.1rem 0.35rem; border-radius: 2px; }
+.tip-edge-high { background: var(--teal-light); color: var(--teal); }
+.tip-edge-decay { background: var(--amber-light); color: var(--amber); }
+.tip-edge-none { background: var(--off); color: var(--light); }
+.tip-action-badge { font-size: 0.52rem; font-weight: 700; letter-spacing: 0.06em; text-transform: uppercase; padding: 0.1rem 0.35rem; border-radius: 2px; }
+.tip-action-trade { background: #dcfce7; color: #16a34a; }
+.tip-action-investigate { background: var(--indigo-light); color: var(--indigo); }
+.tip-action-avoid { background: #fde8e8; color: #dc2626; }
+.tip-card-price { font-size: 0.62rem; color: var(--light); margin-top: 0.5rem; }
+
+/* -- FUTURES DESK (signal cards) -- */
+.signal-cards-row { display: grid; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); gap: 1.2rem; margin-bottom: 2rem; }
+.signal-card { background: var(--ink); color: var(--bg); padding: 1.2rem; border-left: 3px solid var(--teal); }
+.signal-card-header { display: flex; justify-content: space-between; align-items: flex-start; margin-bottom: 0.6rem; }
+.signal-asset { font-weight: 700; font-size: 0.82rem; line-height: 1.3; flex: 1; }
+.signal-pi { text-align: center; min-width: 50px; }
+.signal-pi-number { font-weight: 900; font-size: 1.5rem; line-height: 1; display: block; }
+.signal-pi-label { font-size: 0.5rem; font-weight: 700; letter-spacing: 0.1em; text-transform: uppercase; color: rgba(255,255,255,0.5); }
+.signal-pi-high .signal-pi-number { color: var(--teal); }
+.signal-pi-mid .signal-pi-number { color: var(--amber); }
+.signal-pi-low .signal-pi-number { color: var(--light); }
+.signal-status-row { display: flex; align-items: center; gap: 0.5rem; margin-bottom: 0.6rem; flex-wrap: wrap; }
+.signal-status-badge { font-size: 0.58rem; font-weight: 700; letter-spacing: 0.06em; text-transform: uppercase; padding: 0.15rem 0.5rem; border-radius: 2px; }
+.signal-status-accel { background: rgba(13,118,128,0.3); color: var(--teal); }
+.signal-status-mixed { background: rgba(255,255,255,0.1); color: rgba(255,255,255,0.6); }
+.signal-status-decel { background: rgba(220,38,38,0.2); color: #fca5a5; }
+.signal-direction { font-size: 0.7rem; color: rgba(255,255,255,0.6); }
+.signal-summary { font-size: 0.72rem; font-weight: 300; line-height: 1.55; color: rgba(255,255,255,0.6); margin-bottom: 0.5rem; }
+.signal-card-meta { font-size: 0.58rem; color: rgba(255,255,255,0.35); }
+.section-note { font-size: 0.64rem; font-weight: 300; color: var(--light); font-style: italic; }
+
+/* -- TIP DETAIL PAGE -- */
+.tip-detail-section { margin-bottom: 1.5rem; }
+.tip-detail-heading { font-size: 0.82rem; font-weight: 800; letter-spacing: 0.06em; text-transform: uppercase; color: var(--teal); margin-bottom: 0.4rem; }
+.tip-detail-text { font-size: 0.88rem; font-weight: 300; line-height: 1.7; color: var(--ink-soft); }
 
 /* -- ACTIVE EDGES -- */
 .edges-section { padding: 2rem 0; }
@@ -225,6 +287,8 @@ img { display: block; max-width: 100%; }
   .index-scores { gap: 1.5rem; }
   .stats-grid-4 { grid-template-columns: repeat(2, 1fr); }
   .stats-grid-3 { grid-template-columns: 1fr; }
+  .tip-cards-grid { grid-template-columns: repeat(2, 1fr); }
+  .signal-cards-row { grid-template-columns: 1fr 1fr; }
 }
 @media (max-width: 600px) {
   .site-header { padding: 0.8rem 1.2rem; flex-wrap: wrap; gap: 0.4rem; }
@@ -252,6 +316,11 @@ img { display: block; max-width: 100%; }
   .index-scores { gap: 1rem; }
   .editors-notes { padding: 1.5rem 1.2rem; }
   .tip-item { grid-template-columns: 1fr; gap: 0.5rem; }
+  .tip-cards-grid { grid-template-columns: 1fr; }
+  .tip-card { padding: 1rem; }
+  .tip-card-narrative { font-size: 0.72rem; }
+  .signal-cards-row { grid-template-columns: 1fr; }
+  .signal-card { padding: 1rem; }
   .hero-secondary { margin-top: 1rem; padding-top: 1rem; }
   .hero-secondary-headline { font-size: 0.95rem; }
   .hero-secondary-deck { font-size: 0.78rem; }
@@ -280,60 +349,2008 @@ img { display: block; max-width: 100%; }
     <div class="section-label">Tips Desk</div>
     <a href="/" class="section-more">&larr; Home</a>
   </div>
-  <p style="font-size:0.82rem; font-weight:300; color:var(--muted); line-height:1.6; margin-bottom:0.5rem;">Intelligence from our pharma and litigation signal engine. We publish what we find — some of these will take time to play out.</p>
+  <p style="font-size:0.82rem; font-weight:300; color:var(--muted); line-height:1.6; margin-bottom:1rem;">Information Asymmetry intelligence across Pharma. 100 total signals, 49 actionable. Our signal engine scans narrative pressure, identifies information asymmetry, and publishes directional intelligence with conviction scoring and edge quality assessment.</p>
 
-  <div class="tips-section">
-    <div class="tips-list">
-    <div class="tip-item">
-      <div>
-        <span class="tip-tag">Litigation</span>
-        <span style="color:var(--amber); font-weight:700; font-size:0.58rem; letter-spacing:0.06em; text-transform:uppercase; padding:0.1rem 0.35rem; border-radius:2px; background:var(--off);">WATCH</span>
-        <div class="tip-title">Epstein estate settlement is back in the feed (SPY)</div>
-        <div class="tip-context">The pipeline resolves this as SHORT because renewed Epstein-related headlines function as a reputational-volatility amplifier: they can drag associated institutions back into scrutiny cycles even when the legal step is a settlement. The edge is that the item is still contained (single non-tier le...</div>
-        <div class="tip-meta">23 Feb &middot; SHORT &middot; Information Asymmetry Report</div>
+  <div class="tip-cards-grid">
+    <div class="tip-card">
+      <div class="tip-card-header">
+        <span class="tip-sector-tag">Pharma</span>
+        <span class="tip-dir-badge tip-dir-short">↓ SHORT</span>
+        <span class="tip-ticker">ELV</span>
+        <span class="tip-action-badge tip-action-trade">TRADE</span>
       </div>
-      <a href="#" class="tip-link">Read report →</a>
-    </div>
-    <div class="tip-item">
-      <div>
-        <span class="tip-tag">Intelligence</span>
-        <span style="color:var(--amber); font-weight:700; font-size:0.58rem; letter-spacing:0.06em; text-transform:uppercase; padding:0.1rem 0.35rem; border-radius:2px; background:var(--off);">WATCH</span>
-        <div class="tip-title">Roche: clinical studies (RHHBY)</div>
-        <div class="tip-context"></div>
-        <div class="tip-meta">23 Feb &middot; LONG &middot; Information Asymmetry Report</div>
+      <h3 class="tip-card-headline"><a href="/tips/elv-california-just-hit-anthem-blue-1.html">California just hit Anthem Blue Cross with a $15m penalty and years of oversight - real regulator...</a></h3>
+      <p class="tip-card-narrative">This is a clean, issuer-specific regulatory hit: California&#39;s DMHC says Anthem Blue Cross faces a $15m penalty plus corrective action for systemic failures around member complaints and related processes. That is the kind of non-operational develop...</p>
+      <div class="tip-card-footer">
+        <div class="tip-conviction-wrap">
+          <span class="tip-conviction-label">Conviction 81%</span>
+          <div class="tip-conviction-bar"><div class="tip-conviction-fill tip-dir-short" style="width:81%"></div></div>
+        </div>
+        <div class="tip-card-badges">
+          <span class="tip-edge-badge tip-edge-high">HIGH</span>
+          <span style="font-size:0.6rem; color:var(--light);">$330.51 (+1.0%)</span>
+        </div>
       </div>
-      <a href="#" class="tip-link">Read report →</a>
     </div>
-    <div class="tip-item">
-      <div>
-        <span class="tip-tag">Pharma</span>
-        <span style=" font-size:0.58rem; letter-spacing:0.06em; text-transform:uppercase; padding:0.1rem 0.35rem; border-radius:2px; background:var(--off);">ACTIVE</span>
-        <div class="tip-title">Blue Cross is testing a PBM-bypass playbook (IHE)</div>
-        <div class="tip-context">The signal is a concrete operational story: Blue Cross is described as implementing affordability programmes that include biosimilar expansion and a direct purchasing partnership (a “how the payer actually cuts costs” playbook rather than generic pricing rhetoric). The reason this can be bullish ...</div>
-        <div class="tip-meta">19 Feb &middot; LONG &middot; Information Asymmetry Report</div>
+    <div class="tip-card">
+      <div class="tip-card-header">
+        <span class="tip-sector-tag">Pharma</span>
+        <span class="tip-dir-badge tip-dir-short">↓ SHORT</span>
+        <span class="tip-ticker">XBI</span>
+        <span class="tip-action-badge tip-action-trade">TRADE</span>
       </div>
-      <a href="#" class="tip-link">Read report →</a>
-    </div>
-    <div class="tip-item">
-      <div>
-        <span class="tip-tag">Intelligence</span>
-        <span style=" font-size:0.58rem; letter-spacing:0.06em; text-transform:uppercase; padding:0.1rem 0.35rem; border-radius:2px; background:var(--off);">ACTIVE</span>
-        <div class="tip-title">Packaging/foundry capacity positioning (TSM)</div>
-        <div class="tip-context">The thesis is that advanced packaging remains a binding constraint for AI/HPC throughput, and that capacity positioning (CoWoS adjacency, fan-out alternatives, OSAT expansions) can reprice before it is cleanly visible in consensus models. The evidence bundle is largely non-English and specialist,...</div>
-        <div class="tip-meta">18 Feb &middot; LONG &middot; Information Asymmetry Report</div>
+      <h3 class="tip-card-headline"><a href="/tips/xbi-a-prwire-classaction-blitz-is-1.html">A PR-wire class-action blitz is hitting small-cap healthcare names - the trade is the overhang, n...</a></h3>
+      <p class="tip-card-narrative">The signal is a concentrated burst of PR-wire-driven securities-litigation notices tied to a cluster of small and mid-cap healthcare issuers, with DJS Law Group acting as the visible distribution node. The edge is informational, not legal: when th...</p>
+      <div class="tip-card-footer">
+        <div class="tip-conviction-wrap">
+          <span class="tip-conviction-label">Conviction 79%</span>
+          <div class="tip-conviction-bar"><div class="tip-conviction-fill tip-dir-short" style="width:79%"></div></div>
+        </div>
+        <div class="tip-card-badges">
+          <span class="tip-edge-badge tip-edge-high">HIGH</span>
+          <span style="font-size:0.6rem; color:var(--light);">$124.78 (-1.5%)</span>
+        </div>
       </div>
-      <a href="#" class="tip-link">Read report →</a>
     </div>
-    <div class="tip-item">
-      <div>
-        <span class="tip-tag">Litigation</span>
-        <span style=" font-size:0.58rem; letter-spacing:0.06em; text-transform:uppercase; padding:0.1rem 0.35rem; border-radius:2px; background:var(--off);">ACTIVE</span>
-        <div class="tip-title">FRMI&#39;s class-action overhang: a small-cap can get repriced on &#39;deadline notices&#39; before the Street even bothers to read the complaint</div>
-        <div class="tip-context">The call is SHORT on a contained, litigation-driven overhang: even when the underlying allegations are unproven, the class-action narrative can pressure sentiment, liquidity, and financing optionality for a smaller issuer. 7A flags the staleness pattern correctly: this ecosystem is often dominate...</div>
-        <div class="tip-meta">18 Feb &middot; SHORT &middot; Information Asymmetry Report</div>
+    <div class="tip-card">
+      <div class="tip-card-header">
+        <span class="tip-sector-tag">Pharma</span>
+        <span class="tip-dir-badge tip-dir-short">↓ SHORT</span>
+        <span class="tip-ticker">SPY</span>
+        <span class="tip-action-badge tip-action-trade">TRADE</span>
       </div>
-      <a href="#" class="tip-link">Read report →</a>
+      <h3 class="tip-card-headline"><a href="/tips/spy-the-pomerantz-wirecluster-is-back-1.html">The Pomerantz wire-cluster is back - and it is signalling broader risk-premia creep, not one clea...</a></h3>
+      <p class="tip-card-narrative">This is not one lawsuit; it is a cluster of wire-driven securities-litigation notices with heavy solicitation dynamics and mixed defendants. The market angle is behavioural: repeated, specific-sounding filings (case captions, class periods, deadli...</p>
+      <div class="tip-card-footer">
+        <div class="tip-conviction-wrap">
+          <span class="tip-conviction-label">Conviction 78%</span>
+          <div class="tip-conviction-bar"><div class="tip-conviction-fill tip-dir-short" style="width:78%"></div></div>
+        </div>
+        <div class="tip-card-badges">
+          <span class="tip-edge-badge tip-edge-high">HIGH</span>
+          <span style="font-size:0.6rem; color:var(--light);">USD 687.35 (+0.7%)</span>
+        </div>
+      </div>
     </div>
+    <div class="tip-card">
+      <div class="tip-card-header">
+        <span class="tip-sector-tag">Pharma</span>
+        <span class="tip-dir-badge tip-dir-short">↓ SHORT</span>
+        <span class="tip-ticker">IHE</span>
+        <span class="tip-action-badge tip-action-trade">TRADE</span>
+      </div>
+      <h3 class="tip-card-headline"><a href="/tips/ihe-fda-governance-noise-meets-a-2.html">FDA governance noise meets a genuinely pro-flexibility rare-disease artefact - but the tape is st...</a></h3>
+      <p class="tip-card-narrative">The system is treating “FDA governance/process uncertainty” as a sector-level negative because process friction is the silent killer of biotech option value: higher evidentiary burdens, slower reviews, and noisier standards translate into lower pr...</p>
+      <div class="tip-card-footer">
+        <div class="tip-conviction-wrap">
+          <span class="tip-conviction-label">Conviction 77%</span>
+          <div class="tip-conviction-bar"><div class="tip-conviction-fill tip-dir-short" style="width:77%"></div></div>
+        </div>
+        <div class="tip-card-badges">
+          <span class="tip-edge-badge tip-edge-high">HIGH</span>
+          <span style="font-size:0.6rem; color:var(--light);">USD 91.60 (+0.6%)</span>
+        </div>
+      </div>
+    </div>
+    <div class="tip-card">
+      <div class="tip-card-header">
+        <span class="tip-sector-tag">Pharma</span>
+        <span class="tip-dir-badge tip-dir-short">↓ SHORT</span>
+        <span class="tip-ticker">NDAQ</span>
+        <span class="tip-action-badge tip-action-trade">TRADE</span>
+      </div>
+      <h3 class="tip-card-headline"><a href="/tips/ndaq-the-nasdaq-legal-action-signal-3.html">The ‘Nasdaq legal action’ signal is really a biotech lawsuit-overhang feed - and NDAQ is the awkw...</a></h3>
+      <p class="tip-card-narrative">This is a classic wiring mistake that still contains a tradable idea. The signal label routes through “Nasdaq,” but the underlying content is securities-fraud litigation chatter targeting Nasdaq-listed issuers, including biotech names like Ultrage...</p>
+      <div class="tip-card-footer">
+        <div class="tip-conviction-wrap">
+          <span class="tip-conviction-label">Conviction 75%</span>
+          <div class="tip-conviction-bar"><div class="tip-conviction-fill tip-dir-short" style="width:75%"></div></div>
+        </div>
+        <div class="tip-card-badges">
+          <span class="tip-edge-badge tip-edge-high">HIGH</span>
+          <span style="font-size:0.6rem; color:var(--light);">USD 81.11 (+1.5%)</span>
+        </div>
+      </div>
+    </div>
+    <div class="tip-card">
+      <div class="tip-card-header">
+        <span class="tip-sector-tag">Pharma</span>
+        <span class="tip-dir-badge tip-dir-short">↓ SHORT</span>
+        <span class="tip-ticker">MAT</span>
+        <span class="tip-action-badge tip-action-trade">TRADE</span>
+      </div>
+      <h3 class="tip-card-headline"><a href="/tips/mat-fisherprice-recall-risk-the-story-1.html">Fisher-Price recall risk: the story might be real, but the artefacts are missing in this run</a></h3>
+      <p class="tip-card-narrative">The call here is SHORT MAT on a negative safety and recall mechanism: if Fisher-Price recall or enforcement coverage re-accelerates, the parent can wear refund/return costs and brand risk before it shows up cleanly in reporting. The system is trea...</p>
+      <div class="tip-card-footer">
+        <div class="tip-conviction-wrap">
+          <span class="tip-conviction-label">Conviction 75%</span>
+          <div class="tip-conviction-bar"><div class="tip-conviction-fill tip-dir-short" style="width:75%"></div></div>
+        </div>
+        <div class="tip-card-badges">
+          <span class="tip-edge-badge tip-edge-high">HIGH</span>
+          <span style="font-size:0.6rem; color:var(--light);">USD 17.23 (-1.0%)</span>
+        </div>
+      </div>
+    </div>
+    <div class="tip-card">
+      <div class="tip-card-header">
+        <span class="tip-sector-tag">Pharma</span>
+        <span class="tip-dir-badge tip-dir-short">↓ SHORT</span>
+        <span class="tip-ticker">IHE, XBI</span>
+        <span class="tip-action-badge tip-action-trade">TRADE</span>
+      </div>
+      <h3 class="tip-card-headline"><a href="/tips/ihe, xbi-the-plaintifffirm-headline-machine-when-1.html">The Plaintiff-Firm Headline Machine: When Litigation PR Becomes a Tradeable Sentiment Overhang</a></h3>
+      <p class="tip-card-narrative">This signal is a concentrated burst of plaintiff-law-firm &quot;investor alert&quot; and class-action reminder distribution centred on Pomerantz LLP and healthcare/biopharma-adjacent names. The mechanism is straightforward and bearish: even when the increme...</p>
+      <div class="tip-card-footer">
+        <div class="tip-conviction-wrap">
+          <span class="tip-conviction-label">Conviction 71%</span>
+          <div class="tip-conviction-bar"><div class="tip-conviction-fill tip-dir-short" style="width:71%"></div></div>
+        </div>
+        <div class="tip-card-badges">
+          <span class="tip-edge-badge tip-edge-high">HIGH</span>
+          <span style="font-size:0.6rem; color:var(--light);">IHE $90.48 (+0.1%), XBI $126.74 (+0.9%)</span>
+        </div>
+      </div>
+    </div>
+    <div class="tip-card">
+      <div class="tip-card-header">
+        <span class="tip-sector-tag">Pharma</span>
+        <span class="tip-dir-badge tip-dir-short">↓ SHORT</span>
+        <span class="tip-ticker">XBI, SPY</span>
+        <span class="tip-action-badge tip-action-trade">TRADE</span>
+      </div>
+      <h3 class="tip-card-headline"><a href="/tips/xbi, spy-halper-sadehs-prwire-investigation-burst-2.html">Halper Sadeh&#39;s PR-wire &#39;investigation&#39; burst is back - the tell is not the allegations, it&#39;s the ...</a></h3>
+      <p class="tip-card-narrative">This is not a single company blow-up; it&#39;s a pattern: high-volume, templated law-firm solicitation headlines framed as &#39;investigations&#39; into fiduciary duty breaches across multiple issuers. The practical market mechanism is reflexive: when this co...</p>
+      <div class="tip-card-footer">
+        <div class="tip-conviction-wrap">
+          <span class="tip-conviction-label">Conviction 70%</span>
+          <div class="tip-conviction-bar"><div class="tip-conviction-fill tip-dir-short" style="width:70%"></div></div>
+        </div>
+        <div class="tip-card-badges">
+          <span class="tip-edge-badge tip-edge-high">HIGH</span>
+          <span style="font-size:0.6rem; color:var(--light);">XBI $128.28 (-0.7%) | SPY $693.15 (+0.8%)</span>
+        </div>
+      </div>
+    </div>
+    <div class="tip-card">
+      <div class="tip-card-header">
+        <span class="tip-sector-tag">Pharma</span>
+        <span class="tip-dir-badge tip-dir-short">↓ SHORT</span>
+        <span class="tip-ticker">XBI</span>
+        <span class="tip-action-badge tip-action-trade">TRADE</span>
+      </div>
+      <h3 class="tip-card-headline"><a href="/tips/xbi-real-governance-risk-hiding-in-2.html">Real Governance Risk Hiding in the Same Pipe as Investor-Alert Spam</a></h3>
+      <p class="tip-card-narrative">This cluster looks like litigation/governance headlines distributed via the same PR and niche surfaces as generic &quot;investor alerts&quot;, but the bearish case is that some of these governance narratives are not just marketing noise: they can carry real...</p>
+      <div class="tip-card-footer">
+        <div class="tip-conviction-wrap">
+          <span class="tip-conviction-label">Conviction 68%</span>
+          <div class="tip-conviction-bar"><div class="tip-conviction-fill tip-dir-short" style="width:68%"></div></div>
+        </div>
+        <div class="tip-card-badges">
+          <span class="tip-edge-badge tip-edge-high">HIGH</span>
+          <span style="font-size:0.6rem; color:var(--light);">$126.74 (+0.9%)</span>
+        </div>
+      </div>
+    </div>
+    <div class="tip-card">
+      <div class="tip-card-header">
+        <span class="tip-sector-tag">Pharma</span>
+        <span class="tip-dir-badge tip-dir-short">↓ SHORT</span>
+        <span class="tip-ticker">ZYXI</span>
+        <span class="tip-action-badge tip-action-trade">TRADE</span>
+      </div>
+      <h3 class="tip-card-headline"><a href="/tips/zyxi-zynex-classaction-cluster-the-allegations-2.html">Zynex class-action cluster: the allegations are ugly, but you still need the docket to trade it c...</a></h3>
+      <p class="tip-card-narrative">The SHORT thesis is straightforward: the surfaced class-action notices frame a revenue-quality and payer-scrutiny problem (overbilling, inflated revenue, and follow-on penalties), which is exactly the kind of narrative that can keep a small-cap in...</p>
+      <div class="tip-card-footer">
+        <div class="tip-conviction-wrap">
+          <span class="tip-conviction-label">Conviction 66%</span>
+          <div class="tip-conviction-bar"><div class="tip-conviction-fill tip-dir-short" style="width:66%"></div></div>
+        </div>
+        <div class="tip-card-badges">
+          <span class="tip-edge-badge tip-edge-high">HIGH</span>
+          <span style="font-size:0.6rem; color:var(--light);">USD 0.13 (+0.0%)</span>
+        </div>
+      </div>
+    </div>
+    <div class="tip-card">
+      <div class="tip-card-header">
+        <span class="tip-sector-tag">Pharma</span>
+        <span class="tip-dir-badge tip-dir-short">↓ SHORT</span>
+        <span class="tip-ticker">SPY</span>
+        <span class="tip-action-badge tip-action-trade">TRADE</span>
+      </div>
+      <h3 class="tip-card-headline"><a href="/tips/spy-namedattorney-branding-as-a-signal-3.html">Named-Attorney Branding as a Signal: When Deadline Reminders Become Market Micro-Stress</a></h3>
+      <p class="tip-card-narrative">This is another plaintiff-law-firm distribution cluster, but with explicit partner-name branding (James &quot;Josh&quot; Wilson) as part of the solicitation artefact. The bearish mechanism is the same: repeated &quot;investigation&quot; and class-action deadline head...</p>
+      <div class="tip-card-footer">
+        <div class="tip-conviction-wrap">
+          <span class="tip-conviction-label">Conviction 65%</span>
+          <div class="tip-conviction-bar"><div class="tip-conviction-fill tip-dir-short" style="width:65%"></div></div>
+        </div>
+        <div class="tip-card-badges">
+          <span class="tip-edge-badge tip-edge-high">HIGH</span>
+          <span style="font-size:0.6rem; color:var(--light);">$684.48 (-0.3%)</span>
+        </div>
+      </div>
+    </div>
+    <div class="tip-card">
+      <div class="tip-card-header">
+        <span class="tip-sector-tag">Pharma</span>
+        <span class="tip-dir-badge tip-dir-short">↓ SHORT</span>
+        <span class="tip-ticker">GDRX</span>
+        <span class="tip-action-badge tip-action-trade">TRADE</span>
+      </div>
+      <h3 class="tip-card-headline"><a href="/tips/gdrx-goodrx-is-rebuilding-its-engine-1.html">GoodRx Is Rebuilding Its Engine Mid-Flight: Pharma Direct Up, Core Transactions Down</a></h3>
+      <p class="tip-card-narrative">GoodRx is showing a classic transition-risk profile: the business is explicitly shifting mix toward Pharma Direct and subscriptions while the legacy prescription-transactions line is shrinking. The core datapoints in the hydrated artefacts are not...</p>
+      <div class="tip-card-footer">
+        <div class="tip-conviction-wrap">
+          <span class="tip-conviction-label">Conviction 62%</span>
+          <div class="tip-conviction-bar"><div class="tip-conviction-fill tip-dir-short" style="width:62%"></div></div>
+        </div>
+        <div class="tip-card-badges">
+          <span class="tip-edge-badge tip-edge-high">HIGH</span>
+          <span style="font-size:0.6rem; color:var(--light);">$1.99 (-18.8%)</span>
+        </div>
+      </div>
+    </div>
+    <div class="tip-card">
+      <div class="tip-card-header">
+        <span class="tip-sector-tag">Pharma</span>
+        <span class="tip-dir-badge tip-dir-long">↑ LONG</span>
+        <span class="tip-ticker">IHE, XBI</span>
+        <span class="tip-action-badge tip-action-trade">TRADE</span>
+      </div>
+      <h3 class="tip-card-headline"><a href="/tips/ihe, xbi-the-amd-tam-drumbeat-is-3.html">The AMD TAM drumbeat is growing again - but this cycle&#39;s artefact is marketing, not a catalyst</a></h3>
+      <p class="tip-card-narrative">The signal is a positive framing around age-related macular degeneration (AMD) market growth, with Regeneron named among the &#39;key players&#39;. 7A still resolves LONG (62% conviction), but it explicitly calls this a weak catalyst and expresses it thro...</p>
+      <div class="tip-card-footer">
+        <div class="tip-conviction-wrap">
+          <span class="tip-conviction-label">Conviction 62%</span>
+          <div class="tip-conviction-bar"><div class="tip-conviction-fill tip-dir-long" style="width:62%"></div></div>
+        </div>
+        <div class="tip-card-badges">
+          <span class="tip-edge-badge tip-edge-high">HIGH</span>
+          <span style="font-size:0.6rem; color:var(--light);">IHE $91.51 (-0.1%) | XBI $128.28 (-0.7%)</span>
+        </div>
+      </div>
+    </div>
+    <div class="tip-card">
+      <div class="tip-card-header">
+        <span class="tip-sector-tag">Pharma</span>
+        <span class="tip-dir-badge tip-dir-long">↑ LONG</span>
+        <span class="tip-ticker">OR.PA</span>
+        <span class="tip-action-badge tip-action-trade">TRADE</span>
+      </div>
+      <h3 class="tip-card-headline"><a href="/tips/or.pa-loral-antiageing-growth-story-a-4.html">L&#39;Oréal anti-ageing growth story: a LONG call built on PR, not on segment reality yet</a></h3>
+      <p class="tip-card-narrative">The LONG thesis is a demand narrative: anti-ageing market expansion plus tightening standards should favour scaled incumbents that can fund clinical validation and regulatory compliance. L&#39;Oréal is the cleanest large-cap expression in this signal&#39;...</p>
+      <div class="tip-card-footer">
+        <div class="tip-conviction-wrap">
+          <span class="tip-conviction-label">Conviction 62%</span>
+          <div class="tip-conviction-bar"><div class="tip-conviction-fill tip-dir-long" style="width:62%"></div></div>
+        </div>
+        <div class="tip-card-badges">
+          <span class="tip-edge-badge tip-edge-high">HIGH</span>
+          <span style="font-size:0.6rem; color:var(--light);">EUR 397.10 (-1.0%)</span>
+        </div>
+      </div>
+    </div>
+    <div class="tip-card">
+      <div class="tip-card-header">
+        <span class="tip-sector-tag">Pharma</span>
+        <span class="tip-dir-badge tip-dir-long">↑ LONG</span>
+        <span class="tip-ticker">IHE</span>
+        <span class="tip-action-badge tip-action-trade">TRADE</span>
+      </div>
+      <h3 class="tip-card-headline"><a href="/tips/ihe-chinas-wegovy-biosimilar-filing-is-2.html">China&#39;s Wegovy Biosimilar Filing Is a Sector Story, Not Just a Novo Nordisk Story</a></h3>
+      <p class="tip-card-narrative">The upstream thesis is a China regulatory timing story: Jiuyuan Genetic is seeking approval for a Wegovy biosimilar (with trial equivalence claims and a China patent-timing hook), and the system resolves that into a LONG on the pharma proxy (IHE)....</p>
+      <div class="tip-card-footer">
+        <div class="tip-conviction-wrap">
+          <span class="tip-conviction-label">Conviction 61%</span>
+          <div class="tip-conviction-bar"><div class="tip-conviction-fill tip-dir-long" style="width:61%"></div></div>
+        </div>
+        <div class="tip-card-badges">
+          <span class="tip-edge-badge tip-edge-high">HIGH</span>
+          <span style="font-size:0.6rem; color:var(--light);">$90.73 (-0.9%)</span>
+        </div>
+      </div>
+    </div>
+    <div class="tip-card">
+      <div class="tip-card-header">
+        <span class="tip-sector-tag">Pharma</span>
+        <span class="tip-dir-badge tip-dir-long">↑ LONG</span>
+        <span class="tip-ticker">MOREPENLAB.BSE</span>
+        <span class="tip-action-badge tip-action-trade">TRADE</span>
+      </div>
+      <h3 class="tip-card-headline"><a href="/tips/morepenlab.bse-morepens-inr-825cr-cdmo-win-5.html">Morepen&#39;s INR 825cr CDMO win: the LONG is about utilisation, but the counterparty gap is the risk</a></h3>
+      <p class="tip-card-narrative">The LONG mechanism is earnings-quality optionality from a big, multi-year CDMO mandate: higher utilisation, better revenue visibility, and an implicit quality credential if the customer is a serious global pharma buyer. The signal is contained and...</p>
+      <div class="tip-card-footer">
+        <div class="tip-conviction-wrap">
+          <span class="tip-conviction-label">Conviction 61%</span>
+          <div class="tip-conviction-bar"><div class="tip-conviction-fill tip-dir-long" style="width:61%"></div></div>
+        </div>
+        <div class="tip-card-badges">
+          <span class="tip-edge-badge tip-edge-high">HIGH</span>
+          <span style="font-size:0.6rem; color:var(--light);">INR 46.42 (+2.3%)</span>
+        </div>
+      </div>
+    </div>
+    <div class="tip-card">
+      <div class="tip-card-header">
+        <span class="tip-sector-tag">Pharma</span>
+        <span class="tip-dir-badge tip-dir-short">↓ SHORT</span>
+        <span class="tip-ticker">UNH</span>
+        <span class="tip-action-badge tip-action-trade">TRADE</span>
+      </div>
+      <h3 class="tip-card-headline"><a href="/tips/unh-unitedhealths-risk-premium-stays-wide-1.html">UnitedHealth&#39;s risk premium stays wide: guidance reset plus Medicare probe keeps the bear case alive</a></h3>
+      <p class="tip-card-narrative">The surfaced catalyst stack is ugly in exactly the way the market hates to underwrite: UNH is framed as suspending earnings guidance after a medical-cost surprise, swapping the CEO, and carrying a government Medicare billing probe in the backgroun...</p>
+      <div class="tip-card-footer">
+        <div class="tip-conviction-wrap">
+          <span class="tip-conviction-label">Conviction 61%</span>
+          <div class="tip-conviction-bar"><div class="tip-conviction-fill tip-dir-short" style="width:61%"></div></div>
+        </div>
+        <div class="tip-card-badges">
+          <span class="tip-edge-badge tip-edge-high">HIGH</span>
+          <span style="font-size:0.6rem; color:var(--light);">USD 288.20 (-0.3%)</span>
+        </div>
+      </div>
+    </div>
+    <div class="tip-card">
+      <div class="tip-card-header">
+        <span class="tip-sector-tag">Pharma</span>
+        <span class="tip-dir-badge tip-dir-short">↓ SHORT</span>
+        <span class="tip-ticker">SPY</span>
+        <span class="tip-action-badge tip-action-trade">TRADE</span>
+      </div>
+      <h3 class="tip-card-headline"><a href="/tips/spy-plug-power-lawsuit-headlines-are-4.html">Plug Power lawsuit headlines are back - treat it as sentiment overhang unless the complaint adds ...</a></h3>
+      <p class="tip-card-narrative">This is a classic securities-litigation headline cycle: a law-firm distributed notice about a securities fraud class action tied to Plug Power&#39;s DOE funding narrative. 7A resolves it SHORT with 60% conviction, but note the mapping constraint: upst...</p>
+      <div class="tip-card-footer">
+        <div class="tip-conviction-wrap">
+          <span class="tip-conviction-label">Conviction 60%</span>
+          <div class="tip-conviction-bar"><div class="tip-conviction-fill tip-dir-short" style="width:60%"></div></div>
+        </div>
+        <div class="tip-card-badges">
+          <span class="tip-edge-badge tip-edge-high">HIGH</span>
+          <span style="font-size:0.6rem; color:var(--light);">$693.15 (+0.8%)</span>
+        </div>
+      </div>
+    </div>
+    <div class="tip-card">
+      <div class="tip-card-header">
+        <span class="tip-sector-tag">Pharma</span>
+        <span class="tip-dir-badge tip-dir-long">↑ LONG</span>
+        <span class="tip-ticker">IHE</span>
+        <span class="tip-action-badge tip-action-trade">TRADE</span>
+      </div>
+      <h3 class="tip-card-headline"><a href="/tips/ihe-blue-cross-is-testing-a-2.html">Blue Cross is testing a PBM-bypass playbook - and the ETF mapping is where the real trade risk lives</a></h3>
+      <p class="tip-card-narrative">The signal is a concrete operational story: Blue Cross is described as implementing affordability programmes that include biosimilar expansion and a direct purchasing partnership (a “how the payer actually cuts costs” playbook rather than generic ...</p>
+      <div class="tip-card-footer">
+        <div class="tip-conviction-wrap">
+          <span class="tip-conviction-label">Conviction 60%</span>
+          <div class="tip-conviction-bar"><div class="tip-conviction-fill tip-dir-long" style="width:60%"></div></div>
+        </div>
+        <div class="tip-card-badges">
+          <span class="tip-edge-badge tip-edge-high">HIGH</span>
+          <span style="font-size:0.6rem; color:var(--light);">USD 90.38 (-0.1%)</span>
+        </div>
+      </div>
+    </div>
+    <div class="tip-card">
+      <div class="tip-card-header">
+        <span class="tip-sector-tag">Pharma</span>
+        <span class="tip-dir-badge tip-dir-short">↓ SHORT</span>
+        <span class="tip-ticker">IHE, SPY</span>
+        <span class="tip-action-badge tip-action-trade">TRADE</span>
+      </div>
+      <h3 class="tip-card-headline"><a href="/tips/ihe, spy-information-blocking-enforcement-is-shifting-5.html">Information blocking enforcement is shifting from guidance to letters - the first named losers wi...</a></h3>
+      <p class="tip-card-narrative">The core claim is operational, not rhetorical: information-blocking enforcement is moving into an active phase, with nonconformity letters issued to health IT developers around API/interoperability compliance. That is a direct cost channel: remedi...</p>
+      <div class="tip-card-footer">
+        <div class="tip-conviction-wrap">
+          <span class="tip-conviction-label">Conviction 59%</span>
+          <div class="tip-conviction-bar"><div class="tip-conviction-fill tip-dir-short" style="width:59%"></div></div>
+        </div>
+        <div class="tip-card-badges">
+          <span class="tip-edge-badge tip-edge-high">HIGH</span>
+          <span style="font-size:0.6rem; color:var(--light);">IHE $91.51 (-0.1%) | SPY $693.15 (+0.8%)</span>
+        </div>
+      </div>
+    </div>
+    <div class="tip-card">
+      <div class="tip-card-header">
+        <span class="tip-sector-tag">Pharma</span>
+        <span class="tip-dir-badge tip-dir-long">↑ LONG</span>
+        <span class="tip-ticker">3696.HK</span>
+        <span class="tip-action-badge tip-action-trade">TRADE</span>
+      </div>
+      <h3 class="tip-card-headline"><a href="/tips/3696.hk-insilicos-long-case-credibility-accrues-7.html">Insilico&#39;s LONG case: credibility accrues with papers and partners, but markets pay for milestones</a></h3>
+      <p class="tip-card-narrative">The LONG thesis is that repeated, credible technical outputs plus big-pharma adjacency can raise the market&#39;s estimate of platform legitimacy and future monetisation. In practical terms, a company like Insilico wins when the market stops treating ...</p>
+      <div class="tip-card-footer">
+        <div class="tip-conviction-wrap">
+          <span class="tip-conviction-label">Conviction 59%</span>
+          <div class="tip-conviction-bar"><div class="tip-conviction-fill tip-dir-long" style="width:59%"></div></div>
+        </div>
+        <div class="tip-card-badges">
+          <span class="tip-edge-badge tip-edge-high">HIGH</span>
+          <span style="font-size:0.6rem; color:var(--light);">HKD 68.15 (-0.2%)</span>
+        </div>
+      </div>
+    </div>
+    <div class="tip-card">
+      <div class="tip-card-header">
+        <span class="tip-sector-tag">Pharma</span>
+        <span class="tip-dir-badge tip-dir-long">↑ LONG</span>
+        <span class="tip-ticker">041830.KQ</span>
+        <span class="tip-action-badge tip-action-trade">TRADE</span>
+      </div>
+      <h3 class="tip-card-headline"><a href="/tips/041830.kq-inbodys-growth-signal-is-really-3.html">InBody&#39;s ‘growth’ signal is really a sector bet - but that still points one way</a></h3>
+      <p class="tip-card-narrative">This is a classic “contained but thin” setup: a single market-sizing artefact claims a multi-year growth trajectory for bioimpedance devices, a category where InBody is an obvious listed beneficiary. The directional call is LONG because the econom...</p>
+      <div class="tip-card-footer">
+        <div class="tip-conviction-wrap">
+          <span class="tip-conviction-label">Conviction 59%</span>
+          <div class="tip-conviction-bar"><div class="tip-conviction-fill tip-dir-long" style="width:59%"></div></div>
+        </div>
+        <div class="tip-card-badges">
+          <span class="tip-edge-badge tip-edge-high">HIGH</span>
+          <span style="font-size:0.6rem; color:var(--light);">KRW 34,900 (+1.9%)</span>
+        </div>
+      </div>
+    </div>
+    <div class="tip-card">
+      <div class="tip-card-header">
+        <span class="tip-sector-tag">Pharma</span>
+        <span class="tip-dir-badge tip-dir-short">↓ SHORT</span>
+        <span class="tip-ticker">HIMS</span>
+        <span class="tip-action-badge tip-action-trade">TRADE</span>
+      </div>
+      <h3 class="tip-card-headline"><a href="/tips/hims-hims-hers-is-still-a-4.html">Hims &amp; Hers is still a GLP-1 regulatory story wearing a telehealth wrapper</a></h3>
+      <p class="tip-card-narrative">The pipeline resolves this as a SHORT for a simple reason: the company&#39;s perceived optionality is tightly linked to GLP-1 distribution dynamics, and the regulatory narrative (compounding enforcement, channel constraints, compliance posture) is an ...</p>
+      <div class="tip-card-footer">
+        <div class="tip-conviction-wrap">
+          <span class="tip-conviction-label">Conviction 59%</span>
+          <div class="tip-conviction-bar"><div class="tip-conviction-fill tip-dir-short" style="width:59%"></div></div>
+        </div>
+        <div class="tip-card-badges">
+          <span class="tip-edge-badge tip-edge-high">HIGH</span>
+          <span style="font-size:0.6rem; color:var(--light);">USD 15.84 (-2.6%)</span>
+        </div>
+      </div>
+    </div>
+    <div class="tip-card">
+      <div class="tip-card-header">
+        <span class="tip-sector-tag">Pharma</span>
+        <span class="tip-dir-badge tip-dir-long">↑ LONG</span>
+        <span class="tip-ticker">IHE</span>
+        <span class="tip-action-badge tip-action-trade">TRADE</span>
+      </div>
+      <h3 class="tip-card-headline"><a href="/tips/ihe-glp1-cultural-saturation-is-spilling-3.html">GLP-1 Cultural Saturation Is Spilling Into Adjacent Spend Narratives</a></h3>
+      <p class="tip-card-narrative">This signal is not about clinical endpoints; it&#39;s about narrative propagation. The system resolves it LONG on a pharma proxy (IHE) on the logic that the more GLP-1 adoption becomes a mainstream lifestyle phenomenon, the more the demand complex har...</p>
+      <div class="tip-card-footer">
+        <div class="tip-conviction-wrap">
+          <span class="tip-conviction-label">Conviction 58%</span>
+          <div class="tip-conviction-bar"><div class="tip-conviction-fill tip-dir-long" style="width:58%"></div></div>
+        </div>
+        <div class="tip-card-badges">
+          <span class="tip-edge-badge tip-edge-high">HIGH</span>
+          <span style="font-size:0.6rem; color:var(--light);">$90.73 (-0.9%)</span>
+        </div>
+      </div>
+    </div>
+    <div class="tip-card">
+      <div class="tip-card-header">
+        <span class="tip-sector-tag">Pharma</span>
+        <span class="tip-dir-badge tip-dir-short">↓ SHORT</span>
+        <span class="tip-ticker">XBI, IHE</span>
+        <span class="tip-action-badge tip-action-trade">TRADE</span>
+      </div>
+      <h3 class="tip-card-headline"><a href="/tips/xbi, ihe-novartis-settled-the-henrietta-lacks-6.html">Novartis settled the Henrietta Lacks suit - but the reputational story is not done for the remain...</a></h3>
+      <p class="tip-card-narrative">The packet captures a specific litigation inflection: reporting that Novartis reached a settlement with the Henrietta Lacks estate, with other claims still live against additional defendants. 7A resolves this as a SHORT (58% conviction) expressed ...</p>
+      <div class="tip-card-footer">
+        <div class="tip-conviction-wrap">
+          <span class="tip-conviction-label">Conviction 58%</span>
+          <div class="tip-conviction-bar"><div class="tip-conviction-fill tip-dir-short" style="width:58%"></div></div>
+        </div>
+        <div class="tip-card-badges">
+          <span class="tip-edge-badge tip-edge-high">HIGH</span>
+          <span style="font-size:0.6rem; color:var(--light);">XBI $128.28 (-0.7%) | IHE $91.51 (-0.1%)</span>
+        </div>
+      </div>
+    </div>
+    <div class="tip-card">
+      <div class="tip-card-header">
+        <span class="tip-sector-tag">Pharma</span>
+        <span class="tip-dir-badge tip-dir-short">↓ SHORT</span>
+        <span class="tip-ticker">KD</span>
+        <span class="tip-action-badge tip-action-trade">TRADE</span>
+      </div>
+      <h3 class="tip-card-headline"><a href="/tips/kd-kyndryls-classaction-metadata-is-out-2.html">Kyndryl&#39;s class-action metadata is out there - the market risk is the controls narrative, not the...</a></h3>
+      <p class="tip-card-narrative">This is a contained, litigation-and-controls risk flag tied directly to KD, with the directional resolution set to SHORT because the mechanism is a risk-premium story: disclosure uncertainty and defence cost are the kind of narrative that can keep...</p>
+      <div class="tip-card-footer">
+        <div class="tip-conviction-wrap">
+          <span class="tip-conviction-label">Conviction 57%</span>
+          <div class="tip-conviction-bar"><div class="tip-conviction-fill tip-dir-short" style="width:57%"></div></div>
+        </div>
+        <div class="tip-card-badges">
+          <span class="tip-edge-badge tip-edge-high">HIGH</span>
+          <span style="font-size:0.6rem; color:var(--light);">$12.51 (-2.2%)</span>
+        </div>
+      </div>
+    </div>
+    <div class="tip-card">
+      <div class="tip-card-header">
+        <span class="tip-sector-tag">Pharma</span>
+        <span class="tip-dir-badge tip-dir-short">↓ SHORT</span>
+        <span class="tip-ticker">ZYXI</span>
+        <span class="tip-action-badge tip-action-trade">TRADE</span>
+      </div>
+      <h3 class="tip-card-headline"><a href="/tips/zyxi-zynex-doj-resolution-the-kind-4.html">Zynex DOJ Resolution: The Kind of Compliance Event That Can Break a Business Model</a></h3>
+      <p class="tip-card-narrative">This is not wire-solicitation noise; it is an official enforcement-linked resolution that explicitly raises questions about revenue quality, billing practices, and governance. The directional call is SHORT because the mechanism is structurally neg...</p>
+      <div class="tip-card-footer">
+        <div class="tip-conviction-wrap">
+          <span class="tip-conviction-label">Conviction 57%</span>
+          <div class="tip-conviction-bar"><div class="tip-conviction-fill tip-dir-short" style="width:57%"></div></div>
+        </div>
+        <div class="tip-card-badges">
+          <span class="tip-edge-badge tip-edge-high">HIGH</span>
+          <span style="font-size:0.6rem; color:var(--light);">$0.13 (+0.0%)</span>
+        </div>
+      </div>
+    </div>
+    <div class="tip-card">
+      <div class="tip-card-header">
+        <span class="tip-sector-tag">Pharma</span>
+        <span class="tip-dir-badge tip-dir-long">↑ LONG</span>
+        <span class="tip-ticker">XBI</span>
+        <span class="tip-action-badge tip-action-trade">TRADE</span>
+      </div>
+      <h3 class="tip-card-headline"><a href="/tips/xbi-biotech-risk-appetite-wants-to-5.html">Biotech risk appetite wants to come back - XBI is the cleanest proxy even when the source is thin</a></h3>
+      <p class="tip-card-narrative">This is a risk-appetite signal disguised as a VC anniversary piece: the story claims a rebound tone for financings, IPOs, and M&amp;A, which is exactly the narrative that expands SMID biotech multiples when it sticks. The call is LONG the proxy (XBI) ...</p>
+      <div class="tip-card-footer">
+        <div class="tip-conviction-wrap">
+          <span class="tip-conviction-label">Conviction 57%</span>
+          <div class="tip-conviction-bar"><div class="tip-conviction-fill tip-dir-long" style="width:57%"></div></div>
+        </div>
+        <div class="tip-card-badges">
+          <span class="tip-edge-badge tip-edge-high">HIGH</span>
+          <span style="font-size:0.6rem; color:var(--light);">USD 125.60 (+0.8%)</span>
+        </div>
+      </div>
+    </div>
+    <div class="tip-card">
+      <div class="tip-card-header">
+        <span class="tip-sector-tag">Pharma</span>
+        <span class="tip-dir-badge tip-dir-short">↓ SHORT</span>
+        <span class="tip-ticker">XLF</span>
+        <span class="tip-action-badge tip-action-trade">TRADE</span>
+      </div>
+      <h3 class="tip-card-headline"><a href="/tips/xlf-cftc-whistleblower-awards-collapse-a-4.html">CFTC Whistleblower Awards Collapse: A Quiet Institutional Capacity Signal With Financials Exposure</a></h3>
+      <p class="tip-card-narrative">The signal is a governance-of-markets story dressed as a niche statistic: the hydrated source claims the CFTC whistleblower programme approved only 2 awards in FY2025 versus 12 in FY2024, with total payouts falling from $42m to $4.6m despite simil...</p>
+      <div class="tip-card-footer">
+        <div class="tip-conviction-wrap">
+          <span class="tip-conviction-label">Conviction 56%</span>
+          <div class="tip-conviction-bar"><div class="tip-conviction-fill tip-dir-short" style="width:56%"></div></div>
+        </div>
+        <div class="tip-card-badges">
+          <span class="tip-edge-badge tip-edge-high">HIGH</span>
+          <span style="font-size:0.6rem; color:var(--light);">$52.50 (+1.2%)</span>
+        </div>
+      </div>
+    </div>
+    <div class="tip-card">
+      <div class="tip-card-header">
+        <span class="tip-sector-tag">Pharma</span>
+        <span class="tip-dir-badge tip-dir-long">↑ LONG</span>
+        <span class="tip-ticker">TLT, SPY</span>
+        <span class="tip-action-badge tip-action-trade">TRADE</span>
+      </div>
+      <h3 class="tip-card-headline"><a href="/tips/tlt, spy-fca-forbearance-is-a-quiet-5.html">FCA Forbearance Is a Quiet Positive: Less Paperwork Risk for UK Issuers, For Now</a></h3>
+      <p class="tip-card-narrative">The FCA has issued primary-source clarification and temporary forbearance around notifications relating to admissions to trading and recent UK Listing Rules changes. The directional call is LONG because reducing near-term compliance friction and e...</p>
+      <div class="tip-card-footer">
+        <div class="tip-conviction-wrap">
+          <span class="tip-conviction-label">Conviction 56%</span>
+          <div class="tip-conviction-bar"><div class="tip-conviction-fill tip-dir-long" style="width:56%"></div></div>
+        </div>
+        <div class="tip-card-badges">
+          <span class="tip-edge-badge tip-edge-high">HIGH</span>
+          <span style="font-size:0.6rem; color:var(--light);">TLT $89.62 (+0.1%), SPY $684.48 (-0.3%)</span>
+        </div>
+      </div>
+    </div>
+    <div class="tip-card">
+      <div class="tip-card-header">
+        <span class="tip-sector-tag">Pharma</span>
+        <span class="tip-dir-badge tip-dir-short">↓ SHORT</span>
+        <span class="tip-ticker">IHE</span>
+        <span class="tip-action-badge tip-action-trade">TRADE</span>
+      </div>
+      <h3 class="tip-card-headline"><a href="/tips/ihe-fda-tightens-the-tone-on-6.html">FDA tightens the tone on livestock antibiotics - the market impact is a posture shift, not one pr...</a></h3>
+      <p class="tip-card-narrative">The core claim is discrete: FDA finalised guidance that limits duration-of-use for medically important antibiotics in livestock. The pipeline resolves the direction as SHORT a pharma proxy because the mechanism is a tightening of compliance postur...</p>
+      <div class="tip-card-footer">
+        <div class="tip-conviction-wrap">
+          <span class="tip-conviction-label">Conviction 56%</span>
+          <div class="tip-conviction-bar"><div class="tip-conviction-fill tip-dir-short" style="width:56%"></div></div>
+        </div>
+        <div class="tip-card-badges">
+          <span class="tip-edge-badge tip-edge-high">HIGH</span>
+          <span style="font-size:0.6rem; color:var(--light);">USD 90.38 (-0.1%)</span>
+        </div>
+      </div>
+    </div>
+    <div class="tip-card">
+      <div class="tip-card-header">
+        <span class="tip-sector-tag">Pharma</span>
+        <span class="tip-dir-badge tip-dir-short">↓ SHORT</span>
+        <span class="tip-ticker">SPY</span>
+        <span class="tip-action-badge tip-action-trade">TRADE</span>
+      </div>
+      <h3 class="tip-card-headline"><a href="/tips/spy-a-court-order-on-principal-7.html">A court order on Principal Life&#39;s LTD policy is real legal paper - but it still reads like routin...</a></h3>
+      <p class="tip-card-narrative">This signal is anchored to litigation documentation (an order excerpt) involving an ERISA-governed long-term disability claim and a pre-existing condition exclusion. The system still resolves it SHORT (55% conviction), but even the upstream ration...</p>
+      <div class="tip-card-footer">
+        <div class="tip-conviction-wrap">
+          <span class="tip-conviction-label">Conviction 55%</span>
+          <div class="tip-conviction-bar"><div class="tip-conviction-fill tip-dir-short" style="width:55%"></div></div>
+        </div>
+        <div class="tip-card-badges">
+          <span class="tip-edge-badge tip-edge-high">HIGH</span>
+          <span style="font-size:0.6rem; color:var(--light);">$693.15 (+0.8%)</span>
+        </div>
+      </div>
+    </div>
+    <div class="tip-card">
+      <div class="tip-card-header">
+        <span class="tip-sector-tag">Pharma</span>
+        <span class="tip-dir-badge tip-dir-short">↓ SHORT</span>
+        <span class="tip-ticker">SPY</span>
+        <span class="tip-action-badge tip-action-trade">TRADE</span>
+      </div>
+      <h3 class="tip-card-headline"><a href="/tips/spy-epstein-estate-settlement-is-back-3.html">Epstein estate settlement is back in the feed - reputation risk can re-price even as claims close</a></h3>
+      <p class="tip-card-narrative">The pipeline resolves this as SHORT because renewed Epstein-related headlines function as a reputational-volatility amplifier: they can drag associated institutions back into scrutiny cycles even when the legal step is a settlement. The edge is th...</p>
+      <div class="tip-card-footer">
+        <div class="tip-conviction-wrap">
+          <span class="tip-conviction-label">Conviction 55%</span>
+          <div class="tip-conviction-bar"><div class="tip-conviction-fill tip-dir-short" style="width:55%"></div></div>
+        </div>
+        <div class="tip-card-badges">
+          <span class="tip-edge-badge tip-edge-high">HIGH</span>
+          <span style="font-size:0.6rem; color:var(--light);">$689.43 (+0.7%)</span>
+        </div>
+      </div>
+    </div>
+    <div class="tip-card">
+      <div class="tip-card-header">
+        <span class="tip-sector-tag">Pharma</span>
+        <span class="tip-dir-badge tip-dir-short">↓ SHORT</span>
+        <span class="tip-ticker">SPY</span>
+        <span class="tip-action-badge tip-action-trade">TRADE</span>
+      </div>
+      <h3 class="tip-card-headline"><a href="/tips/spy-doj-goes-at-ohiohealths-contracting-4.html">DOJ goes at OhioHealth’s contracting playbook - the read-through is a tougher antitrust climate f...</a></h3>
+      <p class="tip-card-narrative">This is a regime signal, not a single-stock story: DOJ suing a dominant health system over allegedly restrictive contracting is the kind of enforcement posture that can change how investors price “local monopoly” healthcare models. Even though Ohi...</p>
+      <div class="tip-card-footer">
+        <div class="tip-conviction-wrap">
+          <span class="tip-conviction-label">Conviction 54%</span>
+          <div class="tip-conviction-bar"><div class="tip-conviction-fill tip-dir-short" style="width:54%"></div></div>
+        </div>
+        <div class="tip-card-badges">
+          <span class="tip-edge-badge tip-edge-high">HIGH</span>
+          <span style="font-size:0.6rem; color:var(--light);">USD 687.35 (+0.7%)</span>
+        </div>
+      </div>
+    </div>
+    <div class="tip-card">
+      <div class="tip-card-header">
+        <span class="tip-sector-tag">Pharma</span>
+        <span class="tip-dir-badge tip-dir-short">↓ SHORT</span>
+        <span class="tip-ticker">JPM</span>
+        <span class="tip-action-badge tip-action-trade">TRADE</span>
+      </div>
+      <h3 class="tip-card-headline"><a href="/tips/jpm-a-small-finra-fine-a-6.html">A Small FINRA Fine, a Big Question: Is This a One-Off or a Controls Pattern?</a></h3>
+      <p class="tip-card-narrative">The signal is a FINRA-linked compliance item tied to municipal securities filings, framed as a reputational/controls negative for the JPMS unit. The directional call is SHORT because even modest, low-dollar compliance actions can become narrative ...</p>
+      <div class="tip-card-footer">
+        <div class="tip-conviction-wrap">
+          <span class="tip-conviction-label">Conviction 54%</span>
+          <div class="tip-conviction-bar"><div class="tip-conviction-fill tip-dir-short" style="width:54%"></div></div>
+        </div>
+        <div class="tip-card-badges">
+          <span class="tip-edge-badge tip-edge-high">HIGH</span>
+          <span style="font-size:0.6rem; color:var(--light);">$308.05 (-0.2%)</span>
+        </div>
+      </div>
+    </div>
+    <div class="tip-card">
+      <div class="tip-card-header">
+        <span class="tip-sector-tag">Pharma</span>
+        <span class="tip-dir-badge tip-dir-short">↓ SHORT</span>
+        <span class="tip-ticker">SPY</span>
+        <span class="tip-action-badge tip-action-trade">TRADE</span>
+      </div>
+      <h3 class="tip-card-headline"><a href="/tips/spy-a-celebrity-settlement-that-probably-7.html">A Celebrity Settlement That Probably Does Not Matter - Until It Does</a></h3>
+      <p class="tip-card-narrative">This is a discrete consumer class-action settlement around ZOA Energy marketing claims, with a defined $3m settlement figure and a court approval timetable. The directional call is SHORT because this is a reputational-overhang archetype: the immed...</p>
+      <div class="tip-card-footer">
+        <div class="tip-conviction-wrap">
+          <span class="tip-conviction-label">Conviction 54%</span>
+          <div class="tip-conviction-bar"><div class="tip-conviction-fill tip-dir-short" style="width:54%"></div></div>
+        </div>
+        <div class="tip-card-badges">
+          <span class="tip-edge-badge tip-edge-high">HIGH</span>
+          <span style="font-size:0.6rem; color:var(--light);">$684.48 (-0.3%)</span>
+        </div>
+      </div>
+    </div>
+    <div class="tip-card">
+      <div class="tip-card-header">
+        <span class="tip-sector-tag">Pharma</span>
+        <span class="tip-dir-badge tip-dir-short">↓ SHORT</span>
+        <span class="tip-ticker">SMH</span>
+        <span class="tip-action-badge tip-action-trade">TRADE</span>
+      </div>
+      <h3 class="tip-card-headline"><a href="/tips/smh-kftc-is-fining-a-semiequipment-4.html">KFTC is fining a semi-equipment supplier over tech-data demands - the read-through is process fri...</a></h3>
+      <p class="tip-card-narrative">A Korea-origin enforcement headline says the Korea Fair Trade Commission sanctioned Semics over allegedly unlawful technical-data requests from a subcontractor. The directional call is SHORT because the mechanism is negative: when regulators frame...</p>
+      <div class="tip-card-footer">
+        <div class="tip-conviction-wrap">
+          <span class="tip-conviction-label">Conviction 53%</span>
+          <div class="tip-conviction-bar"><div class="tip-conviction-fill tip-dir-short" style="width:53%"></div></div>
+        </div>
+        <div class="tip-card-badges">
+          <span class="tip-edge-badge tip-edge-high">HIGH</span>
+          <span style="font-size:0.6rem; color:var(--light);">$415.03 (+1.2%)</span>
+        </div>
+      </div>
+    </div>
+    <div class="tip-card">
+      <div class="tip-card-header">
+        <span class="tip-sector-tag">Pharma</span>
+        <span class="tip-dir-badge tip-dir-short">↓ SHORT</span>
+        <span class="tip-ticker">SPY</span>
+        <span class="tip-action-badge tip-action-trade">TRADE</span>
+      </div>
+      <h3 class="tip-card-headline"><a href="/tips/spy-a-specialist-ip-weekly-is-5.html">A specialist IP weekly is pointing at Salts and a FRAND escalation - the market trade is &#39;uncerta...</a></h3>
+      <p class="tip-card-narrative">The signal is a single specialist law-firm update touching multiple litigation venues, including a Salts Healthcare appeal point and FRAND/SEP procedural escalation language involving Amazon and InterDigital. The system resolves the direction as S...</p>
+      <div class="tip-card-footer">
+        <div class="tip-conviction-wrap">
+          <span class="tip-conviction-label">Conviction 53%</span>
+          <div class="tip-conviction-bar"><div class="tip-conviction-fill tip-dir-short" style="width:53%"></div></div>
+        </div>
+        <div class="tip-card-badges">
+          <span class="tip-edge-badge tip-edge-high">HIGH</span>
+          <span style="font-size:0.6rem; color:var(--light);">$689.43 (+0.7%)</span>
+        </div>
+      </div>
+    </div>
+    <div class="tip-card">
+      <div class="tip-card-header">
+        <span class="tip-sector-tag">Pharma</span>
+        <span class="tip-dir-badge tip-dir-short">↓ SHORT</span>
+        <span class="tip-ticker">SMH, KWEB</span>
+        <span class="tip-action-badge tip-action-trade">TRADE</span>
+      </div>
+      <h3 class="tip-card-headline"><a href="/tips/smh, kweb-the-far-council-just-wrote-8.html">The FAR Council Just Wrote a New Supply-Chain Tax - It Starts as Paperwork</a></h3>
+      <p class="tip-card-narrative">The FAR Council has issued a proposed procurement rule targeting products and services that include certain &quot;covered&quot; Chinese semiconductor suppliers, with certification and reporting obligations. The directional call is SHORT because the first-or...</p>
+      <div class="tip-card-footer">
+        <div class="tip-conviction-wrap">
+          <span class="tip-conviction-label">Conviction 53%</span>
+          <div class="tip-conviction-bar"><div class="tip-conviction-fill tip-dir-short" style="width:53%"></div></div>
+        </div>
+        <div class="tip-card-badges">
+          <span class="tip-edge-badge tip-edge-high">HIGH</span>
+          <span style="font-size:0.6rem; color:var(--light);">SMH $410.20 (-0.6%), KWEB $32.75 (-0.4%)</span>
+        </div>
+      </div>
+    </div>
+    <div class="tip-card">
+      <div class="tip-card-header">
+        <span class="tip-sector-tag">Pharma</span>
+        <span class="tip-dir-badge tip-dir-short">↓ SHORT</span>
+        <span class="tip-ticker">IHE</span>
+        <span class="tip-action-badge tip-action-trade">TRADE</span>
+      </div>
+      <h3 class="tip-card-headline"><a href="/tips/ihe-deloittes-exec-survey-is-a-7.html">Deloitte&#39;s exec survey is a sentiment tell: policy risk is back in the US life-sciences narrative</a></h3>
+      <p class="tip-card-narrative">This is not a regulation drop; it is a signal that the people running big life-sciences budgets are explicitly weighting policy risk more heavily now. That matters because sentiment is a transmission mechanism: when executives highlight pricing le...</p>
+      <div class="tip-card-footer">
+        <div class="tip-conviction-wrap">
+          <span class="tip-conviction-label">Conviction 53%</span>
+          <div class="tip-conviction-bar"><div class="tip-conviction-fill tip-dir-short" style="width:53%"></div></div>
+        </div>
+        <div class="tip-card-badges">
+          <span class="tip-edge-badge tip-edge-high">HIGH</span>
+          <span style="font-size:0.6rem; color:var(--light);">USD 90.38 (-0.1%)</span>
+        </div>
+      </div>
+    </div>
+    <div class="tip-card">
+      <div class="tip-card-header">
+        <span class="tip-sector-tag">Pharma</span>
+        <span class="tip-dir-badge tip-dir-short">↓ SHORT</span>
+        <span class="tip-ticker">XLI</span>
+        <span class="tip-action-badge tip-action-trade">TRADE</span>
+      </div>
+      <h3 class="tip-card-headline"><a href="/tips/xli-osha-fatality-penalties-as-a-7.html">OSHA Fatality Penalties as a Sentiment Channel: Industrial Compliance Cost Risk in Miniature</a></h3>
+      <p class="tip-card-narrative">The system resolves this as a SHORT expressed through XLI: OSHA fatality and penalty headlines can function as a compliance-cost and litigation-risk channel for industrial supply chains. The edge is HIGH because the evidence bundle is contained (T...</p>
+      <div class="tip-card-footer">
+        <div class="tip-conviction-wrap">
+          <span class="tip-conviction-label">Conviction 51%</span>
+          <div class="tip-conviction-bar"><div class="tip-conviction-fill tip-dir-short" style="width:51%"></div></div>
+        </div>
+        <div class="tip-card-badges">
+          <span class="tip-edge-badge tip-edge-high">HIGH</span>
+          <span style="font-size:0.6rem; color:var(--light);">$176.70 (+0.6%)</span>
+        </div>
+      </div>
+    </div>
+    <div class="tip-card">
+      <div class="tip-card-header">
+        <span class="tip-sector-tag">Pharma</span>
+        <span class="tip-dir-badge tip-dir-short">↓ SHORT</span>
+        <span class="tip-ticker">SPY</span>
+        <span class="tip-action-badge tip-action-trade">TRADE</span>
+      </div>
+      <h3 class="tip-card-headline"><a href="/tips/spy-fcc-foreignownership-rule-streamlining-is-6.html">FCC foreign-ownership rule streamlining is being misread as a risk shock - it is procedural, and ...</a></h3>
+      <p class="tip-card-narrative">This is a regulation/process signal that is difficult to bind to a single listed operator, which is why it is expressed as a broad proxy short. The underlying content, however, is not an enforcement crackdown: it describes FCC amendments under Sec...</p>
+      <div class="tip-card-footer">
+        <div class="tip-conviction-wrap">
+          <span class="tip-conviction-label">Conviction 50%</span>
+          <div class="tip-conviction-bar"><div class="tip-conviction-fill tip-dir-short" style="width:50%"></div></div>
+        </div>
+        <div class="tip-card-badges">
+          <span class="tip-edge-badge tip-edge-high">HIGH</span>
+          <span style="font-size:0.6rem; color:var(--light);">USD 687.35 (+0.7%)</span>
+        </div>
+      </div>
+    </div>
+    <div class="tip-card">
+      <div class="tip-card-header">
+        <span class="tip-sector-tag">Pharma</span>
+        <span class="tip-dir-badge tip-dir-long">↑ LONG</span>
+        <span class="tip-ticker">IHE, XBI</span>
+        <span class="tip-action-badge tip-action-trade">TRADE</span>
+      </div>
+      <h3 class="tip-card-headline"><a href="/tips/ihe, xbi-aspr-dpa-title-iii-supplychain-15.html">ASPR DPA Title III Supply-Chain Build-Out: A Quiet Bull Case for Resilience</a></h3>
+      <p class="tip-card-narrative">Despite the label wording, upstream diligence frames this as a supply-assurance programme move: ASPR (under HHS) using DPA Title III to invest in domestic production of essential drug inputs, naming oseltamivir/Tamiflu supply chain and Manus Bio e...</p>
+      <div class="tip-card-footer">
+        <div class="tip-conviction-wrap">
+          <span class="tip-conviction-label">Conviction 50%</span>
+          <div class="tip-conviction-bar"><div class="tip-conviction-fill tip-dir-long" style="width:50%"></div></div>
+        </div>
+        <div class="tip-card-badges">
+          <span class="tip-edge-badge tip-edge-high">HIGH</span>
+          <span style="font-size:0.6rem; color:var(--light);">IHE $90.48 (+0.1%), XBI $126.74 (+0.9%)</span>
+        </div>
+      </div>
+    </div>
+    <div class="tip-card">
+      <div class="tip-card-header">
+        <span class="tip-sector-tag">Pharma</span>
+        <span class="tip-dir-badge tip-dir-short">↓ SHORT</span>
+        <span class="tip-ticker">MBG.DE</span>
+        <span class="tip-action-badge tip-action-trade">TRADE</span>
+      </div>
+      <h3 class="tip-card-headline"><a href="/tips/mbg.de-mercedesamg-lawsuit-cluster-looks-like-8.html">Mercedes-AMG &#39;Lawsuit Cluster&#39; Looks Like a Mis-signal - But If It&#39;s Real, It&#39;s Bearish for the P...</a></h3>
+      <p class="tip-card-narrative">The upstream call is SHORT MBG.DE on an alleged legal/claims exposure mechanism tied to Mercedes-AMG. The reason the direction is bearish is obvious: if there is a genuine emerging litigation or claims cluster linked to product liability, defects,...</p>
+      <div class="tip-card-footer">
+        <div class="tip-conviction-wrap">
+          <span class="tip-conviction-label">Conviction 49%</span>
+          <div class="tip-conviction-bar"><div class="tip-conviction-fill tip-dir-short" style="width:49%"></div></div>
+        </div>
+        <div class="tip-card-badges">
+          <span class="tip-edge-badge tip-edge-high">HIGH</span>
+          <span style="font-size:0.6rem; color:var(--light);">EUR 59.00 (+0.0%)</span>
+        </div>
+      </div>
+    </div>
+    <div class="tip-card">
+      <div class="tip-card-header">
+        <span class="tip-sector-tag">Pharma</span>
+        <span class="tip-dir-badge tip-dir-short">↓ SHORT</span>
+        <span class="tip-ticker">XBI</span>
+        <span class="tip-action-badge tip-action-trade">TRADE</span>
+      </div>
+      <h3 class="tip-card-headline"><a href="/tips/xbi-taiwan-border-enforcement-is-tightening-8.html">Taiwan border enforcement is tightening - but the investable edge only exists once you can name t...</a></h3>
+      <p class="tip-card-narrative">The bearish mechanism is straightforward: border interceptions and higher inspection intensity are how regulators create supply-chain disruption without passing new laws. That creates cost, delay, and reputational risk for importers and suppliers ...</p>
+      <div class="tip-card-footer">
+        <div class="tip-conviction-wrap">
+          <span class="tip-conviction-label">Conviction 49%</span>
+          <div class="tip-conviction-bar"><div class="tip-conviction-fill tip-dir-short" style="width:49%"></div></div>
+        </div>
+        <div class="tip-card-badges">
+          <span class="tip-edge-badge tip-edge-high">HIGH</span>
+          <span style="font-size:0.6rem; color:var(--light);">USD 129.16 (+1.7%)</span>
+        </div>
+      </div>
+    </div>
+    <div class="tip-card">
+      <div class="tip-card-header">
+        <span class="tip-sector-tag">Pharma</span>
+        <span class="tip-dir-badge tip-dir-short">↓ SHORT</span>
+        <span class="tip-ticker">SPY</span>
+        <span class="tip-action-badge tip-action-trade">TRADE</span>
+      </div>
+      <h3 class="tip-card-headline"><a href="/tips/spy-the-vanguard-legal-disclosure-signal-8.html">The Vanguard &#39;legal disclosure&#39; signal looks like boilerplate - but the risk is a misread that sp...</a></h3>
+      <p class="tip-card-narrative">The upstream system keeps this as a SHORT-direction risk signal because governance and disclosure narratives, when they turn real, can spill into broader risk premia quickly - and SPY is the proxy catch-all. The investable mechanism is not “Vangua...</p>
+      <div class="tip-card-footer">
+        <div class="tip-conviction-wrap">
+          <span class="tip-conviction-label">Conviction 49%</span>
+          <div class="tip-conviction-bar"><div class="tip-conviction-fill tip-dir-short" style="width:49%"></div></div>
+        </div>
+        <div class="tip-card-badges">
+          <span class="tip-edge-badge tip-edge-high">HIGH</span>
+          <span style="font-size:0.6rem; color:var(--light);">USD 686.29 (+0.5%)</span>
+        </div>
+      </div>
+    </div>
+    <div class="tip-card">
+      <div class="tip-card-header">
+        <span class="tip-sector-tag">Pharma</span>
+        <span class="tip-dir-badge tip-dir-short">↓ SHORT</span>
+        <span class="tip-ticker">MEDICO.NS</span>
+        <span class="tip-action-badge tip-action-trade">TRADE</span>
+      </div>
+      <h3 class="tip-card-headline"><a href="/tips/medico.ns-medico-remedies-exchange-notices-look-9.html">Medico Remedies’ exchange notices look small - but governance headlines are how small-caps repric...</a></h3>
+      <p class="tip-card-narrative">This is a governance/compliance overhang, not a manufacturing shock. The system’s short direction is about how listing-regulation non-compliance headlines can raise cost-of-capital risk for small caps: the market discounts “what else are they not ...</p>
+      <div class="tip-card-footer">
+        <div class="tip-conviction-wrap">
+          <span class="tip-conviction-label">Conviction 47%</span>
+          <div class="tip-conviction-bar"><div class="tip-conviction-fill tip-dir-short" style="width:47%"></div></div>
+        </div>
+        <div class="tip-card-badges">
+          <span class="tip-edge-badge tip-edge-high">HIGH</span>
+          <span style="font-size:0.6rem; color:var(--light);">INR 46.00 (-2.0%)</span>
+        </div>
+      </div>
+    </div>
+    <div class="tip-card">
+      <div class="tip-card-header">
+        <span class="tip-sector-tag">Pharma</span>
+        <span class="tip-dir-badge tip-dir-long">↑ LONG</span>
+        <span class="tip-ticker">048410.KQ</span>
+        <span class="tip-action-badge tip-action-trade">TRADE</span>
+      </div>
+      <h3 class="tip-card-headline"><a href="/tips/048410.kq-hyundai-bioscience-is-moving-on-10.html">Hyundai Bioscience is moving on ‘IND intent’ optics - the long works only if plans become filings</a></h3>
+      <p class="tip-card-narrative">This is the cleanest “optionality long” in the pack: a Korea-local clinical narrative that explicitly references a Vietnam Phase 2/3 dengue trial, a planned US Phase 2 basket trial for respiratory viruses, and an intention to submit an IND to the ...</p>
+      <div class="tip-card-footer">
+        <div class="tip-conviction-wrap">
+          <span class="tip-conviction-label">Conviction 47%</span>
+          <div class="tip-conviction-bar"><div class="tip-conviction-fill tip-dir-long" style="width:47%"></div></div>
+        </div>
+        <div class="tip-card-badges">
+          <span class="tip-edge-badge tip-edge-high">HIGH</span>
+          <span style="font-size:0.6rem; color:var(--light);">KRW 20,000 (+12.6%)</span>
+        </div>
+      </div>
+    </div>
+    <div class="tip-card">
+      <div class="tip-card-header">
+        <span class="tip-sector-tag">Pharma</span>
+        <span class="tip-dir-badge tip-dir-short">↓ SHORT</span>
+        <span class="tip-ticker">IHE</span>
+        <span class="tip-action-badge tip-action-trade">TRADE</span>
+      </div>
+      <h3 class="tip-card-headline"><a href="/tips/ihe-new-mexico-pfas-policy-is-15.html">New Mexico PFAS policy is creeping towards labelling - a slow regulatory drag story expressed as ...</a></h3>
+      <p class="tip-card-narrative">This is a policy-process signal with a plausible healthcare/pharma read-through: PFAS regulation and labelling regimes can create compliance burdens for medical and veterinary product categories depending on definitions and exemptions. The system ...</p>
+      <div class="tip-card-footer">
+        <div class="tip-conviction-wrap">
+          <span class="tip-conviction-label">Conviction 44%</span>
+          <div class="tip-conviction-bar"><div class="tip-conviction-fill tip-dir-short" style="width:44%"></div></div>
+        </div>
+        <div class="tip-card-badges">
+          <span class="tip-edge-badge tip-edge-high">HIGH</span>
+          <span style="font-size:0.6rem; color:var(--light);">USD 91.60 (+0.6%)</span>
+        </div>
+      </div>
+    </div>
+    <div class="tip-card">
+      <div class="tip-card-header">
+        <span class="tip-sector-tag">Pharma</span>
+        <span class="tip-dir-badge tip-dir-mixed">● MIXED</span>
+        <span class="tip-ticker">SPY</span>
+        <span class="tip-action-badge tip-action-investigate">INVESTIGATE</span>
+      </div>
+      <h3 class="tip-card-headline"><a href="/tips/spy-german-clawback-governance-useful-context-6.html">German clawback governance: useful context, but direction is MIXED until you name the battleground</a></h3>
+      <p class="tip-card-narrative">This is a governance theme (executive compensation clawbacks) presented as a German legal/HR explainer. The reason the direction is MIXED is structural: clawbacks can be bullish for governance quality in the long run, but can also be a near-term p...</p>
+      <div class="tip-card-footer">
+        <div class="tip-conviction-wrap">
+          <span class="tip-conviction-label">Conviction 60%</span>
+          <div class="tip-conviction-bar"><div class="tip-conviction-fill tip-dir-mixed" style="width:60%"></div></div>
+        </div>
+        <div class="tip-card-badges">
+          <span class="tip-edge-badge tip-edge-high">HIGH</span>
+          <span style="font-size:0.6rem; color:var(--light);">USD 682.39 (-1.0%)</span>
+        </div>
+      </div>
+    </div>
+    <div class="tip-card">
+      <div class="tip-card-header">
+        <span class="tip-sector-tag">Pharma</span>
+        <span class="tip-dir-badge tip-dir-short">↓ SHORT</span>
+        <span class="tip-ticker">MRK</span>
+        <span class="tip-action-badge tip-action-investigate">INVESTIGATE</span>
+      </div>
+      <h3 class="tip-card-headline"><a href="/tips/mrk-merck-governance-overhang-is-in-5.html">Merck Governance Overhang Is in the Open: Directional, But the Edge Is Closing</a></h3>
+      <p class="tip-card-narrative">The system is directionally SHORT MRK on a governance/legal-overhang mechanism, but it routes the signal to propagation_monitor (spreading, edge decaying). Translation: the call is not &quot;wrong&quot;, it&#39;s &quot;late.&quot; If the governance issue tightens the sha...</p>
+      <div class="tip-card-footer">
+        <div class="tip-conviction-wrap">
+          <span class="tip-conviction-label">Conviction 55%</span>
+          <div class="tip-conviction-bar"><div class="tip-conviction-fill tip-dir-short" style="width:55%"></div></div>
+        </div>
+        <div class="tip-card-badges">
+          <span class="tip-edge-badge tip-edge-decay">DECAYING</span>
+          <span style="font-size:0.6rem; color:var(--light);">$119.30 (-2.6%)</span>
+        </div>
+      </div>
+    </div>
+    <div class="tip-card">
+      <div class="tip-card-header">
+        <span class="tip-sector-tag">Pharma</span>
+        <span class="tip-dir-badge tip-dir-mixed">● MIXED</span>
+        <span class="tip-ticker">SPY</span>
+        <span class="tip-action-badge tip-action-investigate">INVESTIGATE</span>
+      </div>
+      <h3 class="tip-card-headline"><a href="/tips/spy-a-crossborder-court-fight-with-14.html">A Cross-Border Court Fight With a Named Pharma Counterparty - But Direction Still Does Not Resolve</a></h3>
+      <p class="tip-card-narrative">This is a procedural litigation update in a long-running dispute around Fortis-related transactions, with cross-border implications and a named Japanese pharma counterparty in the broader signal context. The action is INVESTIGATE because direction...</p>
+      <div class="tip-card-footer">
+        <div class="tip-conviction-wrap">
+          <span class="tip-conviction-label">Conviction 51%</span>
+          <div class="tip-conviction-bar"><div class="tip-conviction-fill tip-dir-mixed" style="width:51%"></div></div>
+        </div>
+        <div class="tip-card-badges">
+          <span class="tip-edge-badge tip-edge-high">HIGH</span>
+          <span style="font-size:0.6rem; color:var(--light);">$684.48 (-0.3%)</span>
+        </div>
+      </div>
+    </div>
+    <div class="tip-card">
+      <div class="tip-card-header">
+        <span class="tip-sector-tag">Pharma</span>
+        <span class="tip-dir-badge tip-dir-short">↓ SHORT</span>
+        <span class="tip-ticker">COIN</span>
+        <span class="tip-action-badge tip-action-investigate">INVESTIGATE</span>
+      </div>
+      <h3 class="tip-card-headline"><a href="/tips/coin-coinbase-as-the-tradeable-spillover-12.html">Coinbase as the tradeable spillover for Binance enforcement: direction is short, edge is closing</a></h3>
+      <p class="tip-card-narrative">The upstream call is SHORT with 50% conviction, expressed directly in COIN, on the logic that enforcement pressure around Binance can transmit into the listed crypto complex via compliance cost narratives, regulator scrutiny, and sentiment spillov...</p>
+      <div class="tip-card-footer">
+        <div class="tip-conviction-wrap">
+          <span class="tip-conviction-label">Conviction 50%</span>
+          <div class="tip-conviction-bar"><div class="tip-conviction-fill tip-dir-short" style="width:50%"></div></div>
+        </div>
+        <div class="tip-card-badges">
+          <span class="tip-edge-badge tip-edge-decay">DECAYING</span>
+          <span style="font-size:0.6rem; color:var(--light);">$183.94 (+13.5%)</span>
+        </div>
+      </div>
+    </div>
+    <div class="tip-card">
+      <div class="tip-card-header">
+        <span class="tip-sector-tag">Pharma</span>
+        <span class="tip-dir-badge tip-dir-short">↓ SHORT</span>
+        <span class="tip-ticker">IHE</span>
+        <span class="tip-action-badge tip-action-investigate">INVESTIGATE</span>
+      </div>
+      <h3 class="tip-card-headline"><a href="/tips/ihe-fda-regulatory-noise-is-loud-10.html">FDA Regulatory Noise Is Loud Enough to Be Dangerous - But Not Mispriced</a></h3>
+      <p class="tip-card-narrative">The system is SHORT via the pharma proxy (IHE) on a broad FDA-linked regulatory-risk cluster. The bearish mechanism is the classic one: increased regulatory attention, recalls, guidance churn, or enforcement posture shifts widen uncertainty and ca...</p>
+      <div class="tip-card-footer">
+        <div class="tip-conviction-wrap">
+          <span class="tip-conviction-label">Conviction 49%</span>
+          <div class="tip-conviction-bar"><div class="tip-conviction-fill tip-dir-short" style="width:49%"></div></div>
+        </div>
+        <div class="tip-card-badges">
+          <span class="tip-edge-badge tip-edge-decay">DECAYING</span>
+          <span style="font-size:0.6rem; color:var(--light);">$90.73 (-0.9%)</span>
+        </div>
+      </div>
+    </div>
+    <div class="tip-card">
+      <div class="tip-card-header">
+        <span class="tip-sector-tag">Pharma</span>
+        <span class="tip-dir-badge tip-dir-short">↓ SHORT</span>
+        <span class="tip-ticker">IHE</span>
+        <span class="tip-action-badge tip-action-investigate">INVESTIGATE</span>
+      </div>
+      <h3 class="tip-card-headline"><a href="/tips/ihe-the-fda-macro-cluster-is-9.html">The FDA macro cluster is already in motion - the direction is still down, but the edge is going</a></h3>
+      <p class="tip-card-narrative">This is the system telling you the direction is still SHORT, but the information advantage is decaying: FDA posture and related regulatory moves are already spreading through Tier-1 outlets, which compresses timing edge even if the economic mechan...</p>
+      <div class="tip-card-footer">
+        <div class="tip-conviction-wrap">
+          <span class="tip-conviction-label">Conviction 49%</span>
+          <div class="tip-conviction-bar"><div class="tip-conviction-fill tip-dir-short" style="width:49%"></div></div>
+        </div>
+        <div class="tip-card-badges">
+          <span class="tip-edge-badge tip-edge-decay">DECAYING</span>
+          <span style="font-size:0.6rem; color:var(--light);">USD 90.38 (-0.1%)</span>
+        </div>
+      </div>
+    </div>
+    <div class="tip-card">
+      <div class="tip-card-header">
+        <span class="tip-sector-tag">Pharma</span>
+        <span class="tip-dir-badge tip-dir-long">↑ LONG</span>
+        <span class="tip-ticker">PFE</span>
+        <span class="tip-action-badge tip-action-investigate">INVESTIGATE</span>
+      </div>
+      <h3 class="tip-card-headline"><a href="/tips/pfe-pfizer-gets-the-good-science-10.html">Pfizer gets the ‘good science’ headline - but it&#39;s already travelling, so treat this as timing ar...</a></h3>
+      <p class="tip-card-narrative">The directional call is LONG because a credible “scientific/research” narrative, when it is positive, can rebuild confidence in pipeline and franchise durability - exactly the kind of story that lifts a large-cap pharma risk premium at the margin....</p>
+      <div class="tip-card-footer">
+        <div class="tip-conviction-wrap">
+          <span class="tip-conviction-label">Conviction 49%</span>
+          <div class="tip-conviction-bar"><div class="tip-conviction-fill tip-dir-long" style="width:49%"></div></div>
+        </div>
+        <div class="tip-card-badges">
+          <span class="tip-edge-badge tip-edge-decay">DECAYING</span>
+          <span style="font-size:0.6rem; color:var(--light);">USD 27.37 (+0.0%)</span>
+        </div>
+      </div>
+    </div>
+    <div class="tip-card">
+      <div class="tip-card-header">
+        <span class="tip-sector-tag">Pharma</span>
+        <span class="tip-dir-badge tip-dir-short">↓ SHORT</span>
+        <span class="tip-ticker">IHE</span>
+        <span class="tip-action-badge tip-action-investigate">INVESTIGATE</span>
+      </div>
+      <h3 class="tip-card-headline"><a href="/tips/ihe-sec-compliance-clusters-spill-into-11.html">SEC Compliance Clusters Spill Into Healthcare Risk Premia - After the Story Is Public</a></h3>
+      <p class="tip-card-narrative">The directional call is SHORT expressed via a proxy (IHE) because compliance and disclosure narratives raise the legal-risk premium across sensitive sectors, including healthcare, when specific issuers get pulled into enforcement or litigation gra...</p>
+      <div class="tip-card-footer">
+        <div class="tip-conviction-wrap">
+          <span class="tip-conviction-label">Conviction 48%</span>
+          <div class="tip-conviction-bar"><div class="tip-conviction-fill tip-dir-short" style="width:48%"></div></div>
+        </div>
+        <div class="tip-card-badges">
+          <span class="tip-edge-badge tip-edge-decay">DECAYING</span>
+          <span style="font-size:0.6rem; color:var(--light);">$90.73 (-0.9%)</span>
+        </div>
+      </div>
+    </div>
+    <div class="tip-card">
+      <div class="tip-card-header">
+        <span class="tip-sector-tag">Pharma</span>
+        <span class="tip-dir-badge tip-dir-long">↑ LONG</span>
+        <span class="tip-ticker">NVO</span>
+        <span class="tip-action-badge tip-action-investigate">INVESTIGATE</span>
+      </div>
+      <h3 class="tip-card-headline"><a href="/tips/nvo-novo-nordisk-clinical-research-cluster-15.html">Novo Nordisk clinical research cluster is still directionally positive - but you are late if you ...</a></h3>
+      <p class="tip-card-narrative">The upstream call is LONG with 48% conviction on a Novo Nordisk clinical research cluster, which is consistent with the idea that positive clinical and regulatory narratives can support valuation. The reason it lands as INVESTIGATE is not that the...</p>
+      <div class="tip-card-footer">
+        <div class="tip-conviction-wrap">
+          <span class="tip-conviction-label">Conviction 48%</span>
+          <div class="tip-conviction-bar"><div class="tip-conviction-fill tip-dir-long" style="width:48%"></div></div>
+        </div>
+        <div class="tip-card-badges">
+          <span class="tip-edge-badge tip-edge-decay">DECAYING</span>
+          <span style="font-size:0.6rem; color:var(--light);">$38.16 (-1.1%)</span>
+        </div>
+      </div>
+    </div>
+    <div class="tip-card">
+      <div class="tip-card-header">
+        <span class="tip-sector-tag">Pharma</span>
+        <span class="tip-dir-badge tip-dir-short">↓ SHORT</span>
+        <span class="tip-ticker">IHE</span>
+        <span class="tip-action-badge tip-action-investigate">INVESTIGATE</span>
+      </div>
+      <h3 class="tip-card-headline"><a href="/tips/ihe-litigation-noise-is-now-a-11.html">Litigation noise is now a sector factor: the signal isn&#39;t discovery - it&#39;s how fast the overhang ...</a></h3>
+      <p class="tip-card-narrative">The call is SHORT because a broad, multi-domain litigation and enforcement cluster typically expresses as a higher sector risk premium: it forces investors to price legal tails, management distraction, and headline volatility even when the underly...</p>
+      <div class="tip-card-footer">
+        <div class="tip-conviction-wrap">
+          <span class="tip-conviction-label">Conviction 48%</span>
+          <div class="tip-conviction-bar"><div class="tip-conviction-fill tip-dir-short" style="width:48%"></div></div>
+        </div>
+        <div class="tip-card-badges">
+          <span class="tip-edge-badge tip-edge-decay">DECAYING</span>
+          <span style="font-size:0.6rem; color:var(--light);">USD 90.38 (-0.1%)</span>
+        </div>
+      </div>
+    </div>
+    <div class="tip-card">
+      <div class="tip-card-header">
+        <span class="tip-sector-tag">Pharma</span>
+        <span class="tip-dir-badge tip-dir-short">↓ SHORT</span>
+        <span class="tip-ticker">IHE</span>
+        <span class="tip-action-badge tip-action-investigate">INVESTIGATE</span>
+      </div>
+      <h3 class="tip-card-headline"><a href="/tips/ihe-patientharm-narrative-clusters-are-sectorshort-14.html">Patient-Harm Narrative Clusters Are Sector-Short by Default - But They&#39;re Already Spreading</a></h3>
+      <p class="tip-card-narrative">The system is SHORT the pharma proxy (IHE) off a broad patient-harm/safety narrative cluster. Mechanically, these clusters tend to be bearish for sector risk premia: they invite regulator attention, plaintiff activity, and payer caution. But routi...</p>
+      <div class="tip-card-footer">
+        <div class="tip-conviction-wrap">
+          <span class="tip-conviction-label">Conviction 47%</span>
+          <div class="tip-conviction-bar"><div class="tip-conviction-fill tip-dir-short" style="width:47%"></div></div>
+        </div>
+        <div class="tip-card-badges">
+          <span class="tip-edge-badge tip-edge-decay">DECAYING</span>
+          <span style="font-size:0.6rem; color:var(--light);">$90.73 (-0.9%)</span>
+        </div>
+      </div>
+    </div>
+    <div class="tip-card">
+      <div class="tip-card-header">
+        <span class="tip-sector-tag">Pharma</span>
+        <span class="tip-dir-badge tip-dir-long">↑ LONG</span>
+        <span class="tip-ticker">NVO</span>
+        <span class="tip-action-badge tip-action-investigate">INVESTIGATE</span>
+      </div>
+      <h3 class="tip-card-headline"><a href="/tips/nvo-novo-nordisks-narrative-still-leans-15.html">Novo Nordisk&#39;s Narrative Still Leans Positive - But You&#39;re Late to the Party</a></h3>
+      <p class="tip-card-narrative">The system remains directionally LONG NVO on a positive mechanism, but it explicitly routes the signal to propagation_monitor: the story is spreading, Tier-1 is present, and the edge is decaying. The only coherent way to hold both truths is: the u...</p>
+      <div class="tip-card-footer">
+        <div class="tip-conviction-wrap">
+          <span class="tip-conviction-label">Conviction 47%</span>
+          <div class="tip-conviction-bar"><div class="tip-conviction-fill tip-dir-long" style="width:47%"></div></div>
+        </div>
+        <div class="tip-card-badges">
+          <span class="tip-edge-badge tip-edge-decay">DECAYING</span>
+          <span style="font-size:0.6rem; color:var(--light);">$37.62 (-1.4%)</span>
+        </div>
+      </div>
+    </div>
+    <div class="tip-card">
+      <div class="tip-card-header">
+        <span class="tip-sector-tag">Pharma</span>
+        <span class="tip-dir-badge tip-dir-short">↓ SHORT</span>
+        <span class="tip-ticker">IHE</span>
+        <span class="tip-action-badge tip-action-investigate">INVESTIGATE</span>
+      </div>
+      <h3 class="tip-card-headline"><a href="/tips/ihe-fda-policy-chatter-is-everywhere-11.html">FDA policy chatter is everywhere: treat this SHORT proxy as edge-closing timing context, not alpha</a></h3>
+      <p class="tip-card-narrative">Directionally, the framework is SHORT a pharma proxy (IHE) on a negative regulatory mechanism, but the key fact is lifecycle: the edge is decaying, with Tier-1 presence already in the information mix. That means this is no longer about discovering...</p>
+      <div class="tip-card-footer">
+        <div class="tip-conviction-wrap">
+          <span class="tip-conviction-label">Conviction 46%</span>
+          <div class="tip-conviction-bar"><div class="tip-conviction-fill tip-dir-short" style="width:46%"></div></div>
+        </div>
+        <div class="tip-card-badges">
+          <span class="tip-edge-badge tip-edge-decay">DECAYING</span>
+          <span style="font-size:0.6rem; color:var(--light);">USD 91.07 (+1.4%)</span>
+        </div>
+      </div>
+    </div>
+    <div class="tip-card">
+      <div class="tip-card-header">
+        <span class="tip-sector-tag">Pharma</span>
+        <span class="tip-dir-badge tip-dir-short">↓ SHORT</span>
+        <span class="tip-ticker">BAYRY</span>
+        <span class="tip-action-badge tip-action-investigate">INVESTIGATE</span>
+      </div>
+      <h3 class="tip-card-headline"><a href="/tips/bayry-bayers-enforcementlitigation-cloud-is-not-12.html">Bayer&#39;s enforcement/litigation cloud is not a secret anymore - that&#39;s why this is investigate, no...</a></h3>
+      <p class="tip-card-narrative">The direction is SHORT because enforcement and litigation narratives attack valuation through one channel that is brutally simple: higher uncertainty around ultimate liability increases required returns and keeps the equity from re-rating. Bayer i...</p>
+      <div class="tip-card-footer">
+        <div class="tip-conviction-wrap">
+          <span class="tip-conviction-label">Conviction 46%</span>
+          <div class="tip-conviction-bar"><div class="tip-conviction-fill tip-dir-short" style="width:46%"></div></div>
+        </div>
+        <div class="tip-card-badges">
+          <span class="tip-edge-badge tip-edge-decay">DECAYING</span>
+          <span style="font-size:0.6rem; color:var(--light);">USD 13.31 (-7.6%)</span>
+        </div>
+      </div>
+    </div>
+    <div class="tip-card">
+      <div class="tip-card-header">
+        <span class="tip-sector-tag">Pharma</span>
+        <span class="tip-dir-badge tip-dir-long">↑ LONG</span>
+        <span class="tip-ticker">JNJ</span>
+        <span class="tip-action-badge tip-action-investigate">INVESTIGATE</span>
+      </div>
+      <h3 class="tip-card-headline"><a href="/tips/jnj-jj-as-a-risk-appetite-13.html">J&amp;J as a ‘risk appetite’ tell: when biotech deal chatter rises, the incumbents get paid too</a></h3>
+      <p class="tip-card-narrative">The call is LONG because this is a capital-allocation narrative: when biotech financing and deal activity accelerates, large strategic buyers and incumbent platforms often see improved optionality - not just via direct acquisitions, but via partne...</p>
+      <div class="tip-card-footer">
+        <div class="tip-conviction-wrap">
+          <span class="tip-conviction-label">Conviction 46%</span>
+          <div class="tip-conviction-bar"><div class="tip-conviction-fill tip-dir-long" style="width:46%"></div></div>
+        </div>
+        <div class="tip-card-badges">
+          <span class="tip-edge-badge tip-edge-decay">DECAYING</span>
+          <span style="font-size:0.6rem; color:var(--light);">USD 244.99 (+0.7%)</span>
+        </div>
+      </div>
+    </div>
+    <div class="tip-card">
+      <div class="tip-card-header">
+        <span class="tip-sector-tag">Pharma</span>
+        <span class="tip-dir-badge tip-dir-long">↑ LONG</span>
+        <span class="tip-ticker">NVS</span>
+        <span class="tip-action-badge tip-action-investigate">INVESTIGATE</span>
+      </div>
+      <h3 class="tip-card-headline"><a href="/tips/nvs-novartis-still-screens-long-but-12.html">Novartis still screens long, but it is in the catalytic zone - the edge is closing and the bar fo...</a></h3>
+      <p class="tip-card-narrative">The directional argument is intact: clinical/regulatory progress narratives are structurally bullish for large-cap pharma because they pull forward revenue optionality and reduce perceived pipeline risk. That is why direction remains LONG. But the...</p>
+      <div class="tip-card-footer">
+        <div class="tip-conviction-wrap">
+          <span class="tip-conviction-label">Conviction 45%</span>
+          <div class="tip-conviction-bar"><div class="tip-conviction-fill tip-dir-long" style="width:45%"></div></div>
+        </div>
+        <div class="tip-card-badges">
+          <span class="tip-edge-badge tip-edge-decay">DECAYING</span>
+          <span style="font-size:0.6rem; color:var(--light);">USD 167.11 (+1.5%)</span>
+        </div>
+      </div>
+    </div>
+    <div class="tip-card">
+      <div class="tip-card-header">
+        <span class="tip-sector-tag">Pharma</span>
+        <span class="tip-dir-badge tip-dir-short">↓ SHORT</span>
+        <span class="tip-ticker">SPY</span>
+        <span class="tip-action-badge tip-action-investigate">INVESTIGATE</span>
+      </div>
+      <h3 class="tip-card-headline"><a href="/tips/spy-dojsec-compliance-narratives-are-now-14.html">DOJ/SEC compliance narratives are now mainstream - direction is bearish, but the timing edge is c...</a></h3>
+      <p class="tip-card-narrative">The bearish mechanism still makes sense: enforcement and compliance narratives widen risk premia, raise legal cost expectations, and can trigger secondary disclosure cascades. That is why the direction remains SHORT. But the system is telling you ...</p>
+      <div class="tip-card-footer">
+        <div class="tip-conviction-wrap">
+          <span class="tip-conviction-label">Conviction 45%</span>
+          <div class="tip-conviction-bar"><div class="tip-conviction-fill tip-dir-short" style="width:45%"></div></div>
+        </div>
+        <div class="tip-card-badges">
+          <span class="tip-edge-badge tip-edge-decay">DECAYING</span>
+          <span style="font-size:0.6rem; color:var(--light);">USD 687.35 (+0.7%)</span>
+        </div>
+      </div>
+    </div>
+    <div class="tip-card">
+      <div class="tip-card-header">
+        <span class="tip-sector-tag">Pharma</span>
+        <span class="tip-dir-badge tip-dir-long">↑ LONG</span>
+        <span class="tip-ticker">LLY</span>
+        <span class="tip-action-badge tip-action-investigate">INVESTIGATE</span>
+      </div>
+      <h3 class="tip-card-headline"><a href="/tips/lly-lilly-governance-chatter-the-system-8.html">Lilly governance chatter: the system says LONG, but the edge is closing - you need the actual event</a></h3>
+      <p class="tip-card-narrative">The directional call is LONG, which means the synthesis is leaning to a positive mechanism (the governance/regulatory bundle is not assessed as a durable negative). The reason this is INVESTIGATE is lifecycle: it sits in propagation_monitor, which...</p>
+      <div class="tip-card-footer">
+        <div class="tip-conviction-wrap">
+          <span class="tip-conviction-label">Conviction 44%</span>
+          <div class="tip-conviction-bar"><div class="tip-conviction-fill tip-dir-long" style="width:44%"></div></div>
+        </div>
+        <div class="tip-card-badges">
+          <span class="tip-edge-badge tip-edge-decay">DECAYING</span>
+          <span style="font-size:0.6rem; color:var(--light);">$1,009.52 (-1.3%)</span>
+        </div>
+      </div>
+    </div>
+    <div class="tip-card">
+      <div class="tip-card-header">
+        <span class="tip-sector-tag">Pharma</span>
+        <span class="tip-dir-badge tip-dir-long">↑ LONG</span>
+        <span class="tip-ticker">NVS</span>
+        <span class="tip-action-badge tip-action-investigate">INVESTIGATE</span>
+      </div>
+      <h3 class="tip-card-headline"><a href="/tips/nvs-novartis-stability-is-a-long-9.html">Novartis &#39;stability&#39; is a LONG call with a shrinking edge - only actionable if a new capital-allo...</a></h3>
+      <p class="tip-card-narrative">The system direction is LONG: the mechanism is a positive stability/capital allocation narrative that, if truly incremental, supports valuation durability. The reason this is INVESTIGATE is not direction, it is edge: the signal is routed to propag...</p>
+      <div class="tip-card-footer">
+        <div class="tip-conviction-wrap">
+          <span class="tip-conviction-label">Conviction 44%</span>
+          <div class="tip-conviction-bar"><div class="tip-conviction-fill tip-dir-long" style="width:44%"></div></div>
+        </div>
+        <div class="tip-card-badges">
+          <span class="tip-edge-badge tip-edge-decay">DECAYING</span>
+          <span style="font-size:0.6rem; color:var(--light);">$162.67 (-0.8%)</span>
+        </div>
+      </div>
+    </div>
+    <div class="tip-card">
+      <div class="tip-card-header">
+        <span class="tip-sector-tag">Pharma</span>
+        <span class="tip-dir-badge tip-dir-short">↓ SHORT</span>
+        <span class="tip-ticker">NVO</span>
+        <span class="tip-action-badge tip-action-investigate">INVESTIGATE</span>
+      </div>
+      <h3 class="tip-card-headline"><a href="/tips/nvo-novo-nordisks-regulatory-drumbeat-keeps-14.html">Novo Nordisk&#39;s regulatory drumbeat keeps the short case alive - but you&#39;re no longer early</a></h3>
+      <p class="tip-card-narrative">The system’s direction is SHORT because the thesis is framed as regulatory and legal pressure around Novo Nordisk - a mechanism that can hit growth narratives in GLP-1 via constraints, litigation drag, or credibility risk, even before it hits numb...</p>
+      <div class="tip-card-footer">
+        <div class="tip-conviction-wrap">
+          <span class="tip-conviction-label">Conviction 44%</span>
+          <div class="tip-conviction-bar"><div class="tip-conviction-fill tip-dir-short" style="width:44%"></div></div>
+        </div>
+        <div class="tip-card-badges">
+          <span class="tip-edge-badge tip-edge-decay">DECAYING</span>
+          <span style="font-size:0.6rem; color:var(--light);">USD 49.23 (-0.3%)</span>
+        </div>
+      </div>
+    </div>
+    <div class="tip-card">
+      <div class="tip-card-header">
+        <span class="tip-sector-tag">Pharma</span>
+        <span class="tip-dir-badge tip-dir-short">↓ SHORT</span>
+        <span class="tip-ticker">SPY</span>
+        <span class="tip-action-badge tip-action-investigate">INVESTIGATE</span>
+      </div>
+      <h3 class="tip-card-headline"><a href="/tips/spy-securitieslitigation-noise-is-now-mainstream-13.html">Securities-litigation noise is now mainstream - SHORT direction remains, but the edge is closing ...</a></h3>
+      <p class="tip-card-narrative">This is the macro version of AS-001: a wide burst of securities-litigation alerts across multiple issuers. The direction remains SHORT because the economic mechanism is still negative - legal expense, disclosure drag, and reputational overhang are...</p>
+      <div class="tip-card-footer">
+        <div class="tip-conviction-wrap">
+          <span class="tip-conviction-label">Conviction 41%</span>
+          <div class="tip-conviction-bar"><div class="tip-conviction-fill tip-dir-short" style="width:41%"></div></div>
+        </div>
+        <div class="tip-card-badges">
+          <span class="tip-edge-badge tip-edge-decay">DECAYING</span>
+          <span style="font-size:0.6rem; color:var(--light);">$689.43 (+0.7%)</span>
+        </div>
+      </div>
+    </div>
+    <div class="tip-card">
+      <div class="tip-card-header">
+        <span class="tip-sector-tag">Pharma</span>
+        <span class="tip-dir-badge tip-dir-short">↓ SHORT</span>
+        
+        <span class="tip-action-badge tip-action-avoid">AVOID</span>
+      </div>
+      <h3 class="tip-card-headline"><a href="/tips/levi-deadline-alert-a-real-3.html">Levi deadline alert: a real date, but not a real instrument (and probably not a catalyst)</a></h3>
+      <p class="tip-card-narrative">This is a procedural class-action reminder centred on a lead-plaintiff deadline (March 13, 2026) tied to Bath &amp; Body Works (BBWI) allegations. The directional instinct is bearish because litigation overhang can sustain headline risk and management...</p>
+      <div class="tip-card-footer">
+        <div class="tip-conviction-wrap">
+          <span class="tip-conviction-label">Conviction 64%</span>
+          <div class="tip-conviction-bar"><div class="tip-conviction-fill tip-dir-short" style="width:64%"></div></div>
+        </div>
+        <div class="tip-card-badges">
+          <span class="tip-edge-badge tip-edge-high">HIGH</span>
+          
+        </div>
+      </div>
+    </div>
+    <div class="tip-card">
+      <div class="tip-card-header">
+        <span class="tip-sector-tag">Pharma</span>
+        <span class="tip-dir-badge tip-dir-short">↓ SHORT</span>
+        
+        <span class="tip-action-badge tip-action-avoid">AVOID</span>
+      </div>
+      <h3 class="tip-card-headline"><a href="/tips/ofcoms-record-fine-is-real-8.html">Ofcom&#39;s record fine is real enforcement, but this payload does not name the tradeable victim</a></h3>
+      <p class="tip-card-narrative">The bearish mechanism is clear: a regulator demonstrating real penalties and daily fines tightens the perceived compliance regime for UK-facing adult-content platforms, which is directionally negative for marginal operators and increases expected ...</p>
+      <div class="tip-card-footer">
+        <div class="tip-conviction-wrap">
+          <span class="tip-conviction-label">Conviction 59%</span>
+          <div class="tip-conviction-bar"><div class="tip-conviction-fill tip-dir-short" style="width:59%"></div></div>
+        </div>
+        <div class="tip-card-badges">
+          <span class="tip-edge-badge tip-edge-high">HIGH</span>
+          
+        </div>
+      </div>
+    </div>
+    <div class="tip-card">
+      <div class="tip-card-header">
+        <span class="tip-sector-tag">Pharma</span>
+        <span class="tip-dir-badge tip-dir-short">↓ SHORT</span>
+        
+        <span class="tip-action-badge tip-action-avoid">AVOID</span>
+      </div>
+      <h3 class="tip-card-headline"><a href="/tips/texas-visionplan-legal-win-a-9.html">Texas vision-plan legal win: a real injunction, but not a trade without a listed exposure map</a></h3>
+      <p class="tip-card-narrative">This signal is a concrete legal outcome in Texas affecting managed vision plan communications and anti-steering restrictions. The upstream direction here is SHORT (a negative mechanism in the original framing), but the substantive reading from the...</p>
+      <div class="tip-card-footer">
+        <div class="tip-conviction-wrap">
+          <span class="tip-conviction-label">Conviction 55%</span>
+          <div class="tip-conviction-bar"><div class="tip-conviction-fill tip-dir-short" style="width:55%"></div></div>
+        </div>
+        <div class="tip-card-badges">
+          <span class="tip-edge-badge tip-edge-high">HIGH</span>
+          
+        </div>
+      </div>
+    </div>
+    <div class="tip-card">
+      <div class="tip-card-header">
+        <span class="tip-sector-tag">Pharma</span>
+        <span class="tip-dir-badge tip-dir-mixed">● MIXED</span>
+        <span class="tip-ticker">RHHBY</span>
+        <span class="tip-action-badge tip-action-avoid">AVOID</span>
+      </div>
+      <h3 class="tip-card-headline"><a href="/tips/rhhby-roche-regulation-is-already-in-5.html">Roche ‘regulation’ is already in the Reuters lane - the edge is gone, and even direction is not r...</a></h3>
+      <p class="tip-card-narrative">The only reason this remains on the board at all is that “Roche + regulation” can matter when it is tied to a named asset, label change, or decision. But the lifecycle routing says the quiet part out loud: it is in propagation_monitor with a decay...</p>
+      <div class="tip-card-footer">
+        <div class="tip-conviction-wrap">
+          <span class="tip-conviction-label">Conviction 54%</span>
+          <div class="tip-conviction-bar"><div class="tip-conviction-fill tip-dir-mixed" style="width:54%"></div></div>
+        </div>
+        <div class="tip-card-badges">
+          <span class="tip-edge-badge tip-edge-decay">DECAYING</span>
+          <span style="font-size:0.6rem; color:var(--light);">USD 60.58 (+1.0%)</span>
+        </div>
+      </div>
+    </div>
+    <div class="tip-card">
+      <div class="tip-card-header">
+        <span class="tip-sector-tag">Pharma</span>
+        <span class="tip-dir-badge tip-dir-long">↑ LONG</span>
+        
+        <span class="tip-action-badge tip-action-avoid">AVOID</span>
+      </div>
+      <h3 class="tip-card-headline"><a href="/tips/europols-fakemedicine-crackdown-is-real-6.html">Europol&#39;s Fake-Medicine Crackdown Is Real, But You Can&#39;t Trade It Without a Target</a></h3>
+      <p class="tip-card-narrative">The core claim is an international enforcement operation against counterfeit pharmaceuticals and illegal supplements (quantified seizures and prosecutions), which the system frames as a LONG mechanism in principle: tighter enforcement can support ...</p>
+      <div class="tip-card-footer">
+        <div class="tip-conviction-wrap">
+          <span class="tip-conviction-label">Conviction 53%</span>
+          <div class="tip-conviction-bar"><div class="tip-conviction-fill tip-dir-long" style="width:53%"></div></div>
+        </div>
+        <div class="tip-card-badges">
+          <span class="tip-edge-badge tip-edge-high">HIGH</span>
+          
+        </div>
+      </div>
+    </div>
+    <div class="tip-card">
+      <div class="tip-card-header">
+        <span class="tip-sector-tag">Pharma</span>
+        <span class="tip-dir-badge tip-dir-mixed">● MIXED</span>
+        
+        <span class="tip-action-badge tip-action-avoid">AVOID</span>
+      </div>
+      <h3 class="tip-card-headline"><a href="/tips/the-enforcement-metacluster-when-tier1-9.html">The Enforcement Meta-Cluster: When Tier-1 Pickup Means the Edge Is Already Gone</a></h3>
+      <p class="tip-card-narrative">ED-001 is a high-velocity aggregation of enforcement and legal-action headlines spanning multiple regulators and issuers, which is exactly the kind of bundle that can look tradable but is often just a topic cloud. The action is AVOID because the e...</p>
+      <div class="tip-card-footer">
+        <div class="tip-conviction-wrap">
+          <span class="tip-conviction-label">Conviction 53%</span>
+          <div class="tip-conviction-bar"><div class="tip-conviction-fill tip-dir-mixed" style="width:53%"></div></div>
+        </div>
+        <div class="tip-card-badges">
+          <span class="tip-edge-badge tip-edge-decay">DECAYING</span>
+          
+        </div>
+      </div>
+    </div>
+    <div class="tip-card">
+      <div class="tip-card-header">
+        <span class="tip-sector-tag">Pharma</span>
+        <span class="tip-dir-badge tip-dir-short">↓ SHORT</span>
+        
+        <span class="tip-action-badge tip-action-avoid">AVOID</span>
+      </div>
+      <h3 class="tip-card-headline"><a href="/tips/cpsc-efiling-has-a-real-8.html">CPSC eFiling has a real deadline - but this packet gives you no tradeable way to express it</a></h3>
+      <p class="tip-card-narrative">The underlying story is operational plumbing with real dates: CPSC eFiling requirements for certificate data are moving towards mandatory implementation (the upstream evidence references a July 8, 2026 effective date). That can matter financially ...</p>
+      <div class="tip-card-footer">
+        <div class="tip-conviction-wrap">
+          <span class="tip-conviction-label">Conviction 52%</span>
+          <div class="tip-conviction-bar"><div class="tip-conviction-fill tip-dir-short" style="width:52%"></div></div>
+        </div>
+        <div class="tip-card-badges">
+          <span class="tip-edge-badge tip-edge-high">HIGH</span>
+          
+        </div>
+      </div>
+    </div>
+    <div class="tip-card">
+      <div class="tip-card-header">
+        <span class="tip-sector-tag">Pharma</span>
+        <span class="tip-dir-badge tip-dir-long">↑ LONG</span>
+        
+        <span class="tip-action-badge tip-action-avoid">AVOID</span>
+      </div>
+      <h3 class="tip-card-headline"><a href="/tips/tsnd201-phase-2-ptsd-data-9.html">TSND-201 phase 2 PTSD data looks like real clinical signal - the problem is you cannot buy it here</a></h3>
+      <p class="tip-card-narrative">The direction is LONG (52% conviction) because the mechanism is straightforward: a peer-reviewed phase 2 trial signal in PTSD can de-risk perception, improve financing optionality, and pull partnership interest forward. The upstream evidence descr...</p>
+      <div class="tip-card-footer">
+        <div class="tip-conviction-wrap">
+          <span class="tip-conviction-label">Conviction 52%</span>
+          <div class="tip-conviction-bar"><div class="tip-conviction-fill tip-dir-long" style="width:52%"></div></div>
+        </div>
+        <div class="tip-card-badges">
+          <span class="tip-edge-badge tip-edge-high">HIGH</span>
+          
+        </div>
+      </div>
+    </div>
+    <div class="tip-card">
+      <div class="tip-card-header">
+        <span class="tip-sector-tag">Pharma</span>
+        <span class="tip-dir-badge tip-dir-short">↓ SHORT</span>
+        
+        <span class="tip-action-badge tip-action-avoid">AVOID</span>
+      </div>
+      <h3 class="tip-card-headline"><a href="/tips/operation-shield-vi-is-a-10.html">Operation SHIELD VI is a real Europol crackdown - but without named listed nodes, it&#39;s a narrativ...</a></h3>
+      <p class="tip-card-narrative">This is a concrete law-enforcement action: Europol&#39;s Operation SHIELD VI reporting includes prosecutions, investigations, and seizures targeting counterfeit/falsified medicines, doping substances, and illegal supplements. 7A resolves it SHORT (52%...</p>
+      <div class="tip-card-footer">
+        <div class="tip-conviction-wrap">
+          <span class="tip-conviction-label">Conviction 52%</span>
+          <div class="tip-conviction-bar"><div class="tip-conviction-fill tip-dir-short" style="width:52%"></div></div>
+        </div>
+        <div class="tip-card-badges">
+          <span class="tip-edge-badge tip-edge-high">HIGH</span>
+          
+        </div>
+      </div>
+    </div>
+    <div class="tip-card">
+      <div class="tip-card-header">
+        <span class="tip-sector-tag">Pharma</span>
+        <span class="tip-dir-badge tip-dir-short">↓ SHORT</span>
+        
+        <span class="tip-action-badge tip-action-avoid">AVOID</span>
+      </div>
+      <h3 class="tip-card-headline"><a href="/tips/dojs-usd-233m-aca-fraud-10.html">DOJ&#39;s USD 233m ACA fraud sentencing: bearish for the channel, but the listed exposure is not named</a></h3>
+      <p class="tip-card-narrative">The SHORT thesis is about compliance tightening in enrolment and broker-marketer channels: a high-profile DOJ case can increase verification intensity, reduce volumes, and raise compliance cost. That is directionally negative for intermediaries th...</p>
+      <div class="tip-card-footer">
+        <div class="tip-conviction-wrap">
+          <span class="tip-conviction-label">Conviction 52%</span>
+          <div class="tip-conviction-bar"><div class="tip-conviction-fill tip-dir-short" style="width:52%"></div></div>
+        </div>
+        <div class="tip-card-badges">
+          <span class="tip-edge-badge tip-edge-high">HIGH</span>
+          
+        </div>
+      </div>
+    </div>
+    <div class="tip-card">
+      <div class="tip-card-header">
+        <span class="tip-sector-tag">Pharma</span>
+        <span class="tip-dir-badge tip-dir-fade">↔ FADE</span>
+        <span class="tip-ticker">JNJ</span>
+        <span class="tip-action-badge tip-action-avoid">AVOID</span>
+      </div>
+      <h3 class="tip-card-headline"><a href="/tips/jnj-jnj-manufacturingoperations-noise-widely-known-11.html">JNJ Manufacturing/Operations Noise: Widely Known, Hard to Trade, Marked as Fade</a></h3>
+      <p class="tip-card-narrative">This is another JNJ cluster, specifically framed as manufacturing/operations issues with broad coverage. The pipeline flags it as spreading with edge decaying, and it assigns FADE - that is the model saying &quot;do not treat this as tradable informati...</p>
+      <div class="tip-card-footer">
+        <div class="tip-conviction-wrap">
+          <span class="tip-conviction-label">Conviction 52%</span>
+          <div class="tip-conviction-bar"><div class="tip-conviction-fill tip-dir-mixed" style="width:52%"></div></div>
+        </div>
+        <div class="tip-card-badges">
+          <span class="tip-edge-badge tip-edge-decay">DECAYING</span>
+          <span style="font-size:0.6rem; color:var(--light);">$246.91 (+0.8%)</span>
+        </div>
+      </div>
+    </div>
+    <div class="tip-card">
+      <div class="tip-card-header">
+        <span class="tip-sector-tag">Pharma</span>
+        <span class="tip-dir-badge tip-dir-short">↓ SHORT</span>
+        
+        <span class="tip-action-badge tip-action-avoid">AVOID</span>
+      </div>
+      <h3 class="tip-card-headline"><a href="/tips/sec-enforcement-tape-a-real-12.html">SEC Enforcement Tape: A Real Theme, But This Bundle Lacks a Tradeable Handle</a></h3>
+      <p class="tip-card-narrative">The macro thesis is directionally bearish: an SEC-centric compliance/enforcement cycle can pressure affected issuers and raise the discount rate on disclosure risk. But the pipeline routed this to propagation_monitor with edge decaying and Tier-1 ...</p>
+      <div class="tip-card-footer">
+        <div class="tip-conviction-wrap">
+          <span class="tip-conviction-label">Conviction 51%</span>
+          <div class="tip-conviction-bar"><div class="tip-conviction-fill tip-dir-short" style="width:51%"></div></div>
+        </div>
+        <div class="tip-card-badges">
+          <span class="tip-edge-badge tip-edge-decay">DECAYING</span>
+          
+        </div>
+      </div>
+    </div>
+    <div class="tip-card">
+      <div class="tip-card-header">
+        <span class="tip-sector-tag">Pharma</span>
+        <span class="tip-dir-badge tip-dir-fade">↔ FADE</span>
+        
+        <span class="tip-action-badge tip-action-avoid">AVOID</span>
+      </div>
+      <h3 class="tip-card-headline"><a href="/tips/fda-policy-discourse-is-everywhere-13.html">FDA Policy Discourse Is Everywhere - Which Means This One Is Marked Fade</a></h3>
+      <p class="tip-card-narrative">ED-003 is a broad FDA policy/regulatory activity cluster with Tier-1 presence. The pipeline explicitly labels it as spreading and decaying, and it assigns FADE - the thesis is that the informational edge has already been arbitraged, leaving only s...</p>
+      <div class="tip-card-footer">
+        <div class="tip-conviction-wrap">
+          <span class="tip-conviction-label">Conviction 51%</span>
+          <div class="tip-conviction-bar"><div class="tip-conviction-fill tip-dir-mixed" style="width:51%"></div></div>
+        </div>
+        <div class="tip-card-badges">
+          <span class="tip-edge-badge tip-edge-decay">DECAYING</span>
+          
+        </div>
+      </div>
+    </div>
+    <div class="tip-card">
+      <div class="tip-card-header">
+        <span class="tip-sector-tag">Pharma</span>
+        <span class="tip-dir-badge tip-dir-short">↓ SHORT</span>
+        
+        <span class="tip-action-badge tip-action-avoid">AVOID</span>
+      </div>
+      <h3 class="tip-card-headline"><a href="/tips/nitrosamines-are-now-a-permanent-11.html">Nitrosamines are now a permanent compliance tax - bearish by default, unless you can name who get...</a></h3>
+      <p class="tip-card-narrative">The system resolves this theme SHORT (50% conviction) because nitrosamine mitigation is a structural burden: risk assessments, process controls, analytical testing, and occasional recall or supply disruption when impurities are detected. That is n...</p>
+      <div class="tip-card-footer">
+        <div class="tip-conviction-wrap">
+          <span class="tip-conviction-label">Conviction 50%</span>
+          <div class="tip-conviction-bar"><div class="tip-conviction-fill tip-dir-short" style="width:50%"></div></div>
+        </div>
+        <div class="tip-card-badges">
+          <span class="tip-edge-badge tip-edge-high">HIGH</span>
+          
+        </div>
+      </div>
+    </div>
+    <div class="tip-card">
+      <div class="tip-card-header">
+        <span class="tip-sector-tag">Pharma</span>
+        <span class="tip-dir-badge tip-dir-mixed">● MIXED</span>
+        <span class="tip-ticker">IHE</span>
+        <span class="tip-action-badge tip-action-avoid">AVOID</span>
+      </div>
+      <h3 class="tip-card-headline"><a href="/tips/ihe-the-adverse-drug-events-megacluster-7.html">The ‘adverse drug events’ mega-cluster has already hit Bloomberg/Reuters/WSJ - disaggregate or do...</a></h3>
+      <p class="tip-card-narrative">This is the textbook example of a cluster that looks important but is structurally noisy. The entity mix spans pharma and non-pharma names, and the lifecycle position is spreading with a decaying edge. Even if there is a real safety or regulatory ...</p>
+      <div class="tip-card-footer">
+        <div class="tip-conviction-wrap">
+          <span class="tip-conviction-label">Conviction 50%</span>
+          <div class="tip-conviction-bar"><div class="tip-conviction-fill tip-dir-mixed" style="width:50%"></div></div>
+        </div>
+        <div class="tip-card-badges">
+          <span class="tip-edge-badge tip-edge-decay">DECAYING</span>
+          <span style="font-size:0.6rem; color:var(--light);">USD 91.60 (+0.6%)</span>
+        </div>
+      </div>
+    </div>
+    <div class="tip-card">
+      <div class="tip-card-header">
+        <span class="tip-sector-tag">Pharma</span>
+        <span class="tip-dir-badge tip-dir-short">↓ SHORT</span>
+        
+        <span class="tip-action-badge tip-action-avoid">AVOID</span>
+      </div>
+      <h3 class="tip-card-headline"><a href="/tips/brazils-anvisa-tightens-a-safety-9.html">Brazil&#39;s Anvisa Tightens a Safety Loop: Small Rule, Real Compliance Friction</a></h3>
+      <p class="tip-card-narrative">The upstream artefact is a Brazil-specific regulatory tightening: local reporting cites Anvisa RDC No. 1.017/2026 and a pregnancy-test safeguard requirement in the cenobamate context. The system resolves this SHORT in principle because incremental...</p>
+      <div class="tip-card-footer">
+        <div class="tip-conviction-wrap">
+          <span class="tip-conviction-label">Conviction 49%</span>
+          <div class="tip-conviction-bar"><div class="tip-conviction-fill tip-dir-short" style="width:49%"></div></div>
+        </div>
+        <div class="tip-card-badges">
+          <span class="tip-edge-badge tip-edge-high">HIGH</span>
+          
+        </div>
+      </div>
+    </div>
+    <div class="tip-card">
+      <div class="tip-card-header">
+        <span class="tip-sector-tag">Pharma</span>
+        <span class="tip-dir-badge tip-dir-short">↓ SHORT</span>
+        
+        <span class="tip-action-badge tip-action-avoid">AVOID</span>
+      </div>
+      <h3 class="tip-card-headline"><a href="/tips/prop-65-notice-volume-is-13.html">Prop 65 notice volume is still high - the market impact is real but issuer-specific and missing here</a></h3>
+      <p class="tip-card-narrative">The theme is an enforcement cadence signal: hundreds of Prop 65 notices in a single month imply a steady litigation and compliance drag for exposed categories. 7A resolves this SHORT (49% conviction) on the basis that the burden is ongoing and cos...</p>
+      <div class="tip-card-footer">
+        <div class="tip-conviction-wrap">
+          <span class="tip-conviction-label">Conviction 49%</span>
+          <div class="tip-conviction-bar"><div class="tip-conviction-fill tip-dir-short" style="width:49%"></div></div>
+        </div>
+        <div class="tip-card-badges">
+          <span class="tip-edge-badge tip-edge-high">HIGH</span>
+          
+        </div>
+      </div>
+    </div>
+    <div class="tip-card">
+      <div class="tip-card-header">
+        <span class="tip-sector-tag">Pharma</span>
+        <span class="tip-dir-badge tip-dir-mixed">● MIXED</span>
+        <span class="tip-ticker">XLF</span>
+        <span class="tip-action-badge tip-action-avoid">AVOID</span>
+      </div>
+      <h3 class="tip-card-headline"><a href="/tips/xlf-insurancelaw-noise-around-financials-high-12.html">Insurance-Law Noise Around Financials: High Volume, Mixed Direction, No Edge</a></h3>
+      <p class="tip-card-narrative">This signal is explicitly MIXED at the directional layer and it lives in a spreading, edge-decaying bucket. That combination is lethal for tradability: you have lots of noise (litigation/insurance-law references) and no clean directional mechanism...</p>
+      <div class="tip-card-footer">
+        <div class="tip-conviction-wrap">
+          <span class="tip-conviction-label">Conviction 48%</span>
+          <div class="tip-conviction-bar"><div class="tip-conviction-fill tip-dir-mixed" style="width:48%"></div></div>
+        </div>
+        <div class="tip-card-badges">
+          <span class="tip-edge-badge tip-edge-decay">DECAYING</span>
+          <span style="font-size:0.6rem; color:var(--light);">$52.50 (+1.2%)</span>
+        </div>
+      </div>
+    </div>
+    <div class="tip-card">
+      <div class="tip-card-header">
+        <span class="tip-sector-tag">Pharma</span>
+        <span class="tip-dir-badge tip-dir-short">↓ SHORT</span>
+        
+        <span class="tip-action-badge tip-action-avoid">AVOID</span>
+      </div>
+      <h3 class="tip-card-headline"><a href="/tips/benzodiazepine-use-is-falling-coprescribing-13.html">Benzodiazepine Use Is Falling, Co-Prescribing Risk Isn&#39;t: A Slow-Burn Policy Headwind With No Ticker</a></h3>
+      <p class="tip-card-narrative">The signal is a policy-risk shape, not a company story: benzodiazepine use declines from 4.7% (2018) to 3.4% (2022), but co-prescribing with other CNS depressants remains high (41.6% in the same year), which is exactly the kind of statistic that c...</p>
+      <div class="tip-card-footer">
+        <div class="tip-conviction-wrap">
+          <span class="tip-conviction-label">Conviction 48%</span>
+          <div class="tip-conviction-bar"><div class="tip-conviction-fill tip-dir-short" style="width:48%"></div></div>
+        </div>
+        <div class="tip-card-badges">
+          <span class="tip-edge-badge tip-edge-high">HIGH</span>
+          
+        </div>
+      </div>
+    </div>
+    <div class="tip-card">
+      <div class="tip-card-header">
+        <span class="tip-sector-tag">Pharma</span>
+        <span class="tip-dir-badge tip-dir-short">↓ SHORT</span>
+        
+        <span class="tip-action-badge tip-action-avoid">AVOID</span>
+      </div>
+      <h3 class="tip-card-headline"><a href="/tips/doliprane-paediatric-recall-highsalience-safety-14.html">Doliprane paediatric recall: high-salience safety story in France, but the packet gives you no ti...</a></h3>
+      <p class="tip-card-narrative">The underlying claim is specific and consumer-salient: a recall of multiple lots of Doliprane 2.4% paediatric oral suspension in France tied to a dosing pipette defect (graduations fading), with an overdose-risk framing. 7A resolves this SHORT (48...</p>
+      <div class="tip-card-footer">
+        <div class="tip-conviction-wrap">
+          <span class="tip-conviction-label">Conviction 48%</span>
+          <div class="tip-conviction-bar"><div class="tip-conviction-fill tip-dir-short" style="width:48%"></div></div>
+        </div>
+        <div class="tip-card-badges">
+          <span class="tip-edge-badge tip-edge-high">HIGH</span>
+          
+        </div>
+      </div>
+    </div>
+    <div class="tip-card">
+      <div class="tip-card-header">
+        <span class="tip-sector-tag">Pharma</span>
+        <span class="tip-dir-badge tip-dir-mixed">● MIXED</span>
+        <span class="tip-ticker">IHE</span>
+        <span class="tip-action-badge tip-action-avoid">AVOID</span>
+      </div>
+      <h3 class="tip-card-headline"><a href="/tips/ihe-pharma-safety-is-everywhere-already-11.html">Pharma safety is everywhere already - Tier-1 footprint means your edge must be a new artefact, no...</a></h3>
+      <p class="tip-card-narrative">The signal is important in a narrative sense - vaccine liability, safety scrutiny, and regulatory standards can move the whole sector - but as packaged it is already mainstream and directionally unresolved. That is exactly what MIXED in propagatio...</p>
+      <div class="tip-card-footer">
+        <div class="tip-conviction-wrap">
+          <span class="tip-conviction-label">Conviction 47%</span>
+          <div class="tip-conviction-bar"><div class="tip-conviction-fill tip-dir-mixed" style="width:47%"></div></div>
+        </div>
+        <div class="tip-card-badges">
+          <span class="tip-edge-badge tip-edge-decay">DECAYING</span>
+          <span style="font-size:0.6rem; color:var(--light);">USD 91.60 (+0.6%)</span>
+        </div>
+      </div>
+    </div>
+    <div class="tip-card">
+      <div class="tip-card-header">
+        <span class="tip-sector-tag">Pharma</span>
+        <span class="tip-dir-badge tip-dir-mixed">● MIXED</span>
+        <span class="tip-ticker">SPY</span>
+        <span class="tip-action-badge tip-action-avoid">AVOID</span>
+      </div>
+      <h3 class="tip-card-headline"><a href="/tips/spy-marketbeatstyle-ratings-churn-is-eating-6.html">MarketBeat-style ratings churn is eating the tape - edge is gone, mechanism is not investable</a></h3>
+      <p class="tip-card-narrative">This is a classic propagation-monitor item: a high-volume, echo-prone flow of investor/ratings copy that co-mentions pharma-adjacent names but does not supply a clean, falsifiable catalyst. Direction is MIXED because the mechanism could be either ...</p>
+      <div class="tip-card-footer">
+        <div class="tip-conviction-wrap">
+          <span class="tip-conviction-label">Conviction 47%</span>
+          <div class="tip-conviction-bar"><div class="tip-conviction-fill tip-dir-mixed" style="width:47%"></div></div>
+        </div>
+        <div class="tip-card-badges">
+          <span class="tip-edge-badge tip-edge-decay">DECAYING</span>
+          <span style="font-size:0.6rem; color:var(--light);">$689.43 (+0.7%)</span>
+        </div>
+      </div>
+    </div>
+    <div class="tip-card">
+      <div class="tip-card-header">
+        <span class="tip-sector-tag">Pharma</span>
+        <span class="tip-dir-badge tip-dir-mixed">● MIXED</span>
+        <span class="tip-ticker">XBI</span>
+        <span class="tip-action-badge tip-action-avoid">AVOID</span>
+      </div>
+      <h3 class="tip-card-headline"><a href="/tips/xbi-the-vinay-prasad-fdastandards-debate-13.html">The Vinay Prasad FDA-standards debate has become consensus content - treat it as already absorbed...</a></h3>
+      <p class="tip-card-narrative">This is a debate about evidentiary standards and approval philosophy - exactly the kind of thing that can move biotech risk premia when it is new. The problem is that it is not new here: the system flags it as edge closed (routed to propagation_mo...</p>
+      <div class="tip-card-footer">
+        <div class="tip-conviction-wrap">
+          <span class="tip-conviction-label">Conviction 45%</span>
+          <div class="tip-conviction-bar"><div class="tip-conviction-fill tip-dir-mixed" style="width:45%"></div></div>
+        </div>
+        <div class="tip-card-badges">
+          <span class="tip-edge-badge tip-edge-decay">DECAYING</span>
+          <span style="font-size:0.6rem; color:var(--light);">USD 129.16 (+1.7%)</span>
+        </div>
+      </div>
+    </div>
+    <div class="tip-card">
+      <div class="tip-card-header">
+        <span class="tip-sector-tag">Pharma</span>
+        <span class="tip-dir-badge tip-dir-fade">↔ FADE</span>
+        <span class="tip-ticker">LLY</span>
+        <span class="tip-action-badge tip-action-avoid">AVOID</span>
+      </div>
+      <h3 class="tip-card-headline"><a href="/tips/lly-glp1-expansion-is-everywhere-now-7.html">GLP-1 expansion is everywhere now - the signal is a fade because the narrative is already consensus</a></h3>
+      <p class="tip-card-narrative">This is not a Lilly call; it is a warning label about edge. The direction is FADE because the GLP-1/obesity market expansion narrative is already mainstream and heavily distributed, so whatever incremental value existed has been arbitraged into co...</p>
+      <div class="tip-card-footer">
+        <div class="tip-conviction-wrap">
+          <span class="tip-conviction-label">Conviction 44%</span>
+          <div class="tip-conviction-bar"><div class="tip-conviction-fill tip-dir-mixed" style="width:44%"></div></div>
+        </div>
+        <div class="tip-card-badges">
+          <span class="tip-edge-badge tip-edge-decay">DECAYING</span>
+          <span style="font-size:0.6rem; color:var(--light);">$1,009.52 (-1.3%)</span>
+        </div>
+      </div>
+    </div>
+    <div class="tip-card">
+      <div class="tip-card-header">
+        <span class="tip-sector-tag">Pharma</span>
+        <span class="tip-dir-badge tip-dir-short">↓ SHORT</span>
+        
+        <span class="tip-action-badge tip-action-avoid">AVOID</span>
+      </div>
+      <h3 class="tip-card-headline"><a href="/tips/hbel-and-toxlinked-cleaning-validation-10.html">HBEL and tox-linked cleaning validation: real compliance pain, but no instrument and no new regul...</a></h3>
+      <p class="tip-card-narrative">The pipeline resolves direction as SHORT because tighter contamination-control expectations translate into remediation, downtime, and batch-release gating risk for exposed manufacturers and plants. That is a fundamentally negative mechanism. The r...</p>
+      <div class="tip-card-footer">
+        <div class="tip-conviction-wrap">
+          <span class="tip-conviction-label">Conviction 42%</span>
+          <div class="tip-conviction-bar"><div class="tip-conviction-fill tip-dir-short" style="width:42%"></div></div>
+        </div>
+        <div class="tip-card-badges">
+          <span class="tip-edge-badge tip-edge-high">HIGH</span>
+          
+        </div>
+      </div>
+    </div>
+    <div class="tip-card">
+      <div class="tip-card-header">
+        <span class="tip-sector-tag">Pharma</span>
+        <span class="tip-dir-badge tip-dir-short">↓ SHORT</span>
+        
+        <span class="tip-action-badge tip-action-avoid">AVOID</span>
+      </div>
+      <h3 class="tip-card-headline"><a href="/tips/halper-sadeh-shareholder-rights-alerts-11.html">Halper Sadeh &#39;shareholder rights&#39; alerts: the template is the product, and the trade is missing</a></h3>
+      <p class="tip-card-narrative">The direction is SHORT because the mechanism described by the system is negative: templated shareholder-rights alerts can create a low-grade legal overhang when they attach to a specific deal and then progress into filings. But in this instance th...</p>
+      <div class="tip-card-footer">
+        <div class="tip-conviction-wrap">
+          <span class="tip-conviction-label">Conviction 41%</span>
+          <div class="tip-conviction-bar"><div class="tip-conviction-fill tip-dir-short" style="width:41%"></div></div>
+        </div>
+        <div class="tip-card-badges">
+          <span class="tip-edge-badge tip-edge-high">HIGH</span>
+          
+        </div>
+      </div>
+    </div>
+    <div class="tip-card">
+      <div class="tip-card-header">
+        <span class="tip-sector-tag">Pharma</span>
+        <span class="tip-dir-badge tip-dir-mixed">● MIXED</span>
+        
+        <span class="tip-action-badge tip-action-avoid">AVOID</span>
+      </div>
+      <h3 class="tip-card-headline"><a href="/tips/adp-governance-issue-that-looks-12.html">ADP &#39;governance issue&#39; that looks like product marketing: MIXED direction is the right answer</a></h3>
+      <p class="tip-card-narrative">This is a classic VIP-lane singleton where the system refuses to force direction: trade_decision is MIXED because the surfaced content reads like SmartCompliance product/compliance positioning rather than an adverse governance event. That is the c...</p>
+      <div class="tip-card-footer">
+        <div class="tip-conviction-wrap">
+          <span class="tip-conviction-label">Conviction 41%</span>
+          <div class="tip-conviction-bar"><div class="tip-conviction-fill tip-dir-mixed" style="width:41%"></div></div>
+        </div>
+        <div class="tip-card-badges">
+          <span class="tip-edge-badge tip-edge-high">HIGH</span>
+          
+        </div>
+      </div>
+    </div>
+    <div class="tip-card">
+      <div class="tip-card-header">
+        <span class="tip-sector-tag">Pharma</span>
+        <span class="tip-dir-badge tip-dir-mixed">● MIXED</span>
+        <span class="tip-ticker">BEN</span>
+        <span class="tip-action-badge tip-action-avoid">AVOID</span>
+      </div>
+      <h3 class="tip-card-headline"><a href="/tips/ben-a-regulatoryearnings-bundle-pinned-to-14.html">A regulatory/earnings bundle pinned to BEN: MIXED direction is telling you the label may be a gra...</a></h3>
+      <p class="tip-card-narrative">This is a propagation-monitor bundle that co-mentions financial services and multiple healthcare/pharma actors under a regulatory/earnings-risk label. Direction is MIXED because the mechanism is ambiguous in the payload: it could be a real policy/...</p>
+      <div class="tip-card-footer">
+        <div class="tip-conviction-wrap">
+          <span class="tip-conviction-label">Conviction 41%</span>
+          <div class="tip-conviction-bar"><div class="tip-conviction-fill tip-dir-mixed" style="width:41%"></div></div>
+        </div>
+        <div class="tip-card-badges">
+          <span class="tip-edge-badge tip-edge-decay">DECAYING</span>
+          <span style="font-size:0.6rem; color:var(--light);">$27.67 (+1.6%)</span>
+        </div>
+      </div>
+    </div>
+    <div class="tip-card">
+      <div class="tip-card-header">
+        <span class="tip-sector-tag">Pharma</span>
+        <span class="tip-dir-badge tip-dir-fade">↔ FADE</span>
+        <span class="tip-ticker">SPY</span>
+        <span class="tip-action-badge tip-action-avoid">AVOID</span>
+      </div>
+      <h3 class="tip-card-headline"><a href="/tips/spy-trumplegal-headline-bundles-fade-is-15.html">Trump-legal headline bundles: FADE is the signal - not because it is false, but because it is alr...</a></h3>
+      <p class="tip-card-narrative">The direction is FADE and the action is AVOID because this is a policy/legal headline bundle with Tier-1 coverage already present upstream. Even if the underlying legal action matters politically, the market mechanism here is broad volatility tran...</p>
+      <div class="tip-card-footer">
+        <div class="tip-conviction-wrap">
+          <span class="tip-conviction-label">Conviction 41%</span>
+          <div class="tip-conviction-bar"><div class="tip-conviction-fill tip-dir-mixed" style="width:41%"></div></div>
+        </div>
+        <div class="tip-card-badges">
+          <span class="tip-edge-badge tip-edge-decay">DECAYING</span>
+          <span style="font-size:0.6rem; color:var(--light);">$689.43 (+0.7%)</span>
+        </div>
+      </div>
+    </div>
+    <div class="tip-card">
+      <div class="tip-card-header">
+        <span class="tip-sector-tag">Pharma</span>
+        <span class="tip-dir-badge tip-dir-mixed">● MIXED</span>
+        
+        <span class="tip-action-badge tip-action-avoid">AVOID</span>
+      </div>
+      <h3 class="tip-card-headline"><a href="/tips/trinidad-procurement-misconduct-allegations-real-12.html">Trinidad procurement misconduct allegations: real governance risk, zero market edge</a></h3>
+      <p class="tip-card-narrative">This is a governance and procurement-misconduct narrative in Trinidad and Tobago involving allegations of political interference and regulatory failures. It is useful context for how pharmaceutical procurement can become politicised, but there is ...</p>
+      <div class="tip-card-footer">
+        <div class="tip-conviction-wrap">
+          <span class="tip-conviction-label">Conviction 17%</span>
+          <div class="tip-conviction-bar"><div class="tip-conviction-fill tip-dir-mixed" style="width:17%"></div></div>
+        </div>
+        <div class="tip-card-badges">
+          <span class="tip-edge-badge tip-edge-none">NONE</span>
+          
+        </div>
+      </div>
     </div>
   </div>
 </div>
