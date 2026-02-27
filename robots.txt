@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://noah-edge.com/sitemap.xml

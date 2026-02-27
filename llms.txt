@@ -1,0 +1,27 @@
+# NOAH Edge Magazine
+# https://noah-edge.com
+
+> NOAH Edge Magazine publishes prediction market intelligence, pharma/litigation tips,
+> and curated editorial content. We operate the Noah Poly Index — a tracked, transparent
+> prediction market edge tracker with published positions and outcomes.
+
+## What This Site Contains
+
+- **Noah Poly Index**: Live prediction market edge tracking with directional accuracy,
+  P&L, and full position disclosure. We enter, we track, we publish.
+- **Prediction Intelligence**: Bionic Ear reports scanning Polymarket for mispriced
+  contracts. Each report grades candidates A-E by evidence depth.
+- **Tips Desk**: Pharma and litigation intelligence from our Information Asymmetry
+  signal engine. Early signals before mainstream analyst coverage.
+- **The Wire**: Curated editorial stories on prediction markets, regulation,
+  and market structure.
+- **Scoreboard**: Full transparent record of every position entered, tracked, exited.
+
+## Publisher
+Ivan Massow / Noah Wire
+
+## Important Notes
+- Nothing on this site constitutes financial advice.
+- We actively trade on positions discussed.
+- All edges shown reflect our own analysis and activity.
+- We disclose positions where indicated.

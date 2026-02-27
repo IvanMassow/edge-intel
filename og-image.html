@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<style>
+/* 1200x630 OG card — screenshot this to generate og-image.png */
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body {
+  width: 1200px;
+  height: 630px;
+  font-family: 'Lato', -apple-system, sans-serif;
+  background: #1A1A1A;
+  color: #FFFFFF;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 60px 80px;
+  overflow: hidden;
+}
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&family=Montserrat:wght@700;800&display=swap');
+
+.top {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+.brand {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 800;
+  font-size: 28px;
+  letter-spacing: 0.12em;
+}
+.brand-sub {
+  font-family: 'Lato', sans-serif;
+  font-weight: 300;
+  font-size: 18px;
+  color: #9CA3AF;
+  letter-spacing: 0.06em;
+  margin-left: 12px;
+}
+.live-badge {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 14px;
+  font-weight: 700;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: #22c55e;
+}
+.live-dot {
+  width: 10px; height: 10px;
+  background: #22c55e;
+  border-radius: 50%;
+}
+
+.middle {
+  text-align: center;
+}
+.index-name {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 800;
+  font-size: 16px;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  color: #0d7680;
+  margin-bottom: 30px;
+}
+.stats {
+  display: flex;
+  justify-content: center;
+  gap: 80px;
+}
+.stat-number {
+  font-weight: 900;
+  font-size: 72px;
+  line-height: 1;
+  color: #FFFFFF;
+}
+.stat-number.accent { color: #22c55e; }
+.stat-number .unit { font-size: 36px; font-weight: 400; }
+.stat-label {
+  font-size: 13px;
+  font-weight: 700;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: rgba(255,255,255,0.4);
+  margin-top: 10px;
+}
+
+.bottom {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+.strapline {
+  font-size: 18px;
+  font-weight: 300;
+  color: rgba(255,255,255,0.5);
+  font-style: italic;
+}
+.strapline strong {
+  font-weight: 700;
+  color: #0d7680;
+  font-style: normal;
+}
+.url {
+  font-size: 16px;
+  font-weight: 700;
+  color: rgba(255,255,255,0.35);
+  letter-spacing: 0.04em;
+}
+</style>
+</head>
+<body>
+  <div class="top">
+    <div>
+      <span class="brand">NOAH</span>
+      <span class="brand-sub">Edge Magazine</span>
+    </div>
+    <div class="live-badge">
+      <span class="live-dot"></span>
+      Live
+    </div>
+  </div>
+
+  <div class="middle">
+    <div class="index-name">Noah Poly Index</div>
+    <div class="stats">
+      <div class="stat">
+        <div class="stat-number accent">78<span class="unit">%</span></div>
+        <div class="stat-label">Directional Accuracy</div>
+      </div>
+      <div class="stat">
+        <div class="stat-number">42</div>
+        <div class="stat-label">Contracts Scanned</div>
+      </div>
+      <div class="stat">
+        <div class="stat-number accent">+14.2</div>
+        <div class="stat-label">Avg Edge Points</div>
+      </div>
+    </div>
+  </div>
+
+  <div class="bottom">
+    <div class="strapline"><strong>Our index. Our research. Our positions.</strong></div>
+    <div class="url">noah-edge.com</div>
+  </div>
+</body>
+</html>
