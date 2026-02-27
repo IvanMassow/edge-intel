@@ -75,10 +75,9 @@ img { display: block; max-width: 100%; }
 
 /* -- HEADER -- */
 .site-header { padding: 1.2rem 2rem 0.8rem; display: flex; align-items: center; justify-content: space-between; max-width: var(--max-width); margin: 0 auto; }
-.brand { display: flex; align-items: baseline; gap: 0.35rem; }
+.brand { display: flex; align-items: baseline; gap: 0.4rem; }
 .brand-noah { font-family: 'Montserrat', sans-serif; font-weight: 800; font-size: 1.5rem; letter-spacing: 0.12em; }
-.brand-sep { color: var(--rule); font-weight: 300; font-size: 1.4rem; margin: 0 0.15rem; }
-.brand-pub { font-family: 'Montserrat', sans-serif; font-weight: 700; font-size: 1.05rem; letter-spacing: 0.06em; color: var(--ink-soft); }
+.brand-edge { font-family: 'Lato', sans-serif; font-weight: 300; font-size: 1.45rem; letter-spacing: 0.04em; color: var(--muted); }
 .header-nav { display: flex; align-items: center; gap: 1.5rem; }
 .header-nav a { font-size: 0.72rem; color: var(--muted); letter-spacing: 0.04em; }
 .header-nav a:hover { color: var(--teal); }
@@ -138,6 +137,13 @@ img { display: block; max-width: 100%; }
 .sidebar-headline { font-weight: 700; font-size: 0.82rem; line-height: 1.35; margin-bottom: 0.2rem; }
 .sidebar-summary { font-size: 0.74rem; font-weight: 300; line-height: 1.5; color: var(--muted); }
 .sidebar-time { font-size: 0.64rem; color: var(--light); margin-top: 0.25rem; }
+
+/* -- HERO SECONDARY STORY -- */
+.hero-secondary { margin-top: 1.5rem; padding-top: 1.5rem; border-top: 1px solid var(--rule); }
+.hero-secondary-headline { font-weight: 700; font-size: 1.05rem; line-height: 1.35; margin: 0.4rem 0 0.5rem; }
+.hero-secondary-headline a { color: var(--ink); text-decoration: none; }
+.hero-secondary-headline a:hover { color: var(--teal); }
+.hero-secondary-deck { font-size: 0.82rem; font-weight: 300; line-height: 1.6; color: var(--muted); margin-bottom: 0.5rem; }
 
 /* -- STORY CARDS -- */
 .stories-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 2rem; padding: 1.2rem 0 2rem; }
@@ -250,10 +256,9 @@ img { display: block; max-width: 100%; }
 }
 @media (max-width: 600px) {
   .site-header { padding: 0.8rem 1.2rem; flex-wrap: wrap; gap: 0.4rem; }
-  .brand { gap: 0.25rem; }
+  .brand { gap: 0.2rem; }
   .brand-noah { font-size: 1.15rem; letter-spacing: 0.08em; }
-  .brand-sep { font-size: 1.1rem; margin: 0 0.08rem; }
-  .brand-pub { font-size: 0.78rem; letter-spacing: 0.04em; }
+  .brand-edge { font-size: 1.1rem; }
   .header-nav { gap: 1rem; }
   .header-nav a { font-size: 0.65rem; }
   .content { padding: 0 1.2rem; }
@@ -275,6 +280,9 @@ img { display: block; max-width: 100%; }
   .index-scores { gap: 1rem; }
   .editors-notes { padding: 1.5rem 1.2rem; }
   .tip-item { grid-template-columns: 1fr; gap: 0.5rem; }
+  .hero-secondary { margin-top: 1rem; padding-top: 1rem; }
+  .hero-secondary-headline { font-size: 0.95rem; }
+  .hero-secondary-deck { font-size: 0.78rem; }
 }
 </style>
 </head>
@@ -309,8 +317,7 @@ img { display: block; max-width: 100%; }
 <header class="site-header">
   <div class="brand">
     <span class="brand-noah">NOAH</span>
-    <span class="brand-sep">/</span>
-    <span class="brand-pub">Edge Magazine</span>
+    <span class="brand-edge">edge</span>
   </div>
   <nav class="header-nav">
     <a href="#" class="active">Latest</a>
@@ -340,16 +347,24 @@ img { display: block; max-width: 100%; }
         <div class="index-stat-label">Cumulative</div>
       </div>
       <div class="index-stat">
+        <div class="index-stat-number accent">+11.9<span class="unit">%</span></div>
+        <div class="index-stat-label">Return</div>
+      </div>
+      <div class="index-stat">
         <div class="index-stat-number accent">61<span class="unit">%</span></div>
         <div class="index-stat-label">Accuracy</div>
       </div>
       <div class="index-stat">
-        <div class="index-stat-number">33W-21L</div>
+        <div class="index-stat-number">33W–21L</div>
         <div class="index-stat-label">Record</div>
       </div>
-      <div class="index-stat">
-        <div class="index-stat-number">208</div>
-        <div class="index-stat-label">Scanned</div>
+      <div class="index-stat hide-mobile">
+        <div class="index-stat-number accent">+176<span class="unit">%</span></div>
+        <div class="index-stat-label">Best Trade</div>
+      </div>
+      <div class="index-stat hide-mobile">
+        <div class="index-stat-number">4</div>
+        <div class="index-stat-label">Active</div>
       </div>
     </div>
     <a href="/scoreboard/" class="index-link">Full scoreboard →</a>
@@ -374,16 +389,21 @@ img { display: block; max-width: 100%; }
         <span class="dot"></span>
         <a href="/stories/decibel-launches-fully-onchain-perpetuals-exchange-on-aptos.html" style="color:var(--teal); font-weight:700;">Read full story →</a>
       </div>
+
+      <div class="hero-secondary">
+        <span class="sidebar-tag poly">Markets</span>
+        <h2 class="hero-secondary-headline"><a href="/stories/decibel-launches-fully-on-chain-derivatives-exchange-on.html">Decibel launches fully on-chain derivatives exchange on Aptos with cross-chain support and incentivised trading</a></h2>
+        <p class="hero-secondary-deck">Decibel, incubated by Aptos Labs, has launched a decentralised perpetual derivatives platform on the Aptos mainnet, featuring on-chain risk management, cross-chain deposits, and an expanding asset ...</p>
+        <div class="hero-meta">
+          <span>27 Feb</span>
+          <span class="dot"></span>
+          <a href="/stories/decibel-launches-fully-on-chain-derivatives-exchange-on.html" style="color:var(--teal); font-weight:700;">Read story →</a>
+        </div>
+      </div>
     </article>
 
     <aside class="sidebar">
       <div class="sidebar-label">More Stories</div>
-      <div class="sidebar-item">
-        <span class="sidebar-tag market">Markets</span>
-        <div class="sidebar-headline"><a href="/stories/decibel-launches-fully-on-chain-derivatives-exchange-on.html">Decibel launches fully on-chain derivatives exchange on Aptos with cross-chain support and incentivised trading</a></div>
-        <div class="sidebar-summary">Decibel, incubated by Aptos Labs, has launched a decentralised perpetual derivatives platform on the Aptos mainnet, f...</div>
-        <div class="sidebar-time">27 Feb</div>
-      </div>
       <div class="sidebar-item">
         <span class="sidebar-tag market">Markets</span>
         <div class="sidebar-headline"><a href="/stories/india-tightens-social-media-rules-for-securities-market-to.html">India tightens social media rules for securities market to combat misinformation</a></div>
@@ -400,6 +420,12 @@ img { display: block; max-width: 100%; }
         <span class="sidebar-tag market">Markets</span>
         <div class="sidebar-headline"><a href="/stories/eu-amends-equity-transparency-rules-to-focus-on-market.html">EU amends equity transparency rules to focus on market capitalisation and commercial data disclosure</a></div>
         <div class="sidebar-summary">The European Union has published new rules under Delegated Regulation (EU) 2026/482, shifting the criteria for equity...</div>
+        <div class="sidebar-time">27 Feb</div>
+      </div>
+      <div class="sidebar-item">
+        <span class="sidebar-tag poly">Prediction Markets</span>
+        <div class="sidebar-headline"><a href="/stories/insider-linked-wallets-dominate-profits-in-zachxbt-inquiry.html">Insider-linked wallets dominate profits in ZachXBT inquiry on Polymarket</a></div>
+        <div class="sidebar-summary">Analysis reveals that eight wallets connected to alleged insiders secured the majority of gains from a single Polymar...</div>
         <div class="sidebar-time">27 Feb</div>
       </div>
     </aside>

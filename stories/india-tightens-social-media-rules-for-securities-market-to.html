@@ -58,10 +58,9 @@ img { display: block; max-width: 100%; }
 
 /* -- HEADER -- */
 .site-header { padding: 1.2rem 2rem 0.8rem; display: flex; align-items: center; justify-content: space-between; max-width: var(--max-width); margin: 0 auto; }
-.brand { display: flex; align-items: baseline; gap: 0.35rem; }
+.brand { display: flex; align-items: baseline; gap: 0.4rem; }
 .brand-noah { font-family: 'Montserrat', sans-serif; font-weight: 800; font-size: 1.5rem; letter-spacing: 0.12em; }
-.brand-sep { color: var(--rule); font-weight: 300; font-size: 1.4rem; margin: 0 0.15rem; }
-.brand-pub { font-family: 'Montserrat', sans-serif; font-weight: 700; font-size: 1.05rem; letter-spacing: 0.06em; color: var(--ink-soft); }
+.brand-edge { font-family: 'Lato', sans-serif; font-weight: 300; font-size: 1.45rem; letter-spacing: 0.04em; color: var(--muted); }
 .header-nav { display: flex; align-items: center; gap: 1.5rem; }
 .header-nav a { font-size: 0.72rem; color: var(--muted); letter-spacing: 0.04em; }
 .header-nav a:hover { color: var(--teal); }
@@ -121,6 +120,13 @@ img { display: block; max-width: 100%; }
 .sidebar-headline { font-weight: 700; font-size: 0.82rem; line-height: 1.35; margin-bottom: 0.2rem; }
 .sidebar-summary { font-size: 0.74rem; font-weight: 300; line-height: 1.5; color: var(--muted); }
 .sidebar-time { font-size: 0.64rem; color: var(--light); margin-top: 0.25rem; }
+
+/* -- HERO SECONDARY STORY -- */
+.hero-secondary { margin-top: 1.5rem; padding-top: 1.5rem; border-top: 1px solid var(--rule); }
+.hero-secondary-headline { font-weight: 700; font-size: 1.05rem; line-height: 1.35; margin: 0.4rem 0 0.5rem; }
+.hero-secondary-headline a { color: var(--ink); text-decoration: none; }
+.hero-secondary-headline a:hover { color: var(--teal); }
+.hero-secondary-deck { font-size: 0.82rem; font-weight: 300; line-height: 1.6; color: var(--muted); margin-bottom: 0.5rem; }
 
 /* -- STORY CARDS -- */
 .stories-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 2rem; padding: 1.2rem 0 2rem; }
@@ -233,10 +239,9 @@ img { display: block; max-width: 100%; }
 }
 @media (max-width: 600px) {
   .site-header { padding: 0.8rem 1.2rem; flex-wrap: wrap; gap: 0.4rem; }
-  .brand { gap: 0.25rem; }
+  .brand { gap: 0.2rem; }
   .brand-noah { font-size: 1.15rem; letter-spacing: 0.08em; }
-  .brand-sep { font-size: 1.1rem; margin: 0 0.08rem; }
-  .brand-pub { font-size: 0.78rem; letter-spacing: 0.04em; }
+  .brand-edge { font-size: 1.1rem; }
   .header-nav { gap: 1rem; }
   .header-nav a { font-size: 0.65rem; }
   .content { padding: 0 1.2rem; }
@@ -258,6 +263,9 @@ img { display: block; max-width: 100%; }
   .index-scores { gap: 1rem; }
   .editors-notes { padding: 1.5rem 1.2rem; }
   .tip-item { grid-template-columns: 1fr; gap: 0.5rem; }
+  .hero-secondary { margin-top: 1rem; padding-top: 1rem; }
+  .hero-secondary-headline { font-size: 0.95rem; }
+  .hero-secondary-deck { font-size: 0.78rem; }
 }
 </style>
 <style>
@@ -292,8 +300,7 @@ img { display: block; max-width: 100%; }
 <header class="site-header">
   <div class="brand">
     <a href="/"><span class="brand-noah">NOAH</span>
-    <span class="brand-sep">/</span>
-    <span class="brand-pub">Edge Magazine</span></a>
+    <span class="brand-edge">edge</span></a>
   </div>
   <nav class="header-nav">
     <a href="/">Latest</a>
