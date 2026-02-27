@@ -2,98 +2,146 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>NOAH Edge Magazine</title>
-    <link>https://noah-edge.com/</link>
+    <link>https://ivanmassow.github.io/edge-intel/</link>
     <description>Prediction market intelligence. The Noah Poly Index tracks edges with transparent positions and tracked outcomes.</description>
     <language>en</language>
-    <lastBuildDate>Fri, 27 Feb 2026 21:10:18 +0000</lastBuildDate>
-    <atom:link href="https://noah-edge.com/rss.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 27 Feb 2026 22:26:41 +0000</lastBuildDate>
+    <atom:link href="https://ivanmassow.github.io/edge-intel/rss.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Flutter’s 2025 revenue falls short as prediction markets reshape US sports betting landscape</title>
+      <link>https://ivanmassow.github.io/edge-intel/stories/flutters-2025-revenue-falls-short-as-prediction-markets.html</link>
+      <description>Flutter Entertainment reports full-year 2025 revenue of $16.4 billion, missing forecasts and raising concerns over the impact of prediction markets and regulatory shifts on the future of US sports ...</description>
+      <pubDate>Fri, 27 Feb 2026 22:13:11 +0000</pubDate>
+      <guid>https://ivanmassow.github.io/edge-intel/stories/flutters-2025-revenue-falls-short-as-prediction-markets.html</guid>
+      <enclosure url="https://ivanmassow.github.io/edge-intel/assets/images/flutters-2025-revenue-falls-short-as-pre-93c5b223.jpg" type="image/jpeg" />
+    </item>
+    <item>
+      <title>Prediction‑market giants Polymarket and Kalshi battle for dominance as US trading soars to $800 million daily</title>
+      <link>https://ivanmassow.github.io/edge-intel/stories/predictionmarket-giants-polymarket-and-kalshi-battle-for.html</link>
+      <description>Polymarket and Kalshi are leading the rapidly expanding prediction‑market sector, with trading volumes reaching new peaks of over $800 million per day amid diverging regulatory and technical strate...</description>
+      <pubDate>Fri, 27 Feb 2026 22:13:05 +0000</pubDate>
+      <guid>https://ivanmassow.github.io/edge-intel/stories/predictionmarket-giants-polymarket-and-kalshi-battle-for.html</guid>
+      <enclosure url="https://ivanmassow.github.io/edge-intel/assets/images/predictionmarket-giants-polymarket-and-k-c41eb3ff.jpg" type="image/jpeg" />
+    </item>
+    <item>
+      <title>OpenAI dismisses employee over suspected insider trading on prediction markets</title>
+      <link>https://ivanmassow.github.io/edge-intel/stories/openai-dismisses-employee-over-suspected-insider-trading-on.html</link>
+      <description>OpenAI has terminated an employee following an internal investigation into alleged use of non-public information for trading on prediction platforms like Polymarket, highlighting ongoing concerns a...</description>
+      <pubDate>Fri, 27 Feb 2026 22:13:01 +0000</pubDate>
+      <guid>https://ivanmassow.github.io/edge-intel/stories/openai-dismisses-employee-over-suspected-insider-trading-on.html</guid>
+      <enclosure url="https://ivanmassow.github.io/edge-intel/assets/images/openai-dismisses-employee-over-suspected-a4468b64.jpg" type="image/jpeg" />
+    </item>
+    <item>
+      <title>Perpetual futures trading slows amid macro caution and looming options expiry</title>
+      <link>https://ivanmassow.github.io/edge-intel/stories/perpetual-futures-trading-slows-amid-macro-caution-and.html</link>
+      <description>Trading volumes on major decentralised perpetual futures exchanges have declined as traders adopt a more cautious stance ahead of significant options expiries, with industry leaders maintaining res...</description>
+      <pubDate>Fri, 27 Feb 2026 22:12:31 +0000</pubDate>
+      <guid>https://ivanmassow.github.io/edge-intel/stories/perpetual-futures-trading-slows-amid-macro-caution-and.html</guid>
+      <enclosure url="https://ivanmassow.github.io/edge-intel/assets/images/perpetual-futures-trading-slows-amid-mac-26839c3d.jpg" type="image/jpeg" />
+    </item>
+    <item>
+      <title>Pump.fun shows signs of potential reversal amid volatile market activity</title>
+      <link>https://ivanmassow.github.io/edge-intel/stories/pumpfun-shows-signs-of-potential-reversal-amid-volatile.html</link>
+      <description>After a period of consolidation, Pump.fun displays renewed buyer engagement and technical signals that could spark a short-term rally, though risks remain amid mixed momentum and supply dynamics.</description>
+      <pubDate>Fri, 27 Feb 2026 22:12:29 +0000</pubDate>
+      <guid>https://ivanmassow.github.io/edge-intel/stories/pumpfun-shows-signs-of-potential-reversal-amid-volatile.html</guid>
+      <enclosure url="https://ivanmassow.github.io/edge-intel/assets/images/pumpfun-shows-signs-of-potential-reversa-e56f1902.jpg" type="image/jpeg" />
+    </item>
+    <item>
+      <title>Profitable bets on Polymarket spark scrutiny as blockchain investigator’s disclosure triggers surge in activity</title>
+      <link>https://ivanmassow.github.io/edge-intel/stories/profitable-bets-on-polymarket-spark-scrutiny-as-blockchain.html</link>
+      <description>A series of highly profitable wagers on Polymarket before ZachXBT publicly linked Axiom has raised questions over information flow, with analysts observing a spike in activity tied to the investiga...</description>
+      <pubDate>Fri, 27 Feb 2026 22:12:16 +0000</pubDate>
+      <guid>https://ivanmassow.github.io/edge-intel/stories/profitable-bets-on-polymarket-spark-scrutiny-as-blockchain.html</guid>
+      <enclosure url="https://ivanmassow.github.io/edge-intel/assets/images/profitable-bets-on-polymarket-spark-scru-d8712a4a.jpg" type="image/jpeg" />
+    </item>
     <item>
       <title>Dutch regulator orders Polymarket to cease unlicensed gambling amid cross-border compliance concerns</title>
-      <link>https://noah-edge.com/stories/dutch-regulator-orders-polymarket-to-cease-unlicensed.html</link>
+      <link>https://ivanmassow.github.io/edge-intel/stories/dutch-regulator-orders-polymarket-to-cease-unlicensed.html</link>
       <description>The Dutch gambling authority has mandated Polymarket to halt operations in the Netherlands over unlicensed betting activities, highlighting regulatory challenges for cross-border prediction markets...</description>
       <pubDate>Fri, 27 Feb 2026 18:22:26 +0000</pubDate>
-      <guid>https://noah-edge.com/stories/dutch-regulator-orders-polymarket-to-cease-unlicensed.html</guid>
-      <enclosure url="https://noah-edge.com/assets/images/dutch-regulator-orders-polymarket-to-cea-966dc484.jpg" type="image/jpeg" />
+      <guid>https://ivanmassow.github.io/edge-intel/stories/dutch-regulator-orders-polymarket-to-cease-unlicensed.html</guid>
+      <enclosure url="https://ivanmassow.github.io/edge-intel/assets/images/dutch-regulator-orders-polymarket-to-cea-966dc484.jpg" type="image/jpeg" />
     </item>
     <item>
       <title>Dutch regulator halts Polymarket over unlicensed prediction markets, sets €840,000 fines</title>
-      <link>https://noah-edge.com/stories/dutch-regulator-halts-polymarket-over-unlicensed-prediction.html</link>
+      <link>https://ivanmassow.github.io/edge-intel/stories/dutch-regulator-halts-polymarket-over-unlicensed-prediction.html</link>
       <description>The Netherlands has ordered US-based prediction platform Polymarket to cease services for Dutch residents, citing unlicensed gambling activities amid escalating European regulatory scrutiny and sig...</description>
       <pubDate>Fri, 27 Feb 2026 18:22:23 +0000</pubDate>
-      <guid>https://noah-edge.com/stories/dutch-regulator-halts-polymarket-over-unlicensed-prediction.html</guid>
-      <enclosure url="https://noah-edge.com/assets/images/dutch-regulator-halts-polymarket-over-un-19407a5b.jpg" type="image/jpeg" />
+      <guid>https://ivanmassow.github.io/edge-intel/stories/dutch-regulator-halts-polymarket-over-unlicensed-prediction.html</guid>
+      <enclosure url="https://ivanmassow.github.io/edge-intel/assets/images/dutch-regulator-halts-polymarket-over-un-19407a5b.jpg" type="image/jpeg" />
     </item>
     <item>
       <title>New data challenges assumptions about web traffic and CFD trading volumes in the forex sector</title>
-      <link>https://noah-edge.com/stories/new-data-challenges-assumptions-about-web-traffic-and-cfd.html</link>
+      <link>https://ivanmassow.github.io/edge-intel/stories/new-data-challenges-assumptions-about-web-traffic-and-cfd.html</link>
       <description>Finance Magnates Intelligence reveals negligible correlation between organic search visits and trading volumes among retail brokers, highlighting that web traffic alone is not a reliable indicator ...</description>
       <pubDate>Fri, 27 Feb 2026 18:22:05 +0000</pubDate>
-      <guid>https://noah-edge.com/stories/new-data-challenges-assumptions-about-web-traffic-and-cfd.html</guid>
-      <enclosure url="https://noah-edge.com/assets/images/new-data-challenges-assumptions-about-we-0374bafb.jpg" type="image/jpeg" />
+      <guid>https://ivanmassow.github.io/edge-intel/stories/new-data-challenges-assumptions-about-web-traffic-and-cfd.html</guid>
+      <enclosure url="https://ivanmassow.github.io/edge-intel/assets/images/new-data-challenges-assumptions-about-we-0374bafb.jpg" type="image/jpeg" />
     </item>
     <item>
       <title>Prediction marketplaces shift towards mainstream adoption amid legal and operational challenges</title>
-      <link>https://noah-edge.com/stories/prediction-marketplaces-shift-towards-mainstream-adoption.html</link>
+      <link>https://ivanmassow.github.io/edge-intel/stories/prediction-marketplaces-shift-towards-mainstream-adoption.html</link>
       <description>As prediction marketplaces move from experimental to commercial phases, industry insiders highlight rapid growth, institutional interest, and ongoing regulatory hurdles that could define their futu...</description>
       <pubDate>Fri, 27 Feb 2026 18:21:53 +0000</pubDate>
-      <guid>https://noah-edge.com/stories/prediction-marketplaces-shift-towards-mainstream-adoption.html</guid>
-      <enclosure url="https://noah-edge.com/assets/images/prediction-marketplaces-shift-towards-ma-5ef9b611.jpg" type="image/jpeg" />
+      <guid>https://ivanmassow.github.io/edge-intel/stories/prediction-marketplaces-shift-towards-mainstream-adoption.html</guid>
+      <enclosure url="https://ivanmassow.github.io/edge-intel/assets/images/prediction-marketplaces-shift-towards-ma-5ef9b611.jpg" type="image/jpeg" />
     </item>
     <item>
       <title>Polymarket odds shift sharply as traders speculate on ZachXBT&#39;s insider trading expose</title>
-      <link>https://noah-edge.com/stories/polymarket-odds-shift-sharply-as-traders-speculate-on.html</link>
+      <link>https://ivanmassow.github.io/edge-intel/stories/polymarket-odds-shift-sharply-as-traders-speculate-on.html</link>
       <description>A prediction market on Polymarket witnesses rapid odds reordering amid speculation over ZachXBT&#39;s upcoming investigation, raising questions about insider trading and market manipulation within the ...</description>
       <pubDate>Fri, 27 Feb 2026 11:39:22 +0000</pubDate>
-      <guid>https://noah-edge.com/stories/polymarket-odds-shift-sharply-as-traders-speculate-on.html</guid>
-      <enclosure url="https://noah-edge.com/assets/images/polymarket-odds-shift-sharply-as-traders-1c808e1f.jpg" type="image/jpeg" />
+      <guid>https://ivanmassow.github.io/edge-intel/stories/polymarket-odds-shift-sharply-as-traders-speculate-on.html</guid>
+      <enclosure url="https://ivanmassow.github.io/edge-intel/assets/images/polymarket-odds-shift-sharply-as-traders-1c808e1f.jpg" type="image/jpeg" />
     </item>
     <item>
       <title>Prediction market bets reveal insider trading suspicion ahead of high-profile Axiom report</title>
-      <link>https://noah-edge.com/stories/prediction-market-bets-reveal-insider-trading-suspicion.html</link>
+      <link>https://ivanmassow.github.io/edge-intel/stories/prediction-market-bets-reveal-insider-trading-suspicion.html</link>
       <description>A series of timed bets on Polymarket suggest potential insider trading linked to allegations against Solana trading platform Axiom, intensifying debate over market abuse and regulatory oversight in...</description>
       <pubDate>Fri, 27 Feb 2026 11:39:17 +0000</pubDate>
-      <guid>https://noah-edge.com/stories/prediction-market-bets-reveal-insider-trading-suspicion.html</guid>
-      <enclosure url="https://noah-edge.com/assets/images/prediction-market-bets-reveal-insider-tr-6e8db827.jpg" type="image/jpeg" />
+      <guid>https://ivanmassow.github.io/edge-intel/stories/prediction-market-bets-reveal-insider-trading-suspicion.html</guid>
+      <enclosure url="https://ivanmassow.github.io/edge-intel/assets/images/prediction-market-bets-reveal-insider-tr-6e8db827.jpg" type="image/jpeg" />
     </item>
     <item>
       <title>Prediction markets accelerate mainstream finance as traders stake billions on outcomes</title>
-      <link>https://noah-edge.com/stories/prediction-markets-accelerate-mainstream-finance-as-traders.html</link>
+      <link>https://ivanmassow.github.io/edge-intel/stories/prediction-markets-accelerate-mainstream-finance-as-traders.html</link>
       <description>Prediction markets like Kalshi and Polymarket are rapidly moving from niche platforms to mainstream financial instruments, attracting billion-dollar valuations and prompting industry-wide scrutiny ...</description>
       <pubDate>Fri, 27 Feb 2026 11:39:12 +0000</pubDate>
-      <guid>https://noah-edge.com/stories/prediction-markets-accelerate-mainstream-finance-as-traders.html</guid>
-      <enclosure url="https://noah-edge.com/assets/images/prediction-markets-accelerate-mainstream-d498d432.jpg" type="image/jpeg" />
+      <guid>https://ivanmassow.github.io/edge-intel/stories/prediction-markets-accelerate-mainstream-finance-as-traders.html</guid>
+      <enclosure url="https://ivanmassow.github.io/edge-intel/assets/images/prediction-markets-accelerate-mainstream-d498d432.jpg" type="image/jpeg" />
     </item>
     <item>
       <title>CFTC steps up enforcement as prediction markets face insider trading scrutiny</title>
-      <link>https://noah-edge.com/stories/cftc-steps-up-enforcement-as-prediction-markets-face.html</link>
+      <link>https://ivanmassow.github.io/edge-intel/stories/cftc-steps-up-enforcement-as-prediction-markets-face.html</link>
       <description>The Commodity Futures Trading Commission has reaffirmed its oversight of prediction markets following Kalshi&#39;s disclosure of insider trading cases involving prominent figures, signalling a tougher ...</description>
       <pubDate>Fri, 27 Feb 2026 11:39:09 +0000</pubDate>
-      <guid>https://noah-edge.com/stories/cftc-steps-up-enforcement-as-prediction-markets-face.html</guid>
-      <enclosure url="https://noah-edge.com/assets/images/cftc-steps-up-enforcement-as-prediction--03d8b724.jpg" type="image/jpeg" />
+      <guid>https://ivanmassow.github.io/edge-intel/stories/cftc-steps-up-enforcement-as-prediction-markets-face.html</guid>
+      <enclosure url="https://ivanmassow.github.io/edge-intel/assets/images/cftc-steps-up-enforcement-as-prediction--03d8b724.jpg" type="image/jpeg" />
     </item>
     <item>
       <title>Polymarket faces scrutiny over potential arbitrage exploit in hybrid settlement model</title>
-      <link>https://noah-edge.com/stories/polymarket-faces-scrutiny-over-potential-arbitrage-exploit.html</link>
+      <link>https://ivanmassow.github.io/edge-intel/stories/polymarket-faces-scrutiny-over-potential-arbitrage-exploit.html</link>
       <description>Traders uncover a suspected timing attack exploiting a vulnerability in Polymarket&#39;s hybrid architecture, raising questions about settlement security amid increasing operational and regulatory pres...</description>
       <pubDate>Fri, 27 Feb 2026 11:39:09 +0000</pubDate>
-      <guid>https://noah-edge.com/stories/polymarket-faces-scrutiny-over-potential-arbitrage-exploit.html</guid>
-      <enclosure url="https://noah-edge.com/assets/images/polymarket-faces-scrutiny-over-potential-aeb65483.jpg" type="image/jpeg" />
+      <guid>https://ivanmassow.github.io/edge-intel/stories/polymarket-faces-scrutiny-over-potential-arbitrage-exploit.html</guid>
+      <enclosure url="https://ivanmassow.github.io/edge-intel/assets/images/polymarket-faces-scrutiny-over-potential-aeb65483.jpg" type="image/jpeg" />
     </item>
     <item>
       <title>Prediction markets see record activity driven by geopolitical and sporting events in February</title>
-      <link>https://noah-edge.com/stories/prediction-markets-see-record-activity-driven-by.html</link>
+      <link>https://ivanmassow.github.io/edge-intel/stories/prediction-markets-see-record-activity-driven-by.html</link>
       <description>On-chain prediction platforms experienced an unprecedented surge in activity in February, with over 38 million transactions amidst growing retail and institutional interest and evolving regulatory ...</description>
       <pubDate>Fri, 27 Feb 2026 11:38:59 +0000</pubDate>
-      <guid>https://noah-edge.com/stories/prediction-markets-see-record-activity-driven-by.html</guid>
-      <enclosure url="https://noah-edge.com/assets/images/prediction-markets-see-record-activity-d-e1d991fc.jpg" type="image/jpeg" />
+      <guid>https://ivanmassow.github.io/edge-intel/stories/prediction-markets-see-record-activity-driven-by.html</guid>
+      <enclosure url="https://ivanmassow.github.io/edge-intel/assets/images/prediction-markets-see-record-activity-d-e1d991fc.jpg" type="image/jpeg" />
     </item>
     <item>
       <title>Prediction-market industry set to reach $10 billion annual revenue by 2030, says Citizens</title>
-      <link>https://noah-edge.com/stories/prediction-market-industry-set-to-reach-10-billion-annual.html</link>
+      <link>https://ivanmassow.github.io/edge-intel/stories/prediction-market-industry-set-to-reach-10-billion-annual.html</link>
       <description>A new analysis by U.S. bank Citizens forecasts the prediction‑market sector soaring to approximately $10 billion a year by 2030, driven by rising trading activity and evolving market mechanics amid...</description>
       <pubDate>Fri, 27 Feb 2026 11:38:55 +0000</pubDate>
-      <guid>https://noah-edge.com/stories/prediction-market-industry-set-to-reach-10-billion-annual.html</guid>
-      <enclosure url="https://noah-edge.com/assets/images/prediction-market-industry-set-to-reach--e4bc51e5.jpg" type="image/jpeg" />
+      <guid>https://ivanmassow.github.io/edge-intel/stories/prediction-market-industry-set-to-reach-10-billion-annual.html</guid>
+      <enclosure url="https://ivanmassow.github.io/edge-intel/assets/images/prediction-market-industry-set-to-reach--e4bc51e5.jpg" type="image/jpeg" />
     </item>
   </channel>
 </rss>
