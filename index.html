@@ -237,7 +237,13 @@ img { display: block; max-width: 100%; }
   .index-scores { gap: 1.5rem; }
 }
 @media (max-width: 600px) {
-  .site-header { padding: 1rem 1.2rem; }
+  .site-header { padding: 0.8rem 1.2rem; flex-wrap: wrap; gap: 0.4rem; }
+  .brand { gap: 0.25rem; }
+  .brand-noah { font-size: 1.15rem; letter-spacing: 0.08em; }
+  .brand-sep { font-size: 1.1rem; margin: 0 0.08rem; }
+  .brand-pub { font-size: 0.78rem; letter-spacing: 0.04em; }
+  .header-nav { gap: 1rem; }
+  .header-nav a { font-size: 0.65rem; }
   .content { padding: 0 1.2rem; }
   .header-nav .hide-mobile { display: none; }
   .hero-headline { font-size: 1.3rem; }
@@ -247,7 +253,7 @@ img { display: block; max-width: 100%; }
   .edge-row > :nth-child(4) { display: none; }
   .footer-inner { flex-direction: column; gap: 1.5rem; }
   .house-ad, .editor-strip { margin: 0 -1.2rem; padding-left: 1.2rem; padding-right: 1.2rem; }
-  .strapline { padding: 0.7rem 1.2rem; }
+  .strapline { padding: 0.7rem 1.2rem; flex-direction: column; gap: 0.2rem; }
   .index-strip { padding: 0.8rem 1.2rem; }
   .index-scores { gap: 1rem; }
   .editors-notes { padding: 1.5rem 1.2rem; }
@@ -339,25 +345,43 @@ img { display: block; max-width: 100%; }
   <div class="hero-split">
     <article class="hero-main">
       <div class="hero-image-wrap">
-        <div style="width:100%;height:360px;background:var(--off);display:flex;align-items:center;justify-content:center;color:var(--light);font-size:0.88rem;">Editorial content coming soon — RSS poller in Phase 2</div>
-        <span class="hero-badge">Prediction Markets</span>
+        <img src="/assets/images/dutch-regulator-orders-polymarket-to-cea-966dc484.jpg" alt="Dutch regulator orders Polymarket to cease unlicensed gambling amid cross-border compliance concerns" style="width:100%;height:360px;object-fit:cover;">
+        <span class="hero-badge">Regulation</span>
       </div>
-      <h1 class="hero-headline"><a href="#">Stories load automatically from the Noah Wire RSS feed</a></h1>
-      <p class="hero-deck">The hero story, sidebar, and Wire section will populate with live editorial content once the RSS poller is connected in Phase 2.</p>
+      <h1 class="hero-headline"><a href="/stories/dutch-regulator-orders-polymarket-to-cease-unlicensed.html">Dutch regulator orders Polymarket to cease unlicensed gambling amid cross-border compliance concerns</a></h1>
+      <p class="hero-deck">The Dutch gambling authority has mandated Polymarket to halt operations in the Netherlands over unlicensed betting activities, highlighting regulatory challenges for cross-border prediction markets...</p>
       <div class="hero-meta">
         <span>Noah Newsroom</span>
         <span class="dot"></span>
-        <span>Awaiting RSS</span>
+        <span>27 Feb</span>
       </div>
     </article>
 
     <aside class="sidebar">
       <div class="sidebar-label">More Stories</div>
       <div class="sidebar-item">
-        <span class="sidebar-tag poly">Coming Soon</span>
-        <div class="sidebar-headline">Stories will appear here from the polymarkettest.makes.news RSS feed</div>
-        <div class="sidebar-summary">Editorial stories with photographs, automatically pulled and classified.</div>
-        <div class="sidebar-time">Phase 2</div>
+        <span class="sidebar-tag regulation">Regulation</span>
+        <div class="sidebar-headline"><a href="/stories/dutch-regulator-halts-polymarket-over-unlicensed-prediction.html">Dutch regulator halts Polymarket over unlicensed prediction markets, sets €840,000 fines</a></div>
+        <div class="sidebar-summary">The Netherlands has ordered US-based prediction platform Polymarket to cease services for Dutch residents, citing unl...</div>
+        <div class="sidebar-time">27 Feb</div>
+      </div>
+      <div class="sidebar-item">
+        <span class="sidebar-tag regulation">Regulation</span>
+        <div class="sidebar-headline"><a href="/stories/new-data-challenges-assumptions-about-web-traffic-and-cfd.html">New data challenges assumptions about web traffic and CFD trading volumes in the forex sector</a></div>
+        <div class="sidebar-summary">Finance Magnates Intelligence reveals negligible correlation between organic search visits and trading volumes among ...</div>
+        <div class="sidebar-time">27 Feb</div>
+      </div>
+      <div class="sidebar-item">
+        <span class="sidebar-tag regulation">Regulation</span>
+        <div class="sidebar-headline"><a href="/stories/prediction-marketplaces-shift-towards-mainstream-adoption.html">Prediction marketplaces shift towards mainstream adoption amid legal and operational challenges</a></div>
+        <div class="sidebar-summary">As prediction marketplaces move from experimental to commercial phases, industry insiders highlight rapid growth, ins...</div>
+        <div class="sidebar-time">27 Feb</div>
+      </div>
+      <div class="sidebar-item">
+        <span class="sidebar-tag regulation">Regulation</span>
+        <div class="sidebar-headline"><a href="/stories/polymarket-odds-shift-sharply-as-traders-speculate-on.html">Polymarket odds shift sharply as traders speculate on ZachXBT&#39;s insider trading expose</a></div>
+        <div class="sidebar-summary">A prediction market on Polymarket witnesses rapid odds reordering amid speculation over ZachXBT&#39;s upcoming investigat...</div>
+        <div class="sidebar-time">27 Feb</div>
       </div>
     </aside>
   </div>
@@ -476,10 +500,40 @@ img { display: block; max-width: 100%; }
 
   <div class="stories-grid">
     <article class="story-card">
-      <div style="width:100%;height:175px;background:var(--off);display:flex;align-items:center;justify-content:center;color:var(--light);font-size:0.78rem;">RSS Phase 2</div>
-      <h3 class="story-card-headline">Wire stories load from RSS feeds</h3>
-      <div class="story-card-summary">Curated editorial content with real photographs will appear here once the poller is connected.</div>
-      <div class="story-card-meta">Coming soon</div>
+      <a href="/stories/dutch-regulator-orders-polymarket-to-cease-unlicensed.html"><img src="/assets/images/dutch-regulator-orders-polymarket-to-cea-966dc484.jpg" alt="Dutch regulator orders Polymarket to cease unlicensed gambling amid cross-border" class="story-card-image"></a>
+      <h3 class="story-card-headline"><a href="/stories/dutch-regulator-orders-polymarket-to-cease-unlicensed.html">Dutch regulator orders Polymarket to cease unlicensed gambling amid cross-border compliance concerns</a></h3>
+      <div class="story-card-summary">The Dutch gambling authority has mandated Polymarket to halt operations in the Netherlands over unlicensed betting activities, highlighti...</div>
+      <div class="story-card-meta">Regulation &middot; 27 Feb</div>
+    </article>
+    <article class="story-card">
+      <a href="/stories/dutch-regulator-halts-polymarket-over-unlicensed-prediction.html"><img src="/assets/images/dutch-regulator-halts-polymarket-over-un-19407a5b.jpg" alt="Dutch regulator halts Polymarket over unlicensed prediction markets, sets €840,0" class="story-card-image"></a>
+      <h3 class="story-card-headline"><a href="/stories/dutch-regulator-halts-polymarket-over-unlicensed-prediction.html">Dutch regulator halts Polymarket over unlicensed prediction markets, sets €840,000 fines</a></h3>
+      <div class="story-card-summary">The Netherlands has ordered US-based prediction platform Polymarket to cease services for Dutch residents, citing unlicensed gambling act...</div>
+      <div class="story-card-meta">Regulation &middot; 27 Feb</div>
+    </article>
+    <article class="story-card">
+      <a href="/stories/new-data-challenges-assumptions-about-web-traffic-and-cfd.html"><img src="/assets/images/new-data-challenges-assumptions-about-we-0374bafb.jpg" alt="New data challenges assumptions about web traffic and CFD trading volumes in the" class="story-card-image"></a>
+      <h3 class="story-card-headline"><a href="/stories/new-data-challenges-assumptions-about-web-traffic-and-cfd.html">New data challenges assumptions about web traffic and CFD trading volumes in the forex sector</a></h3>
+      <div class="story-card-summary">Finance Magnates Intelligence reveals negligible correlation between organic search visits and trading volumes among retail brokers, high...</div>
+      <div class="story-card-meta">Regulation &middot; 27 Feb</div>
+    </article>
+    <article class="story-card">
+      <a href="/stories/prediction-marketplaces-shift-towards-mainstream-adoption.html"><img src="/assets/images/prediction-marketplaces-shift-towards-ma-5ef9b611.jpg" alt="Prediction marketplaces shift towards mainstream adoption amid legal and operati" class="story-card-image"></a>
+      <h3 class="story-card-headline"><a href="/stories/prediction-marketplaces-shift-towards-mainstream-adoption.html">Prediction marketplaces shift towards mainstream adoption amid legal and operational challenges</a></h3>
+      <div class="story-card-summary">As prediction marketplaces move from experimental to commercial phases, industry insiders highlight rapid growth, institutional interest,...</div>
+      <div class="story-card-meta">Regulation &middot; 27 Feb</div>
+    </article>
+    <article class="story-card">
+      <a href="/stories/polymarket-odds-shift-sharply-as-traders-speculate-on.html"><img src="/assets/images/polymarket-odds-shift-sharply-as-traders-1c808e1f.jpg" alt="Polymarket odds shift sharply as traders speculate on ZachXBT&#39;s insider trading " class="story-card-image"></a>
+      <h3 class="story-card-headline"><a href="/stories/polymarket-odds-shift-sharply-as-traders-speculate-on.html">Polymarket odds shift sharply as traders speculate on ZachXBT&#39;s insider trading expose</a></h3>
+      <div class="story-card-summary">A prediction market on Polymarket witnesses rapid odds reordering amid speculation over ZachXBT&#39;s upcoming investigation, raising questio...</div>
+      <div class="story-card-meta">Regulation &middot; 27 Feb</div>
+    </article>
+    <article class="story-card">
+      <a href="/stories/prediction-market-bets-reveal-insider-trading-suspicion.html"><img src="/assets/images/prediction-market-bets-reveal-insider-tr-6e8db827.jpg" alt="Prediction market bets reveal insider trading suspicion ahead of high-profile Ax" class="story-card-image"></a>
+      <h3 class="story-card-headline"><a href="/stories/prediction-market-bets-reveal-insider-trading-suspicion.html">Prediction market bets reveal insider trading suspicion ahead of high-profile Axiom report</a></h3>
+      <div class="story-card-summary">A series of timed bets on Polymarket suggest potential insider trading linked to allegations against Solana trading platform Axiom, inten...</div>
+      <div class="story-card-meta">Regulation &middot; 27 Feb</div>
     </article>
   </div>
 </div>
