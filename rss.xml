@@ -5,8 +5,24 @@
     <link>https://noah-edge.com/</link>
     <description>Prediction market intelligence. The Noah Poly Index tracks edges with transparent positions and tracked outcomes.</description>
     <language>en</language>
-    <lastBuildDate>Sat, 28 Feb 2026 14:11:21 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 28 Feb 2026 14:22:01 +0000</lastBuildDate>
     <atom:link href="https://noah-edge.com/rss.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Tribal leaders rally against prediction markets threatening sovereignty and gaming revenues</title>
+      <link>https://noah-edge.com/stories/tribal-leaders-rally-against-prediction-markets-threatening.html</link>
+      <description>Tribal gaming leaders at the Western Indian Gaming Conference warn that prediction markets offering sports contracts pose legal, sovereignty, and revenue risks, urging federal and legislative actio...</description>
+      <pubDate>Sat, 28 Feb 2026 13:53:29 +0000</pubDate>
+      <guid>https://noah-edge.com/stories/tribal-leaders-rally-against-prediction-markets-threatening.html</guid>
+      <enclosure url="https://noah-edge.com/assets/images/tribal-leaders-rally-against-prediction--b934c5e3.jpg" type="image/jpeg" />
+    </item>
+    <item>
+      <title>Stake denies rigging claims amid controversy over high-profile streamers’ winnings</title>
+      <link>https://noah-edge.com/stories/stake-denies-rigging-claims-amid-controversy-over-high.html</link>
+      <description>Stake, the cryptocurrency gambling operator, defends its game fairness as investigations and lawsuits question the authenticity of large wins by celebrity streamers on the Kick platform, amid broad...</description>
+      <pubDate>Sat, 28 Feb 2026 13:53:09 +0000</pubDate>
+      <guid>https://noah-edge.com/stories/stake-denies-rigging-claims-amid-controversy-over-high.html</guid>
+      <enclosure url="https://noah-edge.com/assets/images/stake-denies-rigging-claims-amid-controv-3c194b73.jpg" type="image/jpeg" />
+    </item>
     <item>
       <title>Polymarket prediction odds signal potential for faster Bitcoin reprice amid shifting liquidity and trader sentiment</title>
       <link>https://noah-edge.com/stories/polymarket-prediction-odds-signal-potential-for-faster.html</link>
@@ -150,22 +166,6 @@
       <pubDate>Fri, 27 Feb 2026 22:40:49 +0000</pubDate>
       <guid>https://noah-edge.com/stories/new-jersey-and-vermont-tighten-prediction-market.html</guid>
       <enclosure url="https://noah-edge.com/assets/images/new-jersey-and-vermont-tighten-predictio-80fdfcc4.jpg" type="image/jpeg" />
-    </item>
-    <item>
-      <title>Penn CEO warns prediction markets’ legal ambiguity deepens industry split</title>
-      <link>https://noah-edge.com/stories/penn-ceo-warns-prediction-markets-legal-ambiguity-deepens.html</link>
-      <description>Penn Entertainment&#39;s CEO Jay Snowden highlighted ongoing regulatory uncertainties surrounding prediction markets, warning of potential legal and competitive threats amid industry divergence over th...</description>
-      <pubDate>Fri, 27 Feb 2026 22:40:46 +0000</pubDate>
-      <guid>https://noah-edge.com/stories/penn-ceo-warns-prediction-markets-legal-ambiguity-deepens.html</guid>
-      <enclosure url="https://noah-edge.com/assets/images/penn-ceo-warns-prediction-markets-legal--5e8e8779.jpg" type="image/jpeg" />
-    </item>
-    <item>
-      <title>Dutch regulator orders Polymarket to cease operations amid hefty fines over unlicensed prediction trading platform</title>
-      <link>https://noah-edge.com/stories/dutch-regulator-orders-polymarket-to-cease-operations-amid.html</link>
-      <description>The Dutch gambling authority has mandated Polymarket to stop serving Dutch users, citing breaches of gambling laws and warning of substantial fines, highlighting growing regulatory scrutiny of cryp...</description>
-      <pubDate>Fri, 27 Feb 2026 22:40:45 +0000</pubDate>
-      <guid>https://noah-edge.com/stories/dutch-regulator-orders-polymarket-to-cease-operations-amid.html</guid>
-      <enclosure url="https://noah-edge.com/assets/images/dutch-regulator-orders-polymarket-to-cea-496a9faa.jpg" type="image/jpeg" />
     </item>
   </channel>
 </rss>
