@@ -230,6 +230,49 @@ img { display: block; max-width: 100%; }
 .signal-summary { font-size: 0.72rem; font-weight: 300; line-height: 1.55; color: var(--muted); margin-bottom: 0.5rem; }
 .signal-card-meta { font-size: 0.58rem; color: var(--light); }
 .section-note { font-size: 0.64rem; font-weight: 300; color: var(--light); font-style: italic; }
+.freshness { font-size: 0.65rem; font-weight: 400; color: var(--light); margin-left: auto; white-space: nowrap; }
+.freshness-stale { color: var(--amber); }
+.freshness-down { color: var(--red); }
+.index-stat-divider { color: rgba(255,255,255,0.2); font-size: 1.2rem; font-weight: 300; align-self: center; }
+
+/* -- DROP CAP -- */
+.drop-cap { float: left; font-size: 3.5rem; line-height: 0.8; padding-right: 0.12em; padding-top: 0.08em; font-weight: 700; color: var(--teal); font-family: 'Montserrat', sans-serif; }
+
+/* -- MISSION CONTROL -- */
+.ops-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); gap: 1.5rem; margin-bottom: 2rem; }
+.ops-card { background: var(--off); border: 1px solid var(--rule); padding: 1.5rem; border-top: 3px solid var(--teal); }
+.ops-card-header { display: flex; justify-content: space-between; align-items: center; margin-bottom: 1rem; }
+.ops-card-name { font-family: 'Montserrat', sans-serif; font-weight: 800; font-size: 0.82rem; letter-spacing: 0.06em; text-transform: uppercase; }
+.ops-status { font-size: 0.72rem; font-weight: 700; letter-spacing: 0.04em; }
+.ops-status-live { color: #22c55e; }
+.ops-status-stale { color: var(--amber); }
+.ops-status-down { color: var(--red); }
+.ops-card-stats { display: flex; flex-direction: column; gap: 0.4rem; }
+.ops-stat-row { display: flex; justify-content: space-between; font-size: 0.78rem; }
+.ops-stat-label { color: var(--muted); font-weight: 300; }
+.ops-stat-val { font-weight: 700; }
+.ops-updated { font-size: 0.68rem; color: var(--light); margin-top: 0.8rem; }
+
+/* -- LEDGER -- */
+.ledger-table { width: 100%; border-collapse: collapse; margin-bottom: 2rem; font-size: 0.78rem; }
+.ledger-table th { text-align: left; font-size: 0.62rem; font-weight: 700; letter-spacing: 0.1em; text-transform: uppercase; color: var(--muted); padding: 0.6rem 0.8rem; border-bottom: 2px solid var(--ink); }
+.ledger-table td { padding: 0.6rem 0.8rem; border-bottom: 1px solid var(--rule); vertical-align: top; }
+.ledger-table tr:hover { background: var(--off); }
+.ledger-source { font-size: 0.58rem; font-weight: 700; letter-spacing: 0.06em; text-transform: uppercase; padding: 0.1rem 0.35rem; border-radius: 2px; }
+.ledger-source-poly { background: var(--teal-light); color: var(--teal); }
+.ledger-source-hf { background: var(--indigo-light); color: var(--indigo); }
+.ledger-source-cw { background: var(--amber-light); color: var(--amber); }
+.ledger-pnl-pos { color: var(--green); font-weight: 700; }
+.ledger-pnl-neg { color: var(--red); font-weight: 700; }
+
+/* -- ADVANTAGE CLOCK -- */
+.advantage-clock { display: flex; align-items: center; gap: 2rem; margin: 1.5rem 0; }
+.advantage-clock-svg { flex-shrink: 0; }
+.advantage-clock-legend { display: flex; flex-direction: column; gap: 0.4rem; }
+.advantage-legend-item { display: flex; align-items: center; gap: 0.5rem; font-size: 0.72rem; }
+.advantage-legend-swatch { width: 12px; height: 12px; border-radius: 2px; flex-shrink: 0; }
+.advantage-legend-label { color: var(--muted); font-weight: 300; }
+.advantage-legend-val { font-weight: 700; margin-left: auto; }
 
 /* -- COMPANY WATCH -- */
 .cw-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); gap: 1rem; margin-bottom: 1.5rem; }
@@ -393,6 +436,8 @@ img { display: block; max-width: 100%; }
     <a href="/tips/" >Tips Desk</a>
     <a href="/wire/" >The Wire</a>
     <a href="/scoreboard/"  class="hide-mobile">Scoreboard</a>
+    <a href="/ledger/"  class="hide-mobile">Ledger</a>
+    <a href="/ops/"  class="hide-mobile">Ops</a>
   </nav>
 </header>
 <hr class="header-rule">
@@ -400,7 +445,7 @@ img { display: block; max-width: 100%; }
 <div class="content" style="max-width:720px; margin:0 auto; padding:2rem;">
   <h1 style="font-weight:900; font-size:1.8rem; margin-bottom:0.5rem;">Signal Accuracy</h1>
   <p style="font-size:0.85rem; color:var(--muted); margin-bottom:1rem;">NAS (Narrative Asset Signal) validation — tracking whether our pre-market signals correctly predict price direction.</p>
-  <p style="font-size:0.7rem; color:var(--light); margin-bottom:1rem;">Last updated: 2026-02-28T06:19</p>
+  <p style="font-size:0.7rem; color:var(--light); margin-bottom:1rem;">Last updated: 2026-02-28T11:55</p>
 
   <div class="stats-grid-4" style="margin-bottom:2rem;">
     <div class="stat-card">
@@ -434,9 +479,9 @@ img { display: block; max-width: 100%; }
       <div style="font-size:0.6rem; color:var(--light); margin-top:0.2rem;">3 / 7 positions</div>
     </div>
     <div class="stat-card">
-      <div class="stat-number" style="color:var(--light);">N/A</div>
+      <div class="stat-number" style="color:var(--amber);">50%</div>
       <div class="stat-label">24h Hit Rate</div>
-      <div style="font-size:0.6rem; color:var(--light); margin-top:0.2rem;">0 / 0 positions</div>
+      <div style="font-size:0.6rem; color:var(--light); margin-top:0.2rem;">3 / 6 positions</div>
     </div>
     <div class="stat-card">
       <div class="stat-number" style="color:var(--light);">N/A</div>
@@ -499,6 +544,33 @@ img { display: block; max-width: 100%; }
     </thead>
     <tbody>
     <tr>
+      <td style="font-weight:600;">Rates Pressure</td>
+      <td style="color:var(--teal); font-weight:700;">TLT</td>
+      <td>1</td>
+      <td>100%</td>
+      <td style="color:#16a34a;">+0.6%</td>
+      <td style="color:#dc2626;">—</td>
+      <td>5.6h</td>
+    </tr>
+    <tr>
+      <td style="font-weight:600;">Airlines</td>
+      <td style="color:var(--teal); font-weight:700;">JETS</td>
+      <td>1</td>
+      <td>100%</td>
+      <td style="color:#16a34a;">+4.1%</td>
+      <td style="color:#dc2626;">—</td>
+      <td>5.6h</td>
+    </tr>
+    <tr>
+      <td style="font-weight:600;">Energy Equities</td>
+      <td style="color:var(--teal); font-weight:700;">XLE</td>
+      <td>1</td>
+      <td>100%</td>
+      <td style="color:#16a34a;">+1.3%</td>
+      <td style="color:#dc2626;">—</td>
+      <td>5.6h</td>
+    </tr>
+    <tr>
       <td style="font-weight:600;">Primary Asset</td>
       <td style="color:var(--teal); font-weight:700;">SMH</td>
       <td>1</td>
@@ -511,25 +583,16 @@ img { display: block; max-width: 100%; }
       <td style="font-weight:600;">Em Fx Vulnerability</td>
       <td style="color:var(--teal); font-weight:700;">EEM</td>
       <td>1</td>
-      <td>—</td>
+      <td>0%</td>
       <td style="color:#16a34a;">—</td>
       <td style="color:#dc2626;">0.3%</td>
       <td>8.1h</td>
     </tr>
     <tr>
-      <td style="font-weight:600;">Rates Pressure</td>
-      <td style="color:var(--teal); font-weight:700;">TLT</td>
-      <td>1</td>
-      <td>—</td>
-      <td style="color:#16a34a;">+0.6%</td>
-      <td style="color:#dc2626;">—</td>
-      <td>5.6h</td>
-    </tr>
-    <tr>
       <td style="font-weight:600;">Inflation Expectations</td>
       <td style="color:var(--teal); font-weight:700;">TIP</td>
       <td>1</td>
-      <td>—</td>
+      <td>0%</td>
       <td style="color:#16a34a;">—</td>
       <td style="color:#dc2626;">0.1%</td>
       <td>—</td>
@@ -538,28 +601,10 @@ img { display: block; max-width: 100%; }
       <td style="font-weight:600;">Chemicals</td>
       <td style="color:var(--teal); font-weight:700;">XLB</td>
       <td>1</td>
-      <td>—</td>
+      <td>0%</td>
       <td style="color:#16a34a;">—</td>
-      <td style="color:#dc2626;">0.4%</td>
+      <td style="color:#dc2626;">0.6%</td>
       <td>—</td>
-    </tr>
-    <tr>
-      <td style="font-weight:600;">Airlines</td>
-      <td style="color:var(--teal); font-weight:700;">JETS</td>
-      <td>1</td>
-      <td>—</td>
-      <td style="color:#16a34a;">+4.2%</td>
-      <td style="color:#dc2626;">—</td>
-      <td>5.6h</td>
-    </tr>
-    <tr>
-      <td style="font-weight:600;">Energy Equities</td>
-      <td style="color:var(--teal); font-weight:700;">XLE</td>
-      <td>1</td>
-      <td>—</td>
-      <td style="color:#16a34a;">+1.2%</td>
-      <td style="color:#dc2626;">—</td>
-      <td>5.6h</td>
     </tr>
     </tbody>
   </table>
@@ -582,6 +627,8 @@ img { display: block; max-width: 100%; }
       <a href="/predictions/">Poly Index</a>
       <a href="/tips/">Tips Desk</a>
       <a href="/wire/">The Wire</a>
+      <a href="/ledger/">Ledger</a>
+      <a href="/ops/">Ops</a>
       <a href="/about/">About</a>
       <a href="/rss.xml">RSS</a>
     </div>

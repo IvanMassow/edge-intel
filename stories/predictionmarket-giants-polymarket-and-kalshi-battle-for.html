@@ -241,6 +241,49 @@ img { display: block; max-width: 100%; }
 .signal-summary { font-size: 0.72rem; font-weight: 300; line-height: 1.55; color: var(--muted); margin-bottom: 0.5rem; }
 .signal-card-meta { font-size: 0.58rem; color: var(--light); }
 .section-note { font-size: 0.64rem; font-weight: 300; color: var(--light); font-style: italic; }
+.freshness { font-size: 0.65rem; font-weight: 400; color: var(--light); margin-left: auto; white-space: nowrap; }
+.freshness-stale { color: var(--amber); }
+.freshness-down { color: var(--red); }
+.index-stat-divider { color: rgba(255,255,255,0.2); font-size: 1.2rem; font-weight: 300; align-self: center; }
+
+/* -- DROP CAP -- */
+.drop-cap { float: left; font-size: 3.5rem; line-height: 0.8; padding-right: 0.12em; padding-top: 0.08em; font-weight: 700; color: var(--teal); font-family: 'Montserrat', sans-serif; }
+
+/* -- MISSION CONTROL -- */
+.ops-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); gap: 1.5rem; margin-bottom: 2rem; }
+.ops-card { background: var(--off); border: 1px solid var(--rule); padding: 1.5rem; border-top: 3px solid var(--teal); }
+.ops-card-header { display: flex; justify-content: space-between; align-items: center; margin-bottom: 1rem; }
+.ops-card-name { font-family: 'Montserrat', sans-serif; font-weight: 800; font-size: 0.82rem; letter-spacing: 0.06em; text-transform: uppercase; }
+.ops-status { font-size: 0.72rem; font-weight: 700; letter-spacing: 0.04em; }
+.ops-status-live { color: #22c55e; }
+.ops-status-stale { color: var(--amber); }
+.ops-status-down { color: var(--red); }
+.ops-card-stats { display: flex; flex-direction: column; gap: 0.4rem; }
+.ops-stat-row { display: flex; justify-content: space-between; font-size: 0.78rem; }
+.ops-stat-label { color: var(--muted); font-weight: 300; }
+.ops-stat-val { font-weight: 700; }
+.ops-updated { font-size: 0.68rem; color: var(--light); margin-top: 0.8rem; }
+
+/* -- LEDGER -- */
+.ledger-table { width: 100%; border-collapse: collapse; margin-bottom: 2rem; font-size: 0.78rem; }
+.ledger-table th { text-align: left; font-size: 0.62rem; font-weight: 700; letter-spacing: 0.1em; text-transform: uppercase; color: var(--muted); padding: 0.6rem 0.8rem; border-bottom: 2px solid var(--ink); }
+.ledger-table td { padding: 0.6rem 0.8rem; border-bottom: 1px solid var(--rule); vertical-align: top; }
+.ledger-table tr:hover { background: var(--off); }
+.ledger-source { font-size: 0.58rem; font-weight: 700; letter-spacing: 0.06em; text-transform: uppercase; padding: 0.1rem 0.35rem; border-radius: 2px; }
+.ledger-source-poly { background: var(--teal-light); color: var(--teal); }
+.ledger-source-hf { background: var(--indigo-light); color: var(--indigo); }
+.ledger-source-cw { background: var(--amber-light); color: var(--amber); }
+.ledger-pnl-pos { color: var(--green); font-weight: 700; }
+.ledger-pnl-neg { color: var(--red); font-weight: 700; }
+
+/* -- ADVANTAGE CLOCK -- */
+.advantage-clock { display: flex; align-items: center; gap: 2rem; margin: 1.5rem 0; }
+.advantage-clock-svg { flex-shrink: 0; }
+.advantage-clock-legend { display: flex; flex-direction: column; gap: 0.4rem; }
+.advantage-legend-item { display: flex; align-items: center; gap: 0.5rem; font-size: 0.72rem; }
+.advantage-legend-swatch { width: 12px; height: 12px; border-radius: 2px; flex-shrink: 0; }
+.advantage-legend-label { color: var(--muted); font-weight: 300; }
+.advantage-legend-val { font-weight: 700; margin-left: auto; }
 
 /* -- COMPANY WATCH -- */
 .cw-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); gap: 1rem; margin-bottom: 1.5rem; }
@@ -449,7 +492,7 @@ img { display: block; max-width: 100%; }
         <img src="/assets/images/predictionmarket-giants-polymarket-and-k-c41eb3ff.jpg" alt="Prediction‑market giants Polymarket and Kalshi battle for dominance as US trading soars to $800 mill" class="story-hero-img">
       </div>
       <div class="story-body">
-      <p>Polymarket and Kalshi are leading the rapidly expanding prediction‑market sector, with trading volumes reaching new peaks of over $800 million per day amid diverging regulatory and technical strategies, reshaping the landscape for retail and institutional investors.</p>
+      <p><span class="drop-cap">P</span>olymarket and Kalshi are leading the rapidly expanding prediction‑market sector, with trading volumes reaching new peaks of over $800 million per day amid diverging regulatory and technical strategies, reshaping the landscape for retail and institutional investors.</p>
       <p>Polymarket and Kalshi have emerged as the dominant forces in the burgeoning prediction‑market sector, which has seen trading surge to fresh heights in recent months. Industry trackers recorded a peak single‑day trading volume that surpassed $800m in January 2026, with Kalshi responsible for roughly two‑thirds of that spike, underscoring how concentrated activity has become between the two platforms.</p>
       <p>The platforms operate on fundamentally different legal and technical foundations. Polymarket runs on the Polygon blockchain and settles in USDC, attracting a global, crypto‑native user base. By contrast, Kalshi holds a CFTC Designated Contract Market licence and has positioned itself as a fully regulated US exchange, a distinction that has shaped where each can compete and who they can serve.</p>
       <p>That divergence is reflected in volumes and revenue profiles. On reported notional trading, Polymarket has registered higher cumulative volume in recent periods while Kalshi’s on‑chain activity has also shown substantial weekly surges, at times overtaking Polymarket. At the same time, Kalshi’s revenues have been driven by heavy activity in US sports markets, leading to outsized quarterly returns during major seasons.</p>

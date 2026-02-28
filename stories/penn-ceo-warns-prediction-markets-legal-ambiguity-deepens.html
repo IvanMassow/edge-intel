@@ -241,6 +241,49 @@ img { display: block; max-width: 100%; }
 .signal-summary { font-size: 0.72rem; font-weight: 300; line-height: 1.55; color: var(--muted); margin-bottom: 0.5rem; }
 .signal-card-meta { font-size: 0.58rem; color: var(--light); }
 .section-note { font-size: 0.64rem; font-weight: 300; color: var(--light); font-style: italic; }
+.freshness { font-size: 0.65rem; font-weight: 400; color: var(--light); margin-left: auto; white-space: nowrap; }
+.freshness-stale { color: var(--amber); }
+.freshness-down { color: var(--red); }
+.index-stat-divider { color: rgba(255,255,255,0.2); font-size: 1.2rem; font-weight: 300; align-self: center; }
+
+/* -- DROP CAP -- */
+.drop-cap { float: left; font-size: 3.5rem; line-height: 0.8; padding-right: 0.12em; padding-top: 0.08em; font-weight: 700; color: var(--teal); font-family: 'Montserrat', sans-serif; }
+
+/* -- MISSION CONTROL -- */
+.ops-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); gap: 1.5rem; margin-bottom: 2rem; }
+.ops-card { background: var(--off); border: 1px solid var(--rule); padding: 1.5rem; border-top: 3px solid var(--teal); }
+.ops-card-header { display: flex; justify-content: space-between; align-items: center; margin-bottom: 1rem; }
+.ops-card-name { font-family: 'Montserrat', sans-serif; font-weight: 800; font-size: 0.82rem; letter-spacing: 0.06em; text-transform: uppercase; }
+.ops-status { font-size: 0.72rem; font-weight: 700; letter-spacing: 0.04em; }
+.ops-status-live { color: #22c55e; }
+.ops-status-stale { color: var(--amber); }
+.ops-status-down { color: var(--red); }
+.ops-card-stats { display: flex; flex-direction: column; gap: 0.4rem; }
+.ops-stat-row { display: flex; justify-content: space-between; font-size: 0.78rem; }
+.ops-stat-label { color: var(--muted); font-weight: 300; }
+.ops-stat-val { font-weight: 700; }
+.ops-updated { font-size: 0.68rem; color: var(--light); margin-top: 0.8rem; }
+
+/* -- LEDGER -- */
+.ledger-table { width: 100%; border-collapse: collapse; margin-bottom: 2rem; font-size: 0.78rem; }
+.ledger-table th { text-align: left; font-size: 0.62rem; font-weight: 700; letter-spacing: 0.1em; text-transform: uppercase; color: var(--muted); padding: 0.6rem 0.8rem; border-bottom: 2px solid var(--ink); }
+.ledger-table td { padding: 0.6rem 0.8rem; border-bottom: 1px solid var(--rule); vertical-align: top; }
+.ledger-table tr:hover { background: var(--off); }
+.ledger-source { font-size: 0.58rem; font-weight: 700; letter-spacing: 0.06em; text-transform: uppercase; padding: 0.1rem 0.35rem; border-radius: 2px; }
+.ledger-source-poly { background: var(--teal-light); color: var(--teal); }
+.ledger-source-hf { background: var(--indigo-light); color: var(--indigo); }
+.ledger-source-cw { background: var(--amber-light); color: var(--amber); }
+.ledger-pnl-pos { color: var(--green); font-weight: 700; }
+.ledger-pnl-neg { color: var(--red); font-weight: 700; }
+
+/* -- ADVANTAGE CLOCK -- */
+.advantage-clock { display: flex; align-items: center; gap: 2rem; margin: 1.5rem 0; }
+.advantage-clock-svg { flex-shrink: 0; }
+.advantage-clock-legend { display: flex; flex-direction: column; gap: 0.4rem; }
+.advantage-legend-item { display: flex; align-items: center; gap: 0.5rem; font-size: 0.72rem; }
+.advantage-legend-swatch { width: 12px; height: 12px; border-radius: 2px; flex-shrink: 0; }
+.advantage-legend-label { color: var(--muted); font-weight: 300; }
+.advantage-legend-val { font-weight: 700; margin-left: auto; }
 
 /* -- COMPANY WATCH -- */
 .cw-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); gap: 1rem; margin-bottom: 1.5rem; }
@@ -449,7 +492,7 @@ img { display: block; max-width: 100%; }
         <img src="/assets/images/penn-ceo-warns-prediction-markets-legal--5e8e8779.jpg" alt="Penn CEO warns prediction markets’ legal ambiguity deepens industry split" class="story-hero-img">
       </div>
       <div class="story-body">
-      <p>Penn Entertainment&#39;s CEO Jay Snowden highlighted ongoing regulatory uncertainties surrounding prediction markets, warning of potential legal and competitive threats amid industry divergence over their future.</p>
+      <p><span class="drop-cap">P</span>enn Entertainment&#39;s CEO Jay Snowden highlighted ongoing regulatory uncertainties surrounding prediction markets, warning of potential legal and competitive threats amid industry divergence over their future.</p>
       <p>PENN Entertainment chief executive Jay Snowden used the company’s Q4 2025 earnings call to renew his warning about prediction markets, arguing the platforms’ legal standing remains opaque and urging a rapid judicial resolution. According to CasinoBeats and industry coverage, Snowden said the situation was “really as clear as mud” and that the matter “can’t get in front of the U.S. Supreme Court fast enough.”</p>
       <p>During a question-and-answer session with Bank of America analyst Shaun Kelley, Snowden acknowledged prediction markets are among many factors influencing sportsbook handle but conceded Penn cannot yet quantify their effect. “I think there’s lots of variables that impact handle. Prediction markets certainly are one of those. How much? We don’t know today,” he said on the call, per reporting from industry outlets.</p>
       <p>Snowden reiterated views first voiced in November 2025 when he described prediction markets as a “major threat” to traditional operators and warned of existential consequences if left unchecked. Coverage from November noted PENN had already altered its U.S. online strategy after concluding its ESPN Bet arrangement was not delivering the market share it had hoped for, a decision management said was mutually agreed.</p>

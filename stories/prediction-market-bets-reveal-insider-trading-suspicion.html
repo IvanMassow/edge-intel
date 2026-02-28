@@ -241,6 +241,49 @@ img { display: block; max-width: 100%; }
 .signal-summary { font-size: 0.72rem; font-weight: 300; line-height: 1.55; color: var(--muted); margin-bottom: 0.5rem; }
 .signal-card-meta { font-size: 0.58rem; color: var(--light); }
 .section-note { font-size: 0.64rem; font-weight: 300; color: var(--light); font-style: italic; }
+.freshness { font-size: 0.65rem; font-weight: 400; color: var(--light); margin-left: auto; white-space: nowrap; }
+.freshness-stale { color: var(--amber); }
+.freshness-down { color: var(--red); }
+.index-stat-divider { color: rgba(255,255,255,0.2); font-size: 1.2rem; font-weight: 300; align-self: center; }
+
+/* -- DROP CAP -- */
+.drop-cap { float: left; font-size: 3.5rem; line-height: 0.8; padding-right: 0.12em; padding-top: 0.08em; font-weight: 700; color: var(--teal); font-family: 'Montserrat', sans-serif; }
+
+/* -- MISSION CONTROL -- */
+.ops-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); gap: 1.5rem; margin-bottom: 2rem; }
+.ops-card { background: var(--off); border: 1px solid var(--rule); padding: 1.5rem; border-top: 3px solid var(--teal); }
+.ops-card-header { display: flex; justify-content: space-between; align-items: center; margin-bottom: 1rem; }
+.ops-card-name { font-family: 'Montserrat', sans-serif; font-weight: 800; font-size: 0.82rem; letter-spacing: 0.06em; text-transform: uppercase; }
+.ops-status { font-size: 0.72rem; font-weight: 700; letter-spacing: 0.04em; }
+.ops-status-live { color: #22c55e; }
+.ops-status-stale { color: var(--amber); }
+.ops-status-down { color: var(--red); }
+.ops-card-stats { display: flex; flex-direction: column; gap: 0.4rem; }
+.ops-stat-row { display: flex; justify-content: space-between; font-size: 0.78rem; }
+.ops-stat-label { color: var(--muted); font-weight: 300; }
+.ops-stat-val { font-weight: 700; }
+.ops-updated { font-size: 0.68rem; color: var(--light); margin-top: 0.8rem; }
+
+/* -- LEDGER -- */
+.ledger-table { width: 100%; border-collapse: collapse; margin-bottom: 2rem; font-size: 0.78rem; }
+.ledger-table th { text-align: left; font-size: 0.62rem; font-weight: 700; letter-spacing: 0.1em; text-transform: uppercase; color: var(--muted); padding: 0.6rem 0.8rem; border-bottom: 2px solid var(--ink); }
+.ledger-table td { padding: 0.6rem 0.8rem; border-bottom: 1px solid var(--rule); vertical-align: top; }
+.ledger-table tr:hover { background: var(--off); }
+.ledger-source { font-size: 0.58rem; font-weight: 700; letter-spacing: 0.06em; text-transform: uppercase; padding: 0.1rem 0.35rem; border-radius: 2px; }
+.ledger-source-poly { background: var(--teal-light); color: var(--teal); }
+.ledger-source-hf { background: var(--indigo-light); color: var(--indigo); }
+.ledger-source-cw { background: var(--amber-light); color: var(--amber); }
+.ledger-pnl-pos { color: var(--green); font-weight: 700; }
+.ledger-pnl-neg { color: var(--red); font-weight: 700; }
+
+/* -- ADVANTAGE CLOCK -- */
+.advantage-clock { display: flex; align-items: center; gap: 2rem; margin: 1.5rem 0; }
+.advantage-clock-svg { flex-shrink: 0; }
+.advantage-clock-legend { display: flex; flex-direction: column; gap: 0.4rem; }
+.advantage-legend-item { display: flex; align-items: center; gap: 0.5rem; font-size: 0.72rem; }
+.advantage-legend-swatch { width: 12px; height: 12px; border-radius: 2px; flex-shrink: 0; }
+.advantage-legend-label { color: var(--muted); font-weight: 300; }
+.advantage-legend-val { font-weight: 700; margin-left: auto; }
 
 /* -- COMPANY WATCH -- */
 .cw-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); gap: 1rem; margin-bottom: 1.5rem; }
@@ -449,7 +492,7 @@ img { display: block; max-width: 100%; }
         <img src="/assets/images/prediction-market-bets-reveal-insider-tr-6e8db827.jpg" alt="Prediction market bets reveal insider trading suspicion ahead of high-profile Axiom report" class="story-hero-img">
       </div>
       <div class="story-body">
-      <p>A series of timed bets on Polymarket suggest potential insider trading linked to allegations against Solana trading platform Axiom, intensifying debate over market abuse and regulatory oversight in decentralised prediction platforms.</p>
+      <p><span class="drop-cap">A</span> series of timed bets on Polymarket suggest potential insider trading linked to allegations against Solana trading platform Axiom, intensifying debate over market abuse and regulatory oversight in decentralised prediction platforms.</p>
       <p>A series of precisely timed wagers on Polymarket has intensified scrutiny of prediction markets after two previously dormant wallets placed $59,800 in bets roughly three hours before a high‑profile on‑chain investigator published allegations against Solana trading platform Axiom, generating about $109,000 in reported gains within the same short window. According to the initial account of the trades, blockchain analytics flagged the activity as unusually targeted and profitable, prompting questions about whether non‑public information was used to front‑run the investigator’s report. (Polymarket’s related market saw heavy activity in the days around the disclosure.) Sources monitoring the event noted a sudden surge in volume and sharp movements in the market’s probabilities. (Inspired by the event listing on Polymarket and contemporaneous reporting.) 
 Paragraph 1: [2], [5]</p>
       <p>The sequence feeds into a narrow timeline that is central to concerns about market abuse: wallets that had shown little or no prior activity placed concentrated “Yes” bets on the outcome “Which crypto company will ZachXBT expose for insider trading?”, with Axiom among the named options, and then realised large profits after the investigator’s findings were published. Industry trackers and market observers have emphasised how prediction markets mechanically convert advance knowledge of an outcome into asymmetric returns, a pattern regulators and platform operators view as archetypal insider trading when based on confidential information. Polymarket’s event page shows the market resolving in early March 2026, which framed traders’ expectations in the run‑up to the report. 

@@ -241,6 +241,49 @@ img { display: block; max-width: 100%; }
 .signal-summary { font-size: 0.72rem; font-weight: 300; line-height: 1.55; color: var(--muted); margin-bottom: 0.5rem; }
 .signal-card-meta { font-size: 0.58rem; color: var(--light); }
 .section-note { font-size: 0.64rem; font-weight: 300; color: var(--light); font-style: italic; }
+.freshness { font-size: 0.65rem; font-weight: 400; color: var(--light); margin-left: auto; white-space: nowrap; }
+.freshness-stale { color: var(--amber); }
+.freshness-down { color: var(--red); }
+.index-stat-divider { color: rgba(255,255,255,0.2); font-size: 1.2rem; font-weight: 300; align-self: center; }
+
+/* -- DROP CAP -- */
+.drop-cap { float: left; font-size: 3.5rem; line-height: 0.8; padding-right: 0.12em; padding-top: 0.08em; font-weight: 700; color: var(--teal); font-family: 'Montserrat', sans-serif; }
+
+/* -- MISSION CONTROL -- */
+.ops-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); gap: 1.5rem; margin-bottom: 2rem; }
+.ops-card { background: var(--off); border: 1px solid var(--rule); padding: 1.5rem; border-top: 3px solid var(--teal); }
+.ops-card-header { display: flex; justify-content: space-between; align-items: center; margin-bottom: 1rem; }
+.ops-card-name { font-family: 'Montserrat', sans-serif; font-weight: 800; font-size: 0.82rem; letter-spacing: 0.06em; text-transform: uppercase; }
+.ops-status { font-size: 0.72rem; font-weight: 700; letter-spacing: 0.04em; }
+.ops-status-live { color: #22c55e; }
+.ops-status-stale { color: var(--amber); }
+.ops-status-down { color: var(--red); }
+.ops-card-stats { display: flex; flex-direction: column; gap: 0.4rem; }
+.ops-stat-row { display: flex; justify-content: space-between; font-size: 0.78rem; }
+.ops-stat-label { color: var(--muted); font-weight: 300; }
+.ops-stat-val { font-weight: 700; }
+.ops-updated { font-size: 0.68rem; color: var(--light); margin-top: 0.8rem; }
+
+/* -- LEDGER -- */
+.ledger-table { width: 100%; border-collapse: collapse; margin-bottom: 2rem; font-size: 0.78rem; }
+.ledger-table th { text-align: left; font-size: 0.62rem; font-weight: 700; letter-spacing: 0.1em; text-transform: uppercase; color: var(--muted); padding: 0.6rem 0.8rem; border-bottom: 2px solid var(--ink); }
+.ledger-table td { padding: 0.6rem 0.8rem; border-bottom: 1px solid var(--rule); vertical-align: top; }
+.ledger-table tr:hover { background: var(--off); }
+.ledger-source { font-size: 0.58rem; font-weight: 700; letter-spacing: 0.06em; text-transform: uppercase; padding: 0.1rem 0.35rem; border-radius: 2px; }
+.ledger-source-poly { background: var(--teal-light); color: var(--teal); }
+.ledger-source-hf { background: var(--indigo-light); color: var(--indigo); }
+.ledger-source-cw { background: var(--amber-light); color: var(--amber); }
+.ledger-pnl-pos { color: var(--green); font-weight: 700; }
+.ledger-pnl-neg { color: var(--red); font-weight: 700; }
+
+/* -- ADVANTAGE CLOCK -- */
+.advantage-clock { display: flex; align-items: center; gap: 2rem; margin: 1.5rem 0; }
+.advantage-clock-svg { flex-shrink: 0; }
+.advantage-clock-legend { display: flex; flex-direction: column; gap: 0.4rem; }
+.advantage-legend-item { display: flex; align-items: center; gap: 0.5rem; font-size: 0.72rem; }
+.advantage-legend-swatch { width: 12px; height: 12px; border-radius: 2px; flex-shrink: 0; }
+.advantage-legend-label { color: var(--muted); font-weight: 300; }
+.advantage-legend-val { font-weight: 700; margin-left: auto; }
 
 /* -- COMPANY WATCH -- */
 .cw-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); gap: 1rem; margin-bottom: 1.5rem; }
@@ -449,7 +492,7 @@ img { display: block; max-width: 100%; }
         <img src="/assets/images/prediction-market-frontrunning-uncovered-9debb6d7.jpg" alt="Prediction market frontrunning uncovered as ZachXBT exposé triggers $40m trading spike" class="story-hero-img">
       </div>
       <div class="story-body">
-      <p>Ahead of ZachXBT&#39;s highly anticipated report, traders exploited on-chain data to front-run an exposé on Axiom, revealing vulnerabilities in prediction markets and raising regulatory concerns.</p>
+      <p><span class="drop-cap">A</span>head of ZachXBT&#39;s highly anticipated report, traders exploited on-chain data to front-run an exposé on Axiom, revealing vulnerabilities in prediction markets and raising regulatory concerns.</p>
       <p>Minutes to hours before a high-profile exposé by the researcher ZachXBT became public on 27–28 February 2026, Polymarket’s contracts naming Axiom spiked sharply, driven by a small number of large on-chain wagers that captured outsized gains and pushed the market’s turnover toward roughly $40m, according to on-chain tracking and market reporting. Industry coverage indicates those early buyers secured more than $1m in profits as prices moved into the narrow reveal window. (According to Coin360, ZachXBT’s subsequent post named Axiom.) Sources tracking the event say the pattern prioritised timing over independent investigation, turning the market into a race to act before the publication.</p>
       <p>The Polymarket event itself asked which firm ZachXBT would expose for insider trading, and traders selected Axiom as the leading candidate before the report landed. Polymarket’s event page shows the market structure offered binary resolution and rapid settlement, features that sharpen incentives for front-running any leak or early tip. Observers noted that the clarity of the question compressed the window for price correction once the report was posted.</p>
       <p>Detailed analyses of on-chain flows and betting patterns pointed to concentrated activity from a handful of wallets moving size ahead of the reveal. Reporting suggests these addresses repeatedly lifted offers and then remained inactive after the outcome was known, a footprint consistent with informed flow rather than dispersed speculation. That behaviour amplified execution costs and left later entrants paying wide spreads as liquidity deepened only after odds had already shifted.</p>

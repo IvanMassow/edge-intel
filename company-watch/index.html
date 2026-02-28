@@ -230,6 +230,49 @@ img { display: block; max-width: 100%; }
 .signal-summary { font-size: 0.72rem; font-weight: 300; line-height: 1.55; color: var(--muted); margin-bottom: 0.5rem; }
 .signal-card-meta { font-size: 0.58rem; color: var(--light); }
 .section-note { font-size: 0.64rem; font-weight: 300; color: var(--light); font-style: italic; }
+.freshness { font-size: 0.65rem; font-weight: 400; color: var(--light); margin-left: auto; white-space: nowrap; }
+.freshness-stale { color: var(--amber); }
+.freshness-down { color: var(--red); }
+.index-stat-divider { color: rgba(255,255,255,0.2); font-size: 1.2rem; font-weight: 300; align-self: center; }
+
+/* -- DROP CAP -- */
+.drop-cap { float: left; font-size: 3.5rem; line-height: 0.8; padding-right: 0.12em; padding-top: 0.08em; font-weight: 700; color: var(--teal); font-family: 'Montserrat', sans-serif; }
+
+/* -- MISSION CONTROL -- */
+.ops-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); gap: 1.5rem; margin-bottom: 2rem; }
+.ops-card { background: var(--off); border: 1px solid var(--rule); padding: 1.5rem; border-top: 3px solid var(--teal); }
+.ops-card-header { display: flex; justify-content: space-between; align-items: center; margin-bottom: 1rem; }
+.ops-card-name { font-family: 'Montserrat', sans-serif; font-weight: 800; font-size: 0.82rem; letter-spacing: 0.06em; text-transform: uppercase; }
+.ops-status { font-size: 0.72rem; font-weight: 700; letter-spacing: 0.04em; }
+.ops-status-live { color: #22c55e; }
+.ops-status-stale { color: var(--amber); }
+.ops-status-down { color: var(--red); }
+.ops-card-stats { display: flex; flex-direction: column; gap: 0.4rem; }
+.ops-stat-row { display: flex; justify-content: space-between; font-size: 0.78rem; }
+.ops-stat-label { color: var(--muted); font-weight: 300; }
+.ops-stat-val { font-weight: 700; }
+.ops-updated { font-size: 0.68rem; color: var(--light); margin-top: 0.8rem; }
+
+/* -- LEDGER -- */
+.ledger-table { width: 100%; border-collapse: collapse; margin-bottom: 2rem; font-size: 0.78rem; }
+.ledger-table th { text-align: left; font-size: 0.62rem; font-weight: 700; letter-spacing: 0.1em; text-transform: uppercase; color: var(--muted); padding: 0.6rem 0.8rem; border-bottom: 2px solid var(--ink); }
+.ledger-table td { padding: 0.6rem 0.8rem; border-bottom: 1px solid var(--rule); vertical-align: top; }
+.ledger-table tr:hover { background: var(--off); }
+.ledger-source { font-size: 0.58rem; font-weight: 700; letter-spacing: 0.06em; text-transform: uppercase; padding: 0.1rem 0.35rem; border-radius: 2px; }
+.ledger-source-poly { background: var(--teal-light); color: var(--teal); }
+.ledger-source-hf { background: var(--indigo-light); color: var(--indigo); }
+.ledger-source-cw { background: var(--amber-light); color: var(--amber); }
+.ledger-pnl-pos { color: var(--green); font-weight: 700; }
+.ledger-pnl-neg { color: var(--red); font-weight: 700; }
+
+/* -- ADVANTAGE CLOCK -- */
+.advantage-clock { display: flex; align-items: center; gap: 2rem; margin: 1.5rem 0; }
+.advantage-clock-svg { flex-shrink: 0; }
+.advantage-clock-legend { display: flex; flex-direction: column; gap: 0.4rem; }
+.advantage-legend-item { display: flex; align-items: center; gap: 0.5rem; font-size: 0.72rem; }
+.advantage-legend-swatch { width: 12px; height: 12px; border-radius: 2px; flex-shrink: 0; }
+.advantage-legend-label { color: var(--muted); font-weight: 300; }
+.advantage-legend-val { font-weight: 700; margin-left: auto; }
 
 /* -- COMPANY WATCH -- */
 .cw-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); gap: 1rem; margin-bottom: 1.5rem; }
@@ -393,6 +436,8 @@ img { display: block; max-width: 100%; }
     <a href="/tips/" >Tips Desk</a>
     <a href="/wire/" >The Wire</a>
     <a href="/scoreboard/"  class="hide-mobile">Scoreboard</a>
+    <a href="/ledger/"  class="hide-mobile">Ledger</a>
+    <a href="/ops/"  class="hide-mobile">Ops</a>
   </nav>
 </header>
 <hr class="header-rule">
@@ -400,7 +445,7 @@ img { display: block; max-width: 100%; }
 <div class="content" style="max-width:720px; margin:0 auto; padding:2rem;">
   <h1 style="font-weight:900; font-size:1.8rem; margin-bottom:0.5rem;">Company Watch</h1>
   <p style="font-size:0.85rem; color:var(--muted); margin-bottom:1rem;">AI-managed active trading vs buy-and-hold passive benchmark across 5 China ADR stocks.</p>
-  <p style="font-size:0.7rem; color:var(--light); margin-bottom:1rem;">Last updated: 2026-02-24T12:34</p>
+  <p style="font-size:0.7rem; color:var(--light); margin-bottom:1rem;">Last updated: 2026-02-28T11:56</p>
 
   <div class="stats-grid-3" style="margin-bottom:2rem;">
     <div class="stat-card">
@@ -412,7 +457,7 @@ img { display: block; max-width: 100%; }
       <div class="stat-label">AI Beating Passive</div>
     </div>
     <div class="stat-card">
-      <div class="stat-number cw-alpha-pos">+0.5%</div>
+      <div class="stat-number cw-alpha-pos">+16.2%</div>
       <div class="stat-label">Total Alpha</div>
     </div>
   </div>
@@ -422,7 +467,7 @@ img { display: block; max-width: 100%; }
     <div style="display:flex; align-items:baseline; gap:0.8rem; margin-bottom:0.8rem;">
       <span style="font-weight:900; font-size:1.3rem; letter-spacing:0.04em;">BABA</span>
       <span style="font-size:0.85rem; color:var(--muted);">Alibaba</span>
-      <span style="font-size:0.85rem; color:var(--light); margin-left:auto;">$152.78</span>
+      <span style="font-size:0.85rem; color:var(--light); margin-left:auto;">$144.11</span>
     </div>
     <div style="margin-bottom:0.8rem;">
       <span class="cw-state-badge cw-state-flat">FLAT</span>
@@ -434,21 +479,21 @@ img { display: block; max-width: 100%; }
         <div class="stat-label">Active AI P&amp;L</div>
       </div>
       <div class="stat-card-secondary">
-        <div class="stat-number-secondary cw-pnl-neg">-1.89%</div>
+        <div class="stat-number-secondary cw-pnl-neg">-7.46%</div>
         <div class="stat-label">Passive P&amp;L</div>
       </div>
       <div class="stat-card-secondary">
-        <div class="stat-number-secondary cw-alpha-pos"><strong>+1.15%</strong></div>
+        <div class="stat-number-secondary cw-alpha-pos"><strong>+6.72%</strong></div>
         <div class="stat-label">Alpha</div>
       </div>
     </div>
-    <div style="font-size:0.7rem; color:var(--light);">30 trades | 8 days tracked</div>
+    <div style="font-size:0.7rem; color:var(--light);">30 trades | 9 days tracked</div>
   </div>
   <div style="background:var(--bg); border:1px solid var(--rule); padding:1.5rem; margin-bottom:1rem;">
     <div style="display:flex; align-items:baseline; gap:0.8rem; margin-bottom:0.8rem;">
       <span style="font-weight:900; font-size:1.3rem; letter-spacing:0.04em;">JD</span>
       <span style="font-size:0.85rem; color:var(--muted);">JD.com</span>
-      <span style="font-size:0.85rem; color:var(--light); margin-left:auto;">$27.23</span>
+      <span style="font-size:0.85rem; color:var(--light); margin-left:auto;">$26.53</span>
     </div>
     <div style="margin-bottom:0.8rem;">
       <span class="cw-state-badge cw-state-long">HELD</span>
@@ -456,29 +501,29 @@ img { display: block; max-width: 100%; }
     </div>
     <div class="stats-grid-3" style="margin-bottom:0.8rem;">
       <div class="stat-card-secondary">
-        <div class="stat-number-secondary cw-pnl-neg">-0.36%</div>
+        <div class="stat-number-secondary cw-pnl-neg">-2.92%</div>
         <div class="stat-label">Active AI P&amp;L</div>
       </div>
       <div class="stat-card-secondary">
-        <div class="stat-number-secondary cw-pnl-pos">+0.33%</div>
+        <div class="stat-number-secondary cw-pnl-neg">-2.25%</div>
         <div class="stat-label">Passive P&amp;L</div>
       </div>
       <div class="stat-card-secondary">
-        <div class="stat-number-secondary cw-alpha-neg"><strong>-0.70%</strong></div>
+        <div class="stat-number-secondary cw-alpha-neg"><strong>-0.67%</strong></div>
         <div class="stat-label">Alpha</div>
       </div>
     </div>
-    <div style="font-size:0.7rem; color:var(--light);">29 trades | 8 days tracked</div>
+    <div style="font-size:0.7rem; color:var(--light);">29 trades | 9 days tracked</div>
   </div>
   <div style="background:var(--bg); border:1px solid var(--rule); padding:1.5rem; margin-bottom:1rem;">
     <div style="display:flex; align-items:baseline; gap:0.8rem; margin-bottom:0.8rem;">
       <span style="font-weight:900; font-size:1.3rem; letter-spacing:0.04em;">BIDU</span>
       <span style="font-size:0.85rem; color:var(--muted);">Baidu</span>
-      <span style="font-size:0.85rem; color:var(--light); margin-left:auto;">$133.94</span>
+      <span style="font-size:0.85rem; color:var(--light); margin-left:auto;">$124.44</span>
     </div>
     <div style="margin-bottom:0.8rem;">
       <span class="cw-state-badge cw-state-flat">FLAT</span>
-      <span style="font-size:0.7rem; color:var(--muted); margin-left:0.5rem;">Stance: HOLD | Confidence: 50%</span>
+      <span style="font-size:0.7rem; color:var(--muted); margin-left:0.5rem;">Stance: HOLD | Confidence: 55%</span>
     </div>
     <div class="stats-grid-3" style="margin-bottom:0.8rem;">
       <div class="stat-card-secondary">
@@ -486,21 +531,21 @@ img { display: block; max-width: 100%; }
         <div class="stat-label">Active AI P&amp;L</div>
       </div>
       <div class="stat-card-secondary">
-        <div class="stat-number-secondary cw-pnl-neg">-2.24%</div>
+        <div class="stat-number-secondary cw-pnl-neg">-9.17%</div>
         <div class="stat-label">Passive P&amp;L</div>
       </div>
       <div class="stat-card-secondary">
-        <div class="stat-number-secondary cw-alpha-pos"><strong>+2.24%</strong></div>
+        <div class="stat-number-secondary cw-alpha-pos"><strong>+9.17%</strong></div>
         <div class="stat-label">Alpha</div>
       </div>
     </div>
-    <div style="font-size:0.7rem; color:var(--light);">0 trades | 8 days tracked</div>
+    <div style="font-size:0.7rem; color:var(--light);">0 trades | 9 days tracked</div>
   </div>
   <div style="background:var(--bg); border:1px solid var(--rule); padding:1.5rem; margin-bottom:1rem;">
     <div style="display:flex; align-items:baseline; gap:0.8rem; margin-bottom:0.8rem;">
       <span style="font-weight:900; font-size:1.3rem; letter-spacing:0.04em;">NTES</span>
       <span style="font-size:0.85rem; color:var(--muted);">NetEase</span>
-      <span style="font-size:0.85rem; color:var(--light); margin-left:auto;">$116.33</span>
+      <span style="font-size:0.85rem; color:var(--light); margin-left:auto;">$114.97</span>
     </div>
     <div style="margin-bottom:0.8rem;">
       <span class="cw-state-badge cw-state-flat">FLAT</span>
@@ -512,21 +557,21 @@ img { display: block; max-width: 100%; }
         <div class="stat-label">Active AI P&amp;L</div>
       </div>
       <div class="stat-card-secondary">
-        <div class="stat-number-secondary cw-pnl-neg">-3.55%</div>
+        <div class="stat-number-secondary cw-pnl-neg">-4.68%</div>
         <div class="stat-label">Passive P&amp;L</div>
       </div>
       <div class="stat-card-secondary">
-        <div class="stat-number-secondary cw-alpha-pos"><strong>+3.26%</strong></div>
+        <div class="stat-number-secondary cw-alpha-pos"><strong>+4.39%</strong></div>
         <div class="stat-label">Alpha</div>
       </div>
     </div>
-    <div style="font-size:0.7rem; color:var(--light);">30 trades | 8 days tracked</div>
+    <div style="font-size:0.7rem; color:var(--light);">30 trades | 9 days tracked</div>
   </div>
   <div style="background:var(--bg); border:1px solid var(--rule); padding:1.5rem; margin-bottom:1rem;">
     <div style="display:flex; align-items:baseline; gap:0.8rem; margin-bottom:0.8rem;">
       <span style="font-weight:900; font-size:1.3rem; letter-spacing:0.04em;">PDD</span>
       <span style="font-size:0.85rem; color:var(--muted);">PDD Holdings</span>
-      <span style="font-size:0.85rem; color:var(--light); margin-left:auto;">$105.76</span>
+      <span style="font-size:0.85rem; color:var(--light); margin-left:auto;">$103.73</span>
     </div>
     <div style="margin-bottom:0.8rem;">
       <span class="cw-state-badge cw-state-flat">FLAT</span>
@@ -538,15 +583,15 @@ img { display: block; max-width: 100%; }
         <div class="stat-label">Active AI P&amp;L</div>
       </div>
       <div class="stat-card-secondary">
-        <div class="stat-number-secondary cw-pnl-pos">+5.46%</div>
+        <div class="stat-number-secondary cw-pnl-pos">+3.44%</div>
         <div class="stat-label">Passive P&amp;L</div>
       </div>
       <div class="stat-card-secondary">
-        <div class="stat-number-secondary cw-alpha-neg"><strong>-5.46%</strong></div>
+        <div class="stat-number-secondary cw-alpha-neg"><strong>-3.44%</strong></div>
         <div class="stat-label">Alpha</div>
       </div>
     </div>
-    <div style="font-size:0.7rem; color:var(--light);">0 trades | 8 days tracked</div>
+    <div style="font-size:0.7rem; color:var(--light);">0 trades | 9 days tracked</div>
   </div>
 
   <div style="margin-top:2rem; padding:1.2rem; background:var(--off); font-size:0.78rem; color:var(--muted); line-height:1.6;">
@@ -566,6 +611,8 @@ img { display: block; max-width: 100%; }
       <a href="/predictions/">Poly Index</a>
       <a href="/tips/">Tips Desk</a>
       <a href="/wire/">The Wire</a>
+      <a href="/ledger/">Ledger</a>
+      <a href="/ops/">Ops</a>
       <a href="/about/">About</a>
       <a href="/rss.xml">RSS</a>
     </div>

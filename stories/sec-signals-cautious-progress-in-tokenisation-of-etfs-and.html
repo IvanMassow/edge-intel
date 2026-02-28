@@ -241,6 +241,49 @@ img { display: block; max-width: 100%; }
 .signal-summary { font-size: 0.72rem; font-weight: 300; line-height: 1.55; color: var(--muted); margin-bottom: 0.5rem; }
 .signal-card-meta { font-size: 0.58rem; color: var(--light); }
 .section-note { font-size: 0.64rem; font-weight: 300; color: var(--light); font-style: italic; }
+.freshness { font-size: 0.65rem; font-weight: 400; color: var(--light); margin-left: auto; white-space: nowrap; }
+.freshness-stale { color: var(--amber); }
+.freshness-down { color: var(--red); }
+.index-stat-divider { color: rgba(255,255,255,0.2); font-size: 1.2rem; font-weight: 300; align-self: center; }
+
+/* -- DROP CAP -- */
+.drop-cap { float: left; font-size: 3.5rem; line-height: 0.8; padding-right: 0.12em; padding-top: 0.08em; font-weight: 700; color: var(--teal); font-family: 'Montserrat', sans-serif; }
+
+/* -- MISSION CONTROL -- */
+.ops-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); gap: 1.5rem; margin-bottom: 2rem; }
+.ops-card { background: var(--off); border: 1px solid var(--rule); padding: 1.5rem; border-top: 3px solid var(--teal); }
+.ops-card-header { display: flex; justify-content: space-between; align-items: center; margin-bottom: 1rem; }
+.ops-card-name { font-family: 'Montserrat', sans-serif; font-weight: 800; font-size: 0.82rem; letter-spacing: 0.06em; text-transform: uppercase; }
+.ops-status { font-size: 0.72rem; font-weight: 700; letter-spacing: 0.04em; }
+.ops-status-live { color: #22c55e; }
+.ops-status-stale { color: var(--amber); }
+.ops-status-down { color: var(--red); }
+.ops-card-stats { display: flex; flex-direction: column; gap: 0.4rem; }
+.ops-stat-row { display: flex; justify-content: space-between; font-size: 0.78rem; }
+.ops-stat-label { color: var(--muted); font-weight: 300; }
+.ops-stat-val { font-weight: 700; }
+.ops-updated { font-size: 0.68rem; color: var(--light); margin-top: 0.8rem; }
+
+/* -- LEDGER -- */
+.ledger-table { width: 100%; border-collapse: collapse; margin-bottom: 2rem; font-size: 0.78rem; }
+.ledger-table th { text-align: left; font-size: 0.62rem; font-weight: 700; letter-spacing: 0.1em; text-transform: uppercase; color: var(--muted); padding: 0.6rem 0.8rem; border-bottom: 2px solid var(--ink); }
+.ledger-table td { padding: 0.6rem 0.8rem; border-bottom: 1px solid var(--rule); vertical-align: top; }
+.ledger-table tr:hover { background: var(--off); }
+.ledger-source { font-size: 0.58rem; font-weight: 700; letter-spacing: 0.06em; text-transform: uppercase; padding: 0.1rem 0.35rem; border-radius: 2px; }
+.ledger-source-poly { background: var(--teal-light); color: var(--teal); }
+.ledger-source-hf { background: var(--indigo-light); color: var(--indigo); }
+.ledger-source-cw { background: var(--amber-light); color: var(--amber); }
+.ledger-pnl-pos { color: var(--green); font-weight: 700; }
+.ledger-pnl-neg { color: var(--red); font-weight: 700; }
+
+/* -- ADVANTAGE CLOCK -- */
+.advantage-clock { display: flex; align-items: center; gap: 2rem; margin: 1.5rem 0; }
+.advantage-clock-svg { flex-shrink: 0; }
+.advantage-clock-legend { display: flex; flex-direction: column; gap: 0.4rem; }
+.advantage-legend-item { display: flex; align-items: center; gap: 0.5rem; font-size: 0.72rem; }
+.advantage-legend-swatch { width: 12px; height: 12px; border-radius: 2px; flex-shrink: 0; }
+.advantage-legend-label { color: var(--muted); font-weight: 300; }
+.advantage-legend-val { font-weight: 700; margin-left: auto; }
 
 /* -- COMPANY WATCH -- */
 .cw-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); gap: 1rem; margin-bottom: 1.5rem; }
@@ -449,7 +492,7 @@ img { display: block; max-width: 100%; }
         <img src="/assets/images/sec-signals-cautious-progress-in-tokenis-2e3f1618.jpg" alt="SEC signals cautious progress in tokenisation of ETFs and money market funds" class="story-hero-img">
       </div>
       <div class="story-body">
-      <p>The SEC is gradually embracing tokenised securities, with recent filings and orders indicating a pragmatic shift towards integrating digital assets within existing regulatory frameworks, without overhauling current laws.</p>
+      <p><span class="drop-cap">T</span>he SEC is gradually embracing tokenised securities, with recent filings and orders indicating a pragmatic shift towards integrating digital assets within existing regulatory frameworks, without overhauling current laws.</p>
       <p>The Securities and Exchange Commission is signalling a steady shift toward accommodating tokenisation within the regulatory framework that governs registered investment companies, driven by high-level commentary from commissioners and concrete exemptive filings and orders from market participants. According to The Block, Commissioner Mark Uyeda has described tokenisation as a force capable of changing how securities are issued, traded and managed, and he urged regulators to reassess legacy processes for liquidity, collateral and clearing to reflect on‑chain representations of rights and obligations. Industry observers note that the SEC is pairing that rhetoric with active prioritisation of fund structure innovations, including expedited review of share‑class conversion requests. [2],[5]</p>
       <p>That rhetorical shift has been matched by issuer action. F/m Investments filed what is believed to be the first ETF issuer application to seek authority to record ETF shares on a permissioned blockchain, proposing tokenised representations of its US Treasury 3‑Month Bill ETF while preserving the existing CUSIP, economic entitlements and investor protections. F/m’s petition, reported by TMCNet and highlighted in filings tracked by ETF industry commentators, follows the firm’s January exemptive relief that allowed it to add a mutual fund share class alongside its ETF offering. [6],[5]</p>
       <p>F/m’s blueprint is notable for its effort to bridge traditional and digital infrastructure: tokenised ETF shares would carry identical governance, fee and voting characteristics as conventional shares and be designed to operate within the Rule 6c‑11 ETF framework under the Investment Company Act. The proposal emphasises compatibility with legacy brokerage plumbing as well as with “token‑aware” platforms, seeking to allow both ecosystem types to interact with the same fund share class rather than forcing parallel on‑chain and off‑chain accounting. [6],[3]</p>

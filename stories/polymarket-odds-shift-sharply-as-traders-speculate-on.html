@@ -241,6 +241,49 @@ img { display: block; max-width: 100%; }
 .signal-summary { font-size: 0.72rem; font-weight: 300; line-height: 1.55; color: var(--muted); margin-bottom: 0.5rem; }
 .signal-card-meta { font-size: 0.58rem; color: var(--light); }
 .section-note { font-size: 0.64rem; font-weight: 300; color: var(--light); font-style: italic; }
+.freshness { font-size: 0.65rem; font-weight: 400; color: var(--light); margin-left: auto; white-space: nowrap; }
+.freshness-stale { color: var(--amber); }
+.freshness-down { color: var(--red); }
+.index-stat-divider { color: rgba(255,255,255,0.2); font-size: 1.2rem; font-weight: 300; align-self: center; }
+
+/* -- DROP CAP -- */
+.drop-cap { float: left; font-size: 3.5rem; line-height: 0.8; padding-right: 0.12em; padding-top: 0.08em; font-weight: 700; color: var(--teal); font-family: 'Montserrat', sans-serif; }
+
+/* -- MISSION CONTROL -- */
+.ops-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); gap: 1.5rem; margin-bottom: 2rem; }
+.ops-card { background: var(--off); border: 1px solid var(--rule); padding: 1.5rem; border-top: 3px solid var(--teal); }
+.ops-card-header { display: flex; justify-content: space-between; align-items: center; margin-bottom: 1rem; }
+.ops-card-name { font-family: 'Montserrat', sans-serif; font-weight: 800; font-size: 0.82rem; letter-spacing: 0.06em; text-transform: uppercase; }
+.ops-status { font-size: 0.72rem; font-weight: 700; letter-spacing: 0.04em; }
+.ops-status-live { color: #22c55e; }
+.ops-status-stale { color: var(--amber); }
+.ops-status-down { color: var(--red); }
+.ops-card-stats { display: flex; flex-direction: column; gap: 0.4rem; }
+.ops-stat-row { display: flex; justify-content: space-between; font-size: 0.78rem; }
+.ops-stat-label { color: var(--muted); font-weight: 300; }
+.ops-stat-val { font-weight: 700; }
+.ops-updated { font-size: 0.68rem; color: var(--light); margin-top: 0.8rem; }
+
+/* -- LEDGER -- */
+.ledger-table { width: 100%; border-collapse: collapse; margin-bottom: 2rem; font-size: 0.78rem; }
+.ledger-table th { text-align: left; font-size: 0.62rem; font-weight: 700; letter-spacing: 0.1em; text-transform: uppercase; color: var(--muted); padding: 0.6rem 0.8rem; border-bottom: 2px solid var(--ink); }
+.ledger-table td { padding: 0.6rem 0.8rem; border-bottom: 1px solid var(--rule); vertical-align: top; }
+.ledger-table tr:hover { background: var(--off); }
+.ledger-source { font-size: 0.58rem; font-weight: 700; letter-spacing: 0.06em; text-transform: uppercase; padding: 0.1rem 0.35rem; border-radius: 2px; }
+.ledger-source-poly { background: var(--teal-light); color: var(--teal); }
+.ledger-source-hf { background: var(--indigo-light); color: var(--indigo); }
+.ledger-source-cw { background: var(--amber-light); color: var(--amber); }
+.ledger-pnl-pos { color: var(--green); font-weight: 700; }
+.ledger-pnl-neg { color: var(--red); font-weight: 700; }
+
+/* -- ADVANTAGE CLOCK -- */
+.advantage-clock { display: flex; align-items: center; gap: 2rem; margin: 1.5rem 0; }
+.advantage-clock-svg { flex-shrink: 0; }
+.advantage-clock-legend { display: flex; flex-direction: column; gap: 0.4rem; }
+.advantage-legend-item { display: flex; align-items: center; gap: 0.5rem; font-size: 0.72rem; }
+.advantage-legend-swatch { width: 12px; height: 12px; border-radius: 2px; flex-shrink: 0; }
+.advantage-legend-label { color: var(--muted); font-weight: 300; }
+.advantage-legend-val { font-weight: 700; margin-left: auto; }
 
 /* -- COMPANY WATCH -- */
 .cw-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); gap: 1rem; margin-bottom: 1.5rem; }
@@ -449,7 +492,7 @@ img { display: block; max-width: 100%; }
         <img src="/assets/images/polymarket-odds-shift-sharply-as-traders-1c808e1f.jpg" alt="Polymarket odds shift sharply as traders speculate on ZachXBT&#39;s insider trading expose" class="story-hero-img">
       </div>
       <div class="story-body">
-      <p>A prediction market on Polymarket witnesses rapid odds reordering amid speculation over ZachXBT&#39;s upcoming investigation, raising questions about insider trading and market manipulation within the crypto ecosystem.</p>
+      <p><span class="drop-cap">A</span> prediction market on Polymarket witnesses rapid odds reordering amid speculation over ZachXBT&#39;s upcoming investigation, raising questions about insider trading and market manipulation within the crypto ecosystem.</p>
       <p>A Polymarket prediction market set up to anticipate which firm on-chain investigator ZachXBT would expose for insider trading has seen a rapid reshuffle of odds, with traders pushing one outcome to the front of the field in the run-up to the scheduled resolution. According to the Polymarket listing, the market offers multiple named firms and was scheduled to resolve around March 2, 2026; snapshots of trading show Meteora rising to lead the market within a short time frame. (Paragraph sources: Polymarket, Ainvest)</p>
       <p>The sharp repricing has prompted discussion across crypto circles about whether participants with access to non-public information could be influencing prices. Social media commentary highlighted the speed of the move; one user posting on X asked, &quot;Isn&#39;t it ironic that there is insider trading happening about an insider trading investigation? No one was thinking about Meteora before the prediction market went live. Yet it&#39;s now trading at 44%, or maybe we&#39;re being psyoped. We will find out in 2 days.&quot; Market observers caution, however, that order-book dynamics can produce dramatic probability swings without proving informed betting. (Paragraph sources: Polymarket, Webopedia)</p>
       <p>Meteora’s ascent followed initial leadership by other outcomes named in the market, with competing contenders such as Pump.fun and Axiom recording significant volume before Meteora overtook them. Coverage of the market noted Meteora’s connections within the Solana ecosystem and a heightened trader interest in projects associated with politically themed tokens, factors that may have focused speculative flows. (Paragraph sources: Ainvest, MEXC)</p>
