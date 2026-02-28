@@ -5,8 +5,16 @@
     <link>https://noah-edge.com/</link>
     <description>Prediction market intelligence. The Noah Poly Index tracks edges with transparent positions and tracked outcomes.</description>
     <language>en</language>
-    <lastBuildDate>Sat, 28 Feb 2026 20:26:15 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 28 Feb 2026 20:56:49 +0000</lastBuildDate>
     <atom:link href="https://noah-edge.com/rss.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>US senators demand review of Binance’s compliance amid reports of Iran-linked crypto flows</title>
+      <link>https://noah-edge.com/stories/us-senators-demand-review-of-binances-compliance-amid.html</link>
+      <description>A bipartisan group of US senators has called for an official investigation into Binance&#39;s compliance with US sanctions and AML rules, following allegations of significant crypto transfers to Iran-l...</description>
+      <pubDate>Sat, 28 Feb 2026 20:35:42 +0000</pubDate>
+      <guid>https://noah-edge.com/stories/us-senators-demand-review-of-binances-compliance-amid.html</guid>
+      <enclosure url="https://noah-edge.com/assets/images/us-senators-demand-review-of-binances-co-a039999f.jpg" type="image/jpeg" />
+    </item>
     <item>
       <title>Prediction market exploits surge as US and Israeli strikes on Iran reveal privileged information</title>
       <link>https://noah-edge.com/stories/prediction-market-exploits-surge-as-us-and-israeli-strikes.html</link>
@@ -158,14 +166,6 @@
       <pubDate>Fri, 27 Feb 2026 22:45:08 +0000</pubDate>
       <guid>https://noah-edge.com/stories/india-tightens-social-media-rules-for-securities-market-to.html</guid>
       <enclosure url="https://noah-edge.com/assets/images/india-tightens-social-media-rules-for-se-88433131.jpg" type="image/jpeg" />
-    </item>
-    <item>
-      <title>Prediction markets face fresh scrutiny over insider trading amid regulatory gap</title>
-      <link>https://noah-edge.com/stories/prediction-markets-face-fresh-scrutiny-over-insider-trading.html</link>
-      <description>High-stakes bets on prediction platforms raise concerns over exploitation of privileged information, prompting regulatory and corporate responses amid legal ambiguities.</description>
-      <pubDate>Fri, 27 Feb 2026 22:40:59 +0000</pubDate>
-      <guid>https://noah-edge.com/stories/prediction-markets-face-fresh-scrutiny-over-insider-trading.html</guid>
-      <enclosure url="https://noah-edge.com/assets/images/prediction-markets-face-fresh-scrutiny-o-560aa6c1.jpg" type="image/jpeg" />
     </item>
   </channel>
 </rss>
