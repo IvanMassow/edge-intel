@@ -259,6 +259,50 @@ img { display: block; max-width: 100%; }
 .signal-card-meta { font-size: 0.58rem; color: var(--light); }
 .section-note { font-size: 0.64rem; font-weight: 300; color: var(--light); font-style: italic; }
 
+/* -- COMPANY WATCH -- */
+.cw-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); gap: 1rem; margin-bottom: 1.5rem; }
+.cw-stock-card { background: var(--bg); border: 1px solid var(--rule); padding: 1rem; }
+.cw-stock-header { display: flex; align-items: baseline; gap: 0.5rem; margin-bottom: 0.5rem; flex-wrap: wrap; }
+.cw-ticker { font-weight: 900; font-size: 1rem; letter-spacing: 0.04em; color: var(--ink); }
+.cw-company { font-size: 0.7rem; color: var(--muted); font-weight: 300; }
+.cw-price { font-size: 0.7rem; color: var(--light); margin-left: auto; }
+.cw-stock-state { margin-bottom: 0.6rem; }
+.cw-state-badge { display: inline-block; font-size: 0.55rem; font-weight: 700; letter-spacing: 0.08em; text-transform: uppercase; padding: 0.12rem 0.4rem; border-radius: 2px; }
+.cw-state-long { background: #dcfce7; color: #16a34a; }
+.cw-state-short { background: #fde8e8; color: #dc2626; }
+.cw-state-flat { background: var(--off); color: var(--muted); }
+.cw-stock-metrics { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 0.3rem; }
+.cw-metric { text-align: center; }
+.cw-metric-label { display: block; font-size: 0.5rem; font-weight: 700; letter-spacing: 0.08em; text-transform: uppercase; color: var(--light); }
+.cw-metric-val { display: block; font-size: 0.78rem; font-weight: 500; }
+.cw-pnl-pos { color: #16a34a; }
+.cw-pnl-neg { color: #dc2626; }
+.cw-alpha-pos { color: #16a34a; }
+.cw-alpha-neg { color: #dc2626; }
+.cw-alpha-flat { color: var(--muted); }
+
+/* -- SIGNAL ACCURACY (NAS) -- */
+.nas-stats-row { display: flex; gap: 2rem; margin-bottom: 1.5rem; }
+.nas-stat { text-align: center; }
+.nas-stat-val { display: block; font-weight: 900; font-size: 1.4rem; line-height: 1; color: var(--ink); }
+.nas-stat-label { display: block; font-size: 0.5rem; font-weight: 700; letter-spacing: 0.1em; text-transform: uppercase; color: var(--light); margin-top: 0.2rem; }
+.nas-gauges { display: grid; grid-template-columns: repeat(4, 1fr); gap: 1rem; margin-bottom: 1.5rem; }
+.nas-gauge { text-align: center; }
+.nas-gauge-label { font-size: 0.6rem; font-weight: 700; color: var(--muted); margin-bottom: 0.3rem; }
+.nas-gauge-bar { height: 6px; background: var(--rule); border-radius: 3px; overflow: hidden; margin-bottom: 0.2rem; }
+.nas-gauge-fill { height: 100%; border-radius: 3px; transition: width 0.3s; }
+.nas-gauge-good .nas-gauge-fill { background: var(--teal); }
+.nas-gauge-ok .nas-gauge-fill { background: var(--amber); }
+.nas-gauge-low .nas-gauge-fill { background: #dc2626; }
+.nas-gauge-val { font-weight: 700; font-size: 0.82rem; color: var(--ink); }
+.nas-gauge-count { font-size: 0.55rem; color: var(--light); }
+.nas-leaderboard { margin-bottom: 1.5rem; }
+.nas-lb-header { font-size: 0.6rem; font-weight: 700; letter-spacing: 0.1em; text-transform: uppercase; color: var(--muted); margin-bottom: 0.5rem; }
+.nas-lb-row { display: flex; align-items: center; gap: 0.8rem; padding: 0.35rem 0; border-bottom: 1px solid var(--rule); font-size: 0.78rem; }
+.nas-lb-cat { font-weight: 600; color: var(--ink); min-width: 120px; }
+.nas-lb-tickers { color: var(--teal); font-weight: 700; font-size: 0.72rem; }
+.nas-lb-lead { color: var(--light); font-size: 0.65rem; margin-left: auto; }
+
 /* -- TIP DETAIL PAGE -- */
 .tip-detail-section { margin-bottom: 1.5rem; }
 .tip-detail-heading { font-size: 0.82rem; font-weight: 800; letter-spacing: 0.06em; text-transform: uppercase; color: var(--teal); margin-bottom: 0.4rem; }
@@ -320,6 +364,8 @@ img { display: block; max-width: 100%; }
   .stats-grid-3 { grid-template-columns: 1fr; }
   .tip-cards-grid { grid-template-columns: repeat(2, 1fr); }
   .signal-cards-row { grid-template-columns: 1fr 1fr; }
+  .cw-grid { grid-template-columns: repeat(2, 1fr); }
+  .nas-gauges { grid-template-columns: repeat(2, 1fr); }
 }
 @media (max-width: 600px) {
   .site-header { padding: 0.8rem 1.2rem; flex-wrap: wrap; gap: 0.4rem; }
@@ -352,6 +398,10 @@ img { display: block; max-width: 100%; }
   .tip-card-narrative { font-size: 0.72rem; }
   .signal-cards-row { grid-template-columns: 1fr; }
   .signal-card { padding: 1rem; }
+  .cw-grid { grid-template-columns: 1fr; }
+  .nas-gauges { grid-template-columns: repeat(2, 1fr); }
+  .nas-stats-row { gap: 1.2rem; }
+  .nas-stat-val { font-size: 1.1rem; }
   .hero-secondary { margin-top: 1rem; padding-top: 1rem; }
   .hero-secondary-headline { font-size: 0.95rem; }
   .hero-secondary-deck { font-size: 0.78rem; }
@@ -881,6 +931,224 @@ img { display: block; max-width: 100%; }
         <div class="signal-card-meta">27 Feb &middot; MGKV</div>
       </a>
   </div>
+</div>
+
+<!-- ═══ COMPANY WATCH ═══ -->
+<div class="content">
+  <hr class="section-rule-heavy">
+  <div class="section-header">
+    <div class="section-label">Company Watch</div>
+    <span class="section-note">AI-managed vs buy-and-hold — who wins?</span>
+  </div>
+
+  <p style="font-size:0.78rem; font-weight:300; color:var(--muted); line-height:1.55; margin-bottom:1rem;">We run two parallel portfolios on each stock: an AI-managed active line (that reads daily intelligence reports and makes buy/sell/hold decisions) and a passive buy-and-hold line. Alpha = the difference. Green means the AI is winning.</p>
+
+  <div class="cw-grid">
+      <div class="cw-stock-card">
+        <div class="cw-stock-header">
+          <span class="cw-ticker">BABA</span>
+          <span class="cw-company">Alibaba</span>
+          <span class="cw-price">$152.78</span>
+        </div>
+        <div class="cw-stock-state">
+          <span class="cw-state-badge cw-state-flat">FLAT</span>
+        </div>
+        <div class="cw-stock-metrics">
+          <div class="cw-metric">
+            <span class="cw-metric-label">Active AI</span>
+            <span class="cw-metric-val cw-pnl-neg">-0.74%</span>
+          </div>
+          <div class="cw-metric">
+            <span class="cw-metric-label">Passive</span>
+            <span class="cw-metric-val cw-pnl-neg">-1.89%</span>
+          </div>
+          <div class="cw-metric">
+            <span class="cw-metric-label">Alpha</span>
+            <span class="cw-metric-val cw-alpha-pos"><strong>+1.15%</strong></span>
+          </div>
+        </div>
+      </div>
+      <div class="cw-stock-card">
+        <div class="cw-stock-header">
+          <span class="cw-ticker">JD</span>
+          <span class="cw-company">JD.com</span>
+          <span class="cw-price">$27.23</span>
+        </div>
+        <div class="cw-stock-state">
+          <span class="cw-state-badge cw-state-long">HELD</span>
+        </div>
+        <div class="cw-stock-metrics">
+          <div class="cw-metric">
+            <span class="cw-metric-label">Active AI</span>
+            <span class="cw-metric-val cw-pnl-neg">-0.36%</span>
+          </div>
+          <div class="cw-metric">
+            <span class="cw-metric-label">Passive</span>
+            <span class="cw-metric-val cw-pnl-pos">+0.33%</span>
+          </div>
+          <div class="cw-metric">
+            <span class="cw-metric-label">Alpha</span>
+            <span class="cw-metric-val cw-alpha-neg"><strong>-0.70%</strong></span>
+          </div>
+        </div>
+      </div>
+      <div class="cw-stock-card">
+        <div class="cw-stock-header">
+          <span class="cw-ticker">BIDU</span>
+          <span class="cw-company">Baidu</span>
+          <span class="cw-price">$133.94</span>
+        </div>
+        <div class="cw-stock-state">
+          <span class="cw-state-badge cw-state-flat">FLAT</span>
+        </div>
+        <div class="cw-stock-metrics">
+          <div class="cw-metric">
+            <span class="cw-metric-label">Active AI</span>
+            <span class="cw-metric-val ">+0.00%</span>
+          </div>
+          <div class="cw-metric">
+            <span class="cw-metric-label">Passive</span>
+            <span class="cw-metric-val cw-pnl-neg">-2.24%</span>
+          </div>
+          <div class="cw-metric">
+            <span class="cw-metric-label">Alpha</span>
+            <span class="cw-metric-val cw-alpha-pos"><strong>+2.24%</strong></span>
+          </div>
+        </div>
+      </div>
+      <div class="cw-stock-card">
+        <div class="cw-stock-header">
+          <span class="cw-ticker">NTES</span>
+          <span class="cw-company">NetEase</span>
+          <span class="cw-price">$116.33</span>
+        </div>
+        <div class="cw-stock-state">
+          <span class="cw-state-badge cw-state-flat">FLAT</span>
+        </div>
+        <div class="cw-stock-metrics">
+          <div class="cw-metric">
+            <span class="cw-metric-label">Active AI</span>
+            <span class="cw-metric-val cw-pnl-neg">-0.28%</span>
+          </div>
+          <div class="cw-metric">
+            <span class="cw-metric-label">Passive</span>
+            <span class="cw-metric-val cw-pnl-neg">-3.55%</span>
+          </div>
+          <div class="cw-metric">
+            <span class="cw-metric-label">Alpha</span>
+            <span class="cw-metric-val cw-alpha-pos"><strong>+3.26%</strong></span>
+          </div>
+        </div>
+      </div>
+      <div class="cw-stock-card">
+        <div class="cw-stock-header">
+          <span class="cw-ticker">PDD</span>
+          <span class="cw-company">PDD Holdings</span>
+          <span class="cw-price">$105.76</span>
+        </div>
+        <div class="cw-stock-state">
+          <span class="cw-state-badge cw-state-flat">FLAT</span>
+        </div>
+        <div class="cw-stock-metrics">
+          <div class="cw-metric">
+            <span class="cw-metric-label">Active AI</span>
+            <span class="cw-metric-val ">+0.00%</span>
+          </div>
+          <div class="cw-metric">
+            <span class="cw-metric-label">Passive</span>
+            <span class="cw-metric-val cw-pnl-pos">+5.46%</span>
+          </div>
+          <div class="cw-metric">
+            <span class="cw-metric-label">Alpha</span>
+            <span class="cw-metric-val cw-alpha-neg"><strong>-5.46%</strong></span>
+          </div>
+        </div>
+      </div>
+  </div>
+  <a href="/company-watch/" class="section-more">Full Company Watch →</a>
+</div>
+
+<!-- ═══ SIGNAL ACCURACY ═══ -->
+<div class="content">
+  <hr class="section-rule-heavy">
+  <div class="section-header">
+    <div class="section-label">Signal Accuracy</div>
+    <span class="section-note">NAS validation — how early are our signals?</span>
+  </div>
+
+  <p style="font-size:0.78rem; font-weight:300; color:var(--muted); line-height:1.55; margin-bottom:1rem;">We validate every Narrative Asset Signal by tracking whether the predicted direction materialises within 6, 12, 24, and 72 hours. Average lead time: <strong>6.2h</strong> ahead of price.</p>
+
+  <div class="nas-stats-row">
+    <div class="nas-stat"><span class="nas-stat-val">5</span><span class="nas-stat-label">Signals</span></div>
+    <div class="nas-stat"><span class="nas-stat-val">7</span><span class="nas-stat-label">Positions</span></div>
+    <div class="nas-stat"><span class="nas-stat-val">6.2h</span><span class="nas-stat-label">Avg Lead</span></div>
+  </div>
+
+  <div class="nas-gauges">
+        <div class="nas-gauge">
+          <div class="nas-gauge-label">6h</div>
+          <div class="nas-gauge-bar">
+            <div class="nas-gauge-fill nas-gauge-ok" style="width:43%"></div>
+          </div>
+          <div class="nas-gauge-val">43%</div>
+          <div class="nas-gauge-count">3/7</div>
+        </div>
+        <div class="nas-gauge">
+          <div class="nas-gauge-label">12h</div>
+          <div class="nas-gauge-bar">
+            <div class="nas-gauge-fill nas-gauge-ok" style="width:43%"></div>
+          </div>
+          <div class="nas-gauge-val">43%</div>
+          <div class="nas-gauge-count">3/7</div>
+        </div>
+        <div class="nas-gauge">
+          <div class="nas-gauge-label">24h</div>
+          <div class="nas-gauge-bar">
+            <div class="nas-gauge-fill nas-gauge-na" style="width:0%"></div>
+          </div>
+          <div class="nas-gauge-val">N/A</div>
+          <div class="nas-gauge-count">0/0</div>
+        </div>
+        <div class="nas-gauge">
+          <div class="nas-gauge-label">72h</div>
+          <div class="nas-gauge-bar">
+            <div class="nas-gauge-fill nas-gauge-na" style="width:0%"></div>
+          </div>
+          <div class="nas-gauge-val">N/A</div>
+          <div class="nas-gauge-count">0/0</div>
+        </div>
+  </div>
+
+  <div class="nas-leaderboard">
+      <div class="nas-lb-header">Category Leaderboard</div>
+        <div class="nas-lb-row">
+          <span class="nas-lb-cat">Primary Asset</span>
+          <span class="nas-lb-tickers">SMH</span>
+          <span class="nas-lb-lead"></span>
+        </div>
+        <div class="nas-lb-row">
+          <span class="nas-lb-cat">Em Fx Vulnerability</span>
+          <span class="nas-lb-tickers">EEM</span>
+          <span class="nas-lb-lead">8.1h lead</span>
+        </div>
+        <div class="nas-lb-row">
+          <span class="nas-lb-cat">Rates Pressure</span>
+          <span class="nas-lb-tickers">TLT</span>
+          <span class="nas-lb-lead">5.6h lead</span>
+        </div>
+        <div class="nas-lb-row">
+          <span class="nas-lb-cat">Inflation Expectations</span>
+          <span class="nas-lb-tickers">TIP</span>
+          <span class="nas-lb-lead"></span>
+        </div>
+        <div class="nas-lb-row">
+          <span class="nas-lb-cat">Chemicals</span>
+          <span class="nas-lb-tickers">XLB</span>
+          <span class="nas-lb-lead"></span>
+        </div>
+    </div>
+
+  <a href="/signals/" class="section-more">Full signal accuracy report →</a>
 </div>
 
 <!-- ═══ HOUSE AD TAGLINE ═══ -->
