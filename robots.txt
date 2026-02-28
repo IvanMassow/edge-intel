@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://noah-edge.com/sitemap.xml
+Sitemap: https://ivanmassow.github.io/edge-intel/sitemap.xml
