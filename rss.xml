@@ -5,8 +5,16 @@
     <link>https://noah-edge.com/</link>
     <description>Prediction market intelligence. The Noah Poly Index tracks edges with transparent positions and tracked outcomes.</description>
     <language>en</language>
-    <lastBuildDate>Sat, 28 Feb 2026 23:58:55 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 01 Mar 2026 00:29:25 +0000</lastBuildDate>
     <atom:link href="https://noah-edge.com/rss.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Prediction markets&#39; surge on Iran strikes sparks ethical and regulatory debates</title>
+      <link>https://noah-edge.com/stories/prediction-markets-surge-on-iran-strikes-sparks-ethical-and.html</link>
+      <description>A dramatic increase in online prediction trading following the U.S.-Israel air campaign on Iran has raised concerns over insider trading, ethical implications, and the need for stronger oversight, ...</description>
+      <pubDate>Sun, 01 Mar 2026 00:23:32 +0000</pubDate>
+      <guid>https://noah-edge.com/stories/prediction-markets-surge-on-iran-strikes-sparks-ethical-and.html</guid>
+      <enclosure url="https://noah-edge.com/assets/images/prediction-markets-surge-on-iran-strikes-420d1ecb.jpg" type="image/jpeg" />
+    </item>
     <item>
       <title>Canton Network advances private infrastructure as trillions of dollars shift into institutions&#39; closed blockchain corridors</title>
       <link>https://noah-edge.com/stories/canton-network-advances-private-infrastructure-as-trillions.html</link>
@@ -158,14 +166,6 @@
       <pubDate>Sat, 28 Feb 2026 06:37:46 +0000</pubDate>
       <guid>https://noah-edge.com/stories/prediction-markets-go-mainstream-amid-regulatory-pressure.html</guid>
       <enclosure url="https://noah-edge.com/assets/images/prediction-markets-go-mainstream-amid-re-fac69bd3.jpg" type="image/jpeg" />
-    </item>
-    <item>
-      <title>Polymarket&#39;s live odds update signals emerging dominance as crypto prediction tool</title>
-      <link>https://noah-edge.com/stories/polymarkets-live-odds-update-signals-emerging-dominance-as.html</link>
-      <description>Polymarket’s recent live odds updates highlight its growing influence as a real-time indicator of crowd sentiment in crypto markets, attracting increased institutional and retail interest amid regu...</description>
-      <pubDate>Sat, 28 Feb 2026 06:33:31 +0000</pubDate>
-      <guid>https://noah-edge.com/stories/polymarkets-live-odds-update-signals-emerging-dominance-as.html</guid>
-      <enclosure url="https://noah-edge.com/assets/images/polymarkets-live-odds-update-signals-eme-99e39400.jpg" type="image/jpeg" />
     </item>
   </channel>
 </rss>
