@@ -5,8 +5,24 @@
     <link>https://noah-edge.com/</link>
     <description>Prediction market intelligence. The Noah Poly Index tracks edges with transparent positions and tracked outcomes.</description>
     <language>en</language>
-    <lastBuildDate>Sun, 01 Mar 2026 18:24:45 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 01 Mar 2026 19:11:40 +0000</lastBuildDate>
     <atom:link href="https://noah-edge.com/rss.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Crypto market plunge exposes risks of leverage and token unlocks amid new turbulence</title>
+      <link>https://noah-edge.com/stories/crypto-market-plunge-exposes-risks-of-leverage-and-token.html</link>
+      <description>A recent crypto sell-off led to over $458 million in liquidations, highlighting the dangers of high leverage and scheduled supply changes in a turbulent market environment.</description>
+      <pubDate>Sun, 01 Mar 2026 18:48:54 +0000</pubDate>
+      <guid>https://noah-edge.com/stories/crypto-market-plunge-exposes-risks-of-leverage-and-token.html</guid>
+      <enclosure url="https://noah-edge.com/assets/images/crypto-market-plunge-exposes-risks-of-le-4f930291.jpg" type="image/jpeg" />
+    </item>
+    <item>
+      <title>Morgan Stanley’s crypto custody move signals shift towards mainstream institutional integration</title>
+      <link>https://noah-edge.com/stories/morgan-stanleys-crypto-custody-move-signals-shift-towards.html</link>
+      <description>Morgan Stanley’s recent filing for a national trust bank charter marks a strategic step in institutionalising crypto custody and trading, reflecting a broader industry trend of integrating digital ...</description>
+      <pubDate>Sun, 01 Mar 2026 18:48:44 +0000</pubDate>
+      <guid>https://noah-edge.com/stories/morgan-stanleys-crypto-custody-move-signals-shift-towards.html</guid>
+      <enclosure url="https://noah-edge.com/assets/images/morgan-stanleys-crypto-custody-move-sign-231728ae.jpg" type="image/jpeg" />
+    </item>
     <item>
       <title>Block’s AI-driven overhaul sends shockwaves through crypto and corporate markets</title>
       <link>https://noah-edge.com/stories/blocks-ai-driven-overhaul-sends-shockwaves-through-crypto.html</link>
@@ -150,22 +166,6 @@
       <pubDate>Sun, 01 Mar 2026 03:25:48 +0000</pubDate>
       <guid>https://noah-edge.com/stories/senate-demands-review-of-binances-sanctions-compliance-amid.html</guid>
       <enclosure url="https://noah-edge.com/assets/images/senate-demands-review-of-binances-sancti-f6424b40.jpg" type="image/jpeg" />
-    </item>
-    <item>
-      <title>Flutter Entertainment signals cautious shift as US growth ambitions face fresh scrutiny</title>
-      <link>https://noah-edge.com/stories/flutter-entertainment-signals-cautious-shift-as-us-growth.html</link>
-      <description>The gambling giant adjusts its US expansion stance amid investor concerns over recent earnings and revised growth forecasts, highlighting a more cautious outlook for the near term.</description>
-      <pubDate>Sun, 01 Mar 2026 03:25:43 +0000</pubDate>
-      <guid>https://noah-edge.com/stories/flutter-entertainment-signals-cautious-shift-as-us-growth.html</guid>
-      <enclosure url="https://noah-edge.com/assets/images/flutter-entertainment-signals-cautious-s-9875facc.jpg" type="image/jpeg" />
-    </item>
-    <item>
-      <title>Polymarket trader loses $6.5 million in single event, exposing risks of binary prediction markets</title>
-      <link>https://noah-edge.com/stories/polymarket-trader-loses-65-million-in-single-event-exposing.html</link>
-      <description>A major Polymarket account saw over $2 million in profits erased in a single day following the resolution of a US-Israel-Iran prediction, highlighting volatility and ethical concerns in geopolitica...</description>
-      <pubDate>Sun, 01 Mar 2026 01:53:41 +0000</pubDate>
-      <guid>https://noah-edge.com/stories/polymarket-trader-loses-65-million-in-single-event-exposing.html</guid>
-      <enclosure url="https://noah-edge.com/assets/images/polymarket-trader-loses-65-million-in-si-7ec8642c.jpg" type="image/jpeg" />
     </item>
   </channel>
 </rss>
