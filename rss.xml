@@ -5,8 +5,16 @@
     <link>https://noah-edge.com/</link>
     <description>Prediction market intelligence. The Noah Poly Index tracks edges with transparent positions and tracked outcomes.</description>
     <language>en</language>
-    <lastBuildDate>Sun, 01 Mar 2026 15:11:46 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 01 Mar 2026 15:42:07 +0000</lastBuildDate>
     <atom:link href="https://noah-edge.com/rss.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>OCC draft sparks debate over stability of stablecoin yield restrictions</title>
+      <link>https://noah-edge.com/stories/occ-draft-sparks-debate-over-stability-of-stablecoin-yield.html</link>
+      <description>The Office of the Comptroller of the Currency’s proposed rules on stablecoin yield payments have reignited fierce industry debate, highlighting potential loopholes and consequences for crypto platf...</description>
+      <pubDate>Sun, 01 Mar 2026 15:24:41 +0000</pubDate>
+      <guid>https://noah-edge.com/stories/occ-draft-sparks-debate-over-stability-of-stablecoin-yield.html</guid>
+      <enclosure url="https://noah-edge.com/assets/images/occ-draft-sparks-debate-over-stability-o-fb5134de.jpg" type="image/jpeg" />
+    </item>
     <item>
       <title>Hyperliquid’s surge in decentralised trading highlights crypto’s new 24/7 risk pricing amid geopolitical tensions</title>
       <link>https://noah-edge.com/stories/hyperliquids-surge-in-decentralised-trading-highlights.html</link>
@@ -158,14 +166,6 @@
       <pubDate>Sat, 28 Feb 2026 23:33:25 +0000</pubDate>
       <guid>https://noah-edge.com/stories/canton-network-advances-private-infrastructure-as-trillions.html</guid>
       <enclosure url="https://noah-edge.com/assets/images/canton-network-advances-private-infrastr-873e15c5.jpg" type="image/jpeg" />
-    </item>
-    <item>
-      <title>Pepeto’s presale raises over $7.3 million amid escalating geopolitical risks and crypto sell-offs</title>
-      <link>https://noah-edge.com/stories/pepetos-presale-raises-over-73-million-amid-escalating.html</link>
-      <description>Pepeto’s ongoing presale has successfully attracted over $7.36 million despite volatile markets marked by sharp declines in Ethereum and widespread liquidations triggered by recent Middle East tens...</description>
-      <pubDate>Sat, 28 Feb 2026 23:33:22 +0000</pubDate>
-      <guid>https://noah-edge.com/stories/pepetos-presale-raises-over-73-million-amid-escalating.html</guid>
-      <enclosure url="https://noah-edge.com/assets/images/pepetos-presale-raises-over-73-million-a-7f5e69e6.jpg" type="image/jpeg" />
     </item>
   </channel>
 </rss>
