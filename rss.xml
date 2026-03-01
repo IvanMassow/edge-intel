@@ -5,8 +5,32 @@
     <link>https://noah-edge.com/</link>
     <description>Prediction market intelligence. The Noah Poly Index tracks edges with transparent positions and tracked outcomes.</description>
     <language>en</language>
-    <lastBuildDate>Sun, 01 Mar 2026 21:43:15 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 01 Mar 2026 22:13:34 +0000</lastBuildDate>
     <atom:link href="https://noah-edge.com/rss.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Kalshi faces scrutiny over death-linked prediction market after Khamenei reports</title>
+      <link>https://noah-edge.com/stories/kalshi-faces-scrutiny-over-death-linked-prediction-market.html</link>
+      <description>Kalshi, a CFTC-regulated prediction platform, sparks controversy with a high-volume market on Iran’s Supreme Leader amid reports of his death, raising questions over ethical boundaries and regulato...</description>
+      <pubDate>Sun, 01 Mar 2026 21:59:12 +0000</pubDate>
+      <guid>https://noah-edge.com/stories/kalshi-faces-scrutiny-over-death-linked-prediction-market.html</guid>
+      <enclosure url="https://noah-edge.com/assets/images/kalshi-faces-scrutiny-over-death-linked--7aa4f62d.jpg" type="image/jpeg" />
+    </item>
+    <item>
+      <title>Prediction markets may have anticipated U.S.-Iran strikes before public reports, raising concerns over market manipulation</title>
+      <link>https://noah-edge.com/stories/prediction-markets-may-have-anticipated-us-iran-strikes.html</link>
+      <description>A trader on Polymarket reportedly turned an early bet on the U.S.-led strikes against Iran into over half a million dollars, igniting debate over the potential of prediction markets to foresee conf...</description>
+      <pubDate>Sun, 01 Mar 2026 21:50:01 +0000</pubDate>
+      <guid>https://noah-edge.com/stories/prediction-markets-may-have-anticipated-us-iran-strikes.html</guid>
+      <enclosure url="https://noah-edge.com/assets/images/prediction-markets-may-have-anticipated--2bed8ae5.jpg" type="image/jpeg" />
+    </item>
+    <item>
+      <title>Lighter’s new risk architecture neutralises $8.2 million whale liquidation crisis</title>
+      <link>https://noah-edge.com/stories/lighters-new-risk-architecture-neutralises-82-million-whale.html</link>
+      <description>Lighter’s innovative strategy-level risk management contained a significant whale liquidation, exposing the platform’s enhanced safeguards amid heightened market volatility.</description>
+      <pubDate>Sun, 01 Mar 2026 21:49:56 +0000</pubDate>
+      <guid>https://noah-edge.com/stories/lighters-new-risk-architecture-neutralises-82-million-whale.html</guid>
+      <enclosure url="https://noah-edge.com/assets/images/lighters-new-risk-architecture-neutralis-c88eac2f.jpg" type="image/jpeg" />
+    </item>
     <item>
       <title>Prediction markets like Polymarket now allow bets on nuclear detonations, raising ethical and societal questions</title>
       <link>https://noah-edge.com/stories/prediction-markets-like-polymarket-now-allow-bets-on.html</link>
@@ -142,30 +166,6 @@
       <pubDate>Sun, 01 Mar 2026 10:39:21 +0000</pubDate>
       <guid>https://noah-edge.com/stories/prediction-markets-face-scrutiny-after-iran-strike-dispute.html</guid>
       <enclosure url="https://noah-edge.com/assets/images/prediction-markets-face-scrutiny-after-i-6c9eae70.jpg" type="image/jpeg" />
-    </item>
-    <item>
-      <title>XRP Ledger gains momentum as institutional tokenisation pilots accelerate</title>
-      <link>https://noah-edge.com/stories/xrp-ledger-gains-momentum-as-institutional-tokenisation.html</link>
-      <description>Emerging pilot projects and institutional interest position the XRP Ledger as a leading network for real-world asset tokenisation, amidst ongoing debates on scalability and market potential.</description>
-      <pubDate>Sun, 01 Mar 2026 06:35:56 +0000</pubDate>
-      <guid>https://noah-edge.com/stories/xrp-ledger-gains-momentum-as-institutional-tokenisation.html</guid>
-      <enclosure url="https://noah-edge.com/assets/images/xrp-ledger-gains-momentum-as-institution-c7fe107a.jpg" type="image/jpeg" />
-    </item>
-    <item>
-      <title>Pi Network speculation heats up over symbolic valuation and exchange prospects</title>
-      <link>https://noah-edge.com/stories/pi-network-speculation-heats-up-over-symbolic-valuation-and.html</link>
-      <description>Growing buzz surrounds Pi Network as community claims suggest a milestone valuation linked to the viral number 314,159 and potential listings on major exchanges, though no official confirmation has...</description>
-      <pubDate>Sun, 01 Mar 2026 06:00:38 +0000</pubDate>
-      <guid>https://noah-edge.com/stories/pi-network-speculation-heats-up-over-symbolic-valuation-and.html</guid>
-      <enclosure url="https://noah-edge.com/assets/images/pi-network-speculation-heats-up-over-sym-5ddb57d0.jpg" type="image/jpeg" />
-    </item>
-    <item>
-      <title>Crypto derivatives market cools amid subdued volatility and regulatory scrutiny</title>
-      <link>https://noah-edge.com/stories/crypto-derivatives-market-cools-amid-subdued-volatility-and.html</link>
-      <description>Trading volumes on decentralised perpetual-futures platforms decline as market sentiment shifts and regulatory concerns intensify, but industry experts believe ongoing technical innovations could h...</description>
-      <pubDate>Sun, 01 Mar 2026 05:31:17 +0000</pubDate>
-      <guid>https://noah-edge.com/stories/crypto-derivatives-market-cools-amid-subdued-volatility-and.html</guid>
-      <enclosure url="https://noah-edge.com/assets/images/crypto-derivatives-market-cools-amid-sub-07c7990d.jpg" type="image/jpeg" />
     </item>
   </channel>
 </rss>
