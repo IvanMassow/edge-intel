@@ -5,8 +5,16 @@
     <link>https://noah-edge.com/</link>
     <description>Prediction market intelligence. The Noah Poly Index tracks edges with transparent positions and tracked outcomes.</description>
     <language>en</language>
-    <lastBuildDate>Sun, 01 Mar 2026 05:32:41 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 01 Mar 2026 06:03:03 +0000</lastBuildDate>
     <atom:link href="https://noah-edge.com/rss.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Pi Network speculation heats up over symbolic valuation and exchange prospects</title>
+      <link>https://noah-edge.com/stories/pi-network-speculation-heats-up-over-symbolic-valuation-and.html</link>
+      <description>Growing buzz surrounds Pi Network as community claims suggest a milestone valuation linked to the viral number 314,159 and potential listings on major exchanges, though no official confirmation has...</description>
+      <pubDate>Sun, 01 Mar 2026 06:00:38 +0000</pubDate>
+      <guid>https://noah-edge.com/stories/pi-network-speculation-heats-up-over-symbolic-valuation-and.html</guid>
+      <enclosure url="https://noah-edge.com/assets/images/pi-network-speculation-heats-up-over-sym-5ddb57d0.jpg" type="image/jpeg" />
+    </item>
     <item>
       <title>Crypto derivatives market cools amid subdued volatility and regulatory scrutiny</title>
       <link>https://noah-edge.com/stories/crypto-derivatives-market-cools-amid-subdued-volatility-and.html</link>
@@ -158,14 +166,6 @@
       <pubDate>Sat, 28 Feb 2026 20:20:38 +0000</pubDate>
       <guid>https://noah-edge.com/stories/hyperliquid-leads-the-surge-in-decentralised-perpetual.html</guid>
       <enclosure url="https://noah-edge.com/assets/images/hyperliquid-leads-the-surge-in-decentral-c77e27c7.jpg" type="image/jpeg" />
-    </item>
-    <item>
-      <title>Crypto trader loses over $6.7 million after Iran strike shocks prediction markets</title>
-      <link>https://noah-edge.com/stories/crypto-trader-loses-over-67-million-after-iran-strike.html</link>
-      <description>A high-profile Polymarket participant suffered a $6.7 million loss following a US strike on Iran, exposing the volatility and risk-management gaps in decentralised prediction platforms amid geopoli...</description>
-      <pubDate>Sat, 28 Feb 2026 20:20:36 +0000</pubDate>
-      <guid>https://noah-edge.com/stories/crypto-trader-loses-over-67-million-after-iran-strike.html</guid>
-      <enclosure url="https://noah-edge.com/assets/images/crypto-trader-loses-over-67-million-afte-3c23e2ec.jpg" type="image/jpeg" />
     </item>
   </channel>
 </rss>
