@@ -5,8 +5,16 @@
     <link>https://noah-edge.com/</link>
     <description>Prediction market intelligence. The Noah Poly Index tracks edges with transparent positions and tracked outcomes.</description>
     <language>en</language>
-    <lastBuildDate>Sun, 01 Mar 2026 22:43:57 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 01 Mar 2026 23:14:17 +0000</lastBuildDate>
     <atom:link href="https://noah-edge.com/rss.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Crypto prediction markets surge as traders profit from Iran-U.S. conflict escalation</title>
+      <link>https://noah-edge.com/stories/crypto-prediction-markets-surge-as-traders-profit-from-iran.html</link>
+      <description>As tensions between the US and Iran escalate, traders funnel hundreds of millions into crypto prediction markets, raising concerns over insider trading and ethical implications amid rapid geopoliti...</description>
+      <pubDate>Sun, 01 Mar 2026 22:51:27 +0000</pubDate>
+      <guid>https://noah-edge.com/stories/crypto-prediction-markets-surge-as-traders-profit-from-iran.html</guid>
+      <enclosure url="https://noah-edge.com/assets/images/crypto-prediction-markets-surge-as-trade-277eac6d.jpg" type="image/jpeg" />
+    </item>
     <item>
       <title>Banana Gun achieves rapid multi-chain integration without disruption in record time</title>
       <link>https://noah-edge.com/stories/banana-gun-achieves-rapid-multi-chain-integration-without.html</link>
@@ -158,14 +166,6 @@
       <pubDate>Sun, 01 Mar 2026 13:20:46 +0000</pubDate>
       <guid>https://noah-edge.com/stories/underdog-introduces-real-time-prediction-markets-in-its-app.html</guid>
       <enclosure url="https://noah-edge.com/assets/images/underdog-introduces-real-time-prediction-8817537a.jpg" type="image/jpeg" />
-    </item>
-    <item>
-      <title>Binance’s Bitcoin reserves remain largely long‑term even as liquid supply increases</title>
-      <link>https://noah-edge.com/stories/binances-bitcoin-reserves-remain-largely-longterm-even-as.html</link>
-      <description>On‑chain analysis shows Binance’s Bitcoin holdings are predominantly illiquid, suggesting resilience against immediate sell pressure despite a recent rise in tradable coins, with wider implications...</description>
-      <pubDate>Sun, 01 Mar 2026 11:11:50 +0000</pubDate>
-      <guid>https://noah-edge.com/stories/binances-bitcoin-reserves-remain-largely-longterm-even-as.html</guid>
-      <enclosure url="https://noah-edge.com/assets/images/binances-bitcoin-reserves-remain-largely-f2365f3f.jpg" type="image/jpeg" />
     </item>
   </channel>
 </rss>
