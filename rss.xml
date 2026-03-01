@@ -5,8 +5,32 @@
     <link>https://noah-edge.com/</link>
     <description>Prediction market intelligence. The Noah Poly Index tracks edges with transparent positions and tracked outcomes.</description>
     <language>en</language>
-    <lastBuildDate>Sun, 01 Mar 2026 01:30:06 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 01 Mar 2026 02:00:25 +0000</lastBuildDate>
     <atom:link href="https://noah-edge.com/rss.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Polymarket trader loses $6.5 million in single event, exposing risks of binary prediction markets</title>
+      <link>https://noah-edge.com/stories/polymarket-trader-loses-65-million-in-single-event-exposing.html</link>
+      <description>A major Polymarket account saw over $2 million in profits erased in a single day following the resolution of a US-Israel-Iran prediction, highlighting volatility and ethical concerns in geopolitica...</description>
+      <pubDate>Sun, 01 Mar 2026 01:53:41 +0000</pubDate>
+      <guid>https://noah-edge.com/stories/polymarket-trader-loses-65-million-in-single-event-exposing.html</guid>
+      <enclosure url="https://noah-edge.com/assets/images/polymarket-trader-loses-65-million-in-si-7ec8642c.jpg" type="image/jpeg" />
+    </item>
+    <item>
+      <title>Polymarket launches high-frequency Solana price prediction market using Chainlink feed</title>
+      <link>https://noah-edge.com/stories/polymarket-launches-high-frequency-solana-price-prediction.html</link>
+      <description>Polymarket has introduced a short-duration prediction market on Solana, utilizing Chainlink’s SOL/USD data stream to determine outcomes within five-minute intervals, illustrating the growing inters...</description>
+      <pubDate>Sun, 01 Mar 2026 01:53:41 +0000</pubDate>
+      <guid>https://noah-edge.com/stories/polymarket-launches-high-frequency-solana-price-prediction.html</guid>
+      <enclosure url="https://noah-edge.com/assets/images/polymarket-launches-high-frequency-solan-e903b35c.jpg" type="image/jpeg" />
+    </item>
+    <item>
+      <title>New Polymarket bet on Bitcoin&#39;s short-term price movement sees no early trading activity</title>
+      <link>https://noah-edge.com/stories/new-polymarket-bet-on-bitcoins-short-term-price-movement.html</link>
+      <description>Polymarket&#39;s latest short‑duration Bitcoin prediction market, reliant on Chainlink data, opens with zero trading volume despite recent integrations aimed at improving market outcome verifiability.</description>
+      <pubDate>Sun, 01 Mar 2026 01:53:37 +0000</pubDate>
+      <guid>https://noah-edge.com/stories/new-polymarket-bet-on-bitcoins-short-term-price-movement.html</guid>
+      <enclosure url="https://noah-edge.com/assets/images/new-polymarket-bet-on-bitcoins-short-ter-9296e0bb.jpg" type="image/jpeg" />
+    </item>
     <item>
       <title>Prediction markets&#39; surge on Iran strikes sparks ethical and regulatory debates</title>
       <link>https://noah-edge.com/stories/prediction-markets-surge-on-iran-strikes-sparks-ethical-and.html</link>
@@ -142,30 +166,6 @@
       <pubDate>Sat, 28 Feb 2026 13:42:19 +0000</pubDate>
       <guid>https://noah-edge.com/stories/pi-network-readies-mainnet-launch-of-decentralised-exchange.html</guid>
       <enclosure url="https://noah-edge.com/assets/images/pi-network-readies-mainnet-launch-of-dec-f28957b6.jpg" type="image/jpeg" />
-    </item>
-    <item>
-      <title>Cryptocurrency wallet exploited for geopolitical betting sparks regulatory debate</title>
-      <link>https://noah-edge.com/stories/cryptocurrency-wallet-exploited-for-geopolitical-betting.html</link>
-      <description>A newly created crypto wallet has reportedly turned a $64,000 stake into nearly half a million dollars by accurately betting on US military actions against Iran, raising concerns over information a...</description>
-      <pubDate>Sat, 28 Feb 2026 13:42:07 +0000</pubDate>
-      <guid>https://noah-edge.com/stories/cryptocurrency-wallet-exploited-for-geopolitical-betting.html</guid>
-      <enclosure url="https://noah-edge.com/assets/images/cryptocurrency-wallet-exploited-for-geop-3095fbe3.jpg" type="image/jpeg" />
-    </item>
-    <item>
-      <title>DraftKings restructures to trim costs and boost prediction markets growth</title>
-      <link>https://noah-edge.com/stories/draftkings-restructures-to-trim-costs-and-boost-prediction.html</link>
-      <description>DraftKings announces a major internal reorganisation aimed at reducing costs and refocusing on high-growth areas, including a strategic push into prediction markets, amid fluctuating investor confi...</description>
-      <pubDate>Sat, 28 Feb 2026 06:44:41 +0000</pubDate>
-      <guid>https://noah-edge.com/stories/draftkings-restructures-to-trim-costs-and-boost-prediction.html</guid>
-      <enclosure url="https://noah-edge.com/assets/images/draftkings-restructures-to-trim-costs-an-9866ef1d.jpg" type="image/jpeg" />
-    </item>
-    <item>
-      <title>Prediction markets go mainstream amid regulatory pressure and industry expansion</title>
-      <link>https://noah-edge.com/stories/prediction-markets-go-mainstream-amid-regulatory-pressure.html</link>
-      <description>As prediction markets transition from niche to mainstream platforms with new infrastructure and increased institutional interest, regulators intensify scrutiny, signalling a pivotal moment for thei...</description>
-      <pubDate>Sat, 28 Feb 2026 06:37:46 +0000</pubDate>
-      <guid>https://noah-edge.com/stories/prediction-markets-go-mainstream-amid-regulatory-pressure.html</guid>
-      <enclosure url="https://noah-edge.com/assets/images/prediction-markets-go-mainstream-amid-re-fac69bd3.jpg" type="image/jpeg" />
     </item>
   </channel>
 </rss>
