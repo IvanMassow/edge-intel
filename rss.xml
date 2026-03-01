@@ -5,8 +5,24 @@
     <link>https://noah-edge.com/</link>
     <description>Prediction market intelligence. The Noah Poly Index tracks edges with transparent positions and tracked outcomes.</description>
     <language>en</language>
-    <lastBuildDate>Sun, 01 Mar 2026 22:13:34 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 01 Mar 2026 22:43:57 +0000</lastBuildDate>
     <atom:link href="https://noah-edge.com/rss.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Banana Gun achieves rapid multi-chain integration without disruption in record time</title>
+      <link>https://noah-edge.com/stories/banana-gun-achieves-rapid-multi-chain-integration-without.html</link>
+      <description>In a groundbreaking 90-day deployment, Banana Gun integrated five major blockchains into its web trading platform, setting a new industry standard for speed and stability in multi-chain DeFi support.</description>
+      <pubDate>Sun, 01 Mar 2026 22:22:27 +0000</pubDate>
+      <guid>https://noah-edge.com/stories/banana-gun-achieves-rapid-multi-chain-integration-without.html</guid>
+      <enclosure url="https://noah-edge.com/assets/images/banana-gun-achieves-rapid-multi-chain-in-5740aa56.jpg" type="image/jpeg" />
+    </item>
+    <item>
+      <title>surge in prediction market activity around U.S.-Iran strike raises insider trading concerns</title>
+      <link>https://noah-edge.com/stories/surge-in-prediction-market-activity-around-us-iran-strike.html</link>
+      <description>Trading volumes on prediction platforms soared during recent U.S.-Iran tensions, prompting scrutiny over possible insider information and ethical boundaries in volatile geopolitical betting markets.</description>
+      <pubDate>Sun, 01 Mar 2026 22:22:20 +0000</pubDate>
+      <guid>https://noah-edge.com/stories/surge-in-prediction-market-activity-around-us-iran-strike.html</guid>
+      <enclosure url="https://noah-edge.com/assets/images/surge-in-prediction-market-activity-arou-da8edcd9.jpg" type="image/jpeg" />
+    </item>
     <item>
       <title>Kalshi faces scrutiny over death-linked prediction market after Khamenei reports</title>
       <link>https://noah-edge.com/stories/kalshi-faces-scrutiny-over-death-linked-prediction-market.html</link>
@@ -150,22 +166,6 @@
       <pubDate>Sun, 01 Mar 2026 11:11:50 +0000</pubDate>
       <guid>https://noah-edge.com/stories/binances-bitcoin-reserves-remain-largely-longterm-even-as.html</guid>
       <enclosure url="https://noah-edge.com/assets/images/binances-bitcoin-reserves-remain-largely-f2365f3f.jpg" type="image/jpeg" />
-    </item>
-    <item>
-      <title>Grass token surges amid growing demand for decentralised web infrastructure</title>
-      <link>https://noah-edge.com/stories/grass-token-surges-amid-growing-demand-for-decentralised.html</link>
-      <description>Grass token experienced a notable intraday rise driven by focused demand and rising trading volumes, highlighting increasing investor interest in decentralised infrastructure support for AI and dat...</description>
-      <pubDate>Sun, 01 Mar 2026 10:39:21 +0000</pubDate>
-      <guid>https://noah-edge.com/stories/grass-token-surges-amid-growing-demand-for-decentralised.html</guid>
-      <enclosure url="https://noah-edge.com/assets/images/grass-token-surges-amid-growing-demand-f-bf5abcbb.jpg" type="image/jpeg" />
-    </item>
-    <item>
-      <title>Prediction markets face scrutiny after Iran strike dispute highlights volatility and ethical concerns</title>
-      <link>https://noah-edge.com/stories/prediction-markets-face-scrutiny-after-iran-strike-dispute.html</link>
-      <description>The controversy surrounding prediction platforms Kalshi and Polymarket during the Iran strike underscores growing regulatory and ethical challenges in real-time event markets, raising questions abo...</description>
-      <pubDate>Sun, 01 Mar 2026 10:39:21 +0000</pubDate>
-      <guid>https://noah-edge.com/stories/prediction-markets-face-scrutiny-after-iran-strike-dispute.html</guid>
-      <enclosure url="https://noah-edge.com/assets/images/prediction-markets-face-scrutiny-after-i-6c9eae70.jpg" type="image/jpeg" />
     </item>
   </channel>
 </rss>
