@@ -5,8 +5,16 @@
     <link>https://noah-edge.com/</link>
     <description>Prediction market intelligence. The Noah Poly Index tracks edges with transparent positions and tracked outcomes.</description>
     <language>en</language>
-    <lastBuildDate>Sun, 01 Mar 2026 19:42:00 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 01 Mar 2026 20:12:17 +0000</lastBuildDate>
     <atom:link href="https://noah-edge.com/rss.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Democratic lawmakers call for tighter controls over prediction markets amid Iran strike trading surge</title>
+      <link>https://noah-edge.com/stories/democratic-lawmakers-call-for-tighter-controls-over.html</link>
+      <description>Following a surge in betting activity linked to US and Israeli strikes on Iran, Democratic politicians demand stricter federal oversight amid concerns over insider trading and profit from conflict-...</description>
+      <pubDate>Sun, 01 Mar 2026 19:48:23 +0000</pubDate>
+      <guid>https://noah-edge.com/stories/democratic-lawmakers-call-for-tighter-controls-over.html</guid>
+      <enclosure url="https://noah-edge.com/assets/images/democratic-lawmakers-call-for-tighter-co-3d956cc1.jpg" type="image/jpeg" />
+    </item>
     <item>
       <title>Crypto market plunge exposes risks of leverage and token unlocks amid new turbulence</title>
       <link>https://noah-edge.com/stories/crypto-market-plunge-exposes-risks-of-leverage-and-token.html</link>
@@ -158,14 +166,6 @@
       <pubDate>Sun, 01 Mar 2026 05:31:06 +0000</pubDate>
       <guid>https://noah-edge.com/stories/crypto-prediction-market-profits-suggest-insider-trading.html</guid>
       <enclosure url="https://noah-edge.com/assets/images/crypto-prediction-market-profits-suggest-a3972ac5.jpg" type="image/jpeg" />
-    </item>
-    <item>
-      <title>Senate demands review of Binance&#39;s sanctions compliance amid Iran transaction allegations</title>
-      <link>https://noah-edge.com/stories/senate-demands-review-of-binances-sanctions-compliance-amid.html</link>
-      <description>Democratic senators are pressing the U.S. authorities to investigate Binance&#39;s alleged lapses in compliance with sanctions, citing reports of nearly $1.7 billion flowing to Iranian-linked entities,...</description>
-      <pubDate>Sun, 01 Mar 2026 03:25:48 +0000</pubDate>
-      <guid>https://noah-edge.com/stories/senate-demands-review-of-binances-sanctions-compliance-amid.html</guid>
-      <enclosure url="https://noah-edge.com/assets/images/senate-demands-review-of-binances-sancti-f6424b40.jpg" type="image/jpeg" />
     </item>
   </channel>
 </rss>
