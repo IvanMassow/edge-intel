@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-03-01T08:34:52Z",
+  "generated_at": "2026-03-01T09:05:12Z",
   "total_signals": 177,
   "signals": [
     {
@@ -644,8 +644,8 @@
       "entry_price": 0.395,
       "current_price": 0.395,
       "pnl_pct": 0.0,
-      "status": "OPEN",
-      "state": "ACTIVE",
+      "status": "CLOSED",
+      "state": "EXITED",
       "edge_points": 13.0
     },
     {
