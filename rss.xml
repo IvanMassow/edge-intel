@@ -5,8 +5,16 @@
     <link>https://noah-edge.com/</link>
     <description>Prediction market intelligence. The Noah Poly Index tracks edges with transparent positions and tracked outcomes.</description>
     <language>en</language>
-    <lastBuildDate>Sun, 01 Mar 2026 06:33:24 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 01 Mar 2026 07:03:44 +0000</lastBuildDate>
     <atom:link href="https://noah-edge.com/rss.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>XRP Ledger gains momentum as institutional tokenisation pilots accelerate</title>
+      <link>https://noah-edge.com/stories/xrp-ledger-gains-momentum-as-institutional-tokenisation.html</link>
+      <description>Emerging pilot projects and institutional interest position the XRP Ledger as a leading network for real-world asset tokenisation, amidst ongoing debates on scalability and market potential.</description>
+      <pubDate>Sun, 01 Mar 2026 06:35:56 +0000</pubDate>
+      <guid>https://noah-edge.com/stories/xrp-ledger-gains-momentum-as-institutional-tokenisation.html</guid>
+      <enclosure url="https://noah-edge.com/assets/images/xrp-ledger-gains-momentum-as-institution-c7fe107a.jpg" type="image/jpeg" />
+    </item>
     <item>
       <title>Pi Network speculation heats up over symbolic valuation and exchange prospects</title>
       <link>https://noah-edge.com/stories/pi-network-speculation-heats-up-over-symbolic-valuation-and.html</link>
@@ -158,14 +166,6 @@
       <pubDate>Sat, 28 Feb 2026 20:20:45 +0000</pubDate>
       <guid>https://noah-edge.com/stories/prediction-market-exploits-surge-as-us-and-israeli-strikes.html</guid>
       <enclosure url="https://noah-edge.com/assets/images/prediction-market-exploits-surge-as-us-a-5c209012.jpg" type="image/jpeg" />
-    </item>
-    <item>
-      <title>Hyperliquid leads the surge in decentralised perpetual exchanges amid intense market competition</title>
-      <link>https://noah-edge.com/stories/hyperliquid-leads-the-surge-in-decentralised-perpetual.html</link>
-      <description>Hyperliquid has emerged as the top decentralised perpetual exchange, with weekly volumes surpassing $35 billion, as the sector witnesses rapid growth and fierce competition among platforms vying fo...</description>
-      <pubDate>Sat, 28 Feb 2026 20:20:38 +0000</pubDate>
-      <guid>https://noah-edge.com/stories/hyperliquid-leads-the-surge-in-decentralised-perpetual.html</guid>
-      <enclosure url="https://noah-edge.com/assets/images/hyperliquid-leads-the-surge-in-decentral-c77e27c7.jpg" type="image/jpeg" />
     </item>
   </channel>
 </rss>
