@@ -5,8 +5,16 @@
     <link>https://noah-edge.com/</link>
     <description>Prediction market intelligence. The Noah Poly Index tracks edges with transparent positions and tracked outcomes.</description>
     <language>en</language>
-    <lastBuildDate>Sun, 01 Mar 2026 21:12:54 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 01 Mar 2026 21:43:15 +0000</lastBuildDate>
     <atom:link href="https://noah-edge.com/rss.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Prediction markets like Polymarket now allow bets on nuclear detonations, raising ethical and societal questions</title>
+      <link>https://noah-edge.com/stories/prediction-markets-like-polymarket-now-allow-bets-on.html</link>
+      <description>Platforms such as Polymarket have brought prediction markets into the mainstream, enabling real-money bets on catastrophic events like nuclear detonations, sparking debate over their societal impac...</description>
+      <pubDate>Sun, 01 Mar 2026 21:29:07 +0000</pubDate>
+      <guid>https://noah-edge.com/stories/prediction-markets-like-polymarket-now-allow-bets-on.html</guid>
+      <enclosure url="https://noah-edge.com/assets/images/prediction-markets-like-polymarket-now-a-9e31f02f.jpg" type="image/jpeg" />
+    </item>
     <item>
       <title>Prediction markets move into focus as established investors target retail and institutional opportunities</title>
       <link>https://noah-edge.com/stories/prediction-markets-move-into-focus-as-established-investors.html</link>
@@ -158,14 +166,6 @@
       <pubDate>Sun, 01 Mar 2026 05:31:17 +0000</pubDate>
       <guid>https://noah-edge.com/stories/crypto-derivatives-market-cools-amid-subdued-volatility-and.html</guid>
       <enclosure url="https://noah-edge.com/assets/images/crypto-derivatives-market-cools-amid-sub-07c7990d.jpg" type="image/jpeg" />
-    </item>
-    <item>
-      <title>Polymarket launches 15-minute XRP prediction market based on Chainlink data feed</title>
-      <link>https://noah-edge.com/stories/polymarket-launches-15-minute-xrp-prediction-market-based.html</link>
-      <description>Polymarket introduces a short-duration prediction market today, allowing traders to bet on XRP/USD price movements over a 15-minute window, with outcomes based solely on Chainlink&#39;s reported data, ...</description>
-      <pubDate>Sun, 01 Mar 2026 05:31:14 +0000</pubDate>
-      <guid>https://noah-edge.com/stories/polymarket-launches-15-minute-xrp-prediction-market-based.html</guid>
-      <enclosure url="https://noah-edge.com/assets/images/polymarket-launches-15-minute-xrp-predic-6ce15d42.jpg" type="image/jpeg" />
     </item>
   </channel>
 </rss>
