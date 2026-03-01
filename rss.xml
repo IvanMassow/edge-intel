@@ -5,8 +5,24 @@
     <link>https://noah-edge.com/</link>
     <description>Prediction market intelligence. The Noah Poly Index tracks edges with transparent positions and tracked outcomes.</description>
     <language>en</language>
-    <lastBuildDate>Sun, 01 Mar 2026 03:01:04 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 01 Mar 2026 03:31:23 +0000</lastBuildDate>
     <atom:link href="https://noah-edge.com/rss.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Senate demands review of Binance&#39;s sanctions compliance amid Iran transaction allegations</title>
+      <link>https://noah-edge.com/stories/senate-demands-review-of-binances-sanctions-compliance-amid.html</link>
+      <description>Democratic senators are pressing the U.S. authorities to investigate Binance&#39;s alleged lapses in compliance with sanctions, citing reports of nearly $1.7 billion flowing to Iranian-linked entities,...</description>
+      <pubDate>Sun, 01 Mar 2026 03:25:48 +0000</pubDate>
+      <guid>https://noah-edge.com/stories/senate-demands-review-of-binances-sanctions-compliance-amid.html</guid>
+      <enclosure url="https://noah-edge.com/assets/images/senate-demands-review-of-binances-sancti-f6424b40.jpg" type="image/jpeg" />
+    </item>
+    <item>
+      <title>Flutter Entertainment signals cautious shift as US growth ambitions face fresh scrutiny</title>
+      <link>https://noah-edge.com/stories/flutter-entertainment-signals-cautious-shift-as-us-growth.html</link>
+      <description>The gambling giant adjusts its US expansion stance amid investor concerns over recent earnings and revised growth forecasts, highlighting a more cautious outlook for the near term.</description>
+      <pubDate>Sun, 01 Mar 2026 03:25:43 +0000</pubDate>
+      <guid>https://noah-edge.com/stories/flutter-entertainment-signals-cautious-shift-as-us-growth.html</guid>
+      <enclosure url="https://noah-edge.com/assets/images/flutter-entertainment-signals-cautious-s-9875facc.jpg" type="image/jpeg" />
+    </item>
     <item>
       <title>Polymarket trader loses $6.5 million in single event, exposing risks of binary prediction markets</title>
       <link>https://noah-edge.com/stories/polymarket-trader-loses-65-million-in-single-event-exposing.html</link>
@@ -150,22 +166,6 @@
       <pubDate>Sat, 28 Feb 2026 13:53:09 +0000</pubDate>
       <guid>https://noah-edge.com/stories/stake-denies-rigging-claims-amid-controversy-over-high.html</guid>
       <enclosure url="https://noah-edge.com/assets/images/stake-denies-rigging-claims-amid-controv-3c194b73.jpg" type="image/jpeg" />
-    </item>
-    <item>
-      <title>Polymarket prediction odds signal potential for faster Bitcoin reprice amid shifting liquidity and trader sentiment</title>
-      <link>https://noah-edge.com/stories/polymarket-prediction-odds-signal-potential-for-faster.html</link>
-      <description>Polymarket’s evolving prediction prices are being closely monitored for early signals of Bitcoin sentiment shifts, with traders integrating these odds alongside liquidity and technical indicators t...</description>
-      <pubDate>Sat, 28 Feb 2026 13:42:19 +0000</pubDate>
-      <guid>https://noah-edge.com/stories/polymarket-prediction-odds-signal-potential-for-faster.html</guid>
-      <enclosure url="https://noah-edge.com/assets/images/polymarket-prediction-odds-signal-potent-5d4c8f92.jpg" type="image/jpeg" />
-    </item>
-    <item>
-      <title>Pi Network readies mainnet launch of decentralised exchange to transform token utility</title>
-      <link>https://noah-edge.com/stories/pi-network-readies-mainnet-launch-of-decentralised-exchange.html</link>
-      <description>Pi Network is set to transition its decentralised exchange from test phases to the live mainnet, aiming to enhance token utility through on-chain liquidity and wallet-integrated trading amid growin...</description>
-      <pubDate>Sat, 28 Feb 2026 13:42:19 +0000</pubDate>
-      <guid>https://noah-edge.com/stories/pi-network-readies-mainnet-launch-of-decentralised-exchange.html</guid>
-      <enclosure url="https://noah-edge.com/assets/images/pi-network-readies-mainnet-launch-of-dec-f28957b6.jpg" type="image/jpeg" />
     </item>
   </channel>
 </rss>
