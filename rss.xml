@@ -5,8 +5,16 @@
     <link>https://noah-edge.com/</link>
     <description>Prediction market intelligence. The Noah Poly Index tracks edges with transparent positions and tracked outcomes.</description>
     <language>en</language>
-    <lastBuildDate>Sun, 01 Mar 2026 17:43:18 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 01 Mar 2026 17:53:03 +0000</lastBuildDate>
     <atom:link href="https://noah-edge.com/rss.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>XRP&#39;s market resurgence driven by surge in futures activity signals potential volatility shift</title>
+      <link>https://noah-edge.com/stories/xrps-market-resurgence-driven-by-surge-in-futures-activity.html</link>
+      <description>XRP shows renewed momentum as futures inflows spike over 130%, signalling increased short-term trading activity and potential for heightened volatility amid technical resistance and market uncertai...</description>
+      <pubDate>Sun, 01 Mar 2026 17:47:25 +0000</pubDate>
+      <guid>https://noah-edge.com/stories/xrps-market-resurgence-driven-by-surge-in-futures-activity.html</guid>
+      <enclosure url="https://noah-edge.com/assets/images/xrps-market-resurgence-driven-by-surge-i-bdcd26df.jpg" type="image/jpeg" />
+    </item>
     <item>
       <title>OCC draft sparks debate over stability of stablecoin yield restrictions</title>
       <link>https://noah-edge.com/stories/occ-draft-sparks-debate-over-stability-of-stablecoin-yield.html</link>
@@ -158,14 +166,6 @@
       <pubDate>Sun, 01 Mar 2026 00:23:32 +0000</pubDate>
       <guid>https://noah-edge.com/stories/prediction-markets-surge-on-iran-strikes-sparks-ethical-and.html</guid>
       <enclosure url="https://noah-edge.com/assets/images/prediction-markets-surge-on-iran-strikes-420d1ecb.jpg" type="image/jpeg" />
-    </item>
-    <item>
-      <title>Canton Network advances private infrastructure as trillions of dollars shift into institutions&#39; closed blockchain corridors</title>
-      <link>https://noah-edge.com/stories/canton-network-advances-private-infrastructure-as-trillions.html</link>
-      <description>A quiet realignment of capital is underway as the Canton Network emerges as a regulated, institution-focused blockchain infrastructure, orchestrating billions in daily settlement and tokenised asse...</description>
-      <pubDate>Sat, 28 Feb 2026 23:33:25 +0000</pubDate>
-      <guid>https://noah-edge.com/stories/canton-network-advances-private-infrastructure-as-trillions.html</guid>
-      <enclosure url="https://noah-edge.com/assets/images/canton-network-advances-private-infrastr-873e15c5.jpg" type="image/jpeg" />
     </item>
   </channel>
 </rss>
