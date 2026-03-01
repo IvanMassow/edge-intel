@@ -5,8 +5,32 @@
     <link>https://noah-edge.com/</link>
     <description>Prediction market intelligence. The Noah Poly Index tracks edges with transparent positions and tracked outcomes.</description>
     <language>en</language>
-    <lastBuildDate>Sun, 01 Mar 2026 17:53:03 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 01 Mar 2026 18:24:45 +0000</lastBuildDate>
     <atom:link href="https://noah-edge.com/rss.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Block’s AI-driven overhaul sends shockwaves through crypto and corporate markets</title>
+      <link>https://noah-edge.com/stories/blocks-ai-driven-overhaul-sends-shockwaves-through-crypto.html</link>
+      <description>Jack Dorsey’s decision to cut 40% of Block’s workforce and pivot towards AI highlights a broader transformation in corporate and crypto sector strategies, fostering debate on sustainable innovation...</description>
+      <pubDate>Sun, 01 Mar 2026 18:19:10 +0000</pubDate>
+      <guid>https://noah-edge.com/stories/blocks-ai-driven-overhaul-sends-shockwaves-through-crypto.html</guid>
+      <enclosure url="https://noah-edge.com/assets/images/blocks-ai-driven-overhaul-sends-shockwav-78ccbcac.jpg" type="image/jpeg" />
+    </item>
+    <item>
+      <title>China’s crackdown and Iran’s crisis spark turbulence for crypto markets</title>
+      <link>https://noah-edge.com/stories/chinas-crackdown-and-irans-crisis-spark-turbulence-for.html</link>
+      <description>Regulatory and political upheavals in China and Iran are causing increased volatility and uncertainty in cryptocurrency markets, challenging project resilience and adaptation strategies amid escala...</description>
+      <pubDate>Sun, 01 Mar 2026 18:19:10 +0000</pubDate>
+      <guid>https://noah-edge.com/stories/chinas-crackdown-and-irans-crisis-spark-turbulence-for.html</guid>
+      <enclosure url="https://noah-edge.com/assets/images/chinas-crackdown-and-irans-crisis-spark--24163868.jpg" type="image/jpeg" />
+    </item>
+    <item>
+      <title>Crypto derivatives surge as traders capitalise on 24/7 geopolitical risk pricing</title>
+      <link>https://noah-edge.com/stories/crypto-derivatives-surge-as-traders-capitalise-on-247.html</link>
+      <description>As tensions escalate in the Middle East, crypto platforms offering perpetual futures see heightened activity, highlighting the growing importance and risks of 24/7 decentralised trading in global r...</description>
+      <pubDate>Sun, 01 Mar 2026 18:19:09 +0000</pubDate>
+      <guid>https://noah-edge.com/stories/crypto-derivatives-surge-as-traders-capitalise-on-247.html</guid>
+      <enclosure url="https://noah-edge.com/assets/images/crypto-derivatives-surge-as-traders-capi-9edda0fc.jpg" type="image/jpeg" />
+    </item>
     <item>
       <title>XRP&#39;s market resurgence driven by surge in futures activity signals potential volatility shift</title>
       <link>https://noah-edge.com/stories/xrps-market-resurgence-driven-by-surge-in-futures-activity.html</link>
@@ -142,30 +166,6 @@
       <pubDate>Sun, 01 Mar 2026 01:53:41 +0000</pubDate>
       <guid>https://noah-edge.com/stories/polymarket-trader-loses-65-million-in-single-event-exposing.html</guid>
       <enclosure url="https://noah-edge.com/assets/images/polymarket-trader-loses-65-million-in-si-7ec8642c.jpg" type="image/jpeg" />
-    </item>
-    <item>
-      <title>Polymarket launches high-frequency Solana price prediction market using Chainlink feed</title>
-      <link>https://noah-edge.com/stories/polymarket-launches-high-frequency-solana-price-prediction.html</link>
-      <description>Polymarket has introduced a short-duration prediction market on Solana, utilizing Chainlink’s SOL/USD data stream to determine outcomes within five-minute intervals, illustrating the growing inters...</description>
-      <pubDate>Sun, 01 Mar 2026 01:53:41 +0000</pubDate>
-      <guid>https://noah-edge.com/stories/polymarket-launches-high-frequency-solana-price-prediction.html</guid>
-      <enclosure url="https://noah-edge.com/assets/images/polymarket-launches-high-frequency-solan-e903b35c.jpg" type="image/jpeg" />
-    </item>
-    <item>
-      <title>New Polymarket bet on Bitcoin&#39;s short-term price movement sees no early trading activity</title>
-      <link>https://noah-edge.com/stories/new-polymarket-bet-on-bitcoins-short-term-price-movement.html</link>
-      <description>Polymarket&#39;s latest short‑duration Bitcoin prediction market, reliant on Chainlink data, opens with zero trading volume despite recent integrations aimed at improving market outcome verifiability.</description>
-      <pubDate>Sun, 01 Mar 2026 01:53:37 +0000</pubDate>
-      <guid>https://noah-edge.com/stories/new-polymarket-bet-on-bitcoins-short-term-price-movement.html</guid>
-      <enclosure url="https://noah-edge.com/assets/images/new-polymarket-bet-on-bitcoins-short-ter-9296e0bb.jpg" type="image/jpeg" />
-    </item>
-    <item>
-      <title>Prediction markets&#39; surge on Iran strikes sparks ethical and regulatory debates</title>
-      <link>https://noah-edge.com/stories/prediction-markets-surge-on-iran-strikes-sparks-ethical-and.html</link>
-      <description>A dramatic increase in online prediction trading following the U.S.-Israel air campaign on Iran has raised concerns over insider trading, ethical implications, and the need for stronger oversight, ...</description>
-      <pubDate>Sun, 01 Mar 2026 00:23:32 +0000</pubDate>
-      <guid>https://noah-edge.com/stories/prediction-markets-surge-on-iran-strikes-sparks-ethical-and.html</guid>
-      <enclosure url="https://noah-edge.com/assets/images/prediction-markets-surge-on-iran-strikes-420d1ecb.jpg" type="image/jpeg" />
     </item>
   </channel>
 </rss>
