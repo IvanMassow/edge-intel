@@ -4,7 +4,7 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Sentiment Edge Lab — NOAH Edge Magazine</title>
-<meta name="description" content="NAS signal validation — 7 direct accuracy, 6.2h lead time">
+<meta name="description" content="NAS signal validation — 67% direct accuracy, 5.6h lead time">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400&family=Montserrat:wght@700;800&display=swap" rel="stylesheet">
@@ -454,11 +454,11 @@ img { display: block; max-width: 100%; }
   <!-- Headline stats -->
   <div style="display:grid; grid-template-columns:repeat(3, 1fr); gap:1rem; margin-bottom:2.5rem; text-align:center;">
     <div style="background:#fff; border-radius:8px; padding:1.2rem; box-shadow:0 1px 3px rgba(0,0,0,0.05);">
-      <div style="font-weight:900; font-size:2rem; color:var(--teal);">7</div>
-      <div style="font-size:0.65rem; font-weight:600; letter-spacing:0.08em; text-transform:uppercase; color:var(--muted); margin-top:0.2rem;">signals tracked</div>
+      <div style="font-weight:900; font-size:2rem; color:var(--teal);">67%</div>
+      <div style="font-size:0.65rem; font-weight:600; letter-spacing:0.08em; text-transform:uppercase; color:var(--muted); margin-top:0.2rem;">directional accuracy on direct proxy tests</div>
     </div>
     <div style="background:#fff; border-radius:8px; padding:1.2rem; box-shadow:0 1px 3px rgba(0,0,0,0.05);">
-      <div style="font-weight:900; font-size:2rem; color:var(--ink);">6.2h</div>
+      <div style="font-weight:900; font-size:2rem; color:var(--ink);">5.6h</div>
       <div style="font-size:0.65rem; font-weight:600; letter-spacing:0.08em; text-transform:uppercase; color:var(--muted); margin-top:0.2rem;">Average Lead Time</div>
     </div>
     <div style="background:#fff; border-radius:8px; padding:1.2rem; box-shadow:0 1px 3px rgba(0,0,0,0.05);">
@@ -476,11 +476,87 @@ img { display: block; max-width: 100%; }
     <p style="font-size:0.78rem; color:var(--muted); margin-bottom:1rem; line-height:1.6;">Each card represents an ETF with a direct, documented causal link to the signal. Confirmed = price moved &gt;0.5% in the predicted direction.</p>
     <div style="display:grid; grid-template-columns:repeat(auto-fill, minmax(200px, 1fr)); gap:1rem;">
 
+    <div style="background:linear-gradient(135deg, #fff 80%, #e8f8ef 100%); border-left:4px solid #16a34a; border-radius:8px; padding:1.2rem 1.4rem; box-shadow:0 1px 4px rgba(0,0,0,0.06);">
+      <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:0.5rem;">
+        <span style="font-weight:900; font-size:1.3rem; letter-spacing:0.02em;">JETS</span>
+        <span style="background:#16a34a; color:#fff; font-size:0.55rem; font-weight:700; letter-spacing:0.12em; text-transform:uppercase; padding:0.2rem 0.6rem; border-radius:3px;">CONFIRMED</span>
+      </div>
+      <div style="color:#dc2626; font-weight:700; font-size:0.75rem; margin-bottom:0.6rem;">▼ DOWN</div>
+      <div style="color:#16a34a; font-weight:900; font-size:1.8rem; line-height:1.1;">-4.0%</div>
+      <div style="font-size:0.72rem; color:var(--muted); margin-top:0.2rem;">at 72h</div>
+      <div style="font-size:0.7rem; font-weight:700; color:var(--teal); margin-top:0.6rem;">5.6h ahead of market</div>
+    </div>
+    <div style="background:linear-gradient(135deg, #fff 80%, #e8f8ef 100%); border-left:4px solid #16a34a; border-radius:8px; padding:1.2rem 1.4rem; box-shadow:0 1px 4px rgba(0,0,0,0.06);">
+      <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:0.5rem;">
+        <span style="font-weight:900; font-size:1.3rem; letter-spacing:0.02em;">XLE</span>
+        <span style="background:#16a34a; color:#fff; font-size:0.55rem; font-weight:700; letter-spacing:0.12em; text-transform:uppercase; padding:0.2rem 0.6rem; border-radius:3px;">CONFIRMED</span>
+      </div>
+      <div style="color:#16a34a; font-weight:700; font-size:0.75rem; margin-bottom:0.6rem;">▲ UP</div>
+      <div style="color:#16a34a; font-weight:900; font-size:1.8rem; line-height:1.1;">+1.6%</div>
+      <div style="font-size:0.72rem; color:var(--muted); margin-top:0.2rem;">at 72h</div>
+      <div style="font-size:0.7rem; font-weight:700; color:var(--teal); margin-top:0.6rem;">5.6h ahead of market</div>
+    </div>
+    <div style="background:#fff; border-left:4px solid #dc2626; border-radius:8px; padding:1.2rem 1.4rem; box-shadow:0 1px 4px rgba(0,0,0,0.06);">
+      <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:0.5rem;">
+        <span style="font-weight:900; font-size:1.3rem; letter-spacing:0.02em;">SMH</span>
+        <span style="background:#dc2626; color:#fff; font-size:0.55rem; font-weight:700; letter-spacing:0.12em; text-transform:uppercase; padding:0.2rem 0.6rem; border-radius:3px;">MISS</span>
+      </div>
+      <div style="color:#16a34a; font-weight:700; font-size:0.75rem; margin-bottom:0.6rem;">▲ UP</div>
+      <div style="color:#dc2626; font-weight:900; font-size:1.8rem; line-height:1.1;">-1.37%</div>
+      <div style="font-size:0.72rem; color:var(--muted); margin-top:0.2rem;">moved against signal</div>
+      
+    </div>
     </div>
   </div>
 
   <!-- Under observation -->
-  
+    <div style="margin-bottom:2rem; padding-top:1.5rem; border-top:1px solid var(--rule);">
+    <div style="display:flex; align-items:center; gap:0.6rem; margin-bottom:0.3rem;">
+      <h2 style="font-weight:800; font-size:0.9rem; color:var(--muted); margin:0;">Under Observation</h2>
+      <span style="font-size:0.55rem; font-weight:700; letter-spacing:0.1em; text-transform:uppercase; color:var(--muted); background:var(--off); padding:0.15rem 0.5rem; border-radius:3px;">Indirect</span>
+    </div>
+    <p style="font-size:0.72rem; color:var(--light); margin-bottom:0.8rem;">Secondary cascade effects — monitored for learning, excluded from headline accuracy.</p>
+    <div style="overflow-x:auto;">
+    <table style="width:100%; border-collapse:collapse; font-size:0.75rem;">
+      <thead>
+        <tr style="border-bottom:1px solid var(--rule); font-size:0.55rem; letter-spacing:0.1em; text-transform:uppercase; color:var(--light);">
+          <th style="text-align:left; padding:0.4rem 0;">Ticker</th>
+          <th style="text-align:left; padding:0.4rem 0;">Category</th>
+          <th style="text-align:left; padding:0.4rem 0;">Direction</th>
+          <th style="text-align:left; padding:0.4rem 0;">Return</th>
+          <th style="text-align:left; padding:0.4rem 0;">Status</th>
+        </tr>
+      </thead>
+      <tbody>
+    <tr>
+      <td style="font-weight:700;">EEM</td>
+      <td>Em Fx Vulnerability</td>
+      <td style="color:#dc2626; font-weight:600;">▼ DOWN</td>
+      <td>-0.21%</td>
+      <td style="color:var(--amber); font-weight:700; font-size:0.68rem; letter-spacing:0.08em;">TRACKING</td>
+    </tr>    <tr>
+      <td style="font-weight:700;">TLT</td>
+      <td>Rates Pressure</td>
+      <td style="color:#16a34a; font-weight:600;">▲ UP</td>
+      <td>+0.61%</td>
+      <td style="color:#16a34a; font-weight:700; font-size:0.68rem; letter-spacing:0.08em;">CONFIRMED</td>
+    </tr>    <tr>
+      <td style="font-weight:700;">TIP</td>
+      <td>Inflation Expectations</td>
+      <td style="color:#16a34a; font-weight:600;">▲ UP</td>
+      <td>+0.15%</td>
+      <td style="color:var(--amber); font-weight:700; font-size:0.68rem; letter-spacing:0.08em;">TRACKING</td>
+    </tr>    <tr>
+      <td style="font-weight:700;">XLB</td>
+      <td>Chemicals</td>
+      <td style="color:#dc2626; font-weight:600;">▼ DOWN</td>
+      <td>+0.77%</td>
+      <td style="color:#dc2626; font-weight:700; font-size:0.68rem; letter-spacing:0.08em;">MISS</td>
+    </tr>
+      </tbody>
+    </table>
+    </div>
+  </div>
 
   <!-- Lead Time Distribution -->
     <div style="padding-top:1.5rem; border-top:1px solid var(--rule); margin-bottom:2rem;">
@@ -583,7 +659,7 @@ img { display: block; max-width: 100%; }
     </div>
   </div>
 
-  <div style="margin-top:1.5rem; font-size:0.65rem; color:var(--light);">Last updated: 2026-03-02T16:30</div>
+  <div style="margin-top:1.5rem; font-size:0.65rem; color:var(--light);">Last updated: 2026-03-02T16:37</div>
   <a href="/" class="section-more" style="margin-top:1rem;">&larr; Home</a>
 </div>
 

@@ -1002,7 +1002,7 @@ img { display: block; max-width: 100%; }
   <div class="section-header">
     <div class="section-label">Company Watch</div>
     <span class="section-note">AI-managed vs buy-and-hold — who wins?</span>
-    <span class="freshness">Updated just now</span>
+    <span class="freshness">Updated 5m ago</span>
   </div>
 
   <p style="font-size:0.78rem; font-weight:300; color:var(--muted); line-height:1.55; margin-bottom:1rem;">We run two parallel portfolios on each stock: an AI-managed active line (that reads daily intelligence reports and makes buy/sell/hold decisions) and a passive buy-and-hold line. Alpha = the difference. Green means the AI is winning.</p>
@@ -1136,100 +1136,46 @@ img { display: block; max-width: 100%; }
 <div class="content">
   <hr class="section-rule-heavy">
   <div class="section-header">
-    <div class="section-label">Signal Accuracy</div>
-    <span class="section-note">NAS validation — how early are our signals?</span>
-    <span class="freshness">Updated 3m ago</span>
+    <div class="section-label">Sentiment Edge Lab</div>
+    <span class="section-note">Can we read the narrative before the market moves?</span>
+    <span class="freshness">Updated 1m ago</span>
   </div>
-
-  <p style="font-size:0.78rem; font-weight:300; color:var(--muted); line-height:1.55; margin-bottom:1rem;">We validate every Narrative Asset Signal by tracking whether the predicted direction materialises within 6, 12, 24, and 72 hours. Average lead time: <strong>6.2h</strong> ahead of price.</p>
 
   <div class="nas-stats-row">
+    <div class="nas-stat"><span class="nas-stat-val" style="color:var(--teal);">67%</span><span class="nas-stat-label">direct accuracy</span></div>
+    <div class="nas-stat"><span class="nas-stat-val">5.6h</span><span class="nas-stat-label">Lead Time</span></div>
     <div class="nas-stat"><span class="nas-stat-val">7</span><span class="nas-stat-label">Signals</span></div>
-    <div class="nas-stat"><span class="nas-stat-val">7</span><span class="nas-stat-label">Positions</span></div>
-    <div class="nas-stat"><span class="nas-stat-val">6.2h</span><span class="nas-stat-label">Avg Lead</span></div>
-  </div>
-
-  <div class="nas-gauges">
-        <div class="nas-gauge">
-          <div class="nas-gauge-label">6h</div>
-          <div class="nas-gauge-bar">
-            <div class="nas-gauge-fill nas-gauge-ok" style="width:43%"></div>
-          </div>
-          <div class="nas-gauge-val">43%</div>
-          <div class="nas-gauge-count">3/7</div>
-        </div>
-        <div class="nas-gauge">
-          <div class="nas-gauge-label">12h</div>
-          <div class="nas-gauge-bar">
-            <div class="nas-gauge-fill nas-gauge-ok" style="width:43%"></div>
-          </div>
-          <div class="nas-gauge-val">43%</div>
-          <div class="nas-gauge-count">3/7</div>
-        </div>
-        <div class="nas-gauge">
-          <div class="nas-gauge-label">24h</div>
-          <div class="nas-gauge-bar">
-            <div class="nas-gauge-fill nas-gauge-ok" style="width:43%"></div>
-          </div>
-          <div class="nas-gauge-val">43%</div>
-          <div class="nas-gauge-count">3/7</div>
-        </div>
-        <div class="nas-gauge">
-          <div class="nas-gauge-label">72h</div>
-          <div class="nas-gauge-bar">
-            <div class="nas-gauge-fill nas-gauge-ok" style="width:50%"></div>
-          </div>
-          <div class="nas-gauge-val">50%</div>
-          <div class="nas-gauge-count">3/6</div>
-        </div>
   </div>
 
   
-  <div class="advantage-clock">
-    <svg class="advantage-clock-svg" width="120" height="120" viewBox="0 0 120 120">
-      <circle cx="60" cy="60" r="40" fill="none" stroke="#4db6ac" stroke-width="18" stroke-dasharray="188.50 62.83" stroke-dashoffset="0.00" />
-          <circle cx="60" cy="60" r="40" fill="none" stroke="#26a69a" stroke-width="18" stroke-dasharray="62.83 188.50" stroke-dashoffset="-188.50" />
-    </svg>
-    <div class="advantage-clock-legend">
-      <div style="font-size:0.68rem; font-weight:700; letter-spacing:0.08em; text-transform:uppercase; color:var(--muted); margin-bottom:0.3rem;">Advantage Distribution</div>
-      <div class="advantage-legend-item"><span class="advantage-legend-swatch" style="background:#b2dfdb;"></span><span class="advantage-legend-label">0-2h</span><span class="advantage-legend-val">0%</span></div>
-        <div class="advantage-legend-item"><span class="advantage-legend-swatch" style="background:#4db6ac;"></span><span class="advantage-legend-label">2-6h</span><span class="advantage-legend-val">75%</span></div>
-        <div class="advantage-legend-item"><span class="advantage-legend-swatch" style="background:#26a69a;"></span><span class="advantage-legend-label">6-12h</span><span class="advantage-legend-val">25%</span></div>
-        <div class="advantage-legend-item"><span class="advantage-legend-swatch" style="background:#0d7680;"></span><span class="advantage-legend-label">12-24h</span><span class="advantage-legend-val">0%</span></div>
-        <div class="advantage-legend-item"><span class="advantage-legend-swatch" style="background:#004d40;"></span><span class="advantage-legend-label">24h+</span><span class="advantage-legend-val">0%</span></div>
-    </div>
+  <div style="margin-bottom:1rem;">
+    <div style="font-size:0.55rem; font-weight:700; letter-spacing:0.1em; text-transform:uppercase; color:var(--muted); margin-bottom:0.3rem;">Direct Proxy Results</div>
+        <div style="display:flex; align-items:center; gap:0.6rem; padding:0.45rem 0; border-bottom:1px solid var(--rule);">
+          <span style="display:inline-block; width:8px; height:8px; background:#16a34a; border-radius:50%%;"></span>
+          <span style="font-weight:700; font-size:0.82rem; min-width:42px;">JETS</span>
+          <span style="color:#dc2626; font-size:0.72rem; font-weight:600;">▼ DOWN</span>
+          <span style="margin-left:auto; font-weight:700; font-size:0.78rem; color:#16a34a;">-4.0%</span>
+          <span style="font-size:0.68rem; color:var(--muted); min-width:35px; text-align:right;">5.6h</span>
+        </div>
+        <div style="display:flex; align-items:center; gap:0.6rem; padding:0.45rem 0; border-bottom:1px solid var(--rule);">
+          <span style="display:inline-block; width:8px; height:8px; background:#16a34a; border-radius:50%%;"></span>
+          <span style="font-weight:700; font-size:0.82rem; min-width:42px;">XLE</span>
+          <span style="color:#16a34a; font-size:0.72rem; font-weight:600;">▲ UP</span>
+          <span style="margin-left:auto; font-weight:700; font-size:0.78rem; color:#16a34a;">+1.6%</span>
+          <span style="font-size:0.68rem; color:var(--muted); min-width:35px; text-align:right;">5.6h</span>
+        </div>
+        <div style="display:flex; align-items:center; gap:0.6rem; padding:0.45rem 0; border-bottom:1px solid var(--rule);">
+          <span style="display:inline-block; width:8px; height:8px; background:#dc2626; border-radius:50%%;"></span>
+          <span style="font-weight:700; font-size:0.82rem; min-width:42px;">SMH</span>
+          <span style="color:#16a34a; font-size:0.72rem; font-weight:600;">▲ UP</span>
+          <span style="margin-left:auto; font-weight:700; font-size:0.78rem; color:#dc2626;">-1.4%</span>
+          <span style="font-size:0.68rem; color:var(--muted); min-width:35px; text-align:right;">—</span>
+        </div>
   </div>
 
-  <div class="nas-leaderboard">
-      <div class="nas-lb-header">Category Leaderboard</div>
-        <div class="nas-lb-row">
-          <span class="nas-lb-cat">Rates Pressure</span>
-          <span class="nas-lb-tickers">TLT</span>
-          <span class="nas-lb-lead">5.6h lead</span>
-        </div>
-        <div class="nas-lb-row">
-          <span class="nas-lb-cat">Airlines</span>
-          <span class="nas-lb-tickers">JETS</span>
-          <span class="nas-lb-lead">5.6h lead</span>
-        </div>
-        <div class="nas-lb-row">
-          <span class="nas-lb-cat">Energy Equities</span>
-          <span class="nas-lb-tickers">XLE</span>
-          <span class="nas-lb-lead">5.6h lead</span>
-        </div>
-        <div class="nas-lb-row">
-          <span class="nas-lb-cat">Primary Asset</span>
-          <span class="nas-lb-tickers">SMH</span>
-          <span class="nas-lb-lead"></span>
-        </div>
-        <div class="nas-lb-row">
-          <span class="nas-lb-cat">Em Fx Vulnerability</span>
-          <span class="nas-lb-tickers">EEM</span>
-          <span class="nas-lb-lead">8.1h lead</span>
-        </div>
-    </div>
+  <p style="font-size:0.72rem; color:var(--light); line-height:1.5; margin-bottom:0.8rem;">We publish directional signals before US markets open, then track ETFs with a direct causal link. Indirect proxies are excluded from headline accuracy.</p>
 
-  <a href="/signals/index.html" class="section-more">Full signal accuracy report →</a>
+  <a href="/signals/index.html" class="section-more">Full methodology &amp; results →</a>
 </div>
 
 <!-- ═══ HOUSE AD TAGLINE ═══ -->

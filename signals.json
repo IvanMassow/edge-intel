@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-03-02T16:34:19Z",
+  "generated_at": "2026-03-02T16:39:15Z",
   "total_signals": 176,
   "signals": [
     {
@@ -1124,7 +1124,7 @@
       "ticker": "XLK",
       "asset_type": "equity",
       "direction": "LONG",
-      "conviction": 6,
+      "conviction": 7,
       "confidence": 61.0,
       "band": "B",
       "entry_price": null,
@@ -1133,7 +1133,7 @@
       "pnl_pct": 0.0,
       "status": "OPEN",
       "state": "WATCH",
-      "thesis_status": "intact",
+      "thesis_status": "strengthening",
       "signal_velocity": "quiet"
     },
     {
@@ -1200,7 +1200,7 @@
       "ticker": "NVDA",
       "asset_type": "equity",
       "direction": "FADE",
-      "conviction": 5,
+      "conviction": 4,
       "confidence": 50.0,
       "band": "C",
       "entry_price": null,
