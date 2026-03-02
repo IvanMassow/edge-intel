@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-03-02T11:26:40Z",
+  "generated_at": "2026-03-02T11:56:59Z",
   "total_signals": 174,
   "signals": [
     {
@@ -489,7 +489,7 @@
       "edge_type": "CONSENSUS",
       "rating": "A",
       "entry_price": 0.54,
-      "current_price": 0.9445,
+      "current_price": 0.958,
       "pnl_pct": 2.8,
       "status": "CLOSED",
       "state": "EXITED",
@@ -583,23 +583,6 @@
     {
       "signal_id": "NE-POLY-0035",
       "source": "polyhunter",
-      "asset": "Will there be no change in Fed interest rates after the June",
-      "ticker": null,
-      "asset_type": "prediction_market",
-      "direction": "lower",
-      "conviction": null,
-      "edge_type": "CONSENSUS",
-      "rating": "A",
-      "entry_price": 0.51,
-      "current_price": 0.525,
-      "pnl_pct": -2.9,
-      "status": "OPEN",
-      "state": "ACTIVE",
-      "edge_points": null
-    },
-    {
-      "signal_id": "NE-POLY-0036",
-      "source": "polyhunter",
       "asset": "Will US GDP growth in Q1 2026 be greater than 3.5%? \u25cf\u25cf\u25cf\u25cf\u25d0 [B",
       "ticker": null,
       "asset_type": "prediction_market",
@@ -608,14 +591,14 @@
       "edge_type": "CONSENSUS",
       "rating": "B",
       "entry_price": 0.395,
-      "current_price": 0.4,
+      "current_price": 0.395,
       "pnl_pct": 0.0,
       "status": "CLOSED",
       "state": "EXITED",
       "edge_points": 13.0
     },
     {
-      "signal_id": "NE-POLY-0037",
+      "signal_id": "NE-POLY-0036",
       "source": "polyhunter",
       "asset": "Will inflation reach more than 3% in 2026? \u00e2\u0097\u008f\u00e2\u0097\u008f\u00e2\u0097\u008f\u00e2\u0097\u008f\u00e2\u0097\u008b [",
       "ticker": null,
@@ -625,14 +608,14 @@
       "edge_type": "CONSENSUS",
       "rating": "A",
       "entry_price": 0.29,
-      "current_price": 0.35,
+      "current_price": 0.355,
       "pnl_pct": 0.0,
       "status": "CLOSED",
       "state": "EXITED",
       "edge_points": 7.0
     },
     {
-      "signal_id": "NE-POLY-0038",
+      "signal_id": "NE-POLY-0037",
       "source": "polyhunter",
       "asset": "Kevin Warsh confirmed as Fed Chair by May 15? \u00e2\u0097\u008f\u00e2\u0097\u008f\u00e2\u0097\u008f\u00e2\u0097\u008f\u00e2\u0097",
       "ticker": null,
@@ -649,7 +632,7 @@
       "edge_points": 11.0
     },
     {
-      "signal_id": "NE-POLY-0039",
+      "signal_id": "NE-POLY-0038",
       "source": "polyhunter",
       "asset": "Will Trump nominate Kevin Warsh as the next Fed chair? \u00e2\u0097\u008f\u00e2\u0097",
       "ticker": null,
@@ -666,7 +649,7 @@
       "edge_points": 13.0
     },
     {
-      "signal_id": "NE-POLY-0040",
+      "signal_id": "NE-POLY-0039",
       "source": "polyhunter",
       "asset": "Will the DHS shutdown last 21 days or more? \u25cf\u25cf\u25cf\u25cf\u25d0 [A]",
       "ticker": null,
@@ -676,14 +659,14 @@
       "edge_type": "CONSENSUS",
       "rating": "A",
       "entry_price": 0.82,
-      "current_price": 0.929,
+      "current_price": 0.9425,
       "pnl_pct": -0.6,
       "status": "CLOSED",
       "state": "EXITED",
       "edge_points": 8.0
     },
     {
-      "signal_id": "NE-POLY-0041",
+      "signal_id": "NE-POLY-0040",
       "source": "polyhunter",
       "asset": "Will Trump nominate Kevin Warsh as the next Fed chair? \u00e2\u0097\u008f\u00e2\u0097",
       "ticker": null,
@@ -693,14 +676,14 @@
       "edge_type": "CONSENSUS",
       "rating": "A",
       "entry_price": 0.9385,
-      "current_price": 0.933,
+      "current_price": 0.935,
       "pnl_pct": -0.6,
       "status": "CLOSED",
       "state": "EXITED",
       "edge_points": 10.0
     },
     {
-      "signal_id": "NE-POLY-0042",
+      "signal_id": "NE-POLY-0041",
       "source": "polyhunter",
       "asset": "U.S. agrees to a new trade deal with \"India\" before 2027? \u25cf\u25cf",
       "ticker": null,
@@ -715,6 +698,23 @@
       "status": "CLOSED",
       "state": "EXITED",
       "edge_points": 8.0
+    },
+    {
+      "signal_id": "NE-POLY-0042",
+      "source": "polyhunter",
+      "asset": "Will there be no change in Fed interest rates after the June",
+      "ticker": null,
+      "asset_type": "prediction_market",
+      "direction": "lower",
+      "conviction": null,
+      "edge_type": "CONSENSUS",
+      "rating": "A",
+      "entry_price": 0.51,
+      "current_price": 0.525,
+      "pnl_pct": -2.9,
+      "status": "CLOSED",
+      "state": "EXITED",
+      "edge_points": null
     },
     {
       "signal_id": "NE-POLY-0043",
@@ -812,7 +812,7 @@
       "edge_type": "CONSENSUS",
       "rating": "A",
       "entry_price": 0.19,
-      "current_price": 0.41,
+      "current_price": 0.425,
       "pnl_pct": -7.9,
       "status": "CLOSED",
       "state": "EXITED",
