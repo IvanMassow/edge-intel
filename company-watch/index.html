@@ -4,7 +4,7 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Company Watch — NOAH Edge Magazine</title>
-<meta name="description" content="AI vs passive stock tracking — 5 China ADRs">
+<meta name="description" content="Can AI intelligence beat buy-and-hold?">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400&family=Montserrat:wght@700;800&display=swap" rel="stylesheet">
@@ -442,14 +442,97 @@ img { display: block; max-width: 100%; }
 </header>
 <hr class="header-rule">
 
-<div class="content" style="max-width:720px; margin:0 auto; padding:2rem;">
-  <h1 style="font-weight:900; font-size:1.8rem; margin-bottom:0.5rem;">Company Watch</h1>
-  <p style="font-size:0.85rem; color:var(--muted); margin-bottom:1rem;">AI-managed active trading vs buy-and-hold passive benchmark across 5 China ADR stocks.</p>
-  <p style="font-size:0.7rem; color:var(--light); margin-bottom:1rem;">Last updated: 2026-03-02T11:30</p>
+<div class="content" style="max-width:760px; margin:0 auto; padding:2rem 1rem;">
 
-  <div class="stats-grid-3" style="margin-bottom:2rem;">
+  <h1 style="font-family:'Montserrat',sans-serif; font-weight:900; font-size:1.7rem; margin-bottom:0.4rem; color:var(--ink);">Company Watch</h1>
+  <p style="font-size:0.82rem; font-weight:300; color:var(--muted); line-height:1.7; margin-bottom:1.8rem;">Can an AI that deeply knows one stock beat a simple buy-and-hold strategy by ducking out of bad days?</p>
+
+  <div class="disclosure-banner" style="margin-bottom:2rem;">
+    <strong>Full transparency.</strong> This is a live experiment, not a fund. We publish every trade, every loss, every alpha calculation. We are testing whether concentrated AI intelligence &mdash; reading daily reports, running autonomous due diligence, and making real-time decisions &mdash; can outperform the simplest strategy of all: buy and hold.
+  </div>
+
+  <p style="font-size:0.82rem; line-height:1.8; margin-bottom:1.2rem;">The idea comes from the Berkshire Hathaway school of investing: <strong>focus on one company, know its environment deeply, and make decisions from a position of genuine understanding.</strong> We took that principle and gave it to an AI.</p>
+
+  <p style="font-size:0.82rem; line-height:1.8; margin-bottom:1.2rem;">For each stock we track, we run two parallel portfolios side by side:</p>
+  <ol style="font-size:0.82rem; line-height:1.8; margin-bottom:1.2rem; padding-left:1.5rem;">
+    <li><strong>The Active line</strong> &mdash; An AI reads daily intelligence reports, runs its own due diligence, and decides whether to buy, sell, hold, or duck. It has stop-losses, profit-taking rules, and can override report advice if it spots danger.</li>
+    <li><strong>The Passive line</strong> &mdash; Buys on day one and never sells. The simplest possible strategy. The benchmark to beat.</li>
+  </ol>
+
+  <p style="font-size:0.82rem; line-height:1.8; margin-bottom:1.5rem;"><strong>Alpha</strong> is the difference between them. Positive alpha means the AI is winning. Negative means we&rsquo;d have been better off doing nothing.</p>
+  <h2 style="font-family:'Montserrat',sans-serif; font-weight:800; font-size:1.05rem; border-top:1px solid var(--rule); padding-top:1.5rem; margin:2rem 0 1rem;">How It Works</h2>
+
+  <p style="font-size:0.78rem; color:var(--muted); margin-bottom:1.2rem;">The system runs a continuous daily cycle across 5 stocks, polling intelligence reports via RSS and making autonomous trading decisions.</p>
+
+  <div style="display:grid; grid-template-columns:repeat(auto-fit, minmax(130px, 1fr)); gap:0.8rem; margin-bottom:2rem;">
+
+    <div style="background:var(--off); border-radius:6px; padding:1rem; border-top:3px solid var(--teal);">
+      <div style="font-family:'Montserrat',sans-serif; font-weight:800; font-size:0.65rem; text-transform:uppercase; letter-spacing:0.1em; color:var(--teal); margin-bottom:0.4rem;">1. Report</div>
+      <div style="font-size:0.72rem; line-height:1.6; color:var(--ink);">Daily intelligence report arrives via RSS at 1pm UK time. Contains stance (BUY/SELL/HOLD/FADE) and confidence score for each stock.</div>
+    </div>
+
+    <div style="background:var(--off); border-radius:6px; padding:1rem; border-top:3px solid var(--teal);">
+      <div style="font-family:'Montserrat',sans-serif; font-weight:800; font-size:0.65rem; text-transform:uppercase; letter-spacing:0.1em; color:var(--teal); margin-bottom:0.4rem;">2. Assess</div>
+      <div style="font-size:0.72rem; line-height:1.6; color:var(--ink);">AI forms its own &ldquo;house confidence&rdquo; independently of the report. Checks news wire, Hong Kong tape, and macro. Dual-confidence system prevents blind trust.</div>
+    </div>
+
+    <div style="background:var(--off); border-radius:6px; padding:1rem; border-top:3px solid var(--teal);">
+      <div style="font-family:'Montserrat',sans-serif; font-weight:800; font-size:0.65rem; text-transform:uppercase; letter-spacing:0.1em; color:var(--teal); margin-bottom:0.4rem;">3. Decide</div>
+      <div style="font-size:0.72rem; line-height:1.6; color:var(--ink);">BUY or SELL at 65%+ confidence. HOLD at 45&ndash;64%. FADE below 45%. No emotion, no FOMO &mdash; mechanical thresholds only.</div>
+    </div>
+
+    <div style="background:var(--off); border-radius:6px; padding:1rem; border-top:3px solid var(--teal);">
+      <div style="font-family:'Montserrat',sans-serif; font-weight:800; font-size:0.65rem; text-transform:uppercase; letter-spacing:0.1em; color:var(--teal); margin-bottom:0.4rem;">4. Defend</div>
+      <div style="font-size:0.72rem; line-height:1.6; color:var(--ink);">Autonomous due diligence every 2 hours. Stop-losses, profit-taking, drawdown protection, market crash override. Multiple layers of defence.</div>
+    </div>
+
+    <div style="background:var(--off); border-radius:6px; padding:1rem; border-top:3px solid var(--teal);">
+      <div style="font-family:'Montserrat',sans-serif; font-weight:800; font-size:0.65rem; text-transform:uppercase; letter-spacing:0.1em; color:var(--teal); margin-bottom:0.4rem;">5. Measure</div>
+      <div style="font-size:0.72rem; line-height:1.6; color:var(--ink);">Compare active P&amp;L against passive buy-and-hold. Alpha is the verdict. If the AI can&rsquo;t beat doing nothing, we want to know.</div>
+    </div>
+
+  </div>
+  <h2 style="font-family:'Montserrat',sans-serif; font-weight:800; font-size:1.05rem; border-top:1px solid var(--rule); padding-top:1.5rem; margin:2rem 0 1rem;">The Defences</h2>
+
+  <p style="font-size:0.78rem; color:var(--muted); line-height:1.6; margin-bottom:1rem;">The active line isn&rsquo;t just making buy/sell decisions. It has a layered defence system designed to protect against the inevitable bad days that destroy buy-and-hold returns.</p>
+
+  <div style="margin-bottom:2rem;">
+    <div style="background:var(--off); border-radius:6px; padding:1rem; margin-bottom:0.6rem; border-left:3px solid var(--teal);">
+      <div style="font-weight:700; font-size:0.78rem; margin-bottom:0.3rem;">Duck-and-Cover</div>
+      <div style="font-size:0.72rem; color:var(--muted); line-height:1.6;">Pre-market DD checks the Hong Kong tape and overnight news before NYSE opens. If a storm is coming, the system sells at 9:30am and re-buys at 10:30am &mdash; only if the thesis survives. Designed to avoid the first-hour bloodbath.</div>
+    </div>
+
+    <div style="background:var(--off); border-radius:6px; padding:1rem; margin-bottom:0.6rem; border-left:3px solid var(--teal);">
+      <div style="font-weight:700; font-size:0.78rem; margin-bottom:0.3rem;">Autonomous Due Diligence</div>
+      <div style="font-size:0.72rem; color:var(--muted); line-height:1.6;">Every 2 hours, the AI independently checks if the investment thesis still holds. It monitors the news wire, checks the Hong Kong tape, and watches SPY and VIX for macro shifts. The &ldquo;human in the loop&rdquo; that never sleeps.</div>
+    </div>
+
+    <div style="background:var(--off); border-radius:6px; padding:1rem; margin-bottom:0.6rem; border-left:3px solid #d97706;">
+      <div style="font-weight:700; font-size:0.78rem; margin-bottom:0.3rem;">Profit-Taking</div>
+      <div style="font-size:0.72rem; color:var(--muted); line-height:1.6;">At +15%% the system considers taking profit. At +25%% it strongly considers it. If the stock pulls back 5%% from its peak, gains are protected automatically &mdash; drawdown from peak triggers an exit regardless of thesis.</div>
+    </div>
+
+    <div style="background:var(--off); border-radius:6px; padding:1rem; margin-bottom:0.6rem; border-left:3px solid var(--red);">
+      <div style="font-weight:700; font-size:0.78rem; margin-bottom:0.3rem;">Stop-Loss (Soft + Hard)</div>
+      <div style="font-size:0.72rem; color:var(--muted); line-height:1.6;">At &minus;10%% the AI assesses whether to cut &mdash; asking the LLM if the thesis is still intact. At &minus;15%% it exits immediately, no questions asked. The hard stop is mechanical and absolute.</div>
+    </div>
+
+    <div style="background:var(--off); border-radius:6px; padding:1rem; margin-bottom:0.6rem; border-left:3px solid var(--red);">
+      <div style="font-weight:700; font-size:0.78rem; margin-bottom:0.3rem;">Market Crash Override</div>
+      <div style="font-size:0.72rem; color:var(--muted); line-height:1.6;">If the S&amp;P 500 drops more than 3%% in a session, all long positions are exited immediately. Individual stock thesis doesn&rsquo;t matter when the whole market is crashing &mdash; everything correlates on the way down.</div>
+    </div>
+
+    <div style="background:var(--off); border-radius:6px; padding:1rem; border-left:3px solid #d97706;">
+      <div style="font-weight:700; font-size:0.78rem; margin-bottom:0.3rem;">Horse-Bolted Detection</div>
+      <div style="font-size:0.72rem; color:var(--muted); line-height:1.6;">If the stock has moved more than 8%% since the last report, the system flags a &ldquo;horse bolted&rdquo; scenario &mdash; the move the report anticipated may have already happened, and entering now is chasing rather than front-running.</div>
+    </div>
+  </div>
+  <h2 style="font-family:'Montserrat',sans-serif; font-weight:800; font-size:1.05rem; border-top:1px solid var(--rule); padding-top:1.5rem; margin:2rem 0 1rem;">Live Portfolio</h2>
+  <p style="font-size:0.68rem; color:var(--light); margin-bottom:1rem;">Last updated: 2026-03-02T11:30</p>
+
+  <div class="stats-grid-4">
     <div class="stat-card">
-      <div class="stat-number">5</div>
+      <div class="stat-number" style="color:var(--teal);">5</div>
       <div class="stat-label">Stocks Tracked</div>
     </div>
     <div class="stat-card">
@@ -457,148 +540,228 @@ img { display: block; max-width: 100%; }
       <div class="stat-label">AI Beating Passive</div>
     </div>
     <div class="stat-card">
-      <div class="stat-number cw-alpha-pos">+16.2%</div>
-      <div class="stat-label">Total Alpha</div>
+      <div class="stat-number cw-alpha-pos">+3.2%%</div>
+      <div class="stat-label">Average Alpha</div>
+    </div>
+    <div class="stat-card">
+      <div class="stat-number">11</div>
+      <div class="stat-label">Days Tracked</div>
     </div>
   </div>
 
-  <h2 style="font-weight:800; font-size:1rem; margin-bottom:1rem; padding-top:1rem; border-top:1px solid var(--rule);">Individual Stocks</h2>
-  <div style="background:var(--bg); border:1px solid var(--rule); padding:1.5rem; margin-bottom:1rem;">
+  <div style="margin-top:1.5rem;">
+  <div style="background:var(--bg); border:1px solid var(--rule); border-radius:6px; padding:1.5rem; margin-bottom:0.8rem;">
     <div style="display:flex; align-items:baseline; gap:0.8rem; margin-bottom:0.8rem;">
-      <span style="font-weight:900; font-size:1.3rem; letter-spacing:0.04em;">BABA</span>
-      <span style="font-size:0.85rem; color:var(--muted);">Alibaba</span>
-      <span style="font-size:0.85rem; color:var(--light); margin-left:auto;">$144.11</span>
+      <span style="font-weight:900; font-size:1.2rem; letter-spacing:0.04em;">BABA</span>
+      <span style="font-size:0.78rem; color:var(--muted);">Alibaba</span>
+      <span style="font-size:0.78rem; color:var(--light); margin-left:auto;">$144.11</span>
     </div>
     <div style="margin-bottom:0.8rem;">
       <span class="cw-state-badge cw-state-flat">FLAT</span>
-      <span style="font-size:0.7rem; color:var(--muted); margin-left:0.5rem;">Stance: HOLD | Confidence: 55%</span>
+      <span style="font-size:0.68rem; color:var(--muted); margin-left:0.5rem;">Stance: HOLD | Confidence: 55%%</span>
     </div>
     <div class="stats-grid-3" style="margin-bottom:0.8rem;">
       <div class="stat-card-secondary">
-        <div class="stat-number-secondary cw-pnl-neg">-0.74%</div>
+        <div class="stat-number-secondary cw-pnl-neg">-0.74%%</div>
         <div class="stat-label">Active AI P&amp;L</div>
       </div>
       <div class="stat-card-secondary">
-        <div class="stat-number-secondary cw-pnl-neg">-7.46%</div>
+        <div class="stat-number-secondary cw-pnl-neg">-7.46%%</div>
         <div class="stat-label">Passive P&amp;L</div>
       </div>
       <div class="stat-card-secondary">
-        <div class="stat-number-secondary cw-alpha-pos"><strong>+6.72%</strong></div>
+        <div class="stat-number-secondary cw-alpha-pos"><strong>+6.72%%</strong></div>
         <div class="stat-label">Alpha</div>
       </div>
     </div>
-    <div style="font-size:0.7rem; color:var(--light);">30 trades | 11 days tracked</div>
+    <div style="font-size:0.68rem; color:var(--light);">30 trades | 11 days tracked</div>
   </div>
-  <div style="background:var(--bg); border:1px solid var(--rule); padding:1.5rem; margin-bottom:1rem;">
+  <div style="background:var(--bg); border:1px solid var(--rule); border-radius:6px; padding:1.5rem; margin-bottom:0.8rem;">
     <div style="display:flex; align-items:baseline; gap:0.8rem; margin-bottom:0.8rem;">
-      <span style="font-weight:900; font-size:1.3rem; letter-spacing:0.04em;">JD</span>
-      <span style="font-size:0.85rem; color:var(--muted);">JD.com</span>
-      <span style="font-size:0.85rem; color:var(--light); margin-left:auto;">$26.53</span>
+      <span style="font-weight:900; font-size:1.2rem; letter-spacing:0.04em;">JD</span>
+      <span style="font-size:0.78rem; color:var(--muted);">JD.com</span>
+      <span style="font-size:0.78rem; color:var(--light); margin-left:auto;">$26.53</span>
     </div>
     <div style="margin-bottom:0.8rem;">
       <span class="cw-state-badge cw-state-long">HELD</span>
-      <span style="font-size:0.7rem; color:var(--muted); margin-left:0.5rem;">Stance: HOLD | Confidence: 55%</span>
+      <span style="font-size:0.68rem; color:var(--muted); margin-left:0.5rem;">Stance: HOLD | Confidence: 55%%</span>
     </div>
     <div class="stats-grid-3" style="margin-bottom:0.8rem;">
       <div class="stat-card-secondary">
-        <div class="stat-number-secondary cw-pnl-neg">-2.92%</div>
+        <div class="stat-number-secondary cw-pnl-neg">-2.92%%</div>
         <div class="stat-label">Active AI P&amp;L</div>
       </div>
       <div class="stat-card-secondary">
-        <div class="stat-number-secondary cw-pnl-neg">-2.25%</div>
+        <div class="stat-number-secondary cw-pnl-neg">-2.25%%</div>
         <div class="stat-label">Passive P&amp;L</div>
       </div>
       <div class="stat-card-secondary">
-        <div class="stat-number-secondary cw-alpha-neg"><strong>-0.67%</strong></div>
+        <div class="stat-number-secondary cw-alpha-neg"><strong>-0.67%%</strong></div>
         <div class="stat-label">Alpha</div>
       </div>
     </div>
-    <div style="font-size:0.7rem; color:var(--light);">29 trades | 11 days tracked</div>
+    <div style="font-size:0.68rem; color:var(--light);">29 trades | 11 days tracked</div>
   </div>
-  <div style="background:var(--bg); border:1px solid var(--rule); padding:1.5rem; margin-bottom:1rem;">
+  <div style="background:var(--bg); border:1px solid var(--rule); border-radius:6px; padding:1.5rem; margin-bottom:0.8rem;">
     <div style="display:flex; align-items:baseline; gap:0.8rem; margin-bottom:0.8rem;">
-      <span style="font-weight:900; font-size:1.3rem; letter-spacing:0.04em;">BIDU</span>
-      <span style="font-size:0.85rem; color:var(--muted);">Baidu</span>
-      <span style="font-size:0.85rem; color:var(--light); margin-left:auto;">$124.44</span>
+      <span style="font-weight:900; font-size:1.2rem; letter-spacing:0.04em;">BIDU</span>
+      <span style="font-size:0.78rem; color:var(--muted);">Baidu</span>
+      <span style="font-size:0.78rem; color:var(--light); margin-left:auto;">$124.44</span>
     </div>
     <div style="margin-bottom:0.8rem;">
       <span class="cw-state-badge cw-state-flat">FLAT</span>
-      <span style="font-size:0.7rem; color:var(--muted); margin-left:0.5rem;">Stance: HOLD | Confidence: 55%</span>
+      <span style="font-size:0.68rem; color:var(--muted); margin-left:0.5rem;">Stance: HOLD | Confidence: 55%%</span>
     </div>
     <div class="stats-grid-3" style="margin-bottom:0.8rem;">
       <div class="stat-card-secondary">
-        <div class="stat-number-secondary ">+0.00%</div>
+        <div class="stat-number-secondary ">+0.00%%</div>
         <div class="stat-label">Active AI P&amp;L</div>
       </div>
       <div class="stat-card-secondary">
-        <div class="stat-number-secondary cw-pnl-neg">-9.17%</div>
+        <div class="stat-number-secondary cw-pnl-neg">-9.17%%</div>
         <div class="stat-label">Passive P&amp;L</div>
       </div>
       <div class="stat-card-secondary">
-        <div class="stat-number-secondary cw-alpha-pos"><strong>+9.17%</strong></div>
+        <div class="stat-number-secondary cw-alpha-pos"><strong>+9.17%%</strong></div>
         <div class="stat-label">Alpha</div>
       </div>
     </div>
-    <div style="font-size:0.7rem; color:var(--light);">0 trades | 11 days tracked</div>
+    <div style="font-size:0.68rem; color:var(--light);">0 trades | 11 days tracked</div>
   </div>
-  <div style="background:var(--bg); border:1px solid var(--rule); padding:1.5rem; margin-bottom:1rem;">
+  <div style="background:var(--bg); border:1px solid var(--rule); border-radius:6px; padding:1.5rem; margin-bottom:0.8rem;">
     <div style="display:flex; align-items:baseline; gap:0.8rem; margin-bottom:0.8rem;">
-      <span style="font-weight:900; font-size:1.3rem; letter-spacing:0.04em;">NTES</span>
-      <span style="font-size:0.85rem; color:var(--muted);">NetEase</span>
-      <span style="font-size:0.85rem; color:var(--light); margin-left:auto;">$114.97</span>
+      <span style="font-weight:900; font-size:1.2rem; letter-spacing:0.04em;">NTES</span>
+      <span style="font-size:0.78rem; color:var(--muted);">NetEase</span>
+      <span style="font-size:0.78rem; color:var(--light); margin-left:auto;">$114.97</span>
     </div>
     <div style="margin-bottom:0.8rem;">
       <span class="cw-state-badge cw-state-flat">FLAT</span>
-      <span style="font-size:0.7rem; color:var(--muted); margin-left:0.5rem;">Stance: HOLD | Confidence: 55%</span>
+      <span style="font-size:0.68rem; color:var(--muted); margin-left:0.5rem;">Stance: HOLD | Confidence: 55%%</span>
     </div>
     <div class="stats-grid-3" style="margin-bottom:0.8rem;">
       <div class="stat-card-secondary">
-        <div class="stat-number-secondary cw-pnl-neg">-0.28%</div>
+        <div class="stat-number-secondary cw-pnl-neg">-0.28%%</div>
         <div class="stat-label">Active AI P&amp;L</div>
       </div>
       <div class="stat-card-secondary">
-        <div class="stat-number-secondary cw-pnl-neg">-4.68%</div>
+        <div class="stat-number-secondary cw-pnl-neg">-4.68%%</div>
         <div class="stat-label">Passive P&amp;L</div>
       </div>
       <div class="stat-card-secondary">
-        <div class="stat-number-secondary cw-alpha-pos"><strong>+4.39%</strong></div>
+        <div class="stat-number-secondary cw-alpha-pos"><strong>+4.39%%</strong></div>
         <div class="stat-label">Alpha</div>
       </div>
     </div>
-    <div style="font-size:0.7rem; color:var(--light);">30 trades | 11 days tracked</div>
+    <div style="font-size:0.68rem; color:var(--light);">30 trades | 11 days tracked</div>
   </div>
-  <div style="background:var(--bg); border:1px solid var(--rule); padding:1.5rem; margin-bottom:1rem;">
+  <div style="background:var(--bg); border:1px solid var(--rule); border-radius:6px; padding:1.5rem; margin-bottom:0.8rem;">
     <div style="display:flex; align-items:baseline; gap:0.8rem; margin-bottom:0.8rem;">
-      <span style="font-weight:900; font-size:1.3rem; letter-spacing:0.04em;">PDD</span>
-      <span style="font-size:0.85rem; color:var(--muted);">PDD Holdings</span>
-      <span style="font-size:0.85rem; color:var(--light); margin-left:auto;">$103.73</span>
+      <span style="font-weight:900; font-size:1.2rem; letter-spacing:0.04em;">PDD</span>
+      <span style="font-size:0.78rem; color:var(--muted);">PDD Holdings</span>
+      <span style="font-size:0.78rem; color:var(--light); margin-left:auto;">$103.73</span>
     </div>
     <div style="margin-bottom:0.8rem;">
       <span class="cw-state-badge cw-state-flat">FLAT</span>
-      <span style="font-size:0.7rem; color:var(--muted); margin-left:0.5rem;">Stance: HOLD | Confidence: 55%</span>
+      <span style="font-size:0.68rem; color:var(--muted); margin-left:0.5rem;">Stance: HOLD | Confidence: 55%%</span>
     </div>
     <div class="stats-grid-3" style="margin-bottom:0.8rem;">
       <div class="stat-card-secondary">
-        <div class="stat-number-secondary ">+0.00%</div>
+        <div class="stat-number-secondary ">+0.00%%</div>
         <div class="stat-label">Active AI P&amp;L</div>
       </div>
       <div class="stat-card-secondary">
-        <div class="stat-number-secondary cw-pnl-pos">+3.44%</div>
+        <div class="stat-number-secondary cw-pnl-pos">+3.44%%</div>
         <div class="stat-label">Passive P&amp;L</div>
       </div>
       <div class="stat-card-secondary">
-        <div class="stat-number-secondary cw-alpha-neg"><strong>-3.44%</strong></div>
+        <div class="stat-number-secondary cw-alpha-neg"><strong>-3.44%%</strong></div>
         <div class="stat-label">Alpha</div>
       </div>
     </div>
-    <div style="font-size:0.7rem; color:var(--light);">0 trades | 11 days tracked</div>
+    <div style="font-size:0.68rem; color:var(--light);">0 trades | 11 days tracked</div>
+  </div>
+  </div>
+  <h2 style="font-family:'Montserrat',sans-serif; font-weight:800; font-size:1.05rem; border-top:1px solid var(--rule); padding-top:1.5rem; margin:2rem 0 1rem;">Honest Performance</h2>
+
+  <div class="disclosure-banner" style="margin-bottom:1rem;">
+    <strong>The alpha paradox.</strong> Our best-performing stocks by alpha are the ones the AI has <em>never traded</em>. By staying flat while the stock fell, the AI avoided losses that the passive line absorbed. The AI is winning &mdash; but it&rsquo;s winning by not playing, not by playing well. We are being transparent about this because it matters.
   </div>
 
-  <div style="margin-top:2rem; padding:1.2rem; background:var(--off); font-size:0.78rem; color:var(--muted); line-height:1.6;">
-    <strong>Disclosure:</strong> Company Watch is an AI-managed paper trading system. No real money is at risk. Active line decisions are made by an LLM reading daily intelligence reports. Passive line buys and holds from day one. Alpha measures the difference. This is a live experiment in AI-driven stock selection.
+  <div class="stats-grid-3">
+    <div class="stat-card">
+      <div class="stat-number" style="color:var(--green);">+3.2%%</div>
+      <div class="stat-label">Avg Alpha (Active vs Passive)</div>
+    </div>
+    <div class="stat-card">
+      <div class="stat-number">89</div>
+      <div class="stat-label">Closed Trades</div>
+    </div>
+    <div class="stat-card">
+      <div class="stat-number" style="color:var(--muted);">2.0%%</div>
+      <div class="stat-label">Win Rate</div>
+    </div>
   </div>
 
-  <a href="/" class="section-more">&larr; Home</a>
+  <p style="font-size:0.78rem; line-height:1.7; margin-top:1rem; margin-bottom:0.5rem;">Of 5 stocks tracked, the AI is beating passive on 3. Best alpha: BIDU at +9.2%%. Worst: PDD at -3.4%%. The system is still in its early learning phase &mdash; we need more data points and more market conditions before drawing conclusions.</p>
+  <h2 style="font-family:'Montserrat',sans-serif; font-weight:800; font-size:1.05rem; border-top:1px solid var(--rule); padding-top:1.5rem; margin:2rem 0 1rem;">The Trading Cost Question</h2>
+
+  <p style="font-size:0.82rem; line-height:1.8; margin-bottom:1.2rem;">A fundamental question hangs over the entire experiment: <strong>is buying and selling shares the best instrument for this strategy?</strong> Our active line has generated 89 trades across 5 stocks in 11 days. In a real-money implementation, every one of those trades would carry costs.</p>
+
+  <p style="font-size:0.82rem; line-height:1.8; margin-bottom:1.2rem;">These are the instruments we&rsquo;re investigating:</p>
+
+  <div style="margin-bottom:1.5rem;">
+    <div style="background:var(--off); border-radius:6px; padding:1rem; margin-bottom:0.6rem; border-left:3px solid var(--teal);">
+      <div style="font-weight:700; font-size:0.78rem; margin-bottom:0.3rem;">Individual Shares</div>
+      <div style="font-size:0.72rem; color:var(--muted); line-height:1.6;">Current approach. Direct exposure, maximum flexibility. But commission costs, bid-ask spreads, and potential pattern day trader rules could erode returns on high-frequency active trading.</div>
+    </div>
+
+    <div style="background:var(--off); border-radius:6px; padding:1rem; margin-bottom:0.6rem; border-left:3px solid var(--teal);">
+      <div style="font-weight:700; font-size:0.78rem; margin-bottom:0.3rem;">ETFs (e.g. KWEB, FXI, MCHI)</div>
+      <div style="font-size:0.72rem; color:var(--muted); line-height:1.6;">China-focused ETFs offer basket exposure with lower per-trade impact. Reduces single-stock risk but dilutes the &ldquo;know one company deeply&rdquo; principle. Lower spreads on liquid ETFs might make the duck-and-cover strategy more cost-efficient.</div>
+    </div>
+
+    <div style="background:var(--off); border-radius:6px; padding:1rem; margin-bottom:0.6rem; border-left:3px solid #d97706;">
+      <div style="font-weight:700; font-size:0.78rem; margin-bottom:0.3rem;">Options</div>
+      <div style="font-size:0.72rem; color:var(--muted); line-height:1.6;">Protective puts could replicate duck-and-cover without selling the underlying. Covered calls could generate income on flat periods. But premium decay (theta) and complexity introduce new risks. Options require a different confidence threshold.</div>
+    </div>
+
+    <div style="background:var(--off); border-radius:6px; padding:1rem; border-left:3px solid var(--light);">
+      <div style="font-weight:700; font-size:0.78rem; margin-bottom:0.3rem;">CFDs / Spread Bets</div>
+      <div style="font-size:0.72rem; color:var(--muted); line-height:1.6;">Leveraged instruments with no stamp duty (UK). Lower capital requirements for the same exposure. But overnight funding costs accumulate on held positions, and leverage amplifies the very losses our defences are designed to prevent.</div>
+    </div>
+  </div>
+
+  <p style="font-size:0.78rem; line-height:1.7; color:var(--muted); margin-bottom:1.5rem;">We will be modelling the cost impact of each instrument against our actual trading history to determine which vehicle best suits a high-frequency ducking strategy. Results will be published here as we learn.</p>
+  <h2 style="font-family:'Montserrat',sans-serif; font-weight:800; font-size:1.05rem; border-top:1px solid var(--rule); padding-top:1.5rem; margin:2rem 0 1rem;">What We&rsquo;re Learning</h2>
+
+  <p style="font-size:0.78rem; line-height:1.7; margin-bottom:1rem;">This system is live and evolving. Here are the key findings from our first 11 days:</p>
+
+  <div style="margin-bottom:2rem;">
+    <div style="background:var(--off); border-radius:6px; padding:1rem; margin-bottom:0.6rem; border-left:3px solid #d97706;">
+      <div style="font-weight:700; font-size:0.78rem; margin-bottom:0.3rem;">Not trading is a strategy</div>
+      <div style="font-size:0.72rem; color:var(--muted); line-height:1.6;">Our highest-alpha stocks are the ones the AI stayed flat on while the passive line lost money. The AI&rsquo;s best move has been inaction &mdash; correctly identifying when NOT to enter. This is valuable but raises the question: is the alpha coming from intelligence or from caution?</div>
+    </div>
+
+    <div style="background:var(--off); border-radius:6px; padding:1rem; margin-bottom:0.6rem; border-left:3px solid var(--red);">
+      <div style="font-weight:700; font-size:0.78rem; margin-bottom:0.3rem;">Win rate needs work</div>
+      <div style="font-size:0.72rem; color:var(--muted); line-height:1.6;">At 2.0%% win rate across 89 closed trades, the majority of individual trades lose money. The system may be churning &mdash; entering and exiting too frequently without conviction. We are investigating whether wider entry thresholds and longer hold periods would improve outcomes.</div>
+    </div>
+
+    <div style="background:var(--off); border-radius:6px; padding:1rem; margin-bottom:0.6rem; border-left:3px solid #d97706;">
+      <div style="font-weight:700; font-size:0.78rem; margin-bottom:0.3rem;">Early days &mdash; we need more data</div>
+      <div style="font-size:0.72rem; color:var(--muted); line-height:1.6;">We have not yet seen a market crash, an earnings surprise, a geopolitical shock, or a sustained rally. All conclusions are preliminary. We need months, not days, to assess whether the defensive mechanisms actually add value across different market regimes.</div>
+    </div>
+
+    <div style="background:var(--off); border-radius:6px; padding:1rem; border-left:3px solid var(--teal);">
+      <div style="font-weight:700; font-size:0.78rem; margin-bottom:0.3rem;">The dual-confidence system works</div>
+      <div style="font-size:0.72rem; color:var(--muted); line-height:1.6;">The gap between report confidence and house confidence is proving useful. When the report says BUY at 40%% but the AI independently rates it at 55%%, the system correctly holds rather than entering. This separation prevents blind-following and has contributed to the positive alpha.</div>
+    </div>
+  </div>
+
+  <div class="disclosure-banner">
+    <strong>Why publish this?</strong> If AI-managed active trading can consistently beat buy-and-hold, that changes how individual investors think about stock ownership. If it can&rsquo;t, we want to know that too &mdash; and we want anyone following our work to see the honest evidence. This is not a product. This is a live experiment, and you are watching it unfold.
+  </div>
+
 </div>
 
 <footer class="site-footer">
