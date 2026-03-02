@@ -1,0 +1,484 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Showcase — NOAH Edge</title>
+<meta name="description" content="Client intelligence products, trading systems, and beta tests built by NOAH Edge.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400&family=Montserrat:wght@700;800&display=swap" rel="stylesheet">
+<style>
+:root {
+  --white:   #FFFFFF;
+  --off:     #F7F7F5;
+  --ink:     #1A1A1A;
+  --ink-soft: #2D3748;
+  --muted:   #6B7280;
+  --light:   #9CA3AF;
+  --rule:    #E5E5E5;
+  --teal:    #0d7680;
+  --teal-dark: #0a5c64;
+  --teal-light: #e8f4f5;
+  --teal-mist: #f0f9fa;
+  --indigo:  #6366f1;
+  --indigo-light: #eef0ff;
+  --amber:   #d97706;
+  --amber-light: #fef8ec;
+  --green:   #16a34a;
+  --green-light: #ecfdf5;
+  --red:     #dc2626;
+  --max-width: 1080px;
+}
+*, *::before, *::after { margin: 0; padding: 0; box-sizing: border-box; }
+html { font-size: 16px; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; overflow-x: hidden; }
+body { font-family: 'Lato', -apple-system, BlinkMacSystemFont, sans-serif; color: var(--ink); background: var(--white); line-height: 1.6; overflow-x: hidden; max-width: 100vw; }
+a { color: inherit; text-decoration: none; }
+a:hover { color: var(--teal); }
+
+/* -- HEADER -- */
+.site-header { padding: 1.2rem 2rem 0.8rem; display: flex; align-items: center; justify-content: space-between; max-width: var(--max-width); margin: 0 auto; }
+.brand { display: flex; align-items: baseline; gap: 0.4rem; }
+.brand-noah { font-family: 'Montserrat', sans-serif; font-weight: 800; font-size: 1.5rem; letter-spacing: 0.12em; }
+.brand-edge { font-family: 'Lato', sans-serif; font-weight: 300; font-size: 1.45rem; letter-spacing: 0.04em; color: var(--muted); }
+.header-nav { display: flex; align-items: center; gap: 1.5rem; }
+.header-nav a { font-size: 0.72rem; color: var(--muted); letter-spacing: 0.04em; }
+.header-nav a:hover { color: var(--teal); }
+.header-nav a.active { color: var(--ink); font-weight: 700; }
+.header-rule { border: none; border-top: 2px solid var(--ink); margin: 0 auto; max-width: var(--max-width); }
+
+/* -- PAGE HEADER -- */
+.page-header { max-width: var(--max-width); margin: 0 auto; padding: 2.5rem 2rem 1.5rem; }
+.page-title { font-weight: 900; font-size: 2rem; line-height: 1.2; margin-bottom: 0.6rem; }
+.page-deck { font-size: 1rem; font-weight: 300; line-height: 1.65; color: var(--muted); max-width: 680px; }
+
+/* -- CONTENT -- */
+.content { max-width: var(--max-width); margin: 0 auto; padding: 0 2rem; }
+.section-label { font-size: 0.68rem; font-weight: 700; letter-spacing: 0.14em; text-transform: uppercase; color: var(--ink); }
+.section-rule { border: none; border-top: 1px solid var(--rule); }
+.section-rule-heavy { border: none; border-top: 2px solid var(--ink); }
+.section-header { display: flex; justify-content: space-between; align-items: baseline; padding: 1.5rem 0 0.8rem; }
+.section-count { font-size: 0.68rem; color: var(--light); font-weight: 400; }
+
+/* -- SHOWCASE CARDS -- */
+.showcase-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 1.5rem; padding: 1rem 0 2.5rem; }
+.showcase-card { border: 1px solid var(--rule); padding: 1.4rem; position: relative; transition: border-color 0.2s, box-shadow 0.2s; }
+.showcase-card:hover { border-color: var(--teal); box-shadow: 0 2px 12px rgba(13,118,128,0.08); }
+.showcase-card-tag { display: inline-block; font-size: 0.54rem; font-weight: 700; letter-spacing: 0.08em; text-transform: uppercase; padding: 0.15rem 0.5rem; border-radius: 2px; margin-bottom: 0.6rem; }
+.tag-dashboard { background: var(--teal-light); color: var(--teal); border-top: 3px solid var(--teal); padding-top: calc(1.4rem + 3px); margin-top: -3px; }
+.tag-intelligence { background: var(--indigo-light); color: var(--indigo); }
+.tag-client { background: var(--off); color: var(--muted); }
+.tag-beta { background: var(--amber-light); color: var(--amber); }
+.tag-media { background: #fde8e8; color: var(--red); }
+.tag-pharma { background: var(--green-light); color: var(--green); }
+.tag-hedge { background: #1A1A1A; color: #FFFFFF; }
+.tag-tech { background: var(--indigo-light); color: var(--indigo); }
+.tag-geopolitical { background: #fef3c7; color: #92400e; }
+.showcase-card-title { font-weight: 700; font-size: 0.92rem; line-height: 1.3; margin-bottom: 0.4rem; }
+.showcase-card-client { font-size: 0.68rem; font-weight: 700; color: var(--teal); letter-spacing: 0.04em; margin-bottom: 0.4rem; }
+.showcase-card-desc { font-size: 0.78rem; font-weight: 300; line-height: 1.55; color: var(--muted); margin-bottom: 0.8rem; }
+.showcase-card-meta { font-size: 0.64rem; color: var(--light); margin-bottom: 0.6rem; }
+.showcase-card-links { display: flex; flex-wrap: wrap; gap: 0.5rem; }
+.showcase-card-links a { font-size: 0.68rem; font-weight: 700; color: var(--teal); padding: 0.2rem 0.6rem; border: 1px solid var(--teal); border-radius: 2px; transition: background 0.15s, color 0.15s; }
+.showcase-card-links a:hover { background: var(--teal); color: var(--white); }
+
+/* -- STATS BAR -- */
+.stats-bar { background: var(--ink); color: var(--white); padding: 1.2rem 2rem; margin-bottom: 0; }
+.stats-bar-inner { max-width: var(--max-width); margin: 0 auto; display: flex; justify-content: space-between; align-items: center; }
+.stats-bar-item { text-align: center; }
+.stats-bar-number { font-weight: 900; font-size: 1.3rem; line-height: 1; }
+.stats-bar-number.accent { color: #22c55e; }
+.stats-bar-label { font-size: 0.56rem; font-weight: 700; letter-spacing: 0.08em; text-transform: uppercase; color: rgba(255,255,255,0.4); margin-top: 0.2rem; }
+
+/* -- STATUS BADGES -- */
+.status { display: inline-block; font-size: 0.56rem; font-weight: 700; letter-spacing: 0.06em; text-transform: uppercase; padding: 0.12rem 0.4rem; border-radius: 2px; margin-left: 0.4rem; }
+.status-live { background: var(--green-light); color: var(--green); }
+.status-beta { background: var(--amber-light); color: var(--amber); }
+.status-demo { background: var(--off); color: var(--muted); }
+.status-frozen { background: #fde8e8; color: var(--red); }
+
+/* -- FOOTER -- */
+.site-footer { border-top: 2px solid var(--ink); padding: 1.8rem 0 3rem; }
+.footer-inner { max-width: var(--max-width); margin: 0 auto; padding: 0 2rem; display: flex; justify-content: space-between; align-items: start; }
+.footer-brand { font-family: 'Montserrat', sans-serif; font-weight: 800; font-size: 0.82rem; letter-spacing: 0.12em; margin-bottom: 0.4rem; }
+.footer-text { font-size: 0.7rem; color: var(--light); line-height: 1.6; max-width: 440px; }
+.footer-links { display: flex; gap: 1.5rem; }
+.footer-links a { font-size: 0.7rem; color: var(--muted); letter-spacing: 0.04em; }
+
+/* -- RESPONSIVE -- */
+@media (max-width: 900px) {
+  .showcase-grid { grid-template-columns: 1fr 1fr; }
+  .stats-bar-inner { flex-wrap: wrap; gap: 1rem; justify-content: center; }
+}
+@media (max-width: 600px) {
+  .site-header { padding: 0.8rem 1.2rem; flex-wrap: wrap; gap: 0.4rem; }
+  .brand-noah { font-size: 1.15rem; }
+  .brand-edge { font-size: 1.1rem; }
+  .header-nav { gap: 1rem; }
+  .header-nav a { font-size: 0.65rem; }
+  .header-nav .hide-mobile { display: none; }
+  .content { padding: 0 1.2rem; }
+  .page-header { padding: 1.5rem 1.2rem 1rem; }
+  .page-title { font-size: 1.5rem; }
+  .showcase-grid { grid-template-columns: 1fr; }
+  .footer-inner { flex-direction: column; gap: 1.5rem; }
+  .stats-bar { padding: 1rem 1.2rem; }
+}
+</style>
+</head>
+<body>
+
+<!-- HEADER -->
+<header class="site-header">
+  <a href="/" class="brand">
+    <span class="brand-noah">NOAH</span>
+    <span class="brand-edge">edge</span>
+  </a>
+  <nav class="header-nav">
+    <a href="/">Latest</a>
+    <a href="/predictions/">Poly Index</a>
+    <a href="/tips/">Tips Desk</a>
+    <a href="/wire/" class="hide-mobile">The Wire</a>
+    <a href="/scoreboard/" class="hide-mobile">Scoreboard</a>
+    <a href="/showcase/" class="active">Showcase</a>
+    <a href="/about/" class="hide-mobile">About</a>
+  </nav>
+</header>
+<hr class="header-rule">
+
+<!-- STATS BAR -->
+<div class="stats-bar">
+  <div class="stats-bar-inner">
+    <div class="stats-bar-item">
+      <div class="stats-bar-number accent">13</div>
+      <div class="stats-bar-label">Clients</div>
+    </div>
+    <div class="stats-bar-item">
+      <div class="stats-bar-number">45+</div>
+      <div class="stats-bar-label">Reports Delivered</div>
+    </div>
+    <div class="stats-bar-item">
+      <div class="stats-bar-number">4</div>
+      <div class="stats-bar-label">Trading Systems</div>
+    </div>
+    <div class="stats-bar-item">
+      <div class="stats-bar-number">2</div>
+      <div class="stats-bar-label">Intelligence Dashboards</div>
+    </div>
+    <div class="stats-bar-item">
+      <div class="stats-bar-number accent">6</div>
+      <div class="stats-bar-label">Sectors Covered</div>
+    </div>
+  </div>
+</div>
+
+<!-- PAGE HEADER -->
+<div class="page-header">
+  <h1 class="page-title">Showcase</h1>
+  <p class="page-deck">Every intelligence product, trading system, and client report built by NOAH Edge. Live dashboards, beta tests, and delivered work &mdash; all in one place.</p>
+</div>
+
+<div class="content">
+
+<!-- ═══ INTELLIGENCE DASHBOARDS ═══ -->
+<hr class="section-rule-heavy">
+<div class="section-header">
+  <span class="section-label">Intelligence Dashboards</span>
+  <span class="section-count">Continuous monitoring systems built for clients</span>
+</div>
+
+<div class="showcase-grid">
+
+  <div class="showcase-card tag-dashboard">
+    <span class="showcase-card-tag tag-intelligence">National Intelligence</span>
+    <div class="showcase-card-client">FCDO / Zinc Network</div>
+    <h3 class="showcase-card-title">Sovereign Signal <span class="status status-beta">Beta</span></h3>
+    <p class="showcase-card-desc">Daily UK national standing dashboard. Five pillars scored out of 100: Soft Power, Defence, Economic Leadership, Diplomatic Standing, and Systemic Trust. AI-powered sentiment tracking from global media.</p>
+    <div class="showcase-card-meta">15 pillar reports &middot; Daily updates &middot; Since Feb 2026</div>
+    <div class="showcase-card-links">
+      <a href="/sovereign-signal/">Dashboard</a>
+      <a href="/sovereign-signal/methodology.html">Methodology</a>
+      <a href="/sovereign-signal/uk-softpower-2026-02-23.html">Soft Power</a>
+      <a href="/sovereign-signal/uk-defence-2026-02-23.html">Defence</a>
+      <a href="/sovereign-signal/uk-economic-2026-02-23.html">Economic</a>
+      <a href="/sovereign-signal/uk-diplomatic-2026-02-23.html">Diplomatic</a>
+      <a href="/sovereign-signal/uk-trust-2026-02-23.html">Trust</a>
+    </div>
+  </div>
+
+  <div class="showcase-card tag-dashboard">
+    <span class="showcase-card-tag tag-intelligence">Corporate Intelligence</span>
+    <div class="showcase-card-client">73 Intelligence / Cherre</div>
+    <h3 class="showcase-card-title">Business Signal <span class="status status-beta">Beta</span></h3>
+    <p class="showcase-card-desc">Corporate perception and standing intelligence for real estate data platforms. Five-arena assessment covering market position, competitive dynamics, and sector trends.</p>
+    <div class="showcase-card-meta">3 reports &middot; PropTech focus &middot; Since Feb 2026</div>
+    <div class="showcase-card-links">
+      <a href="/business-signal/">Dashboard</a>
+      <a href="/business-signal/methodology.html">Methodology</a>
+      <a href="/business-signal/bs-proptech-2026-02-25.html">PropTech</a>
+      <a href="/business-signal/cherre-market-alignment-2026-02-25.html">Cherre</a>
+    </div>
+  </div>
+
+</div>
+
+<!-- ═══ TRADING SYSTEMS ═══ -->
+<hr class="section-rule-heavy">
+<div class="section-header">
+  <span class="section-label">Trading Systems</span>
+  <span class="section-count">Autonomous AI-managed paper trading and market intelligence</span>
+</div>
+
+<div class="showcase-grid">
+
+  <div class="showcase-card tag-dashboard">
+    <span class="showcase-card-tag tag-hedge">Hedge Fund</span>
+    <h3 class="showcase-card-title">Hedge Fund Edge Tracker <span class="status status-live">Live</span></h3>
+    <p class="showcase-card-desc">Smart paper trading for hedge fund recommendations from pharma and litigation reports. Due diligence, staleness checks, and confidence-band P&amp;L tracking across 265+ positions.</p>
+    <div class="showcase-card-meta">310+ reports &middot; 265 positions tracked &middot; Updated hourly</div>
+    <div class="showcase-card-links">
+      <a href="/hedgefund-tracker/">Dashboard</a>
+    </div>
+  </div>
+
+  <div class="showcase-card tag-dashboard">
+    <span class="showcase-card-tag tag-hedge">Prediction Markets</span>
+    <h3 class="showcase-card-title">Poly Market Hunter <span class="status status-live">Live</span></h3>
+    <p class="showcase-card-desc">Tracks prediction market edges from the Bionic Ear signal calculator. 96-hour candidate monitoring, CLOB price tracking, and edge validation across consensus, frontier, and discovery signals.</p>
+    <div class="showcase-card-meta">800+ reports &middot; 63% accuracy &middot; Updated every 30min</div>
+    <div class="showcase-card-links">
+      <a href="/polyhunter/">Dashboard</a>
+    </div>
+  </div>
+
+  <div class="showcase-card tag-dashboard">
+    <span class="showcase-card-tag tag-hedge">Single Stock</span>
+    <h3 class="showcase-card-title">Company Watch <span class="status status-frozen">Paused</span></h3>
+    <p class="showcase-card-desc">AI-managed vs buy-and-hold benchmark for single stocks. Autonomous due diligence, profit-taking logic, stop-loss protection, and market crash override. Core question: does intelligence beat sitting there?</p>
+    <div class="showcase-card-meta">5 stocks &middot; 630+ reports each &middot; Last: 16 Feb</div>
+    <div class="showcase-card-links">
+      <a href="/company-watch/">Dashboard</a>
+    </div>
+  </div>
+
+  <div class="showcase-card tag-dashboard">
+    <span class="showcase-card-tag tag-hedge">Operations</span>
+    <h3 class="showcase-card-title">The Desk <span class="status status-live">Live</span></h3>
+    <p class="showcase-card-desc">Operations director sitting above all four trading agents. Health checks, math audits, strategy reviews, and social content generation. Five divisions: OPS, QA, INTEL, COMMS, TASKBOARD.</p>
+    <div class="showcase-card-meta">5 divisions &middot; Auto-restarts agents &middot; Updated every 2h</div>
+    <div class="showcase-card-links">
+      <a href="/ops/">Dashboard</a>
+    </div>
+  </div>
+
+</div>
+
+<!-- ═══ CLIENT REPORTS — GEOPOLITICAL & STRATEGIC ═══ -->
+<hr class="section-rule-heavy">
+<div class="section-header">
+  <span class="section-label">Geopolitical &amp; Strategic Intelligence</span>
+  <span class="section-count">Battlefield assessments and system strain analysis</span>
+</div>
+
+<div class="showcase-grid">
+
+  <div class="showcase-card">
+    <span class="showcase-card-tag tag-geopolitical">Geopolitical</span>
+    <div class="showcase-card-client">Zinc Network</div>
+    <h3 class="showcase-card-title">Battlefield Intelligence Briefs</h3>
+    <p class="showcase-card-desc">Strategic conflict intelligence and system strain assessments. Infrastructure resilience and endurance analysis for geopolitical scenarios.</p>
+    <div class="showcase-card-meta">4 reports &middot; Feb 2026</div>
+    <div class="showcase-card-links">
+      <a href="/clients/zinc/battlefield-2026-02-20.html">Latest Brief</a>
+      <a href="/clients/zinc/system-strain-2026-02-17.html">System Strain</a>
+      <a href="/clients/zinc/battlefield-2026-02-17.html">17 Feb</a>
+      <a href="/clients/zinc/battlefield-2026-02-16.html">16 Feb</a>
+    </div>
+  </div>
+
+</div>
+
+<!-- ═══ CLIENT REPORTS — MEDIA & PR ═══ -->
+<hr class="section-rule-heavy">
+<div class="section-header">
+  <span class="section-label">Media Monitoring &amp; PR Intelligence</span>
+  <span class="section-count">Reputation tracking and media analysis for leading agencies</span>
+</div>
+
+<div class="showcase-grid">
+
+  <div class="showcase-card">
+    <span class="showcase-card-tag tag-media">Media Monitoring</span>
+    <div class="showcase-card-client">Cardew Group</div>
+    <h3 class="showcase-card-title">BIFFA Media &amp; Market Intelligence</h3>
+    <p class="showcase-card-desc">Media monitoring and market intelligence briefings for BIFFA. Tracks coverage sentiment, share of voice, and competitive positioning.</p>
+    <div class="showcase-card-meta">2 reports &middot; Feb 2026</div>
+    <div class="showcase-card-links">
+      <a href="/clients/cardew/market-intelligence-2026-02-18.html">Market Intel</a>
+      <a href="/clients/cardew/media-monitoring-2026-02-15.html">Media Monitor</a>
+    </div>
+  </div>
+
+  <div class="showcase-card">
+    <span class="showcase-card-tag tag-media">Media Monitoring</span>
+    <div class="showcase-card-client">Freuds</div>
+    <h3 class="showcase-card-title">BIFFA Media &amp; Market Intelligence</h3>
+    <p class="showcase-card-desc">Media monitoring and market intelligence for one of the UK's leading communications agencies. Coverage analysis and positioning briefs.</p>
+    <div class="showcase-card-meta">2 reports &middot; Feb 2026</div>
+    <div class="showcase-card-links">
+      <a href="/clients/freuds/market-intelligence-2026-02-18.html">Market Intel</a>
+      <a href="/clients/freuds/media-monitoring-2026-02-15.html">Media Monitor</a>
+    </div>
+  </div>
+
+  <div class="showcase-card">
+    <span class="showcase-card-tag tag-media">Media Monitoring</span>
+    <div class="showcase-card-client">Teneo</div>
+    <h3 class="showcase-card-title">BIFFA Media Monitoring</h3>
+    <p class="showcase-card-desc">Morning briefing media monitoring report for global advisory firm Teneo. Real-time coverage tracking and sentiment analysis.</p>
+    <div class="showcase-card-meta">1 report &middot; Feb 2026</div>
+    <div class="showcase-card-links">
+      <a href="/clients/teneo/media-monitoring-biffa-2026-02-15.html">Morning Brief</a>
+    </div>
+  </div>
+
+</div>
+
+<!-- ═══ CLIENT REPORTS — HEDGE FUND & FINANCIAL ═══ -->
+<hr class="section-rule-heavy">
+<div class="section-header">
+  <span class="section-label">Hedge Fund &amp; Financial Intelligence</span>
+  <span class="section-count">Information asymmetry and sector analysis for trading desks</span>
+</div>
+
+<div class="showcase-grid">
+
+  <div class="showcase-card">
+    <span class="showcase-card-tag tag-hedge">Hedge Fund</span>
+    <div class="showcase-card-client">Newsquawk</div>
+    <h3 class="showcase-card-title">Semiconductor &amp; Cybersecurity Intel</h3>
+    <p class="showcase-card-desc">Hedge fund intelligence on KKR semiconductor investments and NIST cybersecurity regulation impacts. Information asymmetry analysis for trading desks.</p>
+    <div class="showcase-card-meta">2 reports &middot; Feb 2026</div>
+    <div class="showcase-card-links">
+      <a href="/clients/newsquawk/hedge-fund-kkr-2026-02-18.html">KKR Semi</a>
+      <a href="/clients/newsquawk/hedge-fund-nist-2026-02-17.html">NIST Cyber</a>
+    </div>
+  </div>
+
+  <div class="showcase-card">
+    <span class="showcase-card-tag tag-hedge">Risk Analysis</span>
+    <div class="showcase-card-client">RFA</div>
+    <h3 class="showcase-card-title">Cybersecurity Market Intelligence</h3>
+    <p class="showcase-card-desc">Comprehensive cybersecurity market intelligence: threat reports, risk outlook, ransomware trend analysis, and hedge fund information asymmetry briefs.</p>
+    <div class="showcase-card-meta">5 reports &middot; Feb 2026</div>
+    <div class="showcase-card-links">
+      <a href="/clients/rfa/market-intelligence-2026-02-17.html">Market Intel</a>
+      <a href="/clients/rfa/risk-outlook-2026-02-17.html">Risk Outlook</a>
+      <a href="/clients/rfa/trend-probability-2026-02-17.html">Ransomware</a>
+      <a href="/clients/rfa/hedge-fund-2026-02-17.html">Hedge Fund</a>
+    </div>
+  </div>
+
+</div>
+
+<!-- ═══ CLIENT REPORTS — PHARMA & LITIGATION ═══ -->
+<hr class="section-rule-heavy">
+<div class="section-header">
+  <span class="section-label">Pharmaceutical &amp; Litigation Risk</span>
+  <span class="section-count">Litigation risk analysis delivered across multiple client formats</span>
+</div>
+
+<div class="showcase-grid">
+
+  <div class="showcase-card">
+    <span class="showcase-card-tag tag-pharma">Pharma Risk</span>
+    <div class="showcase-card-client">Clarion Intelligence</div>
+    <h3 class="showcase-card-title">Pharmaceutical Litigation Risk Outlook</h3>
+    <p class="showcase-card-desc">Pharmaceutical litigation risk and outlook analysis. Tracking legal exposures, settlement probabilities, and market impact scenarios.</p>
+    <div class="showcase-card-meta">1 report &middot; Feb 2026</div>
+    <div class="showcase-card-links">
+      <a href="/clients/clarion/pharma-risk-2026-02-17.html">Risk Outlook</a>
+    </div>
+  </div>
+
+  <div class="showcase-card">
+    <span class="showcase-card-tag tag-pharma">Pharma Risk</span>
+    <div class="showcase-card-client">Hyve Intelligence</div>
+    <h3 class="showcase-card-title">Pharmaceutical Litigation Risk Outlook</h3>
+    <p class="showcase-card-desc">Pharmaceutical litigation risk briefing tailored for Hyve's intelligence requirements. Same analytical framework, client-specific presentation.</p>
+    <div class="showcase-card-meta">1 report &middot; Feb 2026</div>
+    <div class="showcase-card-links">
+      <a href="/clients/hyve/pharma-risk-2026-02-17.html">Risk Outlook</a>
+    </div>
+  </div>
+
+  <div class="showcase-card">
+    <span class="showcase-card-tag tag-pharma">Pharma Risk</span>
+    <div class="showcase-card-client">Law Business Research</div>
+    <h3 class="showcase-card-title">Pharmaceutical Litigation Risk Outlook</h3>
+    <p class="showcase-card-desc">Litigation risk analysis formatted for legal research publication. Regulatory exposure mapping and probability-weighted impact assessment.</p>
+    <div class="showcase-card-meta">1 report &middot; Feb 2026</div>
+    <div class="showcase-card-links">
+      <a href="/clients/lbr/pharma-risk-2026-02-17.html">Risk Outlook</a>
+    </div>
+  </div>
+
+</div>
+
+<!-- ═══ CLIENT REPORTS — TECHNOLOGY & MARKET ═══ -->
+<hr class="section-rule-heavy">
+<div class="section-header">
+  <span class="section-label">Technology &amp; Market Intelligence</span>
+  <span class="section-count">Product positioning and market pressure analysis</span>
+</div>
+
+<div class="showcase-grid">
+
+  <div class="showcase-card">
+    <span class="showcase-card-tag tag-tech">Bionic Intelligence</span>
+    <div class="showcase-card-client">Fuse Pipeline</div>
+    <h3 class="showcase-card-title">Cisco &amp; XREAL Market Analysis</h3>
+    <p class="showcase-card-desc">Bionic intelligence on secure access market pressures for APAC financial services (Cisco) and consumer AR glasses positioning validation (XREAL).</p>
+    <div class="showcase-card-meta">3 reports &middot; Feb 2026</div>
+    <div class="showcase-card-links">
+      <a href="/clients/fuse-pipeline/bionic-cisco-2026-02-26.html">Cisco SASE</a>
+      <a href="/clients/fuse-pipeline/bionic-xreal-2026-02-24.html">XREAL AR</a>
+      <a href="/clients/fuse-pipeline/bionic-cisco-2026-02-24.html">Cisco APAC</a>
+    </div>
+  </div>
+
+  <div class="showcase-card">
+    <span class="showcase-card-tag tag-tech">Market Intel</span>
+    <div class="showcase-card-client">William Reed</div>
+    <h3 class="showcase-card-title">Market Intelligence &amp; Predictions</h3>
+    <p class="showcase-card-desc">Market intelligence and prediction analysis for the food, drink, and nutrition publishing group. Trend forecasting and competitive landscape mapping.</p>
+    <div class="showcase-card-meta">2 reports &middot; Feb 2026</div>
+    <div class="showcase-card-links">
+      <a href="/clients/william-reed/market-intelligence-v2-2026-02-21.html">Market Intel v2</a>
+      <a href="/clients/william-reed/market-intelligence-2026-02-21.html">Market Intel</a>
+    </div>
+  </div>
+
+</div>
+
+</div><!-- /content -->
+
+<!-- FOOTER -->
+<footer class="site-footer">
+  <div class="footer-inner">
+    <div>
+      <div class="footer-brand">NOAH</div>
+      <p class="footer-text">Edge Magazine is published by Ivan Massow. Intelligence products and trading systems built with AI. Nothing on this site constitutes financial advice. &copy; 2026</p>
+    </div>
+    <div class="footer-links">
+      <a href="/">Home</a>
+      <a href="/predictions/">Poly Index</a>
+      <a href="/showcase/">Showcase</a>
+      <a href="/about/">About</a>
+      <a href="/rss.xml">RSS</a>
+    </div>
+  </div>
+</footer>
+
+</body>
+</html>
