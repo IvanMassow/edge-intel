@@ -5,8 +5,16 @@
     <link>https://noah-edge.com/</link>
     <description>Prediction market intelligence. The Noah Poly Index tracks edges with transparent positions and tracked outcomes.</description>
     <language>en</language>
-    <lastBuildDate>Mon, 02 Mar 2026 01:15:29 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 02 Mar 2026 01:45:47 +0000</lastBuildDate>
     <atom:link href="https://noah-edge.com/rss.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Kalshi revises prediction market rules after handling reports of Iran’s leader death</title>
+      <link>https://noah-edge.com/stories/kalshi-revises-prediction-market-rules-after-handling.html</link>
+      <description>Kalshi swiftly voided a market linked to reports of Iran’s leader dying, reaffirming its rules against profiting from death and highlighting growing regulatory scrutiny over event-driven prediction...</description>
+      <pubDate>Mon, 02 Mar 2026 01:22:50 +0000</pubDate>
+      <guid>https://noah-edge.com/stories/kalshi-revises-prediction-market-rules-after-handling.html</guid>
+      <enclosure url="https://noah-edge.com/assets/images/kalshi-revises-prediction-market-rules-a-d38367c0.jpg" type="image/jpeg" />
+    </item>
     <item>
       <title>Crypto prediction markets surge as traders profit from Iran-U.S. conflict escalation</title>
       <link>https://noah-edge.com/stories/crypto-prediction-markets-surge-as-traders-profit-from-iran.html</link>
@@ -158,14 +166,6 @@
       <pubDate>Sun, 01 Mar 2026 14:17:17 +0000</pubDate>
       <guid>https://noah-edge.com/stories/crypto-investors-are-waking-up-to-the-potential-of-presale.html</guid>
       <enclosure url="https://noah-edge.com/assets/images/crypto-investors-are-waking-up-to-the-po-46ef5285.jpg" type="image/jpeg" />
-    </item>
-    <item>
-      <title>Underdog introduces real-time prediction markets in its app through Crypto.com partnership</title>
-      <link>https://noah-edge.com/stories/underdog-introduces-real-time-prediction-markets-in-its-app.html</link>
-      <description>Underdog has launched a prediction-market feature in its app, allowing users to trade contracts on sports outcomes via a regulated platform, signalling a shift toward market-oriented wagering amid ...</description>
-      <pubDate>Sun, 01 Mar 2026 13:20:46 +0000</pubDate>
-      <guid>https://noah-edge.com/stories/underdog-introduces-real-time-prediction-markets-in-its-app.html</guid>
-      <enclosure url="https://noah-edge.com/assets/images/underdog-introduces-real-time-prediction-8817537a.jpg" type="image/jpeg" />
     </item>
   </channel>
 </rss>
