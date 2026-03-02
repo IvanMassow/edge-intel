@@ -599,10 +599,64 @@ img { display: block; max-width: 100%; }
       </div>
   </div>
 
-  <!-- Methodology -->
-  <div style="margin-top:2rem; padding:1.2rem; background:var(--off); border-radius:6px; font-size:0.75rem; color:var(--muted); line-height:1.7;">
-    <strong style="color:var(--ink);">How it works:</strong> The NAS engine reads published narrative signals (media pressure, policy shifts, supply dynamics) and measures their directional pressure on a 0–100 scale. We publish signals daily ~1pm UK, before US markets open. We then paper-trade ETF proxies and track whether the predicted move materialises. <em>Direct proxies</em> have a clear causal link (oil signal → energy ETF); <em>indirect</em> proxies test secondary cascade effects and are excluded from headline accuracy.<br><br>
-    <strong style="color:var(--ink);">Not financial advice.</strong> Paper positions only. No real trades are executed.
+  <!-- How We Test -->
+  <div style="margin-top:2.5rem; padding-top:1.5rem; border-top:1px solid var(--rule);">
+    <div style="font-size:0.6rem; font-weight:700; letter-spacing:0.15em; text-transform:uppercase; color:var(--teal); margin-bottom:0.3rem;">Methodology</div>
+    <h2 style="font-weight:900; font-size:1.2rem; margin-bottom:1rem;">How we test our predictions</h2>
+
+    <div style="display:grid; grid-template-columns:1fr; gap:1.2rem; margin-bottom:1.5rem;">
+      <!-- Step 1 -->
+      <div style="display:flex; gap:1rem; align-items:flex-start;">
+        <div style="min-width:32px; height:32px; background:var(--teal); color:#fff; border-radius:50%; font-weight:800; font-size:0.8rem; display:flex; align-items:center; justify-content:center;">1</div>
+        <div>
+          <div style="font-weight:700; font-size:0.85rem; margin-bottom:0.2rem;">Signal publishes a directional prediction</div>
+          <div style="font-size:0.75rem; color:var(--muted); line-height:1.6;">Each day at ~1pm UK (before US markets open at 2:30pm), our Narrative Asset Signal engine reads thousands of media, policy and supply chain sources and publishes a structured forecast: which asset, which direction (up or down), and how strong the pressure.</div>
+        </div>
+      </div>
+
+      <!-- Step 2 -->
+      <div style="display:flex; gap:1rem; align-items:flex-start;">
+        <div style="min-width:32px; height:32px; background:var(--teal); color:#fff; border-radius:50%; font-weight:800; font-size:0.8rem; display:flex; align-items:center; justify-content:center;">2</div>
+        <div>
+          <div style="font-weight:700; font-size:0.85rem; margin-bottom:0.2rem;">We map each prediction to a benchmark ETF</div>
+          <div style="font-size:0.75rem; color:var(--muted); line-height:1.6;">To test objectively, we pair each directional call with the most relevant exchange-traded fund. For example: an oil bullish signal maps to <strong>XLE</strong> (Energy Select Sector), an airlines bearish call maps to <strong>JETS</strong> (U.S. Global Jets), and a semiconductor signal maps to <strong>SMH</strong> (VanEck Semiconductor). These are high-liquidity, widely-held ETFs that directly track the asset class in question.</div>
+        </div>
+      </div>
+
+      <!-- Step 3 -->
+      <div style="display:flex; gap:1rem; align-items:flex-start;">
+        <div style="min-width:32px; height:32px; background:var(--teal); color:#fff; border-radius:50%; font-weight:800; font-size:0.8rem; display:flex; align-items:center; justify-content:center;">3</div>
+        <div>
+          <div style="font-weight:700; font-size:0.85rem; margin-bottom:0.2rem;">We record the price at signal time, then track what happens</div>
+          <div style="font-size:0.75rem; color:var(--muted); line-height:1.6;">The moment a signal publishes, we record the ETF’s price as our entry point. We then sample every 30 minutes and formally score at four horizons: <strong>6h, 12h, 24h, and 72h</strong>. If the ETF moved &gt;0.5% in the predicted direction at any horizon, that’s a <strong>confirmed</strong> hit. If it’s moving in the right direction but hasn’t crossed the 0.5% threshold yet, it’s <strong>tracking</strong>. If it moved the wrong way, it’s a <strong>miss</strong>.</div>
+        </div>
+      </div>
+
+      <!-- Step 4 -->
+      <div style="display:flex; gap:1rem; align-items:flex-start;">
+        <div style="min-width:32px; height:32px; background:var(--teal); color:#fff; border-radius:50%; font-weight:800; font-size:0.8rem; display:flex; align-items:center; justify-content:center;">4</div>
+        <div>
+          <div style="font-weight:700; font-size:0.85rem; margin-bottom:0.2rem;">We measure how far ahead we were</div>
+          <div style="font-size:0.75rem; color:var(--muted); line-height:1.6;">The lead time is the gap between when we published the signal and when the market first moved &gt;0.5% in that direction. This is the “edge window” — the period where we knew the likely direction before the market reflected it. Our headline stats only count <em>direct proxies</em> (ETFs with a clear, causal link to the signal). Secondary cascade effects (e.g., how an oil signal affects bond prices) are tracked separately under observation.</div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Direct vs Indirect explainer -->
+    <div style="display:grid; grid-template-columns:1fr 1fr; gap:1rem; margin-bottom:1.5rem;">
+      <div style="background:#fff; border-left:3px solid var(--teal); padding:0.8rem 1rem; border-radius:4px;">
+        <div style="font-weight:800; font-size:0.72rem; letter-spacing:0.08em; text-transform:uppercase; color:var(--teal); margin-bottom:0.3rem;">Direct Proxy</div>
+        <div style="font-size:0.72rem; color:var(--ink-soft); line-height:1.6;">Clear causal link. Oil signal → energy ETF, airline signal → airline ETF. These are the fair tests and form our headline accuracy figure.</div>
+      </div>
+      <div style="background:#fff; border-left:3px solid var(--light); padding:0.8rem 1rem; border-radius:4px;">
+        <div style="font-weight:800; font-size:0.72rem; letter-spacing:0.08em; text-transform:uppercase; color:var(--muted); margin-bottom:0.3rem;">Indirect Proxy</div>
+        <div style="font-size:0.72rem; color:var(--ink-soft); line-height:1.6;">Secondary effects with confounding factors. Bond prices, emerging market ETFs, and materials indices are monitored for learning but excluded from headline stats.</div>
+      </div>
+    </div>
+
+    <div style="font-size:0.72rem; color:var(--light); line-height:1.6; border-top:1px solid var(--rule); padding-top:0.8rem;">
+      <strong style="color:var(--muted);">Disclaimer:</strong> This is a paper-trading validation exercise. No real trades are executed. All positions are hypothetical. Not financial advice.
+    </div>
   </div>
 
   <div style="margin-top:1.5rem; font-size:0.65rem; color:var(--light);">Last updated: 2026-03-02T15:42</div>
