@@ -5,8 +5,16 @@
     <link>https://noah-edge.com/</link>
     <description>Prediction market intelligence. The Noah Poly Index tracks edges with transparent positions and tracked outcomes.</description>
     <language>en</language>
-    <lastBuildDate>Mon, 02 Mar 2026 06:18:38 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 02 Mar 2026 06:48:57 +0000</lastBuildDate>
     <atom:link href="https://noah-edge.com/rss.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Volatility hits business development company ETFs as sector suffers worst performance since 2020</title>
+      <link>https://noah-edge.com/stories/volatility-hits-business-development-company-etfs-as-sector.html</link>
+      <description>Recent declines in BDC shares have exposed ETF investors to sector-specific risks amid deteriorating credit conditions, prompting calls for enhanced due diligence and strategic positioning.</description>
+      <pubDate>Mon, 02 Mar 2026 06:45:37 +0000</pubDate>
+      <guid>https://noah-edge.com/stories/volatility-hits-business-development-company-etfs-as-sector.html</guid>
+      <enclosure url="https://noah-edge.com/assets/images/volatility-hits-business-development-com-2b756029.jpg" type="image/jpeg" />
+    </item>
     <item>
       <title>FG Nexus’s swift Ethereum sell-off exposes the risks of short-term treasury strategies</title>
       <link>https://noah-edge.com/stories/fg-nexuss-swift-ethereum-sell-off-exposes-the-risks-of.html</link>
@@ -158,14 +166,6 @@
       <pubDate>Sun, 01 Mar 2026 17:47:25 +0000</pubDate>
       <guid>https://noah-edge.com/stories/xrps-market-resurgence-driven-by-surge-in-futures-activity.html</guid>
       <enclosure url="https://noah-edge.com/assets/images/xrps-market-resurgence-driven-by-surge-i-bdcd26df.jpg" type="image/jpeg" />
-    </item>
-    <item>
-      <title>OCC draft sparks debate over stability of stablecoin yield restrictions</title>
-      <link>https://noah-edge.com/stories/occ-draft-sparks-debate-over-stability-of-stablecoin-yield.html</link>
-      <description>The Office of the Comptroller of the Currency’s proposed rules on stablecoin yield payments have reignited fierce industry debate, highlighting potential loopholes and consequences for crypto platf...</description>
-      <pubDate>Sun, 01 Mar 2026 15:24:41 +0000</pubDate>
-      <guid>https://noah-edge.com/stories/occ-draft-sparks-debate-over-stability-of-stablecoin-yield.html</guid>
-      <enclosure url="https://noah-edge.com/assets/images/occ-draft-sparks-debate-over-stability-o-fb5134de.jpg" type="image/jpeg" />
     </item>
   </channel>
 </rss>
