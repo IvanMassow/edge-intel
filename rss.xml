@@ -5,8 +5,16 @@
     <link>https://noah-edge.com/</link>
     <description>Prediction market intelligence. The Noah Poly Index tracks edges with transparent positions and tracked outcomes.</description>
     <language>en</language>
-    <lastBuildDate>Mon, 02 Mar 2026 07:49:38 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 02 Mar 2026 08:19:56 +0000</lastBuildDate>
     <atom:link href="https://noah-edge.com/rss.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Prediction markets grapple with credibility as Iran escalation prompts regulatory scrutiny</title>
+      <link>https://noah-edge.com/stories/prediction-markets-grapple-with-credibility-as-iran.html</link>
+      <description>Surges in wagering linked to US, Israel and Iran tensions have tested the integrity of prediction markets, sparking political and regulatory backlash over bets tied to geopolitical violence.</description>
+      <pubDate>Mon, 02 Mar 2026 07:56:25 +0000</pubDate>
+      <guid>https://noah-edge.com/stories/prediction-markets-grapple-with-credibility-as-iran.html</guid>
+      <enclosure url="https://noah-edge.com/assets/images/prediction-markets-grapple-with-credibil-d7216efb.jpg" type="image/jpeg" />
+    </item>
     <item>
       <title>Volatility hits business development company ETFs as sector suffers worst performance since 2020</title>
       <link>https://noah-edge.com/stories/volatility-hits-business-development-company-etfs-as-sector.html</link>
@@ -158,14 +166,6 @@
       <pubDate>Sun, 01 Mar 2026 18:19:09 +0000</pubDate>
       <guid>https://noah-edge.com/stories/crypto-derivatives-surge-as-traders-capitalise-on-247.html</guid>
       <enclosure url="https://noah-edge.com/assets/images/crypto-derivatives-surge-as-traders-capi-9edda0fc.jpg" type="image/jpeg" />
-    </item>
-    <item>
-      <title>XRP&#39;s market resurgence driven by surge in futures activity signals potential volatility shift</title>
-      <link>https://noah-edge.com/stories/xrps-market-resurgence-driven-by-surge-in-futures-activity.html</link>
-      <description>XRP shows renewed momentum as futures inflows spike over 130%, signalling increased short-term trading activity and potential for heightened volatility amid technical resistance and market uncertai...</description>
-      <pubDate>Sun, 01 Mar 2026 17:47:25 +0000</pubDate>
-      <guid>https://noah-edge.com/stories/xrps-market-resurgence-driven-by-surge-in-futures-activity.html</guid>
-      <enclosure url="https://noah-edge.com/assets/images/xrps-market-resurgence-driven-by-surge-i-bdcd26df.jpg" type="image/jpeg" />
     </item>
   </channel>
 </rss>
