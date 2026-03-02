@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-03-02T20:55:06Z",
+  "generated_at": "2026-03-02T21:26:46Z",
   "total_signals": 177,
   "signals": [
     {
@@ -472,7 +472,7 @@
       "edge_type": "CONSENSUS",
       "rating": "B",
       "entry_price": 0.645,
-      "current_price": 0.445,
+      "current_price": 0.44,
       "pnl_pct": 7.8,
       "status": "CLOSED",
       "state": "EXITED",
@@ -506,7 +506,7 @@
       "edge_type": "CONSENSUS",
       "rating": "A",
       "entry_price": 0.54,
-      "current_price": 0.941,
+      "current_price": 0.9545,
       "pnl_pct": 2.8,
       "status": "CLOSED",
       "state": "EXITED",
@@ -676,7 +676,7 @@
       "edge_type": "CONSENSUS",
       "rating": "A",
       "entry_price": 0.8,
-      "current_price": 0.735,
+      "current_price": 0.71,
       "pnl_pct": 0.0,
       "status": "CLOSED",
       "state": "EXITED",
@@ -710,7 +710,7 @@
       "edge_type": "CONSENSUS",
       "rating": "A",
       "entry_price": 0.82,
-      "current_price": 0.943,
+      "current_price": 0.9435,
       "pnl_pct": -0.6,
       "status": "CLOSED",
       "state": "EXITED",
@@ -761,7 +761,7 @@
       "edge_type": "CONSENSUS",
       "rating": "A",
       "entry_price": 0.51,
-      "current_price": 0.525,
+      "current_price": 0.52,
       "pnl_pct": -2.9,
       "status": "CLOSED",
       "state": "EXITED",
@@ -863,7 +863,7 @@
       "edge_type": "CONSENSUS",
       "rating": "A",
       "entry_price": 0.19,
-      "current_price": 0.385,
+      "current_price": 0.695,
       "pnl_pct": -7.9,
       "status": "CLOSED",
       "state": "EXITED",
@@ -1099,25 +1099,6 @@
     {
       "signal_id": "NE-HF-0065",
       "source": "hedgefund_tracker",
-      "asset": "Samsung: semiconductor pricing trends",
-      "ticker": "005930.KS",
-      "asset_type": "equity",
-      "direction": "FADE",
-      "conviction": null,
-      "confidence": 52.0,
-      "band": "C",
-      "entry_price": null,
-      "dd_approved_price": 500.0,
-      "current_price": null,
-      "pnl_pct": null,
-      "status": "OPEN",
-      "state": "WATCH",
-      "thesis_status": null,
-      "signal_velocity": "quiet"
-    },
-    {
-      "signal_id": "NE-HF-0066",
-      "source": "hedgefund_tracker",
       "asset": "Osteogenesis Imperfecta: legal and compliance issu",
       "ticker": "XBI",
       "asset_type": "equity",
@@ -1135,7 +1116,7 @@
       "signal_velocity": "stirring"
     },
     {
-      "signal_id": "NE-HF-0067",
+      "signal_id": "NE-HF-0066",
       "source": "hedgefund_tracker",
       "asset": "CanSino Biologics Inc.: regulatory approval",
       "ticker": "6185.HK",
@@ -1154,7 +1135,7 @@
       "signal_velocity": "quiet"
     },
     {
-      "signal_id": "NE-HF-0068",
+      "signal_id": "NE-HF-0067",
       "source": "hedgefund_tracker",
       "asset": "ASX: regulatory compliance",
       "ticker": "ASX.AX",
@@ -1173,7 +1154,7 @@
       "signal_velocity": "propagating"
     },
     {
-      "signal_id": "NE-HF-0069",
+      "signal_id": "NE-HF-0068",
       "source": "hedgefund_tracker",
       "asset": "Fermi, Inc.: litigation",
       "ticker": "FRMI",
@@ -1192,7 +1173,7 @@
       "signal_velocity": "mainstream"
     },
     {
-      "signal_id": "NE-HF-0070",
+      "signal_id": "NE-HF-0069",
       "source": "hedgefund_tracker",
       "asset": "Packaging/foundry capacity positioning",
       "ticker": "TSM",
@@ -1211,7 +1192,7 @@
       "signal_velocity": "mainstream"
     },
     {
-      "signal_id": "NE-HF-0071",
+      "signal_id": "NE-HF-0070",
       "source": "hedgefund_tracker",
       "asset": "Blue Cross: drug affordability",
       "ticker": "IHE",
@@ -1228,6 +1209,25 @@
       "state": "KILLED",
       "thesis_status": "mechanical_override",
       "signal_velocity": "quiet"
+    },
+    {
+      "signal_id": "NE-HF-0071",
+      "source": "hedgefund_tracker",
+      "asset": "data breach/security failure (digital platforms)",
+      "ticker": "XBI",
+      "asset_type": "equity",
+      "direction": "SHORT",
+      "conviction": 2,
+      "confidence": 44.0,
+      "band": "D",
+      "entry_price": null,
+      "dd_approved_price": 125.6,
+      "current_price": 127.37,
+      "pnl_pct": -1.41,
+      "status": "CLOSED",
+      "state": "KILLED",
+      "thesis_status": "invalidated",
+      "signal_velocity": "mainstream"
     },
     {
       "signal_id": "NE-TIP-0072",
