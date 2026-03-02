@@ -5,8 +5,32 @@
     <link>https://noah-edge.com/</link>
     <description>Prediction market intelligence. The Noah Poly Index tracks edges with transparent positions and tracked outcomes.</description>
     <language>en</language>
-    <lastBuildDate>Mon, 02 Mar 2026 08:19:56 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 02 Mar 2026 08:51:43 +0000</lastBuildDate>
     <atom:link href="https://noah-edge.com/rss.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Polymarket&#39;s record US-Iran conflict betting sparks regulatory and ethical concerns</title>
+      <link>https://noah-edge.com/stories/polymarkets-record-us-iran-conflict-betting-sparks.html</link>
+      <description>Polymarket experiences unprecedented trading volumes on a conflict escalation market, reigniting debates over insider trading, market integrity, and the impact of high-frequency betting on geopolit...</description>
+      <pubDate>Mon, 02 Mar 2026 08:51:20 +0000</pubDate>
+      <guid>https://noah-edge.com/stories/polymarkets-record-us-iran-conflict-betting-sparks.html</guid>
+      <enclosure url="https://noah-edge.com/assets/images/polymarkets-record-us-iran-conflict-bett-ce26599a.jpg" type="image/jpeg" />
+    </item>
+    <item>
+      <title>Prediction markets’ explosive surge raises ethical and regulatory alarms over Iran-related wagers</title>
+      <link>https://noah-edge.com/stories/prediction-markets-explosive-surge-raises-ethical-and.html</link>
+      <description>Massive trading volumes on platforms like Polymarket and Kalshi regarding Iran&#39;s military actions are prompting scrutiny over the legality, ethics, and influence of online prediction markets amidst...</description>
+      <pubDate>Mon, 02 Mar 2026 08:51:05 +0000</pubDate>
+      <guid>https://noah-edge.com/stories/prediction-markets-explosive-surge-raises-ethical-and.html</guid>
+      <enclosure url="https://noah-edge.com/assets/images/prediction-markets-explosive-surge-raise-4e92f502.jpg" type="image/jpeg" />
+    </item>
+    <item>
+      <title>Kalshi defends death-linked prediction markets amid ethical and regulatory concerns</title>
+      <link>https://noah-edge.com/stories/kalshi-defends-death-linked-prediction-markets-amid-ethical.html</link>
+      <description>Kalshi’s chief executive has defended the exchange’s handling of a market tied to Iran’s Supreme Leader’s potential removal from power following his death, amidst backlash over settlement rules and...</description>
+      <pubDate>Mon, 02 Mar 2026 08:47:41 +0000</pubDate>
+      <guid>https://noah-edge.com/stories/kalshi-defends-death-linked-prediction-markets-amid-ethical.html</guid>
+      <enclosure url="https://noah-edge.com/assets/images/kalshi-defends-death-linked-prediction-m-e8f3f728.jpg" type="image/jpeg" />
+    </item>
     <item>
       <title>Prediction markets grapple with credibility as Iran escalation prompts regulatory scrutiny</title>
       <link>https://noah-edge.com/stories/prediction-markets-grapple-with-credibility-as-iran.html</link>
@@ -142,30 +166,6 @@
       <pubDate>Sun, 01 Mar 2026 18:48:44 +0000</pubDate>
       <guid>https://noah-edge.com/stories/morgan-stanleys-crypto-custody-move-signals-shift-towards.html</guid>
       <enclosure url="https://noah-edge.com/assets/images/morgan-stanleys-crypto-custody-move-sign-231728ae.jpg" type="image/jpeg" />
-    </item>
-    <item>
-      <title>Block’s AI-driven overhaul sends shockwaves through crypto and corporate markets</title>
-      <link>https://noah-edge.com/stories/blocks-ai-driven-overhaul-sends-shockwaves-through-crypto.html</link>
-      <description>Jack Dorsey’s decision to cut 40% of Block’s workforce and pivot towards AI highlights a broader transformation in corporate and crypto sector strategies, fostering debate on sustainable innovation...</description>
-      <pubDate>Sun, 01 Mar 2026 18:19:10 +0000</pubDate>
-      <guid>https://noah-edge.com/stories/blocks-ai-driven-overhaul-sends-shockwaves-through-crypto.html</guid>
-      <enclosure url="https://noah-edge.com/assets/images/blocks-ai-driven-overhaul-sends-shockwav-78ccbcac.jpg" type="image/jpeg" />
-    </item>
-    <item>
-      <title>China’s crackdown and Iran’s crisis spark turbulence for crypto markets</title>
-      <link>https://noah-edge.com/stories/chinas-crackdown-and-irans-crisis-spark-turbulence-for.html</link>
-      <description>Regulatory and political upheavals in China and Iran are causing increased volatility and uncertainty in cryptocurrency markets, challenging project resilience and adaptation strategies amid escala...</description>
-      <pubDate>Sun, 01 Mar 2026 18:19:10 +0000</pubDate>
-      <guid>https://noah-edge.com/stories/chinas-crackdown-and-irans-crisis-spark-turbulence-for.html</guid>
-      <enclosure url="https://noah-edge.com/assets/images/chinas-crackdown-and-irans-crisis-spark--24163868.jpg" type="image/jpeg" />
-    </item>
-    <item>
-      <title>Crypto derivatives surge as traders capitalise on 24/7 geopolitical risk pricing</title>
-      <link>https://noah-edge.com/stories/crypto-derivatives-surge-as-traders-capitalise-on-247.html</link>
-      <description>As tensions escalate in the Middle East, crypto platforms offering perpetual futures see heightened activity, highlighting the growing importance and risks of 24/7 decentralised trading in global r...</description>
-      <pubDate>Sun, 01 Mar 2026 18:19:09 +0000</pubDate>
-      <guid>https://noah-edge.com/stories/crypto-derivatives-surge-as-traders-capitalise-on-247.html</guid>
-      <enclosure url="https://noah-edge.com/assets/images/crypto-derivatives-surge-as-traders-capi-9edda0fc.jpg" type="image/jpeg" />
     </item>
   </channel>
 </rss>
