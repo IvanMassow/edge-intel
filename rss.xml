@@ -5,8 +5,16 @@
     <link>https://noah-edge.com/</link>
     <description>Prediction market intelligence. The Noah Poly Index tracks edges with transparent positions and tracked outcomes.</description>
     <language>en</language>
-    <lastBuildDate>Mon, 02 Mar 2026 02:16:06 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 02 Mar 2026 02:46:26 +0000</lastBuildDate>
     <atom:link href="https://noah-edge.com/rss.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Jupiter transforms into a multi-product DeFi hub with over $1 trillion in on-chain trading in 2025</title>
+      <link>https://noah-edge.com/stories/jupiter-transforms-into-a-multi-product-defi-hub-with-over.html</link>
+      <description>Jupiter, initially a decentralised exchange on Solana, accelerated its evolution into a comprehensive DeFi platform in 2025, processing over $1 trillion and launching new products, integrations, an...</description>
+      <pubDate>Mon, 02 Mar 2026 02:22:26 +0000</pubDate>
+      <guid>https://noah-edge.com/stories/jupiter-transforms-into-a-multi-product-defi-hub-with-over.html</guid>
+      <enclosure url="https://noah-edge.com/assets/images/jupiter-transforms-into-a-multi-product--7c6f1416.jpg" type="image/jpeg" />
+    </item>
     <item>
       <title>Kalshi revises prediction market rules after handling reports of Iran’s leader death</title>
       <link>https://noah-edge.com/stories/kalshi-revises-prediction-market-rules-after-handling.html</link>
@@ -158,14 +166,6 @@
       <pubDate>Sun, 01 Mar 2026 14:17:18 +0000</pubDate>
       <guid>https://noah-edge.com/stories/hyperliquids-surge-in-decentralised-trading-highlights.html</guid>
       <enclosure url="https://noah-edge.com/assets/images/hyperliquids-surge-in-decentralised-trad-3aebaa30.jpg" type="image/jpeg" />
-    </item>
-    <item>
-      <title>Crypto investors are waking up to the potential of presale timing and utility as Aptos shows gains</title>
-      <link>https://noah-edge.com/stories/crypto-investors-are-waking-up-to-the-potential-of-presale.html</link>
-      <description>Aptos&#39;s historic price surge highlights how early presale participation, technical infrastructure, and clear utility can influence long-term market success, prompting investors to reconsider presal...</description>
-      <pubDate>Sun, 01 Mar 2026 14:17:17 +0000</pubDate>
-      <guid>https://noah-edge.com/stories/crypto-investors-are-waking-up-to-the-potential-of-presale.html</guid>
-      <enclosure url="https://noah-edge.com/assets/images/crypto-investors-are-waking-up-to-the-po-46ef5285.jpg" type="image/jpeg" />
     </item>
   </channel>
 </rss>
