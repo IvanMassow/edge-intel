@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-03-02T17:14:58Z",
+  "generated_at": "2026-03-02T17:46:19Z",
   "total_signals": 176,
   "signals": [
     {
@@ -591,8 +591,8 @@
       "edge_type": "CONSENSUS",
       "rating": "A",
       "entry_price": 0.195,
-      "current_price": 0.18,
-      "pnl_pct": 7.7,
+      "current_price": 0.175,
+      "pnl_pct": 10.3,
       "status": "OPEN",
       "state": "ACTIVE",
       "edge_points": 8.0
@@ -1025,44 +1025,6 @@
     {
       "signal_id": "NE-HF-0061",
       "source": "hedgefund_tracker",
-      "asset": "Jiuyuan Genetic Biopharmaceutical: pharmaceutical ",
-      "ticker": "IHE",
-      "asset_type": "equity",
-      "direction": "LONG",
-      "conviction": 9,
-      "confidence": 61.0,
-      "band": "B",
-      "entry_price": null,
-      "dd_approved_price": null,
-      "current_price": 91.84,
-      "pnl_pct": 1.22,
-      "status": "OPEN",
-      "state": "ACTIVE",
-      "thesis_status": "strengthening",
-      "signal_velocity": "mainstream"
-    },
-    {
-      "signal_id": "NE-HF-0062",
-      "source": "hedgefund_tracker",
-      "asset": "Micron (MU)",
-      "ticker": "MU",
-      "asset_type": "equity",
-      "direction": "LONG",
-      "conviction": 8,
-      "confidence": 64.0,
-      "band": "B",
-      "entry_price": null,
-      "dd_approved_price": 412.37,
-      "current_price": 412.37,
-      "pnl_pct": 0.0,
-      "status": "OPEN",
-      "state": "ACTIVE",
-      "thesis_status": "strengthening",
-      "signal_velocity": "mainstream"
-    },
-    {
-      "signal_id": "NE-HF-0063",
-      "source": "hedgefund_tracker",
       "asset": "Salesforce Inc.: market growth",
       "ticker": "XLK",
       "asset_type": "equity",
@@ -1080,7 +1042,7 @@
       "signal_velocity": "quiet"
     },
     {
-      "signal_id": "NE-HF-0064",
+      "signal_id": "NE-HF-0062",
       "source": "hedgefund_tracker",
       "asset": "Weebit Nano: semiconductors",
       "ticker": "WBT.AX",
@@ -1099,7 +1061,7 @@
       "signal_velocity": "mainstream"
     },
     {
-      "signal_id": "NE-HF-0065",
+      "signal_id": "NE-HF-0063",
       "source": "hedgefund_tracker",
       "asset": "Nvidia: geopolitical developments",
       "ticker": "NVDA",
@@ -1118,7 +1080,7 @@
       "signal_velocity": "quiet"
     },
     {
-      "signal_id": "NE-HF-0066",
+      "signal_id": "NE-HF-0064",
       "source": "hedgefund_tracker",
       "asset": "Samsung: semiconductor pricing trends",
       "ticker": "005930.KS",
@@ -1137,13 +1099,13 @@
       "signal_velocity": "quiet"
     },
     {
-      "signal_id": "NE-HF-0067",
+      "signal_id": "NE-HF-0065",
       "source": "hedgefund_tracker",
       "asset": "industry innovation (materials development)",
       "ticker": "NVDA",
       "asset_type": "equity",
       "direction": "FADE",
-      "conviction": 4,
+      "conviction": 3,
       "confidence": 50.0,
       "band": "C",
       "entry_price": null,
@@ -1156,7 +1118,7 @@
       "signal_velocity": "quiet"
     },
     {
-      "signal_id": "NE-HF-0068",
+      "signal_id": "NE-HF-0066",
       "source": "hedgefund_tracker",
       "asset": "Osteogenesis Imperfecta: legal and compliance issu",
       "ticker": "XBI",
@@ -1175,7 +1137,7 @@
       "signal_velocity": "stirring"
     },
     {
-      "signal_id": "NE-HF-0069",
+      "signal_id": "NE-HF-0067",
       "source": "hedgefund_tracker",
       "asset": "CanSino Biologics Inc.: regulatory approval",
       "ticker": "6185.HK",
@@ -1194,7 +1156,7 @@
       "signal_velocity": "quiet"
     },
     {
-      "signal_id": "NE-HF-0070",
+      "signal_id": "NE-HF-0068",
       "source": "hedgefund_tracker",
       "asset": "ASX: regulatory compliance",
       "ticker": "ASX.AX",
@@ -1211,6 +1173,44 @@
       "state": "WATCH",
       "thesis_status": null,
       "signal_velocity": "propagating"
+    },
+    {
+      "signal_id": "NE-HF-0069",
+      "source": "hedgefund_tracker",
+      "asset": "Fermi, Inc.: litigation",
+      "ticker": "FRMI",
+      "asset_type": "equity",
+      "direction": "SHORT",
+      "conviction": 8,
+      "confidence": 54.0,
+      "band": "C",
+      "entry_price": null,
+      "dd_approved_price": 9.56,
+      "current_price": 9.97,
+      "pnl_pct": -4.29,
+      "status": "CLOSED",
+      "state": "KILLED",
+      "thesis_status": "mechanical_override",
+      "signal_velocity": "mainstream"
+    },
+    {
+      "signal_id": "NE-HF-0070",
+      "source": "hedgefund_tracker",
+      "asset": "Packaging/foundry capacity positioning",
+      "ticker": "TSM",
+      "asset_type": "equity",
+      "direction": "LONG",
+      "conviction": 5,
+      "confidence": 72.0,
+      "band": "A",
+      "entry_price": null,
+      "dd_approved_price": null,
+      "current_price": 374.58,
+      "pnl_pct": 7.38,
+      "status": "CLOSED",
+      "state": "KILLED",
+      "thesis_status": "mechanical_override",
+      "signal_velocity": "mainstream"
     },
     {
       "signal_id": "NE-TIP-0071",
