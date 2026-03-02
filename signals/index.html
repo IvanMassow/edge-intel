@@ -3,8 +3,8 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Signal Accuracy — NOAH Edge Magazine</title>
-<meta name="description" content="NAS signal validation — hit rates and lead times">
+<title>Sentiment Edge Lab — NOAH Edge Magazine</title>
+<meta name="description" content="NAS signal validation — 67% direct accuracy, 5.6h lead time">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400&family=Montserrat:wght@700;800&display=swap" rel="stylesheet">
@@ -442,179 +442,171 @@ img { display: block; max-width: 100%; }
 </header>
 <hr class="header-rule">
 
-<div class="content" style="max-width:720px; margin:0 auto; padding:2rem;">
-  <h1 style="font-weight:900; font-size:1.8rem; margin-bottom:0.5rem;">Signal Accuracy</h1>
-  <p style="font-size:0.85rem; color:var(--muted); margin-bottom:1rem;">NAS (Narrative Asset Signal) validation — tracking whether our pre-market signals correctly predict price direction.</p>
-  <p style="font-size:0.7rem; color:var(--light); margin-bottom:1rem;">Last updated: 2026-03-02T15:30</p>
+<div class="content" style="max-width:760px; margin:0 auto; padding:2rem;">
 
-  <div class="stats-grid-4" style="margin-bottom:2rem;">
-    <div class="stat-card">
-      <div class="stat-number">7</div>
-      <div class="stat-label">Signals</div>
+  <!-- Hero -->
+  <div style="text-align:center; margin-bottom:2.5rem;">
+    <div style="font-size:0.6rem; font-weight:700; letter-spacing:0.15em; text-transform:uppercase; color:var(--teal); margin-bottom:0.4rem;">Sentiment Edge Lab</div>
+    <h1 style="font-weight:900; font-size:2.2rem; line-height:1.1; margin-bottom:0.6rem;">We read the narrative<br>before the market moves</h1>
+    <p style="font-size:0.88rem; color:var(--muted); max-width:520px; margin:0 auto 1.5rem; line-height:1.6;">Our Narrative Asset Signal engine measures sentiment pressure on key assets before markets open. We then track whether the predicted direction materialises — and how far ahead we were.</p>
+  </div>
+
+  <!-- Headline stats -->
+  <div style="display:grid; grid-template-columns:repeat(3, 1fr); gap:1rem; margin-bottom:2.5rem; text-align:center;">
+    <div style="background:#fff; border-radius:8px; padding:1.2rem; box-shadow:0 1px 3px rgba(0,0,0,0.05);">
+      <div style="font-weight:900; font-size:2rem; color:var(--teal);">67%</div>
+      <div style="font-size:0.65rem; font-weight:600; letter-spacing:0.08em; text-transform:uppercase; color:var(--muted); margin-top:0.2rem;">directional accuracy on direct proxy tests</div>
     </div>
-    <div class="stat-card">
-      <div class="stat-number">7</div>
-      <div class="stat-label">Positions</div>
+    <div style="background:#fff; border-radius:8px; padding:1.2rem; box-shadow:0 1px 3px rgba(0,0,0,0.05);">
+      <div style="font-weight:900; font-size:2rem; color:var(--ink);">5.6h</div>
+      <div style="font-size:0.65rem; font-weight:600; letter-spacing:0.08em; text-transform:uppercase; color:var(--muted); margin-top:0.2rem;">Average Lead Time</div>
     </div>
-    <div class="stat-card">
-      <div class="stat-number">0</div>
-      <div class="stat-label">Active</div>
-    </div>
-    <div class="stat-card">
-      <div class="stat-number">6.2h</div>
-      <div class="stat-label">Avg Lead Time</div>
+    <div style="background:#fff; border-radius:8px; padding:1.2rem; box-shadow:0 1px 3px rgba(0,0,0,0.05);">
+      <div style="font-weight:900; font-size:2rem; color:var(--ink);">7</div>
+      <div style="font-size:0.65rem; font-weight:600; letter-spacing:0.08em; text-transform:uppercase; color:var(--muted); margin-top:0.2rem;">Signals Tracked</div>
     </div>
   </div>
 
-  <h2 style="font-weight:800; font-size:1rem; margin-bottom:1rem; padding-top:1rem; border-top:1px solid var(--rule);">Hit Rates by Time Window</h2>
-  <div class="stats-grid-4" style="margin-bottom:2rem;">
-    <div class="stat-card">
-      <div class="stat-number" style="color:var(--amber);">43%</div>
-      <div class="stat-label">6h Hit Rate</div>
-      <div style="font-size:0.6rem; color:var(--light); margin-top:0.2rem;">3 / 7 positions</div>
+  <!-- Signal Edge: Direct proxy cards -->
+  <div style="margin-bottom:2rem;">
+    <div style="display:flex; align-items:center; gap:0.6rem; margin-bottom:0.5rem;">
+      <h2 style="font-weight:800; font-size:1.1rem; margin:0;">Signal Edge</h2>
+      <span style="font-size:0.55rem; font-weight:700; letter-spacing:0.1em; text-transform:uppercase; color:var(--teal); background:var(--teal-mist); padding:0.15rem 0.5rem; border-radius:3px;">Direct Proxies</span>
     </div>
-    <div class="stat-card">
-      <div class="stat-number" style="color:var(--amber);">43%</div>
-      <div class="stat-label">12h Hit Rate</div>
-      <div style="font-size:0.6rem; color:var(--light); margin-top:0.2rem;">3 / 7 positions</div>
+    <p style="font-size:0.78rem; color:var(--muted); margin-bottom:1rem; line-height:1.6;">Each card represents an ETF with a direct, documented causal link to the signal. Confirmed = price moved &gt;0.5% in the predicted direction.</p>
+    <div style="display:grid; grid-template-columns:repeat(auto-fill, minmax(200px, 1fr)); gap:1rem;">
+
+    <div style="background:linear-gradient(135deg, #fff 80%, #e8f8ef 100%); border-left:4px solid #16a34a; border-radius:8px; padding:1.2rem 1.4rem; box-shadow:0 1px 4px rgba(0,0,0,0.06);">
+      <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:0.5rem;">
+        <span style="font-weight:900; font-size:1.3rem; letter-spacing:0.02em;">JETS</span>
+        <span style="background:#16a34a; color:#fff; font-size:0.55rem; font-weight:700; letter-spacing:0.12em; text-transform:uppercase; padding:0.2rem 0.6rem; border-radius:3px;">CONFIRMED</span>
+      </div>
+      <div style="color:#dc2626; font-weight:700; font-size:0.75rem; margin-bottom:0.6rem;">▼ DOWN</div>
+      <div style="color:#16a34a; font-weight:900; font-size:1.8rem; line-height:1.1;">-4.0%</div>
+      <div style="font-size:0.72rem; color:var(--muted); margin-top:0.2rem;">at 72h</div>
+      <div style="font-size:0.7rem; font-weight:700; color:var(--teal); margin-top:0.6rem;">5.6h ahead of market</div>
     </div>
-    <div class="stat-card">
-      <div class="stat-number" style="color:var(--amber);">43%</div>
-      <div class="stat-label">24h Hit Rate</div>
-      <div style="font-size:0.6rem; color:var(--light); margin-top:0.2rem;">3 / 7 positions</div>
+    <div style="background:linear-gradient(135deg, #fff 80%, #e8f8ef 100%); border-left:4px solid #16a34a; border-radius:8px; padding:1.2rem 1.4rem; box-shadow:0 1px 4px rgba(0,0,0,0.06);">
+      <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:0.5rem;">
+        <span style="font-weight:900; font-size:1.3rem; letter-spacing:0.02em;">XLE</span>
+        <span style="background:#16a34a; color:#fff; font-size:0.55rem; font-weight:700; letter-spacing:0.12em; text-transform:uppercase; padding:0.2rem 0.6rem; border-radius:3px;">CONFIRMED</span>
+      </div>
+      <div style="color:#16a34a; font-weight:700; font-size:0.75rem; margin-bottom:0.6rem;">▲ UP</div>
+      <div style="color:#16a34a; font-weight:900; font-size:1.8rem; line-height:1.1;">+1.6%</div>
+      <div style="font-size:0.72rem; color:var(--muted); margin-top:0.2rem;">at 72h</div>
+      <div style="font-size:0.7rem; font-weight:700; color:var(--teal); margin-top:0.6rem;">5.6h ahead of market</div>
     </div>
-    <div class="stat-card">
-      <div class="stat-number" style="color:var(--amber);">50%</div>
-      <div class="stat-label">72h Hit Rate</div>
-      <div style="font-size:0.6rem; color:var(--light); margin-top:0.2rem;">3 / 6 positions</div>
+    <div style="background:#fff; border-left:4px solid #dc2626; border-radius:8px; padding:1.2rem 1.4rem; box-shadow:0 1px 4px rgba(0,0,0,0.06);">
+      <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:0.5rem;">
+        <span style="font-weight:900; font-size:1.3rem; letter-spacing:0.02em;">SMH</span>
+        <span style="background:#dc2626; color:#fff; font-size:0.55rem; font-weight:700; letter-spacing:0.12em; text-transform:uppercase; padding:0.2rem 0.6rem; border-radius:3px;">MISS</span>
+      </div>
+      <div style="color:#16a34a; font-weight:700; font-size:0.75rem; margin-bottom:0.6rem;">▲ UP</div>
+      <div style="color:#dc2626; font-weight:900; font-size:1.8rem; line-height:1.1;">-1.37%</div>
+      <div style="font-size:0.72rem; color:var(--muted); margin-top:0.2rem;">moved against signal</div>
+      
+    </div>
     </div>
   </div>
 
-    <h2 style="font-weight:800; font-size:1rem; margin:2rem 0 1rem; padding-top:1rem; border-top:1px solid var(--rule);">Lead Time Distribution</h2>
-  <p style="font-size:0.78rem; color:var(--muted); margin-bottom:1rem;">How far ahead of price movement did our signals fire?</p>
-    <div style="display:flex; align-items:center; gap:0.5rem; margin-bottom:0.3rem;">
-      <span style="font-size:0.7rem; color:var(--muted); min-width:50px;">0-2h</span>
-      <div style="flex:1; height:8px; background:var(--rule); border-radius:4px; overflow:hidden;">
-        <div style="width:0%; height:100%; background:var(--teal); border-radius:4px;"></div>
-      </div>
-      <span style="font-size:0.7rem; font-weight:700; min-width:20px;">0</span>
+  <!-- Under observation -->
+    <div style="margin-bottom:2rem; padding-top:1.5rem; border-top:1px solid var(--rule);">
+    <div style="display:flex; align-items:center; gap:0.6rem; margin-bottom:0.3rem;">
+      <h2 style="font-weight:800; font-size:0.9rem; color:var(--muted); margin:0;">Under Observation</h2>
+      <span style="font-size:0.55rem; font-weight:700; letter-spacing:0.1em; text-transform:uppercase; color:var(--muted); background:var(--off); padding:0.15rem 0.5rem; border-radius:3px;">Indirect</span>
     </div>
-    <div style="display:flex; align-items:center; gap:0.5rem; margin-bottom:0.3rem;">
-      <span style="font-size:0.7rem; color:var(--muted); min-width:50px;">2-6h</span>
-      <div style="flex:1; height:8px; background:var(--rule); border-radius:4px; overflow:hidden;">
-        <div style="width:100%; height:100%; background:var(--teal); border-radius:4px;"></div>
-      </div>
-      <span style="font-size:0.7rem; font-weight:700; min-width:20px;">3</span>
+    <p style="font-size:0.72rem; color:var(--light); margin-bottom:0.8rem;">Secondary cascade effects — monitored for learning, excluded from headline accuracy.</p>
+    <div style="overflow-x:auto;">
+    <table style="width:100%; border-collapse:collapse; font-size:0.75rem;">
+      <thead>
+        <tr style="border-bottom:1px solid var(--rule); font-size:0.55rem; letter-spacing:0.1em; text-transform:uppercase; color:var(--light);">
+          <th style="text-align:left; padding:0.4rem 0;">Ticker</th>
+          <th style="text-align:left; padding:0.4rem 0;">Category</th>
+          <th style="text-align:left; padding:0.4rem 0;">Direction</th>
+          <th style="text-align:left; padding:0.4rem 0;">Return</th>
+          <th style="text-align:left; padding:0.4rem 0;">Status</th>
+        </tr>
+      </thead>
+      <tbody>
+    <tr>
+      <td style="font-weight:700;">EEM</td>
+      <td>Em Fx Vulnerability</td>
+      <td style="color:#dc2626; font-weight:600;">▼ DOWN</td>
+      <td>-0.21%</td>
+      <td style="color:var(--amber); font-weight:700; font-size:0.68rem; letter-spacing:0.08em;">TRACKING</td>
+    </tr>    <tr>
+      <td style="font-weight:700;">TLT</td>
+      <td>Rates Pressure</td>
+      <td style="color:#16a34a; font-weight:600;">▲ UP</td>
+      <td>+0.61%</td>
+      <td style="color:#16a34a; font-weight:700; font-size:0.68rem; letter-spacing:0.08em;">CONFIRMED</td>
+    </tr>    <tr>
+      <td style="font-weight:700;">TIP</td>
+      <td>Inflation Expectations</td>
+      <td style="color:#16a34a; font-weight:600;">▲ UP</td>
+      <td>+0.15%</td>
+      <td style="color:var(--amber); font-weight:700; font-size:0.68rem; letter-spacing:0.08em;">TRACKING</td>
+    </tr>    <tr>
+      <td style="font-weight:700;">XLB</td>
+      <td>Chemicals</td>
+      <td style="color:#dc2626; font-weight:600;">▼ DOWN</td>
+      <td>+0.77%</td>
+      <td style="color:#dc2626; font-weight:700; font-size:0.68rem; letter-spacing:0.08em;">MISS</td>
+    </tr>
+      </tbody>
+    </table>
     </div>
-    <div style="display:flex; align-items:center; gap:0.5rem; margin-bottom:0.3rem;">
-      <span style="font-size:0.7rem; color:var(--muted); min-width:50px;">6-12h</span>
-      <div style="flex:1; height:8px; background:var(--rule); border-radius:4px; overflow:hidden;">
-        <div style="width:33%; height:100%; background:var(--teal); border-radius:4px;"></div>
-      </div>
-      <span style="font-size:0.7rem; font-weight:700; min-width:20px;">1</span>
-    </div>
-    <div style="display:flex; align-items:center; gap:0.5rem; margin-bottom:0.3rem;">
-      <span style="font-size:0.7rem; color:var(--muted); min-width:50px;">12-24h</span>
-      <div style="flex:1; height:8px; background:var(--rule); border-radius:4px; overflow:hidden;">
-        <div style="width:0%; height:100%; background:var(--teal); border-radius:4px;"></div>
-      </div>
-      <span style="font-size:0.7rem; font-weight:700; min-width:20px;">0</span>
-    </div>
-    <div style="display:flex; align-items:center; gap:0.5rem; margin-bottom:0.3rem;">
-      <span style="font-size:0.7rem; color:var(--muted); min-width:50px;">24h+</span>
-      <div style="flex:1; height:8px; background:var(--rule); border-radius:4px; overflow:hidden;">
-        <div style="width:0%; height:100%; background:var(--teal); border-radius:4px;"></div>
-      </div>
-      <span style="font-size:0.7rem; font-weight:700; min-width:20px;">0</span>
-    </div>
-
-  <h2 style="font-weight:800; font-size:1rem; margin:2rem 0 1rem; padding-top:1rem; border-top:1px solid var(--rule);">Category Leaderboard</h2>
-  <div style="overflow-x:auto;">
-  <table style="width:100%; border-collapse:collapse; font-size:0.78rem;">
-    <thead>
-      <tr style="border-bottom:2px solid var(--ink); font-size:0.6rem; letter-spacing:0.1em; text-transform:uppercase; color:var(--muted);">
-        <th style="text-align:left; padding:0.5rem 0;">Category</th>
-        <th style="text-align:left; padding:0.5rem 0;">Tickers</th>
-        <th style="text-align:left; padding:0.5rem 0;">Pos</th>
-        <th style="text-align:left; padding:0.5rem 0;">24h Hit</th>
-        <th style="text-align:left; padding:0.5rem 0;">Avg Win</th>
-        <th style="text-align:left; padding:0.5rem 0;">Avg Loss</th>
-        <th style="text-align:left; padding:0.5rem 0;">Lead</th>
-      </tr>
-    </thead>
-    <tbody>
-    <tr>
-      <td style="font-weight:600;">Rates Pressure</td>
-      <td style="color:var(--teal); font-weight:700;">TLT</td>
-      <td>1</td>
-      <td>100%</td>
-      <td style="color:#16a34a;">+0.6%</td>
-      <td style="color:#dc2626;">—</td>
-      <td>5.6h</td>
-    </tr>
-    <tr>
-      <td style="font-weight:600;">Airlines</td>
-      <td style="color:var(--teal); font-weight:700;">JETS</td>
-      <td>1</td>
-      <td>100%</td>
-      <td style="color:#16a34a;">+4.1%</td>
-      <td style="color:#dc2626;">—</td>
-      <td>5.6h</td>
-    </tr>
-    <tr>
-      <td style="font-weight:600;">Energy Equities</td>
-      <td style="color:var(--teal); font-weight:700;">XLE</td>
-      <td>1</td>
-      <td>100%</td>
-      <td style="color:#16a34a;">+1.4%</td>
-      <td style="color:#dc2626;">—</td>
-      <td>5.6h</td>
-    </tr>
-    <tr>
-      <td style="font-weight:600;">Primary Asset</td>
-      <td style="color:var(--teal); font-weight:700;">SMH</td>
-      <td>1</td>
-      <td>0%</td>
-      <td style="color:#16a34a;">—</td>
-      <td style="color:#dc2626;">1.5%</td>
-      <td>—</td>
-    </tr>
-    <tr>
-      <td style="font-weight:600;">Em Fx Vulnerability</td>
-      <td style="color:var(--teal); font-weight:700;">EEM</td>
-      <td>1</td>
-      <td>0%</td>
-      <td style="color:#16a34a;">—</td>
-      <td style="color:#dc2626;">0.2%</td>
-      <td>8.1h</td>
-    </tr>
-    <tr>
-      <td style="font-weight:600;">Inflation Expectations</td>
-      <td style="color:var(--teal); font-weight:700;">TIP</td>
-      <td>1</td>
-      <td>0%</td>
-      <td style="color:#16a34a;">—</td>
-      <td style="color:#dc2626;">0.1%</td>
-      <td>—</td>
-    </tr>
-    <tr>
-      <td style="font-weight:600;">Chemicals</td>
-      <td style="color:var(--teal); font-weight:700;">XLB</td>
-      <td>1</td>
-      <td>0%</td>
-      <td style="color:#16a34a;">—</td>
-      <td style="color:#dc2626;">0.6%</td>
-      <td>—</td>
-    </tr>
-    </tbody>
-  </table>
   </div>
 
-  <div style="margin-top:2rem; padding:1.2rem; background:var(--off); font-size:0.78rem; color:var(--muted); line-height:1.6;">
-    <strong>Methodology:</strong> Each Narrative Asset Signal identifies a predicted price direction based on narrative pressure analysis. We track whether that direction materialises within 6, 12, 24, and 72 hours using ETF proxies (e.g., XLE for energy, SMH for semiconductors). Lead time measures how far ahead of the move our signal fired.
+  <!-- Lead Time Distribution -->
+    <div style="padding-top:1.5rem; border-top:1px solid var(--rule); margin-bottom:2rem;">
+    <h2 style="font-weight:800; font-size:0.9rem; margin-bottom:0.3rem;">Lead Time Distribution</h2>
+    <p style="font-size:0.72rem; color:var(--muted); margin-bottom:0.8rem;">How far ahead of the price move did our signals fire?</p>
+      <div style="display:flex; align-items:center; gap:0.5rem; margin-bottom:0.3rem;">
+        <span style="font-size:0.7rem; color:var(--muted); min-width:50px;">0-2h</span>
+        <div style="flex:1; height:8px; background:var(--rule); border-radius:4px; overflow:hidden;">
+          <div style="width:0%; height:100%; background:var(--teal); border-radius:4px;"></div>
+        </div>
+        <span style="font-size:0.7rem; font-weight:700; min-width:20px;">0</span>
+      </div>
+      <div style="display:flex; align-items:center; gap:0.5rem; margin-bottom:0.3rem;">
+        <span style="font-size:0.7rem; color:var(--muted); min-width:50px;">2-6h</span>
+        <div style="flex:1; height:8px; background:var(--rule); border-radius:4px; overflow:hidden;">
+          <div style="width:100%; height:100%; background:var(--teal); border-radius:4px;"></div>
+        </div>
+        <span style="font-size:0.7rem; font-weight:700; min-width:20px;">3</span>
+      </div>
+      <div style="display:flex; align-items:center; gap:0.5rem; margin-bottom:0.3rem;">
+        <span style="font-size:0.7rem; color:var(--muted); min-width:50px;">6-12h</span>
+        <div style="flex:1; height:8px; background:var(--rule); border-radius:4px; overflow:hidden;">
+          <div style="width:33%; height:100%; background:var(--teal); border-radius:4px;"></div>
+        </div>
+        <span style="font-size:0.7rem; font-weight:700; min-width:20px;">1</span>
+      </div>
+      <div style="display:flex; align-items:center; gap:0.5rem; margin-bottom:0.3rem;">
+        <span style="font-size:0.7rem; color:var(--muted); min-width:50px;">12-24h</span>
+        <div style="flex:1; height:8px; background:var(--rule); border-radius:4px; overflow:hidden;">
+          <div style="width:0%; height:100%; background:var(--teal); border-radius:4px;"></div>
+        </div>
+        <span style="font-size:0.7rem; font-weight:700; min-width:20px;">0</span>
+      </div>
+      <div style="display:flex; align-items:center; gap:0.5rem; margin-bottom:0.3rem;">
+        <span style="font-size:0.7rem; color:var(--muted); min-width:50px;">24h+</span>
+        <div style="flex:1; height:8px; background:var(--rule); border-radius:4px; overflow:hidden;">
+          <div style="width:0%; height:100%; background:var(--teal); border-radius:4px;"></div>
+        </div>
+        <span style="font-size:0.7rem; font-weight:700; min-width:20px;">0</span>
+      </div>
   </div>
 
-  <a href="/" class="section-more">&larr; Home</a>
+  <!-- Methodology -->
+  <div style="margin-top:2rem; padding:1.2rem; background:var(--off); border-radius:6px; font-size:0.75rem; color:var(--muted); line-height:1.7;">
+    <strong style="color:var(--ink);">How it works:</strong> The NAS engine reads published narrative signals (media pressure, policy shifts, supply dynamics) and measures their directional pressure on a 0–100 scale. We publish signals daily ~1pm UK, before US markets open. We then paper-trade ETF proxies and track whether the predicted move materialises. <em>Direct proxies</em> have a clear causal link (oil signal → energy ETF); <em>indirect</em> proxies test secondary cascade effects and are excluded from headline accuracy.<br><br>
+    <strong style="color:var(--ink);">Not financial advice.</strong> Paper positions only. No real trades are executed.
+  </div>
+
+  <div style="margin-top:1.5rem; font-size:0.65rem; color:var(--light);">Last updated: 2026-03-02T15:42</div>
+  <a href="/" class="section-more" style="margin-top:1rem;">&larr; Home</a>
 </div>
 
 <footer class="site-footer">
