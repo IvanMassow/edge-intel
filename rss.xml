@@ -5,8 +5,16 @@
     <link>https://noah-edge.com/</link>
     <description>Prediction market intelligence. The Noah Poly Index tracks edges with transparent positions and tracked outcomes.</description>
     <language>en</language>
-    <lastBuildDate>Mon, 02 Mar 2026 02:46:26 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 02 Mar 2026 03:16:48 +0000</lastBuildDate>
     <atom:link href="https://noah-edge.com/rss.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>FG Nexus’s swift Ethereum sell-off exposes the risks of short-term treasury strategies</title>
+      <link>https://noah-edge.com/stories/fg-nexuss-swift-ethereum-sell-off-exposes-the-risks-of.html</link>
+      <description>FG Nexus’s recent disposal of 7,550 ETH highlights the vulnerabilities of concentrated treasury approaches amid volatile market conditions, raising questions about future supply impacts and investo...</description>
+      <pubDate>Mon, 02 Mar 2026 02:53:05 +0000</pubDate>
+      <guid>https://noah-edge.com/stories/fg-nexuss-swift-ethereum-sell-off-exposes-the-risks-of.html</guid>
+      <enclosure url="https://noah-edge.com/assets/images/fg-nexuss-swift-ethereum-sell-off-expose-f06acf4a.jpg" type="image/jpeg" />
+    </item>
     <item>
       <title>Jupiter transforms into a multi-product DeFi hub with over $1 trillion in on-chain trading in 2025</title>
       <link>https://noah-edge.com/stories/jupiter-transforms-into-a-multi-product-defi-hub-with-over.html</link>
@@ -158,14 +166,6 @@
       <pubDate>Sun, 01 Mar 2026 15:24:41 +0000</pubDate>
       <guid>https://noah-edge.com/stories/occ-draft-sparks-debate-over-stability-of-stablecoin-yield.html</guid>
       <enclosure url="https://noah-edge.com/assets/images/occ-draft-sparks-debate-over-stability-o-fb5134de.jpg" type="image/jpeg" />
-    </item>
-    <item>
-      <title>Hyperliquid’s surge in decentralised trading highlights crypto’s new 24/7 risk pricing amid geopolitical tensions</title>
-      <link>https://noah-edge.com/stories/hyperliquids-surge-in-decentralised-trading-highlights.html</link>
-      <description>Hyperliquid experiences a significant weekend uptick in activity as traders seek continuous exposure to commodities and equities amid Middle East hostilities, with protocol upgrades and native toke...</description>
-      <pubDate>Sun, 01 Mar 2026 14:17:18 +0000</pubDate>
-      <guid>https://noah-edge.com/stories/hyperliquids-surge-in-decentralised-trading-highlights.html</guid>
-      <enclosure url="https://noah-edge.com/assets/images/hyperliquids-surge-in-decentralised-trad-3aebaa30.jpg" type="image/jpeg" />
     </item>
   </channel>
 </rss>
