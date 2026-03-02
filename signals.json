@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-03-02T16:12:23Z",
+  "generated_at": "2026-03-02T16:34:19Z",
   "total_signals": 176,
   "signals": [
     {
@@ -583,23 +583,6 @@
     {
       "signal_id": "NE-POLY-0035",
       "source": "polyhunter",
-      "asset": "Will there be no change in Fed interest rates after the Apri",
-      "ticker": null,
-      "asset_type": "prediction_market",
-      "direction": "higher",
-      "conviction": null,
-      "edge_type": "CONSENSUS",
-      "rating": "A",
-      "entry_price": 0.85,
-      "current_price": 0.85,
-      "pnl_pct": 0.0,
-      "status": "OPEN",
-      "state": "ACTIVE",
-      "edge_points": 4.0
-    },
-    {
-      "signal_id": "NE-POLY-0036",
-      "source": "polyhunter",
       "asset": "Fed rate cut by April 2026 meeting? \u25cf\u25cf\u25cf\u25cf\u25cb [A]",
       "ticker": null,
       "asset_type": "prediction_market",
@@ -608,11 +591,28 @@
       "edge_type": "CONSENSUS",
       "rating": "A",
       "entry_price": 0.195,
-      "current_price": 0.195,
-      "pnl_pct": 0.0,
+      "current_price": 0.18,
+      "pnl_pct": 7.7,
       "status": "OPEN",
       "state": "ACTIVE",
       "edge_points": 8.0
+    },
+    {
+      "signal_id": "NE-POLY-0036",
+      "source": "polyhunter",
+      "asset": "Will there be no change in Fed interest rates after the Apri",
+      "ticker": null,
+      "asset_type": "prediction_market",
+      "direction": "higher",
+      "conviction": null,
+      "edge_type": "CONSENSUS",
+      "rating": "A",
+      "entry_price": 0.85,
+      "current_price": 0.845,
+      "pnl_pct": -0.6,
+      "status": "OPEN",
+      "state": "ACTIVE",
+      "edge_points": 4.0
     },
     {
       "signal_id": "NE-POLY-0037",
