@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-03-02T05:48:19Z",
-  "total_signals": 178,
+  "generated_at": "2026-03-02T06:18:38Z",
+  "total_signals": 174,
   "signals": [
     {
       "signal_id": "NE-POLY-0001",
@@ -464,23 +464,6 @@
     {
       "signal_id": "NE-POLY-0028",
       "source": "polyhunter",
-      "asset": "Will there be no change in Fed interest rates after the Apri",
-      "ticker": null,
-      "asset_type": "prediction_market",
-      "direction": "lower",
-      "conviction": null,
-      "edge_type": "CONSENSUS",
-      "rating": "A",
-      "entry_price": 0.88,
-      "current_price": 0.83,
-      "pnl_pct": 2.8,
-      "status": "CLOSED",
-      "state": "EXITED",
-      "edge_points": 5.0
-    },
-    {
-      "signal_id": "NE-POLY-0029",
-      "source": "polyhunter",
       "asset": "Trump invokes War Powers against Iran by March 31, 2026? \u25cf\u25cf\u25cf",
       "ticker": null,
       "asset_type": "prediction_market",
@@ -496,7 +479,7 @@
       "edge_points": null
     },
     {
-      "signal_id": "NE-POLY-0030",
+      "signal_id": "NE-POLY-0029",
       "source": "polyhunter",
       "asset": "Will 3 Fed rate cuts happen in 2026? \u00e2\u0097\u008f\u00e2\u0097\u008f\u00e2\u0097\u008f\u00e2\u0097\u008f\u00e2\u0097\u008b [B] DIS",
       "ticker": null,
@@ -513,7 +496,7 @@
       "edge_points": 4.0
     },
     {
-      "signal_id": "NE-POLY-0031",
+      "signal_id": "NE-POLY-0030",
       "source": "polyhunter",
       "asset": "U.S. agrees to a new trade deal with \"Taiwan\" before 2027? \u25cf",
       "ticker": null,
@@ -530,7 +513,7 @@
       "edge_points": 5.0
     },
     {
-      "signal_id": "NE-POLY-0032",
+      "signal_id": "NE-POLY-0031",
       "source": "polyhunter",
       "asset": "Will there be no change in Fed interest rates after the June",
       "ticker": null,
@@ -547,7 +530,7 @@
       "edge_points": 6.0
     },
     {
-      "signal_id": "NE-POLY-0033",
+      "signal_id": "NE-POLY-0032",
       "source": "polyhunter",
       "asset": "Will the Fed decrease interest rates by 50+ bps after the Ju",
       "ticker": null,
@@ -564,7 +547,7 @@
       "edge_points": 4.0
     },
     {
-      "signal_id": "NE-POLY-0034",
+      "signal_id": "NE-POLY-0033",
       "source": "polyhunter",
       "asset": "Will Trump nominate Kevin Warsh as the next Fed chair? \u25cf\u25cf\u25cf\u25cf\u25cb",
       "ticker": null,
@@ -581,7 +564,7 @@
       "edge_points": 7.0
     },
     {
-      "signal_id": "NE-POLY-0035",
+      "signal_id": "NE-POLY-0034",
       "source": "polyhunter",
       "asset": "Hezbollah strike on Israel by March 31? \u25cf\u25cf\u25cf\u25cf\u25ef [B]",
       "ticker": null,
@@ -598,24 +581,7 @@
       "edge_points": 6.0
     },
     {
-      "signal_id": "NE-POLY-0036",
-      "source": "polyhunter",
-      "asset": "Will the Fed decrease interest rates by 25 bps after the Apr",
-      "ticker": null,
-      "asset_type": "prediction_market",
-      "direction": "higher",
-      "conviction": null,
-      "edge_type": "CONSENSUS",
-      "rating": "A",
-      "entry_price": 0.095,
-      "current_price": 0.14,
-      "pnl_pct": 47.4,
-      "status": "OPEN",
-      "state": "ACTIVE",
-      "edge_points": null
-    },
-    {
-      "signal_id": "NE-POLY-0037",
+      "signal_id": "NE-POLY-0035",
       "source": "polyhunter",
       "asset": "Will there be no change in Fed interest rates after the June",
       "ticker": null,
@@ -632,7 +598,7 @@
       "edge_points": null
     },
     {
-      "signal_id": "NE-POLY-0038",
+      "signal_id": "NE-POLY-0036",
       "source": "polyhunter",
       "asset": "Will US GDP growth in Q1 2026 be greater than 3.5%? \u25cf\u25cf\u25cf\u25cf\u25d0 [B",
       "ticker": null,
@@ -649,7 +615,7 @@
       "edge_points": 13.0
     },
     {
-      "signal_id": "NE-POLY-0039",
+      "signal_id": "NE-POLY-0037",
       "source": "polyhunter",
       "asset": "Will inflation reach more than 3% in 2026? \u00e2\u0097\u008f\u00e2\u0097\u008f\u00e2\u0097\u008f\u00e2\u0097\u008f\u00e2\u0097\u008b [",
       "ticker": null,
@@ -666,7 +632,7 @@
       "edge_points": 7.0
     },
     {
-      "signal_id": "NE-POLY-0040",
+      "signal_id": "NE-POLY-0038",
       "source": "polyhunter",
       "asset": "Kevin Warsh confirmed as Fed Chair by May 15? \u00e2\u0097\u008f\u00e2\u0097\u008f\u00e2\u0097\u008f\u00e2\u0097\u008f\u00e2\u0097",
       "ticker": null,
@@ -683,7 +649,7 @@
       "edge_points": 11.0
     },
     {
-      "signal_id": "NE-POLY-0041",
+      "signal_id": "NE-POLY-0039",
       "source": "polyhunter",
       "asset": "Will Trump nominate Kevin Warsh as the next Fed chair? \u00e2\u0097\u008f\u00e2\u0097",
       "ticker": null,
@@ -700,7 +666,7 @@
       "edge_points": 13.0
     },
     {
-      "signal_id": "NE-POLY-0042",
+      "signal_id": "NE-POLY-0040",
       "source": "polyhunter",
       "asset": "Will the DHS shutdown last 21 days or more? \u25cf\u25cf\u25cf\u25cf\u25d0 [A]",
       "ticker": null,
@@ -717,7 +683,7 @@
       "edge_points": 8.0
     },
     {
-      "signal_id": "NE-POLY-0043",
+      "signal_id": "NE-POLY-0041",
       "source": "polyhunter",
       "asset": "Will Trump nominate Kevin Warsh as the next Fed chair? \u00e2\u0097\u008f\u00e2\u0097",
       "ticker": null,
@@ -734,7 +700,7 @@
       "edge_points": 10.0
     },
     {
-      "signal_id": "NE-POLY-0044",
+      "signal_id": "NE-POLY-0042",
       "source": "polyhunter",
       "asset": "U.S. agrees to a new trade deal with \"India\" before 2027? \u25cf\u25cf",
       "ticker": null,
@@ -751,7 +717,7 @@
       "edge_points": 8.0
     },
     {
-      "signal_id": "NE-POLY-0045",
+      "signal_id": "NE-POLY-0043",
       "source": "polyhunter",
       "asset": "Will there be no change in Fed interest rates after the Marc",
       "ticker": null,
@@ -768,7 +734,7 @@
       "edge_points": 5.0
     },
     {
-      "signal_id": "NE-POLY-0046",
+      "signal_id": "NE-POLY-0044",
       "source": "polyhunter",
       "asset": "U.S. x Iran Military Engagement by March 31, 2026? \u25cf\u25cf\u25cf\u25cf\u25d0 [B]",
       "ticker": null,
@@ -785,24 +751,7 @@
       "edge_points": 13.0
     },
     {
-      "signal_id": "NE-POLY-0047",
-      "source": "polyhunter",
-      "asset": "Will 2 Fed rate cuts happen in 2026? \u25cf\u25cf\u25cf\u25cf\u25cf [B]",
-      "ticker": null,
-      "asset_type": "prediction_market",
-      "direction": "lower",
-      "conviction": null,
-      "edge_type": "CONSENSUS",
-      "rating": "B",
-      "entry_price": 0.26,
-      "current_price": 0.26,
-      "pnl_pct": -3.8,
-      "status": "CLOSED",
-      "state": "EXITED",
-      "edge_points": 7.0
-    },
-    {
-      "signal_id": "NE-POLY-0048",
+      "signal_id": "NE-POLY-0045",
       "source": "polyhunter",
       "asset": "Trump sued over tariff powers again by March 31? \u25cf\u25cf\u25cf\u25cf\u25ef [A]",
       "ticker": null,
@@ -819,7 +768,7 @@
       "edge_points": 8.0
     },
     {
-      "signal_id": "NE-POLY-0049",
+      "signal_id": "NE-POLY-0046",
       "source": "polyhunter",
       "asset": "Israel strikes Iran by February 28, 2026? \u25cf\u25cf\u25cf\u25cf\u25cf [A]",
       "ticker": null,
@@ -836,7 +785,7 @@
       "edge_points": 5.0
     },
     {
-      "signal_id": "NE-POLY-0050",
+      "signal_id": "NE-POLY-0047",
       "source": "polyhunter",
       "asset": "Will the US next strike Iran during the week of February 22-",
       "ticker": null,
@@ -853,7 +802,7 @@
       "edge_points": 6.0
     },
     {
-      "signal_id": "NE-POLY-0051",
+      "signal_id": "NE-POLY-0048",
       "source": "polyhunter",
       "asset": "Will Iran close the Strait of Hormuz by March 31? \u25cf\u25cf\u25cf\u25cf\u25cf [A]",
       "ticker": null,
@@ -870,7 +819,7 @@
       "edge_points": null
     },
     {
-      "signal_id": "NE-POLY-0052",
+      "signal_id": "NE-POLY-0049",
       "source": "polyhunter",
       "asset": "Will the Fed decrease interest rates by 25 bps after the Jun",
       "ticker": null,
@@ -887,7 +836,7 @@
       "edge_points": 8.0
     },
     {
-      "signal_id": "NE-POLY-0053",
+      "signal_id": "NE-POLY-0050",
       "source": "polyhunter",
       "asset": "Will inflation reach more than 4% in 2026? \u00e2\u0097\u008f\u00e2\u0097\u008f\u00e2\u0097\u008f\u00e2\u0097\u0090\u00e2\u0097\u008b [",
       "ticker": null,
@@ -904,7 +853,7 @@
       "edge_points": 5.0
     },
     {
-      "signal_id": "NE-POLY-0054",
+      "signal_id": "NE-POLY-0051",
       "source": "polyhunter",
       "asset": "US strikes Iran by February 27, 2026? \u25cf\u25cf\u25cf\u25cf\u25cf [A]",
       "ticker": null,
@@ -921,7 +870,7 @@
       "edge_points": null
     },
     {
-      "signal_id": "NE-POLY-0055",
+      "signal_id": "NE-POLY-0052",
       "source": "polyhunter",
       "asset": "Will no Fed rate cuts happen in 2026? \u25cf\u25cf\u25cf\u25d0\u25cb [B]",
       "ticker": null,
@@ -938,7 +887,7 @@
       "edge_points": 4.0
     },
     {
-      "signal_id": "NE-POLY-0056",
+      "signal_id": "NE-POLY-0053",
       "source": "polyhunter",
       "asset": "Iran strike on US military by February 28? \u25cf\u25cf\u25cf\u25cf\u25cf [B]",
       "ticker": null,
@@ -955,24 +904,7 @@
       "edge_points": null
     },
     {
-      "signal_id": "NE-POLY-0057",
-      "source": "polyhunter",
-      "asset": "Fed rate cut by April 2026 meeting? \u25cf\u25cf\u25cf\u25cf\u25cf [A]",
-      "ticker": null,
-      "asset_type": "prediction_market",
-      "direction": "higher",
-      "conviction": null,
-      "edge_type": "CONSENSUS",
-      "rating": "A",
-      "entry_price": 0.12,
-      "current_price": 0.195,
-      "pnl_pct": -25.0,
-      "status": "CLOSED",
-      "state": "EXITED",
-      "edge_points": 11.0
-    },
-    {
-      "signal_id": "NE-POLY-0058",
+      "signal_id": "NE-POLY-0054",
       "source": "polyhunter",
       "asset": "Hezbollah strike on Israel by February 28? \u25cf\u25cf\u25cf\u25cf\u25d0 [A]",
       "ticker": null,
@@ -989,7 +921,7 @@
       "edge_points": 8.0
     },
     {
-      "signal_id": "NE-POLY-0059",
+      "signal_id": "NE-POLY-0055",
       "source": "polyhunter",
       "asset": "US-Iran nuclear deal by March 31? \u25cf\u25cf\u25cf\u25cf\u25cb [A]",
       "ticker": null,
@@ -1006,7 +938,7 @@
       "edge_points": 6.0
     },
     {
-      "signal_id": "NE-POLY-0060",
+      "signal_id": "NE-POLY-0056",
       "source": "polyhunter",
       "asset": "Iran agrees to end enrichment of uranium by March 31? \u25cf\u25cf\u25cf\u25cf\u25cb ",
       "ticker": null,
@@ -1023,7 +955,7 @@
       "edge_points": 4.0
     },
     {
-      "signal_id": "NE-POLY-0061",
+      "signal_id": "NE-POLY-0057",
       "source": "polyhunter",
       "asset": "US strikes Iran by March 15, 2026? \u25cf\u25cf\u25cf\u25cf\u25cf [A]",
       "ticker": null,
@@ -1040,7 +972,7 @@
       "edge_points": 8.0
     },
     {
-      "signal_id": "NE-POLY-0062",
+      "signal_id": "NE-POLY-0058",
       "source": "polyhunter",
       "asset": "U.S. x Iran Military Engagement by March 31, 2026? \u25cf\u25cf\u25cf\u25cf\u25d0 [A]",
       "ticker": null,
@@ -1057,7 +989,7 @@
       "edge_points": 10.0
     },
     {
-      "signal_id": "NE-HF-0063",
+      "signal_id": "NE-HF-0059",
       "source": "hedgefund_tracker",
       "asset": "Fermi, Inc.: litigation",
       "ticker": "FRMI",
@@ -1076,7 +1008,7 @@
       "signal_velocity": "propagating"
     },
     {
-      "signal_id": "NE-HF-0064",
+      "signal_id": "NE-HF-0060",
       "source": "hedgefund_tracker",
       "asset": "Packaging/foundry capacity positioning",
       "ticker": "TSM",
@@ -1095,7 +1027,7 @@
       "signal_velocity": "propagating"
     },
     {
-      "signal_id": "NE-HF-0065",
+      "signal_id": "NE-HF-0061",
       "source": "hedgefund_tracker",
       "asset": "Blue Cross: drug affordability",
       "ticker": "IHE",
@@ -1114,7 +1046,7 @@
       "signal_velocity": "quiet"
     },
     {
-      "signal_id": "NE-HF-0066",
+      "signal_id": "NE-HF-0062",
       "source": "hedgefund_tracker",
       "asset": "Jeffrey Epstein estate: lawsuits",
       "ticker": "SPY",
@@ -1133,7 +1065,7 @@
       "signal_velocity": "propagating"
     },
     {
-      "signal_id": "NE-HF-0067",
+      "signal_id": "NE-HF-0063",
       "source": "hedgefund_tracker",
       "asset": "GoodRx: digital healthcare",
       "ticker": "GDRX",
@@ -1152,7 +1084,7 @@
       "signal_velocity": "quiet"
     },
     {
-      "signal_id": "NE-HF-0068",
+      "signal_id": "NE-HF-0064",
       "source": "hedgefund_tracker",
       "asset": "Jiuyuan Genetic Biopharmaceutical: pharmaceutical ",
       "ticker": "IHE",
@@ -1171,7 +1103,7 @@
       "signal_velocity": "quiet"
     },
     {
-      "signal_id": "NE-HF-0069",
+      "signal_id": "NE-HF-0065",
       "source": "hedgefund_tracker",
       "asset": "U.S. Commodity Futures Trading Commission: regulat",
       "ticker": "XLF",
@@ -1190,7 +1122,7 @@
       "signal_velocity": "quiet"
     },
     {
-      "signal_id": "NE-HF-0070",
+      "signal_id": "NE-HF-0066",
       "source": "hedgefund_tracker",
       "asset": "Anthem Blue Cross: regulatory violations",
       "ticker": "ELV",
@@ -1209,7 +1141,7 @@
       "signal_velocity": "quiet"
     },
     {
-      "signal_id": "NE-HF-0071",
+      "signal_id": "NE-HF-0067",
       "source": "hedgefund_tracker",
       "asset": "Office of the National Coordinator for Health IT: ",
       "ticker": "IHE",
@@ -1228,7 +1160,7 @@
       "signal_velocity": "quiet"
     },
     {
-      "signal_id": "NE-HF-0072",
+      "signal_id": "NE-HF-0068",
       "source": "hedgefund_tracker",
       "asset": "Lupin Ltd.: regulatory compliance",
       "ticker": "LUPIN.BSE",
@@ -1247,7 +1179,7 @@
       "signal_velocity": "quiet"
     },
     {
-      "signal_id": "NE-TIP-0073",
+      "signal_id": "NE-TIP-0069",
       "source": "information_asymmetry",
       "asset": "Micron: the 'HBM sold out through 2026' story is still the cleanest directional bet - but the evidence base is noisy",
       "ticker": "MU",
@@ -1263,7 +1195,7 @@
       "state": "TRADE"
     },
     {
-      "signal_id": "NE-TIP-0074",
+      "signal_id": "NE-TIP-0070",
       "source": "information_asymmetry",
       "asset": "GaN is creeping from R&D to manufacturable supply - ROHM licensing TSMC is the tell, even with a 2027 clock",
       "ticker": "SMH",
@@ -1279,7 +1211,7 @@
       "state": "TRADE"
     },
     {
-      "signal_id": "NE-TIP-0075",
+      "signal_id": "NE-TIP-0071",
       "source": "information_asymmetry",
       "asset": "Software-defined vehicles are a silicon content story - but this particular artefact is shaky, so treat the LONG as thesis-first",
       "ticker": "SMH",
@@ -1295,7 +1227,7 @@
       "state": "TRADE"
     },
     {
-      "signal_id": "NE-TIP-0076",
+      "signal_id": "NE-TIP-0072",
       "source": "information_asymmetry",
       "asset": "MWC demo tape: Pegatron's Open RAN and AI-RAN push is a call option on telecom capex - until trials show up",
       "ticker": "SMH",
@@ -1311,7 +1243,7 @@
       "state": "TRADE"
     },
     {
-      "signal_id": "NE-TIP-0077",
+      "signal_id": "NE-TIP-0073",
       "source": "information_asymmetry",
       "asset": "Antitrust 'process' is back as a market risk: HSR filing friction can widen deal premia even in a lighter enforcement narrative",
       "ticker": "SPY",
@@ -1327,7 +1259,7 @@
       "state": "TRADE"
     },
     {
-      "signal_id": "NE-TIP-0078",
+      "signal_id": "NE-TIP-0074",
       "source": "information_asymmetry",
       "asset": "Micron already has the story - what is left is timing: when a spreading narrative stops being edge and starts being consensus",
       "ticker": "MU",
@@ -1343,7 +1275,7 @@
       "state": "INVESTIGATE"
     },
     {
-      "signal_id": "NE-TIP-0079",
+      "signal_id": "NE-TIP-0075",
       "source": "information_asymmetry",
       "asset": "Intel in geopolitics: direction is mixed upstream, so do not force a trade out of a spreading narrative",
       "ticker": "INTC",
@@ -1359,7 +1291,7 @@
       "state": "INVESTIGATE"
     },
     {
-      "signal_id": "NE-TIP-0080",
+      "signal_id": "NE-TIP-0076",
       "source": "information_asymmetry",
       "asset": "Nissan: weakening demand indicators point SHORT, but the edge is already leaking - investigate for a fresh, non-consensus datapoint",
       "ticker": "NSANY",
@@ -1375,7 +1307,7 @@
       "state": "INVESTIGATE"
     },
     {
-      "signal_id": "NE-TIP-0081",
+      "signal_id": "NE-TIP-0077",
       "source": "information_asymmetry",
       "asset": "Silicon metal oversupply is a bearish tape for producers - but without an instrument, it stays a thesis not a trade",
       "ticker": "-",
@@ -1391,7 +1323,7 @@
       "state": "AVOID"
     },
     {
-      "signal_id": "NE-TIP-0082",
+      "signal_id": "NE-TIP-0078",
       "source": "information_asymmetry",
       "asset": "EVE Energy's GWh-scale 'cooperation agreements' are a bullish tell - but without a ticker mapping, it is non-actionable here",
       "ticker": "-",
@@ -1407,7 +1339,7 @@
       "state": "AVOID"
     },
     {
-      "signal_id": "NE-TIP-0083",
+      "signal_id": "NE-TIP-0079",
       "source": "information_asymmetry",
       "asset": "India critical-minerals push is directionally bullish long-term - but this artefact is a policy digest, not a tradable catalyst",
       "ticker": "-",
@@ -1423,7 +1355,7 @@
       "state": "AVOID"
     },
     {
-      "signal_id": "NE-TIP-0084",
+      "signal_id": "NE-TIP-0080",
       "source": "information_asymmetry",
       "asset": "Penang's industrial clustering is getting real infrastructure milestones - the LONG case exists, but the equity linkage does not",
       "ticker": "-",
@@ -1439,7 +1371,7 @@
       "state": "AVOID"
     },
     {
-      "signal_id": "NE-TIP-0085",
+      "signal_id": "NE-TIP-0081",
       "source": "information_asymmetry",
       "asset": "PhotonIC's '40 million ICs shipped' PR is the right kind of claim to investigate - but with no ticker, it cannot be traded here",
       "ticker": "-",
@@ -1455,7 +1387,7 @@
       "state": "AVOID"
     },
     {
-      "signal_id": "NE-TIP-0086",
+      "signal_id": "NE-TIP-0082",
       "source": "information_asymmetry",
       "asset": "WBD is here as context only: mainstream tape, edge closed, and upstream effectively says fade it",
       "ticker": "WBD",
@@ -1471,7 +1403,7 @@
       "state": "AVOID"
     },
     {
-      "signal_id": "NE-TIP-0087",
+      "signal_id": "NE-TIP-0083",
       "source": "information_asymmetry",
       "asset": "GoodRx Is Rebuilding Its Engine Mid-Flight: Pharma Direct Up, Core Transactions Down",
       "ticker": "GDRX",
@@ -1487,7 +1419,7 @@
       "state": "TRADE"
     },
     {
-      "signal_id": "NE-TIP-0088",
+      "signal_id": "NE-TIP-0084",
       "source": "information_asymmetry",
       "asset": "China's Wegovy Biosimilar Filing Is a Sector Story, Not Just a Novo Nordisk Story",
       "ticker": "IHE",
@@ -1503,7 +1435,7 @@
       "state": "TRADE"
     },
     {
-      "signal_id": "NE-TIP-0089",
+      "signal_id": "NE-TIP-0085",
       "source": "information_asymmetry",
       "asset": "GLP-1 Cultural Saturation Is Spilling Into Adjacent Spend Narratives",
       "ticker": "IHE",
@@ -1519,7 +1451,7 @@
       "state": "TRADE"
     },
     {
-      "signal_id": "NE-TIP-0090",
+      "signal_id": "NE-TIP-0086",
       "source": "information_asymmetry",
       "asset": "CFTC Whistleblower Awards Collapse: A Quiet Institutional Capacity Signal With Financials Exposure",
       "ticker": "XLF",
@@ -1535,7 +1467,7 @@
       "state": "TRADE"
     },
     {
-      "signal_id": "NE-TIP-0091",
+      "signal_id": "NE-TIP-0087",
       "source": "information_asymmetry",
       "asset": "Merck Governance Overhang Is in the Open: Directional, But the Edge Is Closing",
       "ticker": "MRK",
@@ -1551,7 +1483,7 @@
       "state": "INVESTIGATE"
     },
     {
-      "signal_id": "NE-TIP-0092",
+      "signal_id": "NE-TIP-0088",
       "source": "information_asymmetry",
       "asset": "Europol's Fake-Medicine Crackdown Is Real, But You Can't Trade It Without a Target",
       "ticker": "-",
@@ -1567,7 +1499,7 @@
       "state": "AVOID"
     },
     {
-      "signal_id": "NE-TIP-0093",
+      "signal_id": "NE-TIP-0089",
       "source": "information_asymmetry",
       "asset": "OSHA Fatality Penalties as a Sentiment Channel: Industrial Compliance Cost Risk in Miniature",
       "ticker": "XLI",
@@ -1583,7 +1515,7 @@
       "state": "TRADE"
     },
     {
-      "signal_id": "NE-TIP-0094",
+      "signal_id": "NE-TIP-0090",
       "source": "information_asymmetry",
       "asset": "Mercedes-AMG 'Lawsuit Cluster' Looks Like a Mis-signal - But If It's Real, It's Bearish for the Parent",
       "ticker": "MBG.DE",
@@ -1599,7 +1531,7 @@
       "state": "TRADE"
     },
     {
-      "signal_id": "NE-TIP-0095",
+      "signal_id": "NE-TIP-0091",
       "source": "information_asymmetry",
       "asset": "Brazil's Anvisa Tightens a Safety Loop: Small Rule, Real Compliance Friction",
       "ticker": "-",
@@ -1615,7 +1547,7 @@
       "state": "AVOID"
     },
     {
-      "signal_id": "NE-TIP-0096",
+      "signal_id": "NE-TIP-0092",
       "source": "information_asymmetry",
       "asset": "FDA Regulatory Noise Is Loud Enough to Be Dangerous - But Not Mispriced",
       "ticker": "IHE",
@@ -1631,7 +1563,7 @@
       "state": "INVESTIGATE"
     },
     {
-      "signal_id": "NE-TIP-0097",
+      "signal_id": "NE-TIP-0093",
       "source": "information_asymmetry",
       "asset": "SEC Compliance Clusters Spill Into Healthcare Risk Premia - After the Story Is Public",
       "ticker": "IHE",
@@ -1647,7 +1579,7 @@
       "state": "INVESTIGATE"
     },
     {
-      "signal_id": "NE-TIP-0098",
+      "signal_id": "NE-TIP-0094",
       "source": "information_asymmetry",
       "asset": "Insurance-Law Noise Around Financials: High Volume, Mixed Direction, No Edge",
       "ticker": "XLF",
@@ -1663,7 +1595,7 @@
       "state": "AVOID"
     },
     {
-      "signal_id": "NE-TIP-0099",
+      "signal_id": "NE-TIP-0095",
       "source": "information_asymmetry",
       "asset": "Benzodiazepine Use Is Falling, Co-Prescribing Risk Isn't: A Slow-Burn Policy Headwind With No Ticker",
       "ticker": "-",
@@ -1679,7 +1611,7 @@
       "state": "AVOID"
     },
     {
-      "signal_id": "NE-TIP-0100",
+      "signal_id": "NE-TIP-0096",
       "source": "information_asymmetry",
       "asset": "Patient-Harm Narrative Clusters Are Sector-Short by Default - But They're Already Spreading",
       "ticker": "IHE",
@@ -1695,7 +1627,7 @@
       "state": "INVESTIGATE"
     },
     {
-      "signal_id": "NE-TIP-0101",
+      "signal_id": "NE-TIP-0097",
       "source": "information_asymmetry",
       "asset": "Novo Nordisk's Narrative Still Leans Positive - But You're Late to the Party",
       "ticker": "NVO",
@@ -1711,7 +1643,7 @@
       "state": "INVESTIGATE"
     },
     {
-      "signal_id": "NE-TIP-0102",
+      "signal_id": "NE-TIP-0098",
       "source": "information_asymmetry",
       "asset": "California just hit Anthem Blue Cross with a $15m penalty and years of oversight - real regulatory teeth, not noise",
       "ticker": "ELV",
@@ -1727,7 +1659,7 @@
       "state": "TRADE"
     },
     {
-      "signal_id": "NE-TIP-0103",
+      "signal_id": "NE-TIP-0099",
       "source": "information_asymmetry",
       "asset": "Halper Sadeh's PR-wire 'investigation' burst is back - the tell is not the allegations, it's the templated volume",
       "ticker": "XBI, SPY",
@@ -1743,7 +1675,7 @@
       "state": "TRADE"
     },
     {
-      "signal_id": "NE-TIP-0104",
+      "signal_id": "NE-TIP-0100",
       "source": "information_asymmetry",
       "asset": "The AMD TAM drumbeat is growing again - but this cycle's artefact is marketing, not a catalyst",
       "ticker": "IHE, XBI",
@@ -1759,7 +1691,7 @@
       "state": "TRADE"
     },
     {
-      "signal_id": "NE-TIP-0105",
+      "signal_id": "NE-TIP-0101",
       "source": "information_asymmetry",
       "asset": "Plug Power lawsuit headlines are back - treat it as sentiment overhang unless the complaint adds real new facts",
       "ticker": "SPY",
@@ -1775,7 +1707,7 @@
       "state": "TRADE"
     },
     {
-      "signal_id": "NE-TIP-0106",
+      "signal_id": "NE-TIP-0102",
       "source": "information_asymmetry",
       "asset": "Information blocking enforcement is shifting from guidance to letters - the first named losers will wear the cost",
       "ticker": "IHE, SPY",
@@ -1791,7 +1723,7 @@
       "state": "TRADE"
     },
     {
-      "signal_id": "NE-TIP-0107",
+      "signal_id": "NE-TIP-0103",
       "source": "information_asymmetry",
       "asset": "Novartis settled the Henrietta Lacks suit - but the reputational story is not done for the remaining defendants",
       "ticker": "XBI, IHE",
@@ -1807,7 +1739,7 @@
       "state": "TRADE"
     },
     {
-      "signal_id": "NE-TIP-0108",
+      "signal_id": "NE-TIP-0104",
       "source": "information_asymmetry",
       "asset": "A court order on Principal Life's LTD policy is real legal paper - but it still reads like routine ERISA noise",
       "ticker": "SPY",
@@ -1823,7 +1755,7 @@
       "state": "TRADE"
     },
     {
-      "signal_id": "NE-TIP-0109",
+      "signal_id": "NE-TIP-0105",
       "source": "information_asymmetry",
       "asset": "CPSC eFiling has a real deadline - but this packet gives you no tradeable way to express it",
       "ticker": "-",
@@ -1839,7 +1771,7 @@
       "state": "AVOID"
     },
     {
-      "signal_id": "NE-TIP-0110",
+      "signal_id": "NE-TIP-0106",
       "source": "information_asymmetry",
       "asset": "TSND-201 phase 2 PTSD data looks like real clinical signal - the problem is you cannot buy it here",
       "ticker": "-",
@@ -1855,7 +1787,7 @@
       "state": "AVOID"
     },
     {
-      "signal_id": "NE-TIP-0111",
+      "signal_id": "NE-TIP-0107",
       "source": "information_asymmetry",
       "asset": "Operation SHIELD VI is a real Europol crackdown - but without named listed nodes, it's a narrative not a trade",
       "ticker": "-",
@@ -1871,7 +1803,7 @@
       "state": "AVOID"
     },
     {
-      "signal_id": "NE-TIP-0112",
+      "signal_id": "NE-TIP-0108",
       "source": "information_asymmetry",
       "asset": "Nitrosamines are now a permanent compliance tax - bearish by default, unless you can name who gets hit next",
       "ticker": "-",
@@ -1887,7 +1819,7 @@
       "state": "AVOID"
     },
     {
-      "signal_id": "NE-TIP-0113",
+      "signal_id": "NE-TIP-0109",
       "source": "information_asymmetry",
       "asset": "Coinbase as the tradeable spillover for Binance enforcement: direction is short, edge is closing",
       "ticker": "COIN",
@@ -1903,7 +1835,7 @@
       "state": "INVESTIGATE"
     },
     {
-      "signal_id": "NE-TIP-0114",
+      "signal_id": "NE-TIP-0110",
       "source": "information_asymmetry",
       "asset": "Prop 65 notice volume is still high - the market impact is real but issuer-specific and missing here",
       "ticker": "-",
@@ -1919,7 +1851,7 @@
       "state": "AVOID"
     },
     {
-      "signal_id": "NE-TIP-0115",
+      "signal_id": "NE-TIP-0111",
       "source": "information_asymmetry",
       "asset": "Doliprane paediatric recall: high-salience safety story in France, but the packet gives you no ticker",
       "ticker": "-",
@@ -1935,7 +1867,7 @@
       "state": "AVOID"
     },
     {
-      "signal_id": "NE-TIP-0116",
+      "signal_id": "NE-TIP-0112",
       "source": "information_asymmetry",
       "asset": "Novo Nordisk clinical research cluster is still directionally positive - but you are late if you are reading it now",
       "ticker": "NVO",
@@ -1951,7 +1883,7 @@
       "state": "INVESTIGATE"
     },
     {
-      "signal_id": "NE-TIP-0117",
+      "signal_id": "NE-TIP-0113",
       "source": "information_asymmetry",
       "asset": "The Pomerantz wire-cluster is back - and it is signalling broader risk-premia creep, not one clean pharma case",
       "ticker": "SPY",
@@ -1967,7 +1899,7 @@
       "state": "TRADE"
     },
     {
-      "signal_id": "NE-TIP-0118",
+      "signal_id": "NE-TIP-0114",
       "source": "information_asymmetry",
       "asset": "FDA governance noise meets a genuinely pro-flexibility rare-disease artefact - but the tape is still risk-on",
       "ticker": "IHE",
@@ -1983,7 +1915,7 @@
       "state": "TRADE"
     },
     {
-      "signal_id": "NE-TIP-0119",
+      "signal_id": "NE-TIP-0115",
       "source": "information_asymmetry",
       "asset": "The \u2018Nasdaq legal action\u2019 signal is really a biotech lawsuit-overhang feed - and NDAQ is the awkward wrapper",
       "ticker": "NDAQ",
@@ -1999,7 +1931,7 @@
       "state": "TRADE"
     },
     {
-      "signal_id": "NE-TIP-0120",
+      "signal_id": "NE-TIP-0116",
       "source": "information_asymmetry",
       "asset": "DOJ goes at OhioHealth\u2019s contracting playbook - the read-through is a tougher antitrust climate for healthcare power-brokers",
       "ticker": "SPY",
@@ -2015,7 +1947,7 @@
       "state": "TRADE"
     },
     {
-      "signal_id": "NE-TIP-0121",
+      "signal_id": "NE-TIP-0117",
       "source": "information_asymmetry",
       "asset": "Roche \u2018regulation\u2019 is already in the Reuters lane - the edge is gone, and even direction is not resolved here",
       "ticker": "RHHBY",
@@ -2031,7 +1963,7 @@
       "state": "AVOID"
     },
     {
-      "signal_id": "NE-TIP-0122",
+      "signal_id": "NE-TIP-0118",
       "source": "information_asymmetry",
       "asset": "FCC foreign-ownership rule streamlining is being misread as a risk shock - it is procedural, and the short is a proxy hedge",
       "ticker": "SPY",
@@ -2047,7 +1979,7 @@
       "state": "TRADE"
     },
     {
-      "signal_id": "NE-TIP-0123",
+      "signal_id": "NE-TIP-0119",
       "source": "information_asymmetry",
       "asset": "The \u2018adverse drug events\u2019 mega-cluster has already hit Bloomberg/Reuters/WSJ - disaggregate or do not touch it",
       "ticker": "IHE",
@@ -2063,7 +1995,7 @@
       "state": "AVOID"
     },
     {
-      "signal_id": "NE-TIP-0124",
+      "signal_id": "NE-TIP-0120",
       "source": "information_asymmetry",
       "asset": "Taiwan border enforcement is tightening - but the investable edge only exists once you can name the importer, brand, or supplier",
       "ticker": "XBI",
@@ -2079,7 +2011,7 @@
       "state": "TRADE"
     },
     {
-      "signal_id": "NE-TIP-0125",
+      "signal_id": "NE-TIP-0121",
       "source": "information_asymmetry",
       "asset": "Medico Remedies\u2019 exchange notices look small - but governance headlines are how small-caps reprice down, not up",
       "ticker": "MEDICO.NS",
@@ -2095,7 +2027,7 @@
       "state": "TRADE"
     },
     {
-      "signal_id": "NE-TIP-0126",
+      "signal_id": "NE-TIP-0122",
       "source": "information_asymmetry",
       "asset": "Hyundai Bioscience is moving on \u2018IND intent\u2019 optics - the long works only if plans become filings",
       "ticker": "048410.KQ",
@@ -2111,7 +2043,7 @@
       "state": "TRADE"
     },
     {
-      "signal_id": "NE-TIP-0127",
+      "signal_id": "NE-TIP-0123",
       "source": "information_asymmetry",
       "asset": "Pharma safety is everywhere already - Tier-1 footprint means your edge must be a new artefact, not a new take",
       "ticker": "IHE",
@@ -2127,7 +2059,7 @@
       "state": "AVOID"
     },
     {
-      "signal_id": "NE-TIP-0128",
+      "signal_id": "NE-TIP-0124",
       "source": "information_asymmetry",
       "asset": "Novartis still screens long, but it is in the catalytic zone - the edge is closing and the bar for \u2018new\u2019 is high",
       "ticker": "NVS",
@@ -2143,7 +2075,7 @@
       "state": "INVESTIGATE"
     },
     {
-      "signal_id": "NE-TIP-0129",
+      "signal_id": "NE-TIP-0125",
       "source": "information_asymmetry",
       "asset": "The Vinay Prasad FDA-standards debate has become consensus content - treat it as already absorbed, not a fresh edge",
       "ticker": "XBI",
@@ -2159,7 +2091,7 @@
       "state": "AVOID"
     },
     {
-      "signal_id": "NE-TIP-0130",
+      "signal_id": "NE-TIP-0126",
       "source": "information_asymmetry",
       "asset": "DOJ/SEC compliance narratives are now mainstream - direction is bearish, but the timing edge is closing fast",
       "ticker": "SPY",
@@ -2175,7 +2107,7 @@
       "state": "INVESTIGATE"
     },
     {
-      "signal_id": "NE-TIP-0131",
+      "signal_id": "NE-TIP-0127",
       "source": "information_asymmetry",
       "asset": "New Mexico PFAS policy is creeping towards labelling - a slow regulatory drag story expressed as a sector proxy short",
       "ticker": "IHE",
@@ -2191,7 +2123,7 @@
       "state": "TRADE"
     },
     {
-      "signal_id": "NE-TIP-0132",
+      "signal_id": "NE-TIP-0128",
       "source": "information_asymmetry",
       "asset": "Fisher-Price recall risk: the story might be real, but the artefacts are missing in this run",
       "ticker": "MAT",
@@ -2207,7 +2139,7 @@
       "state": "TRADE"
     },
     {
-      "signal_id": "NE-TIP-0133",
+      "signal_id": "NE-TIP-0129",
       "source": "information_asymmetry",
       "asset": "Zynex class-action cluster: the allegations are ugly, but you still need the docket to trade it cleanly",
       "ticker": "ZYXI",
@@ -2223,7 +2155,7 @@
       "state": "TRADE"
     },
     {
-      "signal_id": "NE-TIP-0134",
+      "signal_id": "NE-TIP-0130",
       "source": "information_asymmetry",
       "asset": "Levi deadline alert: a real date, but not a real instrument (and probably not a catalyst)",
       "ticker": "-",
@@ -2239,7 +2171,7 @@
       "state": "AVOID"
     },
     {
-      "signal_id": "NE-TIP-0135",
+      "signal_id": "NE-TIP-0131",
       "source": "information_asymmetry",
       "asset": "L'Or\u00e9al anti-ageing growth story: a LONG call built on PR, not on segment reality yet",
       "ticker": "OR.PA",
@@ -2255,7 +2187,7 @@
       "state": "TRADE"
     },
     {
-      "signal_id": "NE-TIP-0136",
+      "signal_id": "NE-TIP-0132",
       "source": "information_asymmetry",
       "asset": "Morepen's INR 825cr CDMO win: the LONG is about utilisation, but the counterparty gap is the risk",
       "ticker": "MOREPENLAB.BSE",
@@ -2271,7 +2203,7 @@
       "state": "TRADE"
     },
     {
-      "signal_id": "NE-TIP-0137",
+      "signal_id": "NE-TIP-0133",
       "source": "information_asymmetry",
       "asset": "German clawback governance: useful context, but direction is MIXED until you name the battleground",
       "ticker": "SPY",
@@ -2287,7 +2219,7 @@
       "state": "INVESTIGATE"
     },
     {
-      "signal_id": "NE-TIP-0138",
+      "signal_id": "NE-TIP-0134",
       "source": "information_asymmetry",
       "asset": "Insilico's LONG case: credibility accrues with papers and partners, but markets pay for milestones",
       "ticker": "3696.HK",
@@ -2303,7 +2235,7 @@
       "state": "TRADE"
     },
     {
-      "signal_id": "NE-TIP-0139",
+      "signal_id": "NE-TIP-0135",
       "source": "information_asymmetry",
       "asset": "Ofcom's record fine is real enforcement, but this payload does not name the tradeable victim",
       "ticker": "-",
@@ -2319,7 +2251,7 @@
       "state": "AVOID"
     },
     {
-      "signal_id": "NE-TIP-0140",
+      "signal_id": "NE-TIP-0136",
       "source": "information_asymmetry",
       "asset": "Texas vision-plan legal win: a real injunction, but not a trade without a listed exposure map",
       "ticker": "-",
@@ -2335,7 +2267,7 @@
       "state": "AVOID"
     },
     {
-      "signal_id": "NE-TIP-0141",
+      "signal_id": "NE-TIP-0137",
       "source": "information_asymmetry",
       "asset": "DOJ's USD 233m ACA fraud sentencing: bearish for the channel, but the listed exposure is not named",
       "ticker": "-",
@@ -2351,7 +2283,7 @@
       "state": "AVOID"
     },
     {
-      "signal_id": "NE-TIP-0142",
+      "signal_id": "NE-TIP-0138",
       "source": "information_asymmetry",
       "asset": "FDA policy chatter is everywhere: treat this SHORT proxy as edge-closing timing context, not alpha",
       "ticker": "IHE",
@@ -2367,7 +2299,7 @@
       "state": "INVESTIGATE"
     },
     {
-      "signal_id": "NE-TIP-0143",
+      "signal_id": "NE-TIP-0139",
       "source": "information_asymmetry",
       "asset": "Trinidad procurement misconduct allegations: real governance risk, zero market edge",
       "ticker": "-",
@@ -2383,7 +2315,7 @@
       "state": "AVOID"
     },
     {
-      "signal_id": "NE-TIP-0144",
+      "signal_id": "NE-TIP-0140",
       "source": "information_asymmetry",
       "asset": "A PR-wire class-action blitz is hitting small-cap healthcare names - the trade is the overhang, not the lawsuits",
       "ticker": "XBI",
@@ -2399,7 +2331,7 @@
       "state": "TRADE"
     },
     {
-      "signal_id": "NE-TIP-0145",
+      "signal_id": "NE-TIP-0141",
       "source": "information_asymmetry",
       "asset": "Kyndryl's class-action metadata is out there - the market risk is the controls narrative, not the 'pharma safety' tag",
       "ticker": "KD",
@@ -2415,7 +2347,7 @@
       "state": "TRADE"
     },
     {
-      "signal_id": "NE-TIP-0146",
+      "signal_id": "NE-TIP-0142",
       "source": "information_asymmetry",
       "asset": "Epstein estate settlement is back in the feed - reputation risk can re-price even as claims close",
       "ticker": "SPY",
@@ -2431,7 +2363,7 @@
       "state": "TRADE"
     },
     {
-      "signal_id": "NE-TIP-0147",
+      "signal_id": "NE-TIP-0143",
       "source": "information_asymmetry",
       "asset": "KFTC is fining a semi-equipment supplier over tech-data demands - the read-through is process friction, not the won amount",
       "ticker": "SMH",
@@ -2447,7 +2379,7 @@
       "state": "TRADE"
     },
     {
-      "signal_id": "NE-TIP-0148",
+      "signal_id": "NE-TIP-0144",
       "source": "information_asymmetry",
       "asset": "A specialist IP weekly is pointing at Salts and a FRAND escalation - the market trade is 'uncertainty premium' leaking into big tech",
       "ticker": "SPY",
@@ -2463,7 +2395,7 @@
       "state": "TRADE"
     },
     {
-      "signal_id": "NE-TIP-0149",
+      "signal_id": "NE-TIP-0145",
       "source": "information_asymmetry",
       "asset": "MarketBeat-style ratings churn is eating the tape - edge is gone, mechanism is not investable",
       "ticker": "SPY",
@@ -2479,7 +2411,7 @@
       "state": "AVOID"
     },
     {
-      "signal_id": "NE-TIP-0150",
+      "signal_id": "NE-TIP-0146",
       "source": "information_asymmetry",
       "asset": "GLP-1 expansion is everywhere now - the signal is a fade because the narrative is already consensus",
       "ticker": "LLY",
@@ -2495,7 +2427,7 @@
       "state": "AVOID"
     },
     {
-      "signal_id": "NE-TIP-0151",
+      "signal_id": "NE-TIP-0147",
       "source": "information_asymmetry",
       "asset": "Lilly governance chatter: the system says LONG, but the edge is closing - you need the actual event",
       "ticker": "LLY",
@@ -2511,7 +2443,7 @@
       "state": "INVESTIGATE"
     },
     {
-      "signal_id": "NE-TIP-0152",
+      "signal_id": "NE-TIP-0148",
       "source": "information_asymmetry",
       "asset": "Novartis 'stability' is a LONG call with a shrinking edge - only actionable if a new capital-allocation datapoint exists",
       "ticker": "NVS",
@@ -2527,7 +2459,7 @@
       "state": "INVESTIGATE"
     },
     {
-      "signal_id": "NE-TIP-0153",
+      "signal_id": "NE-TIP-0149",
       "source": "information_asymmetry",
       "asset": "HBEL and tox-linked cleaning validation: real compliance pain, but no instrument and no new regulator peg",
       "ticker": "-",
@@ -2543,7 +2475,7 @@
       "state": "AVOID"
     },
     {
-      "signal_id": "NE-TIP-0154",
+      "signal_id": "NE-TIP-0150",
       "source": "information_asymmetry",
       "asset": "Halper Sadeh 'shareholder rights' alerts: the template is the product, and the trade is missing",
       "ticker": "-",
@@ -2559,7 +2491,7 @@
       "state": "AVOID"
     },
     {
-      "signal_id": "NE-TIP-0155",
+      "signal_id": "NE-TIP-0151",
       "source": "information_asymmetry",
       "asset": "ADP 'governance issue' that looks like product marketing: MIXED direction is the right answer",
       "ticker": "-",
@@ -2575,7 +2507,7 @@
       "state": "AVOID"
     },
     {
-      "signal_id": "NE-TIP-0156",
+      "signal_id": "NE-TIP-0152",
       "source": "information_asymmetry",
       "asset": "Securities-litigation noise is now mainstream - SHORT direction remains, but the edge is closing fast",
       "ticker": "SPY",
@@ -2591,7 +2523,7 @@
       "state": "INVESTIGATE"
     },
     {
-      "signal_id": "NE-TIP-0157",
+      "signal_id": "NE-TIP-0153",
       "source": "information_asymmetry",
       "asset": "A regulatory/earnings bundle pinned to BEN: MIXED direction is telling you the label may be a grab-bag",
       "ticker": "BEN",
@@ -2607,7 +2539,7 @@
       "state": "AVOID"
     },
     {
-      "signal_id": "NE-TIP-0158",
+      "signal_id": "NE-TIP-0154",
       "source": "information_asymmetry",
       "asset": "Trump-legal headline bundles: FADE is the signal - not because it is false, but because it is already everywhere",
       "ticker": "SPY",
@@ -2623,7 +2555,7 @@
       "state": "AVOID"
     },
     {
-      "signal_id": "NE-TIP-0159",
+      "signal_id": "NE-TIP-0155",
       "source": "information_asymmetry",
       "asset": "The Plaintiff-Firm Headline Machine: When Litigation PR Becomes a Tradeable Sentiment Overhang",
       "ticker": "IHE, XBI",
@@ -2639,7 +2571,7 @@
       "state": "TRADE"
     },
     {
-      "signal_id": "NE-TIP-0160",
+      "signal_id": "NE-TIP-0156",
       "source": "information_asymmetry",
       "asset": "Real Governance Risk Hiding in the Same Pipe as Investor-Alert Spam",
       "ticker": "XBI",
@@ -2655,7 +2587,7 @@
       "state": "TRADE"
     },
     {
-      "signal_id": "NE-TIP-0161",
+      "signal_id": "NE-TIP-0157",
       "source": "information_asymmetry",
       "asset": "Named-Attorney Branding as a Signal: When Deadline Reminders Become Market Micro-Stress",
       "ticker": "SPY",
@@ -2671,7 +2603,7 @@
       "state": "TRADE"
     },
     {
-      "signal_id": "NE-TIP-0162",
+      "signal_id": "NE-TIP-0158",
       "source": "information_asymmetry",
       "asset": "Zynex DOJ Resolution: The Kind of Compliance Event That Can Break a Business Model",
       "ticker": "ZYXI",
@@ -2687,7 +2619,7 @@
       "state": "TRADE"
     },
     {
-      "signal_id": "NE-TIP-0163",
+      "signal_id": "NE-TIP-0159",
       "source": "information_asymmetry",
       "asset": "FCA Forbearance Is a Quiet Positive: Less Paperwork Risk for UK Issuers, For Now",
       "ticker": "TLT, SPY",
@@ -2703,7 +2635,7 @@
       "state": "TRADE"
     },
     {
-      "signal_id": "NE-TIP-0164",
+      "signal_id": "NE-TIP-0160",
       "source": "information_asymmetry",
       "asset": "A Small FINRA Fine, a Big Question: Is This a One-Off or a Controls Pattern?",
       "ticker": "JPM",
@@ -2719,7 +2651,7 @@
       "state": "TRADE"
     },
     {
-      "signal_id": "NE-TIP-0165",
+      "signal_id": "NE-TIP-0161",
       "source": "information_asymmetry",
       "asset": "A Celebrity Settlement That Probably Does Not Matter - Until It Does",
       "ticker": "SPY",
@@ -2735,7 +2667,7 @@
       "state": "TRADE"
     },
     {
-      "signal_id": "NE-TIP-0166",
+      "signal_id": "NE-TIP-0162",
       "source": "information_asymmetry",
       "asset": "The FAR Council Just Wrote a New Supply-Chain Tax - It Starts as Paperwork",
       "ticker": "SMH, KWEB",
@@ -2751,7 +2683,7 @@
       "state": "TRADE"
     },
     {
-      "signal_id": "NE-TIP-0167",
+      "signal_id": "NE-TIP-0163",
       "source": "information_asymmetry",
       "asset": "The Enforcement Meta-Cluster: When Tier-1 Pickup Means the Edge Is Already Gone",
       "ticker": "-",
@@ -2767,7 +2699,7 @@
       "state": "AVOID"
     },
     {
-      "signal_id": "NE-TIP-0168",
+      "signal_id": "NE-TIP-0164",
       "source": "information_asymmetry",
       "asset": "JNJ Manufacturing/Operations Noise: Widely Known, Hard to Trade, Marked as Fade",
       "ticker": "JNJ",
@@ -2783,7 +2715,7 @@
       "state": "AVOID"
     },
     {
-      "signal_id": "NE-TIP-0169",
+      "signal_id": "NE-TIP-0165",
       "source": "information_asymmetry",
       "asset": "SEC Enforcement Tape: A Real Theme, But This Bundle Lacks a Tradeable Handle",
       "ticker": "-",
@@ -2799,7 +2731,7 @@
       "state": "AVOID"
     },
     {
-      "signal_id": "NE-TIP-0170",
+      "signal_id": "NE-TIP-0166",
       "source": "information_asymmetry",
       "asset": "FDA Policy Discourse Is Everywhere - Which Means This One Is Marked Fade",
       "ticker": "-",
@@ -2815,7 +2747,7 @@
       "state": "AVOID"
     },
     {
-      "signal_id": "NE-TIP-0171",
+      "signal_id": "NE-TIP-0167",
       "source": "information_asymmetry",
       "asset": "A Cross-Border Court Fight With a Named Pharma Counterparty - But Direction Still Does Not Resolve",
       "ticker": "SPY",
@@ -2831,7 +2763,7 @@
       "state": "INVESTIGATE"
     },
     {
-      "signal_id": "NE-TIP-0172",
+      "signal_id": "NE-TIP-0168",
       "source": "information_asymmetry",
       "asset": "ASPR DPA Title III Supply-Chain Build-Out: A Quiet Bull Case for Resilience",
       "ticker": "IHE, XBI",
@@ -2847,7 +2779,7 @@
       "state": "TRADE"
     },
     {
-      "signal_id": "NE-NAS-0173",
+      "signal_id": "NE-NAS-0169",
       "source": "narrative_asset_signal",
       "asset": "crude oil futures (Brent and WTI as primary tradables)",
       "ticker": null,
@@ -2861,7 +2793,7 @@
       "state": "Narrative Signal Mixed"
     },
     {
-      "signal_id": "NE-NAS-0174",
+      "signal_id": "NE-NAS-0170",
       "source": "narrative_asset_signal",
       "asset": "Crude oil futures (Brent & WTI)",
       "ticker": null,
@@ -2875,7 +2807,7 @@
       "state": "Narrative Pressure Accelerating"
     },
     {
-      "signal_id": "NE-NAS-0175",
+      "signal_id": "NE-NAS-0171",
       "source": "narrative_asset_signal",
       "asset": "Semiconductor equities (proxy: VanEck Semiconductor ETF)",
       "ticker": null,
@@ -2889,7 +2821,7 @@
       "state": "Narrative Pressure Accelerating"
     },
     {
-      "signal_id": "NE-NAS-0176",
+      "signal_id": "NE-NAS-0172",
       "source": "narrative_asset_signal",
       "asset": "crude oil futures (Brent and WTI)",
       "ticker": null,
@@ -2903,7 +2835,7 @@
       "state": "Narrative Pressure Accelerating"
     },
     {
-      "signal_id": "NE-NAS-0177",
+      "signal_id": "NE-NAS-0173",
       "source": "narrative_asset_signal",
       "asset": "Crude oil futures (Brent & WTI)",
       "ticker": null,
@@ -2917,7 +2849,7 @@
       "state": "Narrative Pressure Accelerating"
     },
     {
-      "signal_id": "NE-NAS-0178",
+      "signal_id": "NE-NAS-0174",
       "source": "narrative_asset_signal",
       "asset": "crude oil futures (Brent and WTI)",
       "ticker": null,
