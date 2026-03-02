@@ -462,7 +462,7 @@ img { display: block; max-width: 100%; }
         <div class="ops-stat-row"><span class="ops-stat-label">Candidates</span><span class="ops-stat-val">707</span></div>
         <div class="ops-stat-row"><span class="ops-stat-label">Win Rate</span><span class="ops-stat-val">62%</span></div>
       </div>
-      <div class="ops-updated">Updated 11m ago</div>
+      <div class="ops-updated">Updated 22m ago</div>
     </div>
     <div class="ops-card">
       <div class="ops-card-header">
@@ -473,7 +473,7 @@ img { display: block; max-width: 100%; }
         <div class="ops-stat-row"><span class="ops-stat-label">Positions</span><span class="ops-stat-val">65</span></div>
         <div class="ops-stat-row"><span class="ops-stat-label">Active / Watch / Killed</span><span class="ops-stat-val">2 / 19 / 44</span></div>
       </div>
-      <div class="ops-updated">Updated 8m ago</div>
+      <div class="ops-updated">Updated 19m ago</div>
     </div>
     <div class="ops-card">
       <div class="ops-card-header">
@@ -484,7 +484,7 @@ img { display: block; max-width: 100%; }
         <div class="ops-stat-row"><span class="ops-stat-label">Stocks Tracked</span><span class="ops-stat-val">5</span></div>
         <div class="ops-stat-row"><span class="ops-stat-label">Avg Alpha</span><span class="ops-stat-val">+3.23%</span></div>
       </div>
-      <div class="ops-updated">Updated 9m ago</div>
+      <div class="ops-updated">Updated 20m ago</div>
     </div>
     <div class="ops-card">
       <div class="ops-card-header">
@@ -495,7 +495,7 @@ img { display: block; max-width: 100%; }
         <div class="ops-stat-row"><span class="ops-stat-label">Signals</span><span class="ops-stat-val">7</span></div>
         <div class="ops-stat-row"><span class="ops-stat-label">Avg Lead Time</span><span class="ops-stat-val">6.2h</span></div>
       </div>
-      <div class="ops-updated">Updated 35m ago</div>
+      <div class="ops-updated">Updated 46m ago</div>
     </div>
     <div class="ops-card">
       <div class="ops-card-header">
@@ -503,8 +503,8 @@ img { display: block; max-width: 100%; }
         <span class="ops-status ops-status-live">LIVE</span>
       </div>
       <div class="ops-card-stats">
-        <div class="ops-stat-row"><span class="ops-stat-label">Last Build</span><span class="ops-stat-val">2026-03-02 15:09</span></div>
-        <div class="ops-stat-row"><span class="ops-stat-label">Pages</span><span class="ops-stat-val">461</span></div>
+        <div class="ops-stat-row"><span class="ops-stat-label">Last Build</span><span class="ops-stat-val">2026-03-02 15:20</span></div>
+        <div class="ops-stat-row"><span class="ops-stat-label">Pages</span><span class="ops-stat-val">568</span></div>
         <div class="ops-stat-row"><span class="ops-stat-label">DB Size</span><span class="ops-stat-val"></span></div>
       </div>
     </div>
@@ -515,7 +515,7 @@ img { display: block; max-width: 100%; }
     <div style="font-size:0.72rem; font-weight:700; letter-spacing:0.08em; text-transform:uppercase; color:var(--muted); margin-bottom:0.5rem;">Endpoints</div>
     <div class="ops-stat-row" style="font-size:0.78rem;">
       <span class="ops-stat-label">/signals.json</span>
-      <span><span class="ops-status ops-status-live">OK</span> Updated 23m ago</span>
+      <span><span class="ops-status ops-status-live">OK</span> Updated 3m ago</span>
     </div>
   </div>
 
@@ -528,133 +528,237 @@ img { display: block; max-width: 100%; }
     </div>
   </div>
 
-  <hr class="section-rule-heavy" style="margin-top:2rem;">
-  <div class="section-header">
-    <div class="section-label">Experiments</div>
-  </div>
-  <p style="font-size:0.82rem; font-weight:300; color:var(--muted); line-height:1.6; margin-bottom:1rem;">Sandbox projects where we test new intelligence products, report formats, and analysis tools.</p>
-  <div style="display:grid; grid-template-columns:repeat(auto-fill, minmax(280px, 1fr)); gap:1rem; margin-bottom:2rem;">
-    <div style="border:1px solid var(--rule); padding:1.2rem; border-radius:4px;">
-      <div style="font-weight:700; font-size:0.82rem; margin-bottom:0.3rem;">Sovereign Signal</div>
-      <div style="font-size:0.75rem; color:var(--muted); line-height:1.5;">UK national standing intelligence dashboard. 5 pillars scored out of 100. For FCDO / Zinc Network.</div>
-    </div>
-    <div style="border:1px solid var(--rule); padding:1.2rem; border-radius:4px;">
-      <div style="font-weight:700; font-size:0.82rem; margin-bottom:0.3rem;">Business Signal</div>
-      <div style="font-size:0.75rem; color:var(--muted); line-height:1.5;">Company intelligence dashboards. Testing daily automated analysis and report generation.</div>
-    </div>
-    <div style="border:1px solid var(--rule); padding:1.2rem; border-radius:4px;">
-      <div style="font-weight:700; font-size:0.82rem; margin-bottom:0.3rem;">Noah Wire Platform</div>
-      <div style="font-size:0.75rem; color:var(--muted); line-height:1.5;">The RSS-powered signal distribution engine behind all NOAH intelligence products.</div>
-    </div>
-  </div>
+  <style>
+  .prod-card { text-decoration:none; color:inherit; display:block; border-radius:8px; overflow:hidden; border:1px solid var(--rule); transition:box-shadow 0.2s, transform 0.2s; cursor:pointer; }
+  .prod-card:hover { box-shadow:0 4px 16px rgba(0,0,0,0.12); transform:translateY(-2px); }
+  .prod-card:hover .prod-cta { text-decoration:underline; }
+  </style>
 
   <hr class="section-rule-heavy" style="margin-top:2rem;">
   <div class="section-header">
-    <div class="section-label">Client Reports</div>
+    <div class="section-label">Intelligence Products</div>
   </div>
-  <p style="font-size:0.82rem; font-weight:300; color:var(--muted); line-height:1.6; margin-bottom:1.5rem;">Live examples of client-branded intelligence reports. Each demonstrates a different visual identity and report format built on the NOAH Wire engine.</p>
+  <p style="font-size:0.85rem; font-weight:300; color:var(--ink); line-height:1.7; margin-bottom:0.8rem;">Every product below is built on the same NOAH Wire intelligence engine. Same signal technology, same analytical pipeline &mdash; different branding, different sector, different question being answered.</p>
+  <p style="font-size:0.82rem; font-weight:300; color:var(--muted); line-height:1.7; margin-bottom:2rem;">If you can see a use for intelligence like this in your world, <a href="https://www.noahwire.com" style="color:var(--teal); font-weight:600;">we should talk</a>.</p>
 
-  <div style="margin-bottom:2rem;">
+  <div style="display:grid; grid-template-columns:repeat(auto-fill, minmax(300px, 1fr)); gap:1.2rem; margin-bottom:2.5rem;">
 
-    <div style="font-family:'Montserrat',sans-serif; font-weight:800; font-size:0.72rem; text-transform:uppercase; letter-spacing:0.1em; color:var(--teal); margin-bottom:0.6rem; margin-top:1.5rem;">Client Branded Reports</div>
-    <div style="display:grid; grid-template-columns:repeat(auto-fill, minmax(260px, 1fr)); gap:0.6rem; margin-bottom:1.2rem;">
-      <a href="https://noah-edge.com/client-reports/lbr/pharma-risk-2026-02-17.html" style="border:1px solid var(--rule); padding:1rem; border-radius:4px; text-decoration:none; color:inherit; border-left:3px solid #c0392b;">
-        <div style="font-weight:700; font-size:0.78rem; margin-bottom:0.2rem;">LBR</div>
-        <div style="font-size:0.68rem; color:var(--muted); line-height:1.5;">Pharma Risk &mdash; Red / editorial design</div>
-      </a>
-      <a href="https://noah-edge.com/client-reports/clarion/pharma-risk-2026-02-17.html" style="border:1px solid var(--rule); padding:1rem; border-radius:4px; text-decoration:none; color:inherit; border-left:3px solid #0d7680;">
-        <div style="font-weight:700; font-size:0.78rem; margin-bottom:0.2rem;">Clarion Intelligence</div>
-        <div style="font-size:0.68rem; color:var(--muted); line-height:1.5;">Pharma Risk &mdash; Dark teal / corporate design</div>
-      </a>
-      <a href="https://noah-edge.com/client-reports/hyve/pharma-risk-2026-02-17.html" style="border:1px solid var(--rule); padding:1rem; border-radius:4px; text-decoration:none; color:inherit; border-left:3px solid #7c2d3e;">
-        <div style="font-weight:700; font-size:0.78rem; margin-bottom:0.2rem;">Hyve Intelligence</div>
-        <div style="font-size:0.68rem; color:var(--muted); line-height:1.5;">Pharma Risk &mdash; Warm burgundy / peach design</div>
-      </a>
-      <a href="https://noah-edge.com/client-reports/zinc/system-strain-2026-02-17.html" style="border:1px solid var(--rule); padding:1rem; border-radius:4px; text-decoration:none; color:inherit; border-left:3px solid #2c3e50;">
-        <div style="font-weight:700; font-size:0.78rem; margin-bottom:0.2rem;">Zinc Defence &mdash; System Strain</div>
-        <div style="font-size:0.68rem; color:var(--muted); line-height:1.5;">Defence intelligence report</div>
-      </a>
-      <a href="https://noah-edge.com/client-reports/zinc/battlefield-2026-02-16.html" style="border:1px solid var(--rule); padding:1rem; border-radius:4px; text-decoration:none; color:inherit; border-left:3px solid #2c3e50;">
-        <div style="font-weight:700; font-size:0.78rem; margin-bottom:0.2rem;">Zinc Defence &mdash; Battlefield</div>
-        <div style="font-size:0.68rem; color:var(--muted); line-height:1.5;">Defence intelligence report</div>
-      </a>
-    </div>
-
-    <div style="font-family:'Montserrat',sans-serif; font-weight:800; font-size:0.72rem; text-transform:uppercase; letter-spacing:0.1em; color:var(--teal); margin-bottom:0.6rem; margin-top:1.5rem;">RFA Series</div>
-    <div style="display:grid; grid-template-columns:repeat(auto-fill, minmax(260px, 1fr)); gap:0.6rem; margin-bottom:1.2rem;">
-      <a href="https://noah-edge.com/client-reports/william-reed/trend-probability-2026-02-17.html" style="border:1px solid var(--rule); padding:1rem; border-radius:4px; text-decoration:none; color:inherit; border-left:3px solid var(--teal);">
-        <div style="font-weight:700; font-size:0.78rem; margin-bottom:0.2rem;">Ransomware Trend &amp; Probability</div>
-        <div style="font-size:0.68rem; color:var(--muted); line-height:1.5;">Threat intelligence analysis</div>
-      </a>
-      <a href="https://noah-edge.com/client-reports/william-reed/hedge-fund-2026-02-17.html" style="border:1px solid var(--rule); padding:1rem; border-radius:4px; text-decoration:none; color:inherit; border-left:3px solid var(--teal);">
-        <div style="font-weight:700; font-size:0.78rem; margin-bottom:0.2rem;">Hedge Fund &mdash; Asymmetry &amp; Propagation</div>
-        <div style="font-size:0.68rem; color:var(--muted); line-height:1.5;">Information asymmetry intelligence</div>
-      </a>
-      <a href="https://noah-edge.com/client-reports/william-reed/risk-outlook-2026-02-17.html" style="border:1px solid var(--rule); padding:1rem; border-radius:4px; text-decoration:none; color:inherit; border-left:3px solid var(--teal);">
-        <div style="font-weight:700; font-size:0.78rem; margin-bottom:0.2rem;">Insurance Risk &mdash; Risk Outlook</div>
-        <div style="font-size:0.68rem; color:var(--muted); line-height:1.5;">Insurance sector risk analysis</div>
-      </a>
-      <a href="https://noah-edge.com/client-reports/william-reed/market-intelligence-2026-02-17.html" style="border:1px solid var(--rule); padding:1rem; border-radius:4px; text-decoration:none; color:inherit; border-left:3px solid var(--teal);">
-        <div style="font-weight:700; font-size:0.78rem; margin-bottom:0.2rem;">Market Intelligence &mdash; Daily Briefing</div>
-        <div style="font-size:0.68rem; color:var(--muted); line-height:1.5;">Daily market intelligence overview</div>
-      </a>
-    </div>
-
-    <div style="font-family:'Montserrat',sans-serif; font-weight:800; font-size:0.72rem; text-transform:uppercase; letter-spacing:0.1em; color:var(--teal); margin-bottom:0.6rem; margin-top:1.5rem;">Cardew</div>
-    <div style="display:grid; grid-template-columns:repeat(auto-fill, minmax(260px, 1fr)); gap:0.6rem; margin-bottom:1.2rem;">
-      <a href="https://noah-edge.com/client-reports/cardew/media-monitoring-2026-02-15.html#evidence" style="border:1px solid var(--rule); padding:1rem; border-radius:4px; text-decoration:none; color:inherit; border-left:3px solid #d97706;">
-        <div style="font-weight:700; font-size:0.78rem; margin-bottom:0.2rem;">Media Monitoring</div>
-        <div style="font-size:0.68rem; color:var(--muted); line-height:1.5;">Media monitoring intelligence</div>
-      </a>
-      <a href="https://noah-edge.com/client-reports/cardew/market-intelligence-2026-02-18.html" style="border:1px solid var(--rule); padding:1rem; border-radius:4px; text-decoration:none; color:inherit; border-left:3px solid #d97706;">
-        <div style="font-weight:700; font-size:0.78rem; margin-bottom:0.2rem;">Market Intelligence</div>
-        <div style="font-size:0.68rem; color:var(--muted); line-height:1.5;">Market intelligence briefing</div>
-      </a>
-    </div>
-
-    <div style="font-family:'Montserrat',sans-serif; font-weight:800; font-size:0.72rem; text-transform:uppercase; letter-spacing:0.1em; color:var(--teal); margin-bottom:0.6rem; margin-top:1.5rem;">Freuds</div>
-    <div style="display:grid; grid-template-columns:repeat(auto-fill, minmax(260px, 1fr)); gap:0.6rem; margin-bottom:1.2rem;">
-      <a href="https://noah-edge.com/client-reports/freuds/market-intelligence-2026-02-18.html" style="border:1px solid var(--rule); padding:1rem; border-radius:4px; text-decoration:none; color:inherit; border-left:3px solid #6b21a8;">
-        <div style="font-weight:700; font-size:0.78rem; margin-bottom:0.2rem;">Market Intelligence</div>
-        <div style="font-size:0.68rem; color:var(--muted); line-height:1.5;">Market intelligence briefing</div>
-      </a>
-      <a href="https://noah-edge.com/client-reports/freuds/media-monitoring-2026-02-15.html" style="border:1px solid var(--rule); padding:1rem; border-radius:4px; text-decoration:none; color:inherit; border-left:3px solid #6b21a8;">
-        <div style="font-weight:700; font-size:0.78rem; margin-bottom:0.2rem;">Media Monitoring</div>
-        <div style="font-size:0.68rem; color:var(--muted); line-height:1.5;">Media monitoring intelligence</div>
-      </a>
-    </div>
-
-    <div style="font-family:'Montserrat',sans-serif; font-weight:800; font-size:0.72rem; text-transform:uppercase; letter-spacing:0.1em; color:var(--teal); margin-bottom:0.6rem; margin-top:1.5rem;">Teneo</div>
-    <div style="display:grid; grid-template-columns:repeat(auto-fill, minmax(260px, 1fr)); gap:0.6rem; margin-bottom:1.2rem;">
-      <a href="https://noah-edge.com/client-reports/teneo/media-monitoring-biffa-2026-02-15.html" style="border:1px solid var(--rule); padding:1rem; border-radius:4px; text-decoration:none; color:inherit; border-left:3px solid #059669;">
-        <div style="font-weight:700; font-size:0.78rem; margin-bottom:0.2rem;">Media Monitoring &mdash; Biffa</div>
-        <div style="font-size:0.68rem; color:var(--muted); line-height:1.5;">Company-specific media monitoring</div>
-      </a>
-    </div>
-
-    <div style="font-family:'Montserrat',sans-serif; font-weight:800; font-size:0.72rem; text-transform:uppercase; letter-spacing:0.1em; color:var(--teal); margin-bottom:0.6rem; margin-top:1.5rem;">FTS Briefing</div>
-    <div style="display:grid; grid-template-columns:repeat(auto-fill, minmax(260px, 1fr)); gap:0.6rem; margin-bottom:1.2rem;">
-      <a href="https://ftsbriefing.makes.news/view/699a2380a387c84262e7ff3c" style="border:1px solid var(--rule); padding:1rem; border-radius:4px; text-decoration:none; color:inherit; border-left:3px solid var(--ink);">
-        <div style="font-weight:700; font-size:0.78rem; margin-bottom:0.2rem;">FTS Briefing</div>
-        <div style="font-size:0.68rem; color:var(--muted); line-height:1.5;">Live briefing via Noah Wire</div>
-      </a>
-    </div>
-
-  </div>
-</div>
-
-<hr class="section-rule-heavy" style="margin-top:2rem;">
-<div class="section-header">
-  <div class="section-label">Website Prototypes</div>
-</div>
-<p style="font-size:0.82rem; font-weight:300; color:var(--muted); line-height:1.6; margin-bottom:1.5rem;">Full website builds under development. Dark, minimal designs inspired by poly.ai &mdash; positioning Noah as an intelligence company, not just a wire service.</p>
-
-<div style="margin-bottom:2rem;">
-  <div style="display:grid; grid-template-columns:repeat(auto-fill, minmax(260px, 1fr)); gap:0.6rem; margin-bottom:1.2rem;">
-    <a href="https://noah-edge.com/sandbox/noahwire-site/index.html" style="border:1px solid var(--rule); padding:1rem; border-radius:4px; text-decoration:none; color:inherit; border-left:3px solid var(--ink);">
-      <div style="font-weight:700; font-size:0.78rem; margin-bottom:0.2rem;">noahwire.com rebuild</div>
-      <div style="font-size:0.68rem; color:var(--muted); line-height:1.5;">New corporate site &mdash; three-act scroll (Wire &rarr; Intelligence &rarr; Agent Noah), live RSS news, Noah Edge showcase. 7 pages + 100 SEO article pages.</div>
+    <a href="https://noah-edge.com/client-reports/lbr/pharma-risk-2026-02-17.html" class="prod-card">
+      <div style="background:#c0392b; padding:0.7rem 1.2rem;">
+        <div style="font-family:'Montserrat',sans-serif; font-weight:800; font-size:0.85rem; color:#fff; letter-spacing:0.02em;">LBR</div>
+        <div style="font-size:0.62rem; color:rgba(255,255,255,0.7); text-transform:uppercase; letter-spacing:0.08em;">Client Branded</div>
+      </div>
+      <div style="padding:1rem 1.2rem;">
+        <div style="font-weight:700; font-size:0.82rem; margin-bottom:0.4rem;">Pharma Risk Intelligence</div>
+        <div style="font-size:0.72rem; color:var(--muted); line-height:1.6; margin-bottom:0.6rem;">Daily pharmaceutical risk assessment. Regulatory threats, patent cliffs, litigation exposure. Bold editorial design in red &mdash; built for a media company that wants intelligence that reads like journalism.</div>
+        <div class="prod-cta" style="font-size:0.65rem; color:var(--teal); font-weight:600;">View report &rarr;</div>
+      </div>
     </a>
+
+    <a href="https://noah-edge.com/client-reports/clarion/pharma-risk-2026-02-17.html" class="prod-card">
+      <div style="background:#0d7680; padding:0.7rem 1.2rem;">
+        <div style="font-family:'Montserrat',sans-serif; font-weight:800; font-size:0.85rem; color:#fff; letter-spacing:0.02em;">Clarion Intelligence</div>
+        <div style="font-size:0.62rem; color:rgba(255,255,255,0.7); text-transform:uppercase; letter-spacing:0.08em;">Client Branded</div>
+      </div>
+      <div style="padding:1rem 1.2rem;">
+        <div style="font-weight:700; font-size:0.82rem; margin-bottom:0.4rem;">Pharma Risk Intelligence</div>
+        <div style="font-size:0.72rem; color:var(--muted); line-height:1.6; margin-bottom:0.6rem;">Same pharma intelligence, different identity. Dark teal corporate design for a consultancy that needs to white-label intelligence as their own product. Identical data, completely different feel.</div>
+        <div class="prod-cta" style="font-size:0.65rem; color:var(--teal); font-weight:600;">View report &rarr;</div>
+      </div>
+    </a>
+
+    <a href="https://noah-edge.com/client-reports/hyve/pharma-risk-2026-02-17.html" class="prod-card">
+      <div style="background:#7c2d3e; padding:0.7rem 1.2rem;">
+        <div style="font-family:'Montserrat',sans-serif; font-weight:800; font-size:0.85rem; color:#fff; letter-spacing:0.02em;">Hyve Intelligence</div>
+        <div style="font-size:0.62rem; color:rgba(255,255,255,0.7); text-transform:uppercase; letter-spacing:0.08em;">Client Branded</div>
+      </div>
+      <div style="padding:1rem 1.2rem;">
+        <div style="font-weight:700; font-size:0.82rem; margin-bottom:0.4rem;">Pharma Risk Intelligence</div>
+        <div style="font-size:0.72rem; color:var(--muted); line-height:1.6; margin-bottom:0.6rem;">Warm burgundy and peach palette. Softer corporate tone for a client that wants intelligence that feels approachable rather than urgent. Same engine, third visual identity from one data source.</div>
+        <div class="prod-cta" style="font-size:0.65rem; color:var(--teal); font-weight:600;">View report &rarr;</div>
+      </div>
+    </a>
+
+    <a href="https://noah-edge.com/client-reports/zinc/system-strain-2026-02-17.html" class="prod-card">
+      <div style="background:#1a2332; padding:0.7rem 1.2rem;">
+        <div style="font-family:'Montserrat',sans-serif; font-weight:800; font-size:0.85rem; color:#fff; letter-spacing:0.02em;">Zinc Defence</div>
+        <div style="font-size:0.62rem; color:rgba(255,255,255,0.7); text-transform:uppercase; letter-spacing:0.08em;">Defence &amp; Security</div>
+      </div>
+      <div style="padding:1rem 1.2rem;">
+        <div style="font-weight:700; font-size:0.82rem; margin-bottom:0.4rem;">System Strain Analysis</div>
+        <div style="font-size:0.72rem; color:var(--muted); line-height:1.6; margin-bottom:0.6rem;">Structural pressure mapping for defence and national security clients. Identifies where systems are under strain before they break. Dark, authoritative design for FCDO-adjacent audiences.</div>
+        <div class="prod-cta" style="font-size:0.65rem; color:var(--teal); font-weight:600;">View report &rarr;</div>
+      </div>
+    </a>
+
+    <a href="https://noah-edge.com/client-reports/zinc/battlefield-2026-02-16.html" class="prod-card">
+      <div style="background:#1a2332; padding:0.7rem 1.2rem;">
+        <div style="font-family:'Montserrat',sans-serif; font-weight:800; font-size:0.85rem; color:#fff; letter-spacing:0.02em;">Zinc Defence</div>
+        <div style="font-size:0.62rem; color:rgba(255,255,255,0.7); text-transform:uppercase; letter-spacing:0.08em;">Defence &amp; Security</div>
+      </div>
+      <div style="padding:1rem 1.2rem;">
+        <div style="font-weight:700; font-size:0.82rem; margin-bottom:0.4rem;">Battlefield Intelligence</div>
+        <div style="font-size:0.72rem; color:var(--muted); line-height:1.6; margin-bottom:0.6rem;">Operational theatre assessment. Tracks conflict developments, force positioning, and escalation signals. Same Zinc branding, different intelligence question &mdash; demonstrating product range from one client relationship.</div>
+        <div class="prod-cta" style="font-size:0.65rem; color:var(--teal); font-weight:600;">View report &rarr;</div>
+      </div>
+    </a>
+
+    <a href="https://noah-edge.com/client-reports/william-reed/trend-probability-2026-02-17.html" class="prod-card">
+      <div style="background:var(--teal); padding:0.7rem 1.2rem;">
+        <div style="font-family:'Montserrat',sans-serif; font-weight:800; font-size:0.85rem; color:#fff; letter-spacing:0.02em;">RFA Series</div>
+        <div style="font-size:0.62rem; color:rgba(255,255,255,0.7); text-transform:uppercase; letter-spacing:0.08em;">Cyber &amp; Risk</div>
+      </div>
+      <div style="padding:1rem 1.2rem;">
+        <div style="font-weight:700; font-size:0.82rem; margin-bottom:0.4rem;">Ransomware Trend &amp; Probability</div>
+        <div style="font-size:0.72rem; color:var(--muted); line-height:1.6; margin-bottom:0.6rem;">Probability-scored ransomware threat intelligence. Which sectors are being targeted, which attack vectors are trending, and what the probability landscape looks like for the next 30 days.</div>
+        <div class="prod-cta" style="font-size:0.65rem; color:var(--teal); font-weight:600;">View report &rarr;</div>
+      </div>
+    </a>
+
+    <a href="https://noah-edge.com/client-reports/william-reed/hedge-fund-2026-02-17.html" class="prod-card">
+      <div style="background:var(--teal); padding:0.7rem 1.2rem;">
+        <div style="font-family:'Montserrat',sans-serif; font-weight:800; font-size:0.85rem; color:#fff; letter-spacing:0.02em;">RFA Series</div>
+        <div style="font-size:0.62rem; color:rgba(255,255,255,0.7); text-transform:uppercase; letter-spacing:0.08em;">Financial Intelligence</div>
+      </div>
+      <div style="padding:1rem 1.2rem;">
+        <div style="font-weight:700; font-size:0.82rem; margin-bottom:0.4rem;">Hedge Fund &mdash; Asymmetry &amp; Propagation</div>
+        <div style="font-size:0.72rem; color:var(--muted); line-height:1.6; margin-bottom:0.6rem;">Information asymmetry detection for fund managers. Identifies where the market hasn&rsquo;t caught up with the narrative, scores propagation velocity, and flags directional opportunities before they reach Bloomberg.</div>
+        <div class="prod-cta" style="font-size:0.65rem; color:var(--teal); font-weight:600;">View report &rarr;</div>
+      </div>
+    </a>
+
+    <a href="https://noah-edge.com/client-reports/william-reed/risk-outlook-2026-02-17.html" class="prod-card">
+      <div style="background:var(--teal); padding:0.7rem 1.2rem;">
+        <div style="font-family:'Montserrat',sans-serif; font-weight:800; font-size:0.85rem; color:#fff; letter-spacing:0.02em;">RFA Series</div>
+        <div style="font-size:0.62rem; color:rgba(255,255,255,0.7); text-transform:uppercase; letter-spacing:0.08em;">Insurance</div>
+      </div>
+      <div style="padding:1rem 1.2rem;">
+        <div style="font-weight:700; font-size:0.82rem; margin-bottom:0.4rem;">Insurance Risk Outlook</div>
+        <div style="font-size:0.72rem; color:var(--muted); line-height:1.6; margin-bottom:0.6rem;">Daily risk landscape for insurance underwriters. Emerging liability trends, catastrophe signals, and regulatory shifts that will hit loss ratios before they show up in claims data.</div>
+        <div class="prod-cta" style="font-size:0.65rem; color:var(--teal); font-weight:600;">View report &rarr;</div>
+      </div>
+    </a>
+
+    <a href="https://noah-edge.com/client-reports/william-reed/market-intelligence-2026-02-17.html" class="prod-card">
+      <div style="background:var(--teal); padding:0.7rem 1.2rem;">
+        <div style="font-family:'Montserrat',sans-serif; font-weight:800; font-size:0.85rem; color:#fff; letter-spacing:0.02em;">RFA Series</div>
+        <div style="font-size:0.62rem; color:rgba(255,255,255,0.7); text-transform:uppercase; letter-spacing:0.08em;">Market Intelligence</div>
+      </div>
+      <div style="padding:1rem 1.2rem;">
+        <div style="font-weight:700; font-size:0.82rem; margin-bottom:0.4rem;">Daily Market Briefing</div>
+        <div style="font-size:0.72rem; color:var(--muted); line-height:1.6; margin-bottom:0.6rem;">Morning intelligence briefing for portfolio managers. What happened overnight, what&rsquo;s moving pre-market, and what the signal engine is detecting across equities, commodities, and geopolitics.</div>
+        <div class="prod-cta" style="font-size:0.65rem; color:var(--teal); font-weight:600;">View report &rarr;</div>
+      </div>
+    </a>
+
+    <a href="https://noah-edge.com/client-reports/cardew/media-monitoring-2026-02-15.html#evidence" class="prod-card">
+      <div style="background:#d97706; padding:0.7rem 1.2rem;">
+        <div style="font-family:'Montserrat',sans-serif; font-weight:800; font-size:0.85rem; color:#fff; letter-spacing:0.02em;">Cardew</div>
+        <div style="font-size:0.62rem; color:rgba(255,255,255,0.7); text-transform:uppercase; letter-spacing:0.08em;">PR &amp; Communications</div>
+      </div>
+      <div style="padding:1rem 1.2rem;">
+        <div style="font-weight:700; font-size:0.82rem; margin-bottom:0.4rem;">Media Monitoring</div>
+        <div style="font-size:0.72rem; color:var(--muted); line-height:1.6; margin-bottom:0.6rem;">Real-time media monitoring for a PR agency. Tracks client mentions, sentiment shifts, and emerging stories across news, social, and broadcast. Evidence-linked so comms teams can respond with sources.</div>
+        <div class="prod-cta" style="font-size:0.65rem; color:var(--teal); font-weight:600;">View report &rarr;</div>
+      </div>
+    </a>
+
+    <a href="https://noah-edge.com/client-reports/cardew/market-intelligence-2026-02-18.html" class="prod-card">
+      <div style="background:#d97706; padding:0.7rem 1.2rem;">
+        <div style="font-family:'Montserrat',sans-serif; font-weight:800; font-size:0.85rem; color:#fff; letter-spacing:0.02em;">Cardew</div>
+        <div style="font-size:0.62rem; color:rgba(255,255,255,0.7); text-transform:uppercase; letter-spacing:0.08em;">PR &amp; Communications</div>
+      </div>
+      <div style="padding:1rem 1.2rem;">
+        <div style="font-weight:700; font-size:0.82rem; margin-bottom:0.4rem;">Market Intelligence</div>
+        <div style="font-size:0.72rem; color:var(--muted); line-height:1.6; margin-bottom:0.6rem;">Market context for communications advisors. What&rsquo;s moving in the sectors their clients operate in, so they can brief CEOs before the FT calls.</div>
+        <div class="prod-cta" style="font-size:0.65rem; color:var(--teal); font-weight:600;">View report &rarr;</div>
+      </div>
+    </a>
+
+    <a href="https://noah-edge.com/client-reports/freuds/market-intelligence-2026-02-18.html" class="prod-card">
+      <div style="background:#6b21a8; padding:0.7rem 1.2rem;">
+        <div style="font-family:'Montserrat',sans-serif; font-weight:800; font-size:0.85rem; color:#fff; letter-spacing:0.02em;">Freuds</div>
+        <div style="font-size:0.62rem; color:rgba(255,255,255,0.7); text-transform:uppercase; letter-spacing:0.08em;">PR &amp; Communications</div>
+      </div>
+      <div style="padding:1rem 1.2rem;">
+        <div style="font-weight:700; font-size:0.82rem; margin-bottom:0.4rem;">Market Intelligence</div>
+        <div style="font-size:0.72rem; color:var(--muted); line-height:1.6; margin-bottom:0.6rem;">Daily market intelligence for one of London&rsquo;s most influential PR firms. Sector movements, narrative shifts, and emerging stories that will shape the news cycle their clients care about.</div>
+        <div class="prod-cta" style="font-size:0.65rem; color:var(--teal); font-weight:600;">View report &rarr;</div>
+      </div>
+    </a>
+
+    <a href="https://noah-edge.com/client-reports/freuds/media-monitoring-2026-02-15.html" class="prod-card">
+      <div style="background:#6b21a8; padding:0.7rem 1.2rem;">
+        <div style="font-family:'Montserrat',sans-serif; font-weight:800; font-size:0.85rem; color:#fff; letter-spacing:0.02em;">Freuds</div>
+        <div style="font-size:0.62rem; color:rgba(255,255,255,0.7); text-transform:uppercase; letter-spacing:0.08em;">PR &amp; Communications</div>
+      </div>
+      <div style="padding:1rem 1.2rem;">
+        <div style="font-weight:700; font-size:0.82rem; margin-bottom:0.4rem;">Media Monitoring</div>
+        <div style="font-size:0.72rem; color:var(--muted); line-height:1.6; margin-bottom:0.6rem;">Automated media monitoring with narrative intelligence. Goes beyond clip counting &mdash; understands sentiment direction, identifies emerging threat narratives, and flags stories before they snowball.</div>
+        <div class="prod-cta" style="font-size:0.65rem; color:var(--teal); font-weight:600;">View report &rarr;</div>
+      </div>
+    </a>
+
+    <a href="https://noah-edge.com/client-reports/teneo/media-monitoring-biffa-2026-02-15.html" class="prod-card">
+      <div style="background:#059669; padding:0.7rem 1.2rem;">
+        <div style="font-family:'Montserrat',sans-serif; font-weight:800; font-size:0.85rem; color:#fff; letter-spacing:0.02em;">Teneo</div>
+        <div style="font-size:0.62rem; color:rgba(255,255,255,0.7); text-transform:uppercase; letter-spacing:0.08em;">Strategic Advisory</div>
+      </div>
+      <div style="padding:1rem 1.2rem;">
+        <div style="font-weight:700; font-size:0.82rem; margin-bottom:0.4rem;">Media Monitoring &mdash; Biffa</div>
+        <div style="font-size:0.72rem; color:var(--muted); line-height:1.6; margin-bottom:0.6rem;">Single-company media intelligence for a strategic advisory firm. Everything being said about one client, across all channels, scored for sentiment and reach. Demonstrates how intelligence narrows from sector to company.</div>
+        <div class="prod-cta" style="font-size:0.65rem; color:var(--teal); font-weight:600;">View report &rarr;</div>
+      </div>
+    </a>
+
+    <a href="https://ftsbriefing.makes.news/view/699a2380a387c84262e7ff3c" class="prod-card">
+      <div style="background:var(--ink); padding:0.7rem 1.2rem;">
+        <div style="font-family:'Montserrat',sans-serif; font-weight:800; font-size:0.85rem; color:#fff; letter-spacing:0.02em;">FTS Briefing</div>
+        <div style="font-size:0.62rem; color:rgba(255,255,255,0.7); text-transform:uppercase; letter-spacing:0.08em;">Live Intelligence</div>
+      </div>
+      <div style="padding:1rem 1.2rem;">
+        <div style="font-weight:700; font-size:0.82rem; margin-bottom:0.4rem;">Live Intelligence Briefing</div>
+        <div style="font-size:0.72rem; color:var(--muted); line-height:1.6; margin-bottom:0.6rem;">Real-time intelligence feed delivered via Noah Wire. Continuously updated, no PDF, no email &mdash; a living document that changes as the intelligence changes. The future of how briefings should work.</div>
+        <div class="prod-cta" style="font-size:0.65rem; color:var(--teal); font-weight:600;">View live briefing &rarr;</div>
+      </div>
+    </a>
+
+    <a href="https://www.noahwire.com" class="prod-card">
+      <div style="background:#374151; padding:0.7rem 1.2rem;">
+        <div style="font-family:'Montserrat',sans-serif; font-weight:800; font-size:0.85rem; color:#fff; letter-spacing:0.02em;">Noah Wire</div>
+        <div style="font-size:0.62rem; color:rgba(255,255,255,0.7); text-transform:uppercase; letter-spacing:0.08em;">Platform</div>
+      </div>
+      <div style="padding:1rem 1.2rem;">
+        <div style="font-weight:700; font-size:0.82rem; margin-bottom:0.4rem;">Signal Distribution Engine</div>
+        <div style="font-size:0.72rem; color:var(--muted); line-height:1.6; margin-bottom:0.6rem;">The RSS-powered intelligence platform behind every product on this page. Ingests raw signals, runs them through narrative analysis, and delivers branded intelligence to any endpoint &mdash; email, dashboard, or live feed.</div>
+        <div class="prod-cta" style="font-size:0.65rem; color:var(--teal); font-weight:600;">Visit noahwire.com &rarr;</div>
+      </div>
+    </a>
+
+    <a href="https://www.noahwire.com" class="prod-card">
+      <div style="background:#1e3a5f; padding:0.7rem 1.2rem;">
+        <div style="font-family:'Montserrat',sans-serif; font-weight:800; font-size:0.85rem; color:#fff; letter-spacing:0.02em;">Sovereign Signal</div>
+        <div style="font-size:0.62rem; color:rgba(255,255,255,0.7); text-transform:uppercase; letter-spacing:0.08em;">National Security</div>
+      </div>
+      <div style="padding:1rem 1.2rem;">
+        <div style="font-weight:700; font-size:0.82rem; margin-bottom:0.4rem;">UK National Standing Dashboard</div>
+        <div style="font-size:0.72rem; color:var(--muted); line-height:1.6; margin-bottom:0.6rem;">Daily intelligence dashboard scoring UK standing across 5 pillars: soft power, defence credibility, economic leadership, diplomatic weight, and systemic trust. Built for FCDO-adjacent audiences and strategic advisory.</div>
+        <div class="prod-cta" style="font-size:0.65rem; color:var(--teal); font-weight:600;">Learn more &rarr;</div>
+      </div>
+    </a>
+
+    <a href="https://www.noahwire.com" class="prod-card">
+      <div style="background:#4a5568; padding:0.7rem 1.2rem;">
+        <div style="font-family:'Montserrat',sans-serif; font-weight:800; font-size:0.85rem; color:#fff; letter-spacing:0.02em;">Business Signal</div>
+        <div style="font-size:0.62rem; color:rgba(255,255,255,0.7); text-transform:uppercase; letter-spacing:0.08em;">Corporate Intelligence</div>
+      </div>
+      <div style="padding:1rem 1.2rem;">
+        <div style="font-weight:700; font-size:0.82rem; margin-bottom:0.4rem;">Company Intelligence Dashboards</div>
+        <div style="font-size:0.72rem; color:var(--muted); line-height:1.6; margin-bottom:0.6rem;">Automated daily company intelligence. Competitive moves, regulatory signals, market sentiment, and strategic indicators &mdash; all scored and delivered before your team starts reading the news.</div>
+        <div class="prod-cta" style="font-size:0.65rem; color:var(--teal); font-weight:600;">Learn more &rarr;</div>
+      </div>
+    </a>
+
   </div>
 </div>
 
