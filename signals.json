@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-03-03T03:46:05Z",
+  "generated_at": "2026-03-03T04:17:40Z",
   "total_signals": 179,
   "signals": [
     {
@@ -727,7 +727,7 @@
       "edge_type": "CONSENSUS",
       "rating": "A",
       "entry_price": 0.82,
-      "current_price": 0.9415,
+      "current_price": 0.944,
       "pnl_pct": -0.6,
       "status": "CLOSED",
       "state": "EXITED",
@@ -744,7 +744,7 @@
       "edge_type": "CONSENSUS",
       "rating": "A",
       "entry_price": 0.9385,
-      "current_price": 0.935,
+      "current_price": 0.9355,
       "pnl_pct": -0.6,
       "status": "CLOSED",
       "state": "EXITED",
@@ -880,7 +880,7 @@
       "edge_type": "CONSENSUS",
       "rating": "A",
       "entry_price": 0.19,
-      "current_price": 0.595,
+      "current_price": 0.615,
       "pnl_pct": -7.9,
       "status": "CLOSED",
       "state": "EXITED",
