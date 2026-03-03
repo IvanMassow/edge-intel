@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-03-03T20:40:57Z",
+  "generated_at": "2026-03-03T21:12:40Z",
   "total_signals": 182,
   "signals": [
     {
@@ -608,8 +608,8 @@
       "edge_type": "CONSENSUS",
       "rating": "A",
       "entry_price": 0.85,
-      "current_price": 0.85,
-      "pnl_pct": 0.0,
+      "current_price": 0.855,
+      "pnl_pct": 0.6,
       "status": "OPEN",
       "state": "ACTIVE",
       "edge_points": 4.0
