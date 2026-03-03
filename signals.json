@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-03-03T00:04:30Z",
+  "generated_at": "2026-03-03T00:36:16Z",
   "total_signals": 179,
   "signals": [
     {
@@ -200,7 +200,7 @@
       "edge_type": "CONSENSUS",
       "rating": "A",
       "entry_price": 0.195,
-      "current_price": 0.14,
+      "current_price": 0.13,
       "pnl_pct": 35.9,
       "status": "CLOSED",
       "state": "EXITED",
@@ -608,14 +608,31 @@
       "edge_type": "CONSENSUS",
       "rating": "B",
       "entry_price": 0.255,
-      "current_price": 0.255,
-      "pnl_pct": 0.0,
+      "current_price": 0.26,
+      "pnl_pct": 2.0,
       "status": "OPEN",
       "state": "ACTIVE",
       "edge_points": 5.0
     },
     {
       "signal_id": "NE-POLY-0037",
+      "source": "polyhunter",
+      "asset": "Will monthly inflation increase by 0.4% or more in February?",
+      "ticker": null,
+      "asset_type": "prediction_market",
+      "direction": "higher",
+      "conviction": null,
+      "edge_type": "CONSENSUS",
+      "rating": "B",
+      "entry_price": 0.125,
+      "current_price": 0.125,
+      "pnl_pct": 0.0,
+      "status": "OPEN",
+      "state": "ACTIVE",
+      "edge_points": 5.0
+    },
+    {
+      "signal_id": "NE-POLY-0038",
       "source": "polyhunter",
       "asset": "Will there be no change in Fed interest rates after the Apri",
       "ticker": null,
@@ -630,23 +647,6 @@
       "status": "OPEN",
       "state": "ACTIVE",
       "edge_points": 4.0
-    },
-    {
-      "signal_id": "NE-POLY-0038",
-      "source": "polyhunter",
-      "asset": "Will monthly inflation increase by 0.4% or more in February?",
-      "ticker": null,
-      "asset_type": "prediction_market",
-      "direction": "higher",
-      "conviction": null,
-      "edge_type": "CONSENSUS",
-      "rating": "B",
-      "entry_price": 0.125,
-      "current_price": 0.12,
-      "pnl_pct": -4.0,
-      "status": "OPEN",
-      "state": "ACTIVE",
-      "edge_points": 5.0
     },
     {
       "signal_id": "NE-POLY-0039",
