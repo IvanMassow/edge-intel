@@ -26,8 +26,8 @@
   --off:     #F7F7F5;
   --ink:     #1A1A1A;
   --ink-soft: #2D3748;
-  --muted:   #6B7280;
-  --light:   #9CA3AF;
+  --muted:   #4B5563;
+  --light:   #6B7280;
   --rule:    #E5E5E5;
   --teal:    #0d7680;
   --teal-dark: #0a5c64;
@@ -61,7 +61,7 @@ img { display: block; max-width: 100%; }
 .site-header { padding: 1.2rem 2rem 0.8rem; display: flex; align-items: center; justify-content: space-between; max-width: var(--max-width); margin: 0 auto; }
 .brand { display: flex; align-items: baseline; gap: 0.4rem; }
 .brand-noah { font-family: 'Montserrat', sans-serif; font-weight: 800; font-size: 1.5rem; letter-spacing: 0.12em; }
-.brand-edge { font-family: 'Lato', sans-serif; font-weight: 300; font-size: 1.45rem; letter-spacing: 0.04em; color: var(--muted); }
+.brand-edge { font-family: 'Lato', sans-serif; font-weight: 400; font-size: 1.45rem; letter-spacing: 0.04em; color: var(--muted); }
 .header-nav { display: flex; align-items: center; gap: 1.5rem; }
 .header-nav a { font-size: 0.72rem; color: var(--muted); letter-spacing: 0.04em; }
 .header-nav a:hover { color: var(--teal); }
@@ -70,7 +70,7 @@ img { display: block; max-width: 100%; }
 
 /* -- STRAPLINE -- */
 .strapline { max-width: var(--max-width); margin: 0 auto; padding: 0.7rem 2rem; display: flex; justify-content: space-between; align-items: baseline; border-bottom: 1px solid var(--rule); }
-.strapline-text { font-size: 0.72rem; font-style: italic; color: var(--muted); font-weight: 300; }
+.strapline-text { font-size: 0.72rem; font-style: italic; color: var(--muted); font-weight: 400; }
 .strapline-text strong { font-weight: 700; font-style: normal; color: var(--teal); }
 .strapline-date { font-size: 0.72rem; color: var(--light); }
 
@@ -79,7 +79,7 @@ img { display: block; max-width: 100%; }
 .index-strip-inner { max-width: var(--max-width); margin: 0 auto; display: flex; align-items: center; justify-content: space-between; }
 .index-name { display: flex; align-items: baseline; gap: 0.8rem; }
 .index-title { font-family: 'Montserrat', sans-serif; font-weight: 800; font-size: 0.72rem; letter-spacing: 0.14em; text-transform: uppercase; color: rgba(255,255,255,0.55); }
-.index-live { font-size: 0.58rem; font-weight: 700; letter-spacing: 0.08em; text-transform: uppercase; color: #22c55e; display: inline-flex; align-items: center; gap: 0.3rem; }
+.index-live { font-size: 0.7rem; font-weight: 700; letter-spacing: 0.08em; text-transform: uppercase; color: #22c55e; display: inline-flex; align-items: center; gap: 0.3rem; }
 .index-live .pulse { width: 6px; height: 6px; border-radius: 50%; background: #22c55e; animation: pulse-glow 2s ease-in-out infinite; }
 @keyframes pulse-glow { 0%,100% { opacity: 1; } 50% { opacity: 0.3; } }
 .index-scores { display: flex; gap: 2.5rem; }
@@ -87,13 +87,13 @@ img { display: block; max-width: 100%; }
 .index-stat-number { font-weight: 700; font-size: 1.15rem; line-height: 1; color: var(--white); }
 .index-stat-number.accent { color: #22c55e; }
 .index-stat-number .unit { font-size: 0.7rem; font-weight: 400; }
-.index-stat-label { font-size: 0.54rem; font-weight: 700; letter-spacing: 0.08em; text-transform: uppercase; color: rgba(255,255,255,0.4); margin-top: 0.2rem; }
-.index-link { font-size: 0.68rem; color: rgba(255,255,255,0.5); font-weight: 400; }
+.index-stat-label { font-size: 0.72rem; font-weight: 700; letter-spacing: 0.08em; text-transform: uppercase; color: rgba(255,255,255,0.65); margin-top: 0.2rem; }
+.index-link { font-size: 0.76rem; color: rgba(255,255,255,0.5); font-weight: 400; }
 .index-link:hover { color: var(--white); }
 
 /* -- CONTENT -- */
 .content { max-width: var(--max-width); margin: 0 auto; padding: 0 2rem; }
-.section-label { font-size: 0.68rem; font-weight: 700; letter-spacing: 0.14em; text-transform: uppercase; color: var(--ink); }
+.section-label { font-size: 0.76rem; font-weight: 700; letter-spacing: 0.14em; text-transform: uppercase; color: var(--ink); }
 .section-rule { border: none; border-top: 1px solid var(--rule); }
 .section-rule-heavy { border: none; border-top: 2px solid var(--ink); }
 .section-header { display: flex; justify-content: space-between; align-items: baseline; padding: 1.5rem 0 0.8rem; }
@@ -105,36 +105,36 @@ img { display: block; max-width: 100%; }
 .hero-image-wrap img { width: 100%; height: 360px; object-fit: cover; }
 .hero-badge { position: absolute; top: 0; left: 0; background: var(--teal); color: white; font-size: 0.6rem; font-weight: 700; letter-spacing: 0.1em; text-transform: uppercase; padding: 0.35rem 0.75rem; }
 .hero-headline { font-weight: 900; font-size: 1.6rem; line-height: 1.2; margin-bottom: 0.6rem; }
-.hero-deck { font-size: 0.92rem; font-weight: 300; line-height: 1.65; color: var(--muted); margin-bottom: 0.7rem; }
+.hero-deck { font-size: 0.92rem; font-weight: 400; line-height: 1.65; color: var(--muted); margin-bottom: 0.7rem; }
 .hero-meta { font-size: 0.72rem; color: var(--light); display: flex; align-items: center; gap: 0.6rem; }
 .hero-meta .dot { width: 3px; height: 3px; background: var(--light); border-radius: 50%; }
 
 /* -- SIDEBAR -- */
 .sidebar { border-left: 1px solid var(--rule); padding-left: 2rem; }
-.sidebar-label { font-size: 0.68rem; font-weight: 700; letter-spacing: 0.14em; text-transform: uppercase; margin-bottom: 1rem; padding-bottom: 0.5rem; border-bottom: 1px solid var(--rule); }
+.sidebar-label { font-size: 0.76rem; font-weight: 700; letter-spacing: 0.14em; text-transform: uppercase; margin-bottom: 1rem; padding-bottom: 0.5rem; border-bottom: 1px solid var(--rule); }
 .sidebar-item { padding: 0.8rem 0; border-bottom: 1px solid var(--rule); }
 .sidebar-item:last-child { border-bottom: none; }
-.sidebar-tag { display: inline-block; font-size: 0.56rem; font-weight: 700; letter-spacing: 0.08em; text-transform: uppercase; padding: 0.12rem 0.45rem; border-radius: 2px; margin-bottom: 0.3rem; }
+.sidebar-tag { display: inline-block; font-size: 0.76rem; font-weight: 700; letter-spacing: 0.08em; text-transform: uppercase; padding: 0.12rem 0.45rem; border-radius: 2px; margin-bottom: 0.3rem; }
 .sidebar-tag.poly { background: var(--teal-light); color: var(--teal); }
 .sidebar-tag.market { background: var(--indigo-light); color: var(--indigo); }
 .sidebar-tag.regulation { background: var(--amber-light); color: var(--amber); }
 .sidebar-headline { font-weight: 700; font-size: 0.82rem; line-height: 1.35; margin-bottom: 0.2rem; }
-.sidebar-summary { font-size: 0.74rem; font-weight: 300; line-height: 1.5; color: var(--muted); }
-.sidebar-time { font-size: 0.64rem; color: var(--light); margin-top: 0.25rem; }
+.sidebar-summary { font-size: 0.74rem; font-weight: 400; line-height: 1.5; color: var(--muted); }
+.sidebar-time { font-size: 0.72rem; color: var(--light); margin-top: 0.25rem; }
 
 /* -- HERO SECONDARY STORY -- */
 .hero-secondary { margin-top: 1.5rem; padding-top: 1.5rem; border-top: 1px solid var(--rule); }
 .hero-secondary-headline { font-weight: 700; font-size: 1.05rem; line-height: 1.35; margin: 0.4rem 0 0.5rem; }
 .hero-secondary-headline a { color: var(--ink); text-decoration: none; }
 .hero-secondary-headline a:hover { color: var(--teal); }
-.hero-secondary-deck { font-size: 0.82rem; font-weight: 300; line-height: 1.6; color: var(--muted); margin-bottom: 0.5rem; }
+.hero-secondary-deck { font-size: 0.82rem; font-weight: 400; line-height: 1.6; color: var(--muted); margin-bottom: 0.5rem; }
 
 /* -- STORY CARDS -- */
 .stories-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 2rem; padding: 1.2rem 0 2rem; }
 .story-card-image { width: 100%; height: 175px; object-fit: cover; margin-bottom: 0.8rem; }
 .story-card-headline { font-weight: 700; font-size: 0.88rem; line-height: 1.35; margin-bottom: 0.35rem; }
-.story-card-summary { font-size: 0.78rem; font-weight: 300; line-height: 1.55; color: var(--muted); margin-bottom: 0.35rem; }
-.story-card-meta { font-size: 0.64rem; color: var(--light); }
+.story-card-summary { font-size: 0.78rem; font-weight: 400; line-height: 1.55; color: var(--muted); margin-bottom: 0.35rem; }
+.story-card-meta { font-size: 0.72rem; color: var(--light); }
 
 /* -- POSITION DISCLOSURE BANNER -- */
 .disclosure-banner { background: var(--teal-mist); border-left: 3px solid var(--teal); padding: 0.7rem 1rem; margin: 0.5rem 0 1.5rem; font-size: 0.75rem; color: var(--ink-soft); font-style: italic; line-height: 1.5; }
@@ -144,31 +144,31 @@ img { display: block; max-width: 100%; }
 .reports-strip { padding: 1rem 0 2rem; }
 .report-cards { display: grid; grid-template-columns: repeat(3, 1fr); gap: 1.5rem; margin-top: 1rem; }
 .report-card { border: 1px solid var(--rule); padding: 1.2rem; border-top: 3px solid var(--teal); }
-.report-card-label { font-size: 0.58rem; font-weight: 700; letter-spacing: 0.1em; text-transform: uppercase; color: var(--teal); margin-bottom: 0.4rem; }
+.report-card-label { font-size: 0.7rem; font-weight: 700; letter-spacing: 0.1em; text-transform: uppercase; color: var(--teal); margin-bottom: 0.4rem; }
 .report-card-title { font-weight: 700; font-size: 0.88rem; line-height: 1.3; margin-bottom: 0.5rem; }
 .report-card-stats { display: flex; gap: 1rem; margin-bottom: 0.5rem; }
 .report-stat { text-align: center; }
 .report-stat-number { font-weight: 900; font-size: 1.1rem; line-height: 1; }
 .report-stat-number.green { color: var(--green); }
 .report-stat-number.red { color: var(--red); }
-.report-stat-label { font-size: 0.56rem; font-weight: 700; letter-spacing: 0.06em; text-transform: uppercase; color: var(--light); }
-.report-card-summary { font-size: 0.76rem; font-weight: 300; line-height: 1.5; color: var(--muted); margin-bottom: 0.5rem; }
+.report-stat-label { font-size: 0.76rem; font-weight: 700; letter-spacing: 0.06em; text-transform: uppercase; color: var(--light); }
+.report-card-summary { font-size: 0.76rem; font-weight: 400; line-height: 1.5; color: var(--muted); margin-bottom: 0.5rem; }
 .report-card-link { font-size: 0.72rem; font-weight: 700; color: var(--teal); }
 
 /* -- HOUSE AD -- */
 .house-ad { background: var(--off); padding: 1.5rem 2rem; margin: 0; text-align: center; }
 .house-ad-inner { max-width: var(--max-width); margin: 0 auto; }
-.house-ad-text { font-size: 0.88rem; font-style: italic; font-weight: 300; color: var(--ink-soft); line-height: 1.6; }
+.house-ad-text { font-size: 0.88rem; font-style: italic; font-weight: 400; color: var(--ink-soft); line-height: 1.6; }
 .house-ad-text strong { font-weight: 700; font-style: normal; }
 .house-ad-link { display: inline-block; margin-top: 0.5rem; font-size: 0.72rem; font-weight: 700; color: var(--teal); letter-spacing: 0.04em; font-style: normal; }
-.house-ad-tagline { max-width: var(--max-width); margin: 0 auto; padding: 1rem 2rem; text-align: center; font-size: 0.78rem; font-style: italic; font-weight: 300; color: var(--light); border-top: 1px solid var(--rule); border-bottom: 1px solid var(--rule); }
+.house-ad-tagline { max-width: var(--max-width); margin: 0 auto; padding: 1rem 2rem; text-align: center; font-size: 0.78rem; font-style: italic; font-weight: 400; color: var(--light); border-top: 1px solid var(--rule); border-bottom: 1px solid var(--rule); }
 .house-ad-tagline a { color: var(--teal); font-weight: 700; font-style: normal; }
 
 /* -- EDITORS NOTES -- */
 .editors-notes { max-width: var(--max-width); margin: 0 auto; padding: 2rem 2rem; }
 .editors-notes-box { border: 1px solid var(--rule); padding: 1.5rem 1.8rem; background: var(--white); }
-.editors-notes-label { font-size: 0.68rem; font-weight: 700; letter-spacing: 0.14em; text-transform: uppercase; color: var(--teal); margin-bottom: 0.8rem; padding-bottom: 0.5rem; border-bottom: 1px solid var(--rule); }
-.editors-notes-text { font-size: 0.88rem; font-weight: 300; line-height: 1.75; color: var(--ink-soft); }
+.editors-notes-label { font-size: 0.76rem; font-weight: 700; letter-spacing: 0.14em; text-transform: uppercase; color: var(--teal); margin-bottom: 0.8rem; padding-bottom: 0.5rem; border-bottom: 1px solid var(--rule); }
+.editors-notes-text { font-size: 0.88rem; font-weight: 400; line-height: 1.75; color: var(--ink-soft); }
 .editors-notes-text p { margin-bottom: 0.8rem; }
 .editors-notes-text p:last-child { margin-bottom: 0; }
 .editors-notes-sig { margin-top: 0.8rem; font-size: 0.78rem; font-weight: 700; color: var(--ink); }
@@ -177,10 +177,10 @@ img { display: block; max-width: 100%; }
 .tips-section { padding: 0 0 2rem; }
 .tips-list { margin-top: 1rem; }
 .tip-item { padding: 1rem 0; border-bottom: 1px solid var(--rule); display: grid; grid-template-columns: 1fr auto; gap: 1.5rem; align-items: start; }
-.tip-tag { display: inline-block; font-size: 0.56rem; font-weight: 700; letter-spacing: 0.08em; text-transform: uppercase; padding: 0.12rem 0.45rem; border-radius: 2px; margin-bottom: 0.3rem; background: var(--off); color: var(--muted); }
+.tip-tag { display: inline-block; font-size: 0.76rem; font-weight: 700; letter-spacing: 0.08em; text-transform: uppercase; padding: 0.12rem 0.45rem; border-radius: 2px; margin-bottom: 0.3rem; background: var(--off); color: var(--muted); }
 .tip-title { font-weight: 700; font-size: 0.88rem; line-height: 1.3; margin-bottom: 0.25rem; }
-.tip-context { font-size: 0.78rem; font-weight: 300; line-height: 1.55; color: var(--muted); }
-.tip-meta { font-size: 0.64rem; color: var(--light); margin-top: 0.3rem; }
+.tip-context { font-size: 0.78rem; font-weight: 400; line-height: 1.55; color: var(--muted); }
+.tip-meta { font-size: 0.72rem; color: var(--light); margin-top: 0.3rem; }
 .tip-link { font-size: 0.72rem; font-weight: 700; color: var(--teal); white-space: nowrap; align-self: center; }
 
 /* Tip cards grid */
@@ -188,20 +188,20 @@ img { display: block; max-width: 100%; }
 .tip-card { background: var(--bg); border: 1px solid var(--rule); padding: 1.2rem; position: relative; transition: border-color 0.2s; }
 .tip-card:hover { border-color: var(--teal); }
 .tip-card-header { display: flex; align-items: center; gap: 0.5rem; margin-bottom: 0.6rem; flex-wrap: wrap; }
-.tip-sector-tag { font-size: 0.54rem; font-weight: 700; letter-spacing: 0.08em; text-transform: uppercase; padding: 0.12rem 0.4rem; border-radius: 2px; background: var(--off); color: var(--muted); }
+.tip-sector-tag { font-size: 0.72rem; font-weight: 700; letter-spacing: 0.08em; text-transform: uppercase; padding: 0.12rem 0.4rem; border-radius: 2px; background: var(--off); color: var(--muted); }
 .tip-dir-badge { font-size: 0.6rem; font-weight: 800; letter-spacing: 0.04em; padding: 0.15rem 0.5rem; border-radius: 2px; }
 .tip-dir-short { background: #fde8e8; color: #dc2626; }
 .tip-dir-long { background: #dcfce7; color: #16a34a; }
 .tip-dir-fade { background: #fef3c7; color: #d97706; }
 .tip-dir-mixed { background: var(--off); color: var(--muted); }
-.tip-ticker { font-size: 0.65rem; font-weight: 800; letter-spacing: 0.06em; color: var(--teal); font-family: 'Montserrat', sans-serif; margin-left: auto; }
+.tip-ticker { font-size: 0.72rem; font-weight: 800; letter-spacing: 0.06em; color: var(--teal); font-family: 'Montserrat', sans-serif; margin-left: auto; }
 .tip-card-headline { font-weight: 700; font-size: 0.84rem; line-height: 1.35; margin-bottom: 0.5rem; }
 .tip-card-headline a { color: var(--ink); text-decoration: none; }
 .tip-card-headline a:hover { color: var(--teal); }
-.tip-card-narrative { font-size: 0.74rem; font-weight: 300; line-height: 1.55; color: var(--muted); margin-bottom: 0.8rem; }
+.tip-card-narrative { font-size: 0.74rem; font-weight: 400; line-height: 1.55; color: var(--muted); margin-bottom: 0.8rem; }
 .tip-card-footer { display: flex; align-items: center; justify-content: space-between; gap: 0.5rem; }
 .tip-conviction-wrap { flex: 1; max-width: 140px; }
-.tip-conviction-label { font-size: 0.58rem; font-weight: 700; letter-spacing: 0.04em; color: var(--muted); }
+.tip-conviction-label { font-size: 0.7rem; font-weight: 700; letter-spacing: 0.04em; color: var(--muted); }
 .tip-conviction-bar { height: 4px; background: var(--rule); border-radius: 2px; margin-top: 0.2rem; overflow: hidden; }
 .tip-conviction-fill { height: 100%; border-radius: 2px; transition: width 0.3s; }
 .tip-conviction-fill.tip-dir-short { background: #dc2626; }
@@ -209,11 +209,11 @@ img { display: block; max-width: 100%; }
 .tip-conviction-fill.tip-dir-fade { background: #d97706; }
 .tip-conviction-fill.tip-dir-mixed { background: var(--muted); }
 .tip-card-badges { display: flex; gap: 0.35rem; align-items: center; }
-.tip-edge-badge { font-size: 0.52rem; font-weight: 700; letter-spacing: 0.06em; text-transform: uppercase; padding: 0.1rem 0.35rem; border-radius: 2px; }
+.tip-edge-badge { font-size: 0.72rem; font-weight: 700; letter-spacing: 0.06em; text-transform: uppercase; padding: 0.1rem 0.35rem; border-radius: 2px; }
 .tip-edge-high { background: var(--teal-light); color: var(--teal); }
 .tip-edge-decay { background: var(--amber-light); color: var(--amber); }
 .tip-edge-none { background: var(--off); color: var(--light); }
-.tip-action-badge { font-size: 0.52rem; font-weight: 700; letter-spacing: 0.06em; text-transform: uppercase; padding: 0.1rem 0.35rem; border-radius: 2px; }
+.tip-action-badge { font-size: 0.72rem; font-weight: 700; letter-spacing: 0.06em; text-transform: uppercase; padding: 0.1rem 0.35rem; border-radius: 2px; }
 .tip-action-trade { background: #dcfce7; color: #16a34a; }
 .tip-action-investigate { background: var(--indigo-light); color: var(--indigo); }
 .tip-action-avoid { background: #fde8e8; color: #dc2626; }
@@ -229,23 +229,23 @@ img { display: block; max-width: 100%; }
 .signal-asset a:hover { color: var(--teal); }
 .signal-pi { text-align: center; min-width: 50px; }
 .signal-pi-number { font-weight: 900; font-size: 1.5rem; line-height: 1; display: block; }
-.signal-pi-label { font-size: 0.5rem; font-weight: 700; letter-spacing: 0.1em; text-transform: uppercase; color: var(--light); }
+.signal-pi-label { font-size: 0.72rem; font-weight: 700; letter-spacing: 0.1em; text-transform: uppercase; color: var(--light); }
 .signal-pi-high .signal-pi-number { color: var(--teal); }
 .signal-pi-mid .signal-pi-number { color: var(--amber); }
 .signal-pi-low .signal-pi-number { color: var(--light); }
 .signal-status-row { display: flex; align-items: center; gap: 0.5rem; margin-bottom: 0.6rem; flex-wrap: wrap; }
-.signal-status-badge { font-size: 0.58rem; font-weight: 700; letter-spacing: 0.06em; text-transform: uppercase; padding: 0.15rem 0.5rem; border-radius: 2px; }
+.signal-status-badge { font-size: 0.7rem; font-weight: 700; letter-spacing: 0.06em; text-transform: uppercase; padding: 0.15rem 0.5rem; border-radius: 2px; }
 .signal-status-accel { background: var(--teal-light); color: var(--teal); }
 .signal-status-mixed { background: var(--off); color: var(--muted); }
 .signal-status-decel { background: #fde8e8; color: #dc2626; }
 .signal-direction { font-size: 0.7rem; color: var(--muted); }
-.signal-summary { font-size: 0.72rem; font-weight: 300; line-height: 1.55; color: var(--muted); margin-bottom: 0.5rem; }
-.signal-card-meta { font-size: 0.58rem; color: var(--light); }
-.section-note { font-size: 0.64rem; font-weight: 300; color: var(--light); font-style: italic; }
-.freshness { font-size: 0.65rem; font-weight: 400; color: var(--light); margin-left: auto; white-space: nowrap; }
+.signal-summary { font-size: 0.72rem; font-weight: 400; line-height: 1.55; color: var(--muted); margin-bottom: 0.5rem; }
+.signal-card-meta { font-size: 0.7rem; color: var(--light); }
+.section-note { font-size: 0.72rem; font-weight: 400; color: var(--light); font-style: italic; }
+.freshness { font-size: 0.72rem; font-weight: 400; color: var(--light); margin-left: auto; white-space: nowrap; }
 .freshness-stale { color: var(--amber); }
 .freshness-down { color: var(--red); }
-.index-stat-divider { color: rgba(255,255,255,0.2); font-size: 1.2rem; font-weight: 300; align-self: center; }
+.index-stat-divider { color: rgba(255,255,255,0.2); font-size: 1.2rem; font-weight: 400; align-self: center; }
 
 /* -- DROP CAP -- */
 .drop-cap { float: left; font-size: 3.5rem; line-height: 0.8; padding-right: 0.12em; padding-top: 0.08em; font-weight: 700; color: var(--teal); font-family: 'Montserrat', sans-serif; }
@@ -261,16 +261,16 @@ img { display: block; max-width: 100%; }
 .ops-status-down { color: var(--red); }
 .ops-card-stats { display: flex; flex-direction: column; gap: 0.4rem; }
 .ops-stat-row { display: flex; justify-content: space-between; font-size: 0.78rem; }
-.ops-stat-label { color: var(--muted); font-weight: 300; }
+.ops-stat-label { color: var(--muted); font-weight: 400; }
 .ops-stat-val { font-weight: 700; }
-.ops-updated { font-size: 0.68rem; color: var(--light); margin-top: 0.8rem; }
+.ops-updated { font-size: 0.76rem; color: var(--light); margin-top: 0.8rem; }
 
 /* -- LEDGER -- */
 .ledger-table { width: 100%; border-collapse: collapse; margin-bottom: 2rem; font-size: 0.78rem; }
 .ledger-table th { text-align: left; font-size: 0.62rem; font-weight: 700; letter-spacing: 0.1em; text-transform: uppercase; color: var(--muted); padding: 0.6rem 0.8rem; border-bottom: 2px solid var(--ink); }
 .ledger-table td { padding: 0.6rem 0.8rem; border-bottom: 1px solid var(--rule); vertical-align: top; }
 .ledger-table tr:hover { background: var(--off); }
-.ledger-source { font-size: 0.58rem; font-weight: 700; letter-spacing: 0.06em; text-transform: uppercase; padding: 0.1rem 0.35rem; border-radius: 2px; }
+.ledger-source { font-size: 0.7rem; font-weight: 700; letter-spacing: 0.06em; text-transform: uppercase; padding: 0.1rem 0.35rem; border-radius: 2px; }
 .ledger-source-poly { background: var(--teal-light); color: var(--teal); }
 .ledger-source-hf { background: var(--indigo-light); color: var(--indigo); }
 .ledger-source-cw { background: var(--amber-light); color: var(--amber); }
@@ -283,7 +283,7 @@ img { display: block; max-width: 100%; }
 .advantage-clock-legend { display: flex; flex-direction: column; gap: 0.4rem; }
 .advantage-legend-item { display: flex; align-items: center; gap: 0.5rem; font-size: 0.72rem; }
 .advantage-legend-swatch { width: 12px; height: 12px; border-radius: 2px; flex-shrink: 0; }
-.advantage-legend-label { color: var(--muted); font-weight: 300; }
+.advantage-legend-label { color: var(--muted); font-weight: 400; }
 .advantage-legend-val { font-weight: 700; margin-left: auto; }
 
 /* -- COMPANY WATCH -- */
@@ -291,16 +291,16 @@ img { display: block; max-width: 100%; }
 .cw-stock-card { background: var(--bg); border: 1px solid var(--rule); padding: 1rem; }
 .cw-stock-header { display: flex; align-items: baseline; gap: 0.5rem; margin-bottom: 0.5rem; flex-wrap: wrap; }
 .cw-ticker { font-weight: 900; font-size: 1rem; letter-spacing: 0.04em; color: var(--ink); }
-.cw-company { font-size: 0.7rem; color: var(--muted); font-weight: 300; }
+.cw-company { font-size: 0.7rem; color: var(--muted); font-weight: 400; }
 .cw-price { font-size: 0.7rem; color: var(--light); margin-left: auto; }
 .cw-stock-state { margin-bottom: 0.6rem; }
-.cw-state-badge { display: inline-block; font-size: 0.55rem; font-weight: 700; letter-spacing: 0.08em; text-transform: uppercase; padding: 0.12rem 0.4rem; border-radius: 2px; }
+.cw-state-badge { display: inline-block; font-size: 0.76rem; font-weight: 700; letter-spacing: 0.08em; text-transform: uppercase; padding: 0.12rem 0.4rem; border-radius: 2px; }
 .cw-state-long { background: #dcfce7; color: #16a34a; }
 .cw-state-short { background: #fde8e8; color: #dc2626; }
 .cw-state-flat { background: var(--off); color: var(--muted); }
 .cw-stock-metrics { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 0.3rem; }
 .cw-metric { text-align: center; }
-.cw-metric-label { display: block; font-size: 0.5rem; font-weight: 700; letter-spacing: 0.08em; text-transform: uppercase; color: var(--light); }
+.cw-metric-label { display: block; font-size: 0.72rem; font-weight: 700; letter-spacing: 0.08em; text-transform: uppercase; color: var(--light); }
 .cw-metric-val { display: block; font-size: 0.78rem; font-weight: 500; }
 .cw-pnl-pos { color: #16a34a; }
 .cw-pnl-neg { color: #dc2626; }
@@ -312,7 +312,7 @@ img { display: block; max-width: 100%; }
 .nas-stats-row { display: flex; gap: 2rem; margin-bottom: 1.5rem; }
 .nas-stat { text-align: center; }
 .nas-stat-val { display: block; font-weight: 900; font-size: 1.4rem; line-height: 1; color: var(--ink); }
-.nas-stat-label { display: block; font-size: 0.5rem; font-weight: 700; letter-spacing: 0.1em; text-transform: uppercase; color: var(--light); margin-top: 0.2rem; }
+.nas-stat-label { display: block; font-size: 0.72rem; font-weight: 700; letter-spacing: 0.1em; text-transform: uppercase; color: var(--light); margin-top: 0.2rem; }
 .nas-gauges { display: grid; grid-template-columns: repeat(4, 1fr); gap: 1rem; margin-bottom: 1.5rem; }
 .nas-gauge { text-align: center; }
 .nas-gauge-label { font-size: 0.6rem; font-weight: 700; color: var(--muted); margin-bottom: 0.3rem; }
@@ -322,40 +322,43 @@ img { display: block; max-width: 100%; }
 .nas-gauge-ok .nas-gauge-fill { background: var(--amber); }
 .nas-gauge-low .nas-gauge-fill { background: #dc2626; }
 .nas-gauge-val { font-weight: 700; font-size: 0.82rem; color: var(--ink); }
-.nas-gauge-count { font-size: 0.55rem; color: var(--light); }
+.nas-gauge-count { font-size: 0.76rem; color: var(--light); }
 .nas-leaderboard { margin-bottom: 1.5rem; }
 .nas-lb-header { font-size: 0.6rem; font-weight: 700; letter-spacing: 0.1em; text-transform: uppercase; color: var(--muted); margin-bottom: 0.5rem; }
 .nas-lb-row { display: flex; align-items: center; gap: 0.8rem; padding: 0.35rem 0; border-bottom: 1px solid var(--rule); font-size: 0.78rem; }
 .nas-lb-cat { font-weight: 600; color: var(--ink); min-width: 120px; }
 .nas-lb-tickers { color: var(--teal); font-weight: 700; font-size: 0.72rem; }
-.nas-lb-lead { color: var(--light); font-size: 0.65rem; margin-left: auto; }
+.nas-lb-lead { color: var(--light); font-size: 0.72rem; margin-left: auto; }
 
 /* -- TIP DETAIL PAGE -- */
 .tip-detail-section { margin-bottom: 1.5rem; }
 .tip-detail-heading { font-size: 0.82rem; font-weight: 800; letter-spacing: 0.06em; text-transform: uppercase; color: var(--teal); margin-bottom: 0.4rem; }
-.tip-detail-text { font-size: 0.88rem; font-weight: 300; line-height: 1.7; color: var(--ink-soft); }
+.tip-detail-text { font-size: 0.88rem; font-weight: 400; line-height: 1.7; color: var(--ink-soft); }
 
 /* -- ACTIVE EDGES -- */
 .edges-section { padding: 2rem 0; }
+.edge-cards-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); gap: 1.2rem; margin-top: 1rem; }
+.edge-card { background: var(--white); border: 1px solid var(--rule); border-radius: 6px; padding: 1rem 1.2rem; transition: border-color 0.15s; }
+.edge-card:hover { border-color: var(--teal); }
 .edge-list { margin-top: 1rem; overflow-x: auto; -webkit-overflow-scrolling: touch; }
 .edge-row { display: grid; grid-template-columns: 2.5fr 1fr 1fr 1fr; padding: 0.65rem 0; border-bottom: 1px solid var(--rule); font-size: 0.82rem; align-items: center; }
-.edge-row.header { font-weight: 700; font-size: 0.63rem; letter-spacing: 0.1em; text-transform: uppercase; color: var(--muted); border-bottom: 1px solid var(--ink); padding-bottom: 0.5rem; }
-.edge-type-badge { display: inline-block; font-size: 0.6rem; font-weight: 700; letter-spacing: 0.06em; text-transform: uppercase; padding: 0.1rem 0.4rem; border-radius: 2px; }
+.edge-row.header { font-weight: 700; font-size: 0.72rem; letter-spacing: 0.1em; text-transform: uppercase; color: var(--muted); border-bottom: 1px solid var(--ink); padding-bottom: 0.5rem; }
+.edge-type-badge { display: inline-block; font-size: 0.68rem; font-weight: 700; letter-spacing: 0.06em; text-transform: uppercase; padding: 0.15rem 0.5rem; border-radius: 3px; }
 .edge-type-badge.frontier { background: var(--teal-light); color: var(--teal); }
 .edge-type-badge.consensus { background: var(--indigo-light); color: var(--indigo); }
 .edge-type-badge.discovery { background: var(--amber-light); color: var(--amber); }
 .edge-direction { color: var(--muted); }
-.edge-status { font-size: 0.72rem; font-weight: 700; }
+.edge-status { font-size: 0.78rem; font-weight: 700; }
 .edge-status.intact { color: var(--green); }
 .edge-status.narrowing { color: var(--amber); }
 .edge-status.closed { color: var(--light); }
-.edge-position { font-size: 0.58rem; font-weight: 700; letter-spacing: 0.06em; text-transform: uppercase; color: var(--teal); background: var(--teal-light); padding: 0.1rem 0.35rem; border-radius: 2px; margin-left: 0.4rem; }
+.edge-position { font-size: 0.72rem; font-weight: 700; letter-spacing: 0.06em; text-transform: uppercase; color: var(--teal); background: var(--teal-light); padding: 0.15rem 0.45rem; border-radius: 3px; }
 
 /* -- EDITOR STRIP -- */
 .editor-strip { background: var(--teal-dark); color: var(--white); padding: 2rem 2rem; margin: 0; width: 100%; }
 .editor-strip-inner { max-width: var(--max-width); margin: 0 auto; display: grid; grid-template-columns: auto 1fr; gap: 1.5rem; align-items: center; }
 .editor-avatar { width: 52px; height: 52px; border-radius: 50%; background: rgba(255,255,255,0.15); display: flex; align-items: center; justify-content: center; font-family: 'Montserrat', sans-serif; font-weight: 800; font-size: 1rem; color: rgba(255,255,255,0.7); flex-shrink: 0; }
-.editor-text { font-size: 0.85rem; font-weight: 300; line-height: 1.65; color: rgba(255,255,255,0.9); }
+.editor-text { font-size: 0.85rem; font-weight: 400; line-height: 1.65; color: rgba(255,255,255,0.9); }
 .editor-text strong { font-weight: 700; color: var(--white); }
 .editor-link { color: rgba(255,255,255,0.6); font-size: 0.72rem; margin-top: 0.3rem; display: inline-block; }
 
@@ -400,7 +403,7 @@ img { display: block; max-width: 100%; }
   .brand-noah { font-size: 1.15rem; letter-spacing: 0.08em; }
   .brand-edge { font-size: 1.1rem; }
   .header-nav { gap: 1rem; }
-  .header-nav a { font-size: 0.65rem; }
+  .header-nav a { font-size: 0.72rem; }
   .content { padding: 0 1.2rem; }
   .header-nav .hide-mobile { display: none; }
   .hero-headline { font-size: 1.3rem; }
@@ -459,7 +462,7 @@ img { display: block; max-width: 100%; }
     <div class="section-label">Noah Poly Index — PolyMarket</div>
     <a href="/" class="section-more">&larr; Home</a>
   </div>
-  <p style="font-size:0.82rem; font-weight:300; color:var(--muted); line-height:1.6; margin-bottom:1.5rem;">Audited performance data from our prediction market signal engine. 20 exited trades at $1,000 per position, tracked from entry to resolution.</p>
+  <p style="font-size:0.82rem; font-weight:400; color:var(--muted); line-height:1.6; margin-bottom:1.5rem;">Audited performance data from our prediction market signal engine. 20 exited trades at $1,000 per position, tracked from entry to resolution.</p>
 
   <div class="stats-grid-4">
     <div class="stat-card">
@@ -475,7 +478,7 @@ img { display: block; max-width: 100%; }
       <div class="stat-label">Win-Loss Record</div>
     </div>
     <div class="stat-card">
-      <div class="stat-number">1198</div>
+      <div class="stat-number">1214</div>
       <div class="stat-label">Contracts Scanned</div>
     </div>
   </div>
@@ -521,61 +524,61 @@ img { display: block; max-width: 100%; }
 <text x="54" y="71.2" font-size="8" fill="#6b7280" text-anchor="end" dominant-baseline="middle">$70k</text>
 <line x1="60" y1="40.0" x2="700" y2="40.0" stroke="#e5e5e5" stroke-width="0.5" stroke-dasharray="4,3"/>
 <text x="54" y="40.0" font-size="8" fill="#6b7280" text-anchor="end" dominant-baseline="middle">$80k</text>
-<text x="133.6" y="306" font-size="8" fill="#6b7280" text-anchor="middle">Feb 19</text>
-<text x="227.9" y="306" font-size="8" fill="#6b7280" text-anchor="middle">Feb 21</text>
-<text x="322.2" y="306" font-size="8" fill="#6b7280" text-anchor="middle">Feb 23</text>
-<text x="416.5" y="306" font-size="8" fill="#6b7280" text-anchor="middle">Feb 25</text>
-<text x="510.9" y="306" font-size="8" fill="#6b7280" text-anchor="middle">Feb 27</text>
-<text x="558.0" y="306" font-size="8" fill="#6b7280" text-anchor="middle">Today</text>
+<text x="133.5" y="306" font-size="8" fill="#6b7280" text-anchor="middle">Feb 19</text>
+<text x="227.7" y="306" font-size="8" fill="#6b7280" text-anchor="middle">Feb 21</text>
+<text x="321.9" y="306" font-size="8" fill="#6b7280" text-anchor="middle">Feb 23</text>
+<text x="416.1" y="306" font-size="8" fill="#6b7280" text-anchor="middle">Feb 25</text>
+<text x="510.4" y="306" font-size="8" fill="#6b7280" text-anchor="middle">Feb 27</text>
+<text x="557.5" y="306" font-size="8" fill="#6b7280" text-anchor="middle">Today</text>
 <line x1="60" y1="240.0" x2="700" y2="240.0" stroke="#999" stroke-width="1.5" stroke-dasharray="6,3"/>
-<polygon points="60.0,286.9 73.9,283.8 82.2,280.6 97.3,277.5 100.7,274.4 102.3,271.2 102.3,268.1 104.3,265.0 106.2,264.2 106.6,262.8 108.2,261.7 123.7,261.7 137.6,258.6 138.2,257.0 138.2,255.5 154.8,235.5 156.8,230.8 168.7,225.3 178.3,221.0 220.9,221.0 233.8,220.1 236.8,189.3 267.1,189.3 271.7,186.1 314.6,183.0 318.6,179.9 320.7,176.8 322.7,173.6 339.0,144.8 364.6,145.6 365.7,146.4 369.7,147.2 384.2,148.0 394.1,148.7 409.1,148.7 419.1,46.5 550.2,46.5 644.9,-168.8 659.0,-168.8 659.0,-171.9 665.0,-175.1 666.9,-339.8 670.9,-339.8 700.0,-289.9 700.0,290.0 60.0,290.0" fill="#0d7680" fill-opacity="0.08"/>
-<polyline points="60.0,286.9 73.9,283.8 82.2,280.6 97.3,277.5 100.7,274.4 102.3,271.2 102.3,268.1 104.3,265.0 106.2,264.2 106.6,262.8 108.2,261.7 123.7,261.7 137.6,258.6 138.2,257.0 138.2,255.5 154.8,235.5 156.8,230.8 168.7,225.3 178.3,221.0 220.9,221.0 233.8,220.1 236.8,189.3 267.1,189.3 271.7,186.1 314.6,183.0 318.6,179.9 320.7,176.8 322.7,173.6 339.0,144.8 364.6,145.6 365.7,146.4 369.7,147.2 384.2,148.0 394.1,148.7 409.1,148.7 419.1,46.5 550.2,46.5 644.9,-168.8 659.0,-168.8 659.0,-171.9 665.0,-175.1 666.9,-339.8" fill="none" stroke="#0d7680" stroke-width="2" stroke-linejoin="round"/>
-<polyline points="666.9,-339.8 670.9,-339.8 700.0,-289.9" fill="none" stroke="#0d7680" stroke-width="2" stroke-dasharray="6,4" stroke-linejoin="round" opacity="0.7"/>
+<polygon points="60.0,286.9 73.9,283.8 82.2,280.6 97.2,277.5 100.7,274.4 102.2,271.2 102.2,268.1 104.2,265.0 106.1,264.2 106.5,262.8 108.1,261.7 123.6,261.7 137.5,258.6 138.1,257.0 138.1,255.5 154.7,235.5 156.7,230.8 168.6,225.3 178.2,221.0 220.8,221.0 233.7,220.1 236.6,189.3 266.9,189.3 271.4,186.1 314.3,183.0 318.4,179.9 320.4,176.8 322.4,173.6 338.7,144.8 364.2,145.6 365.3,146.4 369.3,147.2 383.8,148.0 393.7,148.7 408.7,148.7 418.7,46.5 549.7,46.5 644.3,-168.8 658.3,-168.8 658.3,-171.9 664.3,-175.1 666.3,-339.8 670.3,-339.8 700.0,-289.9 700.0,290.0 60.0,290.0" fill="#0d7680" fill-opacity="0.08"/>
+<polyline points="60.0,286.9 73.9,283.8 82.2,280.6 97.2,277.5 100.7,274.4 102.2,271.2 102.2,268.1 104.2,265.0 106.1,264.2 106.5,262.8 108.1,261.7 123.6,261.7 137.5,258.6 138.1,257.0 138.1,255.5 154.7,235.5 156.7,230.8 168.6,225.3 178.2,221.0 220.8,221.0 233.7,220.1 236.6,189.3 266.9,189.3 271.4,186.1 314.3,183.0 318.4,179.9 320.4,176.8 322.4,173.6 338.7,144.8 364.2,145.6 365.3,146.4 369.3,147.2 383.8,148.0 393.7,148.7 408.7,148.7 418.7,46.5 549.7,46.5 644.3,-168.8 658.3,-168.8 658.3,-171.9 664.3,-175.1 666.3,-339.8" fill="none" stroke="#0d7680" stroke-width="2" stroke-linejoin="round"/>
+<polyline points="666.3,-339.8 670.3,-339.8 700.0,-289.9" fill="none" stroke="#0d7680" stroke-width="2" stroke-dasharray="6,4" stroke-linejoin="round" opacity="0.7"/>
 <circle cx="60.0" cy="286.9" r="2" fill="#999" stroke="#fff" stroke-width="0.5"/>
 <circle cx="73.9" cy="283.8" r="2" fill="#999" stroke="#fff" stroke-width="0.5"/>
 <circle cx="82.2" cy="280.6" r="2" fill="#999" stroke="#fff" stroke-width="0.5"/>
-<circle cx="97.3" cy="277.5" r="2" fill="#999" stroke="#fff" stroke-width="0.5"/>
+<circle cx="97.2" cy="277.5" r="2" fill="#999" stroke="#fff" stroke-width="0.5"/>
 <circle cx="100.7" cy="274.4" r="2" fill="#999" stroke="#fff" stroke-width="0.5"/>
-<circle cx="102.3" cy="271.2" r="2" fill="#999" stroke="#fff" stroke-width="0.5"/>
-<circle cx="102.3" cy="268.1" r="2" fill="#999" stroke="#fff" stroke-width="0.5"/>
-<circle cx="104.3" cy="265.0" r="2" fill="#999" stroke="#fff" stroke-width="0.5"/>
-<circle cx="106.2" cy="264.2" r="3.5" fill="#15803d" stroke="#fff" stroke-width="1"/>
-<circle cx="106.6" cy="262.8" r="3.5" fill="#15803d" stroke="#fff" stroke-width="1"/>
-<circle cx="108.2" cy="261.7" r="3.5" fill="#15803d" stroke="#fff" stroke-width="1"/>
-<circle cx="123.7" cy="261.7" r="2" fill="#999" stroke="#fff" stroke-width="0.5"/>
-<circle cx="137.6" cy="258.6" r="2" fill="#999" stroke="#fff" stroke-width="0.5"/>
-<circle cx="138.2" cy="257.0" r="3.5" fill="#15803d" stroke="#fff" stroke-width="1"/>
-<circle cx="138.2" cy="255.5" r="3.5" fill="#15803d" stroke="#fff" stroke-width="1"/>
-<circle cx="154.8" cy="235.5" r="3.5" fill="#15803d" stroke="#fff" stroke-width="1"/>
-<circle cx="156.8" cy="230.8" r="3.5" fill="#15803d" stroke="#fff" stroke-width="1"/>
-<circle cx="168.7" cy="225.3" r="3.5" fill="#15803d" stroke="#fff" stroke-width="1"/>
-<circle cx="178.3" cy="221.0" r="3.5" fill="#15803d" stroke="#fff" stroke-width="1"/>
-<circle cx="220.9" cy="221.0" r="2" fill="#999" stroke="#fff" stroke-width="0.5"/>
-<circle cx="233.8" cy="220.1" r="3.5" fill="#15803d" stroke="#fff" stroke-width="1"/>
-<circle cx="236.8" cy="189.3" r="3.5" fill="#15803d" stroke="#fff" stroke-width="1"/>
-<circle cx="267.1" cy="189.3" r="2" fill="#999" stroke="#fff" stroke-width="0.5"/>
-<circle cx="271.7" cy="186.1" r="2" fill="#999" stroke="#fff" stroke-width="0.5"/>
-<circle cx="314.6" cy="183.0" r="2" fill="#999" stroke="#fff" stroke-width="0.5"/>
-<circle cx="318.6" cy="179.9" r="2" fill="#999" stroke="#fff" stroke-width="0.5"/>
-<circle cx="320.7" cy="176.8" r="2" fill="#999" stroke="#fff" stroke-width="0.5"/>
-<circle cx="322.7" cy="173.6" r="2" fill="#999" stroke="#fff" stroke-width="0.5"/>
-<circle cx="339.0" cy="144.8" r="3.5" fill="#15803d" stroke="#fff" stroke-width="1"/>
-<circle cx="364.6" cy="145.6" r="3.5" fill="#dc2626" stroke="#fff" stroke-width="1"/>
-<circle cx="365.7" cy="146.4" r="3.5" fill="#dc2626" stroke="#fff" stroke-width="1"/>
-<circle cx="369.7" cy="147.2" r="3.5" fill="#dc2626" stroke="#fff" stroke-width="1"/>
-<circle cx="384.2" cy="148.0" r="3.5" fill="#dc2626" stroke="#fff" stroke-width="1"/>
-<circle cx="394.1" cy="148.7" r="3.5" fill="#dc2626" stroke="#fff" stroke-width="1"/>
-<circle cx="409.1" cy="148.7" r="2" fill="#999" stroke="#fff" stroke-width="0.5"/>
-<circle cx="419.1" cy="46.5" r="3.5" fill="#15803d" stroke="#fff" stroke-width="1"/>
-<circle cx="550.2" cy="46.5" r="2" fill="#999" stroke="#fff" stroke-width="0.5"/>
-<circle cx="644.9" cy="-168.8" r="3.5" fill="#15803d" stroke="#fff" stroke-width="1"/>
-<circle cx="659.0" cy="-168.8" r="2" fill="#999" stroke="#fff" stroke-width="0.5"/>
-<circle cx="659.0" cy="-171.9" r="2" fill="#999" stroke="#fff" stroke-width="0.5"/>
-<circle cx="665.0" cy="-175.1" r="2" fill="#999" stroke="#fff" stroke-width="0.5"/>
-<circle cx="666.9" cy="-339.8" r="3.5" fill="#15803d" stroke="#fff" stroke-width="1"/>
-<circle cx="670.9" cy="-339.8" r="2" fill="#999" stroke="#fff" stroke-width="0.5"/>
+<circle cx="102.2" cy="271.2" r="2" fill="#999" stroke="#fff" stroke-width="0.5"/>
+<circle cx="102.2" cy="268.1" r="2" fill="#999" stroke="#fff" stroke-width="0.5"/>
+<circle cx="104.2" cy="265.0" r="2" fill="#999" stroke="#fff" stroke-width="0.5"/>
+<circle cx="106.1" cy="264.2" r="3.5" fill="#15803d" stroke="#fff" stroke-width="1"/>
+<circle cx="106.5" cy="262.8" r="3.5" fill="#15803d" stroke="#fff" stroke-width="1"/>
+<circle cx="108.1" cy="261.7" r="3.5" fill="#15803d" stroke="#fff" stroke-width="1"/>
+<circle cx="123.6" cy="261.7" r="2" fill="#999" stroke="#fff" stroke-width="0.5"/>
+<circle cx="137.5" cy="258.6" r="2" fill="#999" stroke="#fff" stroke-width="0.5"/>
+<circle cx="138.1" cy="257.0" r="3.5" fill="#15803d" stroke="#fff" stroke-width="1"/>
+<circle cx="138.1" cy="255.5" r="3.5" fill="#15803d" stroke="#fff" stroke-width="1"/>
+<circle cx="154.7" cy="235.5" r="3.5" fill="#15803d" stroke="#fff" stroke-width="1"/>
+<circle cx="156.7" cy="230.8" r="3.5" fill="#15803d" stroke="#fff" stroke-width="1"/>
+<circle cx="168.6" cy="225.3" r="3.5" fill="#15803d" stroke="#fff" stroke-width="1"/>
+<circle cx="178.2" cy="221.0" r="3.5" fill="#15803d" stroke="#fff" stroke-width="1"/>
+<circle cx="220.8" cy="221.0" r="2" fill="#999" stroke="#fff" stroke-width="0.5"/>
+<circle cx="233.7" cy="220.1" r="3.5" fill="#15803d" stroke="#fff" stroke-width="1"/>
+<circle cx="236.6" cy="189.3" r="3.5" fill="#15803d" stroke="#fff" stroke-width="1"/>
+<circle cx="266.9" cy="189.3" r="2" fill="#999" stroke="#fff" stroke-width="0.5"/>
+<circle cx="271.4" cy="186.1" r="2" fill="#999" stroke="#fff" stroke-width="0.5"/>
+<circle cx="314.3" cy="183.0" r="2" fill="#999" stroke="#fff" stroke-width="0.5"/>
+<circle cx="318.4" cy="179.9" r="2" fill="#999" stroke="#fff" stroke-width="0.5"/>
+<circle cx="320.4" cy="176.8" r="2" fill="#999" stroke="#fff" stroke-width="0.5"/>
+<circle cx="322.4" cy="173.6" r="2" fill="#999" stroke="#fff" stroke-width="0.5"/>
+<circle cx="338.7" cy="144.8" r="3.5" fill="#15803d" stroke="#fff" stroke-width="1"/>
+<circle cx="364.2" cy="145.6" r="3.5" fill="#dc2626" stroke="#fff" stroke-width="1"/>
+<circle cx="365.3" cy="146.4" r="3.5" fill="#dc2626" stroke="#fff" stroke-width="1"/>
+<circle cx="369.3" cy="147.2" r="3.5" fill="#dc2626" stroke="#fff" stroke-width="1"/>
+<circle cx="383.8" cy="148.0" r="3.5" fill="#dc2626" stroke="#fff" stroke-width="1"/>
+<circle cx="393.7" cy="148.7" r="3.5" fill="#dc2626" stroke="#fff" stroke-width="1"/>
+<circle cx="408.7" cy="148.7" r="2" fill="#999" stroke="#fff" stroke-width="0.5"/>
+<circle cx="418.7" cy="46.5" r="3.5" fill="#15803d" stroke="#fff" stroke-width="1"/>
+<circle cx="549.7" cy="46.5" r="2" fill="#999" stroke="#fff" stroke-width="0.5"/>
+<circle cx="644.3" cy="-168.8" r="3.5" fill="#15803d" stroke="#fff" stroke-width="1"/>
+<circle cx="658.3" cy="-168.8" r="2" fill="#999" stroke="#fff" stroke-width="0.5"/>
+<circle cx="658.3" cy="-171.9" r="2" fill="#999" stroke="#fff" stroke-width="0.5"/>
+<circle cx="664.3" cy="-175.1" r="2" fill="#999" stroke="#fff" stroke-width="0.5"/>
+<circle cx="666.3" cy="-339.8" r="3.5" fill="#15803d" stroke="#fff" stroke-width="1"/>
+<circle cx="670.3" cy="-339.8" r="2" fill="#999" stroke="#fff" stroke-width="0.5"/>
 <circle cx="700.0" cy="-289.9" r="5" fill="#0d7680" stroke="#fff" stroke-width="1.5"/>
-<text x="702.9" y="-325.8" font-size="7.5" font-weight="700" fill="#0d7680" text-anchor="end">Peak: $201.5k</text>
+<text x="702.3" y="-325.8" font-size="7.5" font-weight="700" fill="#0d7680" text-anchor="end">Peak: $201.5k</text>
 <text x="696.0" y="-275.9" font-size="7.5" font-weight="700" fill="#0d7680" text-anchor="end">Now: $185.6k</text>
 <text x="696.0" y="-266.9" font-size="6" fill="#6b7280" text-anchor="end" font-style="italic">3 positions open</text>
 <line x1="460" y1="50" x2="476" y2="50" stroke="#0d7680" stroke-width="2"/>
@@ -599,7 +602,7 @@ img { display: block; max-width: 100%; }
   <div class="section-header">
     <div class="section-label">Disciplined Edge v1</div>
   </div>
-  <p style="font-size:0.78rem; font-weight:300; color:var(--muted); line-height:1.6; margin-bottom:1.2rem;">Based on pattern analysis of 59 PolyHunter trades. High-probability setups only: proven edge types, top grades, favourable market structure. Excludes MEDIUM risk tier (only net-losing tier) and extreme market prices.</p>
+  <p style="font-size:0.78rem; font-weight:400; color:var(--muted); line-height:1.6; margin-bottom:1.2rem;">Based on pattern analysis of 59 PolyHunter trades. High-probability setups only: proven edge types, top grades, favourable market structure. Excludes MEDIUM risk tier (only net-losing tier) and extreme market prices.</p>
 
   <div class="stats-grid-4">
     <div class="stat-card" style="border-left:3px solid var(--teal);">
@@ -638,7 +641,7 @@ img { display: block; max-width: 100%; }
     </div>
   </div>
   <div class="edge-list" style="margin-top:1.5rem;">
-    <div class="edge-row-wide" style="font-weight:700; font-size:0.63rem; letter-spacing:0.1em; text-transform:uppercase; color:var(--muted); border-bottom:1px solid var(--ink); padding-bottom:0.5rem;">
+    <div class="edge-row-wide" style="font-weight:700; font-size:0.72rem; letter-spacing:0.1em; text-transform:uppercase; color:var(--muted); border-bottom:1px solid var(--ink); padding-bottom:0.5rem;">
       <span>#</span>
       <span>Event</span>
       <span>Type</span>
@@ -648,7 +651,7 @@ img { display: block; max-width: 100%; }
       <span>Cash</span>
     </div>
       <div class="edge-row-wide">
-        <span style="font-size:0.68rem;">1</span>
+        <span style="font-size:0.76rem;">1</span>
         <span>Will inflation reach more than 3% in 2026?</span>
         <span>CONSENSUS</span>
         <span>A</span>
@@ -657,7 +660,7 @@ img { display: block; max-width: 100%; }
         <span class="green" style="font-weight:700;">+$8,810</span>
       </div>
       <div class="edge-row-wide">
-        <span style="font-size:0.68rem;">2</span>
+        <span style="font-size:0.76rem;">2</span>
         <span>Will 1 Fed rate cut happen in 2026?</span>
         <span>CONSENSUS</span>
         <span>A</span>
@@ -666,7 +669,7 @@ img { display: block; max-width: 100%; }
         <span class="green" style="font-weight:700;">+$6,870</span>
       </div>
       <div class="edge-row-wide">
-        <span style="font-size:0.68rem;">3</span>
+        <span style="font-size:0.76rem;">3</span>
         <span>Hezbollah strike on Israel by March 31?</span>
         <span>CONSENSUS</span>
         <span>B</span>
@@ -675,7 +678,7 @@ img { display: block; max-width: 100%; }
         <span class="green" style="font-weight:700;">+$4,420</span>
       </div>
       <div class="edge-row-wide">
-        <span style="font-size:0.68rem;">4</span>
+        <span style="font-size:0.76rem;">4</span>
         <span>Will Iran close the Strait of Hormuz by March 31?</span>
         <span>CONSENSUS</span>
         <span>B</span>
@@ -684,7 +687,7 @@ img { display: block; max-width: 100%; }
         <span class="green" style="font-weight:700;">+$2,500</span>
       </div>
       <div class="edge-row-wide">
-        <span style="font-size:0.68rem;">5</span>
+        <span style="font-size:0.76rem;">5</span>
         <span>Will Iran close the Strait of Hormuz by March 31?</span>
         <span>CONSENSUS</span>
         <span>B</span>
@@ -693,7 +696,7 @@ img { display: block; max-width: 100%; }
         <span class="green" style="font-weight:700;">+$2,500</span>
       </div>
       <div class="edge-row-wide">
-        <span style="font-size:0.68rem;">6</span>
+        <span style="font-size:0.76rem;">6</span>
         <span>Israel strikes Iran by February 28, 2026?</span>
         <span>CONSENSUS</span>
         <span>A</span>
@@ -702,7 +705,7 @@ img { display: block; max-width: 100%; }
         <span class="green" style="font-weight:700;">+$2,214</span>
       </div>
       <div class="edge-row-wide">
-        <span style="font-size:0.68rem;">7</span>
+        <span style="font-size:0.76rem;">7</span>
         <span>Iran Strike on Israel by February 28?</span>
         <span>CONSENSUS</span>
         <span>B</span>
@@ -711,7 +714,7 @@ img { display: block; max-width: 100%; }
         <span class="green" style="font-weight:700;">+$1,827</span>
       </div>
       <div class="edge-row-wide">
-        <span style="font-size:0.68rem;">8</span>
+        <span style="font-size:0.76rem;">8</span>
         <span>Iran strike on US military by February 28?</span>
         <span>CONSENSUS</span>
         <span>B</span>
@@ -720,7 +723,7 @@ img { display: block; max-width: 100%; }
         <span class="green" style="font-weight:700;">+$1,800</span>
       </div>
       <div class="edge-row-wide">
-        <span style="font-size:0.68rem;">9</span>
+        <span style="font-size:0.76rem;">9</span>
         <span>Iran Strike on Israel by February 28?</span>
         <span>CONSENSUS</span>
         <span>B</span>
@@ -729,7 +732,7 @@ img { display: block; max-width: 100%; }
         <span class="green" style="font-weight:700;">+$1,250</span>
       </div>
       <div class="edge-row-wide">
-        <span style="font-size:0.68rem;">10</span>
+        <span style="font-size:0.76rem;">10</span>
         <span>Tariff increase on Canada in effect by June 30?</span>
         <span>CONSENSUS</span>
         <span>A</span>
@@ -738,7 +741,7 @@ img { display: block; max-width: 100%; }
         <span class="green" style="font-weight:700;">+$1,053</span>
       </div>
       <div class="edge-row-wide">
-        <span style="font-size:0.68rem;">11</span>
+        <span style="font-size:0.76rem;">11</span>
         <span>US-Iran nuclear deal by June 30?</span>
         <span>CONSENSUS</span>
         <span>A</span>
@@ -747,7 +750,7 @@ img { display: block; max-width: 100%; }
         <span class="green" style="font-weight:700;">+$821</span>
       </div>
       <div class="edge-row-wide">
-        <span style="font-size:0.68rem;">12</span>
+        <span style="font-size:0.76rem;">12</span>
         <span>US-Iran nuclear deal by June 30?</span>
         <span>CONSENSUS</span>
         <span>A</span>
@@ -756,7 +759,7 @@ img { display: block; max-width: 100%; }
         <span class="green" style="font-weight:700;">+$821</span>
       </div>
       <div class="edge-row-wide">
-        <span style="font-size:0.68rem;">13</span>
+        <span style="font-size:0.76rem;">13</span>
         <span>Will Israel or the US target Tehran?</span>
         <span>CONSENSUS</span>
         <span>B</span>
@@ -765,7 +768,7 @@ img { display: block; max-width: 100%; }
         <span class="green" style="font-weight:700;">+$813</span>
       </div>
       <div class="edge-row-wide">
-        <span style="font-size:0.68rem;">14</span>
+        <span style="font-size:0.76rem;">14</span>
         <span>Israel strikes Iran by March 31, 2026?</span>
         <span>CONSENSUS</span>
         <span>B</span>
@@ -774,7 +777,7 @@ img { display: block; max-width: 100%; }
         <span class="green" style="font-weight:700;">+$652</span>
       </div>
       <div class="edge-row-wide">
-        <span style="font-size:0.68rem;">15</span>
+        <span style="font-size:0.76rem;">15</span>
         <span>Israel strikes Iran by March 31, 2026?</span>
         <span>CONSENSUS</span>
         <span>B</span>
@@ -783,7 +786,7 @@ img { display: block; max-width: 100%; }
         <span class="green" style="font-weight:700;">+$652</span>
       </div>
       <div class="edge-row-wide">
-        <span style="font-size:0.68rem;">16</span>
+        <span style="font-size:0.76rem;">16</span>
         <span>Will US GDP growth in Q1 2026 be greater than 3.5%?</span>
         <span>CONSENSUS</span>
         <span>B</span>
@@ -792,7 +795,7 @@ img { display: block; max-width: 100%; }
         <span class="" style="font-weight:700;">$0</span>
       </div>
       <div class="edge-row-wide">
-        <span style="font-size:0.68rem;">17</span>
+        <span style="font-size:0.76rem;">17</span>
         <span>Will the US next strike Iran during the week of Febr...</span>
         <span>CONSENSUS</span>
         <span>A</span>
@@ -801,7 +804,7 @@ img { display: block; max-width: 100%; }
         <span class="red" style="font-weight:700;">-$357</span>
       </div>
       <div class="edge-row-wide">
-        <span style="font-size:0.68rem;">18</span>
+        <span style="font-size:0.76rem;">18</span>
         <span>US strikes Iran by March 15, 2026?</span>
         <span>CONSENSUS</span>
         <span>A</span>
@@ -810,7 +813,7 @@ img { display: block; max-width: 100%; }
         <span class="red" style="font-weight:700;">-$1,250</span>
       </div>
       <div class="edge-row-wide">
-        <span style="font-size:0.68rem;">19</span>
+        <span style="font-size:0.76rem;">19</span>
         <span>Hezbollah strike on Israel by February 28?</span>
         <span>CONSENSUS</span>
         <span>A</span>
@@ -819,7 +822,7 @@ img { display: block; max-width: 100%; }
         <span class="red" style="font-weight:700;">-$1,252</span>
       </div>
       <div class="edge-row-wide">
-        <span style="font-size:0.68rem;">20</span>
+        <span style="font-size:0.76rem;">20</span>
         <span>U.S. x Iran Military Engagement by March 31, 2026?</span>
         <span>CONSENSUS</span>
         <span>A</span>
@@ -833,33 +836,46 @@ img { display: block; max-width: 100%; }
   <div class="edges-section">
     <div class="section-header" style="padding-top:0.5rem">
       <div class="section-label">Active Edges</div>
+      <span class="section-note">Markets where we hold live positions right now</span>
       <a href="/polymarket/index.html" class="section-more">Full tracker →</a>
     </div>
-    <div class="edge-list">
-      <div class="edge-row header">
-        <span>Event</span>
-        <span>Signal</span>
-        <span>Entry</span>
-        <span>Status</span>
-      </div>
-      <div class="edge-row">
-        <span><a href="https://polymarket.com/event/how-many-fed-rate-cuts-in-2026" target="_blank" rel="noopener" style="color:inherit;text-decoration:underline;text-decoration-color:var(--rule);text-underline-offset:2px;">Will 2 Fed rate cuts happen in 2026?</a> <span class="edge-position">We're in</span></span>
-        <span><span class="edge-type-badge consensus">Consensus</span></span>
-        <span class="edge-direction">at 25c</span>
-        <span class="edge-status intact">Intact +5 pts</span>
-      </div>
-      <div class="edge-row">
-        <span><a href="https://polymarket.com/event/february-inflation-us-monthly-231" target="_blank" rel="noopener" style="color:inherit;text-decoration:underline;text-decoration-color:var(--rule);text-underline-offset:2px;">Will monthly inflation increase by 0.4% or more in F...</a> <span class="edge-position">We're in</span></span>
-        <span><span class="edge-type-badge consensus">Consensus</span></span>
-        <span class="edge-direction">at 12c</span>
-        <span class="edge-status narrowing">Narrowing +5 pts</span>
-      </div>
-      <div class="edge-row">
-        <span><a href="https://polymarket.com/event/fed-decision-in-april" target="_blank" rel="noopener" style="color:inherit;text-decoration:underline;text-decoration-color:var(--rule);text-underline-offset:2px;">Will there be no change in Fed interest rates after ...</a> <span class="edge-position">We're in</span></span>
-        <span><span class="edge-type-badge consensus">Consensus</span></span>
-        <span class="edge-direction">at 85c</span>
-        <span class="edge-status intact">Intact +4 pts</span>
-      </div>
+    <div class="edge-cards-grid">
+      <a href="https://polymarket.com/event/how-many-fed-rate-cuts-in-2026" target="_blank" rel="noopener" class="edge-card" style="text-decoration:none;color:inherit;display:block;">
+        <div style="display:flex;align-items:center;gap:0.5rem;margin-bottom:0.5rem;">
+          <span class="edge-type-badge consensus">Consensus</span>
+          <span class="edge-position">Entered at 25c</span>
+        </div>
+        <div style="font-size:0.95rem;font-weight:700;line-height:1.35;margin-bottom:0.6rem;">Will 2 Fed rate cuts happen in 2026?</div>
+        <div style="display:flex;align-items:center;gap:0.5rem;">
+          <span style="display:inline-block;width:8px;height:8px;background:var(--green);border-radius:50%%;"></span>
+          <span style="font-size:0.78rem;font-weight:600;">Intact</span>
+          <span style="font-size:0.78rem;color:var(--muted);margin-left:auto;">+5 pts edge</span>
+        </div>
+      </a>
+      <a href="https://polymarket.com/event/february-inflation-us-monthly-231" target="_blank" rel="noopener" class="edge-card" style="text-decoration:none;color:inherit;display:block;">
+        <div style="display:flex;align-items:center;gap:0.5rem;margin-bottom:0.5rem;">
+          <span class="edge-type-badge consensus">Consensus</span>
+          <span class="edge-position">Entered at 12c</span>
+        </div>
+        <div style="font-size:0.95rem;font-weight:700;line-height:1.35;margin-bottom:0.6rem;">Will monthly inflation increase by 0.4% or more in February?</div>
+        <div style="display:flex;align-items:center;gap:0.5rem;">
+          <span style="display:inline-block;width:8px;height:8px;background:var(--amber);border-radius:50%%;"></span>
+          <span style="font-size:0.78rem;font-weight:600;">Narrowing</span>
+          <span style="font-size:0.78rem;color:var(--muted);margin-left:auto;">+5 pts edge</span>
+        </div>
+      </a>
+      <a href="https://polymarket.com/event/fed-decision-in-april" target="_blank" rel="noopener" class="edge-card" style="text-decoration:none;color:inherit;display:block;">
+        <div style="display:flex;align-items:center;gap:0.5rem;margin-bottom:0.5rem;">
+          <span class="edge-type-badge consensus">Consensus</span>
+          <span class="edge-position">Entered at 85c</span>
+        </div>
+        <div style="font-size:0.95rem;font-weight:700;line-height:1.35;margin-bottom:0.6rem;">Will there be no change in Fed interest rates after the April ...</div>
+        <div style="display:flex;align-items:center;gap:0.5rem;">
+          <span style="display:inline-block;width:8px;height:8px;background:var(--green);border-radius:50%%;"></span>
+          <span style="font-size:0.78rem;font-weight:600;">Intact</span>
+          <span style="font-size:0.78rem;color:var(--muted);margin-left:auto;">+4 pts edge</span>
+        </div>
+      </a>
     </div>
   </div>
 
@@ -869,7 +885,7 @@ img { display: block; max-width: 100%; }
   </div>
   <p style="font-size:0.75rem; color:var(--muted); margin-bottom:0.5rem;">20 trades — $1,000 per position. Best: +640.0% (+$6,400). Worst: -25.4% (-$254).</p>
   <div class="edge-list" style="margin-top:1rem;">
-    <div class="edge-row-wide" style="font-weight:700; font-size:0.63rem; letter-spacing:0.1em; text-transform:uppercase; color:var(--muted); border-bottom:1px solid var(--ink); padding-bottom:0.5rem;">
+    <div class="edge-row-wide" style="font-weight:700; font-size:0.72rem; letter-spacing:0.1em; text-transform:uppercase; color:var(--muted); border-bottom:1px solid var(--ink); padding-bottom:0.5rem;">
       <span>Event</span>
       <span>Type</span>
       <span>Grade</span>
@@ -886,7 +902,7 @@ img { display: block; max-width: 100%; }
         <span class="green" style="font-weight:700;">+$6,400</span>
       </div>
       <div class="edge-row-wide">
-        <span><a href="https://polymarket.com/event/will-inflation-reach-in-2026" target="_blank" rel="noopener" style="color:inherit;text-decoration:underline;text-decoration-color:var(--rule);text-underline-offset:2px;">Will inflation reach more than 3% in 2026?</a> <span style="display:inline-block;background:var(--teal);color:#fff;font-size:0.5rem;padding:1px 4px;border-radius:2px;vertical-align:middle;letter-spacing:0.05em;">DISCIPLINED</span></span>
+        <span><a href="https://polymarket.com/event/will-inflation-reach-in-2026" target="_blank" rel="noopener" style="color:inherit;text-decoration:underline;text-decoration-color:var(--rule);text-underline-offset:2px;">Will inflation reach more than 3% in 2026?</a> <span style="display:inline-block;background:var(--teal);color:#fff;font-size:0.72rem;padding:1px 4px;border-radius:2px;vertical-align:middle;letter-spacing:0.05em;">DISCIPLINED</span></span>
         <span>CONSENSUS</span>
         <span>A</span>
         <span>10c &rarr; 28c</span>
@@ -902,7 +918,7 @@ img { display: block; max-width: 100%; }
         <span class="green" style="font-weight:700;">+$1,374</span>
       </div>
       <div class="edge-row-wide">
-        <span><a href="https://polymarket.com/event/hezbollah-strike-on-israel-by-february-28" target="_blank" rel="noopener" style="color:inherit;text-decoration:underline;text-decoration-color:var(--rule);text-underline-offset:2px;">Hezbollah strike on Israel by March 31?</a> <span style="display:inline-block;background:var(--teal);color:#fff;font-size:0.5rem;padding:1px 4px;border-radius:2px;vertical-align:middle;letter-spacing:0.05em;">DISCIPLINED</span></span>
+        <span><a href="https://polymarket.com/event/hezbollah-strike-on-israel-by-february-28" target="_blank" rel="noopener" style="color:inherit;text-decoration:underline;text-decoration-color:var(--rule);text-underline-offset:2px;">Hezbollah strike on Israel by March 31?</a> <span style="display:inline-block;background:var(--teal);color:#fff;font-size:0.72rem;padding:1px 4px;border-radius:2px;vertical-align:middle;letter-spacing:0.05em;">DISCIPLINED</span></span>
         <span>CONSENSUS</span>
         <span>B</span>
         <span>53c &rarr; 100c</span>
@@ -918,7 +934,7 @@ img { display: block; max-width: 100%; }
         <span class="green" style="font-weight:700;">+$724</span>
       </div>
       <div class="edge-row-wide">
-        <span><a href="https://polymarket.com/event/will-iran-close-the-strait-of-hormuz-by-2027" target="_blank" rel="noopener" style="color:inherit;text-decoration:underline;text-decoration-color:var(--rule);text-underline-offset:2px;">Will Iran close the Strait of Hormuz by March 31?</a> <span style="display:inline-block;background:var(--teal);color:#fff;font-size:0.5rem;padding:1px 4px;border-radius:2px;vertical-align:middle;letter-spacing:0.05em;">DISCIPLINED</span></span>
+        <span><a href="https://polymarket.com/event/will-iran-close-the-strait-of-hormuz-by-2027" target="_blank" rel="noopener" style="color:inherit;text-decoration:underline;text-decoration-color:var(--rule);text-underline-offset:2px;">Will Iran close the Strait of Hormuz by March 31?</a> <span style="display:inline-block;background:var(--teal);color:#fff;font-size:0.72rem;padding:1px 4px;border-radius:2px;vertical-align:middle;letter-spacing:0.05em;">DISCIPLINED</span></span>
         <span>CONSENSUS</span>
         <span>B</span>
         <span>35c &rarr; 17c</span>
@@ -926,7 +942,7 @@ img { display: block; max-width: 100%; }
         <span class="green" style="font-weight:700;">+$500</span>
       </div>
       <div class="edge-row-wide">
-        <span><a href="https://polymarket.com/event/will-iran-close-the-strait-of-hormuz-by-2027" target="_blank" rel="noopener" style="color:inherit;text-decoration:underline;text-decoration-color:var(--rule);text-underline-offset:2px;">Will Iran close the Strait of Hormuz by March 31?</a> <span style="display:inline-block;background:var(--teal);color:#fff;font-size:0.5rem;padding:1px 4px;border-radius:2px;vertical-align:middle;letter-spacing:0.05em;">DISCIPLINED</span></span>
+        <span><a href="https://polymarket.com/event/will-iran-close-the-strait-of-hormuz-by-2027" target="_blank" rel="noopener" style="color:inherit;text-decoration:underline;text-decoration-color:var(--rule);text-underline-offset:2px;">Will Iran close the Strait of Hormuz by March 31?</a> <span style="display:inline-block;background:var(--teal);color:#fff;font-size:0.72rem;padding:1px 4px;border-radius:2px;vertical-align:middle;letter-spacing:0.05em;">DISCIPLINED</span></span>
         <span>CONSENSUS</span>
         <span>B</span>
         <span>35c &rarr; 17c</span>
@@ -942,7 +958,7 @@ img { display: block; max-width: 100%; }
         <span class="green" style="font-weight:700;">+$468</span>
       </div>
       <div class="edge-row-wide">
-        <span><a href="https://polymarket.com/event/israel-strikes-iran-by-february-28-2026" target="_blank" rel="noopener" style="color:inherit;text-decoration:underline;text-decoration-color:var(--rule);text-underline-offset:2px;">Israel strikes Iran by February 28, 2026?</a> <span style="display:inline-block;background:var(--teal);color:#fff;font-size:0.5rem;padding:1px 4px;border-radius:2px;vertical-align:middle;letter-spacing:0.05em;">DISCIPLINED</span></span>
+        <span><a href="https://polymarket.com/event/israel-strikes-iran-by-february-28-2026" target="_blank" rel="noopener" style="color:inherit;text-decoration:underline;text-decoration-color:var(--rule);text-underline-offset:2px;">Israel strikes Iran by February 28, 2026?</a> <span style="display:inline-block;background:var(--teal);color:#fff;font-size:0.72rem;padding:1px 4px;border-radius:2px;vertical-align:middle;letter-spacing:0.05em;">DISCIPLINED</span></span>
         <span>CONSENSUS</span>
         <span>A</span>
         <span>35c &rarr; 14c</span>
@@ -950,7 +966,7 @@ img { display: block; max-width: 100%; }
         <span class="green" style="font-weight:700;">+$443</span>
       </div>
       <div class="edge-row-wide">
-        <span><a href="https://polymarket.com/event/iran-strike-on-israel-by" target="_blank" rel="noopener" style="color:inherit;text-decoration:underline;text-decoration-color:var(--rule);text-underline-offset:2px;">Iran Strike on Israel by February 28?</a> <span style="display:inline-block;background:var(--teal);color:#fff;font-size:0.5rem;padding:1px 4px;border-radius:2px;vertical-align:middle;letter-spacing:0.05em;">DISCIPLINED</span></span>
+        <span><a href="https://polymarket.com/event/iran-strike-on-israel-by" target="_blank" rel="noopener" style="color:inherit;text-decoration:underline;text-decoration-color:var(--rule);text-underline-offset:2px;">Iran Strike on Israel by February 28?</a> <span style="display:inline-block;background:var(--teal);color:#fff;font-size:0.72rem;padding:1px 4px;border-radius:2px;vertical-align:middle;letter-spacing:0.05em;">DISCIPLINED</span></span>
         <span>CONSENSUS</span>
         <span>B</span>
         <span>26c &rarr; 10c</span>
@@ -958,7 +974,7 @@ img { display: block; max-width: 100%; }
         <span class="green" style="font-weight:700;">+$365</span>
       </div>
       <div class="edge-row-wide">
-        <span><a href="https://polymarket.com/event/iran-strike-on-us-military-by-february-28" target="_blank" rel="noopener" style="color:inherit;text-decoration:underline;text-decoration-color:var(--rule);text-underline-offset:2px;">Iran strike on US military by February 28?</a> <span style="display:inline-block;background:var(--teal);color:#fff;font-size:0.5rem;padding:1px 4px;border-radius:2px;vertical-align:middle;letter-spacing:0.05em;">DISCIPLINED</span></span>
+        <span><a href="https://polymarket.com/event/iran-strike-on-us-military-by-february-28" target="_blank" rel="noopener" style="color:inherit;text-decoration:underline;text-decoration-color:var(--rule);text-underline-offset:2px;">Iran strike on US military by February 28?</a> <span style="display:inline-block;background:var(--teal);color:#fff;font-size:0.72rem;padding:1px 4px;border-radius:2px;vertical-align:middle;letter-spacing:0.05em;">DISCIPLINED</span></span>
         <span>CONSENSUS</span>
         <span>B</span>
         <span>25c &rarr; 14c</span>
@@ -998,7 +1014,7 @@ img { display: block; max-width: 100%; }
         <span class="red" style="font-weight:700;">-$254</span>
       </div>
       <div class="edge-row-wide">
-        <span><a href="https://polymarket.com/event/iran-strike-on-israel-by" target="_blank" rel="noopener" style="color:inherit;text-decoration:underline;text-decoration-color:var(--rule);text-underline-offset:2px;">Iran Strike on Israel by February 28?</a> <span style="display:inline-block;background:var(--teal);color:#fff;font-size:0.5rem;padding:1px 4px;border-radius:2px;vertical-align:middle;letter-spacing:0.05em;">DISCIPLINED</span></span>
+        <span><a href="https://polymarket.com/event/iran-strike-on-israel-by" target="_blank" rel="noopener" style="color:inherit;text-decoration:underline;text-decoration-color:var(--rule);text-underline-offset:2px;">Iran Strike on Israel by February 28?</a> <span style="display:inline-block;background:var(--teal);color:#fff;font-size:0.72rem;padding:1px 4px;border-radius:2px;vertical-align:middle;letter-spacing:0.05em;">DISCIPLINED</span></span>
         <span>CONSENSUS</span>
         <span>B</span>
         <span>28c &rarr; 15c</span>
@@ -1030,7 +1046,7 @@ img { display: block; max-width: 100%; }
         <span class="red" style="font-weight:700;">-$250</span>
       </div>
       <div class="edge-row-wide">
-        <span><a href="https://polymarket.com/event/us-strikes-iran-by" target="_blank" rel="noopener" style="color:inherit;text-decoration:underline;text-decoration-color:var(--rule);text-underline-offset:2px;">US strikes Iran by March 15, 2026?</a> <span style="display:inline-block;background:var(--teal);color:#fff;font-size:0.5rem;padding:1px 4px;border-radius:2px;vertical-align:middle;letter-spacing:0.05em;">DISCIPLINED</span></span>
+        <span><a href="https://polymarket.com/event/us-strikes-iran-by" target="_blank" rel="noopener" style="color:inherit;text-decoration:underline;text-decoration-color:var(--rule);text-underline-offset:2px;">US strikes Iran by March 15, 2026?</a> <span style="display:inline-block;background:var(--teal);color:#fff;font-size:0.72rem;padding:1px 4px;border-radius:2px;vertical-align:middle;letter-spacing:0.05em;">DISCIPLINED</span></span>
         <span>CONSENSUS</span>
         <span>A</span>
         <span>42c &rarr; 43c</span>
