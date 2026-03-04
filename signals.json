@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-03-04T21:36:38Z",
-  "total_signals": 185,
+  "generated_at": "2026-03-04T22:00:17Z",
+  "total_signals": 186,
   "signals": [
     {
       "signal_id": "NE-POLY-0001",
@@ -472,7 +472,7 @@
       "edge_type": "CONSENSUS",
       "rating": "B",
       "entry_price": 0.645,
-      "current_price": 0.54,
+      "current_price": 0.545,
       "pnl_pct": 7.8,
       "status": "CLOSED",
       "state": "EXITED",
@@ -608,8 +608,8 @@
       "edge_type": "CONSENSUS",
       "rating": "B",
       "entry_price": 0.1625,
-      "current_price": 0.1725,
-      "pnl_pct": 6.2,
+      "current_price": 0.173,
+      "pnl_pct": 6.5,
       "status": "OPEN",
       "state": "ACTIVE",
       "edge_points": null
@@ -651,23 +651,6 @@
     {
       "signal_id": "NE-POLY-0039",
       "source": "polyhunter",
-      "asset": "Will monthly inflation increase by 0.4% or more in February?",
-      "ticker": null,
-      "asset_type": "prediction_market",
-      "direction": "higher",
-      "conviction": null,
-      "edge_type": "CONSENSUS",
-      "rating": "B",
-      "entry_price": 0.125,
-      "current_price": 0.095,
-      "pnl_pct": -24.0,
-      "status": "OPEN",
-      "state": "ACTIVE",
-      "edge_points": 5.0
-    },
-    {
-      "signal_id": "NE-POLY-0040",
-      "source": "polyhunter",
       "asset": "Will 2 Fed rate cuts happen in 2026? \u25cf\u25cf\u25cf\u25cf\u25cb [B]",
       "ticker": null,
       "asset_type": "prediction_market",
@@ -683,7 +666,7 @@
       "edge_points": 5.0
     },
     {
-      "signal_id": "NE-POLY-0041",
+      "signal_id": "NE-POLY-0040",
       "source": "polyhunter",
       "asset": "Will US GDP growth in Q1 2026 be greater than 3.5%? \u25cf\u25cf\u25cf\u25cf\u25d0 [B",
       "ticker": null,
@@ -700,7 +683,7 @@
       "edge_points": 13.0
     },
     {
-      "signal_id": "NE-POLY-0042",
+      "signal_id": "NE-POLY-0041",
       "source": "polyhunter",
       "asset": "Will inflation reach more than 3% in 2026? \u00e2\u0097\u008f\u00e2\u0097\u008f\u00e2\u0097\u008f\u00e2\u0097\u008f\u00e2\u0097\u008b [",
       "ticker": null,
@@ -710,14 +693,14 @@
       "edge_type": "CONSENSUS",
       "rating": "A",
       "entry_price": 0.29,
-      "current_price": 0.445,
+      "current_price": 0.4,
       "pnl_pct": 0.0,
       "status": "CLOSED",
       "state": "EXITED",
       "edge_points": 7.0
     },
     {
-      "signal_id": "NE-POLY-0043",
+      "signal_id": "NE-POLY-0042",
       "source": "polyhunter",
       "asset": "Kevin Warsh confirmed as Fed Chair by May 15? \u00e2\u0097\u008f\u00e2\u0097\u008f\u00e2\u0097\u008f\u00e2\u0097\u008f\u00e2\u0097",
       "ticker": null,
@@ -734,7 +717,7 @@
       "edge_points": 11.0
     },
     {
-      "signal_id": "NE-POLY-0044",
+      "signal_id": "NE-POLY-0043",
       "source": "polyhunter",
       "asset": "Will Trump nominate Kevin Warsh as the next Fed chair? \u00e2\u0097\u008f\u00e2\u0097",
       "ticker": null,
@@ -751,7 +734,7 @@
       "edge_points": 13.0
     },
     {
-      "signal_id": "NE-POLY-0045",
+      "signal_id": "NE-POLY-0044",
       "source": "polyhunter",
       "asset": "Will the DHS shutdown last 21 days or more? \u25cf\u25cf\u25cf\u25cf\u25d0 [A]",
       "ticker": null,
@@ -768,7 +751,7 @@
       "edge_points": 8.0
     },
     {
-      "signal_id": "NE-POLY-0046",
+      "signal_id": "NE-POLY-0045",
       "source": "polyhunter",
       "asset": "Will Trump nominate Kevin Warsh as the next Fed chair? \u00e2\u0097\u008f\u00e2\u0097",
       "ticker": null,
@@ -785,7 +768,7 @@
       "edge_points": 10.0
     },
     {
-      "signal_id": "NE-POLY-0047",
+      "signal_id": "NE-POLY-0046",
       "source": "polyhunter",
       "asset": "U.S. agrees to a new trade deal with \"India\" before 2027? \u25cf\u25cf",
       "ticker": null,
@@ -802,7 +785,7 @@
       "edge_points": 8.0
     },
     {
-      "signal_id": "NE-POLY-0048",
+      "signal_id": "NE-POLY-0047",
       "source": "polyhunter",
       "asset": "Will there be no change in Fed interest rates after the June",
       "ticker": null,
@@ -812,14 +795,14 @@
       "edge_type": "CONSENSUS",
       "rating": "A",
       "entry_price": 0.51,
-      "current_price": 0.615,
+      "current_price": 0.61,
       "pnl_pct": -2.9,
       "status": "CLOSED",
       "state": "EXITED",
       "edge_points": null
     },
     {
-      "signal_id": "NE-POLY-0049",
+      "signal_id": "NE-POLY-0048",
       "source": "polyhunter",
       "asset": "Will there be no change in Fed interest rates after the Marc",
       "ticker": null,
@@ -836,7 +819,7 @@
       "edge_points": 5.0
     },
     {
-      "signal_id": "NE-POLY-0050",
+      "signal_id": "NE-POLY-0049",
       "source": "polyhunter",
       "asset": "U.S. x Iran Military Engagement by March 31, 2026? \u25cf\u25cf\u25cf\u25cf\u25d0 [B]",
       "ticker": null,
@@ -853,7 +836,7 @@
       "edge_points": 13.0
     },
     {
-      "signal_id": "NE-POLY-0051",
+      "signal_id": "NE-POLY-0050",
       "source": "polyhunter",
       "asset": "Trump sued over tariff powers again by March 31? \u25cf\u25cf\u25cf\u25cf\u25ef [A]",
       "ticker": null,
@@ -870,7 +853,7 @@
       "edge_points": 8.0
     },
     {
-      "signal_id": "NE-POLY-0052",
+      "signal_id": "NE-POLY-0051",
       "source": "polyhunter",
       "asset": "Israel strikes Iran by February 28, 2026? \u25cf\u25cf\u25cf\u25cf\u25cf [A]",
       "ticker": null,
@@ -887,7 +870,7 @@
       "edge_points": 5.0
     },
     {
-      "signal_id": "NE-POLY-0053",
+      "signal_id": "NE-POLY-0052",
       "source": "polyhunter",
       "asset": "Will the US next strike Iran during the week of February 22-",
       "ticker": null,
@@ -904,7 +887,7 @@
       "edge_points": 6.0
     },
     {
-      "signal_id": "NE-POLY-0054",
+      "signal_id": "NE-POLY-0053",
       "source": "polyhunter",
       "asset": "Will the Fed decrease interest rates by 25 bps after the Jun",
       "ticker": null,
@@ -921,7 +904,7 @@
       "edge_points": 8.0
     },
     {
-      "signal_id": "NE-POLY-0055",
+      "signal_id": "NE-POLY-0054",
       "source": "polyhunter",
       "asset": "Will inflation reach more than 4% in 2026? \u00e2\u0097\u008f\u00e2\u0097\u008f\u00e2\u0097\u008f\u00e2\u0097\u0090\u00e2\u0097\u008b [",
       "ticker": null,
@@ -938,7 +921,7 @@
       "edge_points": 5.0
     },
     {
-      "signal_id": "NE-POLY-0056",
+      "signal_id": "NE-POLY-0055",
       "source": "polyhunter",
       "asset": "US strikes Iran by February 27, 2026? \u25cf\u25cf\u25cf\u25cf\u25cf [A]",
       "ticker": null,
@@ -955,7 +938,7 @@
       "edge_points": null
     },
     {
-      "signal_id": "NE-POLY-0057",
+      "signal_id": "NE-POLY-0056",
       "source": "polyhunter",
       "asset": "Will no Fed rate cuts happen in 2026? \u25cf\u25cf\u25cf\u25d0\u25cb [B]",
       "ticker": null,
@@ -972,7 +955,7 @@
       "edge_points": 4.0
     },
     {
-      "signal_id": "NE-POLY-0058",
+      "signal_id": "NE-POLY-0057",
       "source": "polyhunter",
       "asset": "Iran strike on US military by February 28? \u25cf\u25cf\u25cf\u25cf\u25cf [B]",
       "ticker": null,
@@ -987,6 +970,23 @@
       "status": "CLOSED",
       "state": "EXITED",
       "edge_points": null
+    },
+    {
+      "signal_id": "NE-POLY-0058",
+      "source": "polyhunter",
+      "asset": "Will monthly inflation increase by 0.4% or more in February?",
+      "ticker": null,
+      "asset_type": "prediction_market",
+      "direction": "higher",
+      "conviction": null,
+      "edge_type": "CONSENSUS",
+      "rating": "B",
+      "entry_price": 0.125,
+      "current_price": 0.095,
+      "pnl_pct": -24.0,
+      "status": "CLOSED",
+      "state": "EXITED",
+      "edge_points": 5.0
     },
     {
       "signal_id": "NE-POLY-0059",
@@ -2866,6 +2866,20 @@
     {
       "signal_id": "NE-NAS-0174",
       "source": "narrative_asset_signal",
+      "asset": "Natural Gas",
+      "ticker": null,
+      "asset_type": "macro",
+      "direction": "",
+      "pressure_index": 0.0,
+      "acceleration": "Delta | 0 |",
+      "signal_status": "Narrative Pressure Rising",
+      "published_at": "2026-03-04 21:51:30",
+      "status": "OPEN",
+      "state": "Narrative Pressure Rising"
+    },
+    {
+      "signal_id": "NE-NAS-0175",
+      "source": "narrative_asset_signal",
       "asset": "Gold",
       "ticker": null,
       "asset_type": "macro",
@@ -2878,7 +2892,7 @@
       "state": "Narrative Signal Mixed"
     },
     {
-      "signal_id": "NE-NAS-0175",
+      "signal_id": "NE-NAS-0176",
       "source": "narrative_asset_signal",
       "asset": "Crude oil futures (Brent & WTI)",
       "ticker": null,
@@ -2892,7 +2906,7 @@
       "state": "Narrative Pressure Accelerating"
     },
     {
-      "signal_id": "NE-NAS-0176",
+      "signal_id": "NE-NAS-0177",
       "source": "narrative_asset_signal",
       "asset": "Gold (XAU)",
       "ticker": null,
@@ -2906,7 +2920,7 @@
       "state": "Narrative Pressure Accelerating"
     },
     {
-      "signal_id": "NE-NAS-0177",
+      "signal_id": "NE-NAS-0178",
       "source": "narrative_asset_signal",
       "asset": "crude oil futures (Brent and WTI)",
       "ticker": null,
@@ -2920,7 +2934,7 @@
       "state": "Narrative Pressure Accelerating"
     },
     {
-      "signal_id": "NE-NAS-0178",
+      "signal_id": "NE-NAS-0179",
       "source": "narrative_asset_signal",
       "asset": "Crude oil futures (Brent & WTI)",
       "ticker": null,
@@ -2934,7 +2948,7 @@
       "state": "Narrative Signal Mixed"
     },
     {
-      "signal_id": "NE-NAS-0179",
+      "signal_id": "NE-NAS-0180",
       "source": "narrative_asset_signal",
       "asset": "Gold (XAU)",
       "ticker": null,
@@ -2948,7 +2962,7 @@
       "state": "Downward Narrative Bias Building"
     },
     {
-      "signal_id": "NE-NAS-0180",
+      "signal_id": "NE-NAS-0181",
       "source": "narrative_asset_signal",
       "asset": "crude oil futures (Brent and WTI as primary tradables)",
       "ticker": null,
@@ -2962,7 +2976,7 @@
       "state": "Narrative Signal Mixed"
     },
     {
-      "signal_id": "NE-NAS-0181",
+      "signal_id": "NE-NAS-0182",
       "source": "narrative_asset_signal",
       "asset": "Crude oil futures (Brent & WTI)",
       "ticker": null,
@@ -2976,7 +2990,7 @@
       "state": "Narrative Pressure Accelerating"
     },
     {
-      "signal_id": "NE-NAS-0182",
+      "signal_id": "NE-NAS-0183",
       "source": "narrative_asset_signal",
       "asset": "Semiconductor equities (proxy: VanEck Semiconductor ETF)",
       "ticker": null,
@@ -2990,7 +3004,7 @@
       "state": "Narrative Pressure Accelerating"
     },
     {
-      "signal_id": "NE-NAS-0183",
+      "signal_id": "NE-NAS-0184",
       "source": "narrative_asset_signal",
       "asset": "crude oil futures (Brent and WTI)",
       "ticker": null,
@@ -3004,7 +3018,7 @@
       "state": "Narrative Pressure Accelerating"
     },
     {
-      "signal_id": "NE-NAS-0184",
+      "signal_id": "NE-NAS-0185",
       "source": "narrative_asset_signal",
       "asset": "Crude oil futures (Brent & WTI)",
       "ticker": null,
@@ -3018,7 +3032,7 @@
       "state": "Narrative Pressure Accelerating"
     },
     {
-      "signal_id": "NE-NAS-0185",
+      "signal_id": "NE-NAS-0186",
       "source": "narrative_asset_signal",
       "asset": "crude oil futures (Brent and WTI)",
       "ticker": null,
