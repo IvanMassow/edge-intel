@@ -5,8 +5,16 @@
     <link>https://noah-edge.com/</link>
     <description>Prediction market intelligence. The Noah Poly Index tracks edges with transparent positions and tracked outcomes.</description>
     <language>en</language>
-    <lastBuildDate>Wed, 04 Mar 2026 14:04:40 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 04 Mar 2026 15:37:22 +0000</lastBuildDate>
     <atom:link href="https://noah-edge.com/rss.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Shiba Inu futures surge amid prolonged price decline, signalling mounting trader volatility</title>
+      <link>https://noah-edge.com/stories/shiba-inu-futures-surge-amid-prolonged-price-decline.html</link>
+      <description>An unprecedented influx into Shiba Inu&#39;s futures market highlights heightened trader activity despite continued losses on spot markets, signalling potential for rapid price movements amid fragile m...</description>
+      <pubDate>Wed, 04 Mar 2026 14:41:30 +0000</pubDate>
+      <guid>https://noah-edge.com/stories/shiba-inu-futures-surge-amid-prolonged-price-decline.html</guid>
+      <enclosure url="https://noah-edge.com/assets/images/shiba-inu-futures-surge-amid-prolonged-p-ab4cc55e.jpg" type="image/jpeg" />
+    </item>
     <item>
       <title>Polymarket prediction frenzy sparks debate over insider trading amid US-Israel strike fears</title>
       <link>https://noah-edge.com/stories/polymarket-prediction-frenzy-sparks-debate-over-insider.html</link>
@@ -158,14 +166,6 @@
       <pubDate>Mon, 02 Mar 2026 19:14:19 +0000</pubDate>
       <guid>https://noah-edge.com/stories/aster-signals-potential-breakout-as-bollinger-bands-squeeze.html</guid>
       <enclosure url="https://noah-edge.com/assets/images/aster-signals-potential-breakout-as-boll-535ba69c.jpg" type="image/jpeg" />
-    </item>
-    <item>
-      <title>Polymarket’s Iran contract trading reaches $529 million amid insider activity concerns</title>
-      <link>https://noah-edge.com/stories/polymarkets-iran-contract-trading-reaches-529-million-amid.html</link>
-      <description>Trading on Polymarket&#39;s Iran-related contracts has surged to approximately $529 million, exposing potential insider trading risks and highlighting regulatory challenges in decentralised, pseudonymo...</description>
-      <pubDate>Mon, 02 Mar 2026 19:10:02 +0000</pubDate>
-      <guid>https://noah-edge.com/stories/polymarkets-iran-contract-trading-reaches-529-million-amid.html</guid>
-      <enclosure url="https://noah-edge.com/assets/images/polymarkets-iran-contract-trading-reache-91c41e51.jpg" type="image/jpeg" />
     </item>
   </channel>
 </rss>
