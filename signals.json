@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-03-05T12:20:18Z",
-  "total_signals": 191,
+  "generated_at": "2026-03-05T12:52:14Z",
+  "total_signals": 194,
   "signals": [
     {
       "signal_id": "NE-POLY-0001",
@@ -2956,6 +2956,48 @@
       "asset_type": "macro",
       "direction": "",
       "pressure_index": 0.0,
+      "acceleration": "Delta | -27 |",
+      "signal_status": "Narrative Signal Mixed",
+      "published_at": "2026-03-05 12:49:05",
+      "status": "OPEN",
+      "state": "Narrative Signal Mixed"
+    },
+    {
+      "signal_id": "NE-NAS-0180",
+      "source": "narrative_asset_signal",
+      "asset": "Gold",
+      "ticker": null,
+      "asset_type": "macro",
+      "direction": "",
+      "pressure_index": 39.0,
+      "acceleration": "Delta (-40)",
+      "signal_status": "Upward Narrative Bias Building",
+      "published_at": "2026-03-05 12:48:21",
+      "status": "OPEN",
+      "state": "Upward Narrative Bias Building"
+    },
+    {
+      "signal_id": "NE-NAS-0181",
+      "source": "narrative_asset_signal",
+      "asset": "copper",
+      "ticker": null,
+      "asset_type": "macro",
+      "direction": "",
+      "pressure_index": 0.0,
+      "acceleration": "Delta -37",
+      "signal_status": "Upward Narrative Bias Building",
+      "published_at": "2026-03-05 12:43:40",
+      "status": "OPEN",
+      "state": "Upward Narrative Bias Building"
+    },
+    {
+      "signal_id": "NE-NAS-0182",
+      "source": "narrative_asset_signal",
+      "asset": "Natural Gas",
+      "ticker": null,
+      "asset_type": "macro",
+      "direction": "",
+      "pressure_index": 0.0,
       "acceleration": "Delta | 0 |",
       "signal_status": "Narrative Pressure Rising",
       "published_at": "2026-03-04 21:51:30",
@@ -2963,7 +3005,7 @@
       "state": "Narrative Pressure Rising"
     },
     {
-      "signal_id": "NE-NAS-0180",
+      "signal_id": "NE-NAS-0183",
       "source": "narrative_asset_signal",
       "asset": "Gold",
       "ticker": null,
@@ -2977,7 +3019,7 @@
       "state": "Narrative Signal Mixed"
     },
     {
-      "signal_id": "NE-NAS-0181",
+      "signal_id": "NE-NAS-0184",
       "source": "narrative_asset_signal",
       "asset": "Crude oil futures (Brent & WTI)",
       "ticker": null,
@@ -2991,7 +3033,7 @@
       "state": "Narrative Pressure Accelerating"
     },
     {
-      "signal_id": "NE-NAS-0182",
+      "signal_id": "NE-NAS-0185",
       "source": "narrative_asset_signal",
       "asset": "Gold (XAU)",
       "ticker": null,
@@ -3005,7 +3047,7 @@
       "state": "Narrative Pressure Accelerating"
     },
     {
-      "signal_id": "NE-NAS-0183",
+      "signal_id": "NE-NAS-0186",
       "source": "narrative_asset_signal",
       "asset": "crude oil futures (Brent and WTI)",
       "ticker": null,
@@ -3019,7 +3061,7 @@
       "state": "Narrative Pressure Accelerating"
     },
     {
-      "signal_id": "NE-NAS-0184",
+      "signal_id": "NE-NAS-0187",
       "source": "narrative_asset_signal",
       "asset": "Crude oil futures (Brent & WTI)",
       "ticker": null,
@@ -3033,7 +3075,7 @@
       "state": "Narrative Signal Mixed"
     },
     {
-      "signal_id": "NE-NAS-0185",
+      "signal_id": "NE-NAS-0188",
       "source": "narrative_asset_signal",
       "asset": "Gold (XAU)",
       "ticker": null,
@@ -3047,7 +3089,7 @@
       "state": "Downward Narrative Bias Building"
     },
     {
-      "signal_id": "NE-NAS-0186",
+      "signal_id": "NE-NAS-0189",
       "source": "narrative_asset_signal",
       "asset": "crude oil futures (Brent and WTI as primary tradables)",
       "ticker": null,
@@ -3061,7 +3103,7 @@
       "state": "Narrative Signal Mixed"
     },
     {
-      "signal_id": "NE-NAS-0187",
+      "signal_id": "NE-NAS-0190",
       "source": "narrative_asset_signal",
       "asset": "Crude oil futures (Brent & WTI)",
       "ticker": null,
@@ -3075,7 +3117,7 @@
       "state": "Narrative Pressure Accelerating"
     },
     {
-      "signal_id": "NE-NAS-0188",
+      "signal_id": "NE-NAS-0191",
       "source": "narrative_asset_signal",
       "asset": "Semiconductor equities (proxy: VanEck Semiconductor ETF)",
       "ticker": null,
@@ -3089,7 +3131,7 @@
       "state": "Narrative Pressure Accelerating"
     },
     {
-      "signal_id": "NE-NAS-0189",
+      "signal_id": "NE-NAS-0192",
       "source": "narrative_asset_signal",
       "asset": "crude oil futures (Brent and WTI)",
       "ticker": null,
@@ -3103,7 +3145,7 @@
       "state": "Narrative Pressure Accelerating"
     },
     {
-      "signal_id": "NE-NAS-0190",
+      "signal_id": "NE-NAS-0193",
       "source": "narrative_asset_signal",
       "asset": "Crude oil futures (Brent & WTI)",
       "ticker": null,
@@ -3117,7 +3159,7 @@
       "state": "Narrative Pressure Accelerating"
     },
     {
-      "signal_id": "NE-NAS-0191",
+      "signal_id": "NE-NAS-0194",
       "source": "narrative_asset_signal",
       "asset": "crude oil futures (Brent and WTI)",
       "ticker": null,
