@@ -5,8 +5,16 @@
     <link>https://noah-edge.com/</link>
     <description>Prediction market intelligence. The Noah Poly Index tracks edges with transparent positions and tracked outcomes.</description>
     <language>en</language>
-    <lastBuildDate>Thu, 05 Mar 2026 12:52:14 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 05 Mar 2026 13:24:12 +0000</lastBuildDate>
     <atom:link href="https://noah-edge.com/rss.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>PMI-20260305 | 0 Beliefs | No Domains | unclear (zuq7)</title>
+      <link>https://noah-edge.com/stories/pmi-20260305-0-beliefs-no-domains-unclear-zuq7.html</link>
+      <description>Summary Corpus: unknown articles across 0 trends | unknown horizon | unknownh window Beliefs: 0 total | 0 cross-domain | 0 single-domain Domains: none Posture: Market state not computed Signal Snap...</description>
+      <pubDate>Thu, 05 Mar 2026 13:07:44 +0000</pubDate>
+      <guid>https://noah-edge.com/stories/pmi-20260305-0-beliefs-no-domains-unclear-zuq7.html</guid>
+      <enclosure url="https://noah-edge.com/assets/images/pmi-20260305-0-beliefs-no-domains-unclea-a3ca6aef.jpg" type="image/jpeg" />
+    </item>
     <item>
       <title>PMI-20260305 | 0 Beliefs | No Domains | unclear (zuq4)</title>
       <link>https://noah-edge.com/stories/pmi-20260305-0-beliefs-no-domains-unclear-zuq4.html</link>
@@ -158,14 +166,6 @@
       <pubDate>Tue, 03 Mar 2026 11:24:26 +0000</pubDate>
       <guid>https://noah-edge.com/stories/onchain-markets-outpace-traditional-exchanges-during-iran.html</guid>
       <enclosure url="https://noah-edge.com/assets/images/onchain-markets-outpace-traditional-exch-081112ac.jpg" type="image/jpeg" />
-    </item>
-    <item>
-      <title>Polymarket’s surge in geopolitical betting raises regulatory and integrity challenges</title>
-      <link>https://noah-edge.com/stories/polymarkets-surge-in-geopolitical-betting-raises-regulatory.html</link>
-      <description>Polymarket experiences unprecedented trading volumes linked to US–Iran tensions, highlighting fast-paced market reactions but also exposing regulatory and integrity concerns amid a fragmented legal...</description>
-      <pubDate>Tue, 03 Mar 2026 11:24:24 +0000</pubDate>
-      <guid>https://noah-edge.com/stories/polymarkets-surge-in-geopolitical-betting-raises-regulatory.html</guid>
-      <enclosure url="https://noah-edge.com/assets/images/polymarkets-surge-in-geopolitical-bettin-5ccce70a.jpg" type="image/jpeg" />
     </item>
   </channel>
 </rss>
