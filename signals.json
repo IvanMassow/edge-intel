@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-03-05T23:25:31Z",
+  "generated_at": "2026-03-05T23:57:05Z",
   "total_signals": 198,
   "signals": [
     {
@@ -166,7 +166,7 @@
       "edge_type": "CONSENSUS",
       "rating": "B",
       "entry_price": 0.24,
-      "current_price": 0.165,
+      "current_price": 0.2,
       "pnl_pct": 39.6,
       "status": "CLOSED",
       "state": "EXITED",
@@ -217,7 +217,7 @@
       "edge_type": "CONSENSUS",
       "rating": "A",
       "entry_price": 0.195,
-      "current_price": 0.14,
+      "current_price": 0.145,
       "pnl_pct": 35.9,
       "status": "CLOSED",
       "state": "EXITED",
@@ -294,6 +294,23 @@
     {
       "signal_id": "NE-POLY-0018",
       "source": "polyhunter",
+      "asset": "Will Israel launch a major ground offensive in Lebanon by Ma",
+      "ticker": null,
+      "asset_type": "prediction_market",
+      "direction": "lower",
+      "conviction": null,
+      "edge_type": "CONSENSUS",
+      "rating": "A",
+      "entry_price": 0.845,
+      "current_price": 0.635,
+      "pnl_pct": 24.9,
+      "status": "CLOSED",
+      "state": "EXITED",
+      "edge_points": 13.0
+    },
+    {
+      "signal_id": "NE-POLY-0019",
+      "source": "polyhunter",
       "asset": "Tariff increase on Canada in effect by June 30? \u25cf\u25cf\u25cf\u25cf\u25cf [A]",
       "ticker": null,
       "asset_type": "prediction_market",
@@ -309,7 +326,7 @@
       "edge_points": 12.0
     },
     {
-      "signal_id": "NE-POLY-0019",
+      "signal_id": "NE-POLY-0020",
       "source": "polyhunter",
       "asset": "Will no Fed rate cuts happen in 2026? \u00e2\u0097\u008f\u00e2\u0097\u008f\u00e2\u0097\u008f\u00e2\u0097\u008f\u00e2\u0097\u008b [A]",
       "ticker": null,
@@ -326,7 +343,7 @@
       "edge_points": 9.0
     },
     {
-      "signal_id": "NE-POLY-0020",
+      "signal_id": "NE-POLY-0021",
       "source": "polyhunter",
       "asset": "US x Iran ceasefire by March 31? \u25cf\u25cf\u25cf\u25cf\u25cb [A]",
       "ticker": null,
@@ -343,7 +360,7 @@
       "edge_points": 9.0
     },
     {
-      "signal_id": "NE-POLY-0021",
+      "signal_id": "NE-POLY-0022",
       "source": "polyhunter",
       "asset": "Iran agrees to end enrichment of uranium by March 31? \u25cf\u25cf\u25cf\u25cf\u25cc ",
       "ticker": null,
@@ -360,7 +377,7 @@
       "edge_points": 5.0
     },
     {
-      "signal_id": "NE-POLY-0022",
+      "signal_id": "NE-POLY-0023",
       "source": "polyhunter",
       "asset": "Will inflation reach more than 5% in 2026? \u25cf\u25cf\u25cf\u25cf\u25cf [B] DISCOVE",
       "ticker": null,
@@ -377,7 +394,7 @@
       "edge_points": 4.0
     },
     {
-      "signal_id": "NE-POLY-0023",
+      "signal_id": "NE-POLY-0024",
       "source": "polyhunter",
       "asset": "US-Iran nuclear deal by June 30? \u25cf\u25cf\u25cf\u25cf\u25cc [A]",
       "ticker": null,
@@ -394,7 +411,7 @@
       "edge_points": 6.0
     },
     {
-      "signal_id": "NE-POLY-0024",
+      "signal_id": "NE-POLY-0025",
       "source": "polyhunter",
       "asset": "US-Iran nuclear deal by June 30? \u25cf\u25cf\u25cf\u25cf\u25d0 [A]",
       "ticker": null,
@@ -411,7 +428,7 @@
       "edge_points": 6.0
     },
     {
-      "signal_id": "NE-POLY-0025",
+      "signal_id": "NE-POLY-0026",
       "source": "polyhunter",
       "asset": "Will Israel or the US target Tehran? \u25cf\u25cf\u25cf\u25d0 [B] DISCOVERY",
       "ticker": null,
@@ -428,7 +445,7 @@
       "edge_points": 6.0
     },
     {
-      "signal_id": "NE-POLY-0026",
+      "signal_id": "NE-POLY-0027",
       "source": "polyhunter",
       "asset": "US-Iran nuclear deal by June 30? \u25cf\u25cf\u25cf\u25cf\u25d1 [A]",
       "ticker": null,
@@ -445,7 +462,7 @@
       "edge_points": 6.0
     },
     {
-      "signal_id": "NE-POLY-0027",
+      "signal_id": "NE-POLY-0028",
       "source": "polyhunter",
       "asset": "US strikes Iran by March 31, 2026? \u25cf\u25cf\u25cf\u25cf\u25cb [A]",
       "ticker": null,
@@ -462,7 +479,7 @@
       "edge_points": 9.0
     },
     {
-      "signal_id": "NE-POLY-0028",
+      "signal_id": "NE-POLY-0029",
       "source": "polyhunter",
       "asset": "Israel strikes Iran by March 31, 2026? \u25cf\u25cf\u25cf\u25cf\u25cf [B]",
       "ticker": null,
@@ -479,7 +496,7 @@
       "edge_points": 10.0
     },
     {
-      "signal_id": "NE-POLY-0029",
+      "signal_id": "NE-POLY-0030",
       "source": "polyhunter",
       "asset": "Israel strikes Iran by March 31, 2026? \u25cf\u25cf\u25cf\u25cf\u25d0 [B]",
       "ticker": null,
@@ -496,7 +513,7 @@
       "edge_points": 8.0
     },
     {
-      "signal_id": "NE-POLY-0030",
+      "signal_id": "NE-POLY-0031",
       "source": "polyhunter",
       "asset": "US-Iran nuclear deal by June 30? \u25cf\u25cf\u25cf\u25cf\u25d0 [A]",
       "ticker": null,
@@ -513,7 +530,24 @@
       "edge_points": 4.0
     },
     {
-      "signal_id": "NE-POLY-0031",
+      "signal_id": "NE-POLY-0032",
+      "source": "polyhunter",
+      "asset": "Israel strike on Yemen by March 31, 2026? \u25cf\u25cf\u25cf\u25cf\u25d0 [A]",
+      "ticker": null,
+      "asset_type": "prediction_market",
+      "direction": "higher",
+      "conviction": null,
+      "edge_type": "CONSENSUS",
+      "rating": "A",
+      "entry_price": 0.615,
+      "current_price": 0.685,
+      "pnl_pct": 11.4,
+      "status": "CLOSED",
+      "state": "EXITED",
+      "edge_points": 7.0
+    },
+    {
+      "signal_id": "NE-POLY-0033",
       "source": "polyhunter",
       "asset": "Will U.S. tariff rate on China be between 15% and 25% on Mar",
       "ticker": null,
@@ -523,14 +557,14 @@
       "edge_type": "CONSENSUS",
       "rating": "B",
       "entry_price": 0.645,
-      "current_price": 0.57,
+      "current_price": 0.58,
       "pnl_pct": 7.8,
       "status": "CLOSED",
       "state": "EXITED",
       "edge_points": 8.0
     },
     {
-      "signal_id": "NE-POLY-0032",
+      "signal_id": "NE-POLY-0034",
       "source": "polyhunter",
       "asset": "Will the Fed decrease interest rates by 25 bps after the Jun",
       "ticker": null,
@@ -547,7 +581,7 @@
       "edge_points": 8.0
     },
     {
-      "signal_id": "NE-POLY-0033",
+      "signal_id": "NE-POLY-0035",
       "source": "polyhunter",
       "asset": "Will Crude Oil (CL) hit (HIGH) $80 by end of March? \u25cf\u25cf\u25cf\u25cf\u25d0 [B",
       "ticker": null,
@@ -557,14 +591,14 @@
       "edge_type": "CONSENSUS",
       "rating": "B",
       "entry_price": 0.71,
-      "current_price": 0.9945,
+      "current_price": 0.9975,
       "pnl_pct": 7.0,
       "status": "CLOSED",
       "state": "EXITED",
       "edge_points": 6.0
     },
     {
-      "signal_id": "NE-POLY-0034",
+      "signal_id": "NE-POLY-0036",
       "source": "polyhunter",
       "asset": "Trump invokes War Powers against Iran by March 31, 2026? \u25cf\u25cf\u25cf",
       "ticker": null,
@@ -581,7 +615,7 @@
       "edge_points": null
     },
     {
-      "signal_id": "NE-POLY-0035",
+      "signal_id": "NE-POLY-0037",
       "source": "polyhunter",
       "asset": "Will 3 Fed rate cuts happen in 2026? \u00e2\u0097\u008f\u00e2\u0097\u008f\u00e2\u0097\u008f\u00e2\u0097\u008f\u00e2\u0097\u008b [B] DIS",
       "ticker": null,
@@ -598,7 +632,7 @@
       "edge_points": 4.0
     },
     {
-      "signal_id": "NE-POLY-0036",
+      "signal_id": "NE-POLY-0038",
       "source": "polyhunter",
       "asset": "U.S. agrees to a new trade deal with \"Taiwan\" before 2027? \u25cf",
       "ticker": null,
@@ -615,7 +649,7 @@
       "edge_points": 5.0
     },
     {
-      "signal_id": "NE-POLY-0037",
+      "signal_id": "NE-POLY-0039",
       "source": "polyhunter",
       "asset": "Will there be no change in Fed interest rates after the June",
       "ticker": null,
@@ -632,7 +666,7 @@
       "edge_points": 6.0
     },
     {
-      "signal_id": "NE-POLY-0038",
+      "signal_id": "NE-POLY-0040",
       "source": "polyhunter",
       "asset": "Will the Fed decrease interest rates by 50+ bps after the Ju",
       "ticker": null,
@@ -649,7 +683,7 @@
       "edge_points": 4.0
     },
     {
-      "signal_id": "NE-POLY-0039",
+      "signal_id": "NE-POLY-0041",
       "source": "polyhunter",
       "asset": "Will Trump nominate Kevin Warsh as the next Fed chair? \u25cf\u25cf\u25cf\u25cf\u25cb",
       "ticker": null,
@@ -666,24 +700,7 @@
       "edge_points": 7.0
     },
     {
-      "signal_id": "NE-POLY-0040",
-      "source": "polyhunter",
-      "asset": "Will Iran close the Strait of Hormuz by March 31? \u25cf\u25cf\u25cf\u25d0\u25cc [B]",
-      "ticker": null,
-      "asset_type": "prediction_market",
-      "direction": "lower",
-      "conviction": null,
-      "edge_type": "CONSENSUS",
-      "rating": "B",
-      "entry_price": 0.815,
-      "current_price": 0.685,
-      "pnl_pct": 16.0,
-      "status": "OPEN",
-      "state": "ACTIVE",
-      "edge_points": 7.0
-    },
-    {
-      "signal_id": "NE-POLY-0041",
+      "signal_id": "NE-POLY-0042",
       "source": "polyhunter",
       "asset": "Will no Fed rate cuts happen in 2026? \u25cf\u25cf\u25cf\u25cf\u25cb [B]",
       "ticker": null,
@@ -693,14 +710,31 @@
       "edge_type": "CONSENSUS",
       "rating": "B",
       "entry_price": 0.1625,
-      "current_price": 0.184,
-      "pnl_pct": 13.2,
+      "current_price": 0.187,
+      "pnl_pct": 15.1,
       "status": "OPEN",
       "state": "ACTIVE",
       "edge_points": null
     },
     {
-      "signal_id": "NE-POLY-0042",
+      "signal_id": "NE-POLY-0043",
+      "source": "polyhunter",
+      "asset": "Will Iran close the Strait of Hormuz by March 31? \u25cf\u25cf\u25cf\u25d0\u25cc [B]",
+      "ticker": null,
+      "asset_type": "prediction_market",
+      "direction": "lower",
+      "conviction": null,
+      "edge_type": "CONSENSUS",
+      "rating": "B",
+      "entry_price": 0.815,
+      "current_price": 0.705,
+      "pnl_pct": 13.5,
+      "status": "OPEN",
+      "state": "ACTIVE",
+      "edge_points": 7.0
+    },
+    {
+      "signal_id": "NE-POLY-0044",
       "source": "polyhunter",
       "asset": "Israel x Hezbollah ceasefire by March 31, 2026? \u25cf\u25cf\u25cf\u25cf\u25cf [A]",
       "ticker": null,
@@ -710,45 +744,11 @@
       "edge_type": "CONSENSUS",
       "rating": "A",
       "entry_price": 0.16,
-      "current_price": 0.145,
-      "pnl_pct": 9.4,
+      "current_price": 0.15,
+      "pnl_pct": 6.3,
       "status": "OPEN",
       "state": "ACTIVE",
       "edge_points": 6.0
-    },
-    {
-      "signal_id": "NE-POLY-0043",
-      "source": "polyhunter",
-      "asset": "Will Israel launch a major ground offensive in Lebanon by Ma",
-      "ticker": null,
-      "asset_type": "prediction_market",
-      "direction": "lower",
-      "conviction": null,
-      "edge_type": "CONSENSUS",
-      "rating": "A",
-      "entry_price": 0.845,
-      "current_price": 0.775,
-      "pnl_pct": 8.3,
-      "status": "OPEN",
-      "state": "ACTIVE",
-      "edge_points": 13.0
-    },
-    {
-      "signal_id": "NE-POLY-0044",
-      "source": "polyhunter",
-      "asset": "Israel strike on Yemen by March 31, 2026? \u25cf\u25cf\u25cf\u25cf\u25d0 [A]",
-      "ticker": null,
-      "asset_type": "prediction_market",
-      "direction": "higher",
-      "conviction": null,
-      "edge_type": "CONSENSUS",
-      "rating": "A",
-      "entry_price": 0.615,
-      "current_price": 0.66,
-      "pnl_pct": 7.3,
-      "status": "OPEN",
-      "state": "ACTIVE",
-      "edge_points": 7.0
     },
     {
       "signal_id": "NE-POLY-0045",
@@ -1050,7 +1050,7 @@
       "edge_type": "CONSENSUS",
       "rating": "B",
       "entry_price": 0.105,
-      "current_price": 0.145,
+      "current_price": 0.14,
       "pnl_pct": -19.0,
       "status": "CLOSED",
       "state": "EXITED",
@@ -1118,7 +1118,7 @@
       "edge_type": "CONSENSUS",
       "rating": "B",
       "entry_price": 0.125,
-      "current_price": 0.1,
+      "current_price": 0.11,
       "pnl_pct": -24.0,
       "status": "CLOSED",
       "state": "EXITED",
