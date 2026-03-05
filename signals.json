@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-03-05T03:18:15Z",
+  "generated_at": "2026-03-05T03:50:07Z",
   "total_signals": 188,
   "signals": [
     {
@@ -200,7 +200,7 @@
       "edge_type": "CONSENSUS",
       "rating": "A",
       "entry_price": 0.195,
-      "current_price": 0.15,
+      "current_price": 0.145,
       "pnl_pct": 35.9,
       "status": "CLOSED",
       "state": "EXITED",
@@ -634,23 +634,6 @@
     {
       "signal_id": "NE-POLY-0038",
       "source": "polyhunter",
-      "asset": "Will the US add less than 25k jobs in February? \u25cf\u25cf\u25cf\u25cf\u25cf [B]",
-      "ticker": null,
-      "asset_type": "prediction_market",
-      "direction": "lower",
-      "conviction": null,
-      "edge_type": "CONSENSUS",
-      "rating": "B",
-      "entry_price": 0.24,
-      "current_price": 0.23,
-      "pnl_pct": 4.2,
-      "status": "OPEN",
-      "state": "ACTIVE",
-      "edge_points": 8.0
-    },
-    {
-      "signal_id": "NE-POLY-0039",
-      "source": "polyhunter",
       "asset": "Will no Fed rate cuts happen in 2026? \u25cf\u25cf\u25cf\u25cf\u25cb [B]",
       "ticker": null,
       "asset_type": "prediction_market",
@@ -664,6 +647,23 @@
       "status": "OPEN",
       "state": "ACTIVE",
       "edge_points": null
+    },
+    {
+      "signal_id": "NE-POLY-0039",
+      "source": "polyhunter",
+      "asset": "Will the US add less than 25k jobs in February? \u25cf\u25cf\u25cf\u25cf\u25cf [B]",
+      "ticker": null,
+      "asset_type": "prediction_market",
+      "direction": "lower",
+      "conviction": null,
+      "edge_type": "CONSENSUS",
+      "rating": "B",
+      "entry_price": 0.24,
+      "current_price": 0.24,
+      "pnl_pct": 0.0,
+      "status": "OPEN",
+      "state": "ACTIVE",
+      "edge_points": 8.0
     },
     {
       "signal_id": "NE-POLY-0040",
