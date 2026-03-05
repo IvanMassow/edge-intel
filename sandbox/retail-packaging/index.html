@@ -31,6 +31,7 @@
 }
 
 :root {
+    --gutter: clamp(24px, 4vw, 56px);
     --burgundy: #7A1F1F;
     --terracotta: #943B3B;
     --bg-white: #FFFFFF;
@@ -80,7 +81,7 @@ body {
 .cross-nav-inner {
     max-width: 1280px;
     margin: 0 auto;
-    padding: 0 24px;
+    padding: 0 var(--gutter);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -137,7 +138,7 @@ body {
 .section-nav-inner {
     max-width: 1280px;
     margin: 0 auto;
-    padding: 0 24px;
+    padding: 0 var(--gutter);
     display: flex;
     align-items: center;
     gap: 6px;
@@ -172,7 +173,7 @@ body {
 .masthead {
     max-width: 1280px;
     margin: 0 auto;
-    padding: 28px 24px 20px;
+    padding: 28px var(--gutter) 20px;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -277,7 +278,7 @@ body {
 .section-heading {
     max-width: 1280px;
     margin: 0 auto;
-    padding: 48px 24px 20px;
+    padding: 48px var(--gutter) 20px;
     display: flex;
     align-items: center;
     gap: 16px;
@@ -301,7 +302,7 @@ body {
 .featured-grid {
     max-width: 1280px;
     margin: 0 auto;
-    padding: 0 24px 48px;
+    padding: 0 var(--gutter) 48px;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 28px;
@@ -385,7 +386,7 @@ body {
 .secondary-grid {
     max-width: 1280px;
     margin: 0 auto;
-    padding: 0 24px;
+    padding: 0 var(--gutter);
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 24px;
@@ -450,7 +451,7 @@ body {
 .wire-section {
     max-width: 1280px;
     margin: 0 auto;
-    padding: 0 24px 56px;
+    padding: 0 var(--gutter) 56px;
 }
 
 .wire-list {
@@ -506,7 +507,7 @@ body {
 .footer {
     background: var(--bg-dark);
     color: rgba(255, 255, 255, 0.7);
-    padding: 48px 24px 40px;
+    padding: 48px var(--gutter) 40px;
 }
 
 .footer-inner {

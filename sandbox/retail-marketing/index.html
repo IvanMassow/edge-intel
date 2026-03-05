@@ -35,6 +35,7 @@
 
         /* ===== COLOR TOKENS ===== */
         :root {
+            --gutter: clamp(24px, 4vw, 56px);
             --burgundy: #8B1A1A;
             --burgundy-light: #a82030;
             --warm-red: #B22234;
@@ -61,7 +62,7 @@
         .cross-nav-inner {
             max-width: 1280px;
             margin: 0 auto;
-            padding: 0 24px;
+            padding: 0 var(--gutter);
             display: flex;
             align-items: center;
             justify-content: center;
@@ -107,7 +108,7 @@
         .section-nav-inner {
             max-width: 1280px;
             margin: 0 auto;
-            padding: 0 24px;
+            padding: 0 var(--gutter);
             display: flex;
             align-items: center;
             gap: 0;
@@ -131,7 +132,7 @@
         .masthead {
             max-width: 1280px;
             margin: 0 auto;
-            padding: 32px 24px 24px;
+            padding: 32px var(--gutter) 24px;
             display: flex;
             align-items: center;
             justify-content: space-between;
@@ -153,7 +154,7 @@
         .masthead-divider {
             max-width: 1280px;
             margin: 0 auto;
-            padding: 0 24px;
+            padding: 0 var(--gutter);
         }
         .masthead-divider hr {
             border: none;
@@ -165,7 +166,7 @@
         .hero {
             max-width: 1280px;
             margin: 0 auto;
-            padding: 24px 24px 0;
+            padding: 24px var(--gutter) 0;
         }
         .hero-card {
             position: relative;
@@ -232,7 +233,7 @@
         .section-header {
             max-width: 1280px;
             margin: 0 auto;
-            padding: 48px 24px 20px;
+            padding: 48px var(--gutter) 20px;
             display: flex;
             align-items: center;
             gap: 16px;
@@ -276,7 +277,7 @@
         .featured-grid {
             max-width: 1280px;
             margin: 0 auto;
-            padding: 0 24px 24px;
+            padding: 0 var(--gutter) 24px;
             display: grid;
             grid-template-columns: repeat(3, 1fr);
             gap: 24px;
@@ -333,7 +334,7 @@
         .secondary-grid {
             max-width: 1280px;
             margin: 0 auto;
-            padding: 0 24px;
+            padding: 0 var(--gutter);
             display: grid;
             grid-template-columns: repeat(2, 1fr);
             gap: 24px;
@@ -384,7 +385,7 @@
         .wire-section {
             max-width: 1280px;
             margin: 0 auto;
-            padding: 0 24px 48px;
+            padding: 0 var(--gutter) 48px;
         }
         .wire-list {
             list-style: none;
@@ -441,7 +442,7 @@
         .footer {
             background: #1a1010;
             color: rgba(255,255,255,0.7);
-            padding: 40px 24px;
+            padding: 40px var(--gutter);
         }
         .footer-inner {
             max-width: 1280px;
