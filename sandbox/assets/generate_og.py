@@ -1,4 +1,8 @@
-"""Generate OG images for Retail Gazette, Retail Marketing, and Retail Packaging."""
+"""Generate OG images for Retail Gazette, Retail Marketing, and Retail Packaging.
+
+Design: Premium cream/white background with centered logo, thin accent borders,
+subtle dark strip at top and bottom for gravitas.
+"""
 from PIL import Image, ImageDraw
 import os
 
@@ -9,72 +13,78 @@ configs = [
     {
         "name": "og-gazette.png",
         "logo": os.path.join(ASSETS, "new-logo-gazette.png"),
-        # Deep charcoal-black with subtle warmth
-        "bg_top": (17, 17, 17),
-        "bg_bottom": (30, 28, 26),
-        "accent": (255, 255, 255),  # white accent line
+        "bg": (250, 249, 247),        # warm white
+        "strip_color": (17, 17, 17),   # black strips
+        "accent": (17, 17, 17),        # black accent line
+        "strip_h": 60,
     },
     {
         "name": "og-marketing.png",
         "logo": os.path.join(ASSETS, "new-logo-marketing.png"),
-        # Dark burgundy
-        "bg_top": (58, 12, 12),
-        "bg_bottom": (30, 8, 8),
-        "accent": (176, 34, 52),  # warm red accent
+        "bg": (253, 248, 247),         # very subtle warm pink-white
+        "strip_color": (58, 12, 12),   # dark burgundy strips
+        "accent": (139, 26, 26),       # burgundy accent line
+        "strip_h": 60,
     },
     {
         "name": "og-packaging.png",
         "logo": os.path.join(ASSETS, "new-logo-packaging.png"),
-        # Deep wine/burgundy
-        "bg_top": (48, 16, 16),
-        "bg_bottom": (26, 10, 10),
-        "accent": (148, 59, 59),  # terracotta accent
+        "bg": (249, 246, 244),         # warm neutral white
+        "strip_color": (48, 16, 16),   # deep wine strips
+        "accent": (122, 31, 31),       # packaging burgundy accent line
+        "strip_h": 60,
     },
 ]
 
 for cfg in configs:
-    # Create gradient background
-    img = Image.new("RGB", (OG_W, OG_H))
+    img = Image.new("RGB", (OG_W, OG_H), cfg["bg"])
     draw = ImageDraw.Draw(img)
-    for y in range(OG_H):
-        ratio = y / OG_H
-        r = int(cfg["bg_top"][0] * (1 - ratio) + cfg["bg_bottom"][0] * ratio)
-        g = int(cfg["bg_top"][1] * (1 - ratio) + cfg["bg_bottom"][1] * ratio)
-        b = int(cfg["bg_top"][2] * (1 - ratio) + cfg["bg_bottom"][2] * ratio)
+
+    sh = cfg["strip_h"]
+    sc = cfg["strip_color"]
+    ac = cfg["accent"]
+
+    # Top dark strip with subtle gradient
+    for y in range(sh):
+        ratio = y / sh
+        r = int(sc[0] * (1 - ratio * 0.3))
+        g = int(sc[1] * (1 - ratio * 0.3))
+        b = int(sc[2] * (1 - ratio * 0.3))
         draw.line([(0, y), (OG_W, y)], fill=(r, g, b))
 
-    # Draw thin accent line across top (3px)
-    ac = cfg["accent"]
-    for y in range(3):
-        draw.line([(0, y), (OG_W, y)], fill=ac)
+    # Bottom dark strip with subtle gradient
+    for y in range(OG_H - sh, OG_H):
+        ratio = (OG_H - y) / sh
+        r = int(sc[0] * (1 - ratio * 0.3))
+        g = int(sc[1] * (1 - ratio * 0.3))
+        b = int(sc[2] * (1 - ratio * 0.3))
+        draw.line([(0, y), (OG_W, y)], fill=(r, g, b))
 
-    # Draw thin accent line across bottom (3px)
-    for y in range(OG_H - 3, OG_H):
-        draw.line([(0, y), (OG_W, y)], fill=ac)
+    # Thin accent line at strip/content border (2px)
+    draw.line([(0, sh), (OG_W, sh)], fill=ac, width=2)
+    draw.line([(0, OG_H - sh - 1), (OG_W, OG_H - sh - 1)], fill=ac, width=2)
 
-    # Load and place logo (white version needed — invert dark pixels)
+    # Load logo (original colors — designed for light backgrounds)
     logo = Image.open(cfg["logo"]).convert("RGBA")
 
-    # Make logo white: for each pixel, keep alpha but set RGB to white
-    pixels = logo.load()
-    for x in range(logo.width):
-        for y in range(logo.height):
-            r, g, b, a = pixels[x, y]
-            if a > 0:
-                pixels[x, y] = (255, 255, 255, a)
+    # Scale logo to fit within the content area (between strips)
+    content_h = OG_H - 2 * sh
+    max_logo_w = 620
+    max_logo_h = content_h - 80  # padding
 
-    # Scale logo to fit nicely (max width 600px, maintain aspect)
-    max_logo_w = 600
-    scale = max_logo_w / logo.width
+    scale_w = max_logo_w / logo.width
+    scale_h = max_logo_h / logo.height
+    scale = min(scale_w, scale_h)
+
     new_w = int(logo.width * scale)
     new_h = int(logo.height * scale)
     logo = logo.resize((new_w, new_h), Image.LANCZOS)
 
-    # Center logo
+    # Center logo in the content area
     x_offset = (OG_W - new_w) // 2
-    y_offset = (OG_H - new_h) // 2
+    y_offset = sh + (content_h - new_h) // 2
 
-    # Paste with alpha mask
+    # Paste with alpha
     img.paste(logo, (x_offset, y_offset), logo)
 
     # Save
