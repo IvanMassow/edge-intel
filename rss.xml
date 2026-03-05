@@ -5,8 +5,16 @@
     <link>https://noah-edge.com/</link>
     <description>Prediction market intelligence. The Noah Poly Index tracks edges with transparent positions and tracked outcomes.</description>
     <language>en</language>
-    <lastBuildDate>Thu, 05 Mar 2026 13:24:12 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 05 Mar 2026 13:56:17 +0000</lastBuildDate>
     <atom:link href="https://noah-edge.com/rss.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>PMI-20260305 | 0 Beliefs | No Domains Reported | unclear (qux3)</title>
+      <link>https://noah-edge.com/stories/pmi-20260305-0-beliefs-no-domains-reported-unclear-qux3.html</link>
+      <description>Summary Corpus: unknown articles across 0 trends | unknown horizon | unknownh window Beliefs: 0 total | 0 cross-domain | 0 single-domain Domains: none Posture: Market state not computed No beliefs ...</description>
+      <pubDate>Thu, 05 Mar 2026 13:49:47 +0000</pubDate>
+      <guid>https://noah-edge.com/stories/pmi-20260305-0-beliefs-no-domains-reported-unclear-qux3.html</guid>
+      <enclosure url="https://noah-edge.com/assets/images/pmi-20260305-0-beliefs-no-domains-report-4c6240a4.jpg" type="image/jpeg" />
+    </item>
     <item>
       <title>PMI-20260305 | 0 Beliefs | No Domains | unclear (zuq7)</title>
       <link>https://noah-edge.com/stories/pmi-20260305-0-beliefs-no-domains-unclear-zuq7.html</link>
@@ -158,14 +166,6 @@
       <pubDate>Tue, 03 Mar 2026 11:25:42 +0000</pubDate>
       <guid>https://noah-edge.com/stories/crypto-driven-microcap-companies-pivot-from-accumulation-to.html</guid>
       <enclosure url="https://noah-edge.com/assets/images/crypto-driven-microcap-companies-pivot-f-5e36749d.jpg" type="image/jpeg" />
-    </item>
-    <item>
-      <title>Onchain markets outpace traditional exchanges during Iran-related weekend disruptions</title>
-      <link>https://noah-edge.com/stories/onchain-markets-outpace-traditional-exchanges-during-iran.html</link>
-      <description>During the Iran-related weekend strike on 28 February, onchain venues continued real-time price discovery in gold and silver, revealing a significant premium over traditional markets and highlighti...</description>
-      <pubDate>Tue, 03 Mar 2026 11:24:26 +0000</pubDate>
-      <guid>https://noah-edge.com/stories/onchain-markets-outpace-traditional-exchanges-during-iran.html</guid>
-      <enclosure url="https://noah-edge.com/assets/images/onchain-markets-outpace-traditional-exch-081112ac.jpg" type="image/jpeg" />
     </item>
   </channel>
 </rss>
