@@ -1,0 +1,1978 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Brunswick | BIFFA Media Monitoring &amp; Strategy Report — 5 March 2026</title>
+<meta property="og:title" content="BIFFA Media Monitoring &amp; Strategy Report">
+<meta property="og:description" content="Media monitoring and corporate strategy intelligence. Net risk: Stable. 8 media signals detected. 6 official records. Prepared by Brunswick Group.">
+<meta property="og:type" content="article">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500&family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700;1,9..40,400&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+/* ========================================
+   BRUNSWICK DESIGN SYSTEM — RESET & VARS
+   ======================================== */
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+:root {
+  --b-indigo: #6B8DB5;
+  --b-indigo-light: #8BA5C8;
+  --b-lavender: #A2B6DD;
+  --b-lavender-soft: rgba(162,182,221,0.12);
+  --b-cream: #F6F6EF;
+  --b-body: #3D3D4E;
+  --b-dark: #1A1A2E;
+  --b-light-bg: #F9F9F5;
+  --b-border: #E2E2DA;
+  --b-muted: #8E8E9C;
+  --b-white: #FFFFFF;
+  --b-link: #3860BE;
+  --b-hero-dark: #4A6A8F;
+  --green: #2D7A4F;
+  --green-bg: #EAF5EE;
+  --amber: #B8781A;
+  --amber-bg: #FEF3E2;
+  --red: #C4314B;
+  --red-bg: #FDEAED;
+  --blue-bg: #EDF1F9;
+  --grey-bg: #EEEEE8;
+  --font-sans: 'DM Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+  --font-serif: 'Cormorant Garamond', Georgia, 'Times New Roman', serif;
+  --font-mono: 'JetBrains Mono', 'SF Mono', 'Fira Code', monospace;
+  --max-w: 1140px;
+  --section-pad: 64px;
+  --card-radius: 4px;
+  --card-shadow: 0 1px 3px rgba(107,141,181,0.06), 0 1px 2px rgba(107,141,181,0.04);
+  --card-shadow-hover: 0 4px 12px rgba(107,141,181,0.12), 0 2px 4px rgba(107,141,181,0.06);
+}
+
+html { font-size: 16px; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; }
+
+body {
+  font-family: var(--font-sans);
+  color: var(--b-body);
+  background: var(--b-cream);
+  line-height: 1.65;
+  overflow-x: hidden;
+}
+
+/* ========================================
+   TYPOGRAPHY
+   ======================================== */
+h1, h2, h3, h4, h5, h6 { color: var(--b-dark); font-weight: 600; line-height: 1.25; }
+
+.section-eyebrow {
+  font-family: var(--font-mono);
+  font-size: 0.6875rem;
+  font-weight: 600;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--b-indigo);
+  margin-bottom: 8px;
+}
+
+.section-title {
+  font-family: var(--font-serif);
+  font-size: 1.875rem;
+  font-weight: 600;
+  color: var(--b-dark);
+  margin-bottom: 12px;
+  letter-spacing: -0.01em;
+}
+
+.section-subtitle {
+  font-size: 1rem;
+  color: var(--b-muted);
+  max-width: 640px;
+  line-height: 1.6;
+}
+
+.container { max-width: var(--max-w); margin: 0 auto; padding: 0 32px; }
+
+/* ========================================
+   FIXED HEADER
+   ======================================== */
+.site-header {
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  backdrop-filter: blur(14px);
+  -webkit-backdrop-filter: blur(14px);
+  background: rgba(246,246,239,0.92);
+  border-bottom: 1px solid var(--b-border);
+}
+
+.header-inner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  max-width: var(--max-w);
+  margin: 0 auto;
+  padding: 0 32px;
+}
+
+.header-wordmark {
+  font-family: var(--font-sans);
+  font-size: 1.125rem;
+  font-weight: 800;
+  letter-spacing: 0.35em;
+  text-transform: uppercase;
+  color: var(--b-indigo);
+}
+
+.header-nav {
+  display: flex;
+  align-items: center;
+  gap: 28px;
+}
+
+.header-nav a {
+  font-family: var(--font-sans);
+  font-size: 0.8125rem;
+  font-weight: 500;
+  color: var(--b-body);
+  text-decoration: none;
+  letter-spacing: 0.02em;
+  transition: color 0.2s;
+}
+
+.header-nav a:hover { color: var(--b-indigo); }
+
+.client-badge {
+  font-family: var(--font-mono);
+  font-size: 0.8125rem;
+  font-weight: 700;
+  letter-spacing: 0.1em;
+  color: var(--b-white);
+  background: var(--b-hero-dark);
+  padding: 5px 16px;
+  border-radius: 3px;
+  border: none;
+}
+
+/* ========================================
+   HERO
+   ======================================== */
+.hero {
+  position: relative;
+  background: linear-gradient(135deg, rgba(50,72,105,0.86) 0%, rgba(74,106,143,0.80) 40%, rgba(107,141,181,0.72) 70%, rgba(162,182,221,0.58) 100%), url('hero-skyline.png') center/cover no-repeat;
+  padding: 96px 0 80px;
+  overflow: hidden;
+  min-height: 400px;
+  display: flex;
+  align-items: center;
+}
+
+.hero::before {
+  content: '';
+  position: absolute;
+  top: -80px;
+  right: -40px;
+  width: 380px;
+  height: 380px;
+  border: 1px solid rgba(255,255,255,0.1);
+  border-radius: 50%;
+}
+
+.hero::after {
+  content: '';
+  position: absolute;
+  bottom: -100px;
+  right: 160px;
+  width: 280px;
+  height: 280px;
+  border: 1px solid rgba(255,255,255,0.06);
+  border-radius: 50%;
+}
+
+.hero-deco-1 {
+  position: absolute;
+  top: 40px;
+  left: 8%;
+  width: 160px;
+  height: 160px;
+  border: 1px solid rgba(255,255,255,0.08);
+  border-radius: 50%;
+}
+
+.hero-deco-2 {
+  position: absolute;
+  bottom: 30px;
+  left: 25%;
+  width: 50px;
+  height: 50px;
+  background: rgba(255,255,255,0.03);
+  border-radius: 50%;
+}
+
+.hero-deco-3 {
+  position: absolute;
+  top: 50%;
+  right: 12%;
+  width: 1px;
+  height: 120px;
+  background: linear-gradient(to bottom, rgba(255,255,255,0.1), transparent);
+  transform: translateY(-50%);
+}
+
+.hero-content {
+  position: relative;
+  z-index: 2;
+  width: 100%;
+  max-width: var(--max-w);
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0 32px;
+}
+
+.hero-eyebrow {
+  font-family: var(--font-mono);
+  font-size: 0.8125rem;
+  font-weight: 600;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: rgba(255,255,255,0.85);
+  margin-bottom: 20px;
+}
+
+.hero-title {
+  font-family: var(--font-serif);
+  font-size: clamp(2rem, 4.5vw, 3.5rem);
+  font-weight: 600;
+  color: var(--b-white);
+  line-height: 1.12;
+  margin-bottom: 22px;
+  max-width: 780px;
+  letter-spacing: -0.02em;
+}
+
+.hero-meta {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+  flex-wrap: wrap;
+}
+
+.hero-meta-item {
+  font-family: var(--font-sans);
+  font-size: 0.875rem;
+  color: rgba(255,255,255,0.78);
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.hero-meta-item strong {
+  color: rgba(255,255,255,0.95);
+  font-weight: 600;
+}
+
+.hero-divider {
+  width: 1px;
+  height: 16px;
+  background: rgba(255,255,255,0.35);
+}
+
+/* ========================================
+   REPORT TYPE BAND
+   ======================================== */
+.report-band {
+  background: var(--b-hero-dark);
+  padding: 14px 0;
+}
+
+.report-band-inner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 12px;
+}
+
+.report-band-label {
+  font-family: var(--font-mono);
+  font-size: 0.75rem;
+  font-weight: 600;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--b-white);
+}
+
+.report-band-right {
+  font-family: var(--font-sans);
+  font-size: 0.8125rem;
+  color: rgba(255,255,255,0.7);
+}
+
+/* ========================================
+   STATUS PILLS BAR
+   ======================================== */
+.status-bar {
+  background: var(--b-white);
+  border-bottom: 1px solid var(--b-border);
+  padding: 20px 0;
+}
+
+.status-bar-inner {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  flex-wrap: wrap;
+}
+
+.status-pill {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 7px 16px;
+  border-radius: 100px;
+  font-size: 0.8125rem;
+  font-weight: 500;
+  background: var(--b-cream);
+  border: 1px solid var(--b-border);
+}
+
+.status-pill .pill-dot {
+  width: 7px;
+  height: 7px;
+  border-radius: 50%;
+  flex-shrink: 0;
+}
+
+.pill-dot--green { background: var(--green); box-shadow: 0 0 6px rgba(45,122,79,0.4); animation: pulse-green 2s ease-in-out infinite; }
+.pill-dot--amber { background: var(--amber); box-shadow: 0 0 6px rgba(184,120,26,0.4); animation: pulse-amber 2s ease-in-out infinite; }
+.pill-dot--grey { background: var(--b-muted); box-shadow: 0 0 6px rgba(142,142,156,0.3); }
+.pill-dot--blue { background: var(--b-indigo); box-shadow: 0 0 6px rgba(107,141,181,0.3); animation: pulse-blue 2s ease-in-out infinite; }
+.pill-dot--red { background: var(--red); box-shadow: 0 0 6px rgba(196,49,75,0.4); animation: pulse-red 2s ease-in-out infinite; }
+
+@keyframes pulse-green { 0%, 100% { box-shadow: 0 0 4px rgba(45,122,79,0.3); } 50% { box-shadow: 0 0 10px rgba(45,122,79,0.6); } }
+@keyframes pulse-amber { 0%, 100% { box-shadow: 0 0 4px rgba(184,120,26,0.3); } 50% { box-shadow: 0 0 10px rgba(184,120,26,0.6); } }
+@keyframes pulse-blue { 0%, 100% { box-shadow: 0 0 4px rgba(107,141,181,0.2); } 50% { box-shadow: 0 0 10px rgba(107,141,181,0.4); } }
+@keyframes pulse-red { 0%, 100% { box-shadow: 0 0 4px rgba(196,49,75,0.3); } 50% { box-shadow: 0 0 10px rgba(196,49,75,0.6); } }
+
+.status-pill .pill-label {
+  font-family: var(--font-mono);
+  font-size: 0.6875rem;
+  font-weight: 600;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--b-muted);
+}
+
+.status-pill .pill-value {
+  font-weight: 600;
+  color: var(--b-dark);
+}
+
+/* ========================================
+   SECTIONS
+   ======================================== */
+.section { padding: var(--section-pad) 0; }
+.section--light { background: var(--b-white); }
+.section--wash { background: linear-gradient(180deg, #F9F9F5 0%, #F6F6F0 100%); }
+.section--border-top { border-top: 1px solid var(--b-border); }
+
+.section-header { margin-bottom: 40px; }
+
+/* ========================================
+   SECTION 1 — EXECUTIVE BRIEF
+   ======================================== */
+.exec-brief {
+  display: grid;
+  grid-template-columns: 1fr 1.6fr;
+  gap: 48px;
+  align-items: start;
+}
+
+.exec-pullquote {
+  position: relative;
+  padding-left: 24px;
+  border-left: 3px solid var(--b-indigo);
+}
+
+.exec-pullquote p {
+  font-family: var(--font-serif);
+  font-size: 1.3125rem;
+  font-weight: 500;
+  line-height: 1.55;
+  color: var(--b-dark);
+  font-style: italic;
+}
+
+.exec-body p {
+  font-size: 0.9375rem;
+  line-height: 1.75;
+  color: var(--b-body);
+}
+
+/* ========================================
+   COVERAGE CARDS
+   ======================================== */
+.coverage-grid {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.coverage-card {
+  background: var(--b-white);
+  border: 1px solid var(--b-border);
+  border-radius: var(--card-radius);
+  padding: 20px 24px;
+  display: grid;
+  grid-template-columns: 100px 1fr;
+  gap: 16px;
+  align-items: start;
+  transition: box-shadow 0.2s, border-color 0.2s;
+  border-left: 3px solid var(--b-border);
+}
+
+.coverage-card:hover {
+  box-shadow: var(--card-shadow-hover);
+  border-color: rgba(107,141,181,0.15);
+}
+
+.coverage-card--trade { border-left-color: var(--b-indigo); background: linear-gradient(90deg, rgba(107,141,181,0.02) 0%, transparent 40%); }
+.coverage-card--monitor { border-left-color: var(--amber); background: linear-gradient(90deg, rgba(184,120,26,0.02) 0%, transparent 40%); }
+.coverage-card--news { border-left-color: var(--b-muted); background: linear-gradient(90deg, rgba(142,142,156,0.02) 0%, transparent 40%); }
+.coverage-card--web { border-left-color: var(--b-lavender); background: linear-gradient(90deg, rgba(162,182,221,0.04) 0%, transparent 40%); }
+.coverage-card--reference { border-left-color: var(--b-border); background: linear-gradient(90deg, rgba(226,226,218,0.04) 0%, transparent 40%); }
+.coverage-card--policy { border-left-color: var(--b-indigo-light); background: linear-gradient(90deg, rgba(139,165,200,0.02) 0%, transparent 40%); }
+.coverage-card--sector { border-left-color: var(--b-link); background: linear-gradient(90deg, rgba(56,96,190,0.02) 0%, transparent 40%); }
+.coverage-card--capital { border-left-color: var(--green); background: linear-gradient(90deg, rgba(45,122,79,0.02) 0%, transparent 40%); }
+
+.coverage-meta {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.coverage-type {
+  font-family: var(--font-mono);
+  font-size: 0.6875rem;
+  font-weight: 600;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--b-indigo);
+}
+
+.coverage-card--monitor .coverage-type { color: var(--amber); }
+.coverage-card--news .coverage-type { color: var(--b-muted); }
+.coverage-card--web .coverage-type { color: var(--b-lavender); }
+.coverage-card--reference .coverage-type { color: var(--b-muted); }
+.coverage-card--policy .coverage-type { color: var(--b-indigo-light); }
+.coverage-card--sector .coverage-type { color: var(--b-link); }
+.coverage-card--capital .coverage-type { color: var(--green); }
+
+.coverage-window {
+  font-family: var(--font-mono);
+  font-size: 0.6875rem;
+  color: var(--b-muted);
+}
+
+.coverage-content h4 {
+  font-size: 0.9375rem;
+  font-weight: 600;
+  color: var(--b-dark);
+  margin-bottom: 6px;
+  line-height: 1.45;
+}
+
+.coverage-content p {
+  font-size: 0.8125rem;
+  color: var(--b-body);
+  line-height: 1.6;
+  margin-bottom: 6px;
+}
+
+.coverage-source {
+  font-family: var(--font-mono);
+  font-size: 0.6875rem;
+  color: var(--b-muted);
+}
+
+/* ========================================
+   ACCENT STRIPE
+   ======================================== */
+.accent-stripe {
+  height: 5px;
+  background: linear-gradient(90deg, var(--b-indigo), var(--b-lavender));
+  box-shadow: 0 2px 12px rgba(107,141,181,0.15);
+}
+
+/* ========================================
+   FLASHPOINT
+   ======================================== */
+.flashpoint-card {
+  background: var(--b-white);
+  border: 1px solid var(--b-border);
+  border-radius: var(--card-radius);
+  overflow: hidden;
+  box-shadow: var(--card-shadow);
+}
+
+.flashpoint-header {
+  background: linear-gradient(135deg, var(--amber-bg), #FFF8EE);
+  padding: 16px 24px;
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  border-bottom: 1px solid rgba(184,120,26,0.15);
+}
+
+.flashpoint-signal-badge {
+  font-family: var(--font-mono);
+  font-size: 0.6875rem;
+  font-weight: 600;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--amber);
+  background: var(--b-white);
+  padding: 4px 10px;
+  border-radius: 3px;
+  border: 1px solid rgba(184,120,26,0.2);
+}
+
+.flashpoint-meta-pills {
+  display: flex;
+  gap: 8px;
+}
+
+.flashpoint-meta-pill {
+  font-family: var(--font-mono);
+  font-size: 0.625rem;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--b-body);
+  background: rgba(184,120,26,0.08);
+  padding: 3px 8px;
+  border-radius: 3px;
+}
+
+.flashpoint-body {
+  padding: 28px 24px;
+}
+
+.flashpoint-body h3 {
+  font-family: var(--font-serif);
+  font-size: 1.25rem;
+  font-weight: 600;
+  color: var(--b-dark);
+  margin-bottom: 14px;
+  line-height: 1.4;
+}
+
+.flashpoint-body p {
+  font-size: 0.9375rem;
+  color: var(--b-body);
+  line-height: 1.7;
+  margin-bottom: 12px;
+}
+
+.flashpoint-source {
+  font-family: var(--font-mono);
+  font-size: 0.6875rem;
+  color: var(--b-muted);
+  padding-top: 8px;
+  border-top: 1px solid var(--b-border);
+  margin-top: 16px;
+}
+
+/* ========================================
+   DASHBOARD
+   ======================================== */
+.dashboard-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+  gap: 12px;
+  margin-bottom: 32px;
+}
+
+.lane-card {
+  background: var(--b-white);
+  border: 1px solid var(--b-border);
+  border-radius: var(--card-radius);
+  padding: 18px 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  transition: box-shadow 0.2s;
+}
+
+.lane-card:hover { box-shadow: var(--card-shadow-hover); }
+
+.lane-label {
+  font-size: 0.8125rem;
+  font-weight: 500;
+  color: var(--b-dark);
+}
+
+.lane-status {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  font-family: var(--font-mono);
+  font-size: 0.6875rem;
+  font-weight: 600;
+  letter-spacing: 0.04em;
+}
+
+.lane-status--active { color: var(--b-indigo); }
+.lane-status--clear { color: var(--green); }
+
+.lane-dot {
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  flex-shrink: 0;
+}
+
+.lane-dot--indigo { background: var(--b-indigo); }
+.lane-dot--blue { background: var(--b-link); }
+.lane-dot--green { background: var(--green); }
+
+.stats-row {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 12px;
+}
+
+.stat-card {
+  background: linear-gradient(180deg, var(--blue-bg), var(--b-white));
+  border: 1px solid var(--b-border);
+  border-top: 3px solid var(--b-indigo);
+  border-radius: var(--card-radius);
+  padding: 20px;
+  text-align: center;
+}
+
+.stat-number {
+  font-family: var(--font-mono);
+  font-size: 2.25rem;
+  font-weight: 600;
+  color: var(--b-dark);
+  line-height: 1;
+  margin-bottom: 6px;
+}
+
+.stat-label {
+  font-size: 0.75rem;
+  color: var(--b-muted);
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  font-weight: 500;
+}
+
+/* ========================================
+   DEPARTMENT CARDS
+   ======================================== */
+.dept-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+  gap: 16px;
+}
+
+.dept-card {
+  background: var(--b-white);
+  border: 1px solid var(--b-border);
+  border-radius: var(--card-radius);
+  overflow: hidden;
+}
+
+.dept-card-header {
+  padding: 14px 20px;
+  background: var(--b-light-bg);
+  border-bottom: 1px solid var(--b-border);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.dept-name {
+  font-weight: 600;
+  font-size: 0.875rem;
+  color: var(--b-dark);
+}
+
+.dept-count {
+  font-family: var(--font-mono);
+  font-size: 0.6875rem;
+  font-weight: 600;
+  color: var(--b-indigo);
+  background: var(--b-lavender-soft);
+  padding: 3px 10px;
+  border-radius: 3px;
+  letter-spacing: 0.04em;
+}
+
+.dept-signals {
+  list-style: none;
+  padding: 16px 20px;
+}
+
+.dept-signals li {
+  font-size: 0.8125rem;
+  color: var(--b-body);
+  line-height: 1.6;
+  padding: 8px 0;
+  border-bottom: 1px solid var(--b-border);
+  padding-left: 16px;
+  position: relative;
+}
+
+.dept-signals li:last-child { border-bottom: none; }
+
+.dept-signals li::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 5px;
+  height: 5px;
+  border-radius: 50%;
+  background: var(--b-indigo);
+  opacity: 0.4;
+}
+
+.dept-clear {
+  display: flex;
+  gap: 8px;
+  flex-wrap: wrap;
+}
+
+.dept-clear-pill {
+  font-family: var(--font-mono);
+  font-size: 0.6875rem;
+  letter-spacing: 0.04em;
+  color: var(--green);
+  background: var(--green-bg);
+  padding: 5px 14px;
+  border-radius: 100px;
+  font-weight: 500;
+}
+
+/* ========================================
+   INSIGHT BANNER
+   ======================================== */
+.insight-banner {
+  position: relative;
+  background: var(--b-hero-dark);
+  padding: 48px 0;
+  overflow: hidden;
+}
+
+.insight-shimmer {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(135deg, transparent 20%, rgba(162,182,221,0.08) 50%, transparent 80%);
+}
+
+.insight-content {
+  position: relative;
+  z-index: 2;
+  text-align: center;
+  max-width: 720px;
+  margin: 0 auto;
+}
+
+.insight-quote {
+  font-family: var(--font-serif);
+  font-size: 1.25rem;
+  font-weight: 500;
+  color: rgba(255,255,255,0.9);
+  line-height: 1.6;
+  font-style: italic;
+}
+
+/* ========================================
+   FEATURE BREAK
+   ======================================== */
+.feature-break {
+  background: linear-gradient(135deg, var(--b-lavender) 0%, #8BA3CE 100%);
+  padding: 52px 0;
+}
+
+.feature-break-content {
+  text-align: center;
+  max-width: 680px;
+  margin: 0 auto;
+}
+
+.feature-break-quote {
+  font-family: var(--font-serif);
+  font-size: 1.1875rem;
+  color: var(--b-dark);
+  line-height: 1.55;
+  font-style: italic;
+  margin-bottom: 12px;
+}
+
+.feature-break-attr {
+  font-family: var(--font-mono);
+  font-size: 0.6875rem;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: rgba(26,26,46,0.5);
+}
+
+/* ========================================
+   COMPETITOR CARDS
+   ======================================== */
+.competitor-row {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 16px;
+}
+
+.competitor-card {
+  background: var(--b-white);
+  border: 1px solid var(--b-border);
+  border-radius: var(--card-radius);
+  padding: 24px;
+}
+
+.competitor-card h4 {
+  font-size: 1rem;
+  font-weight: 600;
+  margin-bottom: 8px;
+}
+
+.competitor-card p {
+  font-size: 0.8125rem;
+  line-height: 1.6;
+  color: var(--b-body);
+}
+
+.competitor-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  font-family: var(--font-mono);
+  font-size: 0.6875rem;
+  font-weight: 600;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  padding: 4px 12px;
+  border-radius: 3px;
+  margin-bottom: 12px;
+}
+
+.competitor-badge--stable { background: var(--green-bg); color: var(--green); }
+.competitor-badge--active { background: var(--blue-bg); color: var(--b-indigo); }
+
+/* ========================================
+   POLICY CARDS
+   ======================================== */
+.policy-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 16px;
+}
+
+.policy-card {
+  background: var(--b-white);
+  border: 1px solid var(--b-border);
+  border-radius: var(--card-radius);
+  padding: 24px;
+  border-top: 3px solid var(--b-indigo);
+}
+
+.policy-card h4 {
+  font-size: 0.9375rem;
+  font-weight: 600;
+  color: var(--b-dark);
+  margin-bottom: 8px;
+  line-height: 1.45;
+}
+
+.policy-source {
+  font-family: var(--font-mono);
+  font-size: 0.6875rem;
+  color: var(--b-muted);
+}
+
+/* ========================================
+   MATRIX TABLE
+   ======================================== */
+.matrix-table-wrap { overflow-x: auto; }
+
+.matrix-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.875rem;
+}
+
+.matrix-table th {
+  font-family: var(--font-mono);
+  font-size: 0.6875rem;
+  font-weight: 600;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--b-muted);
+  text-align: left;
+  padding: 12px 16px;
+  border-bottom: 2px solid var(--b-border);
+}
+
+.matrix-table td {
+  padding: 14px 16px;
+  border-bottom: 1px solid var(--b-border);
+  color: var(--b-body);
+  vertical-align: top;
+}
+
+.matrix-table tbody tr:hover { background: var(--b-lavender-soft); }
+
+.level-badge {
+  font-family: var(--font-mono);
+  font-size: 0.6875rem;
+  font-weight: 600;
+  letter-spacing: 0.04em;
+  padding: 3px 10px;
+  border-radius: 3px;
+  text-transform: uppercase;
+  white-space: nowrap;
+}
+
+.level-badge--green { background: var(--green-bg); color: var(--green); }
+.level-badge--amber { background: var(--amber-bg); color: var(--amber); }
+.level-badge--red { background: var(--red-bg); color: var(--red); }
+
+/* ========================================
+   EVIDENCE ROOM
+   ======================================== */
+.evidence-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 16px;
+}
+
+.evidence-item {
+  background: var(--b-cream);
+  border: 1px solid var(--b-border);
+  border-radius: var(--card-radius);
+  padding: 24px;
+}
+
+.evidence-item h4 {
+  font-size: 0.9375rem;
+  font-weight: 600;
+  color: var(--b-dark);
+  margin-bottom: 8px;
+}
+
+.evidence-item p {
+  font-size: 0.8125rem;
+  line-height: 1.6;
+  color: var(--b-body);
+}
+
+.evidence-stable-list {
+  display: flex;
+  gap: 8px;
+  flex-wrap: wrap;
+}
+
+.evidence-stable-pill {
+  font-family: var(--font-mono);
+  font-size: 0.6875rem;
+  color: var(--b-muted);
+  background: var(--grey-bg);
+  padding: 5px 14px;
+  border-radius: 100px;
+  font-weight: 500;
+  letter-spacing: 0.02em;
+}
+
+/* ========================================
+   THEMES
+   ======================================== */
+.theme-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 16px;
+  margin-bottom: 40px;
+}
+
+.theme-card {
+  background: var(--b-white);
+  border: 1px solid var(--b-border);
+  border-radius: var(--card-radius);
+  padding: 24px;
+  border-left: 3px solid var(--b-lavender);
+}
+
+.theme-number {
+  font-family: var(--font-mono);
+  font-size: 0.6875rem;
+  font-weight: 600;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--b-indigo);
+  margin-bottom: 10px;
+}
+
+.theme-card p {
+  font-size: 0.875rem;
+  line-height: 1.65;
+  color: var(--b-body);
+}
+
+.watch-list {
+  padding-left: 20px;
+}
+
+.watch-list li {
+  font-size: 0.875rem;
+  line-height: 1.65;
+  color: var(--b-body);
+  padding: 6px 0;
+}
+
+.watch-list li::marker {
+  color: var(--b-indigo);
+  font-weight: 700;
+}
+
+/* ========================================
+   SIGNAL VAULT TABLE
+   ======================================== */
+.vault-table-wrap { overflow-x: auto; margin-bottom: 32px; }
+
+.vault-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.8125rem;
+}
+
+.vault-table th {
+  font-family: var(--font-mono);
+  font-size: 0.6875rem;
+  font-weight: 600;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--b-muted);
+  text-align: left;
+  padding: 12px 14px;
+  border-bottom: 2px solid var(--b-border);
+  white-space: nowrap;
+}
+
+.vault-table td {
+  padding: 12px 14px;
+  border-bottom: 1px solid var(--b-border);
+  color: var(--b-body);
+  vertical-align: top;
+}
+
+.vault-table tbody tr:hover { background: var(--b-lavender-soft); }
+
+.vault-lane {
+  font-family: var(--font-mono);
+  font-size: 0.625rem;
+  font-weight: 600;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  padding: 2px 8px;
+  border-radius: 3px;
+  white-space: nowrap;
+}
+
+.vault-lane--about { background: rgba(107,141,181,0.08); color: var(--b-indigo); }
+.vault-lane--context { background: var(--b-lavender-soft); color: var(--b-link); }
+.vault-lane--reference { background: var(--grey-bg); color: var(--b-muted); }
+.vault-lane--strategic { background: rgba(139,165,200,0.08); color: var(--b-indigo-light); }
+.vault-lane--capital { background: var(--green-bg); color: var(--green); }
+
+/* Entity Cards */
+.entity-summary-row {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 12px;
+}
+
+.entity-card {
+  background: var(--b-white);
+  border: 1px solid var(--b-border);
+  border-radius: var(--card-radius);
+  padding: 16px 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.entity-left { display: flex; flex-direction: column; gap: 4px; }
+
+.entity-name {
+  font-weight: 600;
+  font-size: 0.875rem;
+  color: var(--b-dark);
+}
+
+.entity-status {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  font-family: var(--font-mono);
+  font-size: 0.6875rem;
+  font-weight: 600;
+  letter-spacing: 0.04em;
+}
+
+.entity-status--green { color: var(--green); }
+.entity-status--amber { color: var(--amber); }
+.entity-status--blue { color: var(--b-indigo); }
+
+.entity-count {
+  font-family: var(--font-mono);
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: var(--b-indigo);
+}
+
+/* ========================================
+   FOOTER
+   ======================================== */
+.site-footer {
+  background: var(--b-lavender);
+  padding: 48px 0 36px;
+}
+
+.footer-inner {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.footer-wordmark {
+  font-family: var(--font-sans);
+  font-size: 1.25rem;
+  font-weight: 800;
+  letter-spacing: 0.35em;
+  text-transform: uppercase;
+  color: var(--b-indigo);
+}
+
+.footer-text {
+  font-size: 0.875rem;
+  color: var(--b-dark);
+  opacity: 0.7;
+}
+
+.footer-bottom {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+  flex-wrap: wrap;
+  padding-top: 20px;
+  border-top: 1px solid rgba(107,141,181,0.12);
+}
+
+.footer-disclaimer {
+  font-size: 0.75rem;
+  color: var(--b-dark);
+  opacity: 0.5;
+}
+
+.footer-version {
+  font-family: var(--font-mono);
+  font-size: 0.6875rem;
+  color: var(--b-dark);
+  opacity: 0.4;
+  letter-spacing: 0.04em;
+}
+
+/* ========================================
+   RESPONSIVE
+   ======================================== */
+@media (max-width: 768px) {
+  :root { --section-pad: 40px; }
+  .container { padding: 0 20px; }
+  .header-nav { display: none; }
+  .hero { padding: 64px 0 56px; min-height: auto; }
+  .hero-title { font-size: 1.75rem; }
+  .exec-brief { grid-template-columns: 1fr; gap: 24px; }
+  .coverage-card { grid-template-columns: 1fr; }
+  .stats-row { grid-template-columns: repeat(2, 1fr); }
+  .competitor-row { grid-template-columns: 1fr; }
+  .policy-grid { grid-template-columns: 1fr; }
+  .dashboard-grid { grid-template-columns: 1fr; }
+  .dept-grid { grid-template-columns: 1fr; }
+}
+</style>
+</head>
+
+<body>
+
+<header class="site-header">
+  <div class="header-inner">
+    <div class="header-wordmark">Brunswick</div>
+    <nav class="header-nav">
+      <a href="#executive-brief">Executive Brief</a>
+      <a href="#coverage">Coverage</a>
+      <a href="#dashboard">Dashboard</a>
+      <a href="#intelligence">Intelligence</a>
+      <a href="#signal-vault">Signal Vault</a>
+    </nav>
+    <div class="client-badge">BIFFA</div>
+  </div>
+</header>
+
+<section class="hero">
+  <div class="hero-deco-1"></div>
+  <div class="hero-deco-2"></div>
+  <div class="hero-deco-3"></div>
+  <div class="hero-content">
+    <div class="hero-eyebrow">Media Monitoring &amp; Strategy</div>
+    <h1 class="hero-title">Corporate Intelligence Brief</h1>
+    <div class="hero-meta">
+      <div class="hero-meta-item"><strong>Client</strong> BIFFA</div>
+      <div class="hero-divider"></div>
+      <div class="hero-meta-item"><strong>Date</strong> 5 March 2026</div>
+      <div class="hero-divider"></div>
+      <div class="hero-meta-item"><strong>Window</strong> Last 72 Hours</div>
+    </div>
+  </div>
+</section>
+
+<div class="report-band">
+  <div class="container">
+    <div class="report-band-inner">
+      <span class="report-band-label">Media Monitoring &amp; Strategy Report</span>
+      <span class="report-band-right">Prepared by Brunswick Group</span>
+    </div>
+  </div>
+</div>
+
+<div class="status-bar">
+  <div class="container">
+    <div class="status-bar-inner">
+      <div class="status-pill">
+        <span class="pill-dot pill-dot--green"></span>
+        <span class="pill-label">Net Risk</span>
+        <span class="pill-value">Stable</span>
+      </div>
+      <div class="status-pill">
+        <span class="pill-dot pill-dot--blue"></span>
+        <span class="pill-label">Market Pulse</span>
+        <span class="pill-value">Policy-led</span>
+      </div>
+      <div class="status-pill">
+        <span class="pill-dot pill-dot--amber"></span>
+        <span class="pill-label">Policy</span>
+        <span class="pill-value">Rising</span>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- ============================================
+     SECTION 1 — EXECUTIVE BRIEF
+     ============================================ -->
+<section class="section section--wash" id="executive-brief">
+  <div class="container">
+    <div class="section-header">
+      <div class="section-eyebrow">Section 01</div>
+      <h2 class="section-title">Executive Brief</h2>
+    </div>
+    <div class="exec-brief">
+      <div class="exec-pullquote">
+        <p>This cycle emphasises UK policy and compliance execution signals alongside BIFFA-specific operational safety narratives. Official tender award notice indicates continued public-sector contract momentum. Net risk: stable.</p>
+      </div>
+      <div class="exec-body">
+        <p>Coverage is anchored on two themes: (1) UK policy and compliance execution &mdash; digital waste tracking in Wales, Environment Agency enforcement actions, charging framework updates, and vape-related safety and disposal messaging &mdash; and (2) BIFFA-specific operational narratives adjacent to battery and vape fire risk, plus capability-building messaging. Two trade-press listings referencing BIFFA (contract pipeline and M&amp;A) were detected but access-restricted, suggesting additional decision-relevant detail may exist behind paywalls.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============================================
+     SECTION 2 — YOUR COVERAGE THIS CYCLE
+     ============================================ -->
+<section class="section section--light" id="coverage">
+  <div class="container">
+    <div class="section-header">
+      <div class="section-eyebrow">Section 02</div>
+      <h2 class="section-title">Your Coverage This Cycle</h2>
+      <p class="section-subtitle">Eight coverage items detected across official, news, trade, context and competitor channels.</p>
+    </div>
+    <div class="coverage-grid">
+
+      <div class="coverage-card coverage-card--policy">
+        <div class="coverage-meta">
+          <span class="coverage-type">Official</span>
+          <span class="coverage-window">0&ndash;24h</span>
+        </div>
+        <div class="coverage-content">
+          <h4>Tender award notice confirms BIFFA contract for street-sweeping waste treatment</h4>
+          <p>Official confirmation of public-sector contract win (street-sweeping arisings treatment, 2026&ndash;2030).</p>
+          <span class="coverage-source">Source: Find a Tender</span>
+        </div>
+      </div>
+
+      <div class="coverage-card coverage-card--news">
+        <div class="coverage-meta">
+          <span class="coverage-type">News</span>
+          <span class="coverage-window">24&ndash;48h</span>
+        </div>
+        <div class="coverage-content">
+          <h4>BIFFA launches battery-fire safety training for waste-sector fire risk reduction</h4>
+          <p>Operational safety initiative positioned as capability-building response to battery and vape fire-risk narratives.</p>
+          <span class="coverage-source">Source: Tomorrow's FM</span>
+        </div>
+      </div>
+
+      <div class="coverage-card coverage-card--monitor">
+        <div class="coverage-meta">
+          <span class="coverage-type">Monitor</span>
+          <span class="coverage-window">48&ndash;72h</span>
+        </div>
+        <div class="coverage-content">
+          <h4>BIFFA recycling facility referenced in warning over vapes entering household waste</h4>
+          <p>Client-adjacent fire-risk narrative &mdash; reputationally and operationally sensitive. Track for amplification.</p>
+          <span class="coverage-source">Source: Yahoo News UK</span>
+        </div>
+      </div>
+
+      <div class="coverage-card coverage-card--trade">
+        <div class="coverage-meta">
+          <span class="coverage-type">Trade</span>
+          <span class="coverage-window">&mdash;</span>
+        </div>
+        <div class="coverage-content">
+          <h4>Leicester starts market engagement over waste deal</h4>
+          <p>Contract pipeline signal. Access-restricted &mdash; treated as existence signal.</p>
+          <span class="coverage-source">Source: ENDS Waste &amp; Bioenergy</span>
+        </div>
+      </div>
+
+      <div class="coverage-card coverage-card--trade">
+        <div class="coverage-meta">
+          <span class="coverage-type">Trade</span>
+          <span class="coverage-window">&mdash;</span>
+        </div>
+        <div class="coverage-content">
+          <h4>Biffa buys C&amp;D-waste business L&amp;S Waste Management</h4>
+          <p>M&amp;A activity signal. Access-restricted &mdash; treated as existence signal.</p>
+          <span class="coverage-source">Source: ENDS Waste &amp; Bioenergy</span>
+        </div>
+      </div>
+
+      <div class="coverage-card coverage-card--web">
+        <div class="coverage-meta">
+          <span class="coverage-type">Context</span>
+          <span class="coverage-window">48&ndash;72h</span>
+        </div>
+        <div class="coverage-content">
+          <h4>Eurocell and BIFFA expand PVC-U recycling partnership</h4>
+          <p>Partnership positioning signal &mdash; context coverage for recycling collaboration narrative.</p>
+          <span class="coverage-source">Source: MEMUK News</span>
+        </div>
+      </div>
+
+      <div class="coverage-card coverage-card--reference">
+        <div class="coverage-meta">
+          <span class="coverage-type">Reference</span>
+          <span class="coverage-window">&mdash;</span>
+        </div>
+        <div class="coverage-content">
+          <h4>BIFFA Wikipedia entry &mdash; background check</h4>
+          <p>Wikipedia profile clean, no recent edits detected.</p>
+          <span class="coverage-source">Source: Wikipedia</span>
+        </div>
+      </div>
+
+      <div class="coverage-card coverage-card--sector">
+        <div class="coverage-meta">
+          <span class="coverage-type">Competitor</span>
+          <span class="coverage-window">48&ndash;72h</span>
+        </div>
+        <div class="coverage-content">
+          <h4>Veolia launches rapid removal service for illegal waste dumping response</h4>
+          <p>Competitor service positioning may influence council and commercial customer expectations on response capability.</p>
+          <span class="coverage-source">Source: Lets Recycle</span>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- ============================================
+     ACCENT STRIPE
+     ============================================ -->
+<div class="accent-stripe"></div>
+
+<!-- ============================================
+     SECTION 3 — ACTIVE FLASHPOINT
+     ============================================ -->
+<section class="section" id="flashpoint">
+  <div class="container">
+    <div class="section-header">
+      <div class="section-eyebrow">Section 03</div>
+      <h2 class="section-title">Active Flashpoints</h2>
+    </div>
+    <div class="flashpoint-card" style="border-top: 3px solid var(--green); border-left: none;">
+      <div class="flashpoint-header" style="background: linear-gradient(135deg, var(--green-bg), #F0FAF3); border-bottom-color: rgba(45,122,79,0.15);">
+        <span class="flashpoint-signal-badge" style="color: var(--green); border-color: rgba(45,122,79,0.2);">All Clear</span>
+      </div>
+      <div class="flashpoint-body">
+        <h3>No elevated flashpoints detected this cycle</h3>
+        <p>Scanned for escalation, operational stress, regulatory intervention, and reputational risk. No active flashpoints identified. This reflects a stable period with no emerging pressure points requiring immediate attention.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============================================
+     SECTION 4 — SITUATIONAL DASHBOARD
+     ============================================ -->
+<section class="section" id="dashboard">
+  <div class="container">
+    <div class="section-header">
+      <div class="section-eyebrow">Section 04</div>
+      <h2 class="section-title">Situational Dashboard</h2>
+      <p class="section-subtitle">Monitoring lanes and aggregate signal summary for the current cycle.</p>
+    </div>
+
+    <div class="dashboard-grid">
+      <div class="lane-card">
+        <span class="lane-label">About You (Direct Coverage)</span>
+        <span class="lane-status lane-status--active"><span class="lane-dot lane-dot--indigo"></span> 5 items</span>
+      </div>
+      <div class="lane-card">
+        <span class="lane-label">About You (Light / Context)</span>
+        <span class="lane-status lane-status--active"><span class="lane-dot lane-dot--indigo"></span> 2 items</span>
+      </div>
+      <div class="lane-card">
+        <span class="lane-label">Official Records</span>
+        <span class="lane-status lane-status--active"><span class="lane-dot lane-dot--blue"></span> 6 items</span>
+      </div>
+      <div class="lane-card">
+        <span class="lane-label">Capital &amp; Funding</span>
+        <span class="lane-status lane-status--clear"><span class="lane-dot lane-dot--green"></span> Quiet</span>
+      </div>
+      <div class="lane-card">
+        <span class="lane-label">Competitor Watch</span>
+        <span class="lane-status lane-status--active"><span class="lane-dot lane-dot--blue"></span> 1 item</span>
+      </div>
+      <div class="lane-card">
+        <span class="lane-label">Social &amp; Public Discourse</span>
+        <span class="lane-status lane-status--active"><span class="lane-dot lane-dot--indigo"></span> Monitor</span>
+      </div>
+      <div class="lane-card">
+        <span class="lane-label">Reputation Risk</span>
+        <span class="lane-status lane-status--active"><span class="lane-dot lane-dot--indigo"></span> 1 signal</span>
+      </div>
+    </div>
+
+    <div class="stats-row">
+      <div class="stat-card">
+        <div class="stat-number">8</div>
+        <div class="stat-label">Media Signals</div>
+      </div>
+      <div class="stat-card">
+        <div class="stat-number">0</div>
+        <div class="stat-label">Active Flashpoints</div>
+      </div>
+      <div class="stat-card">
+        <div class="stat-number">6</div>
+        <div class="stat-label">Official Records</div>
+      </div>
+      <div class="stat-card">
+        <div class="stat-number">1</div>
+        <div class="stat-label">Reputation Risks</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============================================
+     SECTION 5 — DEPARTMENTAL INTELLIGENCE
+     ============================================ -->
+<section class="section section--light" id="intelligence">
+  <div class="container">
+    <div class="section-header">
+      <div class="section-eyebrow">Section 05</div>
+      <h2 class="section-title">Departmental Intelligence</h2>
+      <p class="section-subtitle">Signals routed to relevant internal departments for action or awareness.</p>
+    </div>
+
+    <div class="dept-grid">
+      <div class="dept-card">
+        <div class="dept-card-header">
+          <span class="dept-name">Communications</span>
+          <span class="dept-count">3 Signals</span>
+        </div>
+        <ul class="dept-signals">
+          <li>Tender award notice confirms BIFFA street-sweeping arisings treatment contract win</li>
+          <li>BIFFA launches battery-fire safety training initiative</li>
+          <li>BIFFA facility referenced in vape/battery disposal fire-risk warning coverage</li>
+        </ul>
+      </div>
+
+      <div class="dept-card">
+        <div class="dept-card-header">
+          <span class="dept-name">Legal</span>
+          <span class="dept-count">2 Signals</span>
+        </div>
+        <ul class="dept-signals">
+          <li>Environment Agency permit revocation notice published (sector enforcement context)</li>
+          <li>Digital Waste Tracking (Wales) Regulations 2026 laid</li>
+        </ul>
+      </div>
+
+      <div class="dept-card">
+        <div class="dept-card-header">
+          <span class="dept-name">Operations</span>
+          <span class="dept-count">2 Signals</span>
+        </div>
+        <ul class="dept-signals">
+          <li>OPSS vape disposal safety campaign issued (battery fire-risk context)</li>
+          <li>BIFFA launches battery-fire safety training initiative</li>
+        </ul>
+      </div>
+
+      <div class="dept-card">
+        <div class="dept-card-header">
+          <span class="dept-name">Safety &amp; HSE</span>
+          <span class="dept-count">2 Signals</span>
+        </div>
+        <ul class="dept-signals">
+          <li>BIFFA facility referenced in vape/battery disposal fire-risk warning</li>
+          <li>BIFFA launches battery-fire safety training initiative</li>
+        </ul>
+      </div>
+
+      <div class="dept-card">
+        <div class="dept-card-header">
+          <span class="dept-name">Finance</span>
+          <span class="dept-count">1 Signal</span>
+        </div>
+        <ul class="dept-signals">
+          <li>Tender award notice confirms BIFFA contract win (2026&ndash;2030) &mdash; supports revenue visibility</li>
+        </ul>
+      </div>
+
+      <div class="dept-card">
+        <div class="dept-card-header">
+          <span class="dept-name">Strategy &amp; Corporate Development</span>
+          <span class="dept-count">1 Signal</span>
+        </div>
+        <ul class="dept-signals">
+          <li>Trade-press listing detected referencing BIFFA acquisition activity (access-restricted)</li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- Departments All Clear -->
+    <div class="section-header" style="margin-bottom: 0; margin-top: 24px;">
+      <div class="section-eyebrow" style="color: var(--green);">Departments All Clear</div>
+    </div>
+    <div class="dept-clear" style="margin-top: 12px;">
+      <span class="dept-clear-pill">HR &amp; People</span>
+      <span class="dept-clear-pill">IT &amp; Data</span>
+      <span class="dept-clear-pill">Procurement &amp; Supply Chain</span>
+    </div>
+  </div>
+</section>
+
+<!-- ============================================
+     INSIGHT BANNER
+     ============================================ -->
+<div class="insight-banner">
+  <div class="insight-shimmer"></div>
+  <div class="container">
+    <div class="insight-content">
+      <p class="insight-quote">Net risk this cycle: stable. Policy execution and compliance signals dominate. Battery and vape fire-risk narratives remain sensitive &mdash; they can shift public perception quickly and attract regulator attention when incidents occur.</p>
+    </div>
+  </div>
+</div>
+
+<!-- ============================================
+     FEATURE BREAK
+     ============================================ -->
+<div class="feature-break">
+  <div class="container">
+    <div class="feature-break-content">
+      <p class="feature-break-quote">Policy execution tends to translate into real operational reporting load, permit scrutiny, and procurement expectations.</p>
+      <span class="feature-break-attr">Section 06: Competitive Landscape</span>
+    </div>
+  </div>
+</div>
+
+<!-- ============================================
+     SECTION 6 — COMPETITIVE LANDSCAPE
+     ============================================ -->
+<section class="section">
+  <div class="container">
+    <div class="section-header">
+      <div class="section-eyebrow">Section 06</div>
+      <h2 class="section-title">Competitive Landscape</h2>
+    </div>
+    <div class="competitor-row">
+      <div class="competitor-card">
+        <div class="competitor-badge competitor-badge--stable">
+          <span class="pill-dot pill-dot--green"></span>
+          Stable
+        </div>
+        <h4>Competitor Stumbles</h4>
+        <p>No operational or reputational stumbles detected across monitored competitors this cycle. Scanned for service failures, regulatory actions, leadership changes, negative press, and customer complaints.</p>
+      </div>
+      <div class="competitor-card">
+        <div class="competitor-badge competitor-badge--active">
+          <span class="pill-dot pill-dot--blue"></span>
+          Active
+        </div>
+        <h4>Veolia &mdash; Rapid Removal Service</h4>
+        <p>Veolia launched a rapid removal service positioned for illegal waste dumping response. May influence council and commercial customer expectations on response times and cleanup scope.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============================================
+     SECTION 7 — POLICY & REGULATORY SIGNALS
+     ============================================ -->
+<section class="section section--light">
+  <div class="container">
+    <div class="section-header">
+      <div class="section-eyebrow">Section 07</div>
+      <h2 class="section-title">Policy &amp; Regulatory Signals</h2>
+    </div>
+    <div class="policy-grid">
+      <div class="policy-card">
+        <h4>Wales lays Digital Waste Tracking regulations</h4>
+        <p style="font-size: 0.8125rem; color: var(--b-body); line-height: 1.6; margin-top: 8px;">Tracking mandates can change reporting workload and audit expectations across waste movements. Implementation trajectory signal for Welsh operations.</p>
+        <div class="policy-source" style="margin-top: 12px;">Source: Gov.wales</div>
+      </div>
+      <div class="policy-card">
+        <h4>Environment Agency revokes a waste site permit</h4>
+        <p style="font-size: 0.8125rem; color: var(--b-body); line-height: 1.6; margin-top: 8px;">Yorkshire waste site enforcement action. Signals regulatory posture and compliance expectations for the sector.</p>
+        <div class="policy-source" style="margin-top: 12px;">Source: GOV.UK</div>
+      </div>
+      <div class="policy-card">
+        <h4>EA publishes response on decarbonisation charging proposal</h4>
+        <p style="font-size: 0.8125rem; color: var(--b-body); line-height: 1.6; margin-top: 8px;">Charging and consultation outcomes can affect EfW-related compliance and cost expectations.</p>
+        <div class="policy-source" style="margin-top: 12px;">Source: GOV.UK</div>
+      </div>
+      <div class="policy-card">
+        <h4>Tobacco and Vapes Bill progresses through Lords</h4>
+        <p style="font-size: 0.8125rem; color: var(--b-body); line-height: 1.6; margin-top: 8px;">Legislative trajectory with downstream implications for vape waste handling guidance and disposal frameworks.</p>
+        <div class="policy-source" style="margin-top: 12px;">Source: Parliament.uk</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============================================
+     SECTION 8 — STRATEGIC ASSESSMENT
+     ============================================ -->
+<section class="section section--wash">
+  <div class="container">
+    <div class="section-header">
+      <div class="section-eyebrow">Section 08</div>
+      <h2 class="section-title">Strategic Assessment</h2>
+      <p class="section-subtitle">Decision matrix for the current cycle.</p>
+    </div>
+    <div class="matrix-table-wrap">
+      <table class="matrix-table">
+        <thead>
+          <tr>
+            <th>Risk Area</th>
+            <th>Level</th>
+            <th>Recommendation</th>
+            <th>Confidence</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Public-sector procurement momentum</td>
+            <td><span class="level-badge level-badge--amber">Medium</span></td>
+            <td>Monitor related tender pipelines and follow-on council opportunities signalled by award notices</td>
+            <td>Medium</td>
+          </tr>
+          <tr>
+            <td>Battery/vape fire-risk narrative management</td>
+            <td><span class="level-badge level-badge--amber">Medium</span></td>
+            <td>Track repeat mentions of BIFFA facilities in disposal/fire-risk narratives; monitor for amplification</td>
+            <td>Medium</td>
+          </tr>
+          <tr>
+            <td>Digital tracking / compliance execution (Wales)</td>
+            <td><span class="level-badge level-badge--amber">Medium</span></td>
+            <td>Monitor implementation detail and timeline clarity; assess reporting and operational implications</td>
+            <td>Medium</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+</section>
+
+<!-- ============================================
+     SECTION 9 — EVIDENCE ROOM
+     ============================================ -->
+<section class="section section--light">
+  <div class="container">
+    <div class="section-header">
+      <div class="section-eyebrow">Section 09</div>
+      <h2 class="section-title">Evidence Room</h2>
+      <p class="section-subtitle">Active evidence categories and stable monitoring areas.</p>
+    </div>
+
+    <div class="evidence-grid">
+      <div class="evidence-item">
+        <h4>Official Record Activity</h4>
+        <p>6 notices, tender records, and parliamentary updates detected this cycle across procurement, enforcement, and legislative channels.</p>
+      </div>
+      <div class="evidence-item">
+        <h4>Reputation Risk Signals</h4>
+        <p>1 client-adjacent safety narrative detected in media coverage &mdash; battery/vape fire-risk framing linked to BIFFA facilities.</p>
+      </div>
+      <div class="evidence-item">
+        <h4>Flashpoints &amp; Competitor Pressure</h4>
+        <p>All clear. Zero active flashpoints. No material competitor pressure signals detected this cycle.</p>
+      </div>
+    </div>
+
+    <div class="section-eyebrow" style="color: var(--b-muted); margin-top: 24px; margin-bottom: 12px;">Stable &mdash; No Signals</div>
+    <div class="evidence-stable-list">
+      <span class="evidence-stable-pill">Enforcement Actions (BIFFA-named)</span>
+      <span class="evidence-stable-pill">Investor/Capital Activity</span>
+      <span class="evidence-stable-pill">Emerging Competitors</span>
+      <span class="evidence-stable-pill">People Moves</span>
+      <span class="evidence-stable-pill">Deal Flow</span>
+      <span class="evidence-stable-pill">Operational Stumbles</span>
+      <span class="evidence-stable-pill">Social Discourse</span>
+      <span class="evidence-stable-pill">Rumour Radar</span>
+    </div>
+  </div>
+</section>
+
+<!-- ============================================
+     ACCENT STRIPE
+     ============================================ -->
+<div class="accent-stripe"></div>
+
+<!-- ============================================
+     SECTION 10 — THEMES & WHAT TO WATCH
+     ============================================ -->
+<section class="section">
+  <div class="container">
+    <div class="section-header">
+      <div class="section-eyebrow">Section 10</div>
+      <h2 class="section-title">Themes &amp; What to Watch</h2>
+    </div>
+
+    <div class="theme-grid">
+      <div class="theme-card">
+        <div class="theme-number">Theme 01</div>
+        <p>Digital tracking and compliance execution &mdash; Wales regulations laid, operational implications sharpening for waste handlers.</p>
+      </div>
+      <div class="theme-card">
+        <div class="theme-number">Theme 02</div>
+        <p>Enforcement posture and charging framework signals &mdash; Environment Agency permit revocations and decarbonisation readiness consultation outcomes.</p>
+      </div>
+      <div class="theme-card">
+        <div class="theme-number">Theme 03</div>
+        <p>Battery/vape fire-risk narratives intersecting operations and communications &mdash; safety training launched, disposal warnings in media.</p>
+      </div>
+    </div>
+
+    <div class="section-header" style="margin-bottom: 16px;">
+      <div class="section-eyebrow">What to Watch</div>
+    </div>
+    <ol class="watch-list">
+      <li>Further Wales tracking implementation detail and operational expectations</li>
+      <li>Any BIFFA-named Environment Agency or DEFRA notices (permitting, investigations, enforcement)</li>
+      <li>Repeat public narrative spikes linking operator sites to battery/vape fire risk</li>
+      <li>Related tender pipelines and follow-on council opportunities</li>
+      <li>Platform transactions or bolt-on activity in UK waste infrastructure</li>
+      <li>Debt/refinancing signals tied to EfW decarbonisation readiness and charging frameworks</li>
+    </ol>
+  </div>
+</section>
+
+<!-- ============================================
+     SECTION 11 — SIGNAL VAULT
+     ============================================ -->
+<section class="section section--light" id="signal-vault">
+  <div class="container">
+    <div class="section-header">
+      <div class="section-eyebrow">Section 11</div>
+      <h2 class="section-title">Signal Vault</h2>
+      <p class="section-subtitle">Complete evidence table and entity summary for this monitoring cycle.</p>
+    </div>
+
+    <div class="vault-table-wrap">
+      <table class="vault-table">
+        <thead>
+          <tr>
+            <th>Headline</th>
+            <th>Source</th>
+            <th>Entity</th>
+            <th>Window</th>
+            <th>Lane</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Tender award &mdash; BIFFA street-sweeping arisings treatment contract</td>
+            <td>Find a Tender</td>
+            <td>BIFFA</td>
+            <td>0&ndash;24h</td>
+            <td><span class="vault-lane vault-lane--about">Official Procurement</span></td>
+          </tr>
+          <tr>
+            <td>BIFFA launches battery-fire safety training for waste-sector fire risk</td>
+            <td>Tomorrow&rsquo;s FM</td>
+            <td>BIFFA</td>
+            <td>24&ndash;48h</td>
+            <td><span class="vault-lane vault-lane--about">News / Operations</span></td>
+          </tr>
+          <tr>
+            <td>BIFFA facility referenced in warning over vapes entering household waste</td>
+            <td>Yahoo News UK</td>
+            <td>BIFFA</td>
+            <td>48&ndash;72h</td>
+            <td><span class="vault-lane vault-lane--about">News / Safety</span></td>
+          </tr>
+          <tr>
+            <td>Eurocell and BIFFA expand PVC-U recycling partnership</td>
+            <td>MEMUK News</td>
+            <td>BIFFA</td>
+            <td>48&ndash;72h</td>
+            <td><span class="vault-lane vault-lane--context">Context</span></td>
+          </tr>
+          <tr>
+            <td>Biffa buys C&amp;D-waste business L&amp;S Waste Management</td>
+            <td>ENDS Waste &amp; Bioenergy</td>
+            <td>BIFFA</td>
+            <td>Recent</td>
+            <td><span class="vault-lane vault-lane--about">Trade (paywalled)</span></td>
+          </tr>
+          <tr>
+            <td>Leicester starts market engagement over waste deal</td>
+            <td>ENDS Waste &amp; Bioenergy</td>
+            <td>BIFFA</td>
+            <td>Recent</td>
+            <td><span class="vault-lane vault-lane--about">Trade (paywalled)</span></td>
+          </tr>
+          <tr>
+            <td>BIFFA Wikipedia entry &mdash; stability check</td>
+            <td>Wikipedia</td>
+            <td>BIFFA</td>
+            <td>&mdash;</td>
+            <td><span class="vault-lane vault-lane--reference">Reference</span></td>
+          </tr>
+          <tr>
+            <td>Veolia launches rapid removal service for illegal waste dumping</td>
+            <td>Lets Recycle</td>
+            <td>Veolia</td>
+            <td>48&ndash;72h</td>
+            <td><span class="vault-lane vault-lane--strategic">Competitor</span></td>
+          </tr>
+          <tr>
+            <td>Environment Agency revokes a waste site permit</td>
+            <td>GOV.UK</td>
+            <td>Regulators</td>
+            <td>Primary</td>
+            <td><span class="vault-lane vault-lane--strategic">Enforcement Context</span></td>
+          </tr>
+          <tr>
+            <td>Wales lays Digital Waste Tracking regulations</td>
+            <td>Gov.wales</td>
+            <td>UK Policy</td>
+            <td>Primary</td>
+            <td><span class="vault-lane vault-lane--strategic">Compliance Signal</span></td>
+          </tr>
+          <tr>
+            <td>OPSS launches safe vapes usage and disposal awareness campaign</td>
+            <td>GOV.UK</td>
+            <td>UK Policy</td>
+            <td>Primary</td>
+            <td><span class="vault-lane vault-lane--strategic">Public Safety</span></td>
+          </tr>
+          <tr>
+            <td>EA publishes response on decarbonisation readiness charging proposal</td>
+            <td>GOV.UK</td>
+            <td>Regulators</td>
+            <td>Primary</td>
+            <td><span class="vault-lane vault-lane--capital">Framework</span></td>
+          </tr>
+          <tr>
+            <td>Parliament update on Tobacco and Vapes Bill progress</td>
+            <td>Parliament.uk</td>
+            <td>UK Policy</td>
+            <td>Primary</td>
+            <td><span class="vault-lane vault-lane--capital">Legislative</span></td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+
+    <!-- Entity Summary Cards -->
+    <div class="section-eyebrow" style="margin-bottom: 16px;">Entity Summary</div>
+    <div class="entity-summary-row">
+      <div class="entity-card">
+        <div class="entity-left">
+          <span class="entity-name">BIFFA</span>
+          <span class="entity-status entity-status--green">
+            <span class="pill-dot pill-dot--green"></span>
+            Stable
+          </span>
+        </div>
+        <span class="entity-count">7</span>
+      </div>
+      <div class="entity-card">
+        <div class="entity-left">
+          <span class="entity-name">Veolia</span>
+          <span class="entity-status entity-status--blue">
+            <span class="pill-dot pill-dot--blue"></span>
+            Active
+          </span>
+        </div>
+        <span class="entity-count">1</span>
+      </div>
+      <div class="entity-card">
+        <div class="entity-left">
+          <span class="entity-name">UK Policy / Regulators</span>
+          <span class="entity-status entity-status--amber">
+            <span class="pill-dot pill-dot--amber"></span>
+            Rising
+          </span>
+        </div>
+        <span class="entity-count">6</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============================================
+     FOOTER
+     ============================================ -->
+<footer class="site-footer">
+  <div class="container">
+    <div class="footer-inner">
+      <div class="footer-wordmark">Brunswick</div>
+      <p class="footer-text">Media monitoring and corporate strategy intelligence &mdash; powered by Noah Wire Services.</p>
+      <div class="footer-bottom">
+        <p class="footer-disclaimer">&copy; Brunswick Group. All analysis is based on open-source intelligence and does not constitute legal, financial, or strategic advice.</p>
+        <span class="footer-version">Client Confidential &middot; v1.0-MM &middot; 2026-03-05</span>
+      </div>
+    </div>
+  </div>
+</footer>
+
+</body>
+</html>
