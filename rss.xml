@@ -5,8 +5,16 @@
     <link>https://noah-edge.com/</link>
     <description>Prediction market intelligence. The Noah Poly Index tracks edges with transparent positions and tracked outcomes.</description>
     <language>en</language>
-    <lastBuildDate>Thu, 05 Mar 2026 17:00:55 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 05 Mar 2026 17:33:02 +0000</lastBuildDate>
     <atom:link href="https://noah-edge.com/rss.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>PMI-20260305 | 14 Beliefs | Politics + Economy + Finance | shifting (ziq4)</title>
+      <link>https://noah-edge.com/stories/pmi-20260305-14-beliefs-politics-economy-finance-shifting.html</link>
+      <description>Summary Corpus: 0 articles across 12 trends | LONG horizon | 580h window Beliefs: 14 total | 9 cross-domain | 5 single-domain Domains: politics, economy, finance, energy, legal, regulatory, consume...</description>
+      <pubDate>Thu, 05 Mar 2026 17:29:59 +0000</pubDate>
+      <guid>https://noah-edge.com/stories/pmi-20260305-14-beliefs-politics-economy-finance-shifting.html</guid>
+      <enclosure url="https://noah-edge.com/assets/images/pmi-20260305-14-beliefs-politics-economy-4106fe12.jpg" type="image/jpeg" />
+    </item>
     <item>
       <title>PMI-20260305 | 0 Beliefs | No Data | unclear (gux5)</title>
       <link>https://noah-edge.com/stories/pmi-20260305-0-beliefs-no-data-unclear-gux5.html</link>
@@ -158,14 +166,6 @@
       <pubDate>Tue, 03 Mar 2026 22:28:47 +0000</pubDate>
       <guid>https://noah-edge.com/stories/bnb-chains-bengaluru-hackathon-fuels-future-fintech-and.html</guid>
       <enclosure url="https://noah-edge.com/assets/images/bnb-chains-bengaluru-hackathon-fuels-fut-a7e17318.jpg" type="image/jpeg" />
-    </item>
-    <item>
-      <title>AP’s real-time election results to power prediction markets ahead of 2026 primaries</title>
-      <link>https://noah-edge.com/stories/aps-real-time-election-results-to-power-prediction-markets.html</link>
-      <description>The Associated Press will supply its authoritative U.S. election data directly to Kalshi, integrating live vote tallies and race calls into the prediction‑market platform ahead of the 2026 primary ...</description>
-      <pubDate>Tue, 03 Mar 2026 22:28:46 +0000</pubDate>
-      <guid>https://noah-edge.com/stories/aps-real-time-election-results-to-power-prediction-markets.html</guid>
-      <enclosure url="https://noah-edge.com/assets/images/aps-real-time-election-results-to-power--bab00c72.jpg" type="image/jpeg" />
     </item>
   </channel>
 </rss>
