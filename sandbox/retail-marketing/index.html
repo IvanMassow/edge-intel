@@ -164,16 +164,14 @@
 
         /* ===== HERO SECTION ===== */
         .hero {
-            max-width: 1280px;
-            margin: 0 auto;
-            padding: 24px var(--gutter) 0;
+            position: relative;
+            width: 100%;
+            overflow: hidden;
         }
         .hero-card {
             position: relative;
-            border-radius: 10px;
             overflow: hidden;
-            aspect-ratio: 21 / 9;
-            min-height: 420px;
+            min-height: 520px;
         }
         .hero-image {
             width: 100%;
@@ -493,7 +491,7 @@
             .masthead-text h1 { font-size: 26px; }
             .featured-grid { grid-template-columns: 1fr; }
             .secondary-grid { grid-template-columns: 1fr; }
-            .hero-card { aspect-ratio: auto; min-height: 360px; }
+            .hero-card { min-height: 400px; }
             .hero-title { font-size: 24px; }
             .hero-content { padding: 28px 24px; max-width: 100%; }
             .hero-overlay {
