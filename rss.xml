@@ -5,8 +5,16 @@
     <link>https://noah-edge.com/</link>
     <description>Prediction market intelligence. The Noah Poly Index tracks edges with transparent positions and tracked outcomes.</description>
     <language>en</language>
-    <lastBuildDate>Thu, 05 Mar 2026 15:56:36 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 05 Mar 2026 16:28:50 +0000</lastBuildDate>
     <atom:link href="https://noah-edge.com/rss.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>PMI-20260305 | 0 Beliefs | No Data | unclear (gux5)</title>
+      <link>https://noah-edge.com/stories/pmi-20260305-0-beliefs-no-data-unclear-gux5.html</link>
+      <description>Summary Corpus: unknown articles across 0 trends | unknown horizon | 0h window Beliefs: 0 total | 0 cross-domain | 0 single-domain Domains: Posture: Market state not computed Signal Snapshot | # | ...</description>
+      <pubDate>Thu, 05 Mar 2026 16:14:05 +0000</pubDate>
+      <guid>https://noah-edge.com/stories/pmi-20260305-0-beliefs-no-data-unclear-gux5.html</guid>
+      <enclosure url="https://noah-edge.com/assets/images/pmi-20260305-0-beliefs-no-data-unclear-g-0e322579.jpg" type="image/jpeg" />
+    </item>
     <item>
       <title>PMI-20260305 | 0 Beliefs | No Data | unclear (qaz7)</title>
       <link>https://noah-edge.com/stories/pmi-20260305-0-beliefs-no-data-unclear-qaz7.html</link>
@@ -158,14 +166,6 @@
       <pubDate>Tue, 03 Mar 2026 22:28:46 +0000</pubDate>
       <guid>https://noah-edge.com/stories/aps-real-time-election-results-to-power-prediction-markets.html</guid>
       <enclosure url="https://noah-edge.com/assets/images/aps-real-time-election-results-to-power--bab00c72.jpg" type="image/jpeg" />
-    </item>
-    <item>
-      <title>Binance’s launch of Opinion token signals fresh focus on decentralised prediction markets</title>
-      <link>https://noah-edge.com/stories/binances-launch-of-opinion-token-signals-fresh-focus-on.html</link>
-      <description>Binance’s deployment of the Opinion (OPN) token on its Launchpool introduces a novel decentralised infrastructure for market predictions, promising enhanced interoperability and low-latency updates...</description>
-      <pubDate>Tue, 03 Mar 2026 22:28:45 +0000</pubDate>
-      <guid>https://noah-edge.com/stories/binances-launch-of-opinion-token-signals-fresh-focus-on.html</guid>
-      <enclosure url="https://noah-edge.com/assets/images/binances-launch-of-opinion-token-signals-6dbcebcf.jpg" type="image/jpeg" />
     </item>
   </channel>
 </rss>

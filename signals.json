@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-03-05T15:56:36Z",
+  "generated_at": "2026-03-05T16:28:50Z",
   "total_signals": 198,
   "signals": [
     {
@@ -158,6 +158,23 @@
     {
       "signal_id": "NE-POLY-0010",
       "source": "polyhunter",
+      "asset": "Will the US add less than 25k jobs in February? \u25cf\u25cf\u25cf\u25cf\u25cf [B]",
+      "ticker": null,
+      "asset_type": "prediction_market",
+      "direction": "lower",
+      "conviction": null,
+      "edge_type": "CONSENSUS",
+      "rating": "B",
+      "entry_price": 0.24,
+      "current_price": 0.145,
+      "pnl_pct": 39.6,
+      "status": "CLOSED",
+      "state": "EXITED",
+      "edge_points": 8.0
+    },
+    {
+      "signal_id": "NE-POLY-0011",
+      "source": "polyhunter",
       "asset": "Iran Strike on Israel by February 28? \u25cf\u25cf\u25cf\u25cf\u25d0 [B]",
       "ticker": null,
       "asset_type": "prediction_market",
@@ -173,7 +190,7 @@
       "edge_points": 11.0
     },
     {
-      "signal_id": "NE-POLY-0011",
+      "signal_id": "NE-POLY-0012",
       "source": "polyhunter",
       "asset": "Iran strike on US military by February 28? \u25cf\u25cf\u25cf\u25d0\u25cb [B]",
       "ticker": null,
@@ -190,7 +207,7 @@
       "edge_points": 6.0
     },
     {
-      "signal_id": "NE-POLY-0012",
+      "signal_id": "NE-POLY-0013",
       "source": "polyhunter",
       "asset": "Fed rate cut by April 2026 meeting? \u25cf\u25cf\u25cf\u25cf\u25cb [A]",
       "ticker": null,
@@ -207,7 +224,7 @@
       "edge_points": 8.0
     },
     {
-      "signal_id": "NE-POLY-0013",
+      "signal_id": "NE-POLY-0014",
       "source": "polyhunter",
       "asset": "US x Iran meeting by February 28, 2026? \u25cf\u25cf\u25cf\u25cf\u25d1 [A]",
       "ticker": null,
@@ -224,7 +241,7 @@
       "edge_points": 5.0
     },
     {
-      "signal_id": "NE-POLY-0014",
+      "signal_id": "NE-POLY-0015",
       "source": "polyhunter",
       "asset": "Will US or Israel strike Iran by February 28, 2026? \u25cf\u25cf\u25cf\u25cf\u25cf [A",
       "ticker": null,
@@ -241,7 +258,7 @@
       "edge_points": 6.0
     },
     {
-      "signal_id": "NE-POLY-0015",
+      "signal_id": "NE-POLY-0016",
       "source": "polyhunter",
       "asset": "Will Crude Oil (CL) hit (LOW) $65 by end of March? \u25cf\u25cf\u25cf\u25cf\u25d0 [B]",
       "ticker": null,
@@ -258,7 +275,7 @@
       "edge_points": 9.0
     },
     {
-      "signal_id": "NE-POLY-0016",
+      "signal_id": "NE-POLY-0017",
       "source": "polyhunter",
       "asset": "Iran Strike on Israel by February 28? \u25cf\u25cf\u25cf\u25d0\u25cb [B]",
       "ticker": null,
@@ -275,7 +292,7 @@
       "edge_points": 6.0
     },
     {
-      "signal_id": "NE-POLY-0017",
+      "signal_id": "NE-POLY-0018",
       "source": "polyhunter",
       "asset": "Tariff increase on Canada in effect by June 30? \u25cf\u25cf\u25cf\u25cf\u25cf [A]",
       "ticker": null,
@@ -292,7 +309,7 @@
       "edge_points": 12.0
     },
     {
-      "signal_id": "NE-POLY-0018",
+      "signal_id": "NE-POLY-0019",
       "source": "polyhunter",
       "asset": "Will no Fed rate cuts happen in 2026? \u00e2\u0097\u008f\u00e2\u0097\u008f\u00e2\u0097\u008f\u00e2\u0097\u008f\u00e2\u0097\u008b [A]",
       "ticker": null,
@@ -309,7 +326,7 @@
       "edge_points": 9.0
     },
     {
-      "signal_id": "NE-POLY-0019",
+      "signal_id": "NE-POLY-0020",
       "source": "polyhunter",
       "asset": "US x Iran ceasefire by March 31? \u25cf\u25cf\u25cf\u25cf\u25cb [A]",
       "ticker": null,
@@ -319,14 +336,14 @@
       "edge_type": "CONSENSUS",
       "rating": "A",
       "entry_price": 0.305,
-      "current_price": 0.255,
+      "current_price": 0.285,
       "pnl_pct": 19.7,
       "status": "CLOSED",
       "state": "EXITED",
       "edge_points": 9.0
     },
     {
-      "signal_id": "NE-POLY-0020",
+      "signal_id": "NE-POLY-0021",
       "source": "polyhunter",
       "asset": "Iran agrees to end enrichment of uranium by March 31? \u25cf\u25cf\u25cf\u25cf\u25cc ",
       "ticker": null,
@@ -343,7 +360,7 @@
       "edge_points": 5.0
     },
     {
-      "signal_id": "NE-POLY-0021",
+      "signal_id": "NE-POLY-0022",
       "source": "polyhunter",
       "asset": "Will inflation reach more than 5% in 2026? \u25cf\u25cf\u25cf\u25cf\u25cf [B] DISCOVE",
       "ticker": null,
@@ -360,7 +377,7 @@
       "edge_points": 4.0
     },
     {
-      "signal_id": "NE-POLY-0022",
+      "signal_id": "NE-POLY-0023",
       "source": "polyhunter",
       "asset": "US-Iran nuclear deal by June 30? \u25cf\u25cf\u25cf\u25cf\u25cc [A]",
       "ticker": null,
@@ -377,7 +394,7 @@
       "edge_points": 6.0
     },
     {
-      "signal_id": "NE-POLY-0023",
+      "signal_id": "NE-POLY-0024",
       "source": "polyhunter",
       "asset": "US-Iran nuclear deal by June 30? \u25cf\u25cf\u25cf\u25cf\u25d0 [A]",
       "ticker": null,
@@ -394,7 +411,7 @@
       "edge_points": 6.0
     },
     {
-      "signal_id": "NE-POLY-0024",
+      "signal_id": "NE-POLY-0025",
       "source": "polyhunter",
       "asset": "Will Israel or the US target Tehran? \u25cf\u25cf\u25cf\u25d0 [B] DISCOVERY",
       "ticker": null,
@@ -411,7 +428,7 @@
       "edge_points": 6.0
     },
     {
-      "signal_id": "NE-POLY-0025",
+      "signal_id": "NE-POLY-0026",
       "source": "polyhunter",
       "asset": "US-Iran nuclear deal by June 30? \u25cf\u25cf\u25cf\u25cf\u25d1 [A]",
       "ticker": null,
@@ -428,7 +445,7 @@
       "edge_points": 6.0
     },
     {
-      "signal_id": "NE-POLY-0026",
+      "signal_id": "NE-POLY-0027",
       "source": "polyhunter",
       "asset": "US strikes Iran by March 31, 2026? \u25cf\u25cf\u25cf\u25cf\u25cb [A]",
       "ticker": null,
@@ -445,7 +462,7 @@
       "edge_points": 9.0
     },
     {
-      "signal_id": "NE-POLY-0027",
+      "signal_id": "NE-POLY-0028",
       "source": "polyhunter",
       "asset": "Israel strikes Iran by March 31, 2026? \u25cf\u25cf\u25cf\u25cf\u25cf [B]",
       "ticker": null,
@@ -462,7 +479,7 @@
       "edge_points": 10.0
     },
     {
-      "signal_id": "NE-POLY-0028",
+      "signal_id": "NE-POLY-0029",
       "source": "polyhunter",
       "asset": "Israel strikes Iran by March 31, 2026? \u25cf\u25cf\u25cf\u25cf\u25d0 [B]",
       "ticker": null,
@@ -479,7 +496,7 @@
       "edge_points": 8.0
     },
     {
-      "signal_id": "NE-POLY-0029",
+      "signal_id": "NE-POLY-0030",
       "source": "polyhunter",
       "asset": "US-Iran nuclear deal by June 30? \u25cf\u25cf\u25cf\u25cf\u25d0 [A]",
       "ticker": null,
@@ -496,7 +513,7 @@
       "edge_points": 4.0
     },
     {
-      "signal_id": "NE-POLY-0030",
+      "signal_id": "NE-POLY-0031",
       "source": "polyhunter",
       "asset": "Will U.S. tariff rate on China be between 15% and 25% on Mar",
       "ticker": null,
@@ -506,14 +523,14 @@
       "edge_type": "CONSENSUS",
       "rating": "B",
       "entry_price": 0.645,
-      "current_price": 0.57,
+      "current_price": 0.58,
       "pnl_pct": 7.8,
       "status": "CLOSED",
       "state": "EXITED",
       "edge_points": 8.0
     },
     {
-      "signal_id": "NE-POLY-0031",
+      "signal_id": "NE-POLY-0032",
       "source": "polyhunter",
       "asset": "Will the Fed decrease interest rates by 25 bps after the Jun",
       "ticker": null,
@@ -530,7 +547,7 @@
       "edge_points": 8.0
     },
     {
-      "signal_id": "NE-POLY-0032",
+      "signal_id": "NE-POLY-0033",
       "source": "polyhunter",
       "asset": "Will Crude Oil (CL) hit (HIGH) $80 by end of March? \u25cf\u25cf\u25cf\u25cf\u25d0 [B",
       "ticker": null,
@@ -540,14 +557,14 @@
       "edge_type": "CONSENSUS",
       "rating": "B",
       "entry_price": 0.71,
-      "current_price": 0.835,
+      "current_price": 0.855,
       "pnl_pct": 7.0,
       "status": "CLOSED",
       "state": "EXITED",
       "edge_points": 6.0
     },
     {
-      "signal_id": "NE-POLY-0033",
+      "signal_id": "NE-POLY-0034",
       "source": "polyhunter",
       "asset": "Trump invokes War Powers against Iran by March 31, 2026? \u25cf\u25cf\u25cf",
       "ticker": null,
@@ -564,7 +581,7 @@
       "edge_points": null
     },
     {
-      "signal_id": "NE-POLY-0034",
+      "signal_id": "NE-POLY-0035",
       "source": "polyhunter",
       "asset": "Will 3 Fed rate cuts happen in 2026? \u00e2\u0097\u008f\u00e2\u0097\u008f\u00e2\u0097\u008f\u00e2\u0097\u008f\u00e2\u0097\u008b [B] DIS",
       "ticker": null,
@@ -581,7 +598,7 @@
       "edge_points": 4.0
     },
     {
-      "signal_id": "NE-POLY-0035",
+      "signal_id": "NE-POLY-0036",
       "source": "polyhunter",
       "asset": "U.S. agrees to a new trade deal with \"Taiwan\" before 2027? \u25cf",
       "ticker": null,
@@ -598,7 +615,7 @@
       "edge_points": 5.0
     },
     {
-      "signal_id": "NE-POLY-0036",
+      "signal_id": "NE-POLY-0037",
       "source": "polyhunter",
       "asset": "Will there be no change in Fed interest rates after the June",
       "ticker": null,
@@ -615,7 +632,7 @@
       "edge_points": 6.0
     },
     {
-      "signal_id": "NE-POLY-0037",
+      "signal_id": "NE-POLY-0038",
       "source": "polyhunter",
       "asset": "Will the Fed decrease interest rates by 50+ bps after the Ju",
       "ticker": null,
@@ -632,7 +649,7 @@
       "edge_points": 4.0
     },
     {
-      "signal_id": "NE-POLY-0038",
+      "signal_id": "NE-POLY-0039",
       "source": "polyhunter",
       "asset": "Will Trump nominate Kevin Warsh as the next Fed chair? \u25cf\u25cf\u25cf\u25cf\u25cb",
       "ticker": null,
@@ -649,7 +666,7 @@
       "edge_points": 7.0
     },
     {
-      "signal_id": "NE-POLY-0039",
+      "signal_id": "NE-POLY-0040",
       "source": "polyhunter",
       "asset": "US x Iran ceasefire by March 15? \u25cf\u25cf\u25cf\u25cf\u25cf [B] DISCOVERY",
       "ticker": null,
@@ -666,23 +683,6 @@
       "edge_points": 7.0
     },
     {
-      "signal_id": "NE-POLY-0040",
-      "source": "polyhunter",
-      "asset": "Will the US add less than 25k jobs in February? \u25cf\u25cf\u25cf\u25cf\u25cf [B]",
-      "ticker": null,
-      "asset_type": "prediction_market",
-      "direction": "lower",
-      "conviction": null,
-      "edge_type": "CONSENSUS",
-      "rating": "B",
-      "entry_price": 0.24,
-      "current_price": 0.215,
-      "pnl_pct": 10.4,
-      "status": "OPEN",
-      "state": "ACTIVE",
-      "edge_points": 8.0
-    },
-    {
       "signal_id": "NE-POLY-0041",
       "source": "polyhunter",
       "asset": "Will no Fed rate cuts happen in 2026? \u25cf\u25cf\u25cf\u25cf\u25cb [B]",
@@ -693,8 +693,8 @@
       "edge_type": "CONSENSUS",
       "rating": "B",
       "entry_price": 0.1625,
-      "current_price": 0.1775,
-      "pnl_pct": 9.2,
+      "current_price": 0.186,
+      "pnl_pct": 14.5,
       "status": "OPEN",
       "state": "ACTIVE",
       "edge_points": null
@@ -710,8 +710,8 @@
       "edge_type": "CONSENSUS",
       "rating": "A",
       "entry_price": 0.16,
-      "current_price": 0.15,
-      "pnl_pct": 6.3,
+      "current_price": 0.14,
+      "pnl_pct": 12.5,
       "status": "OPEN",
       "state": "ACTIVE",
       "edge_points": 6.0
@@ -727,8 +727,8 @@
       "edge_type": "CONSENSUS",
       "rating": "A",
       "entry_price": 0.845,
-      "current_price": 0.825,
-      "pnl_pct": 2.4,
+      "current_price": 0.815,
+      "pnl_pct": 3.6,
       "status": "OPEN",
       "state": "ACTIVE",
       "edge_points": 13.0
@@ -829,7 +829,7 @@
       "edge_type": "CONSENSUS",
       "rating": "A",
       "entry_price": 0.29,
-      "current_price": 0.395,
+      "current_price": 0.4,
       "pnl_pct": 0.0,
       "status": "CLOSED",
       "state": "EXITED",
@@ -931,7 +931,7 @@
       "edge_type": "CONSENSUS",
       "rating": "A",
       "entry_price": 0.51,
-      "current_price": 0.62,
+      "current_price": 0.595,
       "pnl_pct": -2.9,
       "status": "CLOSED",
       "state": "EXITED",
@@ -1326,78 +1326,78 @@
     {
       "signal_id": "NE-HF-0078",
       "source": "hedgefund_tracker",
-      "asset": "Fermi, Inc.: litigation",
-      "ticker": "FRMI",
+      "asset": "Rigetti Computing: technology scale-up",
+      "ticker": "SMH",
       "asset_type": "equity",
       "direction": "SHORT",
-      "conviction": 8,
-      "confidence": 54.0,
-      "band": "C",
+      "conviction": null,
+      "confidence": 55.0,
+      "band": "B",
       "entry_price": null,
-      "dd_approved_price": 9.56,
-      "current_price": 9.04,
-      "pnl_pct": 5.44,
-      "status": "CLOSED",
-      "state": "KILLED",
-      "thesis_status": "mechanical_override",
-      "signal_velocity": "mainstream"
+      "dd_approved_price": 399.1,
+      "current_price": 399.1,
+      "pnl_pct": 0.0,
+      "status": "OPEN",
+      "state": "WATCH",
+      "thesis_status": null,
+      "signal_velocity": "quiet"
     },
     {
       "signal_id": "NE-HF-0079",
       "source": "hedgefund_tracker",
-      "asset": "Packaging/foundry capacity positioning",
-      "ticker": "TSM",
+      "asset": "David Fritz: automotive design and data management",
+      "ticker": "SMH",
       "asset_type": "equity",
       "direction": "LONG",
-      "conviction": 5,
-      "confidence": 72.0,
-      "band": "A",
+      "conviction": null,
+      "confidence": 52.0,
+      "band": "C",
       "entry_price": null,
-      "dd_approved_price": null,
-      "current_price": 357.44,
-      "pnl_pct": 2.46,
-      "status": "CLOSED",
-      "state": "KILLED",
-      "thesis_status": "mechanical_override",
-      "signal_velocity": "mainstream"
+      "dd_approved_price": 399.1,
+      "current_price": 399.1,
+      "pnl_pct": 0.0,
+      "status": "OPEN",
+      "state": "WATCH",
+      "thesis_status": null,
+      "signal_velocity": "quiet"
     },
     {
       "signal_id": "NE-HF-0080",
       "source": "hedgefund_tracker",
-      "asset": "Blue Cross: drug affordability",
-      "ticker": "IHE",
+      "asset": "AI infrastructure and demand (software and cloud c",
+      "ticker": "AVGO",
       "asset_type": "equity",
-      "direction": "LONG",
-      "conviction": 7,
-      "confidence": 60.0,
-      "band": "B",
+      "direction": "MIXED",
+      "conviction": null,
+      "confidence": 49.0,
+      "band": "C",
       "entry_price": null,
-      "dd_approved_price": 90.38,
-      "current_price": 89.84,
-      "pnl_pct": -0.6,
-      "status": "CLOSED",
-      "state": "KILLED",
-      "thesis_status": "mechanical_override",
+      "dd_approved_price": 317.53,
+      "current_price": 317.53,
+      "pnl_pct": 0,
+      "status": "OPEN",
+      "state": "WATCH",
+      "thesis_status": null,
       "signal_velocity": "quiet"
     },
     {
       "signal_id": "NE-HF-0081",
       "source": "hedgefund_tracker",
-      "asset": "ROHM Semiconductor",
-      "ticker": "SMH",
+      "asset": "Nvidia: semiconductor demand trends",
+      "ticker": "NVDA",
       "asset_type": "equity",
-      "direction": "LONG",
-      "conviction": 2,
-      "confidence": 58.0,
-      "band": "B",
+      "direction": "MIXED",
+      "conviction": null,
+      "confidence": 44.0,
+      "band": "D",
       "entry_price": null,
-      "dd_approved_price": 406.37,
-      "current_price": 399.1,
-      "pnl_pct": -1.79,
-      "status": "CLOSED",
-      "state": "KILLED",
-      "thesis_status": "invalidated",
-      "signal_velocity": "mainstream"
+      "dd_approved_price": 183.04,
+      "current_price": 183.04,
+      "pnl_pct": 0,
+      "status": "OPEN",
+      "state": "WATCH",
+      "thesis_status": null,
+      "signal_velocity": "quiet"
     },
     {
       "signal_id": "NE-TIP-0082",
