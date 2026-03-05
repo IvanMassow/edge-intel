@@ -1,0 +1,749 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Retail Marketing — Business Intelligence for Retail Leaders</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        /* ===== RESET & BASE ===== */
+        *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+        html { scroll-behavior: smooth; }
+        body {
+            font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+            background: #ffffff;
+            color: #1a1a1a;
+            line-height: 1.6;
+            -webkit-font-smoothing: antialiased;
+            -moz-osx-font-smoothing: grayscale;
+        }
+        a { text-decoration: none; color: inherit; }
+        img { display: block; max-width: 100%; }
+
+        /* ===== COLOR TOKENS ===== */
+        :root {
+            --burgundy: #8B1A1A;
+            --burgundy-light: #a82030;
+            --warm-red: #B22234;
+            --bg-warm: #fdf8f7;
+            --bg-white: #ffffff;
+            --text-primary: #1a1a1a;
+            --text-secondary: #4a4a4a;
+            --text-muted: #6b7280;
+            --border-light: #e8e0de;
+            --shadow-card: 0 1px 3px rgba(0,0,0,0.06), 0 6px 16px rgba(0,0,0,0.04);
+            --shadow-card-hover: 0 4px 12px rgba(0,0,0,0.1), 0 12px 28px rgba(0,0,0,0.06);
+            --radius: 6px;
+        }
+
+        /* ===== CROSS-MAGAZINE TOP NAV (STICKY) ===== */
+        .cross-nav {
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+            background: #ffffff;
+            border-bottom: 1px solid #e5e5e5;
+            box-shadow: 0 1px 4px rgba(0,0,0,0.04);
+        }
+        .cross-nav-inner {
+            max-width: 1280px;
+            margin: 0 auto;
+            padding: 0 24px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 40px;
+            height: 42px;
+        }
+        .cross-nav a {
+            font-family: 'Inter', sans-serif;
+            font-size: 12px;
+            font-weight: 500;
+            letter-spacing: 0.08em;
+            text-transform: uppercase;
+            transition: color 0.2s ease, opacity 0.2s ease;
+            padding: 10px 0;
+            position: relative;
+        }
+        .cross-nav a.nav-gazette { color: #111111; }
+        .cross-nav a.nav-gazette:hover { opacity: 0.7; }
+        .cross-nav a.nav-marketing {
+            color: var(--burgundy);
+            font-weight: 700;
+        }
+        .cross-nav a.nav-marketing::after {
+            content: '';
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            height: 2px;
+            background: var(--burgundy);
+        }
+        .cross-nav a.nav-packaging { color: #7A1F1F; }
+        .cross-nav a.nav-packaging:hover { opacity: 0.7; }
+
+        /* ===== SECTION NAVIGATION ===== */
+        .section-nav {
+            background: var(--bg-warm);
+            border-bottom: 1px solid var(--border-light);
+            overflow-x: auto;
+            -webkit-overflow-scrolling: touch;
+        }
+        .section-nav::-webkit-scrollbar { height: 0; }
+        .section-nav-inner {
+            max-width: 1280px;
+            margin: 0 auto;
+            padding: 0 24px;
+            display: flex;
+            align-items: center;
+            gap: 0;
+            white-space: nowrap;
+        }
+        .section-nav a {
+            font-size: 11.5px;
+            font-weight: 500;
+            color: var(--text-secondary);
+            padding: 12px 14px;
+            letter-spacing: 0.02em;
+            transition: color 0.2s ease, background 0.2s ease;
+            flex-shrink: 0;
+        }
+        .section-nav a:hover {
+            color: var(--burgundy);
+            background: rgba(139, 26, 26, 0.04);
+        }
+
+        /* ===== MASTHEAD ===== */
+        .masthead {
+            max-width: 1280px;
+            margin: 0 auto;
+            padding: 32px 24px 24px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+        .masthead-left {
+            display: flex;
+            align-items: center;
+            gap: 20px;
+        }
+        .masthead-logo {
+            width: 72px;
+            height: 72px;
+            border-radius: 8px;
+            object-fit: contain;
+        }
+        .masthead-text h1 {
+            font-family: 'Playfair Display', Georgia, serif;
+            font-size: 32px;
+            font-weight: 700;
+            color: var(--text-primary);
+            line-height: 1.1;
+        }
+        .masthead-text h1 span {
+            color: var(--burgundy);
+        }
+        .masthead-tagline {
+            font-size: 11px;
+            font-weight: 600;
+            letter-spacing: 0.14em;
+            text-transform: uppercase;
+            color: var(--text-muted);
+            margin-top: 4px;
+        }
+        .masthead-date {
+            font-size: 13px;
+            color: var(--text-muted);
+            font-weight: 400;
+        }
+        .masthead-divider {
+            max-width: 1280px;
+            margin: 0 auto;
+            padding: 0 24px;
+        }
+        .masthead-divider hr {
+            border: none;
+            height: 3px;
+            background: linear-gradient(90deg, var(--burgundy) 0%, var(--warm-red) 40%, transparent 100%);
+        }
+
+        /* ===== HERO SECTION ===== */
+        .hero {
+            max-width: 1280px;
+            margin: 0 auto;
+            padding: 24px 24px 0;
+        }
+        .hero-card {
+            position: relative;
+            border-radius: 10px;
+            overflow: hidden;
+            aspect-ratio: 21 / 9;
+            min-height: 420px;
+        }
+        .hero-image {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+        .hero-overlay {
+            position: absolute;
+            inset: 0;
+            background: linear-gradient(
+                to right,
+                rgba(60, 8, 8, 0.92) 0%,
+                rgba(90, 16, 16, 0.78) 30%,
+                rgba(139, 26, 26, 0.45) 55%,
+                transparent 80%
+            );
+        }
+        .hero-content {
+            position: absolute;
+            inset: 0;
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-end;
+            padding: 48px 56px;
+            max-width: 680px;
+        }
+        .hero-badge {
+            display: inline-block;
+            background: var(--burgundy);
+            color: #ffffff;
+            font-size: 10px;
+            font-weight: 700;
+            letter-spacing: 0.12em;
+            text-transform: uppercase;
+            padding: 5px 12px;
+            border-radius: 3px;
+            margin-bottom: 16px;
+            width: fit-content;
+        }
+        .hero-title {
+            font-family: 'Playfair Display', Georgia, serif;
+            font-size: 34px;
+            font-weight: 700;
+            color: #ffffff;
+            line-height: 1.2;
+            margin-bottom: 12px;
+            text-shadow: 0 1px 3px rgba(0,0,0,0.2);
+        }
+        .hero-desc {
+            font-size: 15px;
+            color: rgba(255, 255, 255, 0.88);
+            line-height: 1.55;
+            max-width: 560px;
+        }
+
+        /* ===== SECTION HEADERS ===== */
+        .section-header {
+            max-width: 1280px;
+            margin: 0 auto;
+            padding: 48px 24px 20px;
+            display: flex;
+            align-items: center;
+            gap: 16px;
+        }
+        .section-header h2 {
+            font-family: 'Playfair Display', Georgia, serif;
+            font-size: 24px;
+            font-weight: 700;
+            color: var(--text-primary);
+        }
+        .section-header::after {
+            content: '';
+            flex: 1;
+            height: 1px;
+            background: var(--border-light);
+        }
+
+        /* ===== CATEGORY BADGES ===== */
+        .badge {
+            display: inline-block;
+            font-size: 10px;
+            font-weight: 700;
+            letter-spacing: 0.1em;
+            text-transform: uppercase;
+            padding: 4px 10px;
+            border-radius: 3px;
+            margin-bottom: 10px;
+        }
+        .badge-brand-strategy { background: rgba(139,26,26,0.1); color: #8B1A1A; }
+        .badge-product-launch { background: rgba(178,34,52,0.1); color: #B22234; }
+        .badge-local-retail { background: rgba(217,119,6,0.08); color: #D97706; }
+        .badge-martech { background: rgba(37,99,235,0.08); color: #2563EB; }
+        .badge-retail-media { background: rgba(124,58,237,0.08); color: #7C3AED; }
+        .badge-advertising { background: rgba(219,39,119,0.08); color: #DB2777; }
+        .badge-loyalty { background: rgba(5,150,105,0.08); color: #059669; }
+        .badge-social-media { background: rgba(8,145,178,0.08); color: #0891B2; }
+        .badge-data-driven { background: rgba(79,70,229,0.08); color: #4F46E5; }
+        .badge-personalisation { background: rgba(180,83,9,0.08); color: #B45309; }
+
+        /* ===== FEATURED STORIES (3 col) ===== */
+        .featured-grid {
+            max-width: 1280px;
+            margin: 0 auto;
+            padding: 0 24px 24px;
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 24px;
+        }
+        .card {
+            background: var(--bg-white);
+            border-radius: var(--radius);
+            overflow: hidden;
+            border: 1px solid #f0eded;
+            box-shadow: var(--shadow-card);
+            transition: box-shadow 0.3s ease, transform 0.25s ease;
+            border-top: 3px solid var(--burgundy);
+        }
+        .card:hover {
+            box-shadow: var(--shadow-card-hover);
+            transform: translateY(-3px);
+        }
+        .card-image-wrap {
+            position: relative;
+            overflow: hidden;
+            aspect-ratio: 16 / 10;
+        }
+        .card-image-wrap img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            transition: transform 0.5s ease;
+        }
+        .card:hover .card-image-wrap img {
+            transform: scale(1.05);
+        }
+        .card-body {
+            padding: 20px 22px 24px;
+        }
+        .card-title {
+            font-family: 'Playfair Display', Georgia, serif;
+            font-size: 18px;
+            font-weight: 700;
+            color: var(--text-primary);
+            line-height: 1.3;
+            margin-bottom: 8px;
+        }
+        .card-desc {
+            font-size: 13.5px;
+            color: var(--text-secondary);
+            line-height: 1.55;
+        }
+
+        /* ===== SECONDARY GRID (2x2) ===== */
+        .secondary-section {
+            background: var(--bg-warm);
+            padding: 8px 0 48px;
+        }
+        .secondary-grid {
+            max-width: 1280px;
+            margin: 0 auto;
+            padding: 0 24px;
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 24px;
+        }
+        .card-horizontal {
+            background: var(--bg-white);
+            border-radius: var(--radius);
+            overflow: hidden;
+            border: 1px solid #f0eded;
+            box-shadow: var(--shadow-card);
+            transition: box-shadow 0.3s ease, transform 0.25s ease;
+            display: flex;
+            border-left: 3px solid var(--burgundy);
+        }
+        .card-horizontal:hover {
+            box-shadow: var(--shadow-card-hover);
+            transform: translateY(-2px);
+        }
+        .card-horiz-image {
+            flex-shrink: 0;
+            width: 200px;
+            overflow: hidden;
+        }
+        .card-horiz-image img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            transition: transform 0.5s ease;
+        }
+        .card-horizontal:hover .card-horiz-image img {
+            transform: scale(1.05);
+        }
+        .card-horiz-body {
+            padding: 18px 20px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+        .card-horiz-title {
+            font-family: 'Playfair Display', Georgia, serif;
+            font-size: 16px;
+            font-weight: 700;
+            color: var(--text-primary);
+            line-height: 1.3;
+        }
+
+        /* ===== MARTECH WIRE ===== */
+        .wire-section {
+            max-width: 1280px;
+            margin: 0 auto;
+            padding: 0 24px 48px;
+        }
+        .wire-list {
+            list-style: none;
+            border-top: 1px solid var(--border-light);
+        }
+        .wire-item {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            gap: 16px;
+            padding: 14px 0;
+            border-bottom: 1px solid #f3f0ef;
+            transition: background 0.15s ease;
+        }
+        .wire-item:hover {
+            background: var(--bg-warm);
+            margin: 0 -12px;
+            padding-left: 12px;
+            padding-right: 12px;
+            border-radius: 4px;
+        }
+        .wire-left {
+            display: flex;
+            align-items: center;
+            gap: 14px;
+            min-width: 0;
+        }
+        .wire-badge {
+            flex-shrink: 0;
+            font-size: 9px;
+            font-weight: 700;
+            letter-spacing: 0.08em;
+            text-transform: uppercase;
+            padding: 3px 8px;
+            border-radius: 3px;
+            white-space: nowrap;
+        }
+        .wire-title {
+            font-size: 14px;
+            font-weight: 500;
+            color: var(--text-primary);
+            line-height: 1.35;
+            overflow: hidden;
+            text-overflow: ellipsis;
+        }
+        .wire-time {
+            flex-shrink: 0;
+            font-size: 12px;
+            color: var(--text-muted);
+            white-space: nowrap;
+        }
+
+        /* ===== FOOTER ===== */
+        .footer {
+            background: #1a1010;
+            color: rgba(255,255,255,0.7);
+            padding: 40px 24px;
+        }
+        .footer-inner {
+            max-width: 1280px;
+            margin: 0 auto;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            flex-wrap: wrap;
+            gap: 16px;
+        }
+        .footer-left p {
+            font-size: 13px;
+            line-height: 1.5;
+        }
+        .footer-left .footer-brand {
+            font-family: 'Playfair Display', Georgia, serif;
+            font-size: 18px;
+            font-weight: 700;
+            color: #ffffff;
+            margin-bottom: 4px;
+        }
+        .footer-left .footer-brand span { color: #c7a0a0; }
+        .footer-links {
+            display: flex;
+            gap: 24px;
+        }
+        .footer-links a {
+            font-size: 13px;
+            color: rgba(255,255,255,0.6);
+            transition: color 0.2s ease;
+        }
+        .footer-links a:hover { color: #ffffff; }
+        .footer-powered {
+            font-size: 11px;
+            color: rgba(255,255,255,0.35);
+            margin-top: 4px;
+        }
+
+        /* ===== RESPONSIVE ===== */
+        @media (max-width: 1024px) {
+            .featured-grid { grid-template-columns: repeat(2, 1fr); }
+            .hero-title { font-size: 28px; }
+            .hero-content { padding: 36px 40px; }
+        }
+        @media (max-width: 768px) {
+            .cross-nav-inner { gap: 24px; }
+            .masthead { flex-direction: column; align-items: flex-start; gap: 12px; }
+            .masthead-text h1 { font-size: 26px; }
+            .featured-grid { grid-template-columns: 1fr; }
+            .secondary-grid { grid-template-columns: 1fr; }
+            .hero-card { aspect-ratio: auto; min-height: 360px; }
+            .hero-title { font-size: 24px; }
+            .hero-content { padding: 28px 24px; max-width: 100%; }
+            .hero-overlay {
+                background: linear-gradient(
+                    to top,
+                    rgba(60, 8, 8, 0.95) 0%,
+                    rgba(90, 16, 16, 0.7) 40%,
+                    transparent 80%
+                );
+            }
+            .card-horizontal { flex-direction: column; border-left: none; border-top: 3px solid var(--burgundy); }
+            .card-horiz-image { width: 100%; aspect-ratio: 16/9; }
+            .footer-inner { flex-direction: column; text-align: center; }
+            .footer-links { flex-wrap: wrap; justify-content: center; }
+        }
+        @media (max-width: 480px) {
+            .section-nav a { padding: 10px 10px; font-size: 11px; }
+            .section-header h2 { font-size: 20px; }
+            .hero-title { font-size: 21px; }
+        }
+    </style>
+</head>
+<body>
+
+    <!-- ===== CROSS-MAGAZINE NAVIGATION ===== -->
+    <nav class="cross-nav">
+        <div class="cross-nav-inner">
+            <a href="../retail-gazette/index.html" class="nav-gazette">Retail Gazette</a>
+            <a href="../retail-marketing/index.html" class="nav-marketing">Retail Marketing</a>
+            <a href="../retail-packaging/index.html" class="nav-packaging">Retail Packaging</a>
+        </div>
+    </nav>
+
+    <!-- ===== SECTION NAVIGATION ===== -->
+    <nav class="section-nav">
+        <div class="section-nav-inner">
+            <a href="#">Retail Marketing</a>
+            <a href="#">Retail Advertising</a>
+            <a href="#">Retail Loyalty</a>
+            <a href="#">Data-Driven Retail</a>
+            <a href="#">Retail Social Media</a>
+            <a href="#">Personalisation</a>
+            <a href="#">Retail Media Networks</a>
+            <a href="#">Brand Strategy</a>
+            <a href="#">Product Launch</a>
+            <a href="#">Local Retail</a>
+            <a href="#">Retail MarTech</a>
+        </div>
+    </nav>
+
+    <!-- ===== MASTHEAD ===== -->
+    <header class="masthead">
+        <div class="masthead-left">
+            <img src="../assets/logo-marketing.png" alt="Retail Marketing" class="masthead-logo">
+            <div class="masthead-text">
+                <h1>Retail <span>Marketing</span></h1>
+                <p class="masthead-tagline">Business Intelligence for Retail Leaders</p>
+            </div>
+        </div>
+        <div class="masthead-date">Wednesday 5 March 2026</div>
+    </header>
+    <div class="masthead-divider"><hr></div>
+
+    <!-- ===== HERO SECTION ===== -->
+    <section class="hero">
+        <div class="hero-card">
+            <img class="hero-image" src="https://assets.makes.news/p/69a940b79d9ad2e250eeb06d/brand-strategy/2026/03/05/john-lewis-revitalises-high-street-fashion-with-the-return-of-topshop-and-new-brand-partnerships/image_1298759.jpg" alt="John Lewis revitalises high street fashion">
+            <div class="hero-overlay"></div>
+            <div class="hero-content">
+                <span class="hero-badge">Brand Strategy</span>
+                <h2 class="hero-title">John Lewis revitalises high street fashion with the return of Topshop and new brand partnerships</h2>
+                <p class="hero-desc">John Lewis reintroduced Topshop and Topman across 32 locations alongside 14 new brands, signaling push to strengthen fashion offering.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== FEATURED STORIES ===== -->
+    <div class="section-header">
+        <h2>Featured Stories</h2>
+    </div>
+    <section class="featured-grid">
+
+        <!-- Card 1 -->
+        <article class="card">
+            <div class="card-image-wrap">
+                <img src="https://assets.makes.news/p/69a940b79d9ad2e250eeb06d/local-retail-marketing/2026/03/05/aldi-uk-to-invest-over-gbp-300-million-in-store-upgrades-and-expansion-in-2026/image_2611354.jpg" alt="Aldi UK store investment">
+            </div>
+            <div class="card-body">
+                <span class="badge badge-local-retail">Local Retail</span>
+                <h3 class="card-title">Aldi UK to invest over &pound;300 million in store upgrades and expansion in 2026</h3>
+                <p class="card-desc">Aldi UK announced &pound;300 million investment in store refurbishment with low-carbon technologies.</p>
+            </div>
+        </article>
+
+        <!-- Card 2 -->
+        <article class="card">
+            <div class="card-image-wrap">
+                <img src="https://assets.makes.news/p/69a940b79d9ad2e250eeb06d/product-launch-marketing/2026/03/05/sainsbury-s-accelerates-easter-push-with-early-promotions-and-loyalty-driven-tactics/image_7969889.jpg" alt="Sainsbury's Easter campaign">
+            </div>
+            <div class="card-body">
+                <span class="badge badge-product-launch">Product Launch</span>
+                <h3 class="card-title">Sainsbury's accelerates Easter push with early promotions and loyalty-driven tactics</h3>
+                <p class="card-desc">Sainsbury's moved Easter campaign earlier using exclusive Nectar offers and in-store merchandising.</p>
+            </div>
+        </article>
+
+        <!-- Card 3 -->
+        <article class="card">
+            <div class="card-image-wrap">
+                <img src="https://assets.makes.news/p/69a940b79d9ad2e250eeb06d/brand-strategy/2026/03/05/ivc-evidensia-unifies-uk-vet-practices-with-new-masterbrand-amidst-digital-overhaul/image_1579354.jpg" alt="IVC Evidensia masterbrand">
+            </div>
+            <div class="card-body">
+                <span class="badge badge-brand-strategy">Brand Strategy</span>
+                <h3 class="card-title">IVC Evidensia unifies UK vet practices with new masterbrand amidst digital overhaul</h3>
+                <p class="card-desc">IVC Evidensia launched single UK masterbrand to unify over 900 practices and enhance patient experience.</p>
+            </div>
+        </article>
+
+    </section>
+
+    <!-- ===== SECONDARY GRID ===== -->
+    <section class="secondary-section">
+        <div class="section-header">
+            <h2>More Stories</h2>
+        </div>
+        <div class="secondary-grid">
+
+            <article class="card-horizontal">
+                <div class="card-horiz-image">
+                    <img src="https://assets.makes.news/p/69a940b79d9ad2e250eeb06d/product-launch-marketing/2026/03/05/brands-innovate-with-immersive-activation-tactics-to-deepen-consumer-engagement/image_7997771.jpg" alt="Immersive brand activations">
+                </div>
+                <div class="card-horiz-body">
+                    <span class="badge badge-product-launch">Product Launch</span>
+                    <h3 class="card-horiz-title">Brands innovate with immersive activation tactics to deepen consumer engagement</h3>
+                </div>
+            </article>
+
+            <article class="card-horizontal">
+                <div class="card-horiz-image">
+                    <img src="https://assets.makes.news/p/69a940b79d9ad2e250eeb06d/local-retail-marketing/2026/03/05/dash-donates-22000-cans-to-boost-community-support-among-uk-convenience-stores/image_6260894.jpg" alt="Dash community donation">
+                </div>
+                <div class="card-horiz-body">
+                    <span class="badge badge-local-retail">Local Retail</span>
+                    <h3 class="card-horiz-title">Dash donates 22,000 cans to boost community support among UK convenience stores</h3>
+                </div>
+            </article>
+
+            <article class="card-horizontal">
+                <div class="card-horiz-image">
+                    <img src="https://assets.makes.news/p/69a940b79d9ad2e250eeb06d/local-retail-marketing/2026/03/05/milkas-laliga-campaign-emphasises-family-bonds-over-football-bravado-signalling-a-shift-in-confectionery-marketing-strategy/image_5662657.jpg" alt="Milka LaLiga campaign">
+                </div>
+                <div class="card-horiz-body">
+                    <span class="badge badge-local-retail">Local Retail</span>
+                    <h3 class="card-horiz-title">Milka's LaLiga campaign emphasises family bonds over football bravado</h3>
+                </div>
+            </article>
+
+            <article class="card-horizontal">
+                <div class="card-horiz-image">
+                    <img src="https://assets.makes.news/p/69a940b79d9ad2e250eeb06d/product-launch-marketing/2026/03/05/bazooka-candy-brands-unveils-football-themed-promotion-to-boost-late-winter-sales/image_2081113.jpg" alt="Bazooka Candy football promotion">
+                </div>
+                <div class="card-horiz-body">
+                    <span class="badge badge-product-launch">Product Launch</span>
+                    <h3 class="card-horiz-title">Bazooka Candy Brands unveils football-themed promotion to boost late-winter sales</h3>
+                </div>
+            </article>
+
+        </div>
+    </section>
+
+    <!-- ===== MARTECH WIRE ===== -->
+    <div class="section-header">
+        <h2>MarTech Wire</h2>
+    </div>
+    <section class="wire-section">
+        <ul class="wire-list">
+
+            <li class="wire-item">
+                <div class="wire-left">
+                    <span class="wire-badge badge-martech">MarTech</span>
+                    <span class="wire-title">Microsoft Dynamics partners accelerate modernisation in North America</span>
+                </div>
+                <span class="wire-time">27 min ago</span>
+            </li>
+
+            <li class="wire-item">
+                <div class="wire-left">
+                    <span class="wire-badge badge-martech">MarTech</span>
+                    <span class="wire-title">Marketing Delivery's VoiceBox platform drives automotive dealer success</span>
+                </div>
+                <span class="wire-time">27 min ago</span>
+            </li>
+
+            <li class="wire-item">
+                <div class="wire-left">
+                    <span class="wire-badge badge-martech">MarTech</span>
+                    <span class="wire-title">Phonexa's new platform transforms voice into a data-driven asset</span>
+                </div>
+                <span class="wire-time">27 min ago</span>
+            </li>
+
+            <li class="wire-item">
+                <div class="wire-left">
+                    <span class="wire-badge badge-martech">MarTech</span>
+                    <span class="wire-title">Brands must prioritise mobile-first orchestration and no-code tools</span>
+                </div>
+                <span class="wire-time">27 min ago</span>
+            </li>
+
+            <li class="wire-item">
+                <div class="wire-left">
+                    <span class="wire-badge badge-product-launch">Product Launch</span>
+                    <span class="wire-title">Snappy Shopper and Empros Retail partner to boost digital marketing</span>
+                </div>
+                <span class="wire-time">27 min ago</span>
+            </li>
+
+            <li class="wire-item">
+                <div class="wire-left">
+                    <span class="wire-badge badge-retail-media">Retail Media</span>
+                    <span class="wire-title">Tesco Media appoints Walmart veteran Lauren Bolles</span>
+                </div>
+                <span class="wire-time">27 min ago</span>
+            </li>
+
+        </ul>
+    </section>
+
+    <!-- ===== FOOTER ===== -->
+    <footer class="footer">
+        <div class="footer-inner">
+            <div class="footer-left">
+                <p class="footer-brand">Retail <span>Marketing</span></p>
+                <p>&copy; 2026 Retail Marketing. Business Intelligence for Retail Leaders.</p>
+                <p class="footer-powered">Powered by Noah Wire</p>
+            </div>
+            <div class="footer-links">
+                <a href="../retail-gazette/index.html">Retail Gazette</a>
+                <a href="../retail-packaging/index.html">Retail Packaging</a>
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>

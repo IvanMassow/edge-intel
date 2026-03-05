@@ -1,0 +1,910 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Retail Packaging — Business Intelligence for Retail Leaders</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+<style>
+/* ═══════════════════════════════════════════════════════════════
+   RETAIL PACKAGING — Front Page Stylesheet
+   Industrial-Premium Editorial Design
+   ═══════════════════════════════════════════════════════════════ */
+
+*, *::before, *::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --burgundy: #7A1F1F;
+    --terracotta: #943B3B;
+    --bg-white: #FFFFFF;
+    --bg-warm: #f9f6f4;
+    --bg-dark: #1a1210;
+    --text-primary: #1a1a1a;
+    --text-secondary: #555;
+    --text-light: #888;
+    --shadow-sm: 0 1px 3px rgba(0,0,0,0.06), 0 1px 2px rgba(0,0,0,0.04);
+    --shadow-md: 0 4px 14px rgba(0,0,0,0.08), 0 2px 6px rgba(0,0,0,0.04);
+    --shadow-lg: 0 10px 30px rgba(0,0,0,0.10), 0 4px 10px rgba(0,0,0,0.05);
+    --cat-packaging-design: #7A1F1F;
+    --cat-reuse-refill: #1B7340;
+    --cat-packaging-machinery: #4F46E5;
+    --cat-supply-chains: #D97706;
+    --cat-smart-packaging: #2563EB;
+    --cat-food-grocery: #059669;
+    --cat-sustainable: #0891B2;
+    --cat-regulation: #B45309;
+    --cat-innovation: #7C3AED;
+    --cat-ecommerce: #DB2777;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+    color: var(--text-primary);
+    background: var(--bg-white);
+    line-height: 1.6;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+/* ─── CROSS-MAGAZINE NAV (STICKY) ─── */
+.cross-nav {
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    background: #FFFFFF;
+    border-bottom: 1px solid #e5e2df;
+    box-shadow: 0 1px 4px rgba(0,0,0,0.04);
+}
+
+.cross-nav-inner {
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 0 24px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+    height: 44px;
+}
+
+.cross-nav a {
+    text-decoration: none;
+    font-family: 'Inter', sans-serif;
+    font-size: 13px;
+    font-weight: 500;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    padding: 10px 0;
+    border-bottom: 2px solid transparent;
+    transition: all 0.2s ease;
+}
+
+.cross-nav a.nav-gazette {
+    color: #111;
+}
+
+.cross-nav a.nav-gazette:hover {
+    border-bottom-color: #111;
+}
+
+.cross-nav a.nav-marketing {
+    color: #8B1A1A;
+}
+
+.cross-nav a.nav-marketing:hover {
+    border-bottom-color: #8B1A1A;
+}
+
+.cross-nav a.nav-packaging {
+    color: var(--burgundy);
+    font-weight: 700;
+    border-bottom-color: var(--burgundy);
+}
+
+.cross-nav-divider {
+    width: 1px;
+    height: 18px;
+    background: #ddd;
+}
+
+/* ─── SECTION NAV ─── */
+.section-nav {
+    background: var(--bg-warm);
+    border-bottom: 1px solid #e8e4e0;
+}
+
+.section-nav-inner {
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 0 24px;
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    height: 40px;
+    overflow-x: auto;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
+
+.section-nav-inner::-webkit-scrollbar {
+    display: none;
+}
+
+.section-nav a {
+    text-decoration: none;
+    font-size: 11.5px;
+    font-weight: 500;
+    color: var(--text-secondary);
+    letter-spacing: 0.03em;
+    white-space: nowrap;
+    padding: 6px 12px;
+    border-radius: 20px;
+    transition: all 0.2s ease;
+}
+
+.section-nav a:hover {
+    background: rgba(122, 31, 31, 0.08);
+    color: var(--burgundy);
+}
+
+/* ─── MASTHEAD ─── */
+.masthead {
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 28px 24px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 3px double #e0dbd7;
+}
+
+.masthead-left {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.masthead-logo {
+    width: 72px;
+    height: 72px;
+    object-fit: contain;
+    border-radius: 4px;
+}
+
+.masthead-text h1 {
+    font-family: 'Playfair Display', Georgia, serif;
+    font-size: 32px;
+    font-weight: 800;
+    letter-spacing: -0.01em;
+    line-height: 1.1;
+    color: var(--text-primary);
+}
+
+.masthead-text h1 span {
+    color: var(--burgundy);
+}
+
+.masthead-tagline {
+    font-size: 10.5px;
+    font-weight: 600;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+    color: var(--text-light);
+    margin-top: 4px;
+}
+
+.masthead-date {
+    font-size: 13px;
+    color: var(--text-secondary);
+    text-align: right;
+    font-weight: 400;
+}
+
+.masthead-date strong {
+    display: block;
+    font-size: 14px;
+    font-weight: 600;
+    color: var(--text-primary);
+}
+
+/* ─── HERO ─── */
+.hero {
+    position: relative;
+    width: 100%;
+    height: 520px;
+    overflow: hidden;
+    margin-bottom: 0;
+}
+
+.hero-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+
+.hero-overlay {
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(
+        135deg,
+        rgba(122, 31, 31, 0.92) 0%,
+        rgba(122, 31, 31, 0.7) 30%,
+        rgba(26, 18, 16, 0.5) 60%,
+        rgba(26, 18, 16, 0.2) 100%
+    );
+}
+
+.hero-content {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding: 60px 48px 48px;
+    background: linear-gradient(to top, rgba(26, 18, 16, 0.85) 0%, transparent 100%);
+}
+
+.hero-category {
+    display: inline-block;
+    font-size: 11px;
+    font-weight: 700;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    color: #fff;
+    background: var(--cat-smart-packaging);
+    padding: 5px 14px;
+    border-radius: 3px;
+    margin-bottom: 16px;
+}
+
+.hero-title {
+    font-family: 'Playfair Display', Georgia, serif;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 1.18;
+    color: #fff;
+    max-width: 800px;
+    margin-bottom: 14px;
+    letter-spacing: -0.01em;
+}
+
+.hero-desc {
+    font-size: 17px;
+    line-height: 1.55;
+    color: rgba(255, 255, 255, 0.88);
+    max-width: 640px;
+    font-weight: 400;
+}
+
+/* ─── SECTION HEADINGS ─── */
+.section-heading {
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 48px 24px 20px;
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+
+.section-heading h2 {
+    font-family: 'Playfair Display', Georgia, serif;
+    font-size: 22px;
+    font-weight: 700;
+    color: var(--text-primary);
+    white-space: nowrap;
+}
+
+.section-heading-line {
+    flex: 1;
+    height: 1px;
+    background: linear-gradient(to right, #d0cbc6, transparent);
+}
+
+/* ─── FEATURED GRID (3-col) ─── */
+.featured-grid {
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 0 24px 48px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 28px;
+}
+
+.card {
+    background: var(--bg-white);
+    border-radius: 6px;
+    overflow: hidden;
+    box-shadow: var(--shadow-md);
+    transition: transform 0.25s ease, box-shadow 0.25s ease;
+    border-top: 3px solid var(--burgundy);
+}
+
+.card:hover {
+    transform: translateY(-4px);
+    box-shadow: var(--shadow-lg);
+}
+
+.card-image-wrap {
+    position: relative;
+    width: 100%;
+    height: 220px;
+    overflow: hidden;
+}
+
+.card-image-wrap img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.4s ease;
+}
+
+.card:hover .card-image-wrap img {
+    transform: scale(1.04);
+}
+
+.card-body {
+    padding: 22px 24px 26px;
+}
+
+.card-category {
+    display: inline-block;
+    font-size: 10.5px;
+    font-weight: 700;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+
+.card-title {
+    font-family: 'Playfair Display', Georgia, serif;
+    font-size: 19px;
+    font-weight: 700;
+    line-height: 1.3;
+    color: var(--text-primary);
+    margin-bottom: 10px;
+}
+
+.card-desc {
+    font-size: 14px;
+    line-height: 1.55;
+    color: var(--text-secondary);
+}
+
+/* Category top-border colors */
+.card[data-cat="packaging-design"]   { border-top-color: var(--cat-packaging-design); }
+.card[data-cat="reuse-refill"]       { border-top-color: var(--cat-reuse-refill); }
+.card[data-cat="packaging-machinery"]{ border-top-color: var(--cat-packaging-machinery); }
+.card[data-cat="supply-chains"]      { border-top-color: var(--cat-supply-chains); }
+.card[data-cat="smart-packaging"]    { border-top-color: var(--cat-smart-packaging); }
+.card[data-cat="food-grocery"]       { border-top-color: var(--cat-food-grocery); }
+.card[data-cat="sustainable"]        { border-top-color: var(--cat-sustainable); }
+
+/* ─── SECONDARY GRID (2x3) ─── */
+.secondary-section {
+    background: var(--bg-warm);
+    padding: 1px 0 48px;
+}
+
+.secondary-grid {
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 0 24px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 24px;
+}
+
+.card-sm {
+    background: var(--bg-white);
+    border-radius: 5px;
+    overflow: hidden;
+    box-shadow: var(--shadow-sm);
+    transition: transform 0.25s ease, box-shadow 0.25s ease;
+    border-left: 3px solid var(--burgundy);
+}
+
+.card-sm:hover {
+    transform: translateY(-3px);
+    box-shadow: var(--shadow-md);
+}
+
+.card-sm[data-cat="reuse-refill"]        { border-left-color: var(--cat-reuse-refill); }
+.card-sm[data-cat="packaging-machinery"] { border-left-color: var(--cat-packaging-machinery); }
+
+.card-sm-image-wrap {
+    width: 100%;
+    height: 170px;
+    overflow: hidden;
+}
+
+.card-sm-image-wrap img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.4s ease;
+}
+
+.card-sm:hover .card-sm-image-wrap img {
+    transform: scale(1.04);
+}
+
+.card-sm-body {
+    padding: 18px 20px 22px;
+}
+
+.card-sm-category {
+    display: inline-block;
+    font-size: 10px;
+    font-weight: 700;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    margin-bottom: 8px;
+}
+
+.card-sm-title {
+    font-family: 'Playfair Display', Georgia, serif;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 1.3;
+    color: var(--text-primary);
+}
+
+/* ─── SUPPLY CHAIN WIRE ─── */
+.wire-section {
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 0 24px 56px;
+}
+
+.wire-list {
+    list-style: none;
+}
+
+.wire-item {
+    display: flex;
+    align-items: baseline;
+    gap: 16px;
+    padding: 16px 0;
+    border-bottom: 1px solid #ece8e4;
+}
+
+.wire-item:last-child {
+    border-bottom: none;
+}
+
+.wire-category {
+    font-size: 10px;
+    font-weight: 700;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    white-space: nowrap;
+    min-width: 120px;
+}
+
+.wire-title {
+    font-family: 'Playfair Display', Georgia, serif;
+    font-size: 17px;
+    font-weight: 600;
+    line-height: 1.35;
+    color: var(--text-primary);
+    flex: 1;
+}
+
+.wire-time {
+    font-size: 12px;
+    color: var(--text-light);
+    white-space: nowrap;
+    font-weight: 500;
+}
+
+.wire-dot {
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    flex-shrink: 0;
+    margin-top: 2px;
+}
+
+/* ─── FOOTER ─── */
+.footer {
+    background: var(--bg-dark);
+    color: rgba(255, 255, 255, 0.7);
+    padding: 48px 24px 40px;
+}
+
+.footer-inner {
+    max-width: 1280px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.footer-brand {
+    font-family: 'Playfair Display', Georgia, serif;
+    font-size: 22px;
+    font-weight: 700;
+    color: #fff;
+    margin-bottom: 6px;
+}
+
+.footer-brand span {
+    color: var(--terracotta);
+}
+
+.footer-tagline {
+    font-size: 12px;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: rgba(255,255,255,0.45);
+    margin-bottom: 28px;
+}
+
+.footer-links {
+    display: flex;
+    justify-content: center;
+    gap: 32px;
+    margin-bottom: 28px;
+}
+
+.footer-links a {
+    text-decoration: none;
+    font-size: 13px;
+    font-weight: 500;
+    color: rgba(255, 255, 255, 0.6);
+    transition: color 0.2s ease;
+}
+
+.footer-links a:hover {
+    color: #fff;
+}
+
+.footer-divider {
+    width: 60px;
+    height: 1px;
+    background: rgba(255,255,255,0.15);
+    margin: 0 auto 20px;
+}
+
+.footer-copy {
+    font-size: 12px;
+    color: rgba(255,255,255,0.35);
+}
+
+.footer-copy a {
+    color: rgba(255,255,255,0.5);
+    text-decoration: none;
+}
+
+.footer-copy a:hover {
+    color: rgba(255,255,255,0.8);
+}
+
+/* ─── RESPONSIVE ─── */
+@media (max-width: 1024px) {
+    .featured-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .secondary-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .hero-title {
+        font-size: 32px;
+    }
+}
+
+@media (max-width: 768px) {
+    .masthead {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 12px;
+        padding: 20px 16px 16px;
+    }
+    .masthead-date {
+        text-align: left;
+    }
+    .masthead-text h1 {
+        font-size: 26px;
+    }
+    .masthead-logo {
+        width: 56px;
+        height: 56px;
+    }
+    .hero {
+        height: 400px;
+    }
+    .hero-content {
+        padding: 40px 24px 32px;
+    }
+    .hero-title {
+        font-size: 26px;
+    }
+    .hero-desc {
+        font-size: 15px;
+    }
+    .featured-grid,
+    .secondary-grid {
+        grid-template-columns: 1fr;
+        padding: 0 16px 32px;
+    }
+    .section-heading {
+        padding: 36px 16px 16px;
+    }
+    .wire-section {
+        padding: 0 16px 40px;
+    }
+    .wire-item {
+        flex-wrap: wrap;
+        gap: 8px;
+    }
+    .wire-category {
+        min-width: auto;
+    }
+    .cross-nav-inner {
+        gap: 24px;
+        padding: 0 16px;
+    }
+    .section-nav-inner {
+        padding: 0 16px;
+    }
+}
+
+@media (max-width: 480px) {
+    .cross-nav-inner {
+        gap: 16px;
+    }
+    .cross-nav a {
+        font-size: 11.5px;
+    }
+    .hero {
+        height: 340px;
+    }
+    .hero-title {
+        font-size: 22px;
+    }
+}
+</style>
+</head>
+<body>
+
+<!-- ═══════════════ CROSS-MAGAZINE NAV ═══════════════ -->
+<nav class="cross-nav">
+    <div class="cross-nav-inner">
+        <a href="../retail-gazette/index.html" class="nav-gazette">Retail Gazette</a>
+        <span class="cross-nav-divider"></span>
+        <a href="../retail-marketing/index.html" class="nav-marketing">Retail Marketing</a>
+        <span class="cross-nav-divider"></span>
+        <a href="../retail-packaging/index.html" class="nav-packaging">Retail Packaging</a>
+    </div>
+</nav>
+
+<!-- ═══════════════ SECTION NAV ═══════════════ -->
+<nav class="section-nav">
+    <div class="section-nav-inner">
+        <a href="#">Retail Packaging</a>
+        <a href="#">Sustainable Packaging</a>
+        <a href="#">Packaging Regulation</a>
+        <a href="#">Packaging Innovation</a>
+        <a href="#">Smart Packaging</a>
+        <a href="#">Ecommerce Packaging</a>
+        <a href="#">Food &amp; Grocery Packaging</a>
+        <a href="#">Packaging Machinery</a>
+        <a href="#">Reuse &amp; Refill</a>
+        <a href="#">Packaging Supply Chains</a>
+        <a href="#">Packaging Design</a>
+    </div>
+</nav>
+
+<!-- ═══════════════ MASTHEAD ═══════════════ -->
+<header class="masthead">
+    <div class="masthead-left">
+        <img src="../assets/logo-packaging.png" alt="Retail Packaging" class="masthead-logo">
+        <div class="masthead-text">
+            <h1>Retail <span>Packaging</span></h1>
+            <p class="masthead-tagline">Business Intelligence for Retail Leaders</p>
+        </div>
+    </div>
+    <div class="masthead-date">
+        <strong>Wednesday 5 March 2026</strong>
+        Edition 001
+    </div>
+</header>
+
+<!-- ═══════════════ HERO ═══════════════ -->
+<section class="hero">
+    <img
+        src="https://assets.makes.news/p/69a941772e7f574afa5f9d65/smart-packaging/2026/03/05/avery-dennisons-new-nfc-inlay-integrates-pragmatics-flexible-chip-for-mass-market-smart-packaging/image_9828938.jpg"
+        alt="Avery Dennison NFC inlay with Pragmatic flexible chip"
+        class="hero-image"
+    >
+    <div class="hero-overlay"></div>
+    <div class="hero-content">
+        <span class="hero-category">Smart Packaging</span>
+        <h2 class="hero-title">Avery Dennison's new NFC inlay integrates Pragmatic's flexible chip for mass-market smart packaging</h2>
+        <p class="hero-desc">Partnership enables ultra-thin, sustainable NFC chips for mass-market item-level authentication and consumer engagement.</p>
+    </div>
+</section>
+
+<!-- ═══════════════ FEATURED STORIES ═══════════════ -->
+<div class="section-heading">
+    <h2>Featured Stories</h2>
+    <div class="section-heading-line"></div>
+</div>
+
+<div class="featured-grid">
+
+    <!-- Card 1 -->
+    <article class="card" data-cat="packaging-design">
+        <div class="card-image-wrap">
+            <img src="https://assets.makes.news/p/69a941772e7f574afa5f9d65/packaging-design/2026/03/05/scandinavian-tobacco-group-uk-rebrands-xqs-nicotine-pouches-to-boost-retail-visibility-and-consumer-choice/image_8255803.jpg" alt="XQS nicotine pouches rebrand">
+        </div>
+        <div class="card-body">
+            <span class="card-category" style="color: var(--cat-packaging-design);">Packaging Design</span>
+            <h3 class="card-title">Scandinavian Tobacco Group UK rebrands XQS nicotine pouches to boost retail visibility</h3>
+            <p class="card-desc">STG unveils bold new XQS packaging with enhanced flavour communication to strengthen market position.</p>
+        </div>
+    </article>
+
+    <!-- Card 2 -->
+    <article class="card" data-cat="packaging-design">
+        <div class="card-image-wrap">
+            <img src="https://assets.makes.news/p/69a941772e7f574afa5f9d65/packaging-design/2026/03/05/jti-uk-rebrands-nordic-spirit-nicotine-pouches-with-bold-packaging-and-clearer-info-to-enhance-adult-consumer-choices/image_7004856.jpg" alt="Nordic Spirit nicotine pouches rebrand">
+        </div>
+        <div class="card-body">
+            <span class="card-category" style="color: var(--cat-packaging-design);">Packaging Design</span>
+            <h3 class="card-title">JTI UK rebrands Nordic Spirit nicotine pouches with bold packaging and clearer info</h3>
+            <p class="card-desc">Japan Tobacco International's UK arm rolls out comprehensive redesign of Nordic Spirit nicotine pouches.</p>
+        </div>
+    </article>
+
+    <!-- Card 3 -->
+    <article class="card" data-cat="packaging-design">
+        <div class="card-image-wrap">
+            <img src="https://assets.makes.news/p/69a941772e7f574afa5f9d65/packaging-design/2026/03/05/innovative-materials-and-transparency-redefine-sustainable-packaging-in-a-fast-evolving-sector/image_4765620.jpg" alt="Sustainable packaging materials innovation">
+        </div>
+        <div class="card-body">
+            <span class="card-category" style="color: var(--cat-packaging-design);">Packaging Design</span>
+            <h3 class="card-title">Innovative materials and transparency redefine sustainable packaging</h3>
+            <p class="card-desc">Industry shifts toward circularity through materials innovation, consumer demand verification, and regulatory compliance.</p>
+        </div>
+    </article>
+
+</div>
+
+<!-- ═══════════════ SECONDARY GRID ═══════════════ -->
+<div class="secondary-section">
+
+    <div class="section-heading">
+        <h2>Latest Coverage</h2>
+        <div class="section-heading-line"></div>
+    </div>
+
+    <div class="secondary-grid">
+
+        <!-- SM Card 1 -->
+        <article class="card-sm" data-cat="reuse-refill">
+            <div class="card-sm-image-wrap">
+                <img src="https://assets.makes.news/p/69a941772e7f574afa5f9d65/reuse-refill/2026/03/05/independent-retailers-weigh-cost-and-convenience-as-uk-prepares-for-deposit-return-scheme/image_1693875.jpg" alt="UK deposit return scheme">
+            </div>
+            <div class="card-sm-body">
+                <span class="card-sm-category" style="color: var(--cat-reuse-refill);">Reuse &amp; Refill</span>
+                <h3 class="card-sm-title">Independent retailers weigh cost and convenience as UK prepares for deposit return scheme</h3>
+            </div>
+        </article>
+
+        <!-- SM Card 2 -->
+        <article class="card-sm" data-cat="packaging-machinery">
+            <div class="card-sm-image-wrap">
+                <img src="https://assets.makes.news/p/69a941772e7f574afa5f9d65/packaging-machinery/2026/03/05/autopack-showcases-rapid-growth-as-automation-demand-accelerates-at-packaging-innovations-empack/image_5331033.jpg" alt="Autopack automation growth">
+            </div>
+            <div class="card-sm-body">
+                <span class="card-sm-category" style="color: var(--cat-packaging-machinery);">Packaging Machinery</span>
+                <h3 class="card-sm-title">Autopack showcases rapid growth as automation demand accelerates</h3>
+            </div>
+        </article>
+
+        <!-- SM Card 3 -->
+        <article class="card-sm" data-cat="packaging-machinery">
+            <div class="card-sm-image-wrap">
+                <img src="https://assets.makes.news/p/69a941772e7f574afa5f9d65/packaging-machinery/2026/03/05/cama-groups-industry-5-0-upgrades-focus-on-human-centric-data-driven-packaging-innovations/image_8609217.jpg" alt="Cama Group Industry 5.0">
+            </div>
+            <div class="card-sm-body">
+                <span class="card-sm-category" style="color: var(--cat-packaging-machinery);">Packaging Machinery</span>
+                <h3 class="card-sm-title">Cama Group's Industry 5.0 upgrades focus on human-centric innovations</h3>
+            </div>
+        </article>
+
+        <!-- SM Card 4 -->
+        <article class="card-sm" data-cat="reuse-refill">
+            <div class="card-sm-image-wrap">
+                <img src="https://assets.makes.news/p/69a941772e7f574afa5f9d65/reuse-refill/2026/03/05/european-packaging-strategies-shift-as-plastics-market-faces-regulatory-and-environmental-upheaval/image_6097333.jpg" alt="European packaging strategies">
+            </div>
+            <div class="card-sm-body">
+                <span class="card-sm-category" style="color: var(--cat-reuse-refill);">Reuse &amp; Refill</span>
+                <h3 class="card-sm-title">European packaging strategies shift as plastics market faces upheaval</h3>
+            </div>
+        </article>
+
+        <!-- SM Card 5 -->
+        <article class="card-sm" data-cat="reuse-refill">
+            <div class="card-sm-image-wrap">
+                <img src="https://assets.makes.news/p/69a941772e7f574afa5f9d65/reuse-refill/2026/03/05/exchange-for-change-sets-strict-logo-standards-as-uk-deposit-return-scheme-nears-launch/image_5506005.jpg" alt="UK DRS logo standards">
+            </div>
+            <div class="card-sm-body">
+                <span class="card-sm-category" style="color: var(--cat-reuse-refill);">Reuse &amp; Refill</span>
+                <h3 class="card-sm-title">Exchange for Change sets strict logo standards as UK deposit return scheme nears</h3>
+            </div>
+        </article>
+
+        <!-- SM Card 6 -->
+        <article class="card-sm" data-cat="packaging-machinery">
+            <div class="card-sm-image-wrap">
+                <img src="https://assets.makes.news/p/69a941772e7f574afa5f9d65/packaging-machinery/2026/03/05/birds-eye-adopts-custom-high-speed-cartoning-line-from-bradman-lake-to-meet-rising-frozen-food-demand/image_8358866.jpg" alt="Birds Eye cartoning line">
+            </div>
+            <div class="card-sm-body">
+                <span class="card-sm-category" style="color: var(--cat-packaging-machinery);">Packaging Machinery</span>
+                <h3 class="card-sm-title">Birds Eye adopts custom high-speed cartoning line from Bradman Lake</h3>
+            </div>
+        </article>
+
+    </div>
+</div>
+
+<!-- ═══════════════ SUPPLY CHAIN WIRE ═══════════════ -->
+<div class="section-heading">
+    <h2>Supply Chain Wire</h2>
+    <div class="section-heading-line"></div>
+</div>
+
+<div class="wire-section">
+    <ul class="wire-list">
+
+        <li class="wire-item">
+            <span class="wire-dot" style="background: var(--cat-supply-chains);"></span>
+            <span class="wire-category" style="color: var(--cat-supply-chains);">Supply Chains</span>
+            <span class="wire-title">Red Sea and Panama Canal disruptions reconfigure global shipping strategies</span>
+            <span class="wire-time">13 min ago</span>
+        </li>
+
+        <li class="wire-item">
+            <span class="wire-dot" style="background: var(--cat-supply-chains);"></span>
+            <span class="wire-category" style="color: var(--cat-supply-chains);">Supply Chains</span>
+            <span class="wire-title">Regional upheaval triggers polyurethane supply chain disruption</span>
+            <span class="wire-time">13 min ago</span>
+        </li>
+
+        <li class="wire-item">
+            <span class="wire-dot" style="background: var(--cat-food-grocery);"></span>
+            <span class="wire-category" style="color: var(--cat-food-grocery);">Food &amp; Grocery</span>
+            <span class="wire-title">KluraLabs secures &pound;8 million funding for sustainable food packaging</span>
+            <span class="wire-time">13 min ago</span>
+        </li>
+
+    </ul>
+</div>
+
+<!-- ═══════════════ FOOTER ═══════════════ -->
+<footer class="footer">
+    <div class="footer-inner">
+        <p class="footer-brand">Retail <span>Packaging</span></p>
+        <p class="footer-tagline">Business Intelligence for Retail Leaders</p>
+        <div class="footer-links">
+            <a href="../retail-gazette/index.html">Retail Gazette</a>
+            <a href="../retail-marketing/index.html">Retail Marketing</a>
+            <a href="../retail-packaging/index.html">Retail Packaging</a>
+        </div>
+        <div class="footer-divider"></div>
+        <p class="footer-copy">&copy; 2026 Retail Packaging. All rights reserved. Powered by <a href="#">Noah Wire</a>.</p>
+    </div>
+</footer>
+
+</body>
+</html>
