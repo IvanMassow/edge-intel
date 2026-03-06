@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-03-06T20:32:51Z",
+  "generated_at": "2026-03-06T21:10:20Z",
   "total_signals": 203,
   "signals": [
     {
@@ -1260,7 +1260,7 @@
       "status": "OPEN",
       "state": "ACTIVE",
       "thesis_status": "weakening",
-      "signal_velocity": "propagating"
+      "signal_velocity": "mainstream"
     },
     {
       "signal_id": "NE-HF-0075",
@@ -1288,7 +1288,7 @@
       "ticker": "AUROPHARMA.BSE",
       "asset_type": "equity",
       "direction": "LONG",
-      "conviction": 2,
+      "conviction": 1,
       "confidence": 69.0,
       "band": "A",
       "entry_price": null,
