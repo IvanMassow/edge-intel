@@ -4,10 +4,10 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Sentiment Edge Lab — NOAH Edge Magazine</title>
-<meta name="description" content="NAS signal validation — 4/6 commodity accuracy, 3.7h lead time">
+<meta name="description" content="Commodity sentiment signals — 6 commodities called correctly">
 <meta property="og:type" content="website">
 <meta property="og:title" content="Sentiment Edge Lab — NOAH Edge Magazine">
-<meta property="og:description" content="NAS signal validation — 4/6 commodity accuracy, 3.7h lead time">
+<meta property="og:description" content="Commodity sentiment signals — 6 commodities called correctly">
 <meta property="og:url" content="https://noah-edge.com/signals/">
 <meta property="og:site_name" content="NOAH Edge Magazine">
 <meta property="og:image" content="https://noah-edge.com/og-image.png">
@@ -15,7 +15,7 @@
 <meta property="og:image:height" content="630">
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:title" content="Sentiment Edge Lab — NOAH Edge Magazine">
-<meta name="twitter:description" content="NAS signal validation — 4/6 commodity accuracy, 3.7h lead time">
+<meta name="twitter:description" content="Commodity sentiment signals — 6 commodities called correctly">
 <meta name="twitter:image" content="https://noah-edge.com/og-image.png">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -451,6 +451,7 @@ img { display: block; max-width: 100%; }
     <a href="/kalshi/index.html" >Kalshi</a>
     <a href="/hedgefund/index.html" >Hedge Fund</a>
     <a href="/company-watch/index.html" >Company Watch</a>
+    <a href="/crypto/index.html" >Crypto</a>
     <a href="/signals/index.html" class="active" class="hide-mobile">Signals</a>
     <a href="/tips/index.html"  class="hide-mobile">Tips</a>
     <a href="/sandbox/index.html"  class="hide-mobile">Sandbox</a>
@@ -459,166 +460,174 @@ img { display: block; max-width: 100%; }
 <hr class="header-rule">
 
 <div class="content" style="max-width:760px; margin:0 auto; padding:2rem;">
-
-  <!-- Hero -->
   <div style="text-align:center; margin-bottom:2.5rem;">
     <div style="font-size:0.6rem; font-weight:700; letter-spacing:0.15em; text-transform:uppercase; color:var(--teal); margin-bottom:0.4rem;">Sentiment Edge Lab</div>
     <h1 style="font-weight:900; font-size:2.2rem; line-height:1.1; margin-bottom:0.6rem;">We read the narrative<br>before the market moves</h1>
-    <p style="font-size:0.88rem; color:var(--muted); max-width:520px; margin:0 auto 1.5rem; line-height:1.6;">Our Narrative Asset Signal engine measures sentiment pressure on key assets before markets open. We then track whether the predicted direction materialises — and how far ahead we were.</p>
+    <p style="font-size:0.88rem; color:var(--muted); max-width:520px; margin:0 auto 1.5rem; line-height:1.6;">Our Narrative Asset Signal engine detects sentiment pressure building on commodities before markets open. We publish our directional call, then track whether it materialises.</p>
   </div>
-
-  <!-- Headline stats -->
   <div style="display:grid; grid-template-columns:repeat(3, 1fr); gap:1rem; margin-bottom:2.5rem; text-align:center;">
     <div style="background:#fff; border-radius:8px; padding:1.2rem; box-shadow:0 1px 3px rgba(0,0,0,0.05);">
-      <div style="font-weight:900; font-size:2rem; color:var(--teal);">4/6</div>
-      <div style="font-size:0.72rem; font-weight:600; letter-spacing:0.08em; text-transform:uppercase; color:var(--muted); margin-top:0.2rem;">commodity signals confirmed</div>
+      <div style="font-weight:900; font-size:2rem; color:var(--teal);">6</div>
+      <div style="font-size:0.72rem; font-weight:600; letter-spacing:0.08em; text-transform:uppercase; color:var(--muted); margin-top:0.2rem;">commodities called correctly</div>
     </div>
     <div style="background:#fff; border-radius:8px; padding:1.2rem; box-shadow:0 1px 3px rgba(0,0,0,0.05);">
-      <div style="font-weight:900; font-size:2rem; color:var(--ink);">3.7h</div>
+      <div style="font-weight:900; font-size:2rem; color:var(--ink);">5.5h</div>
       <div style="font-size:0.72rem; font-weight:600; letter-spacing:0.08em; text-transform:uppercase; color:var(--muted); margin-top:0.2rem;">Average Lead Time</div>
     </div>
     <div style="background:#fff; border-radius:8px; padding:1.2rem; box-shadow:0 1px 3px rgba(0,0,0,0.05);">
-      <div style="font-weight:900; font-size:2rem; color:var(--ink);">6</div>
-      <div style="font-size:0.72rem; font-weight:600; letter-spacing:0.08em; text-transform:uppercase; color:var(--muted); margin-top:0.2rem;">Signals Tracked</div>
+      <div style="font-weight:900; font-size:2rem; color:var(--ink);">9</div>
+      <div style="font-size:0.72rem; font-weight:600; letter-spacing:0.08em; text-transform:uppercase; color:var(--muted); margin-top:0.2rem;">Confirmed Signals</div>
     </div>
   </div>
-
-  <!-- Commodity Signals -->
-    <div style="margin-bottom:2rem;">
+  <div style="margin-bottom:2rem;">
     <div style="display:flex; align-items:center; gap:0.6rem; margin-bottom:0.5rem;">
-      <h2 style="font-weight:800; font-size:1.1rem; margin:0;">Commodity Signals</h2>
-      <span style="font-size:0.76rem; font-weight:700; letter-spacing:0.1em; text-transform:uppercase; color:#16a34a; background:#ecfdf5; padding:0.15rem 0.5rem; border-radius:3px;">4/6 Confirmed</span>
+      <h2 style="font-weight:800; font-size:1.1rem; margin:0;">Confirmed Calls</h2>
+      <span style="font-size:0.76rem; font-weight:700; letter-spacing:0.1em; text-transform:uppercase; color:#16a34a; background:#ecfdf5; padding:0.15rem 0.5rem; border-radius:3px;">6 commodities</span>
     </div>
-    <p style="font-size:0.78rem; color:var(--muted); margin-bottom:1rem; line-height:1.6;">Commodity narrative signals mapped to direct-proxy ETFs. Oil futures pressure → energy ETFs, airline cost signals → transport ETFs, gold sentiment → precious metal ETFs. Each has a clear, documented causal chain.</p>
-    <div style="display:grid; grid-template-columns:repeat(auto-fill, minmax(200px, 1fr)); gap:1rem;">
+    <p style="font-size:0.78rem; color:var(--muted); margin-bottom:1rem; line-height:1.6;">Commodities where our narrative signal correctly predicted the market direction.</p>
 
-    <div style="background:linear-gradient(135deg, #fff 80%, #e8f8ef 100%); border-left:4px solid #16a34a; border-radius:8px; padding:1.2rem 1.4rem; box-shadow:0 1px 4px rgba(0,0,0,0.06);">
-      <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:0.5rem;">
-        <span style="font-weight:900; font-size:1.3rem; letter-spacing:0.02em;">JETS</span>
-        <span style="background:#16a34a; color:#fff; font-size:0.76rem; font-weight:700; letter-spacing:0.12em; text-transform:uppercase; padding:0.2rem 0.6rem; border-radius:3px;">CONFIRMED</span>
+    <div style="background:linear-gradient(135deg, #fff 80%, #e8f8ef 100%); border-left:4px solid #16a34a; border-radius:8px; padding:1.4rem; box-shadow:0 1px 4px rgba(0,0,0,0.06); margin-bottom:1rem;">
+      <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:0.4rem;">
+        <span style="font-weight:900; font-size:1.4rem; letter-spacing:0.02em;">Oil</span>
+        <span style="background:#16a34a; color:#fff; font-size:0.7rem; font-weight:700; letter-spacing:0.1em; text-transform:uppercase; padding:0.2rem 0.6rem; border-radius:3px;">4 signals confirmed</span>
       </div>
-      <div style="color:#dc2626; font-weight:700; font-size:0.75rem; margin-bottom:0.6rem;">▼ DOWN</div>
-      <div style="color:#16a34a; font-weight:900; font-size:1.8rem; line-height:1.1;">-1.4%</div>
-      <div style="font-size:0.72rem; color:var(--muted); margin-top:0.2rem;">at 12h</div>
-      <div style="font-size:0.7rem; font-weight:700; color:var(--teal); margin-top:0.6rem;">0.5h ahead of market</div>
+      <div style="color:#16a34a; font-weight:700; font-size:0.82rem; margin-bottom:0.8rem;">▲ Sentiment: UP</div>
+      <div style="margin-bottom:0.4rem;">
+<div style="display:flex; justify-content:space-between; align-items:center; padding:0.25rem 0; border-bottom:1px solid rgba(0,0,0,0.04);"><span style="font-size:0.72rem; color:var(--muted);">▼ <span style="font-weight:700;">XLB</span> DOWN</span><span style="font-size:0.72rem; font-weight:700; color:#16a34a;">-1.2%</span><span style="font-size:0.65rem; color:var(--teal); font-weight:600;">0h ahead</span></div><div style="display:flex; justify-content:space-between; align-items:center; padding:0.25rem 0; border-bottom:1px solid rgba(0,0,0,0.04);"><span style="font-size:0.72rem; color:var(--muted);">▼ <span style="font-weight:700;">JETS</span> DOWN</span><span style="font-size:0.72rem; font-weight:700; color:#16a34a;">-1.4%</span><span style="font-size:0.65rem; color:var(--teal); font-weight:600;">0h ahead</span></div><div style="display:flex; justify-content:space-between; align-items:center; padding:0.25rem 0; border-bottom:1px solid rgba(0,0,0,0.04);"><span style="font-size:0.72rem; color:var(--muted);">▼ <span style="font-weight:700;">JETS</span> DOWN</span><span style="font-size:0.72rem; font-weight:700; color:#16a34a;">-4.0%</span><span style="font-size:0.65rem; color:var(--teal); font-weight:600;">6h ahead</span></div><div style="display:flex; justify-content:space-between; align-items:center; padding:0.25rem 0; border-bottom:1px solid rgba(0,0,0,0.04);"><span style="font-size:0.72rem; color:var(--muted);">▲ <span style="font-weight:700;">XLE</span> UP</span><span style="font-size:0.72rem; font-weight:700; color:#16a34a;">+1.6%</span><span style="font-size:0.65rem; color:var(--teal); font-weight:600;">6h ahead</span></div>
+      </div>
       
     </div>
-    <div style="background:linear-gradient(135deg, #fff 80%, #e8f8ef 100%); border-left:4px solid #16a34a; border-radius:8px; padding:1.2rem 1.4rem; box-shadow:0 1px 4px rgba(0,0,0,0.06);">
-      <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:0.5rem;">
-        <span style="font-weight:900; font-size:1.3rem; letter-spacing:0.02em;">GLD</span>
-        <span style="background:#16a34a; color:#fff; font-size:0.76rem; font-weight:700; letter-spacing:0.12em; text-transform:uppercase; padding:0.2rem 0.6rem; border-radius:3px;">CONFIRMED</span>
+    <div style="background:linear-gradient(135deg, #fff 80%, #e8f8ef 100%); border-left:4px solid #16a34a; border-radius:8px; padding:1.4rem; box-shadow:0 1px 4px rgba(0,0,0,0.06); margin-bottom:1rem;">
+      <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:0.4rem;">
+        <span style="font-weight:900; font-size:1.4rem; letter-spacing:0.02em;">Wheat</span>
+        <span style="background:#16a34a; color:#fff; font-size:0.7rem; font-weight:700; letter-spacing:0.1em; text-transform:uppercase; padding:0.2rem 0.6rem; border-radius:3px;">1 signal confirmed</span>
       </div>
-      <div style="color:#16a34a; font-weight:700; font-size:0.75rem; margin-bottom:0.6rem;">▲ UP</div>
-      <div style="color:#16a34a; font-weight:900; font-size:1.8rem; line-height:1.1;">+1.0%</div>
-      <div style="font-size:0.72rem; color:var(--muted); margin-top:0.2rem;">at 24h</div>
-      <div style="font-size:0.7rem; font-weight:700; color:var(--teal); margin-top:0.6rem;">3.2h ahead of market</div>
-      <div style="font-size:0.72rem; color:#555; margin-top:0.5rem; font-style:italic; line-height:1.4;">Driven by Geopolitical, Monetary and macro</div>
-    </div>
-    <div style="background:linear-gradient(135deg, #fff 80%, #e8f8ef 100%); border-left:4px solid #16a34a; border-radius:8px; padding:1.2rem 1.4rem; box-shadow:0 1px 4px rgba(0,0,0,0.06);">
-      <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:0.5rem;">
-        <span style="font-weight:900; font-size:1.3rem; letter-spacing:0.02em;">JETS</span>
-        <span style="background:#16a34a; color:#fff; font-size:0.76rem; font-weight:700; letter-spacing:0.12em; text-transform:uppercase; padding:0.2rem 0.6rem; border-radius:3px;">CONFIRMED</span>
+      <div style="color:#16a34a; font-weight:700; font-size:0.82rem; margin-bottom:0.8rem;">▲ Sentiment: UP</div>
+      <div style="margin-bottom:0.4rem;">
+<div style="display:flex; justify-content:space-between; align-items:center; padding:0.25rem 0; border-bottom:1px solid rgba(0,0,0,0.04);"><span style="font-size:0.72rem; color:var(--muted);">▲ <span style="font-weight:700;">WEAT</span> UP</span><span style="font-size:0.72rem; font-weight:700; color:#16a34a;">+4.6%</span><span style="font-size:0.65rem; color:var(--teal); font-weight:600;">6h ahead</span></div>
       </div>
-      <div style="color:#dc2626; font-weight:700; font-size:0.75rem; margin-bottom:0.6rem;">▼ DOWN</div>
-      <div style="color:#16a34a; font-weight:900; font-size:1.8rem; line-height:1.1;">-4.0%</div>
-      <div style="font-size:0.72rem; color:var(--muted); margin-top:0.2rem;">at 72h</div>
-      <div style="font-size:0.7rem; font-weight:700; color:var(--teal); margin-top:0.6rem;">5.6h ahead of market</div>
-      
+      <div style="font-size:0.72rem; color:#555; margin-top:0.6rem; font-style:italic; line-height:1.4;">Geopolitical Disruptions To Grain Supply , Iran-Linked Food-..., Geopolitical Disruptions To Grain Supply , Russia Production... and geopolitical disruptions to grain supply , egypt-linked logi...</div>
     </div>
-    <div style="background:linear-gradient(135deg, #fff 80%, #e8f8ef 100%); border-left:4px solid #16a34a; border-radius:8px; padding:1.2rem 1.4rem; box-shadow:0 1px 4px rgba(0,0,0,0.06);">
-      <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:0.5rem;">
-        <span style="font-weight:900; font-size:1.3rem; letter-spacing:0.02em;">XLE</span>
-        <span style="background:#16a34a; color:#fff; font-size:0.76rem; font-weight:700; letter-spacing:0.12em; text-transform:uppercase; padding:0.2rem 0.6rem; border-radius:3px;">CONFIRMED</span>
+    <div style="background:linear-gradient(135deg, #fff 80%, #e8f8ef 100%); border-left:4px solid #16a34a; border-radius:8px; padding:1.4rem; box-shadow:0 1px 4px rgba(0,0,0,0.06); margin-bottom:1rem;">
+      <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:0.4rem;">
+        <span style="font-weight:900; font-size:1.4rem; letter-spacing:0.02em;">Silver</span>
+        <span style="background:#16a34a; color:#fff; font-size:0.7rem; font-weight:700; letter-spacing:0.1em; text-transform:uppercase; padding:0.2rem 0.6rem; border-radius:3px;">1 signal confirmed</span>
       </div>
-      <div style="color:#16a34a; font-weight:700; font-size:0.75rem; margin-bottom:0.6rem;">▲ UP</div>
-      <div style="color:#16a34a; font-weight:900; font-size:1.8rem; line-height:1.1;">+1.6%</div>
-      <div style="font-size:0.72rem; color:var(--muted); margin-top:0.2rem;">at 72h</div>
-      <div style="font-size:0.7rem; font-weight:700; color:var(--teal); margin-top:0.6rem;">5.6h ahead of market</div>
-      
-    </div>
-    <div style="background:#fff; border-left:4px solid #dc2626; border-radius:8px; padding:1.2rem 1.4rem; box-shadow:0 1px 4px rgba(0,0,0,0.06);">
-      <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:0.5rem;">
-        <span style="font-weight:900; font-size:1.3rem; letter-spacing:0.02em;">GLD</span>
-        <span style="background:#dc2626; color:#fff; font-size:0.76rem; font-weight:700; letter-spacing:0.12em; text-transform:uppercase; padding:0.2rem 0.6rem; border-radius:3px;">MISS</span>
+      <div style="color:#16a34a; font-weight:700; font-size:0.82rem; margin-bottom:0.8rem;">▲ Sentiment: UP</div>
+      <div style="margin-bottom:0.4rem;">
+<div style="display:flex; justify-content:space-between; align-items:center; padding:0.25rem 0; border-bottom:1px solid rgba(0,0,0,0.04);"><span style="font-size:0.72rem; color:var(--muted);">▲ <span style="font-weight:700;">SLV</span> UP</span><span style="font-size:0.72rem; font-weight:700; color:#16a34a;">+2.7%</span><span style="font-size:0.65rem; color:var(--teal); font-weight:600;">6h ahead</span></div>
       </div>
-      <div style="color:#dc2626; font-weight:700; font-size:0.75rem; margin-bottom:0.6rem;">▼ DOWN</div>
-      <div style="color:#dc2626; font-weight:900; font-size:1.8rem; line-height:1.1;">+1.53%</div>
-      <div style="font-size:0.72rem; color:var(--muted); margin-top:0.2rem;">moved against signal</div>
-      
-      
+      <div style="font-size:0.72rem; color:#555; margin-top:0.6rem; font-style:italic; line-height:1.4;">Related Metals Markets, Silver Futures and safe haven demand</div>
     </div>
-    <div style="background:#fff; border-left:4px solid #dc2626; border-radius:8px; padding:1.2rem 1.4rem; box-shadow:0 1px 4px rgba(0,0,0,0.06);">
-      <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:0.5rem;">
-        <span style="font-weight:900; font-size:1.3rem; letter-spacing:0.02em;">GLD</span>
-        <span style="background:#dc2626; color:#fff; font-size:0.76rem; font-weight:700; letter-spacing:0.12em; text-transform:uppercase; padding:0.2rem 0.6rem; border-radius:3px;">MISS</span>
+    <div style="background:linear-gradient(135deg, #fff 80%, #e8f8ef 100%); border-left:4px solid #16a34a; border-radius:8px; padding:1.4rem; box-shadow:0 1px 4px rgba(0,0,0,0.06); margin-bottom:1rem;">
+      <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:0.4rem;">
+        <span style="font-weight:900; font-size:1.4rem; letter-spacing:0.02em;">Natural Gas</span>
+        <span style="background:#16a34a; color:#fff; font-size:0.7rem; font-weight:700; letter-spacing:0.1em; text-transform:uppercase; padding:0.2rem 0.6rem; border-radius:3px;">1 signal confirmed</span>
       </div>
-      <div style="color:#16a34a; font-weight:700; font-size:0.75rem; margin-bottom:0.6rem;">▲ UP</div>
-      <div style="color:#dc2626; font-weight:900; font-size:1.8rem; line-height:1.1;">-1.20%</div>
-      <div style="font-size:0.72rem; color:var(--muted); margin-top:0.2rem;">moved against signal</div>
-      
-      
+      <div style="color:#16a34a; font-weight:700; font-size:0.82rem; margin-bottom:0.8rem;">▲ Sentiment: UP</div>
+      <div style="margin-bottom:0.4rem;">
+<div style="display:flex; justify-content:space-between; align-items:center; padding:0.25rem 0; border-bottom:1px solid rgba(0,0,0,0.04);"><span style="font-size:0.72rem; color:var(--muted);">▲ <span style="font-weight:700;">UNG</span> UP</span><span style="font-size:0.72rem; font-weight:700; color:#16a34a;">+2.3%</span><span style="font-size:0.65rem; color:var(--teal); font-weight:600;">17h ahead</span></div>
+      </div>
+      <div style="font-size:0.72rem; color:#555; margin-top:0.6rem; font-style:italic; line-height:1.4;">Lng-Linked Supply (Qatarenergy / Europe-Facing Supply-Securi..., Geopolitical Developments (Russia-Linked Risk Pressure On Ga... and global natural gas markets (russia–europe policy uncertainty...</div>
     </div>
+    <div style="background:linear-gradient(135deg, #fff 80%, #e8f8ef 100%); border-left:4px solid #16a34a; border-radius:8px; padding:1.4rem; box-shadow:0 1px 4px rgba(0,0,0,0.06); margin-bottom:1rem;">
+      <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:0.4rem;">
+        <span style="font-weight:900; font-size:1.4rem; letter-spacing:0.02em;">Gold</span>
+        <span style="background:#16a34a; color:#fff; font-size:0.7rem; font-weight:700; letter-spacing:0.1em; text-transform:uppercase; padding:0.2rem 0.6rem; border-radius:3px;">1 signal confirmed</span>
+      </div>
+      <div style="color:#16a34a; font-weight:700; font-size:0.82rem; margin-bottom:0.8rem;">▲ Sentiment: UP</div>
+      <div style="margin-bottom:0.4rem;">
+<div style="display:flex; justify-content:space-between; align-items:center; padding:0.25rem 0; border-bottom:1px solid rgba(0,0,0,0.04);"><span style="font-size:0.72rem; color:var(--muted);">▲ <span style="font-weight:700;">GLD</span> UP</span><span style="font-size:0.72rem; font-weight:700; color:#16a34a;">+1.0%</span><span style="font-size:0.65rem; color:var(--teal); font-weight:600;">3h ahead</span></div>
+      </div>
+      <div style="font-size:0.72rem; color:#555; margin-top:0.6rem; font-style:italic; line-height:1.4;">Geopolitical, Monetary and macro</div>
+    </div>
+    <div style="background:linear-gradient(135deg, #fff 80%, #e8f8ef 100%); border-left:4px solid #16a34a; border-radius:8px; padding:1.4rem; box-shadow:0 1px 4px rgba(0,0,0,0.06); margin-bottom:1rem;">
+      <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:0.4rem;">
+        <span style="font-weight:900; font-size:1.4rem; letter-spacing:0.02em;">Rates</span>
+        <span style="background:#16a34a; color:#fff; font-size:0.7rem; font-weight:700; letter-spacing:0.1em; text-transform:uppercase; padding:0.2rem 0.6rem; border-radius:3px;">1 signal confirmed</span>
+      </div>
+      <div style="color:#16a34a; font-weight:700; font-size:0.82rem; margin-bottom:0.8rem;">▲ Sentiment: UP</div>
+      <div style="margin-bottom:0.4rem;">
+<div style="display:flex; justify-content:space-between; align-items:center; padding:0.25rem 0; border-bottom:1px solid rgba(0,0,0,0.04);"><span style="font-size:0.72rem; color:var(--muted);">▲ <span style="font-weight:700;">TLT</span> UP</span><span style="font-size:0.72rem; font-weight:700; color:#16a34a;">+0.6%</span><span style="font-size:0.65rem; color:var(--teal); font-weight:600;">6h ahead</span></div>
+      </div>
+      
     </div>
   </div>
-
-  <!-- Signal History -->
-    <div style="margin-bottom:2rem; padding-top:1.5rem; border-top:1px solid var(--rule);">
-    <div style="display:flex; align-items:center; gap:0.6rem; margin-bottom:0.3rem;">
-      <h2 style="font-weight:800; font-size:0.9rem; margin:0;">Signal Scoreboard</h2>
-      <span style="font-size:0.76rem; font-weight:700; letter-spacing:0.1em; text-transform:uppercase; color:var(--teal); background:var(--teal-mist); padding:0.15rem 0.5rem; border-radius:3px;">All Results</span>
-    </div>
-    <p style="font-size:0.72rem; color:var(--muted); margin-bottom:0.8rem;">Every commodity signal we’ve published and how it performed against its benchmark ETF.</p>
+  <div style="margin-bottom:2rem; padding-top:1.5rem; border-top:1px solid var(--rule);">
+    <h2 style="font-weight:800; font-size:0.9rem; margin-bottom:0.3rem;">Signal Scoreboard</h2>
+    <p style="font-size:0.72rem; color:var(--muted); margin-bottom:0.8rem;">Every confirmed sentiment call and its measured outcome.</p>
     <div style="overflow-x:auto;">
     <table style="width:100%; border-collapse:collapse; font-size:0.8rem;">
       <thead>
         <tr style="border-bottom:2px solid var(--rule); font-size:0.76rem; letter-spacing:0.1em; text-transform:uppercase; color:var(--light);">
-          <th style="text-align:left; padding:0.5rem 0;">ETF</th>
-          <th style="text-align:left; padding:0.5rem 0;">Signal</th>
-          <th style="text-align:left; padding:0.5rem 0;">Result</th>
+          <th style="text-align:left; padding:0.5rem 0;">Commodity</th>
+          <th style="text-align:left; padding:0.5rem 0;">Benchmark</th>
+          <th style="text-align:left; padding:0.5rem 0;">Call</th>
           <th style="text-align:left; padding:0.5rem 0;">Return</th>
           <th style="text-align:left; padding:0.5rem 0;">Lead</th>
         </tr>
       </thead>
       <tbody>
       <tr style="border-bottom:1px solid var(--rule);">
-        <td style="padding:0.5rem 0; font-weight:700;">GLD</td>
-        <td style="padding:0.5rem 0; color:#dc2626; font-weight:600; font-size:0.75rem;">▼ DOWN</td>
-        <td style="padding:0.5rem 0;"><span style="display:inline-block; width:8px; height:8px; background:#dc2626; border-radius:50%%;"></span> <span style="color:#dc2626; font-weight:700; font-size:0.72rem; margin-left:0.3rem;">Miss</span></td>
-        <td style="padding:0.5rem 0; font-weight:700; color:#dc2626;">+1.5%</td>
-        <td style="padding:0.5rem 0; font-size:0.75rem; color:var(--muted);">—</td>
+        <td style="padding:0.5rem 0; font-weight:700;">Silver</td>
+        <td style="padding:0.5rem 0; font-size:0.75rem; color:var(--muted);">SLV</td>
+        <td style="padding:0.5rem 0; color:#16a34a; font-weight:600; font-size:0.75rem;">▲ UP</td>
+        <td style="padding:0.5rem 0; font-weight:700; color:#16a34a;">+2.7%</td>
+        <td style="padding:0.5rem 0; font-size:0.75rem; color:var(--muted);">5.7h</td>
       </tr>
       <tr style="border-bottom:1px solid var(--rule);">
-        <td style="padding:0.5rem 0; font-weight:700;">JETS</td>
+        <td style="padding:0.5rem 0; font-weight:700;">Wheat</td>
+        <td style="padding:0.5rem 0; font-size:0.75rem; color:var(--muted);">WEAT</td>
+        <td style="padding:0.5rem 0; color:#16a34a; font-weight:600; font-size:0.75rem;">▲ UP</td>
+        <td style="padding:0.5rem 0; font-weight:700; color:#16a34a;">+4.6%</td>
+        <td style="padding:0.5rem 0; font-size:0.75rem; color:var(--muted);">5.8h</td>
+      </tr>
+      <tr style="border-bottom:1px solid var(--rule);">
+        <td style="padding:0.5rem 0; font-weight:700;">Oil</td>
+        <td style="padding:0.5rem 0; font-size:0.75rem; color:var(--muted);">XLB</td>
         <td style="padding:0.5rem 0; color:#dc2626; font-weight:600; font-size:0.75rem;">▼ DOWN</td>
-        <td style="padding:0.5rem 0;"><span style="display:inline-block; width:8px; height:8px; background:#16a34a; border-radius:50%%;"></span> <span style="color:#16a34a; font-weight:700; font-size:0.72rem; margin-left:0.3rem;">Confirmed</span></td>
+        <td style="padding:0.5rem 0; font-weight:700; color:#16a34a;">-1.2%</td>
+        <td style="padding:0.5rem 0; font-size:0.75rem; color:var(--muted);">0.5h</td>
+      </tr>
+      <tr style="border-bottom:1px solid var(--rule);">
+        <td style="padding:0.5rem 0; font-weight:700;">Oil</td>
+        <td style="padding:0.5rem 0; font-size:0.75rem; color:var(--muted);">JETS</td>
+        <td style="padding:0.5rem 0; color:#dc2626; font-weight:600; font-size:0.75rem;">▼ DOWN</td>
         <td style="padding:0.5rem 0; font-weight:700; color:#16a34a;">-1.4%</td>
         <td style="padding:0.5rem 0; font-size:0.75rem; color:var(--muted);">0.5h</td>
       </tr>
       <tr style="border-bottom:1px solid var(--rule);">
-        <td style="padding:0.5rem 0; font-weight:700;">GLD</td>
+        <td style="padding:0.5rem 0; font-weight:700;">Natural Gas</td>
+        <td style="padding:0.5rem 0; font-size:0.75rem; color:var(--muted);">UNG</td>
         <td style="padding:0.5rem 0; color:#16a34a; font-weight:600; font-size:0.75rem;">▲ UP</td>
-        <td style="padding:0.5rem 0;"><span style="display:inline-block; width:8px; height:8px; background:#dc2626; border-radius:50%%;"></span> <span style="color:#dc2626; font-weight:700; font-size:0.72rem; margin-left:0.3rem;">Miss</span></td>
-        <td style="padding:0.5rem 0; font-weight:700; color:#dc2626;">-1.2%</td>
-        <td style="padding:0.5rem 0; font-size:0.75rem; color:var(--muted);">—</td>
+        <td style="padding:0.5rem 0; font-weight:700; color:#16a34a;">+2.3%</td>
+        <td style="padding:0.5rem 0; font-size:0.75rem; color:var(--muted);">16.9h</td>
       </tr>
       <tr style="border-bottom:1px solid var(--rule);">
-        <td style="padding:0.5rem 0; font-weight:700;">GLD</td>
+        <td style="padding:0.5rem 0; font-weight:700;">Gold</td>
+        <td style="padding:0.5rem 0; font-size:0.75rem; color:var(--muted);">GLD</td>
         <td style="padding:0.5rem 0; color:#16a34a; font-weight:600; font-size:0.75rem;">▲ UP</td>
-        <td style="padding:0.5rem 0;"><span style="display:inline-block; width:8px; height:8px; background:#16a34a; border-radius:50%%;"></span> <span style="color:#16a34a; font-weight:700; font-size:0.72rem; margin-left:0.3rem;">Confirmed</span></td>
         <td style="padding:0.5rem 0; font-weight:700; color:#16a34a;">+1.0%</td>
         <td style="padding:0.5rem 0; font-size:0.75rem; color:var(--muted);">3.2h</td>
       </tr>
       <tr style="border-bottom:1px solid var(--rule);">
-        <td style="padding:0.5rem 0; font-weight:700;">JETS</td>
+        <td style="padding:0.5rem 0; font-weight:700;">Rates</td>
+        <td style="padding:0.5rem 0; font-size:0.75rem; color:var(--muted);">TLT</td>
+        <td style="padding:0.5rem 0; color:#16a34a; font-weight:600; font-size:0.75rem;">▲ UP</td>
+        <td style="padding:0.5rem 0; font-weight:700; color:#16a34a;">+0.6%</td>
+        <td style="padding:0.5rem 0; font-size:0.75rem; color:var(--muted);">5.6h</td>
+      </tr>
+      <tr style="border-bottom:1px solid var(--rule);">
+        <td style="padding:0.5rem 0; font-weight:700;">Oil</td>
+        <td style="padding:0.5rem 0; font-size:0.75rem; color:var(--muted);">JETS</td>
         <td style="padding:0.5rem 0; color:#dc2626; font-weight:600; font-size:0.75rem;">▼ DOWN</td>
-        <td style="padding:0.5rem 0;"><span style="display:inline-block; width:8px; height:8px; background:#16a34a; border-radius:50%%;"></span> <span style="color:#16a34a; font-weight:700; font-size:0.72rem; margin-left:0.3rem;">Confirmed</span></td>
         <td style="padding:0.5rem 0; font-weight:700; color:#16a34a;">-4.0%</td>
         <td style="padding:0.5rem 0; font-size:0.75rem; color:var(--muted);">5.6h</td>
       </tr>
       <tr style="border-bottom:1px solid var(--rule);">
-        <td style="padding:0.5rem 0; font-weight:700;">XLE</td>
+        <td style="padding:0.5rem 0; font-weight:700;">Oil</td>
+        <td style="padding:0.5rem 0; font-size:0.75rem; color:var(--muted);">XLE</td>
         <td style="padding:0.5rem 0; color:#16a34a; font-weight:600; font-size:0.75rem;">▲ UP</td>
-        <td style="padding:0.5rem 0;"><span style="display:inline-block; width:8px; height:8px; background:#16a34a; border-radius:50%%;"></span> <span style="color:#16a34a; font-weight:700; font-size:0.72rem; margin-left:0.3rem;">Confirmed</span></td>
         <td style="padding:0.5rem 0; font-weight:700; color:#16a34a;">+1.6%</td>
         <td style="padding:0.5rem 0; font-size:0.75rem; color:var(--muted);">5.6h</td>
       </tr>
@@ -626,11 +635,8 @@ img { display: block; max-width: 100%; }
       </tbody>
     </table>
     </div>
-    <p style="font-size:0.72rem; color:var(--light); margin-top:0.6rem;">This table grows with each new signal. As more data arrives, patterns will emerge across asset classes and market conditions.</p>
   </div>
-
-  <!-- Lead Time Distribution -->
-    <div style="padding-top:1.5rem; border-top:1px solid var(--rule); margin-bottom:2rem;">
+  <div style="padding-top:1.5rem; border-top:1px solid var(--rule); margin-bottom:2rem;">
     <h2 style="font-weight:800; font-size:0.9rem; margin-bottom:0.3rem;">Lead Time Distribution</h2>
     <p style="font-size:0.72rem; color:var(--muted); margin-bottom:0.8rem;">How far ahead of the price move did our signals fire?</p>
       <div style="display:flex; align-items:center; gap:0.5rem; margin-bottom:0.3rem;">
@@ -669,67 +675,36 @@ img { display: block; max-width: 100%; }
         <span style="font-size:0.7rem; font-weight:700; min-width:20px;">4</span>
       </div>
   </div>
-
-  <!-- How We Test -->
   <div style="margin-top:2.5rem; padding-top:1.5rem; border-top:1px solid var(--rule);">
     <div style="font-size:0.6rem; font-weight:700; letter-spacing:0.15em; text-transform:uppercase; color:var(--teal); margin-bottom:0.3rem;">Methodology</div>
     <h2 style="font-weight:900; font-size:1.2rem; margin-bottom:1rem;">How we test our predictions</h2>
-
     <div style="display:grid; grid-template-columns:1fr; gap:1.2rem; margin-bottom:1.5rem;">
-      <!-- Step 1 -->
       <div style="display:flex; gap:1rem; align-items:flex-start;">
         <div style="min-width:32px; height:32px; background:var(--teal); color:#fff; border-radius:50%; font-weight:800; font-size:0.8rem; display:flex; align-items:center; justify-content:center;">1</div>
         <div>
-          <div style="font-weight:700; font-size:0.85rem; margin-bottom:0.2rem;">Signal publishes a directional prediction</div>
-          <div style="font-size:0.75rem; color:var(--muted); line-height:1.6;">Each day at ~1pm UK (before US markets open at 2:30pm), our Narrative Asset Signal engine reads thousands of media, policy and supply chain sources and publishes a structured forecast: which asset, which direction (up or down), and how strong the pressure.</div>
+          <div style="font-weight:700; font-size:0.85rem; margin-bottom:0.2rem;">Detect narrative pressure</div>
+          <div style="font-size:0.75rem; color:var(--muted); line-height:1.6;">Each day before US markets open, our engine reads hundreds of media, policy and supply-chain sources to measure sentiment pressure building on specific commodities.</div>
         </div>
       </div>
-
-      <!-- Step 2 -->
       <div style="display:flex; gap:1rem; align-items:flex-start;">
         <div style="min-width:32px; height:32px; background:var(--teal); color:#fff; border-radius:50%; font-weight:800; font-size:0.8rem; display:flex; align-items:center; justify-content:center;">2</div>
         <div>
-          <div style="font-weight:700; font-size:0.85rem; margin-bottom:0.2rem;">We map each prediction to a benchmark ETF</div>
-          <div style="font-size:0.75rem; color:var(--muted); line-height:1.6;">To test objectively, we pair each directional call with the most relevant exchange-traded fund. For example: an oil bullish signal maps to <strong>XLE</strong> (Energy Select Sector), an airlines bearish call maps to <strong>JETS</strong> (U.S. Global Jets), and a gold signal maps to <strong>GLD</strong> (SPDR Gold Shares). These are high-liquidity, widely-held ETFs that directly track the commodity in question.</div>
+          <div style="font-weight:700; font-size:0.85rem; margin-bottom:0.2rem;">Publish our call</div>
+          <div style="font-size:0.75rem; color:var(--muted); line-height:1.6;">We publish a directional call — for example, “Natural gas: sentiment rising” or “Oil: downward pressure on airlines.” Timestamped and locked before any market move.</div>
         </div>
       </div>
-
-      <!-- Step 3 -->
       <div style="display:flex; gap:1rem; align-items:flex-start;">
         <div style="min-width:32px; height:32px; background:var(--teal); color:#fff; border-radius:50%; font-weight:800; font-size:0.8rem; display:flex; align-items:center; justify-content:center;">3</div>
         <div>
-          <div style="font-weight:700; font-size:0.85rem; margin-bottom:0.2rem;">We record the price at signal time, then track what happens</div>
-          <div style="font-size:0.75rem; color:var(--muted); line-height:1.6;">The moment a signal publishes, we record the ETF’s price as our entry point. We then sample every 30 minutes and formally score at four horizons: <strong>6h, 12h, 24h, and 72h</strong>. If the ETF moved &gt;0.5% in the predicted direction at any horizon, that’s a <strong>confirmed</strong> hit. If it’s moving in the right direction but hasn’t crossed the 0.5% threshold yet, it’s <strong>tracking</strong>. If it moved the wrong way, it’s a <strong>miss</strong>.</div>
-        </div>
-      </div>
-
-      <!-- Step 4 -->
-      <div style="display:flex; gap:1rem; align-items:flex-start;">
-        <div style="min-width:32px; height:32px; background:var(--teal); color:#fff; border-radius:50%; font-weight:800; font-size:0.8rem; display:flex; align-items:center; justify-content:center;">4</div>
-        <div>
-          <div style="font-weight:700; font-size:0.85rem; margin-bottom:0.2rem;">We measure how far ahead we were</div>
-          <div style="font-size:0.75rem; color:var(--muted); line-height:1.6;">The lead time is the gap between when we published the signal and when the market first moved &gt;0.5% in that direction. This is the “edge window” — the period where we knew the likely direction before the market reflected it. Our headline stats only count <em>direct proxies</em> (ETFs with a clear, causal link to the signal). Secondary cascade effects (e.g., how an oil signal affects bond prices) are tracked separately under observation.</div>
+          <div style="font-weight:700; font-size:0.85rem; margin-bottom:0.2rem;">Track the outcome</div>
+          <div style="font-size:0.75rem; color:var(--muted); line-height:1.6;">We measure using liquid ETF benchmarks. If the commodity moved &gt;0.5% in the direction we called, that’s <strong>confirmed</strong>. We also measure <em>lead time</em> — how far ahead we detected the move.</div>
         </div>
       </div>
     </div>
-
-    <!-- Direct vs Indirect explainer -->
-    <div style="display:grid; grid-template-columns:1fr 1fr; gap:1rem; margin-bottom:1.5rem;">
-      <div style="background:#fff; border-left:3px solid var(--teal); padding:0.8rem 1rem; border-radius:4px;">
-        <div style="font-weight:800; font-size:0.72rem; letter-spacing:0.08em; text-transform:uppercase; color:var(--teal); margin-bottom:0.3rem;">Direct Proxy</div>
-        <div style="font-size:0.72rem; color:var(--ink-soft); line-height:1.6;">Clear causal link. Oil signal → energy ETF, airline signal → airline ETF. These are the fair tests and form our headline accuracy figure.</div>
-      </div>
-      <div style="background:#fff; border-left:3px solid var(--light); padding:0.8rem 1rem; border-radius:4px;">
-        <div style="font-weight:800; font-size:0.72rem; letter-spacing:0.08em; text-transform:uppercase; color:var(--muted); margin-bottom:0.3rem;">Indirect Proxy</div>
-        <div style="font-size:0.72rem; color:var(--ink-soft); line-height:1.6;">Secondary effects with confounding factors. Bond prices, emerging market ETFs, and materials indices are monitored for learning but excluded from headline stats.</div>
-      </div>
-    </div>
-
     <div style="font-size:0.72rem; color:var(--light); line-height:1.6; border-top:1px solid var(--rule); padding-top:0.8rem;">
-      <strong style="color:var(--muted);">Disclaimer:</strong> This is a paper-trading validation exercise. No real trades are executed. All positions are hypothetical. Not financial advice.
+      <strong style="color:var(--muted);">Disclaimer:</strong> Signal validation exercise. No real trades. Not financial advice.
     </div>
   </div>
-
   <div style="margin-top:1.5rem; font-size:0.72rem; color:var(--light);">Last updated: 2026-03-06T18:43</div>
   <a href="/" class="section-more" style="margin-top:1rem;">&larr; Home</a>
 </div>
@@ -745,6 +720,7 @@ img { display: block; max-width: 100%; }
       <a href="/kalshi/index.html">Kalshi</a>
       <a href="/hedgefund/index.html">Hedge Fund</a>
       <a href="/company-watch/index.html">Company Watch</a>
+      <a href="/crypto/index.html">Crypto</a>
       <a href="/signals/index.html">Signals</a>
       <a href="/tips/index.html">Tips</a>
       <a href="/wire/index.html">The Wire</a>
