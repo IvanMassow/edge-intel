@@ -3,19 +3,19 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Sandbox — NOAH Edge Magazine</title>
-<meta name="description" content="System health + experiments portal">
+<title>Systems — NOAH Edge Magazine</title>
+<meta name="description" content="Fleet health, trading rules + intelligence products">
 <meta property="og:type" content="website">
-<meta property="og:title" content="Sandbox — NOAH Edge Magazine">
-<meta property="og:description" content="System health + experiments portal">
+<meta property="og:title" content="Systems — NOAH Edge Magazine">
+<meta property="og:description" content="Fleet health, trading rules + intelligence products">
 <meta property="og:url" content="https://noah-edge.com/sandbox/">
 <meta property="og:site_name" content="NOAH Edge Magazine">
 <meta property="og:image" content="https://noah-edge.com/og-image.png">
 <meta property="og:image:width" content="1200">
 <meta property="og:image:height" content="630">
 <meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:title" content="Sandbox — NOAH Edge Magazine">
-<meta name="twitter:description" content="System health + experiments portal">
+<meta name="twitter:title" content="Systems — NOAH Edge Magazine">
+<meta name="twitter:description" content="Fleet health, trading rules + intelligence products">
 <meta name="twitter:image" content="https://noah-edge.com/og-image.png">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -454,7 +454,7 @@ img { display: block; max-width: 100%; }
     <a href="/crypto/index.html" >Crypto</a>
     <a href="/signals/index.html"  class="hide-mobile">Signals</a>
     <a href="/tips/index.html"  class="hide-mobile">Tips</a>
-    <a href="/sandbox/index.html" class="active" class="hide-mobile">Sandbox</a>
+    <a href="/sandbox/index.html" class="active" class="hide-mobile">Systems</a>
   </nav>
 </header>
 <hr class="header-rule">
@@ -464,66 +464,292 @@ img { display: block; max-width: 100%; }
 
 <div class="content">
   <div class="section-header" style="padding-top:1.5rem;">
-    <div class="section-label">Sandbox</div>
+    <div class="section-label">Systems</div>
     <a href="/" class="section-more">&larr; Home</a>
   </div>
-  <p style="font-size:0.82rem; font-weight:400; color:var(--muted); line-height:1.6; margin-bottom:1.5rem;">System health across all NOAH Edge agents. Auto-refreshes every 2 minutes.</p>
+
+  <div style="display:flex; flex-wrap:wrap; gap:0.8rem; align-items:center; margin-bottom:1.5rem;">
+    <span class="ops-status ops-status-down" style="font-size:0.78rem; padding:0.3rem 0.8rem; border-radius:12px; border:1px solid currentColor;">ISSUES</span>
+    <span style="font-size:0.78rem; color:var(--ink); font-weight:700;">8 systems</span>
+    <span style="font-size:0.72rem; color:var(--muted);">6 live &bull; 1 stopped &bull; 1 manual</span>
+    <span style="font-size:0.68rem; color:var(--muted);">Last Desk check: 7m ago</span>
+  </div>
+
+  <p style="font-size:0.82rem; font-weight:400; color:var(--muted); line-height:1.6; margin-bottom:1.5rem;">Fleet health across all NOAH Edge agents. Auto-refreshes every 2 minutes. Health checks and QA audits run by The Desk.</p>
 
   <div class="ops-grid">
     <div class="ops-card">
       <div class="ops-card-header">
-        <span class="ops-card-name">PolyHunter</span>
+        <span class="ops-card-name">PolyHunter <a href="/polymarket/index.html" style="font-size:0.68rem; color:var(--teal); font-weight:600; text-decoration:none;">View page &rarr;</a></span>
         <span class="ops-status ops-status-live">LIVE</span>
       </div>
+      <div style="margin-bottom:0.5rem;"><span class="ops-status-live" style="font-size:0.6rem; margin-right:3px;" title="db_freshness: OK">&#9679;</span><span class="ops-status-live" style="font-size:0.6rem; margin-right:3px;" title="error_rate: OK">&#9679;</span><span class="ops-status-live" style="font-size:0.6rem; margin-right:3px;" title="log_activity: OK">&#9679;</span><span class="ops-status-live" style="font-size:0.6rem; margin-right:3px;" title="process_alive: OK">&#9679;</span><span class="ops-status-live" style="font-size:0.6rem; margin-right:3px;" title="restart: OK">&#9679;</span><span class="ops-status-live" style="font-size:0.6rem; margin-right:3px;" title="summary_freshness: OK">&#9679;</span></div>
       <div class="ops-card-stats">
-        <div class="ops-stat-row"><span class="ops-stat-label">Candidates</span><span class="ops-stat-val">2795</span></div>
         <div class="ops-stat-row"><span class="ops-stat-label">Win Rate</span><span class="ops-stat-val">65%</span></div>
-      </div>
-      <div class="ops-updated">Updated 40m ago</div>
+        <div class="ops-stat-row"><span class="ops-stat-label">Return</span><span class="ops-stat-val">+13.9%</span></div>
+        <div class="ops-stat-row"><span class="ops-stat-label">Positions</span><span class="ops-stat-val">43W-23L</span></div></div>
+      <div class="ops-updated">Updated 3m ago</div>
     </div>
     <div class="ops-card">
       <div class="ops-card-header">
-        <span class="ops-card-name">HF Tracker</span>
+        <span class="ops-card-name">Hedge Fund <a href="/hedgefund/index.html" style="font-size:0.68rem; color:var(--teal); font-weight:600; text-decoration:none;">View page &rarr;</a></span>
         <span class="ops-status ops-status-live">LIVE</span>
       </div>
+      <div style="margin-bottom:0.5rem;"><span class="ops-status-live" style="font-size:0.6rem; margin-right:3px;" title="db_freshness: OK">&#9679;</span><span class="ops-status-live" style="font-size:0.6rem; margin-right:3px;" title="error_rate: OK">&#9679;</span><span class="ops-status-live" style="font-size:0.6rem; margin-right:3px;" title="log_activity: OK">&#9679;</span><span class="ops-status-live" style="font-size:0.6rem; margin-right:3px;" title="process_alive: OK">&#9679;</span><span class="ops-status-live" style="font-size:0.6rem; margin-right:3px;" title="restart: OK">&#9679;</span><span class="ops-status-live" style="font-size:0.6rem; margin-right:3px;" title="summary_freshness: OK">&#9679;</span></div>
       <div class="ops-card-stats">
         <div class="ops-stat-row"><span class="ops-stat-label">Positions</span><span class="ops-stat-val">88</span></div>
-        <div class="ops-stat-row"><span class="ops-stat-label">Active / Watch / Killed</span><span class="ops-stat-val">3 / 13 / 72</span></div>
-      </div>
-      <div class="ops-updated">Updated just now</div>
+        <div class="ops-stat-row"><span class="ops-stat-label">Active / Watch</span><span class="ops-stat-val">3 / 13</span></div></div>
+      <div class="ops-updated">Updated 14m ago</div>
     </div>
     <div class="ops-card">
       <div class="ops-card-header">
-        <span class="ops-card-name">Company Watch</span>
+        <span class="ops-card-name">Company Watch <a href="/company-watch/index.html" style="font-size:0.68rem; color:var(--teal); font-weight:600; text-decoration:none;">View page &rarr;</a></span>
         <span class="ops-status ops-status-live">LIVE</span>
       </div>
+      <div style="margin-bottom:0.5rem;"><span class="ops-status-live" style="font-size:0.6rem; margin-right:3px;" title="db_freshness: OK">&#9679;</span><span class="ops-status-live" style="font-size:0.6rem; margin-right:3px;" title="error_rate: OK">&#9679;</span><span class="ops-status-live" style="font-size:0.6rem; margin-right:3px;" title="log_activity: OK">&#9679;</span><span class="ops-status-live" style="font-size:0.6rem; margin-right:3px;" title="process_alive: OK">&#9679;</span><span class="ops-status-live" style="font-size:0.6rem; margin-right:3px;" title="restart: OK">&#9679;</span><span class="ops-status-live" style="font-size:0.6rem; margin-right:3px;" title="summary_freshness: OK">&#9679;</span></div>
       <div class="ops-card-stats">
-        <div class="ops-stat-row"><span class="ops-stat-label">Stocks Tracked</span><span class="ops-stat-val">5</span></div>
-        <div class="ops-stat-row"><span class="ops-stat-label">Avg Alpha</span><span class="ops-stat-val">+6.71%</span></div>
-      </div>
-      <div class="ops-updated">Updated 23m ago</div>
+        <div class="ops-stat-row"><span class="ops-stat-label">Stocks</span><span class="ops-stat-val">5</span></div>
+        <div class="ops-stat-row"><span class="ops-stat-label">Avg Alpha</span><span class="ops-stat-val">+6.71%</span></div></div>
+      <div class="ops-updated">Updated 4m ago</div>
     </div>
     <div class="ops-card">
       <div class="ops-card-header">
-        <span class="ops-card-name">NAS Tester</span>
+        <span class="ops-card-name">NAS Tester <a href="/signals/index.html" style="font-size:0.68rem; color:var(--teal); font-weight:600; text-decoration:none;">View page &rarr;</a></span>
         <span class="ops-status ops-status-live">LIVE</span>
       </div>
+      <div style="margin-bottom:0.5rem;"><span class="ops-status-live" style="font-size:0.6rem; margin-right:3px;" title="db_freshness: OK">&#9679;</span><span class="ops-status-live" style="font-size:0.6rem; margin-right:3px;" title="error_rate: OK">&#9679;</span><span class="ops-status-live" style="font-size:0.6rem; margin-right:3px;" title="log_activity: OK">&#9679;</span><span class="ops-status-live" style="font-size:0.6rem; margin-right:3px;" title="process_alive: OK">&#9679;</span><span class="ops-status-live" style="font-size:0.6rem; margin-right:3px;" title="restart: OK">&#9679;</span><span class="ops-status-live" style="font-size:0.6rem; margin-right:3px;" title="summary_freshness: OK">&#9679;</span></div>
       <div class="ops-card-stats">
         <div class="ops-stat-row"><span class="ops-stat-label">Signals</span><span class="ops-stat-val">24</span></div>
-        <div class="ops-stat-row"><span class="ops-stat-label">Avg Lead Time</span><span class="ops-stat-val">11.4h</span></div>
+        <div class="ops-stat-row"><span class="ops-stat-label">Lead Time</span><span class="ops-stat-val">11.4h</span></div></div>
+      <div class="ops-updated">Updated 47m ago</div>
+    </div>
+    <div class="ops-card">
+      <div class="ops-card-header">
+        <span class="ops-card-name">Crypto Desk <a href="/crypto/index.html" style="font-size:0.68rem; color:var(--teal); font-weight:600; text-decoration:none;">View page &rarr;</a></span>
+        <span class="ops-status ops-status-live">LIVE</span>
       </div>
-      <div class="ops-updated">Updated 34m ago</div>
+      <div style="margin-bottom:0.5rem;"><span class="ops-status-live" style="font-size:0.6rem; margin-right:3px;" title="db_freshness: OK">&#9679;</span><span class="ops-status-live" style="font-size:0.6rem; margin-right:3px;" title="error_rate: OK">&#9679;</span><span class="ops-status-live" style="font-size:0.6rem; margin-right:3px;" title="log_activity: OK">&#9679;</span><span class="ops-status-down" style="font-size:0.6rem; margin-right:3px;" title="process_alive: FAIL">&#9679;</span><span class="ops-status-live" style="font-size:0.6rem; margin-right:3px;" title="restart: OK">&#9679;</span><span class="ops-status-live" style="font-size:0.6rem; margin-right:3px;" title="summary_freshness: OK">&#9679;</span></div>
+      <div class="ops-card-stats">
+        <div class="ops-stat-row"><span class="ops-stat-label">NAS Signals</span><span class="ops-stat-val">3</span></div>
+        <div class="ops-stat-row"><span class="ops-stat-label">PMI Candidates</span><span class="ops-stat-val">0</span></div></div>
+      <div class="ops-updated">Updated 6m ago</div>
     </div>
     <div class="ops-card">
       <div class="ops-card-header">
         <span class="ops-card-name">Edge Intel</span>
         <span class="ops-status ops-status-live">LIVE</span>
       </div>
+      <div style="margin-bottom:0.5rem;"><span class="ops-status-live" style="font-size:0.6rem; margin-right:3px;" title="build_freshness: OK">&#9679;</span><span class="ops-status-live" style="font-size:0.6rem; margin-right:3px;" title="db_freshness: OK">&#9679;</span><span class="ops-status-live" style="font-size:0.6rem; margin-right:3px;" title="deploy_freshness: OK">&#9679;</span><span class="ops-status-live" style="font-size:0.6rem; margin-right:3px;" title="error_rate: OK">&#9679;</span><span class="ops-status-live" style="font-size:0.6rem; margin-right:3px;" title="git_freshness: OK">&#9679;</span><span class="ops-status-stale" style="font-size:0.6rem; margin-right:3px;" title="log_activity: WARN">&#9679;</span><span class="ops-status-live" style="font-size:0.6rem; margin-right:3px;" title="process_alive: OK">&#9679;</span></div>
       <div class="ops-card-stats">
-        <div class="ops-stat-row"><span class="ops-stat-label">Last Build</span><span class="ops-stat-val">2026-03-06 20:08</span></div>
-        <div class="ops-stat-row"><span class="ops-stat-label">Pages</span><span class="ops-stat-val">784</span></div>
-        <div class="ops-stat-row"><span class="ops-stat-label">DB Size</span><span class="ops-stat-val">0 KB</span></div>
+        <div class="ops-stat-row"><span class="ops-stat-label">Pages Built</span><span class="ops-stat-val">784</span></div>
+        <div class="ops-stat-row"><span class="ops-stat-label">Schedule</span><span class="ops-stat-val">launchd 30min</span></div></div>
+      
+    </div>
+  </div>
+
+  <hr class="section-rule">
+  <div style="font-size:0.72rem; font-weight:700; letter-spacing:0.08em; text-transform:uppercase; color:var(--muted); margin:1rem 0 0.8rem;">Inactive Systems</div>
+  <div class="ops-grid">
+    <div class="ops-card">
+      <div class="ops-card-header">
+        <span class="ops-card-name">Poly-Trader</span>
+        <span class="ops-status ops-status-stale">STOPPED</span>
       </div>
+      <div style="margin-bottom:0.5rem;"><span class="ops-status-down" style="font-size:0.6rem; margin-right:3px;" title="db_freshness: FAIL">&#9679;</span><span class="ops-status-live" style="font-size:0.6rem; margin-right:3px;" title="process_alive: OK">&#9679;</span></div>
+      <div class="ops-card-stats">
+        <div class="ops-stat-row"><span class="ops-stat-label">Status</span><span class="ops-stat-val">Phase 1 paused</span></div>
+        <div class="ops-stat-row"><span class="ops-stat-label">Mode</span><span class="ops-stat-val">DRY_RUN=true</span></div></div>
+      
+    </div>
+    <div class="ops-card">
+      <div class="ops-card-header">
+        <span class="ops-card-name">Sovereign Signal</span>
+        <span class="ops-status ops-status-stale">MANUAL</span>
+      </div>
+      <div style="margin-bottom:0.5rem;"><span class="ops-status-live" style="font-size:0.6rem; margin-right:3px;" title="process_alive: OK">&#9679;</span><span class="ops-status-down" style="font-size:0.6rem; margin-right:3px;" title="summary_freshness: FAIL">&#9679;</span></div>
+      <div class="ops-card-stats">
+        <div class="ops-stat-row"><span class="ops-stat-label">Type</span><span class="ops-stat-val">Client deploy</span></div>
+        <div class="ops-stat-row"><span class="ops-stat-label">Pillars</span><span class="ops-stat-val">5 scored /100</span></div></div>
+      
+    </div>
+  </div>
+
+  <hr class="section-rule-heavy" style="margin-top:2rem;">
+  <div class="section-header">
+    <div class="section-label">Trading Rules</div>
+  </div>
+  <p style="font-size:0.82rem; font-weight:400; color:var(--muted); line-height:1.6; margin-bottom:1.5rem;">Current strategy versions and entry/exit rules for each trading system. Rules are extracted from running code and verified by The Desk QA division.</p>
+  <div style="display:grid; grid-template-columns:repeat(auto-fill, minmax(320px, 1fr)); gap:1rem; margin-bottom:2rem;">
+    <div class="ops-card" style="border-top-color:var(--teal);">
+      <div style="font-family:'Montserrat',sans-serif; font-weight:800; font-size:0.82rem; text-transform:uppercase; letter-spacing:0.04em; margin-bottom:0.3rem;">PolyHunter</div>
+      <div style="font-size:0.68rem; color:var(--teal); font-weight:600; margin-bottom:0.8rem;">Wave Rider v4.0</div>
+      <div style="display:flex; gap:0.5rem; padding:3px 0; font-size:0.72rem;">
+          <span style="color:var(--teal); min-width:90px; font-weight:600;">Entry Filter</span>
+          <span>CONSENSUS only, Grade A/B, LONG direction, min 5c edge</span>
+        </div><div style="display:flex; gap:0.5rem; padding:3px 0; font-size:0.72rem;">
+          <span style="color:var(--teal); min-width:90px; font-weight:600;">Entry Trigger</span>
+          <span>FIRST_UPTICK in favourable direction</span>
+        </div><div style="display:flex; gap:0.5rem; padding:3px 0; font-size:0.72rem;">
+          <span style="color:var(--teal); min-width:90px; font-weight:600;">Position Sizing</span>
+          <span>LOW $10k, MEDIUM $5k, HIGH $2k (risk-tier based)</span>
+        </div><div style="display:flex; gap:0.5rem; padding:3px 0; font-size:0.72rem;">
+          <span style="color:var(--teal); min-width:90px; font-weight:600;">Target Exit</span>
+          <span>70%% of house edge captured</span>
+        </div><div style="display:flex; gap:0.5rem; padding:3px 0; font-size:0.72rem;">
+          <span style="color:var(--teal); min-width:90px; font-weight:600;">Trailing Stop</span>
+          <span>Activate at +30%% profit, trail 20%% from peak</span>
+        </div><div style="display:flex; gap:0.5rem; padding:3px 0; font-size:0.72rem;">
+          <span style="color:var(--teal); min-width:90px; font-weight:600;">Momentum Exit</span>
+          <span>3 declining hours + 2x spread widening</span>
+        </div><div style="display:flex; gap:0.5rem; padding:3px 0; font-size:0.72rem;">
+          <span style="color:var(--teal); min-width:90px; font-weight:600;">Adaptive Stop</span>
+          <span>LOW 20%%, MED 15%%, HIGH 25%% + Grade B +10pp</span>
+        </div><div style="display:flex; gap:0.5rem; padding:3px 0; font-size:0.72rem;">
+          <span style="color:var(--teal); min-width:90px; font-weight:600;">Time Limit</span>
+          <span>48h standard, 96h for Grade B + LOW risk + edge intact</span>
+        </div><div style="display:flex; gap:0.5rem; padding:3px 0; font-size:0.72rem;">
+          <span style="color:var(--teal); min-width:90px; font-weight:600;">Min Hold</span>
+          <span>8h minimum before smart exits</span>
+        </div>
+      <div style="margin-top:0.6rem; padding:0.4rem 0.6rem; border-radius:4px; font-size:0.68rem; color:var(--teal); background:rgba(13,118,128,0.06);">68 trades: 63.6%% win rate, profit factor 3.8x</div>
+    </div>
+    <div class="ops-card" style="border-top-color:#94a3b8;">
+      <div style="font-family:'Montserrat',sans-serif; font-weight:800; font-size:0.82rem; text-transform:uppercase; letter-spacing:0.04em; margin-bottom:0.3rem;">Hedge Fund</div>
+      <div style="font-size:0.68rem; color:var(--teal); font-weight:600; margin-bottom:0.8rem;">DD-First v2.0</div>
+      <div style="display:flex; gap:0.5rem; padding:3px 0; font-size:0.72rem;">
+          <span style="color:var(--teal); min-width:90px; font-weight:600;">Entry Pipeline</span>
+          <span>Staleness check + LLM DD =&gt; TRADE/WATCH/KILL</span>
+        </div><div style="display:flex; gap:0.5rem; padding:3px 0; font-size:0.72rem;">
+          <span style="color:var(--teal); min-width:90px; font-weight:600;">Staleness</span>
+          <span>FRESH &lt;6h, MODERATE 6-24h, STALE 24-48h, CRITICAL &gt;72h</span>
+        </div><div style="display:flex; gap:0.5rem; padding:3px 0; font-size:0.72rem;">
+          <span style="color:var(--teal); min-width:90px; font-weight:600;">Hard Stop</span>
+          <span>-15%% P&amp;L</span>
+        </div><div style="display:flex; gap:0.5rem; padding:3px 0; font-size:0.72rem;">
+          <span style="color:var(--teal); min-width:90px; font-weight:600;">Soft Stop</span>
+          <span>-10%% P&amp;L + LLM review</span>
+        </div><div style="display:flex; gap:0.5rem; padding:3px 0; font-size:0.72rem;">
+          <span style="color:var(--teal); min-width:90px; font-weight:600;">Profit Take</span>
+          <span>+15%% consider, +25%% strong sell</span>
+        </div><div style="display:flex; gap:0.5rem; padding:3px 0; font-size:0.72rem;">
+          <span style="color:var(--teal); min-width:90px; font-weight:600;">Drawdown</span>
+          <span>5%% drawdown from peak =&gt; exit</span>
+        </div><div style="display:flex; gap:0.5rem; padding:3px 0; font-size:0.72rem;">
+          <span style="color:var(--teal); min-width:90px; font-weight:600;">Time Limit</span>
+          <span>96h review cycle</span>
+        </div><div style="display:flex; gap:0.5rem; padding:3px 0; font-size:0.72rem;">
+          <span style="color:var(--teal); min-width:90px; font-weight:600;">Market Crash</span>
+          <span>S&amp;P down &gt;3%% =&gt; flatten longs</span>
+        </div>
+      <div style="margin-top:0.6rem; padding:0.4rem 0.6rem; border-radius:4px; font-size:0.68rem; color:var(--muted); background:rgba(13,118,128,0.06);">NOT BACKTESTED -- thresholds are initial estimates</div>
+    </div>
+    <div class="ops-card" style="border-top-color:#94a3b8;">
+      <div style="font-family:'Montserrat',sans-serif; font-weight:800; font-size:0.82rem; text-transform:uppercase; letter-spacing:0.04em; margin-bottom:0.3rem;">Company Watch</div>
+      <div style="font-size:0.68rem; color:var(--teal); font-weight:600; margin-bottom:0.8rem;">Dual-Confidence v1.0</div>
+      <div style="display:flex; gap:0.5rem; padding:3px 0; font-size:0.72rem;">
+          <span style="color:var(--teal); min-width:90px; font-weight:600;">Dual Lines</span>
+          <span>ACTIVE (AI-managed) vs PASSIVE (buy-and-hold benchmark)</span>
+        </div><div style="display:flex; gap:0.5rem; padding:3px 0; font-size:0.72rem;">
+          <span style="color:var(--teal); min-width:90px; font-weight:600;">Entry</span>
+          <span>Dual confidence &gt;= 65%% from report + house (GPT-4o-mini)</span>
+        </div><div style="display:flex; gap:0.5rem; padding:3px 0; font-size:0.72rem;">
+          <span style="color:var(--teal); min-width:90px; font-weight:600;">Hard Stop</span>
+          <span>-15%% P&amp;L</span>
+        </div><div style="display:flex; gap:0.5rem; padding:3px 0; font-size:0.72rem;">
+          <span style="color:var(--teal); min-width:90px; font-weight:600;">Soft Stop</span>
+          <span>-10%% P&amp;L + autonomous DD</span>
+        </div><div style="display:flex; gap:0.5rem; padding:3px 0; font-size:0.72rem;">
+          <span style="color:var(--teal); min-width:90px; font-weight:600;">Profit Protect</span>
+          <span>+15%% consider, +25%% strong, 5%% drawdown from peak</span>
+        </div><div style="display:flex; gap:0.5rem; padding:3px 0; font-size:0.72rem;">
+          <span style="color:var(--teal); min-width:90px; font-weight:600;">Duck-and-Cover</span>
+          <span>Pre-market DD, sell before bad opens, rebuy if calm</span>
+        </div><div style="display:flex; gap:0.5rem; padding:3px 0; font-size:0.72rem;">
+          <span style="color:var(--teal); min-width:90px; font-weight:600;">Crash Override</span>
+          <span>S&amp;P down &gt;3%% =&gt; protective sell</span>
+        </div><div style="display:flex; gap:0.5rem; padding:3px 0; font-size:0.72rem;">
+          <span style="color:var(--teal); min-width:90px; font-weight:600;">Autonomous DD</span>
+          <span>Every 2h between reports</span>
+        </div>
+      <div style="margin-top:0.6rem; padding:0.4rem 0.6rem; border-radius:4px; font-size:0.68rem; color:var(--muted); background:rgba(13,118,128,0.06);">NOT BACKTESTED -- early operational phase</div>
+    </div>
+    <div class="ops-card" style="border-top-color:var(--teal);">
+      <div style="font-family:'Montserrat',sans-serif; font-weight:800; font-size:0.82rem; text-transform:uppercase; letter-spacing:0.04em; margin-bottom:0.3rem;">NAS Tester</div>
+      <div style="font-size:0.68rem; color:var(--teal); font-weight:600; margin-bottom:0.8rem;">Signal Validator v1.0</div>
+      <div style="display:flex; gap:0.5rem; padding:3px 0; font-size:0.72rem;">
+          <span style="color:var(--teal); min-width:90px; font-weight:600;">Signal Source</span>
+          <span>Narrative cascade maps from RSS reports</span>
+        </div><div style="display:flex; gap:0.5rem; padding:3px 0; font-size:0.72rem;">
+          <span style="color:var(--teal); min-width:90px; font-weight:600;">Proxy Mapping</span>
+          <span>Exposure categories =&gt; liquid ETF tickers</span>
+        </div><div style="display:flex; gap:0.5rem; padding:3px 0; font-size:0.72rem;">
+          <span style="color:var(--teal); min-width:90px; font-weight:600;">Hit Definition</span>
+          <span>0.5%% price move in predicted direction</span>
+        </div><div style="display:flex; gap:0.5rem; padding:3px 0; font-size:0.72rem;">
+          <span style="color:var(--teal); min-width:90px; font-weight:600;">Horizons</span>
+          <span>6h, 12h, 24h, 72h checkpoints</span>
+        </div><div style="display:flex; gap:0.5rem; padding:3px 0; font-size:0.72rem;">
+          <span style="color:var(--teal); min-width:90px; font-weight:600;">Lead Time</span>
+          <span>Advantage clock: t_belief =&gt; t_reality =&gt; t_peak</span>
+        </div><div style="display:flex; gap:0.5rem; padding:3px 0; font-size:0.72rem;">
+          <span style="color:var(--teal); min-width:90px; font-weight:600;">Reinforcement</span>
+          <span>Same-direction bumps count, opposite flips position</span>
+        </div><div style="display:flex; gap:0.5rem; padding:3px 0; font-size:0.72rem;">
+          <span style="color:var(--teal); min-width:90px; font-weight:600;">Decay Window</span>
+          <span>72h default tracking window</span>
+        </div>
+      <div style="margin-top:0.6rem; padding:0.4rem 0.6rem; border-radius:4px; font-size:0.68rem; color:var(--teal); background:rgba(13,118,128,0.06);">12 signals -- building statistical base</div>
+    </div>
+    <div class="ops-card" style="border-top-color:var(--teal);">
+      <div style="font-family:'Montserrat',sans-serif; font-weight:800; font-size:0.82rem; text-transform:uppercase; letter-spacing:0.04em; margin-bottom:0.3rem;">Crypto Desk</div>
+      <div style="font-size:0.68rem; color:var(--teal); font-weight:600; margin-bottom:0.8rem;">Dual Pipeline v1.0</div>
+      <div style="display:flex; gap:0.5rem; padding:3px 0; font-size:0.72rem;">
+          <span style="color:var(--teal); min-width:90px; font-weight:600;">NAS Pipeline</span>
+          <span>Crypto ETF proxies: IBIT, BITO, ETHA, WGMI, BLOK</span>
+        </div><div style="display:flex; gap:0.5rem; padding:3px 0; font-size:0.72rem;">
+          <span style="color:var(--teal); min-width:90px; font-weight:600;">NAS Scoring</span>
+          <span>Same as NAS Tester: 0.5%% hit at 6/12/24/72h</span>
+        </div><div style="display:flex; gap:0.5rem; padding:3px 0; font-size:0.72rem;">
+          <span style="color:var(--teal); min-width:90px; font-weight:600;">PMI Pipeline</span>
+          <span>Identical to PolyHunter Wave Rider v4.0</span>
+        </div><div style="display:flex; gap:0.5rem; padding:3px 0; font-size:0.72rem;">
+          <span style="color:var(--teal); min-width:90px; font-weight:600;">PMI Entry</span>
+          <span>CONSENSUS + Grade A/B, FIRST_UPTICK trigger</span>
+        </div><div style="display:flex; gap:0.5rem; padding:3px 0; font-size:0.72rem;">
+          <span style="color:var(--teal); min-width:90px; font-weight:600;">PMI Stops</span>
+          <span>Adaptive by risk tier (same as PolyHunter)</span>
+        </div><div style="display:flex; gap:0.5rem; padding:3px 0; font-size:0.72rem;">
+          <span style="color:var(--teal); min-width:90px; font-weight:600;">PMI Target</span>
+          <span>70%% edge capture, trailing 30%%/20%%</span>
+        </div><div style="display:flex; gap:0.5rem; padding:3px 0; font-size:0.72rem;">
+          <span style="color:var(--teal); min-width:90px; font-weight:600;">Time Limit</span>
+          <span>48h standard, 96h extended</span>
+        </div>
+      <div style="margin-top:0.6rem; padding:0.4rem 0.6rem; border-radius:4px; font-size:0.68rem; color:var(--muted); background:rgba(13,118,128,0.06);">New system -- insufficient data</div>
+    </div>
+    <div class="ops-card" style="border-top-color:var(--teal);">
+      <div style="font-family:'Montserrat',sans-serif; font-weight:800; font-size:0.82rem; text-transform:uppercase; letter-spacing:0.04em; margin-bottom:0.3rem;">Poly-Trader</div>
+      <div style="font-size:0.68rem; color:var(--teal); font-weight:600; margin-bottom:0.8rem;">Phase 1 Micro v1.0</div>
+      <div style="display:flex; gap:0.5rem; padding:3px 0; font-size:0.72rem;">
+          <span style="color:var(--teal); min-width:90px; font-weight:600;">Signal Filter</span>
+          <span>CONSENSUS + Grade A only (stricter than PolyHunter)</span>
+        </div><div style="display:flex; gap:0.5rem; padding:3px 0; font-size:0.72rem;">
+          <span style="color:var(--teal); min-width:90px; font-weight:600;">Position Sizing</span>
+          <span>LOW $25, MEDIUM $15, HIGH $10</span>
+        </div><div style="display:flex; gap:0.5rem; padding:3px 0; font-size:0.72rem;">
+          <span style="color:var(--teal); min-width:90px; font-weight:600;">Max Exposure</span>
+          <span>$100 total, max 3 concurrent, $10 USDC reserve</span>
+        </div><div style="display:flex; gap:0.5rem; padding:3px 0; font-size:0.72rem;">
+          <span style="color:var(--teal); min-width:90px; font-weight:600;">Exit Rules</span>
+          <span>Same as PolyHunter Wave Rider v4.0</span>
+        </div><div style="display:flex; gap:0.5rem; padding:3px 0; font-size:0.72rem;">
+          <span style="color:var(--teal); min-width:90px; font-weight:600;">Kill Switch</span>
+          <span>5 consecutive losses OR daily loss &gt; $50</span>
+        </div><div style="display:flex; gap:0.5rem; padding:3px 0; font-size:0.72rem;">
+          <span style="color:var(--teal); min-width:90px; font-weight:600;">Order Type</span>
+          <span>Limit GTC, 30min entry timeout, 60min exit timeout</span>
+        </div>
+      <div style="margin-top:0.6rem; padding:0.4rem 0.6rem; border-radius:4px; font-size:0.68rem; color:var(--teal); background:rgba(13,118,128,0.06);">3 trades only -- Phase 1 paused</div>
     </div>
   </div>
 
@@ -532,7 +758,7 @@ img { display: block; max-width: 100%; }
     <div style="font-size:0.72rem; font-weight:700; letter-spacing:0.08em; text-transform:uppercase; color:var(--muted); margin-bottom:0.5rem;">Endpoints</div>
     <div class="ops-stat-row" style="font-size:0.78rem;">
       <span class="ops-stat-label">/signals.json</span>
-      <span><span class="ops-status ops-status-live">OK</span> Updated 43m ago</span>
+      <span><span class="ops-status ops-status-live">OK</span> Updated 13m ago</span>
     </div>
   </div>
 
@@ -540,9 +766,19 @@ img { display: block; max-width: 100%; }
   <div style="padding:1rem 0;">
     <div style="font-size:0.72rem; font-weight:700; letter-spacing:0.08em; text-transform:uppercase; color:var(--muted); margin-bottom:0.5rem;">Deployment</div>
     <div class="ops-stat-row" style="font-size:0.78rem;">
-      <span class="ops-stat-label">GitHub Pages</span>
-      <span><a href="https://github.com/IvanMassow/edge-intel/actions" style="color:var(--teal);">View Actions &rarr;</a></span>
+      <span class="ops-stat-label">Primary</span>
+      <span style="font-size:0.72rem; color:var(--teal); font-weight:600;">Linode Object Storage (noah-edge.com)</span>
     </div>
+    <div class="ops-stat-row" style="font-size:0.78rem;">
+      <span class="ops-stat-label">GitHub Backup</span>
+      <span style="font-size:0.72rem; color:var(--muted);">Blocked (ticket #4121390)</span>
+    </div>
+  </div>
+
+  <hr class="section-rule">
+  <div style="padding:1rem 0;">
+    <div style="font-size:0.72rem; font-weight:700; letter-spacing:0.08em; text-transform:uppercase; color:var(--muted); margin-bottom:0.5rem;">Documentation</div>
+    <div style="font-size:0.78rem; color:var(--muted); line-height:1.6;">Each system has a <code style="background:rgba(13,118,128,0.1); padding:2px 6px; border-radius:3px; font-size:0.72rem;">SYSTEM.md</code> in its project root. Master registry at <code style="background:rgba(13,118,128,0.1); padding:2px 6px; border-radius:3px; font-size:0.72rem;">~/the-desk/REGISTRY.md</code></div>
   </div>
 
   <style>
@@ -794,7 +1030,7 @@ img { display: block; max-width: 100%; }
       <a href="/signals/index.html">Signals</a>
       <a href="/tips/index.html">Tips</a>
       <a href="/wire/index.html">The Wire</a>
-      <a href="/sandbox/index.html">Sandbox</a>
+      <a href="/sandbox/index.html">Systems</a>
       <a href="/about/index.html">About</a>
       <a href="/rss.xml">RSS</a>
     </div>
