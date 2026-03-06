@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-03-06T11:05:12Z",
+  "generated_at": "2026-03-06T11:37:29Z",
   "total_signals": 200,
   "signals": [
     {
@@ -166,7 +166,7 @@
       "edge_type": "CONSENSUS",
       "rating": "B",
       "entry_price": 0.24,
-      "current_price": 0.18,
+      "current_price": 0.15,
       "pnl_pct": 39.6,
       "status": "CLOSED",
       "state": "EXITED",
@@ -217,7 +217,7 @@
       "edge_type": "CONSENSUS",
       "rating": "A",
       "entry_price": 0.195,
-      "current_price": 0.135,
+      "current_price": 0.125,
       "pnl_pct": 35.9,
       "status": "CLOSED",
       "state": "EXITED",
@@ -234,7 +234,7 @@
       "edge_type": "CONSENSUS",
       "rating": "B",
       "entry_price": 0.1625,
-      "current_price": 0.217,
+      "current_price": 0.2145,
       "pnl_pct": 33.5,
       "status": "CLOSED",
       "state": "EXITED",
@@ -285,7 +285,7 @@
       "edge_type": "CONSENSUS",
       "rating": "B",
       "entry_price": 0.275,
-      "current_price": 0.095,
+      "current_price": 0.105,
       "pnl_pct": 25.5,
       "status": "CLOSED",
       "state": "EXITED",
@@ -336,7 +336,7 @@
       "edge_type": "CONSENSUS",
       "rating": "A",
       "entry_price": 0.16,
-      "current_price": 0.125,
+      "current_price": 0.145,
       "pnl_pct": 21.9,
       "status": "CLOSED",
       "state": "EXITED",
@@ -574,7 +574,7 @@
       "edge_type": "CONSENSUS",
       "rating": "A",
       "entry_price": 0.615,
-      "current_price": 0.475,
+      "current_price": 0.48,
       "pnl_pct": 11.4,
       "status": "CLOSED",
       "state": "EXITED",
@@ -804,23 +804,6 @@
     {
       "signal_id": "NE-POLY-0048",
       "source": "polyhunter",
-      "asset": "Will there be no Fed rate cuts in 2026? \u25cf\u25cf\u25cf\u25cf\u25ef [B] DISCOVERY",
-      "ticker": null,
-      "asset_type": "prediction_market",
-      "direction": "lower",
-      "conviction": null,
-      "edge_type": "CONSENSUS",
-      "rating": "B",
-      "entry_price": 0.169,
-      "current_price": 0.2165,
-      "pnl_pct": -28.1,
-      "status": "OPEN",
-      "state": "ACTIVE",
-      "edge_points": 5.0
-    },
-    {
-      "signal_id": "NE-POLY-0049",
-      "source": "polyhunter",
       "asset": "Will 2 Fed rate cuts happen in 2026? \u25cf\u25cf\u25cf\u25cf\u25cb [B]",
       "ticker": null,
       "asset_type": "prediction_market",
@@ -836,7 +819,7 @@
       "edge_points": 5.0
     },
     {
-      "signal_id": "NE-POLY-0050",
+      "signal_id": "NE-POLY-0049",
       "source": "polyhunter",
       "asset": "Will US GDP growth in Q1 2026 be greater than 3.5%? \u25cf\u25cf\u25cf\u25cf\u25d0 [B",
       "ticker": null,
@@ -853,7 +836,7 @@
       "edge_points": 13.0
     },
     {
-      "signal_id": "NE-POLY-0051",
+      "signal_id": "NE-POLY-0050",
       "source": "polyhunter",
       "asset": "Will inflation reach more than 3% in 2026? \u00e2\u0097\u008f\u00e2\u0097\u008f\u00e2\u0097\u008f\u00e2\u0097\u008f\u00e2\u0097\u008b [",
       "ticker": null,
@@ -870,7 +853,7 @@
       "edge_points": 7.0
     },
     {
-      "signal_id": "NE-POLY-0052",
+      "signal_id": "NE-POLY-0051",
       "source": "polyhunter",
       "asset": "Kevin Warsh confirmed as Fed Chair by May 15? \u00e2\u0097\u008f\u00e2\u0097\u008f\u00e2\u0097\u008f\u00e2\u0097\u008f\u00e2\u0097",
       "ticker": null,
@@ -887,7 +870,7 @@
       "edge_points": 11.0
     },
     {
-      "signal_id": "NE-POLY-0053",
+      "signal_id": "NE-POLY-0052",
       "source": "polyhunter",
       "asset": "Will Trump nominate Kevin Warsh as the next Fed chair? \u00e2\u0097\u008f\u00e2\u0097",
       "ticker": null,
@@ -904,7 +887,7 @@
       "edge_points": 13.0
     },
     {
-      "signal_id": "NE-POLY-0054",
+      "signal_id": "NE-POLY-0053",
       "source": "polyhunter",
       "asset": "Will the DHS shutdown last 21 days or more? \u25cf\u25cf\u25cf\u25cf\u25d0 [A]",
       "ticker": null,
@@ -921,7 +904,7 @@
       "edge_points": 8.0
     },
     {
-      "signal_id": "NE-POLY-0055",
+      "signal_id": "NE-POLY-0054",
       "source": "polyhunter",
       "asset": "Will Trump nominate Kevin Warsh as the next Fed chair? \u00e2\u0097\u008f\u00e2\u0097",
       "ticker": null,
@@ -938,7 +921,7 @@
       "edge_points": 10.0
     },
     {
-      "signal_id": "NE-POLY-0056",
+      "signal_id": "NE-POLY-0055",
       "source": "polyhunter",
       "asset": "U.S. agrees to a new trade deal with \"India\" before 2027? \u25cf\u25cf",
       "ticker": null,
@@ -955,7 +938,7 @@
       "edge_points": 8.0
     },
     {
-      "signal_id": "NE-POLY-0057",
+      "signal_id": "NE-POLY-0056",
       "source": "polyhunter",
       "asset": "Will there be no change in Fed interest rates after the June",
       "ticker": null,
@@ -965,14 +948,14 @@
       "edge_type": "CONSENSUS",
       "rating": "A",
       "entry_price": 0.51,
-      "current_price": 0.655,
+      "current_price": 0.66,
       "pnl_pct": -2.9,
       "status": "CLOSED",
       "state": "EXITED",
       "edge_points": null
     },
     {
-      "signal_id": "NE-POLY-0058",
+      "signal_id": "NE-POLY-0057",
       "source": "polyhunter",
       "asset": "Will there be no change in Fed interest rates after the Marc",
       "ticker": null,
@@ -989,7 +972,7 @@
       "edge_points": 5.0
     },
     {
-      "signal_id": "NE-POLY-0059",
+      "signal_id": "NE-POLY-0058",
       "source": "polyhunter",
       "asset": "U.S. x Iran Military Engagement by March 31, 2026? \u25cf\u25cf\u25cf\u25cf\u25d0 [B]",
       "ticker": null,
@@ -1006,7 +989,7 @@
       "edge_points": 13.0
     },
     {
-      "signal_id": "NE-POLY-0060",
+      "signal_id": "NE-POLY-0059",
       "source": "polyhunter",
       "asset": "Trump sued over tariff powers again by March 31? \u25cf\u25cf\u25cf\u25cf\u25ef [A]",
       "ticker": null,
@@ -1023,7 +1006,7 @@
       "edge_points": 8.0
     },
     {
-      "signal_id": "NE-POLY-0061",
+      "signal_id": "NE-POLY-0060",
       "source": "polyhunter",
       "asset": "Israel strikes Iran by February 28, 2026? \u25cf\u25cf\u25cf\u25cf\u25cf [A]",
       "ticker": null,
@@ -1040,7 +1023,7 @@
       "edge_points": 5.0
     },
     {
-      "signal_id": "NE-POLY-0062",
+      "signal_id": "NE-POLY-0061",
       "source": "polyhunter",
       "asset": "Will the US next strike Iran during the week of February 22-",
       "ticker": null,
@@ -1057,7 +1040,7 @@
       "edge_points": 6.0
     },
     {
-      "signal_id": "NE-POLY-0063",
+      "signal_id": "NE-POLY-0062",
       "source": "polyhunter",
       "asset": "Will the Fed decrease interest rates by 25 bps after the Jun",
       "ticker": null,
@@ -1074,7 +1057,7 @@
       "edge_points": 8.0
     },
     {
-      "signal_id": "NE-POLY-0064",
+      "signal_id": "NE-POLY-0063",
       "source": "polyhunter",
       "asset": "Will inflation reach more than 4% in 2026? \u00e2\u0097\u008f\u00e2\u0097\u008f\u00e2\u0097\u008f\u00e2\u0097\u0090\u00e2\u0097\u008b [",
       "ticker": null,
@@ -1084,14 +1067,14 @@
       "edge_type": "CONSENSUS",
       "rating": "B",
       "entry_price": 0.105,
-      "current_price": 0.15,
+      "current_price": 0.145,
       "pnl_pct": -19.0,
       "status": "CLOSED",
       "state": "EXITED",
       "edge_points": 5.0
     },
     {
-      "signal_id": "NE-POLY-0065",
+      "signal_id": "NE-POLY-0064",
       "source": "polyhunter",
       "asset": "US strikes Iran by February 27, 2026? \u25cf\u25cf\u25cf\u25cf\u25cf [A]",
       "ticker": null,
@@ -1108,7 +1091,7 @@
       "edge_points": null
     },
     {
-      "signal_id": "NE-POLY-0066",
+      "signal_id": "NE-POLY-0065",
       "source": "polyhunter",
       "asset": "Will no Fed rate cuts happen in 2026? \u25cf\u25cf\u25cf\u25d0\u25cb [B]",
       "ticker": null,
@@ -1125,7 +1108,7 @@
       "edge_points": 4.0
     },
     {
-      "signal_id": "NE-POLY-0067",
+      "signal_id": "NE-POLY-0066",
       "source": "polyhunter",
       "asset": "Iran strike on US military by February 28? \u25cf\u25cf\u25cf\u25cf\u25cf [B]",
       "ticker": null,
@@ -1142,7 +1125,7 @@
       "edge_points": null
     },
     {
-      "signal_id": "NE-POLY-0068",
+      "signal_id": "NE-POLY-0067",
       "source": "polyhunter",
       "asset": "Will monthly inflation increase by 0.4% or more in February?",
       "ticker": null,
@@ -1152,8 +1135,25 @@
       "edge_type": "CONSENSUS",
       "rating": "B",
       "entry_price": 0.125,
-      "current_price": 0.11,
+      "current_price": 0.105,
       "pnl_pct": -24.0,
+      "status": "CLOSED",
+      "state": "EXITED",
+      "edge_points": 5.0
+    },
+    {
+      "signal_id": "NE-POLY-0068",
+      "source": "polyhunter",
+      "asset": "Will there be no Fed rate cuts in 2026? \u25cf\u25cf\u25cf\u25cf\u25ef [B] DISCOVERY",
+      "ticker": null,
+      "asset_type": "prediction_market",
+      "direction": "lower",
+      "conviction": null,
+      "edge_type": "CONSENSUS",
+      "rating": "B",
+      "entry_price": 0.169,
+      "current_price": 0.2145,
+      "pnl_pct": -25.0,
       "status": "CLOSED",
       "state": "EXITED",
       "edge_points": 5.0
