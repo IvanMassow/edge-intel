@@ -5,8 +5,16 @@
     <link>https://noah-edge.com/</link>
     <description>Prediction market intelligence. The Noah Poly Index tracks edges with transparent positions and tracked outcomes.</description>
     <language>en</language>
-    <lastBuildDate>Fri, 06 Mar 2026 13:13:20 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 06 Mar 2026 13:45:21 +0000</lastBuildDate>
     <atom:link href="https://noah-edge.com/rss.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>PMI-20260306 | 10 Beliefs | Economy + Energy + Finance | shifting (gez3)</title>
+      <link>https://noah-edge.com/stories/pmi-20260306-10-beliefs-economy-energy-finance-shifting-gez3.html</link>
+      <description>Summary Corpus: 400 articles across 12 trends | SHORT horizon | 238h window Beliefs: 10 total | 8 cross-domain | 2 single-domain Domains: energy, geopolitics, finance, economy, labour, consumer, ho...</description>
+      <pubDate>Fri, 06 Mar 2026 13:17:38 +0000</pubDate>
+      <guid>https://noah-edge.com/stories/pmi-20260306-10-beliefs-economy-energy-finance-shifting-gez3.html</guid>
+      <enclosure url="https://noah-edge.com/assets/images/pmi-20260306-10-beliefs-economy-energy-f-b6830801.jpg" type="image/jpeg" />
+    </item>
     <item>
       <title>PMI-20260306 | 12 Beliefs | Geopolitics + Military + Energy | shifting (zuk5)</title>
       <link>https://noah-edge.com/stories/pmi-20260306-12-beliefs-geopolitics-military-energy.html</link>
@@ -158,14 +166,6 @@
       <pubDate>Thu, 05 Mar 2026 19:54:47 +0000</pubDate>
       <guid>https://noah-edge.com/stories/pmi-20260305-7-beliefs-geopolitics-military-tech-shifting.html</guid>
       <enclosure url="https://noah-edge.com/assets/images/pmi-20260305-7-beliefs-geopolitics-milit-139e6e3f.jpg" type="image/jpeg" />
-    </item>
-    <item>
-      <title>Polymarket removes controversial nuclear detonation market amid ethical concerns and geopolitical suspicions</title>
-      <link>https://noah-edge.com/stories/polymarket-removes-controversial-nuclear-detonation-market.html</link>
-      <description>Polymarket has quietly pulled a market allowing bets on nuclear detonations, sparking debates over ethics, regulatory gaps, and potential exploitation amid heightened geopolitical tensions.</description>
-      <pubDate>Thu, 05 Mar 2026 19:29:18 +0000</pubDate>
-      <guid>https://noah-edge.com/stories/polymarket-removes-controversial-nuclear-detonation-market.html</guid>
-      <enclosure url="https://noah-edge.com/assets/images/polymarket-removes-controversial-nuclear-ece9b23b.jpg" type="image/jpeg" />
     </item>
   </channel>
 </rss>
