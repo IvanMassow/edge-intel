@@ -5,8 +5,16 @@
     <link>https://noah-edge.com/</link>
     <description>Prediction market intelligence. The Noah Poly Index tracks edges with transparent positions and tracked outcomes.</description>
     <language>en</language>
-    <lastBuildDate>Fri, 06 Mar 2026 04:41:38 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 06 Mar 2026 05:13:24 +0000</lastBuildDate>
     <atom:link href="https://noah-edge.com/rss.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>PMI-20260306 | 7 Beliefs | Geopolitics + Military + Politics | fragile (zoq7)</title>
+      <link>https://noah-edge.com/stories/pmi-20260306-7-beliefs-geopolitics-military-politics.html</link>
+      <description>Summary Corpus: 400 articles across 12 trends | SHORT horizon | 80h window Beliefs: 7 total | 5 cross-domain | 2 single-domain Domains: geopolitics, military, politics, technology Posture: The corp...</description>
+      <pubDate>Fri, 06 Mar 2026 05:10:43 +0000</pubDate>
+      <guid>https://noah-edge.com/stories/pmi-20260306-7-beliefs-geopolitics-military-politics.html</guid>
+      <enclosure url="https://noah-edge.com/assets/images/pmi-20260306-7-beliefs-geopolitics-milit-a4d23f43.jpg" type="image/jpeg" />
+    </item>
     <item>
       <title>PMI-20260306 | 13 Beliefs | Trade + Politics + Technology | fragile (bak7)</title>
       <link>https://noah-edge.com/stories/pmi-20260306-13-beliefs-trade-politics-technology-fragile.html</link>
@@ -158,14 +166,6 @@
       <pubDate>Thu, 05 Mar 2026 13:59:39 +0000</pubDate>
       <guid>https://noah-edge.com/stories/predictfuns-acquisition-of-probable-aims-to-consolidate.html</guid>
       <enclosure url="https://noah-edge.com/assets/images/predictfuns-acquisition-of-probable-aims-b4a6648e.jpg" type="image/jpeg" />
-    </item>
-    <item>
-      <title>Kalshi ventures into luxury watch market with prediction contracts on secondary trading</title>
-      <link>https://noah-edge.com/stories/kalshi-ventures-into-luxury-watch-market-with-prediction.html</link>
-      <description>Kalshi, in partnership with Bezel, has launched Watch Futures , a new platform enabling traders to speculate on high-end watch prices and market trends, signalling a novel utilisation of prediction...</description>
-      <pubDate>Thu, 05 Mar 2026 13:59:36 +0000</pubDate>
-      <guid>https://noah-edge.com/stories/kalshi-ventures-into-luxury-watch-market-with-prediction.html</guid>
-      <enclosure url="https://noah-edge.com/assets/images/kalshi-ventures-into-luxury-watch-market-88888127.jpg" type="image/jpeg" />
     </item>
   </channel>
 </rss>
