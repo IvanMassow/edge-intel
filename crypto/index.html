@@ -459,271 +459,307 @@ img { display: block; max-width: 100%; }
 </header>
 <hr class="header-rule">
 
-<div style="text-align:center; padding:2rem 0 1rem;">
-  <div style="font-size:3.5rem; font-weight:900; font-family:Montserrat,sans-serif; color:var(--teal,#0d7680);">32</div>
-  <div style="font-size:1rem; color:#666; margin-top:0.3rem;">crypto predictions tracked</div>
-  <div style="font-size:0.75rem; color:#999; margin-top:0.5rem;">Updated: 2026-03-06T18:58:28</div>
-</div><div style="max-width:var(--max-width,900px); margin:0 auto; padding:1rem 2rem;"><h2 style="font-family:Montserrat,sans-serif; color:var(--teal,#0d7680); margin-bottom:0.5rem;">Signal Desk</h2><p style="color:#666; margin-bottom:1.5rem;">Crypto sentiment signals tracked against ETF proxies (IBIT, ETHA). Scored at 6/12/24/72-hour horizons.</p><div style="display:flex; gap:2rem; margin-bottom:1.5rem; flex-wrap:wrap;"><div style="text-align:center;"><div style="font-size:1.8rem; font-weight:700; color:var(--teal,#0d7680);">3</div><div style="font-size:0.75rem; color:#666;">Signals</div></div><div style="text-align:center;"><div style="font-size:1.8rem; font-weight:700; color:var(--teal,#0d7680);">2</div><div style="font-size:0.75rem; color:#666;">Positions</div></div><div style="text-align:center;"><div style="font-size:1.8rem; font-weight:700; color:var(--teal,#0d7680);">2</div><div style="font-size:0.75rem; color:#666;">Active</div></div></div><table style="border-collapse:collapse; width:100%%; margin-bottom:1.5rem;"><tr style="background:var(--teal,#0d7680); color:#fff;"><th style="padding:8px; text-align:left;">Horizon</th><th style="padding:8px;">Hit Rate</th><th style="padding:8px;">Hits / Total</th></tr><tr style="border-bottom:1px solid #ddd;"><td style="padding:8px;">6h</td><td style="padding:8px; text-align:center;">pending</td><td style="padding:8px; text-align:center;">—</td></tr><tr style="border-bottom:1px solid #ddd;"><td style="padding:8px;">12h</td><td style="padding:8px; text-align:center;">pending</td><td style="padding:8px; text-align:center;">—</td></tr><tr style="border-bottom:1px solid #ddd;"><td style="padding:8px;">24h</td><td style="padding:8px; text-align:center;">pending</td><td style="padding:8px; text-align:center;">—</td></tr><tr style="border-bottom:1px solid #ddd;"><td style="padding:8px;">72h</td><td style="padding:8px; text-align:center;">pending</td><td style="padding:8px; text-align:center;">—</td></tr></table><h3 style="font-family:Montserrat,sans-serif; margin:1.5rem 0 0.5rem;">Active Positions</h3><div style="display:grid; grid-template-columns:repeat(auto-fill, minmax(250px, 1fr)); gap:1rem; margin-bottom:1.5rem;"><div style="background:#fff; border-radius:8px; padding:1rem; border-left:4px solid #0d7680; box-shadow:0 1px 3px rgba(0,0,0,0.1);">
-  <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:0.5rem;">
-    <span style="font-size:1.2rem; font-weight:700;">▲ ETHA</span>
-    <span style="font-size:1rem; font-weight:600; color:#0d7680;">UP</span>
+<div class="content">
+
+<div style="text-align:center; padding:2.5rem 0 0.5rem; max-width:560px; margin:0 auto;">
+  <div class="section-label" style="color:var(--teal); margin-bottom:0.4rem;">Crypto Desk</div>
+  <h1 style="font-weight:900; font-size:2.2rem; line-height:1.15; margin-bottom:0.8rem;">Narrative signals for crypto before the market moves</h1>
+  <p style="font-size:0.88rem; color:var(--muted); line-height:1.6;">We read thousands of sources daily to extract directional pressure on Bitcoin and Ethereum, then test those calls against live ETF proxies. Separately, we grade 32 crypto predictions and search Polymarket and Kalshi for matching contracts to paper-trade.</p>
+</div>
+
+<!-- Primary stats -->
+<div class="stats-grid-4" style="margin:1.5rem 0;">
+  <div class="stat-card"><div class="stat-number">3</div><div class="stat-label">NAS Signals</div></div>
+  <div class="stat-card"><div class="stat-number">2</div><div class="stat-label">Active Positions</div></div>
+  <div class="stat-card"><div class="stat-number">32</div><div class="stat-label">Predictions Graded</div></div>
+  <div class="stat-card"><div class="stat-number">17</div><div class="stat-label">Market Matched</div></div>
+</div>
+
+<div class="section-rule-heavy" style="margin-top:2rem;"></div>
+<div class="section-header"><span class="section-label">Section 1</span></div>
+<h2 style="font-weight:900; font-size:1.4rem; margin-bottom:0.3rem;">Signal Desk</h2>
+<p style="font-size:0.82rem; color:var(--muted); margin-bottom:1.5rem;">Crypto narrative signals mapped to ETF proxies (IBIT for Bitcoin, ETHA for Ethereum). Each call is timestamped and scored at 6, 12, 24, and 72 hours. A hit is a move of &gt;0.5%% in the predicted direction.</p>
+<p style="font-size:0.82rem; color:var(--light); background:var(--off); padding:1rem; border-radius:8px; margin-bottom:1.5rem;">Signals are being tracked. Hit rates will appear once the first 6-hour horizon completes.</p><h3 style="font-weight:800; font-size:1rem; margin:1.5rem 0 0.8rem;">Active Positions</h3><div style="display:grid; grid-template-columns:repeat(auto-fill, minmax(280px, 1fr)); gap:1rem; margin-bottom:1.5rem;"><div style="background:var(--white); border-radius:8px; padding:1rem 1.2rem; border-left:4px solid var(--teal); box-shadow:0 1px 3px rgba(0,0,0,0.06); transition:border-color 0.2s;">
+  <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:0.3rem;">
+    <span style="font-size:1.3rem; font-weight:900; font-family:Montserrat,sans-serif;">▲ ETHA</span>
+    <span style="font-size:0.8rem; font-weight:700; color:var(--teal); letter-spacing:0.06em;">UP</span>
   </div>
-  <div style="font-size:0.8rem; color:#666; margin-bottom:0.4rem;">ether</div>
+  <div style="font-size:0.78rem; color:var(--muted); margin-bottom:0.5rem;">ether • entry $14.97</div>
   <div style="display:flex; justify-content:space-between; align-items:center;">
-    <span style="font-size:0.75rem; background:#e8f5e9; color:#2e7d32; padding:2px 8px; border-radius:4px;">AHEAD</span>
-    <span style="font-size:0.85rem; font-weight:600; color:#0d7680;">—</span>
+    <span style="font-size:0.7rem; background:var(--teal-light); color:var(--teal); padding:2px 8px; border-radius:4px; font-weight:600;">AHEAD</span>
+    <span style="color:var(--light);">awaiting data</span>
+  </div><div style="margin-top:0.4rem;"><span style="font-size:0.65rem; background:var(--off); color:var(--muted); padding:2px 6px; border-radius:3px; margin-right:4px;">Macroeconomic Capital Allocation</span><span style="font-size:0.65rem; background:var(--off); color:var(--muted); padding:2px 6px; border-radius:3px; margin-right:4px;">Decentralised Finance Activity</span><span style="font-size:0.65rem; background:var(--off); color:var(--muted); padding:2px 6px; border-radius:3px; margin-right:4px;">Protocol Development</span></div>
+</div><div style="background:var(--white); border-radius:8px; padding:1rem 1.2rem; border-left:4px solid var(--red); box-shadow:0 1px 3px rgba(0,0,0,0.06); transition:border-color 0.2s;">
+  <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:0.3rem;">
+    <span style="font-size:1.3rem; font-weight:900; font-family:Montserrat,sans-serif;">▼ IBIT</span>
+    <span style="font-size:0.8rem; font-weight:700; color:var(--red); letter-spacing:0.06em;">DOWN</span>
   </div>
-</div><div style="background:#fff; border-radius:8px; padding:1rem; border-left:4px solid #b71c1c; box-shadow:0 1px 3px rgba(0,0,0,0.1);">
-  <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:0.5rem;">
-    <span style="font-size:1.2rem; font-weight:700;">▼ IBIT</span>
-    <span style="font-size:1rem; font-weight:600; color:#b71c1c;">DOWN</span>
-  </div>
-  <div style="font-size:0.8rem; color:#666; margin-bottom:0.4rem;">bitcoin and ethereum cryptocurrency market</div>
+  <div style="font-size:0.78rem; color:var(--muted); margin-bottom:0.5rem;">bitcoin and ethereum cryptocurrency market • entry $38.60</div>
   <div style="display:flex; justify-content:space-between; align-items:center;">
-    <span style="font-size:0.75rem; background:#e8f5e9; color:#2e7d32; padding:2px 8px; border-radius:4px;">AHEAD</span>
-    <span style="font-size:0.85rem; font-weight:600; color:#b71c1c;">—</span>
+    <span style="font-size:0.7rem; background:var(--teal-light); color:var(--teal); padding:2px 8px; border-radius:4px; font-weight:600;">AHEAD</span>
+    <span style="color:var(--light);">awaiting data</span>
+  </div><div style="margin-top:0.4rem;"><span style="font-size:0.65rem; background:var(--off); color:var(--muted); padding:2px 6px; border-radius:3px; margin-right:4px;">Regulatory Enforcement And Sanctions</span><span style="font-size:0.65rem; background:var(--off); color:var(--muted); padding:2px 6px; border-radius:3px; margin-right:4px;">Exchange Stability</span><span style="font-size:0.65rem; background:var(--off); color:var(--muted); padding:2px 6px; border-radius:3px; margin-right:4px;">Macroeconomic Shocks And Liquidity</span></div>
+</div></div>
+<div class="section-rule-heavy" style="margin-top:2.5rem;"></div>
+<div class="section-header"><span class="section-label">Section 2</span></div>
+<h2 style="font-weight:900; font-size:1.4rem; margin-bottom:0.3rem;">Crypto Predictions</h2>
+<p style="font-size:0.82rem; color:var(--muted); margin-bottom:1.5rem;">Our crypto intelligence engine grades each prediction A–E based on source quality, consensus, and momentum. Grade A and B predictions with CONSENSUS classification are searched against Polymarket and Kalshi for matching contracts to paper-trade using our Wave Rider strategy.</p>
+<div style="display:flex; gap:0; margin-bottom:1.5rem; border-radius:6px; overflow:hidden; height:32px;"><div style="flex:15.6; background:var(--green-light); display:flex; align-items:center; justify-content:center; min-width:28px;"><span style="font-size:0.7rem; font-weight:700; color:var(--green);">B:5</span></div><div style="flex:31.2; background:var(--amber-light); display:flex; align-items:center; justify-content:center; min-width:28px;"><span style="font-size:0.7rem; font-weight:700; color:var(--amber);">C:10</span></div><div style="flex:43.8; background:#fef2f2; display:flex; align-items:center; justify-content:center; min-width:28px;"><span style="font-size:0.7rem; font-weight:700; color:var(--red);">D:14</span></div><div style="flex:9.4; background:#fef2f2; display:flex; align-items:center; justify-content:center; min-width:28px;"><span style="font-size:0.7rem; font-weight:700; color:var(--red);">E:3</span></div></div><h3 style="font-weight:800; font-size:1rem; margin:1rem 0 0.5rem;">Tradeable Intelligence <span style="font-size:0.72rem; font-weight:600; color:var(--teal); background:var(--teal-light); padding:2px 8px; border-radius:4px; margin-left:0.5rem;">Grade A &amp; B</span></h3><p style="font-size:0.78rem; color:var(--muted); margin-bottom:1rem;">These are our highest-conviction crypto predictions. We actively search Polymarket and Kalshi for matching contracts to paper-trade.</p><div style="display:grid; grid-template-columns:1fr; gap:0.8rem; margin-bottom:1.5rem;"><div style="background:var(--white); border-radius:8px; padding:1rem 1.2rem; border:1px solid var(--rule); transition:border-color 0.2s;" onmouseover="this.style.borderColor='var(--teal)'" onmouseout="this.style.borderColor='var(--rule)'">
+  <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:0.4rem;">
+    <div style="display:flex; gap:0.4rem; align-items:center;">
+      <span style="font-size:0.75rem; font-weight:800; background:var(--green-light); color:var(--green); padding:2px 7px; border-radius:4px;">B</span>
+      <span style="font-size:0.65rem; font-weight:600; background:var(--amber-light); color:var(--amber); padding:1px 6px; border-radius:3px; text-transform:uppercase; letter-spacing:0.06em;">EME</span> 
+    </div>
+    <span style="font-size:1.2rem; font-weight:900; color:var(--teal);">63%</span>
   </div>
-</div></div><h3 style="font-family:Montserrat,sans-serif; margin:1.5rem 0 0.5rem;">Cascade Leaderboard</h3><table style="border-collapse:collapse; width:100%%; margin-bottom:1.5rem;"><tr style="background:var(--teal,#0d7680); color:#fff;"><th style="padding:8px; text-align:left;">Category</th><th style="padding:8px;">24h Hit Rate</th><th style="padding:8px;">Positions</th><th style="padding:8px;">Tickers</th></tr><tr style="border-bottom:1px solid #ddd;"><td style="padding:8px;">ether</td><td style="padding:8px; text-align:center;">pending</td><td style="padding:8px; text-align:center;">1</td><td style="padding:8px;">ETHA</td></tr><tr style="border-bottom:1px solid #ddd;"><td style="padding:8px;">bitcoin and ethereum cryptocurrency market</td><td style="padding:8px; text-align:center;">pending</td><td style="padding:8px; text-align:center;">1</td><td style="padding:8px;">IBIT</td></tr></table></div><div style="max-width:var(--max-width,900px); margin:0 auto; padding:1rem 2rem;"><h2 style="font-family:Montserrat,sans-serif; color:var(--teal,#0d7680); margin-bottom:0.5rem;">Crypto Predictions</h2><p style="color:#666; margin-bottom:1.5rem;">Predictive Market Intelligence beliefs graded A–E and tracked against prediction market outcomes.</p><div style="display:flex; gap:2rem; margin-bottom:1.5rem; flex-wrap:wrap;"><div style="text-align:center;"><div style="font-size:1.8rem; font-weight:700; color:var(--teal,#0d7680);">3</div><div style="font-size:0.75rem; color:#666;">Reports</div></div><div style="text-align:center;"><div style="font-size:1.8rem; font-weight:700; color:var(--teal,#0d7680);">32</div><div style="font-size:0.75rem; color:#666;">Beliefs</div></div><div style="text-align:center;"><div style="font-size:1.5rem; font-weight:700; color:#2e7d32;">5</div><div style="font-size:0.75rem; color:#666;">Grade B</div></div><div style="text-align:center;"><div style="font-size:1.5rem; font-weight:700; color:#f57c00;">10</div><div style="font-size:0.75rem; color:#666;">Grade C</div></div><div style="text-align:center;"><div style="font-size:1.5rem; font-weight:700; color:#d84315;">14</div><div style="font-size:0.75rem; color:#666;">Grade D</div></div><div style="text-align:center;"><div style="font-size:1.5rem; font-weight:700; color:#b71c1c;">3</div><div style="font-size:0.75rem; color:#666;">Grade E</div></div></div><div style="display:grid; grid-template-columns:repeat(auto-fill, minmax(300px, 1fr)); gap:1rem; margin-bottom:1.5rem;"><div style="background:#fff; border-radius:8px; padding:1rem; box-shadow:0 1px 3px rgba(0,0,0,0.1);">
-  <div style="display:flex; justify-content:space-between; align-items:flex-start; margin-bottom:0.5rem;">
-    <div style="font-size:0.85rem; line-height:1.3; flex:1; margin-right:0.5rem;">House view (17%): The &#39;Joseph Moss&#39; stablecoin-related reputational thread breaks out into broade...</div>
-    <div style="display:flex; gap:0.5rem; align-items:center; flex-shrink:0;">
-      <span style="font-size:1.1rem; font-weight:700; color:#b71c1c;">17%</span>
-      <span style="font-size:0.9rem; font-weight:700; color:#b71c1c; border:2px solid #b71c1c; border-radius:4px; padding:0 6px;">E</span>
+  <div style="font-size:0.82rem; line-height:1.45; color:var(--ink-soft); margin-bottom:0.5rem;">House view (63%): US spot Bitcoin ETFs will see net inflows over the next three US trading days ending 2026-03-09, consistent with institutional-demand narratives remaining supportive rather than r...</div>
+  <div style="display:flex; justify-content:space-between; align-items:center;">
+    <span style="font-size:0.75rem; color:var(--teal);">▲ upward</span>
+    <span style="font-size:0.68rem; font-weight:600; background:var(--amber-light); color:var(--amber); padding:2px 8px; border-radius:4px;">TRACKING</span>
+  </div><div style="height:3px; background:var(--rule); border-radius:2px; margin-top:0.5rem;"><div style="height:3px; background:var(--teal); border-radius:2px; width:63%"></div></div>
+</div><div style="background:var(--white); border-radius:8px; padding:1rem 1.2rem; border:1px solid var(--rule); transition:border-color 0.2s;" onmouseover="this.style.borderColor='var(--teal)'" onmouseout="this.style.borderColor='var(--rule)'">
+  <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:0.4rem;">
+    <div style="display:flex; gap:0.4rem; align-items:center;">
+      <span style="font-size:0.75rem; font-weight:800; background:var(--green-light); color:var(--green); padding:2px 7px; border-radius:4px;">B</span>
+      <span style="font-size:0.65rem; font-weight:600; background:var(--amber-light); color:var(--amber); padding:1px 6px; border-radius:3px; text-transform:uppercase; letter-spacing:0.06em;">EME</span> <span style="font-size:0.65rem; font-weight:600; background:var(--indigo-light); color:var(--indigo); padding:1px 6px; border-radius:3px;">KALSHI</span>
+    </div>
+    <span style="font-size:1.2rem; font-weight:900; color:var(--red);">54%</span>
+  </div>
+  <div style="font-size:0.82rem; line-height:1.45; color:var(--ink-soft); margin-bottom:0.5rem;">Based on the current corpus, the probability is 54% that macro/Fed-linked risk framing remains dominant enough through 2026-03-09 to increase the odds of broad crypto weakness/volatility (including...</div>
+  <div style="display:flex; justify-content:space-between; align-items:center;">
+    <span style="font-size:0.75rem; color:var(--red);">▼ downward</span>
+    <span style="font-size:0.68rem; font-weight:600; background:var(--amber-light); color:var(--amber); padding:2px 8px; border-radius:4px;">TRACKING</span>
+  </div><div style="height:3px; background:var(--rule); border-radius:2px; margin-top:0.5rem;"><div style="height:3px; background:var(--red); border-radius:2px; width:54%"></div></div>
+</div><div style="background:var(--white); border-radius:8px; padding:1rem 1.2rem; border:1px solid var(--rule); transition:border-color 0.2s;" onmouseover="this.style.borderColor='var(--teal)'" onmouseout="this.style.borderColor='var(--rule)'">
+  <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:0.4rem;">
+    <div style="display:flex; gap:0.4rem; align-items:center;">
+      <span style="font-size:0.75rem; font-weight:800; background:var(--green-light); color:var(--green); padding:2px 7px; border-radius:4px;">B</span>
+      <span style="font-size:0.65rem; font-weight:600; background:var(--amber-light); color:var(--amber); padding:1px 6px; border-radius:3px; text-transform:uppercase; letter-spacing:0.06em;">EME</span> 
+    </div>
+    <span style="font-size:1.2rem; font-weight:900; color:var(--teal);">57%</span>
+  </div>
+  <div style="font-size:0.82rem; line-height:1.45; color:var(--ink-soft); margin-bottom:0.5rem;">Based on the current corpus, the probability is 57% that short-horizon rotation narratives favour ETH (relative to a broad altcoin basket) through 2026-03-09, increasing the odds of ETH relative st...</div>
+  <div style="display:flex; justify-content:space-between; align-items:center;">
+    <span style="font-size:0.75rem; color:var(--teal);">▲ upward</span>
+    <span style="font-size:0.68rem; font-weight:600; background:var(--amber-light); color:var(--amber); padding:2px 8px; border-radius:4px;">TRACKING</span>
+  </div><div style="height:3px; background:var(--rule); border-radius:2px; margin-top:0.5rem;"><div style="height:3px; background:var(--teal); border-radius:2px; width:57%"></div></div>
+</div><div style="background:var(--white); border-radius:8px; padding:1rem 1.2rem; border:1px solid var(--rule); transition:border-color 0.2s;" onmouseover="this.style.borderColor='var(--teal)'" onmouseout="this.style.borderColor='var(--rule)'">
+  <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:0.4rem;">
+    <div style="display:flex; gap:0.4rem; align-items:center;">
+      <span style="font-size:0.75rem; font-weight:800; background:var(--green-light); color:var(--green); padding:2px 7px; border-radius:4px;">B</span>
+      <span style="font-size:0.65rem; font-weight:600; background:var(--indigo-light); color:var(--indigo); padding:1px 6px; border-radius:3px; text-transform:uppercase; letter-spacing:0.06em;">CON</span> 
+    </div>
+    <span style="font-size:1.2rem; font-weight:900; color:var(--teal);">63%</span>
+  </div>
+  <div style="font-size:0.82rem; line-height:1.45; color:var(--ink-soft); margin-bottom:0.5rem;">Based on the current corpus, the probability is 63% that Ethereum L2 adoption narratives (notably Base/Optimism and Coinbase-linked ecosystem growth) continue to strengthen through 2026-03-09, incr...</div>
+  <div style="display:flex; justify-content:space-between; align-items:center;">
+    <span style="font-size:0.75rem; color:var(--teal);">▲ upward</span>
+    <span style="font-size:0.68rem; font-weight:600; background:var(--amber-light); color:var(--amber); padding:2px 8px; border-radius:4px;">TRACKING</span>
+  </div><div style="height:3px; background:var(--rule); border-radius:2px; margin-top:0.5rem;"><div style="height:3px; background:var(--teal); border-radius:2px; width:63%"></div></div>
+</div><div style="background:var(--white); border-radius:8px; padding:1rem 1.2rem; border:1px solid var(--rule); transition:border-color 0.2s;" onmouseover="this.style.borderColor='var(--teal)'" onmouseout="this.style.borderColor='var(--rule)'">
+  <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:0.4rem;">
+    <div style="display:flex; gap:0.4rem; align-items:center;">
+      <span style="font-size:0.75rem; font-weight:800; background:var(--green-light); color:var(--green); padding:2px 7px; border-radius:4px;">B</span>
+      <span style="font-size:0.65rem; font-weight:600; background:var(--indigo-light); color:var(--indigo); padding:1px 6px; border-radius:3px; text-transform:uppercase; letter-spacing:0.06em;">CON</span> <span style="font-size:0.65rem; font-weight:600; background:var(--indigo-light); color:var(--indigo); padding:1px 6px; border-radius:3px;">KALSHI</span>
+    </div>
+    <span style="font-size:1.2rem; font-weight:900; color:var(--muted);">72%</span>
+  </div>
+  <div style="font-size:0.82rem; line-height:1.45; color:var(--ink-soft); margin-bottom:0.5rem;">Through 2026-03-09, Bitcoin price/coverage remains primarily driven by US macro conditions (rates, inflation, liquidity) rather than purely crypto-idiosyncratic catalysts.</div>
+  <div style="display:flex; justify-content:space-between; align-items:center;">
+    <span style="font-size:0.75rem; color:var(--muted);">◆ stalled</span>
+    <span style="font-size:0.68rem; font-weight:600; background:var(--amber-light); color:var(--amber); padding:2px 8px; border-radius:4px;">TRACKING</span>
+  </div><div style="height:3px; background:var(--rule); border-radius:2px; margin-top:0.5rem;"><div style="height:3px; background:var(--muted); border-radius:2px; width:72%"></div></div>
+</div></div><h3 style="font-weight:800; font-size:1rem; margin:1.5rem 0 0.5rem;">Monitoring <span style="font-size:0.72rem; font-weight:600; color:var(--muted); background:var(--off); padding:2px 8px; border-radius:4px; margin-left:0.5rem;">Grade C–E</span></h3><p style="font-size:0.78rem; color:var(--muted); margin-bottom:1rem;">Lower-conviction predictions tracked for narrative intelligence. Not eligible for paper trading.</p><div style="display:grid; grid-template-columns:repeat(auto-fill, minmax(320px, 1fr)); gap:0.8rem; margin-bottom:1.5rem;"><div style="background:var(--white); border-radius:8px; padding:1rem 1.2rem; border:1px solid var(--rule); transition:border-color 0.2s;" onmouseover="this.style.borderColor='var(--teal)'" onmouseout="this.style.borderColor='var(--rule)'">
+  <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:0.4rem;">
+    <div style="display:flex; gap:0.4rem; align-items:center;">
+      <span style="font-size:0.75rem; font-weight:800; background:#fef2f2; color:var(--red); padding:2px 7px; border-radius:4px;">E</span>
+      <span style="font-size:0.65rem; font-weight:600; background:var(--teal-light); color:var(--teal); padding:1px 6px; border-radius:3px; text-transform:uppercase; letter-spacing:0.06em;">FRO</span> 
+    </div>
+    <span style="font-size:1.2rem; font-weight:900; color:var(--muted);">17%</span>
+  </div>
+  <div style="font-size:0.82rem; line-height:1.45; color:var(--ink-soft); margin-bottom:0.5rem;">House view (17%): The &#39;Joseph Moss&#39; stablecoin-related reputational thread breaks out into broader, higher-authority ...</div>
+  <div style="display:flex; justify-content:space-between; align-items:center;">
+    <span style="font-size:0.75rem; color:var(--muted);">◆ volatile</span>
+    <span style="font-size:0.68rem; font-weight:600; background:var(--amber-light); color:var(--amber); padding:2px 8px; border-radius:4px;">TRACKING</span>
+  </div><div style="height:3px; background:var(--rule); border-radius:2px; margin-top:0.5rem;"><div style="height:3px; background:var(--muted); border-radius:2px; width:17%"></div></div>
+</div><div style="background:var(--white); border-radius:8px; padding:1rem 1.2rem; border:1px solid var(--rule); transition:border-color 0.2s;" onmouseover="this.style.borderColor='var(--teal)'" onmouseout="this.style.borderColor='var(--rule)'">
+  <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:0.4rem;">
+    <div style="display:flex; gap:0.4rem; align-items:center;">
+      <span style="font-size:0.75rem; font-weight:800; background:#fef2f2; color:var(--red); padding:2px 7px; border-radius:4px;">E</span>
+      <span style="font-size:0.65rem; font-weight:600; background:var(--teal-light); color:var(--teal); padding:1px 6px; border-radius:3px; text-transform:uppercase; letter-spacing:0.06em;">FRO</span> 
+    </div>
+    <span style="font-size:1.2rem; font-weight:900; color:var(--red);">23%</span>
+  </div>
+  <div style="font-size:0.82rem; line-height:1.45; color:var(--ink-soft); margin-bottom:0.5rem;">House view (23%): A miner-treasury sale or miner-financing headline specifically tied to the Bitdeer/Jihan Wu lane be...</div>
+  <div style="display:flex; justify-content:space-between; align-items:center;">
+    <span style="font-size:0.75rem; color:var(--red);">▼ downward</span>
+    <span style="font-size:0.68rem; font-weight:600; background:var(--amber-light); color:var(--amber); padding:2px 8px; border-radius:4px;">TRACKING</span>
+  </div><div style="height:3px; background:var(--rule); border-radius:2px; margin-top:0.5rem;"><div style="height:3px; background:var(--red); border-radius:2px; width:23%"></div></div>
+</div><div style="background:var(--white); border-radius:8px; padding:1rem 1.2rem; border:1px solid var(--rule); transition:border-color 0.2s;" onmouseover="this.style.borderColor='var(--teal)'" onmouseout="this.style.borderColor='var(--rule)'">
+  <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:0.4rem;">
+    <div style="display:flex; gap:0.4rem; align-items:center;">
+      <span style="font-size:0.75rem; font-weight:800; background:#fef2f2; color:var(--red); padding:2px 7px; border-radius:4px;">E</span>
+      <span style="font-size:0.65rem; font-weight:600; background:var(--teal-light); color:var(--teal); padding:1px 6px; border-radius:3px; text-transform:uppercase; letter-spacing:0.06em;">FRO</span> 
+    </div>
+    <span style="font-size:1.2rem; font-weight:900; color:var(--muted);">27%</span>
+  </div>
+  <div style="font-size:0.82rem; line-height:1.45; color:var(--ink-soft); margin-bottom:0.5rem;">House view (27%): A new, widely circulated US SEC enforcement headline materially impacting crypto majors emerges bet...</div>
+  <div style="display:flex; justify-content:space-between; align-items:center;">
+    <span style="font-size:0.75rem; color:var(--muted);">◆ volatile</span>
+    <span style="font-size:0.68rem; font-weight:600; background:var(--amber-light); color:var(--amber); padding:2px 8px; border-radius:4px;">TRACKING</span>
+  </div><div style="height:3px; background:var(--rule); border-radius:2px; margin-top:0.5rem;"><div style="height:3px; background:var(--muted); border-radius:2px; width:27%"></div></div>
+</div><div style="background:var(--white); border-radius:8px; padding:1rem 1.2rem; border:1px solid var(--rule); transition:border-color 0.2s;" onmouseover="this.style.borderColor='var(--teal)'" onmouseout="this.style.borderColor='var(--rule)'">
+  <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:0.4rem;">
+    <div style="display:flex; gap:0.4rem; align-items:center;">
+      <span style="font-size:0.75rem; font-weight:800; background:#fef2f2; color:var(--red); padding:2px 7px; border-radius:4px;">D</span>
+      <span style="font-size:0.65rem; font-weight:600; background:var(--teal-light); color:var(--teal); padding:1px 6px; border-radius:3px; text-transform:uppercase; letter-spacing:0.06em;">FRO</span> <span style="font-size:0.65rem; font-weight:600; background:var(--teal-light); color:var(--teal); padding:1px 6px; border-radius:3px;">POLY</span>
+    </div>
+    <span style="font-size:1.2rem; font-weight:900; color:var(--muted);">86%</span>
+  </div>
+  <div style="font-size:0.82rem; line-height:1.45; color:var(--ink-soft); margin-bottom:0.5rem;">House view (86%): No Tier-A-confirmed headline indicating a major BTC liquidation by a flagship corporate treasury ho...</div>
+  <div style="display:flex; justify-content:space-between; align-items:center;">
+    <span style="font-size:0.75rem; color:var(--muted);">◆ stalled</span>
+    <span style="font-size:0.68rem; font-weight:600; background:var(--amber-light); color:var(--amber); padding:2px 8px; border-radius:4px;">TRACKING</span>
+  </div><div style="height:3px; background:var(--rule); border-radius:2px; margin-top:0.5rem;"><div style="height:3px; background:var(--muted); border-radius:2px; width:86%"></div></div>
+</div><div style="background:var(--white); border-radius:8px; padding:1rem 1.2rem; border:1px solid var(--rule); transition:border-color 0.2s;" onmouseover="this.style.borderColor='var(--teal)'" onmouseout="this.style.borderColor='var(--rule)'">
+  <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:0.4rem;">
+    <div style="display:flex; gap:0.4rem; align-items:center;">
+      <span style="font-size:0.75rem; font-weight:800; background:var(--amber-light); color:var(--amber); padding:2px 7px; border-radius:4px;">C</span>
+      <span style="font-size:0.65rem; font-weight:600; background:var(--amber-light); color:var(--amber); padding:1px 6px; border-radius:3px; text-transform:uppercase; letter-spacing:0.06em;">EME</span> <span style="font-size:0.65rem; font-weight:600; background:var(--indigo-light); color:var(--indigo); padding:1px 6px; border-radius:3px;">KALSHI</span>
+    </div>
+    <span style="font-size:1.2rem; font-weight:900; color:var(--muted);">66%</span>
+  </div>
+  <div style="font-size:0.82rem; line-height:1.45; color:var(--ink-soft); margin-bottom:0.5rem;">House view (66%): Iran-linked geopolitical risk remains a prominent volatility driver in crypto coverage between 2026...</div>
+  <div style="display:flex; justify-content:space-between; align-items:center;">
+    <span style="font-size:0.75rem; color:var(--muted);">◆ volatile</span>
+    <span style="font-size:0.68rem; font-weight:600; background:var(--amber-light); color:var(--amber); padding:2px 8px; border-radius:4px;">TRACKING</span>
+  </div><div style="height:3px; background:var(--rule); border-radius:2px; margin-top:0.5rem;"><div style="height:3px; background:var(--muted); border-radius:2px; width:66%"></div></div>
+</div><div style="background:var(--white); border-radius:8px; padding:1rem 1.2rem; border:1px solid var(--rule); transition:border-color 0.2s;" onmouseover="this.style.borderColor='var(--teal)'" onmouseout="this.style.borderColor='var(--rule)'">
+  <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:0.4rem;">
+    <div style="display:flex; gap:0.4rem; align-items:center;">
+      <span style="font-size:0.75rem; font-weight:800; background:var(--amber-light); color:var(--amber); padding:2px 7px; border-radius:4px;">C</span>
+      <span style="font-size:0.65rem; font-weight:600; background:var(--indigo-light); color:var(--indigo); padding:1px 6px; border-radius:3px; text-transform:uppercase; letter-spacing:0.06em;">CON</span> <span style="font-size:0.65rem; font-weight:600; background:var(--indigo-light); color:var(--indigo); padding:1px 6px; border-radius:3px;">KALSHI</span>
+    </div>
+    <span style="font-size:1.2rem; font-weight:900; color:var(--red);">54%</span>
+  </div>
+  <div style="font-size:0.82rem; line-height:1.45; color:var(--ink-soft); margin-bottom:0.5rem;">House view (54%): Macro/Fed narratives between 2026-03-06 and 2026-03-09 are more likely to be interpreted as restric...</div>
+  <div style="display:flex; justify-content:space-between; align-items:center;">
+    <span style="font-size:0.75rem; color:var(--red);">▼ downward</span>
+    <span style="font-size:0.68rem; font-weight:600; background:var(--amber-light); color:var(--amber); padding:2px 8px; border-radius:4px;">TRACKING</span>
+  </div><div style="height:3px; background:var(--rule); border-radius:2px; margin-top:0.5rem;"><div style="height:3px; background:var(--red); border-radius:2px; width:54%"></div></div>
+</div><div style="background:var(--white); border-radius:8px; padding:1rem 1.2rem; border:1px solid var(--rule); transition:border-color 0.2s;" onmouseover="this.style.borderColor='var(--teal)'" onmouseout="this.style.borderColor='var(--rule)'">
+  <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:0.4rem;">
+    <div style="display:flex; gap:0.4rem; align-items:center;">
+      <span style="font-size:0.75rem; font-weight:800; background:#fef2f2; color:var(--red); padding:2px 7px; border-radius:4px;">D</span>
+      <span style="font-size:0.65rem; font-weight:600; background:var(--amber-light); color:var(--amber); padding:1px 6px; border-radius:3px; text-transform:uppercase; letter-spacing:0.06em;">EME</span> <span style="font-size:0.65rem; font-weight:600; background:var(--indigo-light); color:var(--indigo); padding:1px 6px; border-radius:3px;">KALSHI</span>
+    </div>
+    <span style="font-size:1.2rem; font-weight:900; color:var(--red);">58%</span>
+  </div>
+  <div style="font-size:0.82rem; line-height:1.45; color:var(--ink-soft); margin-bottom:0.5rem;">House view (58%): Between 2026-03-06 and 2026-03-09, mining-economics narratives (profitability/financing pressure) i...</div>
+  <div style="display:flex; justify-content:space-between; align-items:center;">
+    <span style="font-size:0.75rem; color:var(--red);">▼ downward</span>
+    <span style="font-size:0.68rem; font-weight:600; background:var(--amber-light); color:var(--amber); padding:2px 8px; border-radius:4px;">TRACKING</span>
+  </div><div style="height:3px; background:var(--rule); border-radius:2px; margin-top:0.5rem;"><div style="height:3px; background:var(--red); border-radius:2px; width:58%"></div></div>
+</div><div style="background:var(--white); border-radius:8px; padding:1rem 1.2rem; border:1px solid var(--rule); transition:border-color 0.2s;" onmouseover="this.style.borderColor='var(--teal)'" onmouseout="this.style.borderColor='var(--rule)'">
+  <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:0.4rem;">
+    <div style="display:flex; gap:0.4rem; align-items:center;">
+      <span style="font-size:0.75rem; font-weight:800; background:#fef2f2; color:var(--red); padding:2px 7px; border-radius:4px;">D</span>
+      <span style="font-size:0.65rem; font-weight:600; background:var(--indigo-light); color:var(--indigo); padding:1px 6px; border-radius:3px; text-transform:uppercase; letter-spacing:0.06em;">CON</span> <span style="font-size:0.65rem; font-weight:600; background:var(--indigo-light); color:var(--indigo); padding:1px 6px; border-radius:3px;">KALSHI</span>
+    </div>
+    <span style="font-size:1.2rem; font-weight:900; color:var(--red);">64%</span>
+  </div>
+  <div style="font-size:0.82rem; line-height:1.45; color:var(--ink-soft); margin-bottom:0.5rem;">House view (64%): Overall crypto market liquidity conditions (exchange depth/stablecoin flow narratives) remain const...</div>
+  <div style="display:flex; justify-content:space-between; align-items:center;">
+    <span style="font-size:0.75rem; color:var(--red);">▼ downward</span>
+    <span style="font-size:0.68rem; font-weight:600; background:var(--amber-light); color:var(--amber); padding:2px 8px; border-radius:4px;">TRACKING</span>
+  </div><div style="height:3px; background:var(--rule); border-radius:2px; margin-top:0.5rem;"><div style="height:3px; background:var(--red); border-radius:2px; width:64%"></div></div>
+</div><div style="background:var(--white); border-radius:8px; padding:1rem 1.2rem; border:1px solid var(--rule); transition:border-color 0.2s;" onmouseover="this.style.borderColor='var(--teal)'" onmouseout="this.style.borderColor='var(--rule)'">
+  <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:0.4rem;">
+    <div style="display:flex; gap:0.4rem; align-items:center;">
+      <span style="font-size:0.75rem; font-weight:800; background:#fef2f2; color:var(--red); padding:2px 7px; border-radius:4px;">D</span>
+      <span style="font-size:0.65rem; font-weight:600; background:var(--amber-light); color:var(--amber); padding:1px 6px; border-radius:3px; text-transform:uppercase; letter-spacing:0.06em;">EME</span> <span style="font-size:0.65rem; font-weight:600; background:var(--indigo-light); color:var(--indigo); padding:1px 6px; border-radius:3px;">KALSHI</span>
+    </div>
+    <span style="font-size:1.2rem; font-weight:900; color:var(--muted);">19%</span>
+  </div>
+  <div style="font-size:0.82rem; line-height:1.45; color:var(--ink-soft); margin-bottom:0.5rem;">House view (19%): A material stability scare involving a major USD stablecoin (e.g., sustained depeg/redemption stres...</div>
+  <div style="display:flex; justify-content:space-between; align-items:center;">
+    <span style="font-size:0.75rem; color:var(--muted);">◆ volatile</span>
+    <span style="font-size:0.68rem; font-weight:600; background:var(--amber-light); color:var(--amber); padding:2px 8px; border-radius:4px;">TRACKING</span>
+  </div><div style="height:3px; background:var(--rule); border-radius:2px; margin-top:0.5rem;"><div style="height:3px; background:var(--muted); border-radius:2px; width:19%"></div></div>
+</div><div style="background:var(--white); border-radius:8px; padding:1rem 1.2rem; border:1px solid var(--rule); transition:border-color 0.2s;" onmouseover="this.style.borderColor='var(--teal)'" onmouseout="this.style.borderColor='var(--rule)'">
+  <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:0.4rem;">
+    <div style="display:flex; gap:0.4rem; align-items:center;">
+      <span style="font-size:0.75rem; font-weight:800; background:var(--amber-light); color:var(--amber); padding:2px 7px; border-radius:4px;">C</span>
+      <span style="font-size:0.65rem; font-weight:600; background:var(--indigo-light); color:var(--indigo); padding:1px 6px; border-radius:3px; text-transform:uppercase; letter-spacing:0.06em;">CON</span> 
+    </div>
+    <span style="font-size:1.2rem; font-weight:900; color:var(--teal);">61%</span>
+  </div>
+  <div style="font-size:0.82rem; line-height:1.45; color:var(--ink-soft); margin-bottom:0.5rem;">House view (61%): Between 2026-03-06 and 2026-03-09, the dominant US stablecoin-policy headlines will be framed as cl...</div>
+  <div style="display:flex; justify-content:space-between; align-items:center;">
+    <span style="font-size:0.75rem; color:var(--teal);">▲ upward</span>
+    <span style="font-size:0.68rem; font-weight:600; background:var(--amber-light); color:var(--amber); padding:2px 8px; border-radius:4px;">TRACKING</span>
+  </div><div style="height:3px; background:var(--rule); border-radius:2px; margin-top:0.5rem;"><div style="height:3px; background:var(--teal); border-radius:2px; width:61%"></div></div>
+</div><div style="background:var(--white); border-radius:8px; padding:1rem 1.2rem; border:1px solid var(--rule); transition:border-color 0.2s;" onmouseover="this.style.borderColor='var(--teal)'" onmouseout="this.style.borderColor='var(--rule)'">
+  <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:0.4rem;">
+    <div style="display:flex; gap:0.4rem; align-items:center;">
+      <span style="font-size:0.75rem; font-weight:800; background:var(--amber-light); color:var(--amber); padding:2px 7px; border-radius:4px;">C</span>
+      <span style="font-size:0.65rem; font-weight:600; background:var(--indigo-light); color:var(--indigo); padding:1px 6px; border-radius:3px; text-transform:uppercase; letter-spacing:0.06em;">CON</span> 
+    </div>
+    <span style="font-size:1.2rem; font-weight:900; color:var(--muted);">56%</span>
+  </div>
+  <div style="font-size:0.82rem; line-height:1.45; color:var(--ink-soft); margin-bottom:0.5rem;">House view (56%): Bitcoin (BTC) spot price at 12:00 UTC on 2026-03-09 will be higher than at 12:00 UTC on 2026-03-06,...</div>
+  <div style="display:flex; justify-content:space-between; align-items:center;">
+    <span style="font-size:0.75rem; color:var(--muted);">◆ volatile</span>
+    <span style="font-size:0.68rem; font-weight:600; background:var(--amber-light); color:var(--amber); padding:2px 8px; border-radius:4px;">TRACKING</span>
+  </div><div style="height:3px; background:var(--rule); border-radius:2px; margin-top:0.5rem;"><div style="height:3px; background:var(--muted); border-radius:2px; width:56%"></div></div>
+</div><div style="background:var(--white); border-radius:8px; padding:1rem 1.2rem; border:1px solid var(--rule); transition:border-color 0.2s;" onmouseover="this.style.borderColor='var(--teal)'" onmouseout="this.style.borderColor='var(--rule)'">
+  <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:0.4rem;">
+    <div style="display:flex; gap:0.4rem; align-items:center;">
+      <span style="font-size:0.75rem; font-weight:800; background:#fef2f2; color:var(--red); padding:2px 7px; border-radius:4px;">D</span>
+      <span style="font-size:0.65rem; font-weight:600; background:var(--teal-light); color:var(--teal); padding:1px 6px; border-radius:3px; text-transform:uppercase; letter-spacing:0.06em;">FRO</span> <span style="font-size:0.65rem; font-weight:600; background:var(--teal-light); color:var(--teal); padding:1px 6px; border-radius:3px;">POLY</span>
+    </div>
+    <span style="font-size:1.2rem; font-weight:900; color:var(--muted);">31%</span>
+  </div>
+  <div style="font-size:0.82rem; line-height:1.45; color:var(--ink-soft); margin-bottom:0.5rem;">Based on the current corpus, the probability is 31% that the single-source Polymarket ecosystem-growth story becomes ...</div>
+  <div style="display:flex; justify-content:space-between; align-items:center;">
+    <span style="font-size:0.75rem; color:var(--muted);">◆ volatile</span>
+    <span style="font-size:0.68rem; font-weight:600; background:var(--amber-light); color:var(--amber); padding:2px 8px; border-radius:4px;">TRACKING</span>
+  </div><div style="height:3px; background:var(--rule); border-radius:2px; margin-top:0.5rem;"><div style="height:3px; background:var(--muted); border-radius:2px; width:31%"></div></div>
+</div><div style="text-align:center; padding:0.8rem; color:var(--light); font-size:0.78rem;">+ 15 more predictions in monitoring</div></div><div class="section-rule-heavy" style="margin-top:1.5rem;"></div><h3 style="font-weight:800; font-size:1rem; margin:1.5rem 0 0.8rem;">Paper Trades</h3><div class="stats-grid-4"><div class="stat-card-secondary"><div class="stat-number" style="font-size:1.4rem;">17</div><div class="stat-label">Candidates</div></div><div class="stat-card-secondary"><div class="stat-number" style="font-size:1.4rem;">0</div><div class="stat-label">Entered</div></div><div class="stat-card-secondary"><div class="stat-number" style="font-size:1.4rem;">0</div><div class="stat-label">Exited</div></div><div class="stat-card-secondary"><div class="stat-number" style="font-size:1.4rem;">—</div><div class="stat-label">Win Rate</div></div></div>
+<div style="margin-top:2.5rem; padding-top:1.5rem; border-top:1px solid var(--rule);">
+  <div class="section-label" style="color:var(--teal); margin-bottom:0.3rem;">Methodology</div>
+  <h2 style="font-weight:900; font-size:1.2rem; margin-bottom:1rem;">How it works</h2>
+
+  <div style="display:grid; grid-template-columns:1fr; gap:1.2rem; margin-bottom:1.5rem;">
+    <div style="display:flex; gap:1rem; align-items:flex-start;">
+      <div style="min-width:32px; height:32px; background:var(--teal); color:#fff; border-radius:50%; font-weight:800; font-size:0.8rem; display:flex; align-items:center; justify-content:center;">1</div>
+      <div>
+        <div style="font-weight:700; font-size:0.85rem; margin-bottom:0.2rem;">Narrative signals detect crypto pressure</div>
+        <div style="font-size:0.75rem; color:var(--muted); line-height:1.6;">Our engine reads thousands of crypto sources daily and publishes directional forecasts: which asset, which direction, and how strong the narrative pressure.</div>
+      </div>
+    </div>
+    <div style="display:flex; gap:1rem; align-items:flex-start;">
+      <div style="min-width:32px; height:32px; background:var(--teal); color:#fff; border-radius:50%; font-weight:800; font-size:0.8rem; display:flex; align-items:center; justify-content:center;">2</div>
+      <div>
+        <div style="font-weight:700; font-size:0.85rem; margin-bottom:0.2rem;">Predictions are graded and matched to live markets</div>
+        <div style="font-size:0.75rem; color:var(--muted); line-height:1.6;">Each prediction is scored A–E on source quality, consensus, and momentum. Grade A/B predictions are actively matched against Polymarket and Kalshi contracts. When matched, we paper-trade using our Wave Rider strategy.</div>
+      </div>
+    </div>
+    <div style="display:flex; gap:1rem; align-items:flex-start;">
+      <div style="min-width:32px; height:32px; background:var(--teal); color:#fff; border-radius:50%; font-weight:800; font-size:0.8rem; display:flex; align-items:center; justify-content:center;">3</div>
+      <div>
+        <div style="font-weight:700; font-size:0.85rem; margin-bottom:0.2rem;">Signals are scored against ETF benchmarks</div>
+        <div style="font-size:0.75rem; color:var(--muted); line-height:1.6;">Directional calls are tracked against crypto ETF proxies (IBIT for Bitcoin, ETHA for Ethereum). A hit is a >0.5% move in the predicted direction within the scored horizon (6, 12, 24, or 72 hours).</div>
+      </div>
     </div>
   </div>
-  <div style="display:flex; justify-content:space-between; align-items:center;">
-    <span style="font-size:0.8rem; color:#b71c1c;">◆ volatile</span>
-    <span style="font-size:0.7rem; background:#fff8e1; color:#f57c00; padding:2px 8px; border-radius:4px;">TRACKING</span>
-  </div>
-</div><div style="background:#fff; border-radius:8px; padding:1rem; box-shadow:0 1px 3px rgba(0,0,0,0.1);">
-  <div style="display:flex; justify-content:space-between; align-items:flex-start; margin-bottom:0.5rem;">
-    <div style="font-size:0.85rem; line-height:1.3; flex:1; margin-right:0.5rem;">House view (23%): A miner-treasury sale or miner-financing headline specifically tied to the Bitd...</div>
-    <div style="display:flex; gap:0.5rem; align-items:center; flex-shrink:0;">
-      <span style="font-size:1.1rem; font-weight:700; color:#b71c1c;">23%</span>
-      <span style="font-size:0.9rem; font-weight:700; color:#b71c1c; border:2px solid #b71c1c; border-radius:4px; padding:0 6px;">E</span>
-    </div>
-  </div>
-  <div style="display:flex; justify-content:space-between; align-items:center;">
-    <span style="font-size:0.8rem; color:#b71c1c;">◆ downward</span>
-    <span style="font-size:0.7rem; background:#fff8e1; color:#f57c00; padding:2px 8px; border-radius:4px;">TRACKING</span>
-  </div>
-</div><div style="background:#fff; border-radius:8px; padding:1rem; box-shadow:0 1px 3px rgba(0,0,0,0.1);">
-  <div style="display:flex; justify-content:space-between; align-items:flex-start; margin-bottom:0.5rem;">
-    <div style="font-size:0.85rem; line-height:1.3; flex:1; margin-right:0.5rem;">House view (27%): A new, widely circulated US SEC enforcement headline materially impacting crypt...</div>
-    <div style="display:flex; gap:0.5rem; align-items:center; flex-shrink:0;">
-      <span style="font-size:1.1rem; font-weight:700; color:#b71c1c;">27%</span>
-      <span style="font-size:0.9rem; font-weight:700; color:#b71c1c; border:2px solid #b71c1c; border-radius:4px; padding:0 6px;">E</span>
-    </div>
-  </div>
-  <div style="display:flex; justify-content:space-between; align-items:center;">
-    <span style="font-size:0.8rem; color:#b71c1c;">◆ volatile</span>
-    <span style="font-size:0.7rem; background:#fff8e1; color:#f57c00; padding:2px 8px; border-radius:4px;">TRACKING</span>
-  </div>
-</div><div style="background:#fff; border-radius:8px; padding:1rem; box-shadow:0 1px 3px rgba(0,0,0,0.1);">
-  <div style="display:flex; justify-content:space-between; align-items:flex-start; margin-bottom:0.5rem;">
-    <div style="font-size:0.85rem; line-height:1.3; flex:1; margin-right:0.5rem;">House view (86%): No Tier-A-confirmed headline indicating a major BTC liquidation by a flagship c...</div>
-    <div style="display:flex; gap:0.5rem; align-items:center; flex-shrink:0;">
-      <span style="font-size:1.1rem; font-weight:700; color:#b71c1c;">86%</span>
-      <span style="font-size:0.9rem; font-weight:700; color:#d84315; border:2px solid #d84315; border-radius:4px; padding:0 6px;">D</span>
-    </div>
-  </div>
-  <div style="display:flex; justify-content:space-between; align-items:center;">
-    <span style="font-size:0.8rem; color:#b71c1c;">◆ stalled</span>
-    <span style="font-size:0.7rem; background:#fff8e1; color:#f57c00; padding:2px 8px; border-radius:4px;">TRACKING</span>
-  </div>
-</div><div style="background:#fff; border-radius:8px; padding:1rem; box-shadow:0 1px 3px rgba(0,0,0,0.1);">
-  <div style="display:flex; justify-content:space-between; align-items:flex-start; margin-bottom:0.5rem;">
-    <div style="font-size:0.85rem; line-height:1.3; flex:1; margin-right:0.5rem;">House view (66%): Iran-linked geopolitical risk remains a prominent volatility driver in crypto c...</div>
-    <div style="display:flex; gap:0.5rem; align-items:center; flex-shrink:0;">
-      <span style="font-size:1.1rem; font-weight:700; color:#b71c1c;">66%</span>
-      <span style="font-size:0.9rem; font-weight:700; color:#f57c00; border:2px solid #f57c00; border-radius:4px; padding:0 6px;">C</span>
-    </div>
-  </div>
-  <div style="display:flex; justify-content:space-between; align-items:center;">
-    <span style="font-size:0.8rem; color:#b71c1c;">◆ volatile</span>
-    <span style="font-size:0.7rem; background:#fff8e1; color:#f57c00; padding:2px 8px; border-radius:4px;">TRACKING</span>
-  </div>
-</div><div style="background:#fff; border-radius:8px; padding:1rem; box-shadow:0 1px 3px rgba(0,0,0,0.1);">
-  <div style="display:flex; justify-content:space-between; align-items:flex-start; margin-bottom:0.5rem;">
-    <div style="font-size:0.85rem; line-height:1.3; flex:1; margin-right:0.5rem;">House view (54%): Macro/Fed narratives between 2026-03-06 and 2026-03-09 are more likely to be in...</div>
-    <div style="display:flex; gap:0.5rem; align-items:center; flex-shrink:0;">
-      <span style="font-size:1.1rem; font-weight:700; color:#b71c1c;">54%</span>
-      <span style="font-size:0.9rem; font-weight:700; color:#f57c00; border:2px solid #f57c00; border-radius:4px; padding:0 6px;">C</span>
-    </div>
-  </div>
-  <div style="display:flex; justify-content:space-between; align-items:center;">
-    <span style="font-size:0.8rem; color:#b71c1c;">◆ downward</span>
-    <span style="font-size:0.7rem; background:#fff8e1; color:#f57c00; padding:2px 8px; border-radius:4px;">TRACKING</span>
-  </div>
-</div><div style="background:#fff; border-radius:8px; padding:1rem; box-shadow:0 1px 3px rgba(0,0,0,0.1);">
-  <div style="display:flex; justify-content:space-between; align-items:flex-start; margin-bottom:0.5rem;">
-    <div style="font-size:0.85rem; line-height:1.3; flex:1; margin-right:0.5rem;">House view (58%): Between 2026-03-06 and 2026-03-09, mining-economics narratives (profitability/f...</div>
-    <div style="display:flex; gap:0.5rem; align-items:center; flex-shrink:0;">
-      <span style="font-size:1.1rem; font-weight:700; color:#b71c1c;">58%</span>
-      <span style="font-size:0.9rem; font-weight:700; color:#d84315; border:2px solid #d84315; border-radius:4px; padding:0 6px;">D</span>
-    </div>
-  </div>
-  <div style="display:flex; justify-content:space-between; align-items:center;">
-    <span style="font-size:0.8rem; color:#b71c1c;">◆ downward</span>
-    <span style="font-size:0.7rem; background:#fff8e1; color:#f57c00; padding:2px 8px; border-radius:4px;">TRACKING</span>
-  </div>
-</div><div style="background:#fff; border-radius:8px; padding:1rem; box-shadow:0 1px 3px rgba(0,0,0,0.1);">
-  <div style="display:flex; justify-content:space-between; align-items:flex-start; margin-bottom:0.5rem;">
-    <div style="font-size:0.85rem; line-height:1.3; flex:1; margin-right:0.5rem;">House view (64%): Overall crypto market liquidity conditions (exchange depth/stablecoin flow narr...</div>
-    <div style="display:flex; gap:0.5rem; align-items:center; flex-shrink:0;">
-      <span style="font-size:1.1rem; font-weight:700; color:#b71c1c;">64%</span>
-      <span style="font-size:0.9rem; font-weight:700; color:#d84315; border:2px solid #d84315; border-radius:4px; padding:0 6px;">D</span>
-    </div>
-  </div>
-  <div style="display:flex; justify-content:space-between; align-items:center;">
-    <span style="font-size:0.8rem; color:#b71c1c;">◆ downward</span>
-    <span style="font-size:0.7rem; background:#fff8e1; color:#f57c00; padding:2px 8px; border-radius:4px;">TRACKING</span>
-  </div>
-</div><div style="background:#fff; border-radius:8px; padding:1rem; box-shadow:0 1px 3px rgba(0,0,0,0.1);">
-  <div style="display:flex; justify-content:space-between; align-items:flex-start; margin-bottom:0.5rem;">
-    <div style="font-size:0.85rem; line-height:1.3; flex:1; margin-right:0.5rem;">House view (19%): A material stability scare involving a major USD stablecoin (e.g., sustained de...</div>
-    <div style="display:flex; gap:0.5rem; align-items:center; flex-shrink:0;">
-      <span style="font-size:1.1rem; font-weight:700; color:#b71c1c;">19%</span>
-      <span style="font-size:0.9rem; font-weight:700; color:#d84315; border:2px solid #d84315; border-radius:4px; padding:0 6px;">D</span>
-    </div>
-  </div>
-  <div style="display:flex; justify-content:space-between; align-items:center;">
-    <span style="font-size:0.8rem; color:#b71c1c;">◆ volatile</span>
-    <span style="font-size:0.7rem; background:#fff8e1; color:#f57c00; padding:2px 8px; border-radius:4px;">TRACKING</span>
-  </div>
-</div><div style="background:#fff; border-radius:8px; padding:1rem; box-shadow:0 1px 3px rgba(0,0,0,0.1);">
-  <div style="display:flex; justify-content:space-between; align-items:flex-start; margin-bottom:0.5rem;">
-    <div style="font-size:0.85rem; line-height:1.3; flex:1; margin-right:0.5rem;">House view (61%): Between 2026-03-06 and 2026-03-09, the dominant US stablecoin-policy headlines ...</div>
-    <div style="display:flex; gap:0.5rem; align-items:center; flex-shrink:0;">
-      <span style="font-size:1.1rem; font-weight:700; color:#b71c1c;">61%</span>
-      <span style="font-size:0.9rem; font-weight:700; color:#f57c00; border:2px solid #f57c00; border-radius:4px; padding:0 6px;">C</span>
-    </div>
-  </div>
-  <div style="display:flex; justify-content:space-between; align-items:center;">
-    <span style="font-size:0.8rem; color:#b71c1c;">◆ upward</span>
-    <span style="font-size:0.7rem; background:#fff8e1; color:#f57c00; padding:2px 8px; border-radius:4px;">TRACKING</span>
-  </div>
-</div><div style="background:#fff; border-radius:8px; padding:1rem; box-shadow:0 1px 3px rgba(0,0,0,0.1);">
-  <div style="display:flex; justify-content:space-between; align-items:flex-start; margin-bottom:0.5rem;">
-    <div style="font-size:0.85rem; line-height:1.3; flex:1; margin-right:0.5rem;">House view (63%): US spot Bitcoin ETFs will see net inflows over the next three US trading days e...</div>
-    <div style="display:flex; gap:0.5rem; align-items:center; flex-shrink:0;">
-      <span style="font-size:1.1rem; font-weight:700; color:#b71c1c;">63%</span>
-      <span style="font-size:0.9rem; font-weight:700; color:#2e7d32; border:2px solid #2e7d32; border-radius:4px; padding:0 6px;">B</span>
-    </div>
-  </div>
-  <div style="display:flex; justify-content:space-between; align-items:center;">
-    <span style="font-size:0.8rem; color:#b71c1c;">◆ upward</span>
-    <span style="font-size:0.7rem; background:#fff8e1; color:#f57c00; padding:2px 8px; border-radius:4px;">TRACKING</span>
-  </div>
-</div><div style="background:#fff; border-radius:8px; padding:1rem; box-shadow:0 1px 3px rgba(0,0,0,0.1);">
-  <div style="display:flex; justify-content:space-between; align-items:flex-start; margin-bottom:0.5rem;">
-    <div style="font-size:0.85rem; line-height:1.3; flex:1; margin-right:0.5rem;">House view (56%): Bitcoin (BTC) spot price at 12:00 UTC on 2026-03-09 will be higher than at 12:0...</div>
-    <div style="display:flex; gap:0.5rem; align-items:center; flex-shrink:0;">
-      <span style="font-size:1.1rem; font-weight:700; color:#b71c1c;">56%</span>
-      <span style="font-size:0.9rem; font-weight:700; color:#f57c00; border:2px solid #f57c00; border-radius:4px; padding:0 6px;">C</span>
-    </div>
-  </div>
-  <div style="display:flex; justify-content:space-between; align-items:center;">
-    <span style="font-size:0.8rem; color:#b71c1c;">◆ volatile</span>
-    <span style="font-size:0.7rem; background:#fff8e1; color:#f57c00; padding:2px 8px; border-radius:4px;">TRACKING</span>
-  </div>
-</div><div style="background:#fff; border-radius:8px; padding:1rem; box-shadow:0 1px 3px rgba(0,0,0,0.1);">
-  <div style="display:flex; justify-content:space-between; align-items:flex-start; margin-bottom:0.5rem;">
-    <div style="font-size:0.85rem; line-height:1.3; flex:1; margin-right:0.5rem;">Based on the current corpus, the probability is 31% that the single-source Polymarket ecosystem-g...</div>
-    <div style="display:flex; gap:0.5rem; align-items:center; flex-shrink:0;">
-      <span style="font-size:1.1rem; font-weight:700; color:#b71c1c;">31%</span>
-      <span style="font-size:0.9rem; font-weight:700; color:#d84315; border:2px solid #d84315; border-radius:4px; padding:0 6px;">D</span>
-    </div>
-  </div>
-  <div style="display:flex; justify-content:space-between; align-items:center;">
-    <span style="font-size:0.8rem; color:#b71c1c;">◆ volatile</span>
-    <span style="font-size:0.7rem; background:#fff8e1; color:#f57c00; padding:2px 8px; border-radius:4px;">TRACKING</span>
-  </div>
-</div><div style="background:#fff; border-radius:8px; padding:1rem; box-shadow:0 1px 3px rgba(0,0,0,0.1);">
-  <div style="display:flex; justify-content:space-between; align-items:flex-start; margin-bottom:0.5rem;">
-    <div style="font-size:0.85rem; line-height:1.3; flex:1; margin-right:0.5rem;">Based on the current corpus, the probability is 51% that XRPL Commons funding/decentralisation na...</div>
-    <div style="display:flex; gap:0.5rem; align-items:center; flex-shrink:0;">
-      <span style="font-size:1.1rem; font-weight:700; color:#b71c1c;">51%</span>
-      <span style="font-size:0.9rem; font-weight:700; color:#d84315; border:2px solid #d84315; border-radius:4px; padding:0 6px;">D</span>
-    </div>
-  </div>
-  <div style="display:flex; justify-content:space-between; align-items:center;">
-    <span style="font-size:0.8rem; color:#b71c1c;">◆ volatile</span>
-    <span style="font-size:0.7rem; background:#fff8e1; color:#f57c00; padding:2px 8px; border-radius:4px;">TRACKING</span>
-  </div>
-</div><div style="background:#fff; border-radius:8px; padding:1rem; box-shadow:0 1px 3px rgba(0,0,0,0.1);">
-  <div style="display:flex; justify-content:space-between; align-items:flex-start; margin-bottom:0.5rem;">
-    <div style="font-size:0.85rem; line-height:1.3; flex:1; margin-right:0.5rem;">Based on the current corpus, the probability is 53% that MegaETH ecosystem-growth chatter persist...</div>
-    <div style="display:flex; gap:0.5rem; align-items:center; flex-shrink:0;">
-      <span style="font-size:1.1rem; font-weight:700; color:#b71c1c;">53%</span>
-      <span style="font-size:0.9rem; font-weight:700; color:#d84315; border:2px solid #d84315; border-radius:4px; padding:0 6px;">D</span>
-    </div>
-  </div>
-  <div style="display:flex; justify-content:space-between; align-items:center;">
-    <span style="font-size:0.8rem; color:#b71c1c;">◆ stalled</span>
-    <span style="font-size:0.7rem; background:#fff8e1; color:#f57c00; padding:2px 8px; border-radius:4px;">TRACKING</span>
-  </div>
-</div><div style="background:#fff; border-radius:8px; padding:1rem; box-shadow:0 1px 3px rgba(0,0,0,0.1);">
-  <div style="display:flex; justify-content:space-between; align-items:flex-start; margin-bottom:0.5rem;">
-    <div style="font-size:0.85rem; line-height:1.3; flex:1; margin-right:0.5rem;">Based on the current corpus, the probability is 52% that Solana remains a primary beneficiary of ...</div>
-    <div style="display:flex; gap:0.5rem; align-items:center; flex-shrink:0;">
-      <span style="font-size:1.1rem; font-weight:700; color:#b71c1c;">52%</span>
-      <span style="font-size:0.9rem; font-weight:700; color:#d84315; border:2px solid #d84315; border-radius:4px; padding:0 6px;">D</span>
-    </div>
-  </div>
-  <div style="display:flex; justify-content:space-between; align-items:center;">
-    <span style="font-size:0.8rem; color:#b71c1c;">◆ downward</span>
-    <span style="font-size:0.7rem; background:#fff8e1; color:#f57c00; padding:2px 8px; border-radius:4px;">TRACKING</span>
-  </div>
-</div><div style="background:#fff; border-radius:8px; padding:1rem; box-shadow:0 1px 3px rgba(0,0,0,0.1);">
-  <div style="display:flex; justify-content:space-between; align-items:flex-start; margin-bottom:0.5rem;">
-    <div style="font-size:0.85rem; line-height:1.3; flex:1; margin-right:0.5rem;">Based on the current corpus, the probability is 59% that banking/crypto regulatory narratives rem...</div>
-    <div style="display:flex; gap:0.5rem; align-items:center; flex-shrink:0;">
-      <span style="font-size:1.1rem; font-weight:700; color:#b71c1c;">59%</span>
-      <span style="font-size:0.9rem; font-weight:700; color:#d84315; border:2px solid #d84315; border-radius:4px; padding:0 6px;">D</span>
-    </div>
-  </div>
-  <div style="display:flex; justify-content:space-between; align-items:center;">
-    <span style="font-size:0.8rem; color:#b71c1c;">◆ upward</span>
-    <span style="font-size:0.7rem; background:#fff8e1; color:#f57c00; padding:2px 8px; border-radius:4px;">TRACKING</span>
-  </div>
-</div><div style="background:#fff; border-radius:8px; padding:1rem; box-shadow:0 1px 3px rgba(0,0,0,0.1);">
-  <div style="display:flex; justify-content:space-between; align-items:flex-start; margin-bottom:0.5rem;">
-    <div style="font-size:0.85rem; line-height:1.3; flex:1; margin-right:0.5rem;">Based on the current corpus, the probability is 54% that macro/Fed-linked risk framing remains do...</div>
-    <div style="display:flex; gap:0.5rem; align-items:center; flex-shrink:0;">
-      <span style="font-size:1.1rem; font-weight:700; color:#b71c1c;">54%</span>
-      <span style="font-size:0.9rem; font-weight:700; color:#2e7d32; border:2px solid #2e7d32; border-radius:4px; padding:0 6px;">B</span>
-    </div>
-  </div>
-  <div style="display:flex; justify-content:space-between; align-items:center;">
-    <span style="font-size:0.8rem; color:#b71c1c;">◆ downward</span>
-    <span style="font-size:0.7rem; background:#fff8e1; color:#f57c00; padding:2px 8px; border-radius:4px;">TRACKING</span>
-  </div>
-</div><div style="background:#fff; border-radius:8px; padding:1rem; box-shadow:0 1px 3px rgba(0,0,0,0.1);">
-  <div style="display:flex; justify-content:space-between; align-items:flex-start; margin-bottom:0.5rem;">
-    <div style="font-size:0.85rem; line-height:1.3; flex:1; margin-right:0.5rem;">Based on the current corpus, the probability is 57% that short-horizon rotation narratives favour...</div>
-    <div style="display:flex; gap:0.5rem; align-items:center; flex-shrink:0;">
-      <span style="font-size:1.1rem; font-weight:700; color:#b71c1c;">57%</span>
-      <span style="font-size:0.9rem; font-weight:700; color:#2e7d32; border:2px solid #2e7d32; border-radius:4px; padding:0 6px;">B</span>
-    </div>
-  </div>
-  <div style="display:flex; justify-content:space-between; align-items:center;">
-    <span style="font-size:0.8rem; color:#b71c1c;">◆ upward</span>
-    <span style="font-size:0.7rem; background:#fff8e1; color:#f57c00; padding:2px 8px; border-radius:4px;">TRACKING</span>
-  </div>
-</div><div style="background:#fff; border-radius:8px; padding:1rem; box-shadow:0 1px 3px rgba(0,0,0,0.1);">
-  <div style="display:flex; justify-content:space-between; align-items:flex-start; margin-bottom:0.5rem;">
-    <div style="font-size:0.85rem; line-height:1.3; flex:1; margin-right:0.5rem;">Based on the current corpus, the probability is 61% that interoperability narratives (Chainlink/L...</div>
-    <div style="display:flex; gap:0.5rem; align-items:center; flex-shrink:0;">
-      <span style="font-size:1.1rem; font-weight:700; color:#b71c1c;">61%</span>
-      <span style="font-size:0.9rem; font-weight:700; color:#f57c00; border:2px solid #f57c00; border-radius:4px; padding:0 6px;">C</span>
-    </div>
-  </div>
-  <div style="display:flex; justify-content:space-between; align-items:center;">
-    <span style="font-size:0.8rem; color:#b71c1c;">◆ upward</span>
-    <span style="font-size:0.7rem; background:#fff8e1; color:#f57c00; padding:2px 8px; border-radius:4px;">TRACKING</span>
-  </div>
-</div></div></div>
+</div>
+
+<div style="font-size:0.65rem; color:var(--light); margin-top:1.5rem; padding-top:1rem; border-top:1px solid var(--rule); line-height:1.6;">
+  This is a research tool, not financial advice. All paper trades are simulated. Updated 2026-03-06T20:00:05.
+</div>
+
+</div>
 
 <footer class="site-footer">
   <div class="footer-inner">

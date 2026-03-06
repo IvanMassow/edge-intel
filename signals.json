@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-03-06T19:25:06Z",
+  "generated_at": "2026-03-06T20:08:19Z",
   "total_signals": 203,
   "signals": [
     {
@@ -1303,25 +1303,6 @@
     {
       "signal_id": "NE-HF-0077",
       "source": "hedgefund_tracker",
-      "asset": "Mitsubishi Electric Europe B.V.: cybersecurity reg",
-      "ticker": "6503.T",
-      "asset_type": "equity",
-      "direction": "LONG",
-      "conviction": null,
-      "confidence": 39.0,
-      "band": "D",
-      "entry_price": null,
-      "dd_approved_price": 929.0,
-      "current_price": null,
-      "pnl_pct": null,
-      "status": "OPEN",
-      "state": "WATCH",
-      "thesis_status": null,
-      "signal_velocity": "quiet"
-    },
-    {
-      "signal_id": "NE-HF-0078",
-      "source": "hedgefund_tracker",
       "asset": "Gland Pharma: corporate governance",
       "ticker": "GLAND.BSE",
       "asset_type": "equity",
@@ -1339,7 +1320,7 @@
       "signal_velocity": "mainstream"
     },
     {
-      "signal_id": "NE-HF-0079",
+      "signal_id": "NE-HF-0078",
       "source": "hedgefund_tracker",
       "asset": "Louisiana Department of Insurance: legal and safet",
       "ticker": "XLF",
@@ -1358,7 +1339,7 @@
       "signal_velocity": "stirring"
     },
     {
-      "signal_id": "NE-HF-0080",
+      "signal_id": "NE-HF-0079",
       "source": "hedgefund_tracker",
       "asset": "[SHORT] Reliance Standard Life Insurance Company: ",
       "ticker": "8766.T",
@@ -1377,7 +1358,7 @@
       "signal_velocity": "quiet"
     },
     {
-      "signal_id": "NE-HF-0081",
+      "signal_id": "NE-HF-0080",
       "source": "hedgefund_tracker",
       "asset": "[SHORT] Melanie Benesh: chemical safety",
       "ticker": "XLP",
@@ -1396,7 +1377,7 @@
       "signal_velocity": "quiet"
     },
     {
-      "signal_id": "NE-HF-0082",
+      "signal_id": "NE-HF-0081",
       "source": "hedgefund_tracker",
       "asset": "Rigetti Computing: technology scale-up",
       "ticker": "SMH",
@@ -1406,16 +1387,16 @@
       "confidence": 55.0,
       "band": "B",
       "entry_price": null,
-      "dd_approved_price": 399.1,
+      "dd_approved_price": 395.35,
       "current_price": 395.35,
-      "pnl_pct": 0.94,
+      "pnl_pct": 0.0,
       "status": "OPEN",
       "state": "WATCH",
       "thesis_status": "intact",
       "signal_velocity": "stirring"
     },
     {
-      "signal_id": "NE-HF-0083",
+      "signal_id": "NE-HF-0082",
       "source": "hedgefund_tracker",
       "asset": "David Fritz: automotive design and data management",
       "ticker": "SMH",
@@ -1425,13 +1406,32 @@
       "confidence": 52.0,
       "band": "C",
       "entry_price": null,
-      "dd_approved_price": 399.1,
+      "dd_approved_price": 395.35,
       "current_price": 395.35,
-      "pnl_pct": -0.94,
+      "pnl_pct": 0.0,
       "status": "OPEN",
       "state": "WATCH",
       "thesis_status": "intact",
       "signal_velocity": "quiet"
+    },
+    {
+      "signal_id": "NE-HF-0083",
+      "source": "hedgefund_tracker",
+      "asset": "London Metal Exchange: regulatory enforcement",
+      "ticker": "0388.HK",
+      "asset_type": "equity",
+      "direction": "SHORT",
+      "conviction": null,
+      "confidence": 64.0,
+      "band": "B",
+      "entry_price": null,
+      "dd_approved_price": 0.0,
+      "current_price": null,
+      "pnl_pct": null,
+      "status": "OPEN",
+      "state": "WATCH",
+      "thesis_status": null,
+      "signal_velocity": "mainstream"
     },
     {
       "signal_id": "NE-TIP-0084",
