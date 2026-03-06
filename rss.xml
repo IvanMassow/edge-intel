@@ -5,8 +5,16 @@
     <link>https://noah-edge.com/</link>
     <description>Prediction market intelligence. The Noah Poly Index tracks edges with transparent positions and tracked outcomes.</description>
     <language>en</language>
-    <lastBuildDate>Fri, 06 Mar 2026 10:32:51 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 06 Mar 2026 10:57:26 +0000</lastBuildDate>
     <atom:link href="https://noah-edge.com/rss.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>PMI-20260306 | 12 Beliefs | Geopolitics + Military + Energy | shifting (zuk5)</title>
+      <link>https://noah-edge.com/stories/pmi-20260306-12-beliefs-geopolitics-military-energy.html</link>
+      <description>Summary Corpus: 400 articles across 12 trends | SHORT horizon | 84h window Beliefs: 12 total | 3 cross-domain | 9 single-domain Domains: geopolitics, military, politics, trade, energy, finance, tec...</description>
+      <pubDate>Fri, 06 Mar 2026 10:44:20 +0000</pubDate>
+      <guid>https://noah-edge.com/stories/pmi-20260306-12-beliefs-geopolitics-military-energy.html</guid>
+      <enclosure url="https://noah-edge.com/assets/images/pmi-20260306-12-beliefs-geopolitics-mili-512e6b3b.jpg" type="image/jpeg" />
+    </item>
     <item>
       <title>Opinion Foundation’s OPN token experiences sharp decline after rapid early trading surge</title>
       <link>https://noah-edge.com/stories/opinion-foundations-opn-token-experiences-sharp-decline.html</link>
@@ -158,14 +166,6 @@
       <pubDate>Thu, 05 Mar 2026 19:29:18 +0000</pubDate>
       <guid>https://noah-edge.com/stories/polymarket-removes-controversial-nuclear-detonation-market.html</guid>
       <enclosure url="https://noah-edge.com/assets/images/polymarket-removes-controversial-nuclear-ece9b23b.jpg" type="image/jpeg" />
-    </item>
-    <item>
-      <title>Betr and Polymarket integrate prediction markets into mainstream gaming app in 2026</title>
-      <link>https://noah-edge.com/stories/betr-and-polymarket-integrate-prediction-markets-into.html</link>
-      <description>Betr announces a multi-year partnership with prediction-market operator Polymarket to embed event-trading markets into its comprehensive gaming app, signalling a potential shift in the mainstream a...</description>
-      <pubDate>Thu, 05 Mar 2026 19:29:17 +0000</pubDate>
-      <guid>https://noah-edge.com/stories/betr-and-polymarket-integrate-prediction-markets-into.html</guid>
-      <enclosure url="https://noah-edge.com/assets/images/betr-and-polymarket-integrate-prediction-5263be76.jpg" type="image/jpeg" />
     </item>
   </channel>
 </rss>
