@@ -182,23 +182,23 @@ NE-TIP-0180,information_asymmetry,"Manufacturing-macro read-through to semis: al
 NE-TIP-0181,information_asymmetry,Malaysia tariff anxiety plus an OPR hold is a short macro tone - but not a trade without a mapped instrument,-,equity,SHORT,55,,,,,,OPEN,AVOID,,,,,,,HIGH,Semiconductors,AVOID,Fresh 80,2026-03-03 22:57:42,,,
 NE-TIP-0182,information_asymmetry,"A Stratasys channel datapoint that hints at demand - but SYS Systems is private, so stand down",-,equity,LONG,54,,,,,,OPEN,AVOID,,,,,,,HIGH,Semiconductors,AVOID,Fresh 80,2026-03-03 22:57:42,,,
 NE-TIP-0183,information_asymmetry,GaN equipment demand is real; the 'DataHorizzon player list' is noise - express it via SMH,"SMH, SPY",equity,LONG,50,,,,,,OPEN,TRADE,,,,,,,HIGH,Semiconductors,TRADE,Fresh 50,2026-03-03 16:18:25,,,
-NE-NAS-0184,narrative_asset_signal,Unknown,,macro,,,,,,,,OPEN,2026-03-07 16:15 UTC [PVQM] | Bullish | unstable,,,,,,,,,,,2026-03-07 16:37:10,0.0,,2026-03-07 16:15 UTC [PVQM] | Bullish | unstable
-NE-NAS-0185,narrative_asset_signal,Unknown,,macro,,,,,,,,OPEN,,,,,,,,,,,,2026-03-07 16:05:08,0.0,,
-NE-NAS-0186,narrative_asset_signal,crude oil futures (Brent and WTI as primary tradables),,macro,,,,,,,,OPEN,Narrative Pressure Rising,,,,,,,,,,,2026-03-07 12:54:50,74.0,Delta 0,Narrative Pressure Rising
-NE-NAS-0187,narrative_asset_signal,Gold,,macro,,,,,,,,OPEN,Narrative Pressure Rising,,,,,,,,,,,2026-03-07 12:50:50,72.0,(,Narrative Pressure Rising
-NE-NAS-0188,narrative_asset_signal,copper,,macro,,,,,,,,OPEN,Narrative Pressure Rising,,,,,,,,,,,2026-03-07 12:45:06,80.0,Delta 0,Narrative Pressure Rising
-NE-NAS-0189,narrative_asset_signal,Natural Gas,,macro,,,,,,,,OPEN,Narrative Pressure Accelerating,,,,,,,,,,,2026-03-07 12:37:04,0.0,Delta | 15 |,Narrative Pressure Accelerating
-NE-NAS-0190,narrative_asset_signal,silver market,,macro,,,,,,,,OPEN,Narrative Pressure Rising,,,,,,,,,,,2026-03-07 11:54:29,0.0,Delta | 0 |,Narrative Pressure Rising
-NE-NAS-0191,narrative_asset_signal,global wheat markets,,macro,,,,,,,,OPEN,Narrative Pressure Accelerating,,,,,,,,,,,2026-03-07 11:53:40,0.0,Delta | 30 |,Narrative Pressure Accelerating
-NE-NAS-0192,narrative_asset_signal,Coffee,,macro,,,,,,,,OPEN,Narrative Pressure Rising,,,,,,,,,,,2026-03-07 11:48:40,0.0,Delta | 0 |,Narrative Pressure Rising
-NE-NAS-0193,narrative_asset_signal,Unknown,,macro,,,,,,,,OPEN,,,,,,,,,,,,2026-03-07 11:31:40,0.0,,
-NE-NAS-0194,narrative_asset_signal,Natural Gas,,macro,Mixed,,,,,,,OPEN,Narrative Signal Mixed,,,,,,,,,,,2026-03-06 12:53:10,46.0,Delta | -12 |,Narrative Signal Mixed
-NE-NAS-0195,narrative_asset_signal,crude oil futures (Brent and WTI as primary tradables),,macro,,,,,,,,OPEN,Narrative Pressure Rising,,,,,,,,,,,2026-03-06 12:52:25,0.0,Delta,Narrative Pressure Rising
-NE-NAS-0196,narrative_asset_signal,Gold,,macro,,,,,,,,OPEN,Narrative Signal Mixed,,,,,,,,,,,2026-03-06 12:49:07,0.0,in the monetary channel.,Narrative Signal Mixed
-NE-NAS-0197,narrative_asset_signal,silver market,,macro,,,,,,,,OPEN,Narrative Pressure Rising,,,,,,,,,,,2026-03-06 11:49:28,0.0,Delta | 10 |,Narrative Pressure Rising
-NE-NAS-0198,narrative_asset_signal,global coffee markets,,macro,Mixed,,,,,,,OPEN,Narrative Signal Mixed,,,,,,,,,,,2026-03-06 11:44:08,0.0,Delta | 0 |,Narrative Signal Mixed
-NE-NAS-0199,narrative_asset_signal,wheat markets,,macro,,,,,,,,OPEN,Upward Narrative Bias Building,,,,,,,,,,,2026-03-06 11:41:59,0.0,. With the signal’s persistence window estimated at,Upward Narrative Bias Building
-NE-NAS-0200,narrative_asset_signal,crude oil futures (Brent and WTI),,macro,,,,,,,,OPEN,Upward Narrative Bias Building,,,,,,,,,,,2026-03-05 15:17:22,64.0,Delta,Upward Narrative Bias Building
-NE-NAS-0201,narrative_asset_signal,Natural Gas,,macro,,,,,,,,OPEN,Narrative Signal Mixed,,,,,,,,,,,2026-03-05 12:49:05,0.0,Delta | -27 |,Narrative Signal Mixed
-NE-NAS-0202,narrative_asset_signal,Gold,,macro,,,,,,,,OPEN,Upward Narrative Bias Building,,,,,,,,,,,2026-03-05 12:48:21,39.0,Delta (-40),Upward Narrative Bias Building
-NE-NAS-0203,narrative_asset_signal,copper,,macro,,,,,,,,OPEN,Upward Narrative Bias Building,,,,,,,,,,,2026-03-05 12:43:40,0.0,Delta -37,Upward Narrative Bias Building
+NE-NAS-0184,narrative_asset_signal,Unknown,,macro,,,,,,,,OPEN,2026-03-07 14:00 UTC [QXRV] | Bullish | tightening,,,,,,,,,,,2026-03-07 17:02:51,0.0,,2026-03-07 14:00 UTC [QXRV] | Bullish | tightening
+NE-NAS-0185,narrative_asset_signal,Unknown,,macro,,,,,,,,OPEN,2026-03-07 16:15 UTC [PVQM] | Bullish | unstable,,,,,,,,,,,2026-03-07 16:37:10,0.0,,2026-03-07 16:15 UTC [PVQM] | Bullish | unstable
+NE-NAS-0186,narrative_asset_signal,Unknown,,macro,,,,,,,,OPEN,,,,,,,,,,,,2026-03-07 16:05:08,0.0,,
+NE-NAS-0187,narrative_asset_signal,crude oil futures (Brent and WTI as primary tradables),,macro,,,,,,,,OPEN,Narrative Pressure Rising,,,,,,,,,,,2026-03-07 12:54:50,74.0,Delta 0,Narrative Pressure Rising
+NE-NAS-0188,narrative_asset_signal,Gold,,macro,,,,,,,,OPEN,Narrative Pressure Rising,,,,,,,,,,,2026-03-07 12:50:50,72.0,(,Narrative Pressure Rising
+NE-NAS-0189,narrative_asset_signal,copper,,macro,,,,,,,,OPEN,Narrative Pressure Rising,,,,,,,,,,,2026-03-07 12:45:06,80.0,Delta 0,Narrative Pressure Rising
+NE-NAS-0190,narrative_asset_signal,Natural Gas,,macro,,,,,,,,OPEN,Narrative Pressure Accelerating,,,,,,,,,,,2026-03-07 12:37:04,0.0,Delta | 15 |,Narrative Pressure Accelerating
+NE-NAS-0191,narrative_asset_signal,silver market,,macro,,,,,,,,OPEN,Narrative Pressure Rising,,,,,,,,,,,2026-03-07 11:54:29,0.0,Delta | 0 |,Narrative Pressure Rising
+NE-NAS-0192,narrative_asset_signal,global wheat markets,,macro,,,,,,,,OPEN,Narrative Pressure Accelerating,,,,,,,,,,,2026-03-07 11:53:40,0.0,Delta | 30 |,Narrative Pressure Accelerating
+NE-NAS-0193,narrative_asset_signal,Coffee,,macro,,,,,,,,OPEN,Narrative Pressure Rising,,,,,,,,,,,2026-03-07 11:48:40,0.0,Delta | 0 |,Narrative Pressure Rising
+NE-NAS-0194,narrative_asset_signal,Unknown,,macro,,,,,,,,OPEN,,,,,,,,,,,,2026-03-07 11:31:40,0.0,,
+NE-NAS-0195,narrative_asset_signal,Natural Gas,,macro,Mixed,,,,,,,OPEN,Narrative Signal Mixed,,,,,,,,,,,2026-03-06 12:53:10,46.0,Delta | -12 |,Narrative Signal Mixed
+NE-NAS-0196,narrative_asset_signal,crude oil futures (Brent and WTI as primary tradables),,macro,,,,,,,,OPEN,Narrative Pressure Rising,,,,,,,,,,,2026-03-06 12:52:25,0.0,Delta,Narrative Pressure Rising
+NE-NAS-0197,narrative_asset_signal,Gold,,macro,,,,,,,,OPEN,Narrative Signal Mixed,,,,,,,,,,,2026-03-06 12:49:07,0.0,in the monetary channel.,Narrative Signal Mixed
+NE-NAS-0198,narrative_asset_signal,silver market,,macro,,,,,,,,OPEN,Narrative Pressure Rising,,,,,,,,,,,2026-03-06 11:49:28,0.0,Delta | 10 |,Narrative Pressure Rising
+NE-NAS-0199,narrative_asset_signal,global coffee markets,,macro,Mixed,,,,,,,OPEN,Narrative Signal Mixed,,,,,,,,,,,2026-03-06 11:44:08,0.0,Delta | 0 |,Narrative Signal Mixed
+NE-NAS-0200,narrative_asset_signal,wheat markets,,macro,,,,,,,,OPEN,Upward Narrative Bias Building,,,,,,,,,,,2026-03-06 11:41:59,0.0,. With the signal’s persistence window estimated at,Upward Narrative Bias Building
+NE-NAS-0201,narrative_asset_signal,crude oil futures (Brent and WTI),,macro,,,,,,,,OPEN,Upward Narrative Bias Building,,,,,,,,,,,2026-03-05 15:17:22,64.0,Delta,Upward Narrative Bias Building
+NE-NAS-0202,narrative_asset_signal,Natural Gas,,macro,,,,,,,,OPEN,Narrative Signal Mixed,,,,,,,,,,,2026-03-05 12:49:05,0.0,Delta | -27 |,Narrative Signal Mixed
+NE-NAS-0203,narrative_asset_signal,Gold,,macro,,,,,,,,OPEN,Upward Narrative Bias Building,,,,,,,,,,,2026-03-05 12:48:21,39.0,Delta (-40),Upward Narrative Bias Building
