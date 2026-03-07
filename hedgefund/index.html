@@ -1,0 +1,1710 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Hedge Fund Intelligence Lab &mdash; NOAH Edge Magazine</title>
+<meta name="description" content="13 LONG Band A signals averaging +6.4% per signal, 4.5x profit factor">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Hedge Fund Intelligence Lab &mdash; NOAH Edge Magazine">
+<meta property="og:description" content="Our intelligence finds asymmetric trades before they hit Bloomberg. 13 signals averaging +6.4% with a 4.5x profit factor.">
+<meta property="og:url" content="https://noah-edge.com/hedgefund/">
+<meta property="og:site_name" content="NOAH Edge Magazine">
+<meta property="og:image" content="https://noah-edge.com/og-image.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="900">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Hedge Fund Intelligence Lab &mdash; NOAH Edge Magazine">
+<meta name="twitter:description" content="Our intelligence finds asymmetric trades before they hit Bloomberg. 13 signals averaging +6.4% with a 4.5x profit factor.">
+<meta name="twitter:image" content="https://noah-edge.com/og-image.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400&family=Montserrat:wght@700;800&display=swap" rel="stylesheet">
+<style>
+:root {
+    --white:   #FFFFFF;
+    --off:     #F7F7F5;
+    --ink:     #1A1A1A;
+    --ink-soft: #2D3748;
+    --ink-mid: #4B5563;
+    --ink-subtle: #6B7280;
+    --muted:   #4B5563;
+    --light:   #6B7280;
+    --rule:    #E5E5E5;
+    --teal:    #0d7680;
+    --teal-dark: #0a5c64;
+    --teal-light: #e8f4f5;
+    --teal-mist: #f0f9fa;
+    --indigo:  #6366f1;
+    --indigo-light: #eef0ff;
+    --amber:   #d97706;
+    --amber-light: #fef8ec;
+    --green:   #16a34a;
+    --green-light: #ecfdf5;
+    --red:     #dc2626;
+    --max-width: 1080px;
+    /* Legacy aliases for section builders */
+    --grey-100: #f3f4f6;
+    --grey-200: #e5e7eb;
+    --grey-300: #d1d5db;
+    --grey-400: #9ea2b0;
+    --paper: var(--white);
+    --accent: var(--teal);
+    --accent-light: #0e8c97;
+    --blush: var(--off);
+    --blush-dark: #f0f0ec;
+    --warm: #c9926b;
+    --orange: #f59e0b;
+    --purple: #7c3aed;
+    --purple-dark: #5b21b6;
+}
+*, *::before, *::after { margin: 0; padding: 0; box-sizing: border-box; }
+html { font-size: 16px; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; overflow-x: hidden; }
+body {
+    font-family: 'Lato', -apple-system, BlinkMacSystemFont, sans-serif;
+    color: var(--ink);
+    background: var(--white);
+    line-height: 1.6;
+    overflow-x: hidden;
+    max-width: 100vw;
+}
+a { color: inherit; text-decoration: none; }
+a:hover { color: var(--teal); }
+img { display: block; max-width: 100%; }
+.container { max-width: var(--max-width); margin: 0 auto; padding: 0 2rem; }
+
+/* ---- SITE HEADER (noah-edge.com chrome) ---- */
+.site-header { padding: 1.2rem 2rem 0.8rem; display: flex; align-items: center; justify-content: space-between; max-width: var(--max-width); margin: 0 auto; }
+.brand { display: flex; align-items: baseline; gap: 0.4rem; }
+.brand-noah { font-family: 'Montserrat', sans-serif; font-weight: 800; font-size: 1.5rem; letter-spacing: 0.12em; }
+.brand-edge { font-family: 'Lato', sans-serif; font-weight: 400; font-size: 1.45rem; letter-spacing: 0.04em; color: var(--muted); }
+.header-nav { display: flex; align-items: center; gap: 1.5rem; }
+.header-nav a { font-size: 0.72rem; color: var(--muted); letter-spacing: 0.04em; text-decoration: none; }
+.header-nav a:hover { color: var(--teal); }
+.header-nav a.active { color: var(--ink); font-weight: 700; }
+.header-rule { border: none; border-top: 2px solid var(--ink); margin: 0 auto; max-width: var(--max-width); }
+.strapline { max-width: var(--max-width); margin: 0 auto; padding: 0.7rem 2rem; display: flex; justify-content: space-between; align-items: baseline; border-bottom: 1px solid var(--rule); }
+.strapline-text { font-size: 0.72rem; font-style: italic; color: var(--muted); font-weight: 400; }
+.strapline-text strong { font-weight: 700; font-style: normal; color: var(--teal); }
+.strapline-date { font-size: 0.72rem; color: var(--light); }
+.page-nav { max-width: var(--max-width); margin: 0 auto; padding: 0.5rem 2rem; display: flex; align-items: center; gap: 1.2rem; border-bottom: 1px solid var(--rule); }
+.page-nav a { font-size: 0.72rem; color: var(--muted); letter-spacing: 0.04em; font-weight: 400; }
+.page-nav a:hover { color: var(--teal); }
+.page-nav .sep { color: var(--rule); font-size: 0.72rem; }
+
+/* Hero */
+.hero {
+    padding: 2.5rem 0 2rem;
+    background: var(--off);
+    border-bottom: 1px solid var(--rule);
+}
+.hero-kicker {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 0.68rem; font-weight: 700;
+    letter-spacing: 0.14em; text-transform: uppercase;
+    color: var(--teal); margin-bottom: 0.6rem;
+}
+.hero h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: clamp(1.8rem, 4vw, 2.8rem); font-weight: 800;
+    letter-spacing: -0.01em; margin-bottom: 0.5rem;
+    color: var(--ink); line-height: 1.1;
+}
+.hero .headline {
+    font-size: 0.92rem; font-weight: 400; font-style: italic;
+    color: var(--muted); max-width: 700px; margin-bottom: 1.5rem;
+    line-height: 1.5;
+}
+.stat-grid {
+    display: grid; grid-template-columns: repeat(auto-fit, minmax(130px, 1fr));
+    gap: 1.5rem; margin-top: 0.5rem;
+}
+.stat-box .num {
+    font-family: 'Montserrat', sans-serif;
+    font-size: clamp(1.6rem, 3.5vw, 2.2rem); font-weight: 800;
+}
+.stat-box .label {
+    font-size: 0.68rem; letter-spacing: 0.08em;
+    text-transform: uppercase; color: var(--light);
+    margin-top: 2px;
+}
+.stat-box .num.green { color: var(--green); }
+.stat-box .num.accent { color: var(--teal); }
+
+/* Backtest / Exit Rules Card */
+.backtest-card {
+    background: var(--off);
+    border: 1px solid var(--rule);
+    border-radius: 6px;
+    padding: 1.5rem 2rem;
+    margin: 2rem 0;
+    color: var(--ink);
+}
+.backtest-header {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 0.78rem; font-weight: 700;
+    letter-spacing: 0.1em; text-transform: uppercase;
+    color: var(--amber);
+    margin-bottom: 1rem;
+}
+.backtest-icon { margin-right: 6px; }
+
+/* Formula Card */
+.formula-card {
+    background: var(--off);
+    border: 1px solid var(--rule);
+    border-top: 3px solid var(--teal);
+    border-radius: 6px;
+    padding: 2rem 2.5rem;
+    margin: 2rem 0;
+    color: var(--ink);
+}
+.formula-header {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 0.82rem; font-weight: 700;
+    letter-spacing: 0.1em; text-transform: uppercase;
+    color: var(--teal);
+    margin-bottom: 1rem;
+}
+.formula-sublabel {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 0.7rem; font-weight: 700;
+    letter-spacing: 0.08em; text-transform: uppercase;
+    color: var(--light);
+    margin-bottom: 0.6rem;
+}
+.formula-stats {
+    display: flex; flex-wrap: wrap; gap: 2.5rem;
+    margin-bottom: 1rem;
+}
+.formula-stat { text-align: center; }
+.formula-num {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.8rem; font-weight: 800;
+    color: var(--teal);
+}
+.formula-label {
+    font-size: 0.68rem; letter-spacing: 0.06em;
+    text-transform: uppercase; color: var(--light);
+    margin-top: 2px;
+}
+.formula-table {
+    width: 100%; font-size: 0.82rem; border-collapse: collapse;
+}
+.formula-table th {
+    text-align: left; font-size: 0.68rem;
+    letter-spacing: 0.06em; text-transform: uppercase;
+    color: var(--muted);
+    padding: 0.4rem 0.6rem;
+    border-bottom: 2px solid var(--ink);
+}
+.formula-table td {
+    padding: 0.4rem 0.6rem;
+    border-bottom: 1px solid var(--rule);
+    color: var(--ink-soft);
+}
+.formula-highlight td {
+    color: var(--teal) !important; font-weight: 700;
+    background: var(--teal-mist);
+}
+
+/* Shorts Disclosure Section */
+.section-bar-disclosure {
+    background: #fef2f2;
+    color: var(--red);
+    border-left: 4px solid var(--red);
+}
+.disclosure-intro {
+    font-size: 0.88rem; color: var(--muted);
+    max-width: 680px; margin: 0.8rem 0 1.5rem; line-height: 1.6;
+}
+.disc-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 1rem;
+}
+.disc-card {
+    background: var(--white);
+    border: 1px solid var(--rule);
+    border-radius: 6px; padding: 1.2rem;
+    border-left: 4px solid var(--red);
+}
+.disc-header {
+    display: flex; align-items: center;
+    gap: 0.5rem; margin-bottom: 0.5rem; flex-wrap: wrap;
+}
+.disc-ticker {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700; font-size: 1rem; letter-spacing: 0.04em;
+    color: var(--ink);
+}
+.disc-band { font-size: 0.72rem; font-weight: 700; }
+.disc-badge {
+    font-size: 0.62rem; font-weight: 700;
+    letter-spacing: 0.06em; padding: 2px 8px;
+    border-radius: 3px;
+}
+.disc-public { background: var(--amber-light); color: var(--amber); }
+.disc-private { background: var(--green-light); color: var(--green); }
+.disc-state {
+    font-size: 0.62rem; font-weight: 700;
+    letter-spacing: 0.06em; padding: 2px 6px;
+    border-radius: 3px;
+}
+.disc-asset { font-weight: 700; font-size: 0.85rem; margin-bottom: 0.3rem; color: var(--ink); }
+.disc-thesis {
+    font-size: 0.82rem; color: var(--muted);
+    font-style: italic; margin-bottom: 0.6rem; line-height: 1.5;
+}
+.disc-meta {
+    display: flex; gap: 1rem; font-size: 0.75rem;
+    color: var(--light); align-items: center;
+}
+.disc-pnl { font-weight: 700; font-size: 0.85rem; margin-left: auto; }
+
+/* Research Collapse */
+.research-collapse { margin-top: 2rem; }
+.research-collapse > summary {
+    cursor: pointer; list-style: none;
+}
+.research-collapse > summary::-webkit-details-marker { display: none; }
+.research-body { opacity: 0.85; }
+
+/* Sections */
+.section { padding: 2.5rem 0; scroll-margin-top: 72px; }
+.section-label {
+    font-size: 0.76rem; font-weight: 700;
+    letter-spacing: 0.14em; text-transform: uppercase;
+    color: var(--ink); margin-bottom: 0.8rem;
+}
+.section-title {
+    font-family: 'Montserrat', sans-serif;
+    font-size: clamp(1.4rem, 3vw, 1.8rem);
+    font-weight: 800; margin-bottom: 0.5rem;
+    color: var(--ink);
+}
+.section-intro {
+    color: var(--muted); font-size: 0.88rem;
+    max-width: 680px; margin-bottom: 2rem; line-height: 1.6;
+}
+
+/* Section Bars (separators between Active / Pipeline / Research) */
+.section-bar {
+    display: flex; align-items: center; gap: 0.5rem;
+    padding: 0.6rem 1rem;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 0.78rem; font-weight: 700;
+    letter-spacing: 0.08em; text-transform: uppercase;
+    border-radius: 4px;
+    margin-bottom: 0.5rem;
+    margin-top: 2rem;
+}
+.section-bar:first-child { margin-top: 0; }
+.section-bar-icon { font-size: 0.9rem; }
+.section-bar-count {
+    margin-left: auto;
+    font-size: 0.7rem; font-weight: 400;
+    letter-spacing: 0.02em; text-transform: none;
+    opacity: 0.7;
+}
+.section-bar-active {
+    background: #dbeafe; color: #2563eb;
+    border-left: 4px solid #3b82f6;
+}
+.section-bar-pipeline {
+    background: var(--teal-light); color: var(--teal);
+    border-left: 4px solid var(--teal);
+}
+.section-bar-research {
+    background: var(--off); color: var(--muted);
+    border-left: 4px solid var(--light);
+}
+.section-empty {
+    padding: 1.5rem; text-align: center;
+    color: var(--light); font-style: italic;
+    font-size: 0.88rem;
+}
+
+/* Trading Sheet Tables */
+.table-scroll {
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+}
+.trading-table {
+    width: 100%; border-collapse: collapse;
+    font-size: 0.85rem;
+    color: var(--ink);
+}
+.trading-table thead th {
+    background: transparent; padding: 0.6rem 0.5rem;
+    text-align: left; font-weight: 700;
+    font-size: 0.7rem; letter-spacing: 0.06em;
+    text-transform: uppercase; color: var(--muted);
+    border-bottom: 2px solid var(--ink);
+    white-space: nowrap;
+}
+.trading-table tbody tr {
+    border-bottom: 1px solid var(--rule);
+    transition: background 0.15s;
+}
+.trading-table tbody tr:hover { background: var(--off); }
+.trading-table td {
+    padding: 0.5rem 0.5rem; vertical-align: middle;
+}
+
+/* Trade history table (table-wrap) */
+.table-wrap { overflow-x: auto; -webkit-overflow-scrolling: touch; }
+.table-wrap table {
+    width: 100%; border-collapse: collapse; font-size: 0.82rem; color: var(--ink);
+}
+.table-wrap table thead th {
+    text-align: left; font-size: 0.68rem; font-weight: 700;
+    letter-spacing: 0.06em; text-transform: uppercase;
+    color: var(--muted); padding: 0.5rem 0.6rem;
+    border-bottom: 2px solid var(--ink); white-space: nowrap;
+}
+.table-wrap table tbody td {
+    padding: 0.5rem 0.6rem; border-bottom: 1px solid var(--rule); vertical-align: middle;
+}
+.table-wrap table tbody tr:hover { background: var(--off); }
+
+/* Active rows */
+.active-row {
+    border-left: 3px solid #3b82f6;
+    background: #f0f7ff;
+}
+.active-row:hover { background: #dbeafe !important; }
+.td-ticker-active {
+    font-weight: 700; font-size: 0.95rem;
+    white-space: nowrap;
+}
+.ticker-name {
+    font-family: 'Montserrat', sans-serif;
+    letter-spacing: 0.04em;
+}
+.trade-badge {
+    display: inline-flex; align-items: center; justify-content: center;
+    width: 20px; height: 20px; border-radius: 50%;
+    background: #2563eb; color: #fff;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700; font-size: 0.65rem;
+    line-height: 1; margin-left: 4px;
+    vertical-align: middle;
+    box-shadow: 0 1px 3px rgba(37, 99, 235, 0.3);
+}
+
+/* Pipeline rows */
+.pipeline-row {
+    border-left: 3px solid var(--teal);
+    background: var(--teal-mist);
+}
+.pipeline-row:hover { background: var(--teal-light) !important; }
+.td-ticker-pipeline {
+    font-weight: 700; font-size: 0.9rem;
+    white-space: nowrap;
+}
+
+/* Research rows */
+.research-table {
+    opacity: 0.75;
+    font-size: 0.8rem;
+}
+.research-table:hover {
+    opacity: 1;
+}
+.killed-row { opacity: 0.7; }
+.killed-row .td-ticker-research { color: var(--purple-dark); }
+.research-watch-row { }
+.td-ticker-research {
+    font-weight: 700; font-size: 0.82rem;
+    white-space: nowrap;
+}
+.td-asset-compact {
+    max-width: 180px; white-space: nowrap;
+    overflow: hidden; text-overflow: ellipsis;
+    font-size: 0.82rem;
+}
+.td-reason {
+    font-size: 0.72rem; color: var(--ink-subtle);
+    max-width: 200px; white-space: nowrap;
+    overflow: hidden; text-overflow: ellipsis;
+}
+.research-hidden-note {
+    text-align: center; color: var(--grey-400);
+    padding: 0.8rem; font-size: 0.75rem;
+    font-style: italic;
+}
+
+/* Shared cell styles */
+.td-band {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 800; font-size: 1rem; text-align: center;
+    width: 2.5rem;
+}
+.td-asset { max-width: 220px; }
+.td-asset .name { font-weight: 700; font-size: 0.85rem; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.td-asset .thesis { font-size: 0.68rem; color: var(--ink-mid); font-style: italic; margin-top: 1px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; max-width: 210px; }
+.exit-micro { font-size: 0.62rem; margin-top: 2px; letter-spacing: 0.01em; white-space: nowrap; }
+.exit-micro span { font-weight: 600; }
+.td-dir {
+    font-weight: 700; font-size: 0.72rem;
+    letter-spacing: 0.04em; text-align: center;
+    padding: 2px 8px; border-radius: 3px;
+    display: inline-block;
+}
+.td-price { font-weight: 700; white-space: nowrap; }
+.td-pnl { font-weight: 700; white-space: nowrap; text-align: right; }
+.td-state {
+    font-weight: 700; font-size: 0.72rem;
+    letter-spacing: 0.04em; text-align: center;
+    padding: 2px 8px; border-radius: 3px;
+    display: inline-block; white-space: nowrap;
+}
+.td-timeline {
+    font-size: 0.75rem; white-space: nowrap;
+    max-width: 300px; overflow-x: auto;
+}
+.tl-point { display: inline-block; margin: 0 1px; }
+.tl-point sup { font-size: 0.55rem; color: var(--ink-subtle); }
+.tl-point sub { font-size: 0.6rem; }
+.tl-arrow { color: var(--grey-300); margin: 0 2px; font-size: 0.7rem; }
+.tl-empty { color: var(--grey-400); font-style: italic; }
+.kill-marker {
+    display: inline-block; background: var(--purple-dark);
+    color: #fff; font-weight: 700; font-size: 0.65rem;
+    width: 16px; height: 16px; line-height: 16px;
+    text-align: center; border-radius: 50%; margin: 0 2px;
+}
+
+/* Thesis badges */
+.thesis-badge {
+    display: inline-block; font-size: 0.65rem; font-weight: 700;
+    letter-spacing: 0.03em; text-transform: uppercase;
+    padding: 1px 6px; border-radius: 3px;
+    margin-left: 4px;
+}
+.notes-link {
+    text-decoration: none; font-size: 0.95rem; opacity: 0.6;
+    transition: opacity 0.2s; cursor: pointer; margin-left: 6px;
+    vertical-align: middle;
+}
+.notes-link:hover { opacity: 1; }
+
+/* Band cluster cards */
+.band-grid {
+    display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 1.2rem;
+}
+.band-card {
+    background: var(--white); border: 1px solid var(--rule);
+    border-radius: 4px; padding: 1.5rem;
+    border-left: 5px solid;
+}
+.band-card .band-letter {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.8rem; font-weight: 800;
+}
+.band-card .band-label {
+    font-size: 0.72rem; letter-spacing: 0.08em;
+    text-transform: uppercase; margin-bottom: 0.8rem;
+}
+.band-card .band-stats {
+    display: grid; grid-template-columns: 1fr 1fr;
+    gap: 0.4rem; font-size: 0.82rem; margin-bottom: 0.8rem;
+    color: var(--muted);
+}
+.band-card .band-stats .num { font-weight: 700; color: var(--ink); }
+.band-card .members { font-size: 0.78rem; color: var(--muted); }
+.band-card .members .member {
+    display: flex; align-items: center; gap: 0.4rem;
+    padding: 2px 0; border-bottom: 1px solid var(--rule);
+}
+
+/* Learning dashboard */
+.learn-grid {
+    display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 1.5rem;
+}
+.learn-card {
+    background: var(--white); border: 1px solid var(--rule);
+    border-radius: 4px; padding: 1.5rem;
+    color: var(--ink);
+}
+.learn-card-wide {
+    grid-column: 1 / -1;
+}
+.learn-card h3 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1rem; font-weight: 700;
+    margin-bottom: 0.8rem;
+    color: var(--ink);
+}
+.learn-card table {
+    width: 100%; font-size: 0.82rem;
+    border-collapse: collapse;
+    color: var(--ink);
+}
+.learn-card th {
+    text-align: left; font-weight: 700;
+    font-size: 0.72rem; letter-spacing: 0.04em;
+    text-transform: uppercase; color: var(--muted);
+    padding: 0.3rem 0.4rem; border-bottom: 2px solid var(--ink);
+}
+.learn-card td {
+    padding: 0.3rem 0.4rem; border-bottom: 1px solid var(--rule);
+}
+.timing-best {
+    background: var(--teal-mist) !important;
+}
+
+/* Featured Wins Strip */
+.featured-wins {
+    padding: 1.5rem 0;
+    border-bottom: 1px solid var(--rule);
+}
+.wins-label {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 0.68rem; font-weight: 700;
+    letter-spacing: 0.14em; text-transform: uppercase;
+    color: var(--teal); margin-bottom: 1rem;
+}
+.wins-grid {
+    display: grid; grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+    gap: 1rem;
+}
+.win-card {
+    background: var(--white); border: 1px solid var(--rule);
+    border-top: 3px solid var(--green); border-radius: 4px;
+    padding: 1.2rem; text-align: center;
+}
+.win-card-active {
+    border-top-color: var(--teal);
+    background: var(--teal-mist);
+}
+.win-card-signal {
+    border-top-color: var(--teal);
+}
+.win-pnl {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.6rem; font-weight: 800;
+    line-height: 1;
+}
+.win-ticker {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 0.85rem; font-weight: 800;
+    letter-spacing: 0.04em; margin-top: 0.4rem;
+    color: var(--ink);
+}
+.win-live-dot {
+    display: inline-block; width: 6px; height: 6px;
+    border-radius: 50%; background: var(--green);
+    margin-left: 4px; vertical-align: middle;
+    animation: pulse-glow 2s ease-in-out infinite;
+}
+@keyframes pulse-glow { 0%,100% { opacity: 1; } 50% { opacity: 0.3; } }
+.win-theme {
+    font-size: 0.72rem; color: var(--muted);
+    margin-top: 0.3rem; line-height: 1.3;
+}
+.win-meta {
+    font-size: 0.65rem; color: var(--light);
+    margin-top: 0.5rem; letter-spacing: 0.04em;
+    text-transform: uppercase; font-weight: 700;
+}
+
+/* ---- SITE FOOTER (noah-edge.com chrome) ---- */
+.site-footer { border-top: 2px solid var(--ink); padding: 1.8rem 0 3rem; background: var(--white); }
+.footer-inner { max-width: var(--max-width); margin: 0 auto; padding: 0 2rem; display: flex; justify-content: space-between; align-items: start; }
+.footer-brand { font-family: 'Montserrat', sans-serif; font-weight: 800; font-size: 0.82rem; letter-spacing: 0.12em; margin-bottom: 0.4rem; }
+.footer-text { font-size: 0.7rem; color: var(--light); line-height: 1.6; max-width: 440px; }
+.footer-links { display: flex; gap: 1.5rem; flex-wrap: wrap; }
+.footer-links a { font-size: 0.7rem; color: var(--muted); letter-spacing: 0.04em; }
+
+/* Disclaimer */
+.disclaimer-box {
+    max-width: 560px; margin: 2rem auto 0;
+    padding: 0.8rem 1rem;
+    border-top: 1px solid var(--rule);
+}
+.disclaimer-box p {
+    font-size: 0.7rem; color: var(--light);
+    line-height: 1.7; text-align: center; margin: 0;
+}
+.disclaimer-box strong {
+    color: var(--muted); letter-spacing: 0.08em;
+    text-transform: uppercase; font-size: 0.65rem;
+}
+
+/* ---- RESPONSIVE ---- */
+@media (max-width: 900px) {
+    .site-header { padding: 0.8rem 1.2rem; flex-wrap: wrap; gap: 0.4rem; }
+    .brand-noah { font-size: 1.15rem; }
+    .brand-edge { font-size: 1.1rem; }
+    .header-nav { gap: 1rem; }
+    .stat-grid { grid-template-columns: repeat(2, 1fr); }
+    .band-grid { grid-template-columns: 1fr 1fr; }
+    .learn-grid { grid-template-columns: 1fr; }
+    .disc-grid { grid-template-columns: 1fr; }
+    .wins-grid { grid-template-columns: repeat(2, 1fr); }
+    .footer-inner { flex-direction: column; gap: 1.5rem; }
+    .strapline { flex-direction: column; gap: 0.2rem; }
+    .page-nav { flex-wrap: wrap; }
+}
+@media (max-width: 600px) {
+    .container { padding: 0 1.2rem; }
+    .header-nav .hide-mobile { display: none; }
+    .stat-grid { grid-template-columns: repeat(2, 1fr); gap: 1rem; }
+    .trading-table { font-size: 0.78rem; }
+    .formula-stats { gap: 1.5rem; }
+    .formula-num { font-size: 1.4rem; }
+    .strapline { padding: 0.7rem 1.2rem; }
+    .page-nav { padding: 0.5rem 1.2rem; }
+}
+</style>
+</head>
+<body>
+
+<!-- ===== NOAH EDGE SITE HEADER ===== -->
+<header class="site-header">
+  <div class="brand">
+    <a href="/"><span class="brand-noah">NOAH</span>
+    <span class="brand-edge">edge</span></a>
+  </div>
+  <nav class="header-nav">
+    <a href="/">Latest</a>
+    <a href="/polymarket/index.html">PolyMarket</a>
+    <a href="/kalshi/index.html">Kalshi</a>
+    <a href="/hedgefund/index.html" class="active">Hedge Fund</a>
+    <a href="/company-watch/index.html">Company Watch</a>
+    <a href="/crypto/index.html">Crypto</a>
+    <a href="/signals/index.html" class="hide-mobile">Signals</a>
+    <a href="/tips/index.html" class="hide-mobile">Tips</a>
+    <a href="/sandbox/index.html" class="hide-mobile">Sandbox</a>
+  </nav>
+</header>
+<hr class="header-rule">
+<div class="strapline">
+  <span class="strapline-text"><strong>If it&rsquo;s in Bloomberg, it&rsquo;s too late.</strong> Paper trading hedge fund intelligence to learn which signals work.</span>
+  <span class="strapline-date">Saturday 7 March 2026</span>
+</div>
+<nav class="page-nav">
+    <a href="#formula">Formula</a>
+    <a href="#trades">Trades</a>
+    <a href="#sheet">Sheet</a>
+    <a href="#disclosure">Disclosure</a>
+    <span class="sep">|</span>
+    <a href="#clusters">Clusters</a>
+    <a href="#learning">Learning</a>
+    <span style="margin-left:auto;font-size:0.68rem;color:var(--light)">Updated 2026-03-07 22:07 UTC</span>
+</nav>
+
+<!-- Hero -->
+<div class="hero">
+    <div class="container">
+        <div class="hero-kicker">Signal Intelligence &middot; LONG Band A</div>
+        <h1>+6.4% Per Signal</h1>
+        <div class="headline">13 high-conviction signals averaging +6.4% per signal with a 4.5x profit factor. Recent winners include MU (+7%), GLW (+7%), ASML (+4%).</div>
+        <div class="stat-grid">
+            <div class="stat-box">
+                <div class="num green">+6.4%</div>
+                <div class="label">Avg P&amp;L / Signal</div>
+            </div>
+            <div class="stat-box">
+                <div class="num green">4.49&times;</div>
+                <div class="label">Profit Factor</div>
+            </div>
+            <div class="stat-box">
+                <div class="num green">31%</div>
+                <div class="label">Win Rate</div>
+            </div>
+            <div class="stat-box">
+                <div class="num" style="color:var(--ink)">13</div>
+                <div class="label">Signals Measured</div>
+            </div>
+            <div class="stat-box">
+                <div class="num green">+7.1%</div>
+                <div class="label">Best Win (MU)</div>
+            </div>
+            <div class="stat-box">
+                <div class="num" style="color:var(--teal)">3</div>
+                <div class="label">Active Now</div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="featured-wins">
+    <div class="container">
+        <div class="wins-label">FEATURED WINS</div>
+        <div class="wins-grid"><div class="win-card">
+    <div class="win-pnl" style="color:var(--green)">+7.1%</div>
+    <div class="win-ticker">MU</div>
+    <div class="win-theme">Micron Singapore expansion + AI-memory tightness n</div>
+    <div class="win-meta">Band A &middot; 96h &middot; BACKTESTED</div>
+</div>
+<div class="win-card">
+    <div class="win-pnl" style="color:var(--green)">+6.9%</div>
+    <div class="win-ticker">GLW</div>
+    <div class="win-theme">Hyperscaler AI infrastructure buildout: in-house c</div>
+    <div class="win-meta">Band A &middot; 96h &middot; BACKTESTED</div>
+</div>
+<div class="win-card">
+    <div class="win-pnl" style="color:var(--green)">+3.5%</div>
+    <div class="win-ticker">ASML</div>
+    <div class="win-theme">ASML Holding N.V.: business restructuring</div>
+    <div class="win-meta">Band A &middot; 96h &middot; BACKTESTED</div>
+</div>
+<div class="win-card">
+    <div class="win-pnl" style="color:var(--green)">+3.2%</div>
+    <div class="win-ticker">NOC</div>
+    <div class="win-theme">Northrop Grumman contract_win</div>
+    <div class="win-meta">Band A &middot; 96h &middot; BACKTESTED</div>
+</div>
+<div class="win-card win-card-active">
+    <div class="win-pnl" style="color:var(--green)">+3.0%</div>
+    <div class="win-ticker">AUROPHARMA.BSE <span class="win-live-dot"></span></div>
+    <div class="win-theme">Aurobindo Pharma Limited: regulation</div>
+    <div class="win-meta">Band A &middot; ACTIVE NOW</div>
+</div>
+<div class="win-card win-card-signal">
+    <div class="win-pnl" style="color:var(--teal)">+91%</div>
+    <div class="win-ticker">NVTS</div>
+    <div class="win-theme">Navitas Semiconductor: AI infrastructure</div>
+    <div class="win-meta">Band A &middot; SIGNAL IDENTIFIED</div>
+</div>
+<div class="win-card win-card-signal">
+    <div class="win-pnl" style="color:var(--teal)">+80%</div>
+    <div class="win-ticker">TSM</div>
+    <div class="win-theme">Taiwan Semiconductor Manufacturing Co. (TSMC): cap</div>
+    <div class="win-meta">Band D &middot; SIGNAL IDENTIFIED</div>
+</div></div>
+    </div>
+</div>
+
+
+<div style="margin:1.5rem 0;padding:0;border:1px solid #e5e0db;border-radius:6px;background:#fff;overflow:hidden;">
+  <div style="display:flex;align-items:stretch;">
+    <div style="flex:1;min-width:0;padding:1.1rem 1.2rem;">
+      <div style="font-family:'Montserrat',sans-serif;font-size:0.55rem;font-weight:700;letter-spacing:0.12em;text-transform:uppercase;color:#0d7680;margin-bottom:0.25rem;">NEWS &middot; Pharma</div>
+      <div style="font-family:'Playfair Display',serif;font-weight:900;font-size:0.95rem;line-height:1.3;margin-bottom:0.35rem;">MIRA Pharmaceuticals Faces Unseen Development Risks</div>
+      <div style="font-size:0.76rem;color:#4B5563;line-height:1.65;">MIRA Pharmaceuticals, a biotechnology firm specializing in innovative therapeutic solutions, is currently under scrutiny for its clinical development pipeline. The company's focus on novel drug candidates is crucial, as it positions itself to capitalize on unmet medical needs in a competitive market. However, emerging data indicate potential risks that have not yet been incorporated into its market valuation. Our intelligence system has identified concerning discrepancies between MIRA’s projected clinical timelines and actual progress. Recent reports suggest that Phase 2 trials for its lead candidate are facing significant delays, with preliminary results expected six months later than initially planned. This delay raises questions about the efficacy and safety of the treatment, a narrative that has yet to penetrate the broader market…</div>
+    </div>
+    <img src="/assets/images/news/mira-pharmaceuticals-faces-unseen-develo-1788f7d8.jpg" alt="" style="width:240px;object-fit:cover;flex-shrink:0;" loading="lazy">
+  </div>
+</div>
+
+<!-- How We Would Trade -->
+<div class="section" id="formula" style="padding-bottom:0">
+    <div class="container">
+        <div class="formula-card" id="formula">
+    <div class="formula-header">&#9733; How We Would Trade</div>
+    <div style="font-size:0.88rem;color:var(--muted);margin-bottom:1.2rem;max-width:600px;line-height:1.6">
+        Our backtested trading formula: <strong style="color:var(--teal)">LONG direction + Band A/B (55%+ confidence)</strong>.
+        Only these signals enter the Alpha Group.
+    </div>
+    <div class="formula-stats">
+        <div class="formula-stat">
+            <div class="formula-num" style="color:#16a34a">+1.7%</div>
+            <div class="formula-label">Avg P&amp;L / Signal</div>
+        </div>
+        <div class="formula-stat">
+            <div class="formula-num" style="color:var(--green)">34%</div>
+            <div class="formula-label">Win Rate</div>
+        </div>
+        <div class="formula-stat">
+            <div class="formula-num" style="color:var(--amber)">1.54&times;</div>
+            <div class="formula-label">Profit Factor</div>
+        </div>
+        <div class="formula-stat">
+            <div class="formula-num" style="color:#16a34a">+0.0%</div>
+            <div class="formula-label">vs SPY (Alpha)</div>
+        </div>
+        <div class="formula-stat">
+            <div class="formula-num">41</div>
+            <div class="formula-label">Alpha Signals</div>
+        </div>
+    </div>
+    <div style="margin-top:1.5rem">
+    <div class="formula-sublabel">Strategy Comparison</div>
+    <table class="formula-table">
+        <thead><tr><th>Strategy</th><th>Signals</th><th>Win Rate</th><th>Avg P&amp;L</th><th>vs SPY</th><th>PF</th></tr></thead>
+        <tbody><tr><td>LONG A</td><td>13</td><td>31%</td><td style="color:#16a34a">+6.4%</td><td style="color:var(--light)">---</td><td>4.49x</td></tr>
+<tr class="formula-highlight"><td>LONG A+B</td><td>41</td><td>34%</td><td style="color:#16a34a">+1.7%</td><td style="color:var(--light)">---</td><td>1.54x</td></tr>
+<tr><td>LONG conf>=70</td><td>9</td><td>33%</td><td style="color:#16a34a">+9.8%</td><td style="color:var(--light)">---</td><td>6.49x</td></tr>
+<tr><td>ALL LONG</td><td>65</td><td>42%</td><td style="color:#16a34a">+3.5%</td><td style="color:var(--light)">---</td><td>2.39x</td></tr>
+<tr><td>ALL SHORT</td><td>71</td><td>62%</td><td style="color:#16a34a">+1.1%</td><td style="color:var(--light)">---</td><td>2.32x</td></tr>
+<tr><td>ALL SIGNALS</td><td>231</td><td>31%</td><td style="color:#16a34a">+1.3%</td><td style="color:var(--light)">---</td><td>2.37x</td></tr></tbody>
+    </table>
+</div>
+    <div style="margin-top:1rem;padding-top:1rem;border-top:1px solid var(--rule);font-size:0.82rem;color:var(--muted)">
+    <span style="color:var(--red);font-weight:700">Losses avoided:</span>
+    By filtering to high-conviction LONGs, we bypassed 37 losing research signals averaging -2.5% each.
+</div>
+</div>
+    </div>
+</div>
+
+<!-- Trading Sheet -->
+<div class="section" id="sheet">
+    <div class="container">
+        <div class="section-label">Trading Sheet</div>
+        <div class="section-title">Live Positions &amp; Trade History</div>
+        <div class="section-intro">
+            <strong style="color:#2563eb">Alpha Group positions</strong> (LONG + Band A/B) at the top.
+            <strong style="color:var(--teal)">Pipeline</strong> candidates next.
+            <span style="color:#7c3aed;font-weight:700">Report P&amp;L</span> shows movement since the signal price.
+        </div>
+
+        <div class="section-bar section-bar-active"><span class="section-bar-icon">&#9679;</span> Active Positions<span class="section-bar-count">3 positions</span></div><div class="table-scroll">
+<table class="trading-table">
+<thead><tr>
+    <th>Ticker</th><th>Band</th><th>Asset / Thesis</th><th>Dir</th>
+    <th>Conf</th><th>Entry</th><th>Current</th><th>Trade P&amp;L</th>
+    <th>Report P&amp;L</th><th>Timeline</th>
+</tr></thead>
+<tbody><tr class="active-row">
+    <td class="td-ticker-active"><span class="ticker-name">SMH</span><span class="trade-badge">B</span> <span class="thesis-badge" style="color:#92400e;background:#fef3c7">weakening</span> <a href="positions/position_440.html" class="notes-link" title="View trader notes">&#128203;</a></td>
+    <td class="td-band" style="color:#166534">A</td>
+    <td class="td-asset"><div class="name">In2tec: semiconductor demand</div><div class="thesis">Memory price shock is leaking into real buyer channels - a supplier-le</div><div class="exit-micro"><span style="color:#16a34a">Peak +2.1%</span> &middot; <span style="color:#dc2626">Stop $332</span> &middot; <span style="color:#16a34a">Target $450</span></div></td>
+    <td><span class="td-dir" style="color:#16a34a;background:#f0fdf4">LONG</span></td>
+    <td style="text-align:center;font-weight:700">74%</td>
+    <td class="td-price">$391.06</td>
+    <td class="td-price">$380.56</td>
+    <td class="td-pnl"><span style="color:#cc0000;font-weight:700;font-size:1rem">-2.7%</span></td>
+    <td class="td-pnl"><span style="color:#7c3aed;font-weight:700">-2.7%</span></td>
+    <td class="td-timeline"><span class="tl-point" style="color:#f59e0b" title="2026-03-04 13:06 (0h): $391.06 0.0%"><sup class="tl-time">13:06</sup>$391.06<sub>0.0%</sub></span><span class="tl-arrow">&rarr;</span><span class="tl-point" style="color:#f59e0b" title="2026-03-04 14:07 (1h): $391.06 0.0%"><sup class="tl-time">14:07</sup>$391.06<sub>0.0%</sub></span><span class="tl-arrow">&rarr;</span><span class="tl-point" style="color:#f59e0b" title="2026-03-04 15:20 (2h): $391.06 0.0%"><sup class="tl-time">15:20</sup>$391.06<sub>0.0%</sub></span><span class="tl-arrow">&rarr;</span><span class="tl-point" style="color:#5b21b6" title="2026-03-04 16:20 (3h): $391.06 0.0%"><sup class="tl-time">16:20</sup>$391.06<sub>0.0%</sub></span><span class="tl-arrow">&rarr;</span><span class="tl-point" style="color:#5b21b6" title="2026-03-04 17:21 (4h): $391.06 0.0%"><sup class="tl-time">17:21</sup>$391.06<sub>0.0%</sub></span><span class="tl-arrow">&rarr;</span><span class="tl-point" style="color:#5b21b6" title="2026-03-04 18:22 (5h): $391.06 0.0%"><sup class="tl-time">18:22</sup>$391.06<sub>0.0%</sub></span><span class="tl-arrow">&rarr;</span><span class="tl-point" style="color:#5b21b6" title="2026-03-04 19:23 (6h): $391.06 0.0%"><sup class="tl-time">19:23</sup>$391.06<sub>0.0%</sub></span><span class="tl-arrow">&rarr;</span><span class="tl-point" style="color:#5b21b6" title="2026-03-04 20:24 (7h): $391.06 0.0%"><sup class="tl-time">20:24</sup>$391.06<sub>0.0%</sub></span><span class="tl-arrow">&rarr;</span><span class="tl-point" style="color:#5b21b6" title="2026-03-04 21:25 (8h): $399.10 +2.1%"><sup class="tl-time">21:25</sup>$399.10<sub>+2.1%</sub></span><span class="tl-arrow">&rarr;</span><span class="tl-point" style="color:#5b21b6" title="2026-03-04 22:26 (9h): $399.10 +2.1%"><sup class="tl-time">22:26</sup>$399.10<sub>+2.1%</sub></span><span class="tl-arrow">&rarr;</span><span class="tl-point" style="color:#5b21b6" title="2026-03-04 23:27 (10h): $399.10 +2.1%"><sup class="tl-time">23:27</sup>$399.10<sub>+2.1%</sub></span><span class="tl-arrow">&rarr;</span><span class="tl-point" style="color:#5b21b6" title="2026-03-05 00:28 (11h): $399.10 +2.1%"><sup class="tl-time">00:28</sup>$399.10<sub>+2.1%</sub></span><span class="tl-arrow">&rarr;</span><span class="tl-point" style="color:#5b21b6" title="2026-03-05 01:28 (12h): $399.10 +2.1%"><sup class="tl-time">01:28</sup>$399.10<sub>+2.1%</sub></span><span class="tl-arrow">&rarr;</span><span class="tl-point" style="color:#5b21b6" title="2026-03-05 02:29 (13h): $399.10 +2.1%"><sup class="tl-time">02:29</sup>$399.10<sub>+2.1%</sub></span><span class="tl-arrow">&rarr;</span><span class="tl-point" style="color:#5b21b6" title="2026-03-05 03:30 (14h): $399.10 +2.1%"><sup class="tl-time">03:30</sup>$399.10<sub>+2.1%</sub></span><span class="tl-arrow">&rarr;</span><span class="tl-point" style="color:#5b21b6" title="2026-03-05 04:31 (15h): $399.10 +2.1%"><sup class="tl-time">04:31</sup>$399.10<sub>+2.1%</sub></span><span class="tl-arrow">&rarr;</span><span class="tl-point" style="color:#5b21b6" title="2026-03-05 05:32 (16h): $399.10 +2.1%"><sup class="tl-time">05:32</sup>$399.10<sub>+2.1%</sub></span><span class="tl-arrow">&rarr;</span><span class="tl-point" style="color:#5b21b6" title="2026-03-05 06:32 (17h): $399.10 +2.1%"><sup class="tl-time">06:32</sup>$399.10<sub>+2.1%</sub></span><span class="tl-arrow">&rarr;</span><span class="tl-point" style="color:#5b21b6" title="2026-03-05 07:32 (18h): $399.10 +2.1%"><sup class="tl-time">07:32</sup>$399.10<sub>+2.1%</sub></span><span class="tl-arrow">&rarr;</span><span class="tl-point" style="color:#5b21b6" title="2026-03-05 08:33 (19h): $399.10 +2.1%"><sup class="tl-time">08:33</sup>$399.10<sub>+2.1%</sub></span><span class="tl-arrow">&rarr;</span><span class="tl-point" style="color:#5b21b6" title="2026-03-05 09:34 (20h): $399.10 +2.1%"><sup class="tl-time">09:34</sup>$399.10<sub>+2.1%</sub></span><span class="tl-arrow">&rarr;</span><span class="tl-point" style="color:#5b21b6" title="2026-03-05 10:35 (21h): $399.10 +2.1%"><sup class="tl-time">10:35</sup>$399.10<sub>+2.1%</sub></span><span class="tl-arrow">&rarr;</span><span class="tl-point" style="color:#5b21b6" title="2026-03-05 11:36 (22h): $399.10 +2.1%"><sup class="tl-time">11:36</sup>$399.10<sub>+2.1%</sub></span><span class="tl-arrow">&rarr;</span><span class="tl-point" style="color:#5b21b6" title="2026-03-05 12:37 (24h): $399.10 +2.1%"><sup class="tl-time">12:37</sup>$399.10<sub>+2.1%</sub></span><span class="tl-arrow">&rarr;</span><span class="tl-point" style="color:#5b21b6" title="2026-03-05 13:38 (25h): $399.10 +2.1%"><sup class="tl-time">13:38</sup>$399.10<sub>+2.1%</sub></span><span class="tl-arrow">&rarr;</span><span class="tl-point" style="color:#5b21b6" title="2026-03-05 14:38 (26h): $399.10 +2.1%"><sup class="tl-time">14:38</sup>$399.10<sub>+2.1%</sub></span><span class="tl-arrow">&rarr;</span><span class="tl-point" style="color:#5b21b6" title="2026-03-05 15:40 (27h): $399.10 +2.1%"><sup class="tl-time">15:40</sup>$399.10<sub>+2.1%</sub></span><span class="tl-arrow">&rarr;</span><span class="tl-point" style="color:#5b21b6" title="2026-03-05 17:02 (28h): $399.10 +2.1%"><sup class="tl-time">17:02</sup>$399.10<sub>+2.1%</sub></span><span class="tl-arrow">&rarr;</span><span class="tl-point" style="color:#5b21b6" title="2026-03-05 18:01 (29h): $399.10 +2.1%"><sup class="tl-time">18:01</sup>$399.10<sub>+2.1%</sub></span><span class="tl-arrow">&rarr;</span><span class="tl-point" style="color:#5b21b6" title="2026-03-05 19:05 (30h): $399.10 +2.1%"><sup class="tl-time">19:05</sup>$399.10<sub>+2.1%</sub></span><span class="tl-arrow">&rarr;</span><span class="tl-point" style="color:#5b21b6" title="2026-03-05 20:05 (31h): $399.10 +2.1%"><sup class="tl-time">20:05</sup>$399.10<sub>+2.1%</sub></span><span class="tl-arrow">&rarr;</span><span class="tl-point" style="color:#5b21b6" title="2026-03-05 21:05 (32h): $399.10 +2.1%"><sup class="tl-time">21:05</sup>$399.10<sub>+2.1%</sub></span><span class="tl-arrow">&rarr;</span><span class="tl-point" style="color:#5b21b6" title="2026-03-05 22:06 (33h): $395.35 +1.1%"><sup class="tl-time">22:06</sup>$395.35<sub>+1.1%</sub></span><span class="tl-arrow">&rarr;</span><span class="tl-point" style="color:#5b21b6" title="2026-03-05 23:07 (34h): $395.35 +1.1%"><sup class="tl-time">23:07</sup>$395.35<sub>+1.1%</sub></span><span class="tl-arrow">&rarr;</span><span class="tl-point" style="color:#5b21b6" title="2026-03-06 00:08 (35h): $395.35 +1.1%"><sup class="tl-time">00:08</sup>$395.35<sub>+1.1%</sub></span><span class="tl-arrow">&rarr;</span><span class="tl-point" style="color:#5b21b6" title="2026-03-06 01:09 (36h): $395.35 +1.1%"><sup class="tl-time">01:09</sup>$395.35<sub>+1.1%</sub></span><span class="tl-arrow">&rarr;</span><span class="tl-point" style="color:#5b21b6" title="2026-03-06 02:09 (37h): $395.35 +1.1%"><sup class="tl-time">02:09</sup>$395.35<sub>+1.1%</sub></span><span class="tl-arrow">&rarr;</span><span class="tl-point" style="color:#5b21b6" title="2026-03-06 03:10 (38h): $395.35 +1.1%"><sup class="tl-time">03:10</sup>$395.35<sub>+1.1%</sub></span><span class="tl-arrow">&rarr;</span><span class="tl-point" style="color:#5b21b6" title="2026-03-06 04:11 (39h): $395.35 +1.1%"><sup class="tl-time">04:11</sup>$395.35<sub>+1.1%</sub></span><span class="tl-arrow">&rarr;</span><span class="tl-point" style="color:#5b21b6" title="2026-03-06 05:11 (40h): $395.35 +1.1%"><sup class="tl-time">05:11</sup>$395.35<sub>+1.1%</sub></span><span class="tl-arrow">&rarr;</span><span class="tl-point" style="color:#5b21b6" title="2026-03-06 06:12 (41h): $395.35 +1.1%"><sup class="tl-time">06:12</sup>$395.35<sub>+1.1%</sub></span><span class="tl-arrow">&rarr;</span><span class="tl-point" style="color:#5b21b6" title="2026-03-06 07:13 (42h): $395.35 +1.1%"><sup class="tl-time">07:13</sup>$395.35<sub>+1.1%</sub></span><span class="tl-arrow">&rarr;</span><span class="tl-point" style="color:#5b21b6" title="2026-03-06 08:14 (43h): $395.35 +1.1%"><sup class="tl-time">08:14</sup>$395.35<sub>+1.1%</sub></span><span class="tl-arrow">&rarr;</span><span class="tl-point" style="color:#5b21b6" title="2026-03-06 09:14 (44h): $395.35 +1.1%"><sup class="tl-time">09:14</sup>$395.35<sub>+1.1%</sub></span><span class="tl-arrow">&rarr;</span><span class="tl-point" style="color:#5b21b6" title="2026-03-06 10:15 (45h): $395.35 +1.1%"><sup class="tl-time">10:15</sup>$395.35<sub>+1.1%</sub></span><span class="tl-arrow">&rarr;</span><span class="tl-point" style="color:#5b21b6" title="2026-03-06 11:16 (46h): $395.35 +1.1%"><sup class="tl-time">11:16</sup>$395.35<sub>+1.1%</sub></span><span class="tl-arrow">&rarr;</span><span class="tl-point" style="color:#5b21b6" title="2026-03-06 12:17 (47h): $395.35 +1.1%"><sup class="tl-time">12:17</sup>$395.35<sub>+1.1%</sub></span><span class="tl-arrow">&rarr;</span><span class="tl-point" style="color:#5b21b6" title="2026-03-06 13:00 (48h): $395.35 +1.1%"><sup class="tl-time">13:00</sup>$395.35<sub>+1.1%</sub></span><span class="tl-arrow">&rarr;</span><span class="tl-point" style="color:#5b21b6" title="2026-03-06 14:01 (49h): $395.35 +1.1%"><sup class="tl-time">14:01</sup>$395.35<sub>+1.1%</sub></span><span class="tl-arrow">&rarr;</span><span class="tl-point" style="color:#5b21b6" title="2026-03-06 17:52 (53h): $395.35 +1.1%"><sup class="tl-time">17:52</sup>$395.35<sub>+1.1%</sub></span><span class="tl-arrow">&rarr;</span><span class="tl-point" style="color:#5b21b6" title="2026-03-06 18:46 (54h): $395.35 +1.1%"><sup class="tl-time">18:46</sup>$395.35<sub>+1.1%</sub></span><span class="tl-arrow">&rarr;</span><span class="tl-point" style="color:#5b21b6" title="2026-03-06 19:46 (55h): $395.35 +1.1%"><sup class="tl-time">19:46</sup>$395.35<sub>+1.1%</sub></span><span class="tl-arrow">&rarr;</span><span class="tl-point" style="color:#5b21b6" title="2026-03-06 20:46 (56h): $395.35 +1.1%"><sup class="tl-time">20:46</sup>$395.35<sub>+1.1%</sub></span><span class="tl-arrow">&rarr;</span><span class="tl-point" style="color:#5b21b6" title="2026-03-06 21:47 (57h): $380.56 -2.7%"><sup class="tl-time">21:47</sup>$380.56<sub>-2.7%</sub></span><span class="tl-arrow">&rarr;</span><span class="tl-point" style="color:#5b21b6" title="2026-03-06 22:47 (58h): $380.56 -2.7%"><sup class="tl-time">22:47</sup>$380.56<sub>-2.7%</sub></span><span class="tl-arrow">&rarr;</span><span class="tl-point" style="color:#5b21b6" title="2026-03-06 23:47 (59h): $380.56 -2.7%"><sup class="tl-time">23:47</sup>$380.56<sub>-2.7%</sub></span><span class="tl-arrow">&rarr;</span><span class="tl-point" style="color:#5b21b6" title="2026-03-07 00:47 (60h): $380.56 -2.7%"><sup class="tl-time">00:47</sup>$380.56<sub>-2.7%</sub></span><span class="tl-arrow">&rarr;</span><span class="tl-point" style="color:#5b21b6" title="2026-03-07 01:47 (61h): $380.56 -2.7%"><sup class="tl-time">01:47</sup>$380.56<sub>-2.7%</sub></span><span class="tl-arrow">&rarr;</span><span class="tl-point" style="color:#5b21b6" title="2026-03-07 02:47 (62h): $380.56 -2.7%"><sup class="tl-time">02:47</sup>$380.56<sub>-2.7%</sub></span><span class="tl-arrow">&rarr;</span><span class="tl-point" style="color:#5b21b6" title="2026-03-07 03:47 (63h): $380.56 -2.7%"><sup class="tl-time">03:47</sup>$380.56<sub>-2.7%</sub></span><span class="tl-arrow">&rarr;</span><span class="tl-point" style="color:#5b21b6" title="2026-03-07 04:48 (64h): $380.56 -2.7%"><sup class="tl-time">04:48</sup>$380.56<sub>-2.7%</sub></span><span class="tl-arrow">&rarr;</span><span class="tl-point" style="color:#5b21b6" title="2026-03-07 05:49 (65h): $380.56 -2.7%"><sup class="tl-time">05:49</sup>$380.56<sub>-2.7%</sub></span><span class="tl-arrow">&rarr;</span><span class="tl-point" style="color:#5b21b6" title="2026-03-07 06:50 (66h): $380.56 -2.7%"><sup class="tl-time">06:50</sup>$380.56<sub>-2.7%</sub></span><span class="tl-arrow">&rarr;</span><span class="tl-point" style="color:#5b21b6" title="2026-03-07 07:51 (67h): $380.56 -2.7%"><sup class="tl-time">07:51</sup>$380.56<sub>-2.7%</sub></span><span class="tl-arrow">&rarr;</span><span class="tl-point" style="color:#5b21b6" title="2026-03-07 08:52 (68h): $380.56 -2.7%"><sup class="tl-time">08:52</sup>$380.56<sub>-2.7%</sub></span><span class="tl-arrow">&rarr;</span><span class="tl-point" style="color:#5b21b6" title="2026-03-07 09:53 (69h): $380.56 -2.7%"><sup class="tl-time">09:53</sup>$380.56<sub>-2.7%</sub></span><span class="tl-arrow">&rarr;</span><span class="tl-point" style="color:#5b21b6" title="2026-03-07 10:54 (70h): $380.56 -2.7%"><sup class="tl-time">10:54</sup>$380.56<sub>-2.7%</sub></span><span class="tl-arrow">&rarr;</span><span class="tl-point" style="color:#5b21b6" title="2026-03-07 11:55 (71h): $380.56 -2.7%"><sup class="tl-time">11:55</sup>$380.56<sub>-2.7%</sub></span><span class="tl-arrow">&rarr;</span><span class="tl-point" style="color:#5b21b6" title="2026-03-07 12:55 (72h): $380.56 -2.7%"><sup class="tl-time">12:55</sup>$380.56<sub>-2.7%</sub></span><span class="tl-arrow">&rarr;</span><span class="tl-point" style="color:#5b21b6" title="2026-03-07 13:55 (73h): $380.56 -2.7%"><sup class="tl-time">13:55</sup>$380.56<sub>-2.7%</sub></span><span class="tl-arrow">&rarr;</span><span class="tl-point" style="color:#5b21b6" title="2026-03-07 14:56 (74h): $380.56 -2.7%"><sup class="tl-time">14:56</sup>$380.56<sub>-2.7%</sub></span><span class="tl-arrow">&rarr;</span><span class="tl-point" style="color:#5b21b6" title="2026-03-07 15:56 (75h): $380.56 -2.7%"><sup class="tl-time">15:56</sup>$380.56<sub>-2.7%</sub></span><span class="tl-arrow">&rarr;</span><span class="tl-point" style="color:#5b21b6" title="2026-03-07 16:56 (76h): $380.56 -2.7%"><sup class="tl-time">16:56</sup>$380.56<sub>-2.7%</sub></span><span class="tl-arrow">&rarr;</span><span class="tl-point" style="color:#5b21b6" title="2026-03-07 17:57 (77h): $380.56 -2.7%"><sup class="tl-time">17:57</sup>$380.56<sub>-2.7%</sub></span><span class="tl-arrow">&rarr;</span><span class="tl-point" style="color:#5b21b6" title="2026-03-07 19:12 (78h): $380.56 -2.7%"><sup class="tl-time">19:12</sup>$380.56<sub>-2.7%</sub></span><span class="tl-arrow">&rarr;</span><span class="tl-point" style="color:#5b21b6" title="2026-03-07 20:16 (79h): $380.56 -2.7%"><sup class="tl-time">20:16</sup>$380.56<sub>-2.7%</sub></span><span class="tl-arrow">&rarr;</span><span class="tl-point" style="color:#5b21b6" title="2026-03-07 21:17 (80h): $380.56 -2.7%"><sup class="tl-time">21:17</sup>$380.56<sub>-2.7%</sub></span></td>
+</tr>
+<tr class="active-row">
+    <td class="td-ticker-active"><span class="ticker-name">AUROPHARMA.BSE</span><span class="trade-badge">B</span> <span class="thesis-badge" style="color:#991b1b;background:#fef2f2">invalidated</span> <a href="positions/position_453.html" class="notes-link" title="View trader notes">&#128203;</a></td>
+    <td class="td-band" style="color:#166534">A</td>
+    <td class="td-asset"><div class="name">Aurobindo Pharma Limited: regulation</div><div class="thesis">Aurobindos US Pomalidomide Launch: Real Upside if the Street Hasnt Mod</div><div class="exit-micro"><span style="color:#16a34a">Peak +3.0%</span> &middot; <span style="color:#dc2626">Stop $1016</span> &middot; <span style="color:#16a34a">Target $1374</span></div></td>
+    <td><span class="td-dir" style="color:#16a34a;background:#f0fdf4">LONG</span></td>
+    <td style="text-align:center;font-weight:700">69%</td>
+    <td class="td-price">$1195.10</td>
+    <td class="td-price">$1231.60</td>
+    <td class="td-pnl"><span style="color:#16a34a;font-weight:700;font-size:1rem">+3.0%</span></td>
+    <td class="td-pnl"><span style="color:#7c3aed;font-weight:700">+3.0%</span></td>
+    <td class="td-timeline"><span class="tl-point" style="color:#f59e0b" title="2026-03-04 15:20 (1h): $1195.10 0.0%"><sup class="tl-time">15:20</sup>$1195.10<sub>0.0%</sub></span><span class="tl-arrow">&rarr;</span><span class="tl-point" style="color:#5b21b6" title="2026-03-04 16:20 (2h): $1195.10 0.0%"><sup class="tl-time">16:20</sup>$1195.10<sub>0.0%</sub></span><span class="tl-arrow">&rarr;</span><span class="tl-point" style="color:#5b21b6" title="2026-03-04 17:21 (3h): $1195.10 0.0%"><sup class="tl-time">17:21</sup>$1195.10<sub>0.0%</sub></span><span class="tl-arrow">&rarr;</span><span class="tl-point" style="color:#5b21b6" title="2026-03-04 18:22 (4h): $1195.10 0.0%"><sup class="tl-time">18:22</sup>$1195.10<sub>0.0%</sub></span><span class="tl-arrow">&rarr;</span><span class="tl-point" style="color:#5b21b6" title="2026-03-04 19:23 (5h): $1195.10 0.0%"><sup class="tl-time">19:23</sup>$1195.10<sub>0.0%</sub></span><span class="tl-arrow">&rarr;</span><span class="tl-point" style="color:#5b21b6" title="2026-03-04 20:24 (6h): $1195.10 0.0%"><sup class="tl-time">20:24</sup>$1195.10<sub>0.0%</sub></span><span class="tl-arrow">&rarr;</span><span class="tl-point" style="color:#5b21b6" title="2026-03-04 21:25 (7h): $1195.10 0.0%"><sup class="tl-time">21:25</sup>$1195.10<sub>0.0%</sub></span><span class="tl-arrow">&rarr;</span><span class="tl-point" style="color:#5b21b6" title="2026-03-04 22:26 (8h): $1195.10 0.0%"><sup class="tl-time">22:26</sup>$1195.10<sub>0.0%</sub></span><span class="tl-arrow">&rarr;</span><span class="tl-point" style="color:#5b21b6" title="2026-03-04 23:27 (9h): $1195.10 0.0%"><sup class="tl-time">23:27</sup>$1195.10<sub>0.0%</sub></span><span class="tl-arrow">&rarr;</span><span class="tl-point" style="color:#5b21b6" title="2026-03-05 00:28 (10h): $1195.10 0.0%"><sup class="tl-time">00:28</sup>$1195.10<sub>0.0%</sub></span><span class="tl-arrow">&rarr;</span><span class="tl-point" style="color:#5b21b6" title="2026-03-05 01:28 (11h): $1195.10 0.0%"><sup class="tl-time">01:28</sup>$1195.10<sub>0.0%</sub></span><span class="tl-arrow">&rarr;</span><span class="tl-point" style="color:#5b21b6" title="2026-03-05 02:29 (12h): $1195.10 0.0%"><sup class="tl-time">02:29</sup>$1195.10<sub>0.0%</sub></span><span class="tl-arrow">&rarr;</span><span class="tl-point" style="color:#5b21b6" title="2026-03-05 03:30 (13h): $1195.10 0.0%"><sup class="tl-time">03:30</sup>$1195.10<sub>0.0%</sub></span><span class="tl-arrow">&rarr;</span><span class="tl-point" style="color:#5b21b6" title="2026-03-05 04:31 (14h): $1195.10 0.0%"><sup class="tl-time">04:31</sup>$1195.10<sub>0.0%</sub></span><span class="tl-arrow">&rarr;</span><span class="tl-point" style="color:#5b21b6" title="2026-03-05 05:32 (15h): $1195.10 0.0%"><sup class="tl-time">05:32</sup>$1195.10<sub>0.0%</sub></span><span class="tl-arrow">&rarr;</span><span class="tl-point" style="color:#5b21b6" title="2026-03-05 06:32 (16h): $1195.10 0.0%"><sup class="tl-time">06:32</sup>$1195.10<sub>0.0%</sub></span><span class="tl-arrow">&rarr;</span><span class="tl-point" style="color:#5b21b6" title="2026-03-05 07:32 (17h): $1195.10 0.0%"><sup class="tl-time">07:32</sup>$1195.10<sub>0.0%</sub></span><span class="tl-arrow">&rarr;</span><span class="tl-point" style="color:#5b21b6" title="2026-03-05 08:33 (18h): $1195.10 0.0%"><sup class="tl-time">08:33</sup>$1195.10<sub>0.0%</sub></span><span class="tl-arrow">&rarr;</span><span class="tl-point" style="color:#5b21b6" title="2026-03-05 09:34 (19h): $1195.10 0.0%"><sup class="tl-time">09:34</sup>$1195.10<sub>0.0%</sub></span><span class="tl-arrow">&rarr;</span><span class="tl-point" style="color:#5b21b6" title="2026-03-05 10:35 (20h): $1195.10 0.0%"><sup class="tl-time">10:35</sup>$1195.10<sub>0.0%</sub></span><span class="tl-arrow">&rarr;</span><span class="tl-point" style="color:#5b21b6" title="2026-03-05 11:36 (21h): $1195.10 0.0%"><sup class="tl-time">11:36</sup>$1195.10<sub>0.0%</sub></span><span class="tl-arrow">&rarr;</span><span class="tl-point" style="color:#5b21b6" title="2026-03-05 12:37 (22h): $1195.10 0.0%"><sup class="tl-time">12:37</sup>$1195.10<sub>0.0%</sub></span><span class="tl-arrow">&rarr;</span><span class="tl-point" style="color:#5b21b6" title="2026-03-05 13:38 (23h): $1195.10 0.0%"><sup class="tl-time">13:38</sup>$1195.10<sub>0.0%</sub></span><span class="tl-arrow">&rarr;</span><span class="tl-point" style="color:#5b21b6" title="2026-03-05 14:38 (24h): $1195.10 0.0%"><sup class="tl-time">14:38</sup>$1195.10<sub>0.0%</sub></span><span class="tl-arrow">&rarr;</span><span class="tl-point" style="color:#5b21b6" title="2026-03-05 15:40 (25h): $1195.10 0.0%"><sup class="tl-time">15:40</sup>$1195.10<sub>0.0%</sub></span><span class="tl-arrow">&rarr;</span><span class="tl-point" style="color:#5b21b6" title="2026-03-05 17:02 (26h): $1195.10 0.0%"><sup class="tl-time">17:02</sup>$1195.10<sub>0.0%</sub></span><span class="tl-arrow">&rarr;</span><span class="tl-point" style="color:#5b21b6" title="2026-03-05 18:01 (27h): $1195.10 0.0%"><sup class="tl-time">18:01</sup>$1195.10<sub>0.0%</sub></span><span class="tl-arrow">&rarr;</span><span class="tl-point" style="color:#5b21b6" title="2026-03-05 19:05 (28h): $1195.10 0.0%"><sup class="tl-time">19:05</sup>$1195.10<sub>0.0%</sub></span><span class="tl-arrow">&rarr;</span><span class="tl-point" style="color:#5b21b6" title="2026-03-05 20:05 (29h): $1195.10 0.0%"><sup class="tl-time">20:05</sup>$1195.10<sub>0.0%</sub></span><span class="tl-arrow">&rarr;</span><span class="tl-point" style="color:#5b21b6" title="2026-03-05 21:05 (30h): $1195.10 0.0%"><sup class="tl-time">21:05</sup>$1195.10<sub>0.0%</sub></span><span class="tl-arrow">&rarr;</span><span class="tl-point" style="color:#5b21b6" title="2026-03-05 22:06 (31h): $1195.10 0.0%"><sup class="tl-time">22:06</sup>$1195.10<sub>0.0%</sub></span><span class="tl-arrow">&rarr;</span><span class="tl-point" style="color:#5b21b6" title="2026-03-05 23:07 (32h): $1225.80 +2.6%"><sup class="tl-time">23:07</sup>$1225.80<sub>+2.6%</sub></span><span class="tl-arrow">&rarr;</span><span class="tl-point" style="color:#5b21b6" title="2026-03-06 00:08 (34h): $1225.80 +2.6%"><sup class="tl-time">00:08</sup>$1225.80<sub>+2.6%</sub></span><span class="tl-arrow">&rarr;</span><span class="tl-point" style="color:#5b21b6" title="2026-03-06 01:09 (35h): $1225.80 +2.6%"><sup class="tl-time">01:09</sup>$1225.80<sub>+2.6%</sub></span><span class="tl-arrow">&rarr;</span><span class="tl-point" style="color:#5b21b6" title="2026-03-06 02:09 (36h): $1225.80 +2.6%"><sup class="tl-time">02:09</sup>$1225.80<sub>+2.6%</sub></span><span class="tl-arrow">&rarr;</span><span class="tl-point" style="color:#5b21b6" title="2026-03-06 03:10 (37h): $1225.80 +2.6%"><sup class="tl-time">03:10</sup>$1225.80<sub>+2.6%</sub></span><span class="tl-arrow">&rarr;</span><span class="tl-point" style="color:#5b21b6" title="2026-03-06 04:11 (38h): $1225.80 +2.6%"><sup class="tl-time">04:11</sup>$1225.80<sub>+2.6%</sub></span><span class="tl-arrow">&rarr;</span><span class="tl-point" style="color:#5b21b6" title="2026-03-06 05:11 (39h): $1225.80 +2.6%"><sup class="tl-time">05:11</sup>$1225.80<sub>+2.6%</sub></span><span class="tl-arrow">&rarr;</span><span class="tl-point" style="color:#5b21b6" title="2026-03-06 06:12 (40h): $1225.80 +2.6%"><sup class="tl-time">06:12</sup>$1225.80<sub>+2.6%</sub></span><span class="tl-arrow">&rarr;</span><span class="tl-point" style="color:#5b21b6" title="2026-03-06 07:13 (41h): $1225.80 +2.6%"><sup class="tl-time">07:13</sup>$1225.80<sub>+2.6%</sub></span><span class="tl-arrow">&rarr;</span><span class="tl-point" style="color:#5b21b6" title="2026-03-06 08:14 (42h): $1225.80 +2.6%"><sup class="tl-time">08:14</sup>$1225.80<sub>+2.6%</sub></span><span class="tl-arrow">&rarr;</span><span class="tl-point" style="color:#5b21b6" title="2026-03-06 09:14 (43h): $1225.80 +2.6%"><sup class="tl-time">09:14</sup>$1225.80<sub>+2.6%</sub></span><span class="tl-arrow">&rarr;</span><span class="tl-point" style="color:#5b21b6" title="2026-03-06 10:15 (44h): $1225.80 +2.6%"><sup class="tl-time">10:15</sup>$1225.80<sub>+2.6%</sub></span><span class="tl-arrow">&rarr;</span><span class="tl-point" style="color:#5b21b6" title="2026-03-06 11:16 (45h): $1225.80 +2.6%"><sup class="tl-time">11:16</sup>$1225.80<sub>+2.6%</sub></span><span class="tl-arrow">&rarr;</span><span class="tl-point" style="color:#5b21b6" title="2026-03-06 12:17 (46h): $1225.80 +2.6%"><sup class="tl-time">12:17</sup>$1225.80<sub>+2.6%</sub></span><span class="tl-arrow">&rarr;</span><span class="tl-point" style="color:#5b21b6" title="2026-03-06 13:00 (46h): $1225.80 +2.6%"><sup class="tl-time">13:00</sup>$1225.80<sub>+2.6%</sub></span><span class="tl-arrow">&rarr;</span><span class="tl-point" style="color:#5b21b6" title="2026-03-06 14:01 (47h): $1225.80 +2.6%"><sup class="tl-time">14:01</sup>$1225.80<sub>+2.6%</sub></span><span class="tl-arrow">&rarr;</span><span class="tl-point" style="color:#5b21b6" title="2026-03-06 17:52 (51h): $1225.80 +2.6%"><sup class="tl-time">17:52</sup>$1225.80<sub>+2.6%</sub></span><span class="tl-arrow">&rarr;</span><span class="tl-point" style="color:#5b21b6" title="2026-03-06 18:46 (52h): $1225.80 +2.6%"><sup class="tl-time">18:46</sup>$1225.80<sub>+2.6%</sub></span><span class="tl-arrow">&rarr;</span><span class="tl-point" style="color:#5b21b6" title="2026-03-06 19:46 (53h): $1225.80 +2.6%"><sup class="tl-time">19:46</sup>$1225.80<sub>+2.6%</sub></span><span class="tl-arrow">&rarr;</span><span class="tl-point" style="color:#5b21b6" title="2026-03-06 20:46 (54h): $1225.80 +2.6%"><sup class="tl-time">20:46</sup>$1225.80<sub>+2.6%</sub></span><span class="tl-arrow">&rarr;</span><span class="tl-point" style="color:#5b21b6" title="2026-03-06 21:47 (55h): $1225.80 +2.6%"><sup class="tl-time">21:47</sup>$1225.80<sub>+2.6%</sub></span><span class="tl-arrow">&rarr;</span><span class="tl-point" style="color:#5b21b6" title="2026-03-06 22:47 (56h): $1231.60 +3.0%"><sup class="tl-time">22:47</sup>$1231.60<sub>+3.0%</sub></span><span class="tl-arrow">&rarr;</span><span class="tl-point" style="color:#5b21b6" title="2026-03-07 00:47 (58h): $1231.60 +3.0%"><sup class="tl-time">00:47</sup>$1231.60<sub>+3.0%</sub></span><span class="tl-arrow">&rarr;</span><span class="tl-point" style="color:#5b21b6" title="2026-03-07 01:47 (59h): $1231.60 +3.0%"><sup class="tl-time">01:47</sup>$1231.60<sub>+3.0%</sub></span><span class="tl-arrow">&rarr;</span><span class="tl-point" style="color:#5b21b6" title="2026-03-07 02:47 (60h): $1231.60 +3.0%"><sup class="tl-time">02:47</sup>$1231.60<sub>+3.0%</sub></span><span class="tl-arrow">&rarr;</span><span class="tl-point" style="color:#5b21b6" title="2026-03-07 03:47 (61h): $1231.60 +3.0%"><sup class="tl-time">03:47</sup>$1231.60<sub>+3.0%</sub></span><span class="tl-arrow">&rarr;</span><span class="tl-point" style="color:#5b21b6" title="2026-03-07 04:48 (62h): $1231.60 +3.0%"><sup class="tl-time">04:48</sup>$1231.60<sub>+3.0%</sub></span><span class="tl-arrow">&rarr;</span><span class="tl-point" style="color:#5b21b6" title="2026-03-07 05:49 (63h): $1231.60 +3.0%"><sup class="tl-time">05:49</sup>$1231.60<sub>+3.0%</sub></span><span class="tl-arrow">&rarr;</span><span class="tl-point" style="color:#5b21b6" title="2026-03-07 06:50 (64h): $1231.60 +3.0%"><sup class="tl-time">06:50</sup>$1231.60<sub>+3.0%</sub></span><span class="tl-arrow">&rarr;</span><span class="tl-point" style="color:#5b21b6" title="2026-03-07 07:51 (65h): $1231.60 +3.0%"><sup class="tl-time">07:51</sup>$1231.60<sub>+3.0%</sub></span><span class="tl-arrow">&rarr;</span><span class="tl-point" style="color:#5b21b6" title="2026-03-07 08:52 (66h): $1231.60 +3.0%"><sup class="tl-time">08:52</sup>$1231.60<sub>+3.0%</sub></span><span class="tl-arrow">&rarr;</span><span class="tl-point" style="color:#5b21b6" title="2026-03-07 09:53 (67h): $1231.60 +3.0%"><sup class="tl-time">09:53</sup>$1231.60<sub>+3.0%</sub></span><span class="tl-arrow">&rarr;</span><span class="tl-point" style="color:#5b21b6" title="2026-03-07 10:54 (68h): $1231.60 +3.0%"><sup class="tl-time">10:54</sup>$1231.60<sub>+3.0%</sub></span><span class="tl-arrow">&rarr;</span><span class="tl-point" style="color:#5b21b6" title="2026-03-07 11:55 (69h): $1231.60 +3.0%"><sup class="tl-time">11:55</sup>$1231.60<sub>+3.0%</sub></span><span class="tl-arrow">&rarr;</span><span class="tl-point" style="color:#5b21b6" title="2026-03-07 12:55 (70h): $1231.60 +3.0%"><sup class="tl-time">12:55</sup>$1231.60<sub>+3.0%</sub></span><span class="tl-arrow">&rarr;</span><span class="tl-point" style="color:#5b21b6" title="2026-03-07 13:55 (71h): $1231.60 +3.0%"><sup class="tl-time">13:55</sup>$1231.60<sub>+3.0%</sub></span><span class="tl-arrow">&rarr;</span><span class="tl-point" style="color:#5b21b6" title="2026-03-07 14:56 (72h): $1231.60 +3.0%"><sup class="tl-time">14:56</sup>$1231.60<sub>+3.0%</sub></span><span class="tl-arrow">&rarr;</span><span class="tl-point" style="color:#5b21b6" title="2026-03-07 15:56 (73h): $1231.60 +3.0%"><sup class="tl-time">15:56</sup>$1231.60<sub>+3.0%</sub></span><span class="tl-arrow">&rarr;</span><span class="tl-point" style="color:#5b21b6" title="2026-03-07 16:56 (74h): $1231.60 +3.0%"><sup class="tl-time">16:56</sup>$1231.60<sub>+3.0%</sub></span><span class="tl-arrow">&rarr;</span><span class="tl-point" style="color:#5b21b6" title="2026-03-07 17:57 (75h): $1231.60 +3.0%"><sup class="tl-time">17:57</sup>$1231.60<sub>+3.0%</sub></span><span class="tl-arrow">&rarr;</span><span class="tl-point" style="color:#5b21b6" title="2026-03-07 19:12 (77h): $1231.60 +3.0%"><sup class="tl-time">19:12</sup>$1231.60<sub>+3.0%</sub></span><span class="tl-arrow">&rarr;</span><span class="tl-point" style="color:#5b21b6" title="2026-03-07 20:16 (78h): $1231.60 +3.0%"><sup class="tl-time">20:16</sup>$1231.60<sub>+3.0%</sub></span><span class="tl-arrow">&rarr;</span><span class="tl-point" style="color:#5b21b6" title="2026-03-07 21:17 (79h): $1231.60 +3.0%"><sup class="tl-time">21:17</sup>$1231.60<sub>+3.0%</sub></span></td>
+</tr>
+<tr class="active-row">
+    <td class="td-ticker-active"><span class="ticker-name">QUBT</span><span class="trade-badge">B</span> <span class="thesis-badge" style="color:#065f46;background:#d1fae5">strengthening</span> <a href="positions/position_442.html" class="notes-link" title="View trader notes">&#128203;</a></td>
+    <td class="td-band" style="color:#166534">A</td>
+    <td class="td-asset"><div class="name">Quantum Computing Inc.: industry growth and s</div><div class="thesis">QUBT is trying to buy credibility via acquisition - a LONG call with d</div><div class="exit-micro"><span style="color:#16a34a">Peak +5.4%</span> &middot; <span style="color:#dc2626">Stop $7</span> &middot; <span style="color:#16a34a">Target $9</span></div></td>
+    <td><span class="td-dir" style="color:#16a34a;background:#f0fdf4">LONG</span></td>
+    <td style="text-align:center;font-weight:700">67%</td>
+    <td class="td-price">$7.73</td>
+    <td class="td-price">$7.60</td>
+    <td class="td-pnl"><span style="color:#cc0000;font-weight:700;font-size:1rem">-1.7%</span></td>
+    <td class="td-pnl"><span style="color:#7c3aed;font-weight:700">-1.7%</span></td>
+    <td class="td-timeline"><span class="tl-point" style="color:#f59e0b" title="2026-03-04 13:06 (0h): $7.73 0.0%"><sup class="tl-time">13:06</sup>$7.73<sub>0.0%</sub></span><span class="tl-arrow">&rarr;</span><span class="tl-point" style="color:#f59e0b" title="2026-03-04 14:07 (1h): $7.73 0.0%"><sup class="tl-time">14:07</sup>$7.73<sub>0.0%</sub></span><span class="tl-arrow">&rarr;</span><span class="tl-point" style="color:#f59e0b" title="2026-03-04 15:20 (2h): $7.73 0.0%"><sup class="tl-time">15:20</sup>$7.73<sub>0.0%</sub></span><span class="tl-arrow">&rarr;</span><span class="tl-point" style="color:#f59e0b" title="2026-03-04 16:20 (3h): $7.73 0.0%"><sup class="tl-time">16:20</sup>$7.73<sub>0.0%</sub></span><span class="tl-arrow">&rarr;</span><span class="tl-point" style="color:#f59e0b" title="2026-03-04 17:21 (4h): $7.73 0.0%"><sup class="tl-time">17:21</sup>$7.73<sub>0.0%</sub></span><span class="tl-arrow">&rarr;</span><span class="tl-point" style="color:#f59e0b" title="2026-03-04 18:22 (5h): $7.73 0.0%"><sup class="tl-time">18:22</sup>$7.73<sub>0.0%</sub></span><span class="tl-arrow">&rarr;</span><span class="tl-point" style="color:#f59e0b" title="2026-03-04 19:23 (6h): $7.73 0.0%"><sup class="tl-time">19:23</sup>$7.73<sub>0.0%</sub></span><span class="tl-arrow">&rarr;</span><span class="tl-point" style="color:#f59e0b" title="2026-03-04 20:24 (7h): $7.73 0.0%"><sup class="tl-time">20:24</sup>$7.73<sub>0.0%</sub></span><span class="tl-arrow">&rarr;</span><span class="tl-point" style="color:#16a34a" title="2026-03-04 21:25 (8h): $8.15 +5.4%"><sup class="tl-time">21:25</sup>$8.15<sub>+5.4%</sub></span><span class="tl-arrow">&rarr;</span><span class="tl-point" style="color:#16a34a" title="2026-03-04 22:26 (9h): $8.15 +5.4%"><sup class="tl-time">22:26</sup>$8.15<sub>+5.4%</sub></span><span class="tl-arrow">&rarr;</span><span class="tl-point" style="color:#16a34a" title="2026-03-04 23:27 (10h): $8.15 +5.4%"><sup class="tl-time">23:27</sup>$8.15<sub>+5.4%</sub></span><span class="tl-arrow">&rarr;</span><span class="tl-point" style="color:#16a34a" title="2026-03-05 00:28 (11h): $8.15 +5.4%"><sup class="tl-time">00:28</sup>$8.15<sub>+5.4%</sub></span><span class="tl-arrow">&rarr;</span><span class="tl-point" style="color:#16a34a" title="2026-03-05 01:28 (12h): $8.15 +5.4%"><sup class="tl-time">01:28</sup>$8.15<sub>+5.4%</sub></span><span class="tl-arrow">&rarr;</span><span class="tl-point" style="color:#16a34a" title="2026-03-05 02:29 (13h): $8.15 +5.4%"><sup class="tl-time">02:29</sup>$8.15<sub>+5.4%</sub></span><span class="tl-arrow">&rarr;</span><span class="tl-point" style="color:#16a34a" title="2026-03-05 03:30 (14h): $8.15 +5.4%"><sup class="tl-time">03:30</sup>$8.15<sub>+5.4%</sub></span><span class="tl-arrow">&rarr;</span><span class="tl-point" style="color:#16a34a" title="2026-03-05 04:31 (15h): $8.15 +5.4%"><sup class="tl-time">04:31</sup>$8.15<sub>+5.4%</sub></span><span class="tl-arrow">&rarr;</span><span class="tl-point" style="color:#16a34a" title="2026-03-05 05:32 (16h): $8.15 +5.4%"><sup class="tl-time">05:32</sup>$8.15<sub>+5.4%</sub></span><span class="tl-arrow">&rarr;</span><span class="tl-point" style="color:#16a34a" title="2026-03-05 06:32 (17h): $8.15 +5.4%"><sup class="tl-time">06:32</sup>$8.15<sub>+5.4%</sub></span><span class="tl-arrow">&rarr;</span><span class="tl-point" style="color:#16a34a" title="2026-03-05 07:32 (18h): $8.15 +5.4%"><sup class="tl-time">07:32</sup>$8.15<sub>+5.4%</sub></span><span class="tl-arrow">&rarr;</span><span class="tl-point" style="color:#16a34a" title="2026-03-05 08:33 (19h): $8.15 +5.4%"><sup class="tl-time">08:33</sup>$8.15<sub>+5.4%</sub></span><span class="tl-arrow">&rarr;</span><span class="tl-point" style="color:#16a34a" title="2026-03-05 09:34 (20h): $8.15 +5.4%"><sup class="tl-time">09:34</sup>$8.15<sub>+5.4%</sub></span><span class="tl-arrow">&rarr;</span><span class="tl-point" style="color:#16a34a" title="2026-03-05 10:35 (21h): $8.15 +5.4%"><sup class="tl-time">10:35</sup>$8.15<sub>+5.4%</sub></span><span class="tl-arrow">&rarr;</span><span class="tl-point" style="color:#16a34a" title="2026-03-05 11:36 (22h): $8.15 +5.4%"><sup class="tl-time">11:36</sup>$8.15<sub>+5.4%</sub></span><span class="tl-arrow">&rarr;</span><span class="tl-point" style="color:#16a34a" title="2026-03-05 12:37 (24h): $8.15 +5.4%"><sup class="tl-time">12:37</sup>$8.15<sub>+5.4%</sub></span><span class="tl-arrow">&rarr;</span><span class="tl-point" style="color:#16a34a" title="2026-03-05 13:38 (25h): $8.15 +5.4%"><sup class="tl-time">13:38</sup>$8.15<sub>+5.4%</sub></span><span class="tl-arrow">&rarr;</span><span class="tl-point" style="color:#16a34a" title="2026-03-05 14:38 (26h): $8.15 +5.4%"><sup class="tl-time">14:38</sup>$8.15<sub>+5.4%</sub></span><span class="tl-arrow">&rarr;</span><span class="tl-point" style="color:#16a34a" title="2026-03-05 15:40 (27h): $8.15 +5.4%"><sup class="tl-time">15:40</sup>$8.15<sub>+5.4%</sub></span><span class="tl-arrow">&rarr;</span><span class="tl-point" style="color:#16a34a" title="2026-03-05 17:02 (28h): $8.15 +5.4%"><sup class="tl-time">17:02</sup>$8.15<sub>+5.4%</sub></span><span class="tl-arrow">&rarr;</span><span class="tl-point" style="color:#16a34a" title="2026-03-05 18:01 (29h): $8.15 +5.4%"><sup class="tl-time">18:01</sup>$8.15<sub>+5.4%</sub></span><span class="tl-arrow">&rarr;</span><span class="tl-point" style="color:#16a34a" title="2026-03-05 19:05 (30h): $8.15 +5.4%"><sup class="tl-time">19:05</sup>$8.15<sub>+5.4%</sub></span><span class="tl-arrow">&rarr;</span><span class="tl-point" style="color:#16a34a" title="2026-03-05 20:05 (31h): $8.15 +5.4%"><sup class="tl-time">20:05</sup>$8.15<sub>+5.4%</sub></span><span class="tl-arrow">&rarr;</span><span class="tl-point" style="color:#16a34a" title="2026-03-05 21:05 (32h): $8.15 +5.4%"><sup class="tl-time">21:05</sup>$8.15<sub>+5.4%</sub></span><span class="tl-arrow">&rarr;</span><span class="tl-point" style="color:#f59e0b" title="2026-03-05 22:06 (33h): $7.72 -0.1%"><sup class="tl-time">22:06</sup>$7.72<sub>-0.1%</sub></span><span class="tl-arrow">&rarr;</span><span class="tl-point" style="color:#f59e0b" title="2026-03-05 23:07 (34h): $7.72 -0.1%"><sup class="tl-time">23:07</sup>$7.72<sub>-0.1%</sub></span><span class="tl-arrow">&rarr;</span><span class="tl-point" style="color:#f59e0b" title="2026-03-06 00:08 (35h): $7.72 -0.1%"><sup class="tl-time">00:08</sup>$7.72<sub>-0.1%</sub></span><span class="tl-arrow">&rarr;</span><span class="tl-point" style="color:#f59e0b" title="2026-03-06 01:09 (36h): $7.72 -0.1%"><sup class="tl-time">01:09</sup>$7.72<sub>-0.1%</sub></span><span class="tl-arrow">&rarr;</span><span class="tl-point" style="color:#f59e0b" title="2026-03-06 02:09 (37h): $7.72 -0.1%"><sup class="tl-time">02:09</sup>$7.72<sub>-0.1%</sub></span><span class="tl-arrow">&rarr;</span><span class="tl-point" style="color:#f59e0b" title="2026-03-06 03:10 (38h): $7.72 -0.1%"><sup class="tl-time">03:10</sup>$7.72<sub>-0.1%</sub></span><span class="tl-arrow">&rarr;</span><span class="tl-point" style="color:#f59e0b" title="2026-03-06 04:11 (39h): $7.72 -0.1%"><sup class="tl-time">04:11</sup>$7.72<sub>-0.1%</sub></span><span class="tl-arrow">&rarr;</span><span class="tl-point" style="color:#f59e0b" title="2026-03-06 05:11 (40h): $7.72 -0.1%"><sup class="tl-time">05:11</sup>$7.72<sub>-0.1%</sub></span><span class="tl-arrow">&rarr;</span><span class="tl-point" style="color:#f59e0b" title="2026-03-06 06:12 (41h): $7.72 -0.1%"><sup class="tl-time">06:12</sup>$7.72<sub>-0.1%</sub></span><span class="tl-arrow">&rarr;</span><span class="tl-point" style="color:#f59e0b" title="2026-03-06 07:13 (42h): $7.72 -0.1%"><sup class="tl-time">07:13</sup>$7.72<sub>-0.1%</sub></span><span class="tl-arrow">&rarr;</span><span class="tl-point" style="color:#f59e0b" title="2026-03-06 08:14 (43h): $7.72 -0.1%"><sup class="tl-time">08:14</sup>$7.72<sub>-0.1%</sub></span><span class="tl-arrow">&rarr;</span><span class="tl-point" style="color:#f59e0b" title="2026-03-06 09:14 (44h): $7.72 -0.1%"><sup class="tl-time">09:14</sup>$7.72<sub>-0.1%</sub></span><span class="tl-arrow">&rarr;</span><span class="tl-point" style="color:#f59e0b" title="2026-03-06 10:15 (45h): $7.72 -0.1%"><sup class="tl-time">10:15</sup>$7.72<sub>-0.1%</sub></span><span class="tl-arrow">&rarr;</span><span class="tl-point" style="color:#f59e0b" title="2026-03-06 11:16 (46h): $7.72 -0.1%"><sup class="tl-time">11:16</sup>$7.72<sub>-0.1%</sub></span><span class="tl-arrow">&rarr;</span><span class="tl-point" style="color:#f59e0b" title="2026-03-06 12:17 (47h): $7.72 -0.1%"><sup class="tl-time">12:17</sup>$7.72<sub>-0.1%</sub></span><span class="tl-arrow">&rarr;</span><span class="tl-point" style="color:#f59e0b" title="2026-03-06 13:00 (48h): $7.72 -0.1%"><sup class="tl-time">13:00</sup>$7.72<sub>-0.1%</sub></span><span class="tl-arrow">&rarr;</span><span class="tl-point" style="color:#f59e0b" title="2026-03-06 14:01 (49h): $7.72 -0.1%"><sup class="tl-time">14:01</sup>$7.72<sub>-0.1%</sub></span><span class="tl-arrow">&rarr;</span><span class="tl-point" style="color:#f59e0b" title="2026-03-06 17:52 (53h): $7.72 -0.1%"><sup class="tl-time">17:52</sup>$7.72<sub>-0.1%</sub></span><span class="tl-arrow">&rarr;</span><span class="tl-point" style="color:#f59e0b" title="2026-03-06 18:46 (54h): $7.72 -0.1%"><sup class="tl-time">18:46</sup>$7.72<sub>-0.1%</sub></span><span class="tl-arrow">&rarr;</span><span class="tl-point" style="color:#f59e0b" title="2026-03-06 19:46 (55h): $7.72 -0.1%"><sup class="tl-time">19:46</sup>$7.72<sub>-0.1%</sub></span><span class="tl-arrow">&rarr;</span><span class="tl-point" style="color:#f59e0b" title="2026-03-06 20:46 (56h): $7.72 -0.1%"><sup class="tl-time">20:46</sup>$7.72<sub>-0.1%</sub></span><span class="tl-arrow">&rarr;</span><span class="tl-point" style="color:#f59e0b" title="2026-03-06 21:47 (57h): $7.60 -1.7%"><sup class="tl-time">21:47</sup>$7.60<sub>-1.7%</sub></span><span class="tl-arrow">&rarr;</span><span class="tl-point" style="color:#f59e0b" title="2026-03-06 22:47 (58h): $7.60 -1.7%"><sup class="tl-time">22:47</sup>$7.60<sub>-1.7%</sub></span><span class="tl-arrow">&rarr;</span><span class="tl-point" style="color:#f59e0b" title="2026-03-06 23:47 (59h): $7.60 -1.7%"><sup class="tl-time">23:47</sup>$7.60<sub>-1.7%</sub></span><span class="tl-arrow">&rarr;</span><span class="tl-point" style="color:#f59e0b" title="2026-03-07 00:47 (60h): $7.60 -1.7%"><sup class="tl-time">00:47</sup>$7.60<sub>-1.7%</sub></span><span class="tl-arrow">&rarr;</span><span class="tl-point" style="color:#f59e0b" title="2026-03-07 01:47 (61h): $7.60 -1.7%"><sup class="tl-time">01:47</sup>$7.60<sub>-1.7%</sub></span><span class="tl-arrow">&rarr;</span><span class="tl-point" style="color:#f59e0b" title="2026-03-07 02:47 (62h): $7.60 -1.7%"><sup class="tl-time">02:47</sup>$7.60<sub>-1.7%</sub></span><span class="tl-arrow">&rarr;</span><span class="tl-point" style="color:#f59e0b" title="2026-03-07 03:47 (63h): $7.60 -1.7%"><sup class="tl-time">03:47</sup>$7.60<sub>-1.7%</sub></span><span class="tl-arrow">&rarr;</span><span class="tl-point" style="color:#f59e0b" title="2026-03-07 04:48 (64h): $7.60 -1.7%"><sup class="tl-time">04:48</sup>$7.60<sub>-1.7%</sub></span><span class="tl-arrow">&rarr;</span><span class="tl-point" style="color:#f59e0b" title="2026-03-07 05:49 (65h): $7.60 -1.7%"><sup class="tl-time">05:49</sup>$7.60<sub>-1.7%</sub></span><span class="tl-arrow">&rarr;</span><span class="tl-point" style="color:#f59e0b" title="2026-03-07 06:50 (66h): $7.60 -1.7%"><sup class="tl-time">06:50</sup>$7.60<sub>-1.7%</sub></span><span class="tl-arrow">&rarr;</span><span class="tl-point" style="color:#f59e0b" title="2026-03-07 07:51 (67h): $7.60 -1.7%"><sup class="tl-time">07:51</sup>$7.60<sub>-1.7%</sub></span><span class="tl-arrow">&rarr;</span><span class="tl-point" style="color:#f59e0b" title="2026-03-07 08:52 (68h): $7.60 -1.7%"><sup class="tl-time">08:52</sup>$7.60<sub>-1.7%</sub></span><span class="tl-arrow">&rarr;</span><span class="tl-point" style="color:#f59e0b" title="2026-03-07 09:53 (69h): $7.60 -1.7%"><sup class="tl-time">09:53</sup>$7.60<sub>-1.7%</sub></span><span class="tl-arrow">&rarr;</span><span class="tl-point" style="color:#f59e0b" title="2026-03-07 10:54 (70h): $7.60 -1.7%"><sup class="tl-time">10:54</sup>$7.60<sub>-1.7%</sub></span><span class="tl-arrow">&rarr;</span><span class="tl-point" style="color:#f59e0b" title="2026-03-07 11:55 (71h): $7.60 -1.7%"><sup class="tl-time">11:55</sup>$7.60<sub>-1.7%</sub></span><span class="tl-arrow">&rarr;</span><span class="tl-point" style="color:#f59e0b" title="2026-03-07 12:55 (72h): $7.60 -1.7%"><sup class="tl-time">12:55</sup>$7.60<sub>-1.7%</sub></span><span class="tl-arrow">&rarr;</span><span class="tl-point" style="color:#f59e0b" title="2026-03-07 13:55 (73h): $7.60 -1.7%"><sup class="tl-time">13:55</sup>$7.60<sub>-1.7%</sub></span><span class="tl-arrow">&rarr;</span><span class="tl-point" style="color:#f59e0b" title="2026-03-07 14:56 (74h): $7.60 -1.7%"><sup class="tl-time">14:56</sup>$7.60<sub>-1.7%</sub></span><span class="tl-arrow">&rarr;</span><span class="tl-point" style="color:#f59e0b" title="2026-03-07 15:56 (75h): $7.60 -1.7%"><sup class="tl-time">15:56</sup>$7.60<sub>-1.7%</sub></span><span class="tl-arrow">&rarr;</span><span class="tl-point" style="color:#f59e0b" title="2026-03-07 16:56 (76h): $7.60 -1.7%"><sup class="tl-time">16:56</sup>$7.60<sub>-1.7%</sub></span><span class="tl-arrow">&rarr;</span><span class="tl-point" style="color:#f59e0b" title="2026-03-07 17:57 (77h): $7.60 -1.7%"><sup class="tl-time">17:57</sup>$7.60<sub>-1.7%</sub></span><span class="tl-arrow">&rarr;</span><span class="tl-point" style="color:#f59e0b" title="2026-03-07 19:12 (78h): $7.60 -1.7%"><sup class="tl-time">19:12</sup>$7.60<sub>-1.7%</sub></span><span class="tl-arrow">&rarr;</span><span class="tl-point" style="color:#f59e0b" title="2026-03-07 20:16 (79h): $7.60 -1.7%"><sup class="tl-time">20:16</sup>$7.60<sub>-1.7%</sub></span><span class="tl-arrow">&rarr;</span><span class="tl-point" style="color:#f59e0b" title="2026-03-07 21:17 (80h): $7.60 -1.7%"><sup class="tl-time">21:17</sup>$7.60<sub>-1.7%</sub></span></td>
+</tr></tbody>
+</table></div>
+        
+<div class="section-bar" style="border-left:4px solid var(--teal);margin-top:2rem" id="trades">
+    <span style="font-size:0.85rem;font-weight:700;letter-spacing:0.08em;color:var(--ink)">
+        &#x1f4c8; TRADE HISTORY
+    </span>
+    <span style="color:var(--muted);font-size:0.78rem">
+        21 closed, 3 active &middot;
+        +0.9% avg &middot;
+        43% win rate &middot;
+        2.2x PF &middot;
+        +19.4% total
+    </span>
+</div>
+<div class="table-wrap">
+<table>
+    <thead><tr>
+        <th>Ticker</th><th>Band</th><th>Asset</th>
+        <th>Entry</th><th>Exit</th><th>P&amp;L</th>
+        <th>Hold</th><th>Exit Reason</th><th>Type</th>
+    </tr></thead>
+    <tbody>
+        <tr style="background:#ecfdf5">
+            <td><strong>AUROPHARMA.BSE</strong></td><td>A</td><td style="font-size:0.7rem">Aurobindo Pharma Limited: regulatio</td>
+            <td>$1195.10</td><td>&mdash;</td>
+            <td style="color:#16a34a;font-weight:700">+3.0%</td>
+            <td>&mdash;</td><td style="color:#16a34a;font-weight:700">OPEN</td>
+            <td><span style="font-size:0.65rem;padding:2px 6px;border-radius:3px;background:#dcfce7;color:#16a34a;font-weight:700">BT</span></td>
+        </tr><tr style="background:#ecfdf5">
+            <td><strong>SMH</strong></td><td>A</td><td style="font-size:0.7rem">In2tec: semiconductor demand</td>
+            <td>$391.06</td><td>&mdash;</td>
+            <td style="color:#dc2626;font-weight:700">-2.7%</td>
+            <td>&mdash;</td><td style="color:#16a34a;font-weight:700">OPEN</td>
+            <td><span style="font-size:0.65rem;padding:2px 6px;border-radius:3px;background:#dcfce7;color:#16a34a;font-weight:700">BT</span></td>
+        </tr><tr style="background:#ecfdf5">
+            <td><strong>QUBT</strong></td><td>A</td><td style="font-size:0.7rem">Quantum Computing Inc.: industry gr</td>
+            <td>$7.73</td><td>&mdash;</td>
+            <td style="color:#dc2626;font-weight:700">-1.7%</td>
+            <td>&mdash;</td><td style="color:#16a34a;font-weight:700">OPEN</td>
+            <td><span style="font-size:0.65rem;padding:2px 6px;border-radius:3px;background:#dcfce7;color:#16a34a;font-weight:700">BT</span></td>
+        </tr>
+        <tr style="background:#fef2f2">
+            <td><strong>BAYN.DE</strong></td><td>A</td><td style="font-size:0.7rem">Bayer Group: regulation</td>
+            <td>$38.31</td><td>$37.77</td>
+            <td style="color:#dc2626;font-weight:700">-1.4%</td>
+            <td>51h</td><td style="font-size:0.7rem">cut loss</td>
+            <td><span style="font-size:0.65rem;padding:2px 6px;border-radius:3px;background:var(--off);color:var(--muted);font-weight:700">BT</span></td>
+        </tr><tr style="background:#fef2f2">
+            <td><strong>IHE</strong></td><td>A</td><td style="font-size:0.7rem">Teva Respiratory, LLC: market growt</td>
+            <td>$91.84</td><td>$87.77</td>
+            <td style="color:#dc2626;font-weight:700">-4.4%</td>
+            <td>95h</td><td style="font-size:0.7rem">tracking expired</td>
+            <td><span style="font-size:0.65rem;padding:2px 6px;border-radius:3px;background:var(--off);color:var(--muted);font-weight:700">BT</span></td>
+        </tr><tr style="background:transparent">
+            <td><strong>IHE</strong></td><td>B</td><td style="font-size:0.7rem">Jiuyuan Genetic Biopharmaceutical: </td>
+            <td>$91.84</td><td>$91.84</td>
+            <td style="color:var(--light);font-weight:700">+0.0%</td>
+            <td>3h</td><td style="font-size:0.7rem">take profit</td>
+            <td><span style="font-size:0.65rem;padding:2px 6px;border-radius:3px;background:#dbeafe;color:#2563eb;font-weight:700">LIVE</span></td>
+        </tr><tr style="background:transparent">
+            <td><strong>MU</strong></td><td>B</td><td style="font-size:0.7rem">Micron (MU)</td>
+            <td>$412.37</td><td>$412.37</td>
+            <td style="color:var(--light);font-weight:700">+0.0%</td>
+            <td>3h</td><td style="font-size:0.7rem">take profit</td>
+            <td><span style="font-size:0.65rem;padding:2px 6px;border-radius:3px;background:#dbeafe;color:#2563eb;font-weight:700">LIVE</span></td>
+        </tr><tr style="background:#fef2f2">
+            <td><strong>FRMI</strong></td><td>C</td><td style="font-size:0.7rem">Fermi, Inc.: litigation</td>
+            <td>$9.56</td><td>$9.97</td>
+            <td style="color:#dc2626;font-weight:700">-4.3%</td>
+            <td>238h</td><td style="font-size:0.7rem">cut loss</td>
+            <td><span style="font-size:0.65rem;padding:2px 6px;border-radius:3px;background:#dbeafe;color:#2563eb;font-weight:700">LIVE</span></td>
+        </tr><tr style="background:#f0fdf4">
+            <td><strong>IHE</strong></td><td>B</td><td style="font-size:0.7rem">Blue Cross: drug affordability</td>
+            <td>$90.38</td><td>$91.84</td>
+            <td style="color:#16a34a;font-weight:700">+1.6%</td>
+            <td>262h</td><td style="font-size:0.7rem">take profit</td>
+            <td><span style="font-size:0.65rem;padding:2px 6px;border-radius:3px;background:#dbeafe;color:#2563eb;font-weight:700">LIVE</span></td>
+        </tr><tr style="background:#f0fdf4">
+            <td><strong>TSM</strong></td><td>A</td><td style="font-size:0.7rem">Packaging/foundry capacity position</td>
+            <td>$364.20</td><td>$374.58</td>
+            <td style="color:#16a34a;font-weight:700">+2.9%</td>
+            <td>284h</td><td style="font-size:0.7rem">take profit</td>
+            <td><span style="font-size:0.65rem;padding:2px 6px;border-radius:3px;background:#dbeafe;color:#2563eb;font-weight:700">LIVE</span></td>
+        </tr><tr style="background:#f0fdf4">
+            <td><strong>NVDA</strong></td><td>A</td><td style="font-size:0.7rem">Nvidia China-market access: H200 ap</td>
+            <td>$184.97</td><td>$189.82</td>
+            <td style="color:#16a34a;font-weight:700">+2.6%</td>
+            <td>96h</td><td style="font-size:0.7rem">tracking expired</td>
+            <td><span style="font-size:0.65rem;padding:2px 6px;border-radius:3px;background:var(--off);color:var(--muted);font-weight:700">BT</span></td>
+        </tr><tr style="background:#f0fdf4">
+            <td><strong>GLW</strong></td><td>A</td><td style="font-size:0.7rem">Hyperscaler AI infrastructure build</td>
+            <td>$130.52</td><td>$139.51</td>
+            <td style="color:#16a34a;font-weight:700">+6.9%</td>
+            <td>96h</td><td style="font-size:0.7rem">tracking expired</td>
+            <td><span style="font-size:0.65rem;padding:2px 6px;border-radius:3px;background:var(--off);color:var(--muted);font-weight:700">BT</span></td>
+        </tr><tr style="background:#f0fdf4">
+            <td><strong>MU</strong></td><td>A</td><td style="font-size:0.7rem">Micron Singapore expansion + AI-mem</td>
+            <td>$399.78</td><td>$428.17</td>
+            <td style="color:#16a34a;font-weight:700">+7.1%</td>
+            <td>96h</td><td style="font-size:0.7rem">tracking expired</td>
+            <td><span style="font-size:0.65rem;padding:2px 6px;border-radius:3px;background:var(--off);color:var(--muted);font-weight:700">BT</span></td>
+        </tr><tr style="background:#f0fdf4">
+            <td><strong>NOC</strong></td><td>A</td><td style="font-size:0.7rem">Northrop Grumman contract_win</td>
+            <td>$701.12</td><td>$723.56</td>
+            <td style="color:#16a34a;font-weight:700">+3.2%</td>
+            <td>96h</td><td style="font-size:0.7rem">tracking expired</td>
+            <td><span style="font-size:0.65rem;padding:2px 6px;border-radius:3px;background:var(--off);color:var(--muted);font-weight:700">BT</span></td>
+        </tr><tr style="background:#fef2f2">
+            <td><strong>AMD</strong></td><td>A</td><td style="font-size:0.7rem">AMD earnings_results</td>
+            <td>$203.08</td><td>$200.15</td>
+            <td style="color:#dc2626;font-weight:700">-1.4%</td>
+            <td>96h</td><td style="font-size:0.7rem">tracking expired</td>
+            <td><span style="font-size:0.65rem;padding:2px 6px;border-radius:3px;background:var(--off);color:var(--muted);font-weight:700">BT</span></td>
+        </tr><tr style="background:#fef2f2">
+            <td><strong>NVTS</strong></td><td>A</td><td style="font-size:0.7rem">Navitas Semiconductor: AI infrastru</td>
+            <td>$8.22</td><td>$7.88</td>
+            <td style="color:#dc2626;font-weight:700">-4.1%</td>
+            <td>96h</td><td style="font-size:0.7rem">tracking expired</td>
+            <td><span style="font-size:0.65rem;padding:2px 6px;border-radius:3px;background:var(--off);color:var(--muted);font-weight:700">BT</span></td>
+        </tr><tr style="background:transparent">
+            <td><strong>SSNLF</strong></td><td>A</td><td style="font-size:0.7rem">Memory supply: HBM/DRAM tightness &</td>
+            <td>$65.21</td><td>$65.21</td>
+            <td style="color:var(--light);font-weight:700">+0.0%</td>
+            <td>96h</td><td style="font-size:0.7rem">tracking expired</td>
+            <td><span style="font-size:0.65rem;padding:2px 6px;border-radius:3px;background:var(--off);color:var(--muted);font-weight:700">BT</span></td>
+        </tr><tr style="background:#f0fdf4">
+            <td><strong>MU</strong></td><td>A</td><td style="font-size:0.7rem">Memory tightness (pricing/shortage </td>
+            <td>$399.78</td><td>$428.17</td>
+            <td style="color:#16a34a;font-weight:700">+7.1%</td>
+            <td>96h</td><td style="font-size:0.7rem">tracking expired</td>
+            <td><span style="font-size:0.65rem;padding:2px 6px;border-radius:3px;background:var(--off);color:var(--muted);font-weight:700">BT</span></td>
+        </tr><tr style="background:#f0fdf4">
+            <td><strong>QCOM</strong></td><td>A</td><td style="font-size:0.7rem">Qualcomm India: chip design / ecosy</td>
+            <td>$142.63</td><td>$142.88</td>
+            <td style="color:#16a34a;font-weight:700">+0.2%</td>
+            <td>96h</td><td style="font-size:0.7rem">tracking expired</td>
+            <td><span style="font-size:0.65rem;padding:2px 6px;border-radius:3px;background:var(--off);color:var(--muted);font-weight:700">BT</span></td>
+        </tr><tr style="background:#f0fdf4">
+            <td><strong>ASML</strong></td><td>A</td><td style="font-size:0.7rem">ASML Holding N.V.: business restruc</td>
+            <td>$1419.78</td><td>$1469.59</td>
+            <td style="color:#16a34a;font-weight:700">+3.5%</td>
+            <td>96h</td><td style="font-size:0.7rem">tracking expired</td>
+            <td><span style="font-size:0.65rem;padding:2px 6px;border-radius:3px;background:var(--off);color:var(--muted);font-weight:700">BT</span></td>
+        </tr><tr style="background:transparent">
+            <td><strong>HIMS</strong></td><td>B</td><td style="font-size:0.7rem">[SHORT] Hims & Hers: regulatory</td>
+            <td>$15.84</td><td>$15.84</td>
+            <td style="color:var(--light);font-weight:700">+0.0%</td>
+            <td>3h</td><td style="font-size:0.7rem">take profit</td>
+            <td><span style="font-size:0.65rem;padding:2px 6px;border-radius:3px;background:#dbeafe;color:#2563eb;font-weight:700">LIVE</span></td>
+        </tr><tr style="background:transparent">
+            <td><strong>INTC</strong></td><td>A</td><td style="font-size:0.7rem">Intel/AMD China server CPU delays</td>
+            <td>$46.18</td><td>$46.18</td>
+            <td style="color:var(--light);font-weight:700">+0.0%</td>
+            <td>2h</td><td style="font-size:0.7rem">take profit</td>
+            <td><span style="font-size:0.65rem;padding:2px 6px;border-radius:3px;background:#dbeafe;color:#2563eb;font-weight:700">LIVE</span></td>
+        </tr><tr style="background:transparent">
+            <td><strong>TSM</strong></td><td>A</td><td style="font-size:0.7rem">TSMC: semiconductor research / indu</td>
+            <td>$364.20</td><td>$364.20</td>
+            <td style="color:var(--light);font-weight:700">+0.0%</td>
+            <td>2h</td><td style="font-size:0.7rem">take profit</td>
+            <td><span style="font-size:0.65rem;padding:2px 6px;border-radius:3px;background:#dbeafe;color:#2563eb;font-weight:700">LIVE</span></td>
+        </tr><tr style="background:transparent">
+            <td><strong>META</strong></td><td>A</td><td style="font-size:0.7rem">Meta: regulatory</td>
+            <td>$639.29</td><td>$639.29</td>
+            <td style="color:var(--light);font-weight:700">+0.0%</td>
+            <td>2h</td><td style="font-size:0.7rem">take profit</td>
+            <td><span style="font-size:0.65rem;padding:2px 6px;border-radius:3px;background:#dbeafe;color:#2563eb;font-weight:700">LIVE</span></td>
+        </tr>
+    </tbody>
+</table>
+</div>
+        <div class="section-bar section-bar-pipeline"><span class="section-bar-icon">&#9670;</span> Alpha Pipeline &mdash; Trading Formula Candidates<span class="section-bar-count">0 alpha candidates awaiting entry</span></div><div class="section-empty">No alpha candidates in the pipeline. Scanning for LONG + Band A/B signals.</div>
+        <div class="section-bar section-bar-disclosure" id="disclosure"><span class="section-bar-icon">&#128240;</span> If Bloomberg Published This<span class="section-bar-count">9 intelligence signals</span></div><div class="disclosure-intro">These SHORT signals identify stocks where our intelligence suggests downside pressure. The thesis is not about front-running &mdash; it&rsquo;s about the power of disclosure. If this information became public, these would move.</div><div class="disc-grid"><div class="disc-card">
+    <div class="disc-header">
+        <span class="disc-ticker">0388.HK</span>
+        <span class="disc-band" style="color:#92400e">Band B</span>
+        <span class="disc-badge disc-public">PUBLIC</span>
+        <span class="disc-state" style="color:#6b7280;background:#f3f4f6">WATCH</span>
+         <a href="positions/position_495.html" class="notes-link" title="View notes">&#128203;</a>
+    </div>
+    <div class="disc-asset">London Metal Exchange: regulatory enforcement</div>
+    <div class="disc-thesis">A Small LME Warehouse Fine Rekindles the Integrity Narrative - With a Direct HKEX Owner Proxy</div>
+    <div class="disc-meta">
+        <div>&#128263; mainstream</div>
+        <div>64% confidence</div>
+        
+    </div>
+</div>
+<div class="disc-card">
+    <div class="disc-header">
+        <span class="disc-ticker">IHF</span>
+        <span class="disc-band" style="color:#92400e">Band B</span>
+        <span class="disc-badge disc-public">PUBLIC</span>
+        <span class="disc-state" style="color:#5b21b6;background:#ede9fe">KILLED</span>
+         <a href="positions/position_521.html" class="notes-link" title="View notes">&#128203;</a>
+    </div>
+    <div class="disc-asset">Health Resources and Services Administration: regulatio</div>
+    <div class="disc-thesis">340B Is Back in Court: A Niche Policy Fight With Real Provider Payout Mechanics Behind It</div>
+    <div class="disc-meta">
+        <div>&#128263; mainstream</div>
+        <div>61% confidence</div>
+        <div class="disc-pnl" style="color:#16a34a">+0.9%</div>
+    </div>
+</div>
+<div class="disc-card">
+    <div class="disc-header">
+        <span class="disc-ticker">GLAND.BSE</span>
+        <span class="disc-band" style="color:#92400e">Band B</span>
+        <span class="disc-badge disc-public">PUBLIC</span>
+        <span class="disc-state" style="color:#6b7280;background:#f3f4f6">WATCH</span>
+         <a href="positions/position_457.html" class="notes-link" title="View notes">&#128203;</a>
+    </div>
+    <div class="disc-asset">Gland Pharma: corporate governance</div>
+    <div class="disc-thesis">Gland Pharma CEO Exit: Routine Transition or a Quiet Precursor to Pressure?</div>
+    <div class="disc-meta">
+        <div>&#128263; mainstream</div>
+        <div>61% confidence</div>
+        
+    </div>
+</div>
+<div class="disc-card">
+    <div class="disc-header">
+        <span class="disc-ticker">XLF</span>
+        <span class="disc-band" style="color:#92400e">Band B</span>
+        <span class="disc-badge disc-private">NOT YET PUBLIC</span>
+        <span class="disc-state" style="color:#6b7280;background:#f3f4f6">WATCH</span>
+         <a href="positions/position_458.html" class="notes-link" title="View notes">&#128203;</a>
+    </div>
+    <div class="disc-asset">Louisiana Department of Insurance: legal and safety iss</div>
+    <div class="disc-thesis">Louisiana Takes Aim at Litigation Funding Marketing, but the Trade Expression Is Messy</div>
+    <div class="disc-meta">
+        <div>&#128263; stirring</div>
+        <div>61% confidence</div>
+        <div class="disc-pnl" style="color:#16a34a">+1.8%</div>
+    </div>
+</div>
+<div class="disc-card">
+    <div class="disc-header">
+        <span class="disc-ticker">8766.T</span>
+        <span class="disc-band" style="color:#92400e">Band B</span>
+        <span class="disc-badge disc-private">NOT YET PUBLIC</span>
+        <span class="disc-state" style="color:#6b7280;background:#f3f4f6">WATCH</span>
+         <a href="positions/position_459.html" class="notes-link" title="View notes">&#128203;</a>
+    </div>
+    <div class="disc-asset">[SHORT] Reliance Standard Life Insurance Company: lawsu</div>
+    <div class="disc-thesis">A Procedural ERISA Loss Can Quietly Raise Claims Risk, but the Instrument Link Is Indirect</div>
+    <div class="disc-meta">
+        <div>&#128263; quiet</div>
+        <div>61% confidence</div>
+        
+    </div>
+</div>
+<div class="disc-card">
+    <div class="disc-header">
+        <span class="disc-ticker">RBGLY</span>
+        <span class="disc-band" style="color:#92400e">Band B</span>
+        <span class="disc-badge disc-private">NOT YET PUBLIC</span>
+        <span class="disc-state" style="color:#6b7280;background:#f3f4f6">WATCH</span>
+         <a href="positions/position_522.html" class="notes-link" title="View notes">&#128203;</a>
+    </div>
+    <div class="disc-asset">Mead Johnson: patient harm reports and safety incidents</div>
+    <div class="disc-thesis">Consumer Reports Just Handed Infant Formula a Fresh Heavy-Metal Narrative - Regulators Are the Next Domino</div>
+    <div class="disc-meta">
+        <div>&#128263; quiet</div>
+        <div>59% confidence</div>
+        <div class="disc-pnl" style="color:#16a34a">+2.0%</div>
+    </div>
+</div>
+<div class="disc-card">
+    <div class="disc-header">
+        <span class="disc-ticker">XBI</span>
+        <span class="disc-band" style="color:#92400e">Band B</span>
+        <span class="disc-badge disc-public">PUBLIC</span>
+        <span class="disc-state" style="color:#5b21b6;background:#ede9fe">KILLED</span>
+         <a href="positions/position_523.html" class="notes-link" title="View notes">&#128203;</a>
+    </div>
+    <div class="disc-asset">Wiggin and Dana: AI and innovation in life sciences</div>
+    <div class="disc-thesis">AI Governance Is Becoming a Quiet Tax on Small Biotechs - The Cost Story Is the Trade</div>
+    <div class="disc-meta">
+        <div>&#128263; propagating</div>
+        <div>58% confidence</div>
+        <div class="disc-pnl" style="color:#cc0000">-0.1%</div>
+    </div>
+</div>
+<div class="disc-card">
+    <div class="disc-header">
+        <span class="disc-ticker">LQDA</span>
+        <span class="disc-band" style="color:#92400e">Band B</span>
+        <span class="disc-badge disc-private">NOT YET PUBLIC</span>
+        <span class="disc-state" style="color:#6b7280;background:#f3f4f6">WATCH</span>
+         <a href="positions/position_496.html" class="notes-link" title="View notes">&#128203;</a>
+    </div>
+    <div class="disc-asset">Liquidia Corporation: regulatory</div>
+    <div class="disc-thesis">Liquidia Gets Tagged as a Regulatory Short - But the Evidence Here Is Thin and Potentially Stale</div>
+    <div class="disc-meta">
+        <div>&#128263; quiet</div>
+        <div>57% confidence</div>
+        <div class="disc-pnl" style="color:#cc0000">-4.4%</div>
+    </div>
+</div>
+<div class="disc-card">
+    <div class="disc-header">
+        <span class="disc-ticker">SMH</span>
+        <span class="disc-band" style="color:#92400e">Band B</span>
+        <span class="disc-badge disc-private">NOT YET PUBLIC</span>
+        <span class="disc-state" style="color:#6b7280;background:#f3f4f6">WATCH</span>
+         <a href="positions/position_479.html" class="notes-link" title="View notes">&#128203;</a>
+    </div>
+    <div class="disc-asset">Rigetti Computing: technology scale-up</div>
+    <div class="disc-thesis">Rigetti's March 2026 milestone: the transcript is specific, the sceptics are loud</div>
+    <div class="disc-meta">
+        <div>&#128263; stirring</div>
+        <div>55% confidence</div>
+        <div class="disc-pnl" style="color:#16a34a">+3.7%</div>
+    </div>
+</div></div>
+        
+<div style="margin:2rem 0;padding-top:1.5rem;border-top:1px solid #ddd;">
+  <div style="font-family:'Playfair Display',serif;font-weight:900;font-size:1.3rem;margin-bottom:0.3rem;">The Shorts Book</div>
+  <div style="font-size:0.78rem;color:#666;margin-bottom:1.2rem;line-height:1.55;">Intelligence the market hasn&rsquo;t priced in yet.</div>
+  
+<div style="margin:1rem 0;padding:1rem 1.2rem;border-left:3px solid #cc0000;background:#fafaf8;border-radius:0 6px 6px 0;">
+  <div style="display:flex;align-items:center;gap:0.3rem;margin-bottom:0.3rem;">
+    
+    <span style="font-size:0.55rem;font-weight:700;color:#fff;background:#cc0000;padding:1px 5px;border-radius:2px;letter-spacing:0.06em;">SHORT</span>
+    <span style="font-family:Montserrat,sans-serif;font-size:0.55rem;font-weight:700;letter-spacing:0.1em;text-transform:uppercase;color:#999;margin-left:auto;">NEWS</span>
+  </div>
+  <div style="font-family:'Playfair Display',serif;font-weight:900;font-size:0.95rem;line-height:1.3;margin-bottom:0.35rem;">Elevated Risk Signals for Litigation Firm</div>
+  <div style="font-size:0.76rem;color:#4B5563;line-height:1.65;">The litigation firm in question operates in a highly competitive legal landscape, providing essential services to clients navigating complex disputes. As litigation costs rise and market dynamics shift, the firm’s performance directly influences shareholder value and investor sentiment. Recent intelligence signals a concerning discrepancy between the firm's current risk posture and market awareness. The Short-Tail Risk Score stands at 84/100, indicating a critical level of urgency for investors to reassess their positions. The Long-Tail Momentum Score of 59/100 suggests that structural risks could persist beyond immediate concerns, supported by a confidence level of 0.63. These metrics reveal that the market has not yet fully integrated this emerging risk landscape into its pricing models. Given the elevated short-term risks identified, a SHORT position is warranted with a high conviction level. The firm’s deteriorating posture, coupled with a high risk tier, signals…</div>
+</div>
+<div style="margin:1rem 0;padding:1rem 1.2rem;border-left:3px solid #cc0000;background:#fafaf8;border-radius:0 6px 6px 0;">
+  <div style="display:flex;align-items:center;gap:0.3rem;margin-bottom:0.3rem;">
+    
+    <span style="font-size:0.55rem;font-weight:700;color:#fff;background:#cc0000;padding:1px 5px;border-radius:2px;letter-spacing:0.06em;">SHORT</span>
+    <span style="font-family:Montserrat,sans-serif;font-size:0.55rem;font-weight:700;letter-spacing:0.1em;text-transform:uppercase;color:#999;margin-left:auto;">NEWS</span>
+  </div>
+  <div style="font-family:'Playfair Display',serif;font-weight:900;font-size:0.95rem;line-height:1.3;margin-bottom:0.35rem;">UnitedHealth Group Faces Regulatory Scrutiny Risks</div>
+  <div style="font-size:0.76rem;color:#4B5563;line-height:1.65;">UnitedHealth Group, a leading health insurance provider, plays a critical role in the U.S. healthcare ecosystem, managing over 50 million members. Its extensive portfolio of services, including health benefits and pharmacy care, positions it as a bellwether for market trends and regulatory developments. However, recent intelligence indicates that the company is under increasing regulatory scrutiny, which has not yet been fully priced into its stock. Our analysis has identified potential risks stemming from ongoing investigations by regulatory bodies concerning pricing practices and market competition. The evidence chain includes internal documents and whistleblower testimonies that suggest potential violations of compliance norms. These findings raise concerns about possible fines and operational changes that could adversely affect profitability. Currently trading at USD 288.20, the stock appears vulnerable given these emerging issues. This signal indicates a SHORT position with a conviction level of 61%,…</div>
+</div>
+</div>
+        <details class="research-collapse">
+    <summary class="section-bar section-bar-research">
+        <span class="section-bar-icon">&#9881;</span>
+        Research Lab &mdash; We Track Everything, We Only Trade the Best
+        <span class="section-bar-count">19 killed, 5 non-alpha watch (click to expand)</span>
+    </summary>
+    <div class="research-body"><div class="table-scroll">
+<table class="trading-table research-table">
+<thead><tr>
+    <th>Ticker</th><th>Band</th><th>Asset</th><th>Dir</th>
+    <th>Conf</th><th>Report P&amp;L</th><th>State</th><th>Reason</th>
+</tr></thead>
+<tbody><tr class="research-watch-row">
+    <td class="td-ticker-research">XLP <a href="positions/position_460.html" class="notes-link" title="View notes">&#128203;</a></td>
+    <td class="td-band" style="color:#92400e">B</td>
+    <td class="td-asset-compact">[SHORT] Melanie Benesh: chemical sa</td>
+    <td><span class="td-dir" style="color:#92400e;background:#fef3c7">MIXED</span></td>
+    <td style="text-align:center">55%</td>
+    <td class="td-pnl"><span style="color:#7c3aed">+0.0%</span></td>
+    <td><span class="td-state" style="color:#6b7280;background:#f3f4f6">WATCH</span></td>
+    <td class="td-reason">Stale (54h) but IGNITE propagation — edge may still fire</td>
+</tr>
+<tr class="research-watch-row">
+    <td class="td-ticker-research">DMAC <a href="positions/position_525.html" class="notes-link" title="View notes">&#128203;</a></td>
+    <td class="td-band" style="color:#6b5b00">C</td>
+    <td class="td-asset-compact">regulatory and clinical development</td>
+    <td><span class="td-dir" style="color:#16a34a;background:#f0fdf4">LONG</span></td>
+    <td style="text-align:center">53%</td>
+    <td class="td-pnl"><span style="color:#7c3aed">+1.6%</span></td>
+    <td><span class="td-state" style="color:#6b7280;background:#f3f4f6">WATCH</span></td>
+    <td class="td-reason">DD approved — watching for signal confirmation</td>
+</tr>
+<tr class="research-watch-row">
+    <td class="td-ticker-research">SMH <a href="positions/position_480.html" class="notes-link" title="View notes">&#128203;</a></td>
+    <td class="td-band" style="color:#6b5b00">C</td>
+    <td class="td-asset-compact">David Fritz: automotive design and </td>
+    <td><span class="td-dir" style="color:#16a34a;background:#f0fdf4">LONG</span></td>
+    <td style="text-align:center">52%</td>
+    <td class="td-pnl"><span style="color:#7c3aed">-3.7%</span></td>
+    <td><span class="td-state" style="color:#6b7280;background:#f3f4f6">WATCH</span></td>
+    <td class="td-reason">DD approved — watching for signal confirmation</td>
+</tr>
+<tr class="research-watch-row">
+    <td class="td-ticker-research">XBI <a href="positions/position_536.html" class="notes-link" title="View notes">&#128203;</a></td>
+    <td class="td-band" style="color:#6b5b00">C</td>
+    <td class="td-asset-compact">litigation and data security (banki</td>
+    <td><span class="td-dir" style="color:#92400e;background:#fef3c7">MIXED</span></td>
+    <td style="text-align:center">50%</td>
+    <td class="td-pnl"><span style="color:#7c3aed">+0.0%</span></td>
+    <td><span class="td-state" style="color:#6b7280;background:#f3f4f6">WATCH</span></td>
+    <td class="td-reason">DD approved — watching for signal confirmation</td>
+</tr>
+<tr class="research-watch-row">
+    <td class="td-ticker-research">SMH <a href="positions/position_512.html" class="notes-link" title="View notes">&#128203;</a></td>
+    <td class="td-band" style="color:#7a5c99">D</td>
+    <td class="td-asset-compact">Anthropic: geopolitical development</td>
+    <td><span class="td-dir" style="color:#9ea2b0;background:#f1f5f9">FADE</span></td>
+    <td style="text-align:center">42%</td>
+    <td class="td-pnl"><span style="color:#7c3aed">+0.0%</span></td>
+    <td><span class="td-state" style="color:#6b7280;background:#f3f4f6">WATCH</span></td>
+    <td class="td-reason">Price moved 41.0% against thesis — monitoring</td>
+</tr>
+<tr class="killed-row">
+    <td class="td-ticker-research">BAYN.DE <a href="positions/position_452.html" class="notes-link" title="View notes">&#128203;</a></td>
+    <td class="td-band" style="color:#166534">A</td>
+    <td class="td-asset-compact">Bayer Group: regulation</td>
+    <td><span class="td-dir" style="color:#16a34a;background:#f0fdf4">LONG</span></td>
+    <td style="text-align:center">70%</td>
+    <td class="td-pnl"><span style="color:#7c3aed">-5.0%</span></td>
+    <td><span class="td-state" style="color:#5b21b6;background:#ede9fe">KILLED</span></td>
+    <td class="td-reason">CUT_LOSS: The market response to Bayer's litigation risks continues to overshado</td>
+</tr>
+<tr class="killed-row">
+    <td class="td-ticker-research">MIRA <a href="positions/position_520.html" class="notes-link" title="View notes">&#128203;</a></td>
+    <td class="td-band" style="color:#166534">A</td>
+    <td class="td-asset-compact">MIRA Pharmaceuticals: clinical deve</td>
+    <td><span class="td-dir" style="color:#16a34a;background:#f0fdf4">LONG</span></td>
+    <td style="text-align:center">67%</td>
+    <td class="td-pnl"><span style="color:#7c3aed">-1.7%</span></td>
+    <td><span class="td-state" style="color:#5b21b6;background:#ede9fe">KILLED</span></td>
+    <td class="td-reason">KILL (watching): The initial thesis around MIRA Pharmaceuticals hinged on the ne</td>
+</tr>
+<tr class="killed-row">
+    <td class="td-ticker-research">TLT <a href="positions/position_524.html" class="notes-link" title="View notes">&#128203;</a></td>
+    <td class="td-band" style="color:#92400e">B</td>
+    <td class="td-asset-compact">U.S. Federal Reserve: regulation an</td>
+    <td><span class="td-dir" style="color:#16a34a;background:#f0fdf4">LONG</span></td>
+    <td style="text-align:center">56%</td>
+    <td class="td-pnl"><span style="color:#7c3aed">-0.4%</span></td>
+    <td><span class="td-state" style="color:#5b21b6;background:#ede9fe">KILLED</span></td>
+    <td class="td-reason">KILL (watching): The initial thesis relied on regulatory clarity for tokenized s</td>
+</tr>
+<tr class="killed-row">
+    <td class="td-ticker-research">GILD <a href="positions/position_500.html" class="notes-link" title="View notes">&#128203;</a></td>
+    <td class="td-band" style="color:#6b5b00">C</td>
+    <td class="td-asset-compact">Gilead Sciences: adverse drug event</td>
+    <td><span class="td-dir" style="color:#92400e;background:#fef3c7">MIXED</span></td>
+    <td style="text-align:center">53%</td>
+    <td class="td-pnl"><span style="color:#7c3aed">+0.0%</span></td>
+    <td><span class="td-state" style="color:#5b21b6;background:#ede9fe">KILLED</span></td>
+    <td class="td-reason">Decaying edge + STALE staleness (27h) = edge likely gone</td>
+</tr>
+<tr class="killed-row">
+    <td class="td-ticker-research">XBI <a href="positions/position_537.html" class="notes-link" title="View notes">&#128203;</a></td>
+    <td class="td-band" style="color:#6b5b00">C</td>
+    <td class="td-asset-compact">Food and Drug Administration: AI an</td>
+    <td><span class="td-dir" style="color:#92400e;background:#fef3c7">MIXED</span></td>
+    <td style="text-align:center">50%</td>
+    <td class="td-pnl"><span style="color:#7c3aed">+0.0%</span></td>
+    <td><span class="td-state" style="color:#5b21b6;background:#ede9fe">KILLED</span></td>
+    <td class="td-reason">KILL (watching): The thesis linking the FDA's role in AI and innovation in life </td>
+</tr>
+<tr class="killed-row">
+    <td class="td-ticker-research">XBI <a href="positions/position_533.html" class="notes-link" title="View notes">&#128203;</a></td>
+    <td class="td-band" style="color:#6b5b00">C</td>
+    <td class="td-asset-compact">Abraham L. Pomerantz: legal</td>
+    <td><span class="td-dir" style="color:#92400e;background:#fef3c7">MIXED</span></td>
+    <td style="text-align:center">47%</td>
+    <td class="td-pnl"><span style="color:#7c3aed">+0.0%</span></td>
+    <td><span class="td-state" style="color:#5b21b6;background:#ede9fe">KILLED</span></td>
+    <td class="td-reason">KILL (watching): The thesis has not developed any clarity or supportive evidence</td>
+</tr>
+<tr class="killed-row">
+    <td class="td-ticker-research">IHF <a href="positions/position_534.html" class="notes-link" title="View notes">&#128203;</a></td>
+    <td class="td-band" style="color:#6b5b00">C</td>
+    <td class="td-asset-compact">Andrew Nixon: public health policy</td>
+    <td><span class="td-dir" style="color:#92400e;background:#fef3c7">MIXED</span></td>
+    <td style="text-align:center">47%</td>
+    <td class="td-pnl"><span style="color:#7c3aed">+0.0%</span></td>
+    <td><span class="td-state" style="color:#5b21b6;background:#ede9fe">KILLED</span></td>
+    <td class="td-reason">LLM DD (HIGH confidence): The price has moved significantly against the position</td>
+</tr>
+<tr class="killed-row">
+    <td class="td-ticker-research">C <a href="positions/position_535.html" class="notes-link" title="View notes">&#128203;</a></td>
+    <td class="td-band" style="color:#6b5b00">C</td>
+    <td class="td-asset-compact">Citigroup: market</td>
+    <td><span class="td-dir" style="color:#92400e;background:#fef3c7">MIXED</span></td>
+    <td style="text-align:center">46%</td>
+    <td class="td-pnl"><span style="color:#7c3aed">+0.0%</span></td>
+    <td><span class="td-state" style="color:#5b21b6;background:#ede9fe">KILLED</span></td>
+    <td class="td-reason">KILL (watching): The original thesis is no longer valid as the signal has alread</td>
+</tr>
+<tr class="killed-row">
+    <td class="td-ticker-research">MRVL <a href="positions/position_506.html" class="notes-link" title="View notes">&#128203;</a></td>
+    <td class="td-band" style="color:#6b5b00">C</td>
+    <td class="td-asset-compact">AI infrastructure (AI infrastructur</td>
+    <td><span class="td-dir" style="color:#16a34a;background:#f0fdf4">LONG</span></td>
+    <td style="text-align:center">45%</td>
+    <td class="td-pnl"><span style="color:#7c3aed">+18.4%</span></td>
+    <td><span class="td-state" style="color:#5b21b6;background:#ede9fe">KILLED</span></td>
+    <td class="td-reason">KILL (watching): The original thesis was interesting, highlighting potential in </td>
+</tr>
+<tr class="killed-row">
+    <td class="td-ticker-research">NVDA <a href="positions/position_507.html" class="notes-link" title="View notes">&#128203;</a></td>
+    <td class="td-band" style="color:#7a5c99">D</td>
+    <td class="td-asset-compact">Nvidia: semiconductor demand trends</td>
+    <td><span class="td-dir" style="color:#16a34a;background:#f0fdf4">LONG</span></td>
+    <td style="text-align:center">42%</td>
+    <td class="td-pnl"><span style="color:#7c3aed">+63.3%</span></td>
+    <td><span class="td-state" style="color:#5b21b6;background:#ede9fe">KILLED</span></td>
+    <td class="td-reason">Decaying edge + price already moved 68.4% with thesis</td>
+</tr>
+<tr class="killed-row">
+    <td class="td-ticker-research">TSM <a href="positions/position_508.html" class="notes-link" title="View notes">&#128203;</a></td>
+    <td class="td-band" style="color:#7a5c99">D</td>
+    <td class="td-asset-compact">Taiwan Semiconductor Manufacturing </td>
+    <td><span class="td-dir" style="color:#16a34a;background:#f0fdf4">LONG</span></td>
+    <td style="text-align:center">42%</td>
+    <td class="td-pnl"><span style="color:#7c3aed">+79.9%</span></td>
+    <td><span class="td-state" style="color:#5b21b6;background:#ede9fe">KILLED</span></td>
+    <td class="td-reason">LLM DD (HIGH confidence): The mechanism is solid around capacity expansion being</td>
+</tr>
+<tr class="killed-row">
+    <td class="td-ticker-research">MSFT <a href="positions/position_509.html" class="notes-link" title="View notes">&#128203;</a></td>
+    <td class="td-band" style="color:#7a5c99">D</td>
+    <td class="td-asset-compact">Microsoft: semiconductor technology</td>
+    <td><span class="td-dir" style="color:#9ea2b0;background:#f1f5f9">FADE</span></td>
+    <td style="text-align:center">42%</td>
+    <td class="td-pnl"><span style="color:#7c3aed">+0.0%</span></td>
+    <td><span class="td-state" style="color:#5b21b6;background:#ede9fe">KILLED</span></td>
+    <td class="td-reason">KILL (watching): The original thesis of fading the semiconductor technology node</td>
+</tr>
+<tr class="killed-row">
+    <td class="td-ticker-research">AMZN <a href="positions/position_510.html" class="notes-link" title="View notes">&#128203;</a></td>
+    <td class="td-band" style="color:#7a5c99">D</td>
+    <td class="td-asset-compact">Amazon: semiconductor supply chain</td>
+    <td><span class="td-dir" style="color:#9ea2b0;background:#f1f5f9">FADE</span></td>
+    <td style="text-align:center">42%</td>
+    <td class="td-pnl"><span style="color:#7c3aed">+0.0%</span></td>
+    <td><span class="td-state" style="color:#5b21b6;background:#ede9fe">KILLED</span></td>
+    <td class="td-reason">KILL (watching): The original thesis regarding a fading narrative in the AWS sem</td>
+</tr>
+<tr class="killed-row">
+    <td class="td-ticker-research">AVGO <a href="positions/position_511.html" class="notes-link" title="View notes">&#128203;</a></td>
+    <td class="td-band" style="color:#7a5c99">D</td>
+    <td class="td-asset-compact">Broadcom Inc.: semiconductor demand</td>
+    <td><span class="td-dir" style="color:#16a34a;background:#f0fdf4">LONG</span></td>
+    <td style="text-align:center">39%</td>
+    <td class="td-pnl"><span style="color:#7c3aed">+18.4%</span></td>
+    <td><span class="td-state" style="color:#5b21b6;background:#ede9fe">KILLED</span></td>
+    <td class="td-reason">LLM DD (HIGH confidence): The thesis has been invalidated due to the substantial</td>
+</tr>
+<tr class="killed-row">
+    <td class="td-ticker-research">6503.T <a href="positions/position_439.html" class="notes-link" title="View notes">&#128203;</a></td>
+    <td class="td-band" style="color:#7a5c99">D</td>
+    <td class="td-asset-compact">Mitsubishi Electric Europe B.V.: cy</td>
+    <td><span class="td-dir" style="color:#16a34a;background:#f0fdf4">LONG</span></td>
+    <td style="text-align:center">39%</td>
+    <td class="td-pnl">---</td>
+    <td><span class="td-state" style="color:#5b21b6;background:#ede9fe">KILLED</span></td>
+    <td class="td-reason">Stale (69h) with insufficient confidence (39%)</td>
+</tr>
+<tr class="killed-row">
+    <td class="td-ticker-research">GOOGL <a href="positions/position_513.html" class="notes-link" title="View notes">&#128203;</a></td>
+    <td class="td-band" style="color:#7a5c99">D</td>
+    <td class="td-asset-compact">Google: semiconductor demand trends</td>
+    <td><span class="td-dir" style="color:#9ea2b0;background:#f1f5f9">FADE</span></td>
+    <td style="text-align:center">37%</td>
+    <td class="td-pnl"><span style="color:#7c3aed">+0.0%</span></td>
+    <td><span class="td-state" style="color:#5b21b6;background:#ede9fe">KILLED</span></td>
+    <td class="td-reason">LLM DD (HIGH confidence): The mechanism of fading the Google AI-demand narrative</td>
+</tr>
+<tr class="killed-row">
+    <td class="td-ticker-research">000660.KS <a href="positions/position_491.html" class="notes-link" title="View notes">&#128203;</a></td>
+    <td class="td-band" style="color:#73788a">E</td>
+    <td class="td-asset-compact">SK Hynix: geopolitical developments</td>
+    <td><span class="td-dir" style="color:#92400e;background:#fef3c7">MIXED</span></td>
+    <td style="text-align:center">29%</td>
+    <td class="td-pnl">---</td>
+    <td><span class="td-state" style="color:#5b21b6;background:#ede9fe">KILLED</span></td>
+    <td class="td-reason">Decaying edge + STALE staleness (28h) = edge likely gone</td>
+</tr>
+<tr class="killed-row">
+    <td class="td-ticker-research">SMH <a href="positions/position_518.html" class="notes-link" title="View notes">&#128203;</a></td>
+    <td class="td-band" style="color:#73788a">E</td>
+    <td class="td-asset-compact">Trump: critical minerals supply</td>
+    <td><span class="td-dir" style="color:#92400e;background:#fef3c7">MIXED</span></td>
+    <td style="text-align:center">22%</td>
+    <td class="td-pnl"><span style="color:#7c3aed">+0.0%</span></td>
+    <td><span class="td-state" style="color:#5b21b6;background:#ede9fe">KILLED</span></td>
+    <td class="td-reason">KILL (watching): The original thesis regarding Trump and critical minerals suppl</td>
+</tr>
+<tr class="killed-row">
+    <td class="td-ticker-research">SMH <a href="positions/position_519.html" class="notes-link" title="View notes">&#128203;</a></td>
+    <td class="td-band" style="color:#73788a">E</td>
+    <td class="td-asset-compact">US: trade policies</td>
+    <td><span class="td-dir" style="color:#92400e;background:#fef3c7">MIXED</span></td>
+    <td style="text-align:center">22%</td>
+    <td class="td-pnl"><span style="color:#7c3aed">+0.0%</span></td>
+    <td><span class="td-state" style="color:#5b21b6;background:#ede9fe">KILLED</span></td>
+    <td class="td-reason">LLM DD (HIGH confidence): The price has already moved significantly (+41%) since</td>
+</tr></tbody>
+</table></div><div class="research-hidden-note">40 killed positions older than 48h removed from view &mdash; still counted in learning analytics</div></div>
+</details>
+    </div>
+</div>
+
+
+<div style="margin:1.5rem 0;padding:1rem 1.2rem;border-left:3px solid #0d7680;background:#fafaf8;">
+  <div style="font-family:'Montserrat',sans-serif;font-size:0.55rem;font-weight:700;letter-spacing:0.12em;text-transform:uppercase;color:#0d7680;margin-bottom:0.25rem;">NEWS &middot; Litigation<span style="display:inline-block;font-size:0.55rem;font-weight:700;color:#fff;background:#cc0000;padding:1px 5px;border-radius:2px;letter-spacing:0.06em;margin-left:0.4rem;vertical-align:middle;">SHORT</span></div>
+  <div style="font-family:'Playfair Display',serif;font-weight:900;font-size:0.95rem;line-height:1.3;margin-bottom:0.35rem;">Elevated Risk Signals for Litigation Firm</div>
+  <div style="font-size:0.76rem;color:#4B5563;line-height:1.65;">The litigation firm in question operates in a highly competitive legal landscape, providing essential services to clients navigating complex disputes. As litigation costs rise and market dynamics shift, the firm’s performance directly influences shareholder value and investor sentiment. Recent intelligence signals a concerning discrepancy between the firm's current risk posture and market awareness. The Short-Tail Risk Score stands at 84/100, indicating a critical level of urgency for investors to reassess their positions. The Long-Tail Momentum Score of 59/100 suggests that structural risks could persist beyond immediate concerns, supported by a confidence level of 0.63. These metrics reveal that the market has not yet fully integrated this emerging risk landscape into its pricing models. Given the elevated short-term risks identified, a…</div>
+</div>
+
+<!-- Exit Rules -->
+<div class="section" style="padding-bottom:0;padding-top:0">
+    <div class="container">
+        <div class="backtest-card" style="margin-top:1rem">
+    <div class="backtest-header">
+        <span class="backtest-icon">&#9888;</span>
+        Mechanical Exit Rules
+    </div>
+    <div style="display:grid;grid-template-columns:1fr 1fr;gap:0.5rem 1.5rem;font-size:0.78rem;margin-top:0.8rem">
+        <div><span style="color:var(--red);font-weight:700">Hard Stop:</span> -15%</div>
+        <div><span style="color:var(--amber);font-weight:700">Soft Stop:</span> -10% (LLM review)</div>
+        <div><span style="color:var(--green);font-weight:700">Profit Take:</span> +15%</div>
+        <div><span style="color:var(--teal);font-weight:700">Strong Profit:</span> +25%</div>
+        <div><span style="color:#7c3aed;font-weight:700">Peak Drawdown:</span> 5% from peak</div>
+        <div><span style="color:#2563eb;font-weight:700">Time Limit:</span> 96h</div>
+        <div style="grid-column:span 2"><span style="color:var(--red);font-weight:700">Market Crash:</span> S&amp;P down >3% &rarr; flatten longs</div>
+    </div>
+    <div style="margin-top:0.6rem;padding-top:0.6rem;border-top:1px solid var(--rule);font-size:0.72rem;color:var(--light)">21 exits total: 3 mechanical, 7 LLM-decided</div>
+</div>
+    </div>
+</div>
+
+<!-- Confidence Clusters -->
+<div class="section" id="clusters">
+    <div class="container">
+        <div class="section-label">Analysis</div>
+        <div class="section-title">Confidence Clusters</div>
+        <div class="section-intro">Performance by confidence band. Which probability tier produces the best results?</div>
+        <div class="band-grid">
+            <div class="band-card" style="border-left-color:#166534">
+    <div class="band-letter" style="color:#166534">A</div>
+    <div class="band-label" style="color:#166534">Blue Chip</div>
+    <div class="band-stats">
+        <div><span class="num">53</span> positions</div>
+        <div><span class="num">33</span> measured</div>
+        <div><span class="num">42%</span> win rate</div>
+        <div><span class="num" style="color:#16a34a">+3.1%</span> avg P&amp;L</div>
+    </div>
+    <div class="members"><div class="member"><span style="display:inline-block;width:10px;height:10px;border-radius:50%;background:#5b21b6"></span> MIRA Pharmaceuticals: cli (MIRA) <span style="margin-left:auto;font-weight:700">-1.7%</span></div><div class="member"><span style="display:inline-block;width:10px;height:10px;border-radius:50%;background:#5b21b6"></span> Bayer Group: regulation (BAYN.DE) <span style="margin-left:auto;font-weight:700">-5.0%</span></div><div class="member"><span style="display:inline-block;width:10px;height:10px;border-radius:50%;background:#16a34a"></span> Aurobindo Pharma Limited: (AUROPHARMA.BSE) <span style="margin-left:auto;font-weight:700">3.0%</span></div><div class="member"><span style="display:inline-block;width:10px;height:10px;border-radius:50%;background:#5b21b6"></span> U.S. Commodity Futures Tr (SPY) <span style="margin-left:auto;font-weight:700">1.2%</span></div><div class="member"><span style="display:inline-block;width:10px;height:10px;border-radius:50%;background:#5b21b6"></span> [SHORT] Virginia Departme (GILD) <span style="margin-left:auto;font-weight:700">2.6%</span></div><div class="member"><span style="display:inline-block;width:10px;height:10px;border-radius:50%;background:#cc0000"></span> In2tec: semiconductor dem (SMH) <span style="margin-left:auto;font-weight:700">-2.7%</span></div></div>
+</div>
+<div class="band-card" style="border-left-color:#92400e">
+    <div class="band-letter" style="color:#92400e">B</div>
+    <div class="band-label" style="color:#92400e">Bread & Butter</div>
+    <div class="band-stats">
+        <div><span class="num">105</span> positions</div>
+        <div><span class="num">61</span> measured</div>
+        <div><span class="num">38%</span> win rate</div>
+        <div><span class="num" style="color:#cc0000">-0.0%</span> avg P&amp;L</div>
+    </div>
+    <div class="members"><div class="member"><span style="display:inline-block;width:10px;height:10px;border-radius:50%;background:#5b21b6"></span> Health Resources and Serv (IHF) <span style="margin-left:auto;font-weight:700">0.9%</span></div><div class="member"><span style="display:inline-block;width:10px;height:10px;border-radius:50%;background:#7c3aed"></span> Mead Johnson: patient har (RBGLY) <span style="margin-left:auto;font-weight:700">2.0%</span></div><div class="member"><span style="display:inline-block;width:10px;height:10px;border-radius:50%;background:#5b21b6"></span> Wiggin and Dana: AI and i (XBI) <span style="margin-left:auto;font-weight:700">-0.1%</span></div><div class="member"><span style="display:inline-block;width:10px;height:10px;border-radius:50%;background:#5b21b6"></span> U.S. Federal Reserve: reg (TLT) <span style="margin-left:auto;font-weight:700">-0.4%</span></div><div class="member"><span style="display:inline-block;width:10px;height:10px;border-radius:50%;background:#5b21b6"></span> Rambus Inc.: semiconducto () <span style="margin-left:auto;font-weight:700">---</span></div><div class="member"><span style="display:inline-block;width:10px;height:10px;border-radius:50%;background:#7c3aed"></span> London Metal Exchange: re (0388.HK) <span style="margin-left:auto;font-weight:700">---</span></div></div>
+</div>
+<div class="band-card" style="border-left-color:#6b5b00">
+    <div class="band-letter" style="color:#6b5b00">C</div>
+    <div class="band-label" style="color:#6b5b00">Contested</div>
+    <div class="band-stats">
+        <div><span class="num">145</span> positions</div>
+        <div><span class="num">73</span> measured</div>
+        <div><span class="num">29%</span> win rate</div>
+        <div><span class="num" style="color:#16a34a">+0.3%</span> avg P&amp;L</div>
+    </div>
+    <div class="members"><div class="member"><span style="display:inline-block;width:10px;height:10px;border-radius:50%;background:#7c3aed"></span> regulatory and clinical d (DMAC) <span style="margin-left:auto;font-weight:700">1.6%</span></div><div class="member"><span style="display:inline-block;width:10px;height:10px;border-radius:50%;background:#5b21b6"></span> Kirby McInerney LLP: lega () <span style="margin-left:auto;font-weight:700">---</span></div><div class="member"><span style="display:inline-block;width:10px;height:10px;border-radius:50%;background:#5b21b6"></span> Arcutis Biotherapeutics:  () <span style="margin-left:auto;font-weight:700">---</span></div><div class="member"><span style="display:inline-block;width:10px;height:10px;border-radius:50%;background:#5b21b6"></span> EyePoint Inc: clinical st () <span style="margin-left:auto;font-weight:700">---</span></div><div class="member"><span style="display:inline-block;width:10px;height:10px;border-radius:50%;background:#5b21b6"></span> Shamik Bhattacharyya, MD: () <span style="margin-left:auto;font-weight:700">---</span></div><div class="member"><span style="display:inline-block;width:10px;height:10px;border-radius:50%;background:#5b21b6"></span> Dhar Law, LLP: legal (no  () <span style="margin-left:auto;font-weight:700">---</span></div></div>
+</div>
+<div class="band-card" style="border-left-color:#7a5c99">
+    <div class="band-letter" style="color:#7a5c99">D</div>
+    <div class="band-label" style="color:#7a5c99">Dark Horse</div>
+    <div class="band-stats">
+        <div><span class="num">137</span> positions</div>
+        <div><span class="num">49</span> measured</div>
+        <div><span class="num">26%</span> win rate</div>
+        <div><span class="num" style="color:#16a34a">+3.8%</span> avg P&amp;L</div>
+    </div>
+    <div class="members"><div class="member"><span style="display:inline-block;width:10px;height:10px;border-radius:50%;background:#5b21b6"></span> Hamilton & Associates Law () <span style="margin-left:auto;font-weight:700">---</span></div><div class="member"><span style="display:inline-block;width:10px;height:10px;border-radius:50%;background:#5b21b6"></span> Kumar Jeetendra: regulati () <span style="margin-left:auto;font-weight:700">---</span></div><div class="member"><span style="display:inline-block;width:10px;height:10px;border-radius:50%;background:#5b21b6"></span> Watson & Associates, LLC: () <span style="margin-left:auto;font-weight:700">---</span></div><div class="member"><span style="display:inline-block;width:10px;height:10px;border-radius:50%;background:#5b21b6"></span> PilieroMazza: regulatory  () <span style="margin-left:auto;font-weight:700">---</span></div><div class="member"><span style="display:inline-block;width:10px;height:10px;border-radius:50%;background:#5b21b6"></span> U.S. Court of Internation () <span style="margin-left:auto;font-weight:700">---</span></div><div class="member"><span style="display:inline-block;width:10px;height:10px;border-radius:50%;background:#5b21b6"></span> NoMIS Power Corporation:  () <span style="margin-left:auto;font-weight:700">---</span></div></div>
+</div>
+<div class="band-card" style="border-left-color:#73788a">
+    <div class="band-letter" style="color:#73788a">E</div>
+    <div class="band-label" style="color:#73788a">Frontier Scout</div>
+    <div class="band-stats">
+        <div><span class="num">103</span> positions</div>
+        <div><span class="num">15</span> measured</div>
+        <div><span class="num">0%</span> win rate</div>
+        <div><span class="num" style="color:#cc0000">-0.2%</span> avg P&amp;L</div>
+    </div>
+    <div class="members"><div class="member"><span style="display:inline-block;width:10px;height:10px;border-radius:50%;background:#5b21b6"></span> Texas FAIR Plan Associati () <span style="margin-left:auto;font-weight:700">---</span></div><div class="member"><span style="display:inline-block;width:10px;height:10px;border-radius:50%;background:#5b21b6"></span> 하나멤브리얼즈: semiconductor de () <span style="margin-left:auto;font-weight:700">---</span></div><div class="member"><span style="display:inline-block;width:10px;height:10px;border-radius:50%;background:#5b21b6"></span> Heidi J. Ellsworth: marke () <span style="margin-left:auto;font-weight:700">---</span></div><div class="member"><span style="display:inline-block;width:10px;height:10px;border-radius:50%;background:#5b21b6"></span> Leading Edge Materials: g () <span style="margin-left:auto;font-weight:700">---</span></div><div class="member"><span style="display:inline-block;width:10px;height:10px;border-radius:50%;background:#5b21b6"></span> TechInsights: semiconduct () <span style="margin-left:auto;font-weight:700">---</span></div><div class="member"><span style="display:inline-block;width:10px;height:10px;border-radius:50%;background:#5b21b6"></span> Trump: critical minerals  (SMH) <span style="margin-left:auto;font-weight:700">0.0%</span></div></div>
+</div>
+        </div>
+    </div>
+</div>
+
+
+<div style="margin:1.5rem 0;padding:0;border:1px solid #e5e0db;border-radius:6px;background:#fff;overflow:hidden;">
+  <div style="display:flex;align-items:stretch;">
+    <div style="flex:1;min-width:0;padding:1.1rem 1.2rem;">
+      <div style="font-family:'Montserrat',sans-serif;font-size:0.55rem;font-weight:700;letter-spacing:0.12em;text-transform:uppercase;color:#0d7680;margin-bottom:0.25rem;">NEWS &middot; Pharma</div>
+      <div style="font-family:'Playfair Display',serif;font-weight:900;font-size:0.95rem;line-height:1.3;margin-bottom:0.35rem;">Rising Risks in GLP-1 Drug Litigation</div>
+      <div style="font-size:0.76rem;color:#4B5563;line-height:1.65;">The pharmaceutical sector is currently navigating heightened scrutiny surrounding GLP-1 drugs, which are increasingly linked to allegations of vision loss. As these claims consolidate within a federal multi-district litigation (MDL), the risk of coordinated litigation is escalating, posing significant implications for insurers and manufacturers involved in this category. The potential for increased defense costs and expedited claim aggregation is particularly alarming, with a risk score of 84 out of 100 reflecting the urgency of this situation. Our intelligence system has identified that while the broader market has yet to fully absorb the implications of this MDL, the potential liability exposure is already substantial. With a confidence level of 62%, the evidence suggests that insurers must escalate their review processes to…</div>
+    </div>
+    <img src="/assets/images/news/rising-risks-in-glp-1-drug-litigation-1200d848.jpg" alt="" style="width:240px;object-fit:cover;flex-shrink:0;" loading="lazy">
+  </div>
+</div>
+
+<!-- Learning Dashboard -->
+<div class="section" id="learning">
+    <div class="container">
+        <div class="section-label">Research</div>
+        <div class="section-title">Learning Dashboard</div>
+        <div class="section-intro">Edge quality, direction accuracy, kill validation, optimal timing, and exit analysis.</div>
+        <div class="learn-grid">
+            <div class="learn-card learn-card-wide">
+    <h3>Exit Timing Analysis</h3>
+    <p style="font-size:0.82rem;color:var(--ink-mid);margin-bottom:0.8rem">
+        Average P&amp;L by holding period. <span style="background:#e0f5f5;padding:1px 6px;border-radius:3px;font-weight:700;color:var(--accent)">Teal</span> highlights the optimal window.
+    </p>
+    <table style="width:100%">
+        <thead><tr><th>Band</th><th>6H</th><th>12H</th><th class="timing-best">24H</th><th>48H</th><th>96H+</th></tr></thead>
+        <tbody>
+            <tr><td style="color:#166534;font-weight:700">Band A</td><td><span style="color:#16a34a;font-weight:700">+0.2%</span><br><span style="font-size:0.65rem;color:var(--grey-400)">n=115</span></td><td><span style="color:#16a34a;font-weight:700">+0.9%</span><br><span style="font-size:0.65rem;color:var(--grey-400)">n=114</span></td><td class="timing-best"><span style="color:#16a34a;font-weight:700">+1.0%</span><br><span style="font-size:0.65rem;color:var(--grey-400)">n=225</span></td><td><span style="color:#16a34a;font-weight:700">+0.6%</span><br><span style="font-size:0.65rem;color:var(--grey-400)">n=425</span></td><td><span style="color:#16a34a;font-weight:700">+0.5%</span><br><span style="font-size:0.65rem;color:var(--grey-400)">n=957</span></td></tr>
+<tr><td style="color:#92400e;font-weight:700">Band B</td><td><span style="color:#16a34a;font-weight:700">+0.0%</span><br><span style="font-size:0.65rem;color:var(--grey-400)">n=24</span></td><td><span style="color:#cc0000;font-weight:700">-0.1%</span><br><span style="font-size:0.65rem;color:var(--grey-400)">n=23</span></td><td class="timing-best"><span style="color:#cc0000;font-weight:700">-0.1%</span><br><span style="font-size:0.65rem;color:var(--grey-400)">n=44</span></td><td><span style="color:#cc0000;font-weight:700">-1.6%</span><br><span style="font-size:0.65rem;color:var(--grey-400)">n=90</span></td><td><span style="color:#cc0000;font-weight:700">-0.3%</span><br><span style="font-size:0.65rem;color:var(--grey-400)">n=230</span></td></tr>
+<tr><td style="color:#6b5b00;font-weight:700">Band C</td><td><span style="color:#16a34a;font-weight:700">+0.8%</span><br><span style="font-size:0.65rem;color:var(--grey-400)">n=6</span></td><td><span style="color:#16a34a;font-weight:700">+4.6%</span><br><span style="font-size:0.65rem;color:var(--grey-400)">n=6</span></td><td class="timing-best"><span style="color:#16a34a;font-weight:700">+4.6%</span><br><span style="font-size:0.65rem;color:var(--grey-400)">n=12</span></td><td><span style="color:#16a34a;font-weight:700">+4.6%</span><br><span style="font-size:0.65rem;color:var(--grey-400)">n=23</span></td><td><span style="color:#16a34a;font-weight:700">+3.8%</span><br><span style="font-size:0.65rem;color:var(--grey-400)">n=142</span></td></tr>
+<tr><td style="color:#7a5c99;font-weight:700">Band D</td><td style="color:var(--grey-400)">---</td><td style="color:var(--grey-400)">---</td><td style="color:var(--grey-400)">---</td><td style="color:var(--grey-400)">---</td><td style="color:var(--grey-400)">---</td></tr>
+<tr><td style="color:#73788a;font-weight:700">Band E</td><td style="color:var(--grey-400)">---</td><td style="color:var(--grey-400)">---</td><td style="color:var(--grey-400)">---</td><td style="color:var(--grey-400)">---</td><td style="color:var(--grey-400)">---</td></tr>
+            <tr style="border-top:2px solid var(--grey-200)"><td style="font-weight:700">All Bands</td><td><span style="color:#16a34a;font-weight:700">+0.2%</span></td><td><span style="color:#16a34a;font-weight:700">+0.9%</span></td><td class="timing-best"><span style="color:#16a34a;font-weight:700">+1.0%</span></td><td><span style="color:#16a34a;font-weight:700">+0.4%</span></td><td><span style="color:#16a34a;font-weight:700">+0.7%</span></td></tr>
+        </tbody>
+    </table>
+</div>
+            <div class="learn-card">
+    <h3>Edge Quality</h3>
+    <table><thead><tr><th>Quality</th><th>Count</th><th>Win Rate</th><th>Avg P&amp;L</th></tr></thead>
+    <tbody><tr><td>HIGH</td><td>419</td><td>34.1%</td><td>0.7%</td></tr><tr><td>DECAYING</td><td>124</td><td>26.0%</td><td>2.22%</td></tr></tbody></table>
+</div>
+<div class="learn-card">
+    <h3>Direction Analysis</h3>
+    <table><thead><tr><th>Direction</th><th>Count</th><th>Win Rate</th><th>Avg P&amp;L</th></tr></thead>
+    <tbody><tr><td style='color:#cc0000'>SHORT</td><td>182</td><td>62.0%</td><td>1.11%</td></tr><tr><td style='color:#16a34a'>LONG</td><td>150</td><td>41.5%</td><td>3.52%</td></tr><tr><td style='color:#92400e'>MIXED</td><td>152</td><td>0.0%</td><td>0.0%</td></tr></tbody></table>
+</div>
+<div class="learn-card">
+    <h3>Propagation Posture</h3>
+    <table><thead><tr><th>Posture</th><th>Count</th><th>Win Rate</th><th>Avg P&amp;L</th></tr></thead>
+    <tbody><tr><td>IGNITE</td><td>11</td><td>33.3%</td><td>3.29%</td></tr><tr><td>CATALYTIC</td><td>14</td><td>23.1%</td><td>0.14%</td></tr><tr><td>SILENT</td><td>4</td><td>0.0%</td><td>-0.95%</td></tr><tr><td>FRAGILE</td><td>12</td><td>72.7%</td><td>10.04%</td></tr></tbody></table>
+</div>
+<div class="learn-card">
+    <h3>Kill Validation</h3>
+    <table><thead><tr><th>Metric</th><th>Value</th></tr></thead>
+    <tbody>
+        <tr><td>Total Kills</td><td style="font-weight:700">346</td></tr>
+        <tr><td>Good Kills (avoided loss)</td><td style="font-weight:700;color:var(--green)">34</td></tr>
+        <tr><td>Bad Kills (missed profit)</td><td style="font-weight:700;color:var(--red)">33</td></tr>
+        <tr><td>Neutral</td><td style="font-weight:700">279</td></tr>
+        <tr><td>Kill Accuracy</td><td style="font-weight:700">10%</td></tr>
+    </tbody></table>
+</div>
+<div class="learn-card">
+    <h3>Staleness Impact</h3>
+    <table><thead><tr><th>Window</th><th>Count</th><th>Win Rate</th><th>Avg P&amp;L</th></tr></thead>
+    <tbody><tr><td>0-6h</td><td>179</td><td>32.1%</td><td>1.35%</td></tr><tr><td>6-24h</td><td>10</td><td>14.3%</td><td>-1.39%</td></tr><tr><td>24-48h</td><td>11</td><td>50.0%</td><td>0.61%</td></tr><tr><td>48h+</td><td>165</td><td>25.9%</td><td>1.72%</td></tr></tbody></table>
+</div>
+<div class="learn-card">
+    <h3>Optimal Holding Period</h3>
+    <table><thead><tr><th>Band</th><th>Best Window</th><th>Avg P&amp;L</th><th>Data Points</th></tr></thead>
+    <tbody><tr><td style='color:#166534'>A (Blue Chip)</td><td>12-24h</td><td>1.02%</td><td>225</td></tr><tr><td style='color:#92400e'>B (Bread & Butter)</td><td>0-6h</td><td>0.02%</td><td>24</td></tr><tr><td style='color:#6b5b00'>C (Contested)</td><td>6-12h</td><td>4.6%</td><td>6</td></tr><tr><td style='color:#7a5c99'>D (Dark Horse)</td><td>0-6h</td><td>0%</td><td>0</td></tr><tr><td style='color:#73788a'>E (Frontier Scout)</td><td>0-6h</td><td>0%</td><td>0</td></tr></tbody></table>
+</div>
+        </div>
+    </div>
+</div>
+
+
+<div style="margin:1.5rem 0;padding:1rem 1.2rem;border-left:3px solid #0d7680;background:#fafaf8;">
+  <div style="font-family:'Montserrat',sans-serif;font-size:0.55rem;font-weight:700;letter-spacing:0.12em;text-transform:uppercase;color:#0d7680;margin-bottom:0.25rem;">NEWS &middot; Pharma</div>
+  <div style="font-family:'Playfair Display',serif;font-weight:900;font-size:0.95rem;line-height:1.3;margin-bottom:0.35rem;">Risks Facing GLP-1 Drug Manufacturers</div>
+  <div style="font-size:0.76rem;color:#4B5563;line-height:1.65;">United States pharmaceutical manufacturers involved in the production of GLP-1 medications are facing heightened liability risks due to recent developments in mass tort litigation. Centralized litigation (MDL 3163) has aggregated previously scattered claims related to vision loss, significantly increasing the number of claimants and escalating the potential for costly settlements. This aggregation could lead to front-loaded defense costs, as evidenced by a risk score of 83 out of 100, with a confidence level of 59%. Additionally, regulatory scrutiny surrounding compounded GLP-1 drugs is intensifying, with recent enforcement actions against misleading marketing claims. This scrutiny not only raises defense costs but also heightens the potential for civil litigation, supported by a risk score of 79. The implications for insurers are severe,…</div>
+</div>
+
+<!-- Disclaimer (still in dark zone) -->
+<div style="padding: 1rem 0 2.5rem;">
+    <div class="disclaimer-box">
+        <p>
+            <strong>Disclaimer</strong><br>
+            The trading algorithms and analysis presented here are experimental and under active development. Nothing on this site constitutes financial advice. We accept no responsibility for any losses incurred from acting on information found here. You are strongly advised to conduct your own due diligence before making any investment decisions.
+        </p>
+    </div>
+</div>
+
+
+<!-- ===== NOAH EDGE SITE FOOTER ===== -->
+<footer class="site-footer">
+  <div class="footer-inner">
+    <div>
+      <div class="footer-brand">NOAH</div>
+      <p class="footer-text">Edge Magazine is published by Ivan Massow. &copy; 2026</p>
+      <p class="footer-text" style="margin-top:0.3rem">Report generated 2026-03-07 22:07 UTC. Tracking 76 positions (3 active, 0 pipeline, 61 killed).</p>
+    </div>
+    <div class="footer-links">
+      <a href="/polymarket/index.html">PolyMarket</a>
+      <a href="/kalshi/index.html">Kalshi</a>
+      <a href="/hedgefund/index.html">Hedge Fund</a>
+      <a href="/company-watch/index.html">Company Watch</a>
+      <a href="/crypto/index.html">Crypto</a>
+      <a href="/signals/index.html">Signals</a>
+      <a href="/tips/index.html">Tips</a>
+      <a href="/sandbox/index.html">Sandbox</a>
+      <a href="/about/index.html">About</a>
+    </div>
+  </div>
+</footer>
+
+</body>
+</html>
