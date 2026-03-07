@@ -5,8 +5,24 @@
     <link>https://noah-edge.com/</link>
     <description>Prediction market intelligence. The Noah Poly Index tracks edges with transparent positions and tracked outcomes.</description>
     <language>en</language>
-    <lastBuildDate>Sat, 07 Mar 2026 03:43:21 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 07 Mar 2026 04:21:22 +0000</lastBuildDate>
     <atom:link href="https://noah-edge.com/rss.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>PMI-20260307 | 12 Beliefs | Politics + Finance + Environment | shifting (zop7)</title>
+      <link>https://noah-edge.com/stories/pmi-20260307-12-beliefs-politics-finance-environment.html</link>
+      <description>Summary Corpus: 400 articles across 12 trends | SHORT horizon | 605h window Beliefs: 12 total | 3 cross-domain | 9 single-domain Domains: politics, finance, environment, technology, other Posture: ...</description>
+      <pubDate>Sat, 07 Mar 2026 04:11:00 +0000</pubDate>
+      <guid>https://noah-edge.com/stories/pmi-20260307-12-beliefs-politics-finance-environment.html</guid>
+      <enclosure url="https://noah-edge.com/assets/images/pmi-20260307-12-beliefs-politics-finance-a78387c7.jpg" type="image/jpeg" />
+    </item>
+    <item>
+      <title>PMI-20260307 | 10 Beliefs | Trade + Politics + Legal | shifting (poq4)</title>
+      <link>https://noah-edge.com/stories/pmi-20260307-10-beliefs-trade-politics-legal-shifting-poq4.html</link>
+      <description>Summary Corpus: 400 articles across 12 trends | SHORT horizon | 1065h window Beliefs: 10 total | 7 cross-domain | 3 single-domain Domains: trade, politics, legal, technology, economy, geopolitics, ...</description>
+      <pubDate>Sat, 07 Mar 2026 04:10:04 +0000</pubDate>
+      <guid>https://noah-edge.com/stories/pmi-20260307-10-beliefs-trade-politics-legal-shifting-poq4.html</guid>
+      <enclosure url="https://noah-edge.com/assets/images/pmi-20260307-10-beliefs-trade-politics-l-a427ada4.jpg" type="image/jpeg" />
+    </item>
     <item>
       <title>Prediction markets profit from Iran strikes amid concerns over transparency and insider trading</title>
       <link>https://noah-edge.com/stories/prediction-markets-profit-from-iran-strikes-amid-concerns.html</link>
@@ -150,22 +166,6 @@
       <pubDate>Fri, 06 Mar 2026 13:17:38 +0000</pubDate>
       <guid>https://noah-edge.com/stories/pmi-20260306-10-beliefs-economy-energy-finance-shifting-gez3.html</guid>
       <enclosure url="https://noah-edge.com/assets/images/pmi-20260306-10-beliefs-economy-energy-f-b6830801.jpg" type="image/jpeg" />
-    </item>
-    <item>
-      <title>PMI-20260306 | 12 Beliefs | Geopolitics + Military + Energy | shifting (zuk5)</title>
-      <link>https://noah-edge.com/stories/pmi-20260306-12-beliefs-geopolitics-military-energy.html</link>
-      <description>Summary Corpus: 400 articles across 12 trends | SHORT horizon | 84h window Beliefs: 12 total | 3 cross-domain | 9 single-domain Domains: geopolitics, military, politics, trade, energy, finance, tec...</description>
-      <pubDate>Fri, 06 Mar 2026 10:44:20 +0000</pubDate>
-      <guid>https://noah-edge.com/stories/pmi-20260306-12-beliefs-geopolitics-military-energy.html</guid>
-      <enclosure url="https://noah-edge.com/assets/images/pmi-20260306-12-beliefs-geopolitics-mili-512e6b3b.jpg" type="image/jpeg" />
-    </item>
-    <item>
-      <title>Opinion Foundation’s OPN token experiences sharp decline after rapid early trading surge</title>
-      <link>https://noah-edge.com/stories/opinion-foundations-opn-token-experiences-sharp-decline.html</link>
-      <description>Opinion Foundation&#39;s newly listed OPN token faced significant selling pressure within days of its debut, amid high initial trading volumes driven by a large airdrop and aggressive exchange incentiv...</description>
-      <pubDate>Fri, 06 Mar 2026 06:12:18 +0000</pubDate>
-      <guid>https://noah-edge.com/stories/opinion-foundations-opn-token-experiences-sharp-decline.html</guid>
-      <enclosure url="https://noah-edge.com/assets/images/opinion-foundations-opn-token-experience-fd4d9eb5.jpg" type="image/jpeg" />
     </item>
   </channel>
 </rss>
