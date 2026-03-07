@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-03-06T23:33:41Z",
+  "generated_at": "2026-03-07T00:08:15Z",
   "total_signals": 203,
   "signals": [
     {
@@ -1331,8 +1331,8 @@
       "band": "B",
       "entry_price": null,
       "dd_approved_price": 51.5,
-      "current_price": 50.56,
-      "pnl_pct": 1.83,
+      "current_price": 50.57,
+      "pnl_pct": 1.81,
       "status": "OPEN",
       "state": "WATCH",
       "thesis_status": "intact",
@@ -1369,7 +1369,7 @@
       "band": "B",
       "entry_price": null,
       "dd_approved_price": 87.16,
-      "current_price": 85.76,
+      "current_price": 85.78,
       "pnl_pct": 0,
       "status": "OPEN",
       "state": "WATCH",
