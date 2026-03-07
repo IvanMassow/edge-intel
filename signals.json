@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-03-07T11:07:07Z",
+  "generated_at": "2026-03-07T11:44:45Z",
   "total_signals": 203,
   "signals": [
     {
@@ -217,7 +217,7 @@
       "edge_type": "CONSENSUS",
       "rating": "A",
       "entry_price": 0.195,
-      "current_price": 0.21,
+      "current_price": 0.215,
       "pnl_pct": 35.9,
       "status": "CLOSED",
       "state": "EXITED",
@@ -319,7 +319,7 @@
       "edge_type": "CONSENSUS",
       "rating": "A",
       "entry_price": 0.845,
-      "current_price": 0.7055,
+      "current_price": 0.7045,
       "pnl_pct": 24.9,
       "status": "CLOSED",
       "state": "EXITED",
@@ -336,7 +336,7 @@
       "edge_type": "CONSENSUS",
       "rating": "A",
       "entry_price": 0.16,
-      "current_price": 0.145,
+      "current_price": 0.135,
       "pnl_pct": 21.9,
       "status": "CLOSED",
       "state": "EXITED",
@@ -387,7 +387,7 @@
       "edge_type": "CONSENSUS",
       "rating": "A",
       "entry_price": 0.305,
-      "current_price": 0.265,
+      "current_price": 0.24,
       "pnl_pct": 19.7,
       "status": "CLOSED",
       "state": "EXITED",
@@ -812,7 +812,7 @@
       "edge_type": "CONSENSUS",
       "rating": "A",
       "entry_price": 0.29,
-      "current_price": 0.5,
+      "current_price": 0.465,
       "pnl_pct": 0.0,
       "status": "CLOSED",
       "state": "EXITED",
@@ -829,7 +829,7 @@
       "edge_type": "CONSENSUS",
       "rating": "A",
       "entry_price": 0.8,
-      "current_price": 0.87,
+      "current_price": 0.86,
       "pnl_pct": 0.0,
       "status": "CLOSED",
       "state": "EXITED",
@@ -914,7 +914,7 @@
       "edge_type": "CONSENSUS",
       "rating": "A",
       "entry_price": 0.51,
-      "current_price": 0.56,
+      "current_price": 0.555,
       "pnl_pct": -2.9,
       "status": "CLOSED",
       "state": "EXITED",
@@ -1050,7 +1050,7 @@
       "edge_type": "CONSENSUS",
       "rating": "B",
       "entry_price": 0.815,
-      "current_price": 0.9645,
+      "current_price": 0.9635,
       "pnl_pct": -16.7,
       "status": "CLOSED",
       "state": "EXITED",
@@ -1067,7 +1067,7 @@
       "edge_type": "CONSENSUS",
       "rating": "B",
       "entry_price": 0.105,
-      "current_price": 0.175,
+      "current_price": 0.17,
       "pnl_pct": -19.0,
       "status": "CLOSED",
       "state": "EXITED",
@@ -1135,7 +1135,7 @@
       "edge_type": "CONSENSUS",
       "rating": "B",
       "entry_price": 0.125,
-      "current_price": 0.085,
+      "current_price": 0.09,
       "pnl_pct": -24.0,
       "status": "CLOSED",
       "state": "EXITED",
@@ -1152,7 +1152,7 @@
       "edge_type": "CONSENSUS",
       "rating": "B",
       "entry_price": 0.169,
-      "current_price": 0.135,
+      "current_price": 0.1275,
       "pnl_pct": -25.0,
       "status": "CLOSED",
       "state": "EXITED",
@@ -3036,6 +3036,20 @@
     {
       "signal_id": "NE-NAS-0184",
       "source": "narrative_asset_signal",
+      "asset": "Unknown",
+      "ticker": null,
+      "asset_type": "macro",
+      "direction": "",
+      "pressure_index": 0.0,
+      "acceleration": "",
+      "signal_status": "",
+      "published_at": "2026-03-07 11:31:40",
+      "status": "OPEN",
+      "state": ""
+    },
+    {
+      "signal_id": "NE-NAS-0185",
+      "source": "narrative_asset_signal",
       "asset": "Natural Gas",
       "ticker": null,
       "asset_type": "macro",
@@ -3048,7 +3062,7 @@
       "state": "Narrative Signal Mixed"
     },
     {
-      "signal_id": "NE-NAS-0185",
+      "signal_id": "NE-NAS-0186",
       "source": "narrative_asset_signal",
       "asset": "crude oil futures (Brent and WTI as primary tradables)",
       "ticker": null,
@@ -3062,7 +3076,7 @@
       "state": "Narrative Pressure Rising"
     },
     {
-      "signal_id": "NE-NAS-0186",
+      "signal_id": "NE-NAS-0187",
       "source": "narrative_asset_signal",
       "asset": "Gold",
       "ticker": null,
@@ -3076,7 +3090,7 @@
       "state": "Narrative Signal Mixed"
     },
     {
-      "signal_id": "NE-NAS-0187",
+      "signal_id": "NE-NAS-0188",
       "source": "narrative_asset_signal",
       "asset": "silver market",
       "ticker": null,
@@ -3090,7 +3104,7 @@
       "state": "Narrative Pressure Rising"
     },
     {
-      "signal_id": "NE-NAS-0188",
+      "signal_id": "NE-NAS-0189",
       "source": "narrative_asset_signal",
       "asset": "global coffee markets",
       "ticker": null,
@@ -3104,7 +3118,7 @@
       "state": "Narrative Signal Mixed"
     },
     {
-      "signal_id": "NE-NAS-0189",
+      "signal_id": "NE-NAS-0190",
       "source": "narrative_asset_signal",
       "asset": "wheat markets",
       "ticker": null,
@@ -3118,7 +3132,7 @@
       "state": "Upward Narrative Bias Building"
     },
     {
-      "signal_id": "NE-NAS-0190",
+      "signal_id": "NE-NAS-0191",
       "source": "narrative_asset_signal",
       "asset": "crude oil futures (Brent and WTI)",
       "ticker": null,
@@ -3132,7 +3146,7 @@
       "state": "Upward Narrative Bias Building"
     },
     {
-      "signal_id": "NE-NAS-0191",
+      "signal_id": "NE-NAS-0192",
       "source": "narrative_asset_signal",
       "asset": "Natural Gas",
       "ticker": null,
@@ -3146,7 +3160,7 @@
       "state": "Narrative Signal Mixed"
     },
     {
-      "signal_id": "NE-NAS-0192",
+      "signal_id": "NE-NAS-0193",
       "source": "narrative_asset_signal",
       "asset": "Gold",
       "ticker": null,
@@ -3160,7 +3174,7 @@
       "state": "Upward Narrative Bias Building"
     },
     {
-      "signal_id": "NE-NAS-0193",
+      "signal_id": "NE-NAS-0194",
       "source": "narrative_asset_signal",
       "asset": "copper",
       "ticker": null,
@@ -3174,7 +3188,7 @@
       "state": "Upward Narrative Bias Building"
     },
     {
-      "signal_id": "NE-NAS-0194",
+      "signal_id": "NE-NAS-0195",
       "source": "narrative_asset_signal",
       "asset": "Natural Gas",
       "ticker": null,
@@ -3188,7 +3202,7 @@
       "state": "Narrative Pressure Rising"
     },
     {
-      "signal_id": "NE-NAS-0195",
+      "signal_id": "NE-NAS-0196",
       "source": "narrative_asset_signal",
       "asset": "Gold",
       "ticker": null,
@@ -3202,7 +3216,7 @@
       "state": "Narrative Signal Mixed"
     },
     {
-      "signal_id": "NE-NAS-0196",
+      "signal_id": "NE-NAS-0197",
       "source": "narrative_asset_signal",
       "asset": "Crude oil futures (Brent & WTI)",
       "ticker": null,
@@ -3216,7 +3230,7 @@
       "state": "Narrative Pressure Accelerating"
     },
     {
-      "signal_id": "NE-NAS-0197",
+      "signal_id": "NE-NAS-0198",
       "source": "narrative_asset_signal",
       "asset": "Gold (XAU)",
       "ticker": null,
@@ -3230,7 +3244,7 @@
       "state": "Narrative Pressure Accelerating"
     },
     {
-      "signal_id": "NE-NAS-0198",
+      "signal_id": "NE-NAS-0199",
       "source": "narrative_asset_signal",
       "asset": "crude oil futures (Brent and WTI)",
       "ticker": null,
@@ -3244,7 +3258,7 @@
       "state": "Narrative Pressure Accelerating"
     },
     {
-      "signal_id": "NE-NAS-0199",
+      "signal_id": "NE-NAS-0200",
       "source": "narrative_asset_signal",
       "asset": "Crude oil futures (Brent & WTI)",
       "ticker": null,
@@ -3258,7 +3272,7 @@
       "state": "Narrative Signal Mixed"
     },
     {
-      "signal_id": "NE-NAS-0200",
+      "signal_id": "NE-NAS-0201",
       "source": "narrative_asset_signal",
       "asset": "Gold (XAU)",
       "ticker": null,
@@ -3272,7 +3286,7 @@
       "state": "Downward Narrative Bias Building"
     },
     {
-      "signal_id": "NE-NAS-0201",
+      "signal_id": "NE-NAS-0202",
       "source": "narrative_asset_signal",
       "asset": "crude oil futures (Brent and WTI as primary tradables)",
       "ticker": null,
@@ -3286,7 +3300,7 @@
       "state": "Narrative Signal Mixed"
     },
     {
-      "signal_id": "NE-NAS-0202",
+      "signal_id": "NE-NAS-0203",
       "source": "narrative_asset_signal",
       "asset": "Crude oil futures (Brent & WTI)",
       "ticker": null,
@@ -3296,20 +3310,6 @@
       "acceleration": "building inside a short persistence window:",
       "signal_status": "Narrative Pressure Accelerating",
       "published_at": "2026-02-28 13:02:22",
-      "status": "OPEN",
-      "state": "Narrative Pressure Accelerating"
-    },
-    {
-      "signal_id": "NE-NAS-0203",
-      "source": "narrative_asset_signal",
-      "asset": "Semiconductor equities (proxy: VanEck Semiconductor ETF)",
-      "ticker": null,
-      "asset_type": "macro",
-      "direction": "",
-      "pressure_index": 97.0,
-      "acceleration": "Delta | 34 |",
-      "signal_status": "Narrative Pressure Accelerating",
-      "published_at": "2026-02-27 13:03:45",
       "status": "OPEN",
       "state": "Narrative Pressure Accelerating"
     }
