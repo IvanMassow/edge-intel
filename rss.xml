@@ -5,8 +5,16 @@
     <link>https://noah-edge.com/</link>
     <description>Prediction market intelligence. The Noah Poly Index tracks edges with transparent positions and tracked outcomes.</description>
     <language>en</language>
-    <lastBuildDate>Sat, 07 Mar 2026 06:50:08 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 07 Mar 2026 07:25:57 +0000</lastBuildDate>
     <atom:link href="https://noah-edge.com/rss.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>PMI-20260307 | 13 Beliefs | Other + Finance + Technology + Politics | shifting (maq3)</title>
+      <link>https://noah-edge.com/stories/pmi-20260307-13-beliefs-other-finance-technology-politics.html</link>
+      <description>Summary Corpus: 300 articles across 12 trends | SHORT horizon | 400h window Beliefs: 13 total | 3 cross-domain | 10 single-domain Domains: other, finance, technology, politics Posture: Signals are ...</description>
+      <pubDate>Sat, 07 Mar 2026 07:24:36 +0000</pubDate>
+      <guid>https://noah-edge.com/stories/pmi-20260307-13-beliefs-other-finance-technology-politics.html</guid>
+      <enclosure url="https://noah-edge.com/assets/images/pmi-20260307-13-beliefs-other-finance-te-b16de5f8.jpg" type="image/jpeg" />
+    </item>
     <item>
       <title>PMI-20260307 | 12 Beliefs | Military + Geopolitics + Politics | shifting (qiz7)</title>
       <link>https://noah-edge.com/stories/pmi-20260307-12-beliefs-military-geopolitics-politics.html</link>
@@ -158,14 +166,6 @@
       <pubDate>Fri, 06 Mar 2026 20:36:32 +0000</pubDate>
       <guid>https://noah-edge.com/stories/crypto-resilience-shines-as-institutional-flows-sustain.html</guid>
       <enclosure url="https://noah-edge.com/assets/images/crypto-resilience-shines-as-institutiona-91c95fd0.jpg" type="image/jpeg" />
-    </item>
-    <item>
-      <title>Whale activity in $PUMP prompts market watch as large-scale withdrawals signal potential strategic shift</title>
-      <link>https://noah-edge.com/stories/whale-activity-in-pump-prompts-market-watch-as-large-scale.html</link>
-      <description>Major $PUMP whales have withdrawn over 7 billion tokens from exchanges in a move that signals possible accumulation strategies, sparking debate on their market impact.</description>
-      <pubDate>Fri, 06 Mar 2026 20:36:32 +0000</pubDate>
-      <guid>https://noah-edge.com/stories/whale-activity-in-pump-prompts-market-watch-as-large-scale.html</guid>
-      <enclosure url="https://noah-edge.com/assets/images/whale-activity-in-pump-prompts-market-wa-4b1d8e50.jpg" type="image/jpeg" />
     </item>
   </channel>
 </rss>
