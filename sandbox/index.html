@@ -459,6 +459,31 @@ img { display: block; max-width: 100%; }
 </header>
 <hr class="header-rule">
 
+<style>
+.fp-btn { margin-top:0.6rem; background:none; border:1px solid var(--teal); color:var(--teal); padding:0.3rem 0.6rem; border-radius:4px; font-size:0.68rem; font-weight:600; cursor:pointer; font-family:"Montserrat",sans-serif; letter-spacing:0.04em; transition:all 0.2s; }
+.fp-btn:hover { background:var(--teal); color:#fff; }
+.fp-btn-accent { background:var(--teal); color:#fff; }
+.fp-btn-accent:hover { background:#0a5f67; }
+</style>
+<script>
+var FP = {"polyhunter": "I'm working on PolyHunter \u2014 prediction market edge tracker (Polymarket).\n\nProject: ~/polyhunter/\n\nRead before working:\n1. ~/the-desk/PROTOCOL.md\n2. ~/polyhunter/SYSTEM.md\n3. ~/the-desk/TASKBOARD.md\n\nKey: Wave Rider v4.0 strategy. Thresholds in strategy.py.\nBefore ending: update SYSTEM.md if rules/architecture changed. Add handoff to TASKBOARD.md.", "hedgefund": "I'm working on the Hedge Fund Tracker \u2014 smart paper trading for pharma/litigation signals.\n\nProject: ~/hedgefund-tracker/\n\nRead before working:\n1. ~/the-desk/PROTOCOL.md\n2. ~/hedgefund-tracker/SYSTEM.md\n3. ~/the-desk/TASKBOARD.md\n\nKey: DD-First v2.0. Thresholds in config.py. Alpha Vantage (5 calls/min) + Anthropic.\nBefore ending: update SYSTEM.md if rules/architecture changed. Add handoff to TASKBOARD.md.", "companywatch": "I'm working on Company Watch \u2014 AI trading vs buy-and-hold for 5 China ADRs.\n\nProject: ~/company-watch/\n\nRead before working:\n1. ~/the-desk/PROTOCOL.md\n2. ~/company-watch/SYSTEM.md\n3. ~/the-desk/TASKBOARD.md\n\nKey: Dual-Confidence v1.0. Active vs Passive lines. Thresholds in config.py.\nBefore ending: update SYSTEM.md if rules/architecture changed. Add handoff to TASKBOARD.md.", "nas": "I'm working on NAS Tester \u2014 narrative asset signal validation engine.\n\nProject: ~/nas-tester/\n\nRead before working:\n1. ~/the-desk/PROTOCOL.md\n2. ~/nas-tester/SYSTEM.md\n3. ~/the-desk/TASKBOARD.md\n\nKey: Signal Validator v1.0. Maps RSS signals to ETF proxies, scores at 6/12/24/72h.\nBefore ending: update SYSTEM.md if rules/architecture changed. Add handoff to TASKBOARD.md.", "crypto": "I'm working on Crypto Desk \u2014 dual-pipeline crypto signal tracker.\n\nProject: ~/crypto-desk/\n\nRead before working:\n1. ~/the-desk/PROTOCOL.md\n2. ~/crypto-desk/SYSTEM.md\n3. ~/the-desk/TASKBOARD.md\n\nKey: NAS pipeline (ETF proxies) + PMI pipeline (Wave Rider for crypto). New system.\nBefore ending: update SYSTEM.md if rules/architecture changed. Add handoff to TASKBOARD.md.", "edgeintel": "I'm working on Edge Intel \u2014 the noah-edge.com static site generator.\n\nProject: ~/edge-intel/\n\nRead before working:\n1. ~/the-desk/PROTOCOL.md\n2. ~/edge-intel/SYSTEM.md\n3. ~/the-desk/TASKBOARD.md\n\nKey: builder.py (~7000 lines) builds all pages. db.py reads agent data.\nS3 rule: all nav links MUST use /path/index.html\nDesign: #FFF1E5 bg, #0d7680 accent, Playfair Display / Lato / Montserrat\nBuild: cd ~/edge-intel && source venv/bin/activate && python3 runner.py --once\nDeploy: cd ~/edge-intel && source venv/bin/activate && python3 deploy.py\nBefore ending: update SYSTEM.md. Add handoff to TASKBOARD.md.", "polytrader": "I'm working on Poly-Trader \u2014 REAL MONEY Polymarket trading bot (currently STOPPED).\n\nProject: ~/poly-trader/\n\nRead before working:\n1. ~/the-desk/PROTOCOL.md\n2. ~/poly-trader/SYSTEM.md\n3. ~/the-desk/TASKBOARD.md\n\nCRITICAL: This trades real money. DRY_RUN mode exists. Max $100 exposure.\nKill switch: 5 consecutive losses OR daily loss > $50.\nBefore ending: update SYSTEM.md if rules/architecture changed. Add handoff to TASKBOARD.md.", "sovereign": "I'm working on Sovereign Signal \u2014 UK national standing intelligence dashboard.\n\nProject: ~/client-reports/sovereign-signal/\n\nRead before working:\n1. ~/the-desk/PROTOCOL.md\n2. ~/client-reports/sovereign-signal/SYSTEM.md\n3. ~/the-desk/TASKBOARD.md\n\nKey: 5 pillars scored /100. Client product (FCDO/Zinc). Manual runs only.\nBefore ending: update SYSTEM.md if changed scoring/architecture. Add handoff to TASKBOARD.md.", "new_project": "I'm starting a new NOAH Edge system.\n\nRead these first:\n1. ~/the-desk/PROTOCOL.md \u2014 Full session protocol\n2. ~/the-desk/REGISTRY.md \u2014 Master index of all 9 existing systems\n3. ~/the-desk/TASKBOARD.md \u2014 Pending tasks\n\nNew system setup:\n- Create directory at ~/[system-name]/\n- Create SYSTEM.md in project root (architecture, rules, DB schema)\n- Create CLAUDE.md with session protocol header\n- Add to ~/the-desk/REGISTRY.md\n- Add to ~/the-desk/config.py AGENTS dict\n- If it has a noah-edge.com page: add to ~/edge-intel/builder.py\n\nDesign: #FFF1E5 bg, #0d7680 accent, Playfair Display / Lato / Montserrat\nDeploy: Linode Object Storage via ~/edge-intel/deploy.py\nPython 3.9: no f-string backslashes, use % formatting\nS3: all nav links need /path/index.html", "products": "I'm working on a NOAH Wire client intelligence product.\n\nTemplate system: ~/Desktop/WF 9 versions/ (17 variants, 11 specialist)\nReference: See wf9-builder.md for variant numbering and design system\nOutput directory: ~/edge-intel/site/client-reports/[client-name]/\nHosted at: noah-edge.com/client-reports/[client-name]/\n\nKey rule: Templates receive 8A JSON; LLM produces single self-contained HTML.\nDesign: #FFF1E5 bg, #0d7680 accent, Playfair Display / Lato / Montserrat\n\nRead ~/the-desk/PROTOCOL.md for session rules.\nBefore ending: add handoff to ~/the-desk/TASKBOARD.md."};
+function copyFP(key) {
+  navigator.clipboard.writeText(FP[key]).then(function() {
+    var btn = document.getElementById("fp-" + key);
+    var orig = btn.textContent;
+    btn.textContent = "Copied!";
+    btn.style.background = "#22c55e";
+    btn.style.borderColor = "#22c55e";
+    btn.style.color = "#fff";
+    setTimeout(function() {
+      btn.textContent = orig;
+      btn.style.background = "";
+      btn.style.borderColor = "";
+      btn.style.color = "";
+    }, 2000);
+  });
+}
+</script>
 
 <meta http-equiv="refresh" content="120">
 
@@ -475,7 +500,12 @@ img { display: block; max-width: 100%; }
     <span style="font-size:0.68rem; color:var(--muted);">Last Desk check: 9h ago</span>
   </div>
 
-  <p style="font-size:0.82rem; font-weight:400; color:var(--muted); line-height:1.6; margin-bottom:1.5rem;">Fleet health across all NOAH Edge agents. Auto-refreshes every 2 minutes. Health checks and QA audits run by The Desk.</p>
+  <p style="font-size:0.82rem; font-weight:400; color:var(--muted); line-height:1.6; margin-bottom:1rem;">Fleet health across all NOAH Edge agents. Auto-refreshes every 2 minutes. Health checks and QA audits run by The Desk.</p>
+
+  <div style="display:flex; flex-wrap:wrap; gap:0.5rem; margin-bottom:1.5rem;">
+    <button id="fp-new_project" onclick="copyFP('new_project')" class="fp-btn fp-btn-accent">Start new project</button>
+    <button id="fp-products" onclick="copyFP('products')" class="fp-btn">Products flightpath</button>
+  </div>
 
   <div class="ops-grid">
     <div class="ops-card">
@@ -488,7 +518,8 @@ img { display: block; max-width: 100%; }
         <div class="ops-stat-row"><span class="ops-stat-label">Win Rate</span><span class="ops-stat-val">65%</span></div>
         <div class="ops-stat-row"><span class="ops-stat-label">Return</span><span class="ops-stat-val">+13.8%</span></div>
         <div class="ops-stat-row"><span class="ops-stat-label">Positions</span><span class="ops-stat-val">43W-23L</span></div></div>
-      <div class="ops-updated">Updated 3m ago</div>
+      <div class="ops-updated">Updated 4m ago</div>
+      <button id="fp-polyhunter" onclick="copyFP('polyhunter')" class="fp-btn">Copy flightpath</button>
     </div>
     <div class="ops-card">
       <div class="ops-card-header">
@@ -499,7 +530,8 @@ img { display: block; max-width: 100%; }
       <div class="ops-card-stats">
         <div class="ops-stat-row"><span class="ops-stat-label">Positions</span><span class="ops-stat-val">88</span></div>
         <div class="ops-stat-row"><span class="ops-stat-label">Active / Watch</span><span class="ops-stat-val">3 / 12</span></div></div>
-      <div class="ops-updated">Updated 36m ago</div>
+      <div class="ops-updated">Updated 53m ago</div>
+      <button id="fp-hedgefund" onclick="copyFP('hedgefund')" class="fp-btn">Copy flightpath</button>
     </div>
     <div class="ops-card">
       <div class="ops-card-header">
@@ -510,7 +542,8 @@ img { display: block; max-width: 100%; }
       <div class="ops-card-stats">
         <div class="ops-stat-row"><span class="ops-stat-label">Stocks</span><span class="ops-stat-val">5</span></div>
         <div class="ops-stat-row"><span class="ops-stat-label">Avg Alpha</span><span class="ops-stat-val">+5.68%</span></div></div>
-      <div class="ops-updated">Updated 14m ago</div>
+      <div class="ops-updated">Updated 3m ago</div>
+      <button id="fp-companywatch" onclick="copyFP('companywatch')" class="fp-btn">Copy flightpath</button>
     </div>
     <div class="ops-card">
       <div class="ops-card-header">
@@ -521,7 +554,8 @@ img { display: block; max-width: 100%; }
       <div class="ops-card-stats">
         <div class="ops-stat-row"><span class="ops-stat-label">Signals</span><span class="ops-stat-val">24</span></div>
         <div class="ops-stat-row"><span class="ops-stat-label">Lead Time</span><span class="ops-stat-val">11.4h</span></div></div>
-      <div class="ops-updated">Updated 58m ago</div>
+      <div class="ops-updated">Updated 14m ago</div>
+      <button id="fp-nas" onclick="copyFP('nas')" class="fp-btn">Copy flightpath</button>
     </div>
     <div class="ops-card">
       <div class="ops-card-header">
@@ -532,7 +566,8 @@ img { display: block; max-width: 100%; }
       <div class="ops-card-stats">
         <div class="ops-stat-row"><span class="ops-stat-label">NAS Signals</span><span class="ops-stat-val">3</span></div>
         <div class="ops-stat-row"><span class="ops-stat-label">PMI Candidates</span><span class="ops-stat-val">0</span></div></div>
-      <div class="ops-updated">Updated 17m ago</div>
+      <div class="ops-updated">Updated 33m ago</div>
+      <button id="fp-crypto" onclick="copyFP('crypto')" class="fp-btn">Copy flightpath</button>
     </div>
     <div class="ops-card">
       <div class="ops-card-header">
@@ -544,6 +579,7 @@ img { display: block; max-width: 100%; }
         <div class="ops-stat-row"><span class="ops-stat-label">Pages Built</span><span class="ops-stat-val">805</span></div>
         <div class="ops-stat-row"><span class="ops-stat-label">Schedule</span><span class="ops-stat-val">launchd 30min</span></div></div>
       
+      <button id="fp-edgeintel" onclick="copyFP('edgeintel')" class="fp-btn">Copy flightpath</button>
     </div>
   </div>
 
@@ -560,6 +596,7 @@ img { display: block; max-width: 100%; }
         <div class="ops-stat-row"><span class="ops-stat-label">Status</span><span class="ops-stat-val">Phase 1 paused</span></div>
         <div class="ops-stat-row"><span class="ops-stat-label">Mode</span><span class="ops-stat-val">DRY_RUN=true</span></div></div>
       
+      <button id="fp-polytrader" onclick="copyFP('polytrader')" class="fp-btn">Copy flightpath</button>
     </div>
     <div class="ops-card">
       <div class="ops-card-header">
@@ -571,6 +608,7 @@ img { display: block; max-width: 100%; }
         <div class="ops-stat-row"><span class="ops-stat-label">Type</span><span class="ops-stat-val">Client deploy</span></div>
         <div class="ops-stat-row"><span class="ops-stat-label">Pillars</span><span class="ops-stat-val">5 scored /100</span></div></div>
       
+      <button id="fp-sovereign" onclick="copyFP('sovereign')" class="fp-btn">Copy flightpath</button>
     </div>
   </div>
 
@@ -758,7 +796,7 @@ img { display: block; max-width: 100%; }
     <div style="font-size:0.72rem; font-weight:700; letter-spacing:0.08em; text-transform:uppercase; color:var(--muted); margin-bottom:0.5rem;">Endpoints</div>
     <div class="ops-stat-row" style="font-size:0.78rem;">
       <span class="ops-stat-label">/signals.json</span>
-      <span><span class="ops-status ops-status-live">OK</span> Updated 37m ago</span>
+      <span><span class="ops-status ops-status-live">OK</span> Updated 3m ago</span>
     </div>
   </div>
 
