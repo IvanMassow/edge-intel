@@ -61,6 +61,24 @@
     <priority>0.5</priority>
   </url>
   <url>
+    <loc>https://noah-edge.com/stories/pmi-20260307-12-beliefs-military-geopolitics-politics.html</loc>
+    <lastmod>2026-03-07</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://noah-edge.com/stories/pmi-20260307-10-beliefs-economy-energy-labour-shifting-zok4.html</loc>
+    <lastmod>2026-03-07</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://noah-edge.com/stories/pmi-20260307-12-beliefs-finance-other-labour-stable-vux1.html</loc>
+    <lastmod>2026-03-07</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
     <loc>https://noah-edge.com/stories/pmi-20260307-12-beliefs-politics-finance-environment.html</loc>
     <lastmod>2026-03-07</lastmod>
     <changefreq>weekly</changefreq>
@@ -638,24 +656,6 @@
   </url>
   <url>
     <loc>https://noah-edge.com/stories/kalshi-revises-prediction-market-rules-after-handling.html</loc>
-    <lastmod>2026-03-07</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://noah-edge.com/stories/crypto-prediction-markets-surge-as-traders-profit-from-iran.html</loc>
-    <lastmod>2026-03-07</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://noah-edge.com/stories/banana-gun-achieves-rapid-multi-chain-integration-without.html</loc>
-    <lastmod>2026-03-07</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://noah-edge.com/stories/surge-in-prediction-market-activity-around-us-iran-strike.html</loc>
     <lastmod>2026-03-07</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
