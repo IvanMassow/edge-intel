@@ -5,8 +5,24 @@
     <link>https://noah-edge.com/</link>
     <description>Prediction market intelligence. The Noah Poly Index tracks edges with transparent positions and tracked outcomes.</description>
     <language>en</language>
-    <lastBuildDate>Sun, 08 Mar 2026 02:26:29 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 08 Mar 2026 03:03:07 +0000</lastBuildDate>
     <atom:link href="https://noah-edge.com/rss.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Prediction-market giants seek to double valuations to $20 billion amid booming trade volumes and regulatory headwinds</title>
+      <link>https://noah-edge.com/stories/prediction-market-giants-seek-to-double-valuations-to-20.html</link>
+      <description>Kalshi and Polymarket eye ambitious new valuations with potential funding rounds, amid surging trading activity and mounting regulatory scrutiny.</description>
+      <pubDate>Sun, 08 Mar 2026 02:41:09 +0000</pubDate>
+      <guid>https://noah-edge.com/stories/prediction-market-giants-seek-to-double-valuations-to-20.html</guid>
+      <enclosure url="https://noah-edge.com/assets/images/prediction-market-giants-seek-to-double--41ee1348.jpg" type="image/jpeg" />
+    </item>
+    <item>
+      <title>US prediction market faces class-action over $54m Iran leader death bets and alleged rule manipulation</title>
+      <link>https://noah-edge.com/stories/us-prediction-market-faces-class-action-over-54m-iran.html</link>
+      <description>Traders have filed a class-action lawsuit against Kalshi after a prediction market declined to payout approximately $54 million in bets on Iran’s Supreme Leader’s succession, citing a controversial...</description>
+      <pubDate>Sun, 08 Mar 2026 02:41:03 +0000</pubDate>
+      <guid>https://noah-edge.com/stories/us-prediction-market-faces-class-action-over-54m-iran.html</guid>
+      <enclosure url="https://noah-edge.com/assets/images/us-prediction-market-faces-class-action--f797bb45.jpg" type="image/jpeg" />
+    </item>
     <item>
       <title>Bitcoin dips below $69,000 amid ETF outflows and institutional shifts</title>
       <link>https://noah-edge.com/stories/bitcoin-dips-below-69000-amid-etf-outflows-and.html</link>
@@ -150,22 +166,6 @@
       <pubDate>Sat, 07 Mar 2026 04:10:04 +0000</pubDate>
       <guid>https://noah-edge.com/stories/pmi-20260307-10-beliefs-trade-politics-legal-shifting-poq4.html</guid>
       <enclosure url="https://noah-edge.com/assets/images/pmi-20260307-10-beliefs-trade-politics-l-a427ada4.jpg" type="image/jpeg" />
-    </item>
-    <item>
-      <title>Prediction markets profit from Iran strikes amid concerns over transparency and insider trading</title>
-      <link>https://noah-edge.com/stories/prediction-markets-profit-from-iran-strikes-amid-concerns.html</link>
-      <description>Online prediction exchanges saw a surge in trading and profits linked to Iran-related conflicts, sparking calls for increased transparency and regulatory scrutiny over insider trading and moral con...</description>
-      <pubDate>Fri, 06 Mar 2026 21:21:46 +0000</pubDate>
-      <guid>https://noah-edge.com/stories/prediction-markets-profit-from-iran-strikes-amid-concerns.html</guid>
-      <enclosure url="https://noah-edge.com/assets/images/prediction-markets-profit-from-iran-stri-cd2a864c.jpg" type="image/jpeg" />
-    </item>
-    <item>
-      <title>Nasdaq ventures into binary outcome contracts amid regulatory and market shifts</title>
-      <link>https://noah-edge.com/stories/nasdaq-ventures-into-binary-outcome-contracts-amid.html</link>
-      <description>Nasdaq&#39;s filing to list Outcome Related Options marks a significant step in integrating event-style trading into mainstream financial markets, challenging existing prediction platforms and stirring...</description>
-      <pubDate>Fri, 06 Mar 2026 21:21:45 +0000</pubDate>
-      <guid>https://noah-edge.com/stories/nasdaq-ventures-into-binary-outcome-contracts-amid.html</guid>
-      <enclosure url="https://noah-edge.com/assets/images/nasdaq-ventures-into-binary-outcome-cont-92466c72.jpg" type="image/jpeg" />
     </item>
   </channel>
 </rss>
