@@ -182,23 +182,23 @@ NE-TIP-0180,information_asymmetry,"Manufacturing-macro read-through to semis: al
 NE-TIP-0181,information_asymmetry,Malaysia tariff anxiety plus an OPR hold is a short macro tone - but not a trade without a mapped instrument,-,equity,SHORT,55,,,,,,OPEN,AVOID,,,,,,,HIGH,Semiconductors,AVOID,Fresh 80,2026-03-03 22:57:42,,,
 NE-TIP-0182,information_asymmetry,"A Stratasys channel datapoint that hints at demand - but SYS Systems is private, so stand down",-,equity,LONG,54,,,,,,OPEN,AVOID,,,,,,,HIGH,Semiconductors,AVOID,Fresh 80,2026-03-03 22:57:42,,,
 NE-TIP-0183,information_asymmetry,GaN equipment demand is real; the 'DataHorizzon player list' is noise - express it via SMH,"SMH, SPY",equity,LONG,50,,,,,,OPEN,TRADE,,,,,,,HIGH,Semiconductors,TRADE,Fresh 50,2026-03-03 16:18:25,,,
-NE-NAS-0184,narrative_asset_signal,Unknown,,macro,,,,,,,,OPEN,2026-03-07 22:30 UTC [QZRM] | Bullish | tightening,,,,,,,,,,,2026-03-07 21:26:38,0.0,"_score"": 0",2026-03-07 22:30 UTC [QZRM] | Bullish | tightening
-NE-NAS-0185,narrative_asset_signal,Unknown,,macro,,,,,,,,OPEN,2026-03-07 12:00 UTC [QZKP] | Mixed | rangebound,,,,,,,,,,,2026-03-07 18:09:25,0.0,/contradiction ratios) provided; momentum and reversal risk derived from recency proxies,2026-03-07 12:00 UTC [QZKP] | Mixed | rangebound
-NE-NAS-0186,narrative_asset_signal,Unknown,,macro,,,,,,,,OPEN,2026-03-07 14:00 UTC [KJFT] | Mixed | rangebound,,,,,,,,,,,2026-03-07 18:07:41,0.0,,2026-03-07 14:00 UTC [KJFT] | Mixed | rangebound
-NE-NAS-0187,narrative_asset_signal,Unknown,,macro,,,,,,,,OPEN,2026-03-07 12:00 UTC [QHRZ] | Bullish | tightening,,,,,,,,,,,2026-03-07 18:06:43,0.0,,2026-03-07 12:00 UTC [QHRZ] | Bullish | tightening
-NE-NAS-0188,narrative_asset_signal,Unknown,,macro,,,,,,,,OPEN,2026-03-07 00:00 UTC [QJLP] | Bullish | unstable,,,,,,,,,,,2026-03-07 18:05:19,0.0,,2026-03-07 00:00 UTC [QJLP] | Bullish | unstable
-NE-NAS-0189,narrative_asset_signal,Unknown,,macro,,,,,,,,OPEN,2026-03-07 09:19 UTC [QPMG] | Bullish | unstable,,,,,,,,,,,2026-03-07 18:04:57,0.0,,2026-03-07 09:19 UTC [QPMG] | Bullish | unstable
-NE-NAS-0190,narrative_asset_signal,Unknown,,macro,,,,,,,,OPEN,2026-03-07 00:00 UTC [VZKP] | Bullish | unstable,,,,,,,,,,,2026-03-07 18:04:46,0.0,,2026-03-07 00:00 UTC [VZKP] | Bullish | unstable
-NE-NAS-0191,narrative_asset_signal,Unknown,,macro,,,,,,,,OPEN,2026-03-07 07:44 UTC [KXQJ] | Reversal-Risk | unstable,,,,,,,,,,,2026-03-07 18:03:41,0.0,,2026-03-07 07:44 UTC [KXQJ] | Reversal-Risk | unstable
-NE-NAS-0192,narrative_asset_signal,Unknown,,macro,,,,,,,,OPEN,2026-03-07 17:56 UTC [XQBH] | Bullish | unstable,,,,,,,,,,,2026-03-07 18:02:37,0.0,,2026-03-07 17:56 UTC [XQBH] | Bullish | unstable
-NE-NAS-0193,narrative_asset_signal,Unknown,,macro,,,,,,,,OPEN,2026-03-07 16:05 UTC [GZPR] | Bullish | unstable,,,,,,,,,,,2026-03-07 18:01:20,0.0,,2026-03-07 16:05 UTC [GZPR] | Bullish | unstable
-NE-NAS-0194,narrative_asset_signal,Unknown,,macro,,,,,,,,OPEN,2026-03-07 14:00 UTC [QXRV] | Bullish | tightening,,,,,,,,,,,2026-03-07 17:02:51,0.0,,2026-03-07 14:00 UTC [QXRV] | Bullish | tightening
-NE-NAS-0195,narrative_asset_signal,Unknown,,macro,,,,,,,,OPEN,2026-03-07 16:15 UTC [PVQM] | Bullish | unstable,,,,,,,,,,,2026-03-07 16:37:10,0.0,,2026-03-07 16:15 UTC [PVQM] | Bullish | unstable
-NE-NAS-0196,narrative_asset_signal,Unknown,,macro,,,,,,,,OPEN,,,,,,,,,,,,2026-03-07 16:05:08,0.0,,
-NE-NAS-0197,narrative_asset_signal,crude oil futures (Brent and WTI as primary tradables),,macro,,,,,,,,OPEN,Narrative Pressure Rising,,,,,,,,,,,2026-03-07 12:54:50,74.0,Delta 0,Narrative Pressure Rising
-NE-NAS-0198,narrative_asset_signal,Gold,,macro,,,,,,,,OPEN,Narrative Pressure Rising,,,,,,,,,,,2026-03-07 12:50:50,72.0,(,Narrative Pressure Rising
-NE-NAS-0199,narrative_asset_signal,copper,,macro,,,,,,,,OPEN,Narrative Pressure Rising,,,,,,,,,,,2026-03-07 12:45:06,80.0,Delta 0,Narrative Pressure Rising
-NE-NAS-0200,narrative_asset_signal,Natural Gas,,macro,,,,,,,,OPEN,Narrative Pressure Accelerating,,,,,,,,,,,2026-03-07 12:37:04,0.0,Delta | 15 |,Narrative Pressure Accelerating
-NE-NAS-0201,narrative_asset_signal,silver market,,macro,,,,,,,,OPEN,Narrative Pressure Rising,,,,,,,,,,,2026-03-07 11:54:29,0.0,Delta | 0 |,Narrative Pressure Rising
-NE-NAS-0202,narrative_asset_signal,global wheat markets,,macro,,,,,,,,OPEN,Narrative Pressure Accelerating,,,,,,,,,,,2026-03-07 11:53:40,0.0,Delta | 30 |,Narrative Pressure Accelerating
-NE-NAS-0203,narrative_asset_signal,Coffee,,macro,,,,,,,,OPEN,Narrative Pressure Rising,,,,,,,,,,,2026-03-07 11:48:40,0.0,Delta | 0 |,Narrative Pressure Rising
+NE-NAS-0184,narrative_asset_signal,Unknown,,macro,,,,,,,,OPEN,2026-03-08 00:00 UTC [KJRX] | Bullish | rangebound,,,,,,,,,,,2026-03-08 00:07:21,0.0,"_score"": 0",2026-03-08 00:00 UTC [KJRX] | Bullish | rangebound
+NE-NAS-0185,narrative_asset_signal,Unknown,,macro,,,,,,,,OPEN,2026-03-07 22:30 UTC [QZRM] | Bullish | tightening,,,,,,,,,,,2026-03-07 21:26:38,0.0,"_score"": 0",2026-03-07 22:30 UTC [QZRM] | Bullish | tightening
+NE-NAS-0186,narrative_asset_signal,Unknown,,macro,,,,,,,,OPEN,2026-03-07 12:00 UTC [QZKP] | Mixed | rangebound,,,,,,,,,,,2026-03-07 18:09:25,0.0,/contradiction ratios) provided; momentum and reversal risk derived from recency proxies,2026-03-07 12:00 UTC [QZKP] | Mixed | rangebound
+NE-NAS-0187,narrative_asset_signal,Unknown,,macro,,,,,,,,OPEN,2026-03-07 14:00 UTC [KJFT] | Mixed | rangebound,,,,,,,,,,,2026-03-07 18:07:41,0.0,,2026-03-07 14:00 UTC [KJFT] | Mixed | rangebound
+NE-NAS-0188,narrative_asset_signal,Unknown,,macro,,,,,,,,OPEN,2026-03-07 12:00 UTC [QHRZ] | Bullish | tightening,,,,,,,,,,,2026-03-07 18:06:43,0.0,,2026-03-07 12:00 UTC [QHRZ] | Bullish | tightening
+NE-NAS-0189,narrative_asset_signal,Unknown,,macro,,,,,,,,OPEN,2026-03-07 00:00 UTC [QJLP] | Bullish | unstable,,,,,,,,,,,2026-03-07 18:05:19,0.0,,2026-03-07 00:00 UTC [QJLP] | Bullish | unstable
+NE-NAS-0190,narrative_asset_signal,Unknown,,macro,,,,,,,,OPEN,2026-03-07 09:19 UTC [QPMG] | Bullish | unstable,,,,,,,,,,,2026-03-07 18:04:57,0.0,,2026-03-07 09:19 UTC [QPMG] | Bullish | unstable
+NE-NAS-0191,narrative_asset_signal,Unknown,,macro,,,,,,,,OPEN,2026-03-07 00:00 UTC [VZKP] | Bullish | unstable,,,,,,,,,,,2026-03-07 18:04:46,0.0,,2026-03-07 00:00 UTC [VZKP] | Bullish | unstable
+NE-NAS-0192,narrative_asset_signal,Unknown,,macro,,,,,,,,OPEN,2026-03-07 07:44 UTC [KXQJ] | Reversal-Risk | unstable,,,,,,,,,,,2026-03-07 18:03:41,0.0,,2026-03-07 07:44 UTC [KXQJ] | Reversal-Risk | unstable
+NE-NAS-0193,narrative_asset_signal,Unknown,,macro,,,,,,,,OPEN,2026-03-07 17:56 UTC [XQBH] | Bullish | unstable,,,,,,,,,,,2026-03-07 18:02:37,0.0,,2026-03-07 17:56 UTC [XQBH] | Bullish | unstable
+NE-NAS-0194,narrative_asset_signal,Unknown,,macro,,,,,,,,OPEN,2026-03-07 16:05 UTC [GZPR] | Bullish | unstable,,,,,,,,,,,2026-03-07 18:01:20,0.0,,2026-03-07 16:05 UTC [GZPR] | Bullish | unstable
+NE-NAS-0195,narrative_asset_signal,Unknown,,macro,,,,,,,,OPEN,2026-03-07 14:00 UTC [QXRV] | Bullish | tightening,,,,,,,,,,,2026-03-07 17:02:51,0.0,,2026-03-07 14:00 UTC [QXRV] | Bullish | tightening
+NE-NAS-0196,narrative_asset_signal,Unknown,,macro,,,,,,,,OPEN,2026-03-07 16:15 UTC [PVQM] | Bullish | unstable,,,,,,,,,,,2026-03-07 16:37:10,0.0,,2026-03-07 16:15 UTC [PVQM] | Bullish | unstable
+NE-NAS-0197,narrative_asset_signal,Unknown,,macro,,,,,,,,OPEN,,,,,,,,,,,,2026-03-07 16:05:08,0.0,,
+NE-NAS-0198,narrative_asset_signal,crude oil futures (Brent and WTI as primary tradables),,macro,,,,,,,,OPEN,Narrative Pressure Rising,,,,,,,,,,,2026-03-07 12:54:50,74.0,Delta 0,Narrative Pressure Rising
+NE-NAS-0199,narrative_asset_signal,Gold,,macro,,,,,,,,OPEN,Narrative Pressure Rising,,,,,,,,,,,2026-03-07 12:50:50,72.0,(,Narrative Pressure Rising
+NE-NAS-0200,narrative_asset_signal,copper,,macro,,,,,,,,OPEN,Narrative Pressure Rising,,,,,,,,,,,2026-03-07 12:45:06,80.0,Delta 0,Narrative Pressure Rising
+NE-NAS-0201,narrative_asset_signal,Natural Gas,,macro,,,,,,,,OPEN,Narrative Pressure Accelerating,,,,,,,,,,,2026-03-07 12:37:04,0.0,Delta | 15 |,Narrative Pressure Accelerating
+NE-NAS-0202,narrative_asset_signal,silver market,,macro,,,,,,,,OPEN,Narrative Pressure Rising,,,,,,,,,,,2026-03-07 11:54:29,0.0,Delta | 0 |,Narrative Pressure Rising
+NE-NAS-0203,narrative_asset_signal,global wheat markets,,macro,,,,,,,,OPEN,Narrative Pressure Accelerating,,,,,,,,,,,2026-03-07 11:53:40,0.0,Delta | 30 |,Narrative Pressure Accelerating
