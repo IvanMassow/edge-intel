@@ -5,8 +5,24 @@
     <link>https://noah-edge.com/</link>
     <description>Prediction market intelligence. The Noah Poly Index tracks edges with transparent positions and tracked outcomes.</description>
     <language>en</language>
-    <lastBuildDate>Sun, 08 Mar 2026 03:39:23 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 08 Mar 2026 04:15:24 +0000</lastBuildDate>
     <atom:link href="https://noah-edge.com/rss.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>PMI-20260308 | 12 Beliefs | Trade + Politics + Technology | shifting (ruk5)</title>
+      <link>https://noah-edge.com/stories/pmi-20260308-12-beliefs-trade-politics-technology-shifting.html</link>
+      <description>Summary Corpus: 400 articles across 12 trends | SHORT horizon | 1054h window Beliefs: 12 total | 7 cross-domain | 5 single-domain Domains: trade, politics, technology, finance, consumer, other Post...</description>
+      <pubDate>Sun, 08 Mar 2026 04:14:28 +0000</pubDate>
+      <guid>https://noah-edge.com/stories/pmi-20260308-12-beliefs-trade-politics-technology-shifting.html</guid>
+      <enclosure url="https://noah-edge.com/assets/images/pmi-20260308-12-beliefs-trade-politics-t-39f677e4.jpg" type="image/jpeg" />
+    </item>
+    <item>
+      <title>PMI-20260308 | 13 Beliefs | Politics + Finance + Energy | shifting (zaq3)</title>
+      <link>https://noah-edge.com/stories/pmi-20260308-13-beliefs-politics-finance-energy-shifting.html</link>
+      <description>Summary Corpus: 400 articles across 12 trends | SHORT horizon | 84h window Beliefs: 13 total | 6 cross-domain | 7 single-domain Domains: politics, labour, finance, energy, environment, other Postur...</description>
+      <pubDate>Sun, 08 Mar 2026 04:12:52 +0000</pubDate>
+      <guid>https://noah-edge.com/stories/pmi-20260308-13-beliefs-politics-finance-energy-shifting.html</guid>
+      <enclosure url="https://noah-edge.com/assets/images/pmi-20260308-13-beliefs-politics-finance-a371a2b0.jpg" type="image/jpeg" />
+    </item>
     <item>
       <title>Prediction-market giants seek to double valuations to $20 billion amid booming trade volumes and regulatory headwinds</title>
       <link>https://noah-edge.com/stories/prediction-market-giants-seek-to-double-valuations-to-20.html</link>
@@ -150,22 +166,6 @@
       <pubDate>Sat, 07 Mar 2026 05:12:41 +0000</pubDate>
       <guid>https://noah-edge.com/stories/pmi-20260307-12-beliefs-finance-other-labour-stable-vux1.html</guid>
       <enclosure url="https://noah-edge.com/assets/images/pmi-20260307-12-beliefs-finance-other-la-b98b251f.jpg" type="image/jpeg" />
-    </item>
-    <item>
-      <title>PMI-20260307 | 12 Beliefs | Politics + Finance + Environment | shifting (zop7)</title>
-      <link>https://noah-edge.com/stories/pmi-20260307-12-beliefs-politics-finance-environment.html</link>
-      <description>Summary Corpus: 400 articles across 12 trends | SHORT horizon | 605h window Beliefs: 12 total | 3 cross-domain | 9 single-domain Domains: politics, finance, environment, technology, other Posture: ...</description>
-      <pubDate>Sat, 07 Mar 2026 04:11:00 +0000</pubDate>
-      <guid>https://noah-edge.com/stories/pmi-20260307-12-beliefs-politics-finance-environment.html</guid>
-      <enclosure url="https://noah-edge.com/assets/images/pmi-20260307-12-beliefs-politics-finance-a78387c7.jpg" type="image/jpeg" />
-    </item>
-    <item>
-      <title>PMI-20260307 | 10 Beliefs | Trade + Politics + Legal | shifting (poq4)</title>
-      <link>https://noah-edge.com/stories/pmi-20260307-10-beliefs-trade-politics-legal-shifting-poq4.html</link>
-      <description>Summary Corpus: 400 articles across 12 trends | SHORT horizon | 1065h window Beliefs: 10 total | 7 cross-domain | 3 single-domain Domains: trade, politics, legal, technology, economy, geopolitics, ...</description>
-      <pubDate>Sat, 07 Mar 2026 04:10:04 +0000</pubDate>
-      <guid>https://noah-edge.com/stories/pmi-20260307-10-beliefs-trade-politics-legal-shifting-poq4.html</guid>
-      <enclosure url="https://noah-edge.com/assets/images/pmi-20260307-10-beliefs-trade-politics-l-a427ada4.jpg" type="image/jpeg" />
     </item>
   </channel>
 </rss>
