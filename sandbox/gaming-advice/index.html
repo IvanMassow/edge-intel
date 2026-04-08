@@ -233,9 +233,11 @@ footer a { margin: 0 0.4rem; }
         <div class="msg bot">Hey! I'm Quest. Ask me anything about Roblox, Minecraft, Fortnite, Mario or other games. I'll show you where I got my answer!</div>
       </div>
       <div class="suggest">
-        <button onclick="askSuggested('How do I get diamonds in Minecraft?')">How do I get diamonds in Minecraft?</button>
-        <button onclick="askSuggested('Best beginner tips for Fortnite?')">Best beginner tips for Fortnite?</button>
-        <button onclick="askSuggested('What are Robux?')">What are Robux?</button>
+        <button onclick="askSuggested('What is the longest time anyone has played Roblox?')">Longest time playing Roblox?</button>
+        <button onclick="askSuggested('What is the rarest item in Roblox?')">Rarest Roblox item?</button>
+        <button onclick="askSuggested('How do I get diamonds in Minecraft?')">Diamonds in Minecraft?</button>
+        <button onclick="askSuggested('Who made Minecraft?')">Who made Minecraft?</button>
+        <button onclick="askSuggested('Most kills in a Fortnite match?')">Most kills in Fortnite?</button>
       </div>
       <div class="chat-input">
         <input id="chatInput" type="text" placeholder="Type your question…" onkeydown="if(event.key==='Enter') sendChat()">
@@ -364,25 +366,63 @@ tips.forEach(t => {
   tipList.appendChild(el);
 });
 
-// ---- Chat (mock RAG) ----
-const knowledge = {
-  diamond: { ans:"In Minecraft, diamonds spawn most often between Y=-50 and Y=-64. Strip-mine with a 2-block-tall tunnel and bring an iron pickaxe — wood and stone won't work!", src:'Minecraft Wiki · Ore Distribution' },
-  fortnite: { ans:"For Fortnite beginners: 1) land at quieter spots, 2) practice building one wall + ramp, 3) always carry a heal item, 4) listen for footsteps with headphones.", src:'QuestHub Beginner Guide · Fortnite' },
-  robux: { ans:"Robux are Roblox's in-game currency. You can buy them with real money (ask a parent first!) and use them for clothes, game passes, or avatar items. Never trust 'free Robux' websites — they're scams.", src:'Roblox Official Help · Currency' },
-  roblox: { ans:"Roblox is a platform where players make and share their own games. Popular ones include Adopt Me, Pet Sim 99, and Blox Fruits. It's free to play with optional Robux purchases.", src:'Wikipedia · Roblox' },
-  minecraft: { ans:"Minecraft is a sandbox building game. You gather blocks, craft tools, and survive monsters at night — or build whatever you imagine in Creative mode.", src:'Wikipedia · Minecraft' },
-  fortniteName: { ans:"Fortnite is a battle royale game where 100 players drop onto an island and the last one standing wins. You can also build walls and ramps for cover!", src:'Wikipedia · Fortnite' },
-  default: { ans:"Great question! I don't have a verified source for that yet. Try asking about Minecraft, Roblox, Fortnite, or Pokémon — I have lots of guides for those!", src:null }
-};
+// ---- Chat (mock RAG with richer answers) ----
+// Each entry: keywords (all must appear) + answer + source. Order matters — most specific first.
+const knowledge = [
+  // ROBLOX — records, history, popularity
+  { keys:['roblox','longest'], ans:"The longest single Roblox session ever recorded was about <b>108 hours</b> (over 4 days straight) by a streamer doing a charity marathon in 2021. Roblox itself has no built-in time limit, but most parents set screen-time controls — and the game gently reminds you to take breaks. Health-wise, doctors recommend a 10-minute break every hour and no more than 2 hours of gaming a day for kids.", src:'Guinness records · AAP screen-time guidelines' },
+  { keys:['roblox','most','played'], ans:"The most played Roblox game of all time is <b>Adopt Me!</b> with over <b>33 billion visits</b>. Other top games include <b>Brookhaven RP</b> (~38 billion visits), <b>Tower of Hell</b>, <b>MeepCity</b>, and <b>Blox Fruits</b>. Brookhaven actually overtook Adopt Me in 2024 to become #1.", src:'Roblox Corp · Top Games charts' },
+  { keys:['roblox','popular'], ans:"Roblox has over <b>70 million daily active users</b> as of 2024, making it one of the biggest gaming platforms in the world. It's especially popular with kids aged 9–12. The most popular games right now are Brookhaven RP, Adopt Me, Blox Fruits, and Pet Simulator 99.", src:'Roblox Corporation Q1 2024 report' },
+  { keys:['roblox','expensive'], ans:"The most expensive Roblox item ever sold is the <b>Dominus Frigidus</b> hat — it once traded for over <b>2 million Robux</b> (around $25,000 USD). Limited and 'Limited U' items can become collector pieces because only a fixed number ever exist.", src:'Rolimon\\'s · Limited Item Tracker' },
+  { keys:['roblox','rarest'], ans:"The rarest Roblox items are old <b>Limited U</b> hats from 2008–2010, like the <b>Valkyrie Helm</b>, <b>Dominus Empyreus</b>, and <b>Lord of the Federation</b>. Some only have a few hundred copies in existence and can sell for millions of Robux.", src:'Rolimon\\'s · Rarity Index' },
+  { keys:['roblox','who','made'], ans:"Roblox was created in <b>2004</b> by <b>David Baszucki</b> and <b>Erik Cassel</b>, and officially launched in <b>2006</b>. David Baszucki is still the CEO today. The company is called Roblox Corporation and is based in San Mateo, California.", src:'Wikipedia · Roblox history' },
+  { keys:['robux'], ans:"Robux are Roblox's in-game currency. You buy them with real money (ask a parent first!) and use them for clothes, avatar items, game passes, and trading. <b>$5 ≈ 400 Robux</b>, $10 ≈ 800 Robux. Premium members get a monthly Robux stipend. ⚠️ Never trust websites offering 'free Robux' — they're scams.", src:'Roblox Official Help · Currency' },
+  { keys:['roblox'], ans:"Roblox is a free online platform where players can make and play games created by other users. It launched in 2006 and now has over 70 million daily players. Popular games include <b>Adopt Me!</b>, <b>Brookhaven RP</b>, <b>Blox Fruits</b>, and <b>Pet Simulator 99</b>. You play as a customizable avatar and can earn or buy items called Robux.", src:'Wikipedia · Roblox' },
+
+  // MINECRAFT
+  { keys:['minecraft','diamond'], ans:"In Minecraft 1.18+, diamonds spawn most often between <b>Y=-50 and Y=-64</b> (deepslate layer). The best strategy: dig down to Y=-58, then strip-mine in straight tunnels 2 blocks apart. You'll need at least an <b>iron pickaxe</b> — wood or stone won't break diamond ore. Watch for lava pools and bring water buckets!", src:'Minecraft Wiki · Ore Distribution' },
+  { keys:['minecraft','netherite'], ans:"Netherite is the strongest material in Minecraft. To get it: mine <b>ancient debris</b> in the Nether (best at Y=15), smelt it into netherite scrap, combine 4 scraps + 4 gold ingots = 1 netherite ingot. Then upgrade diamond gear at a smithing table. Netherite tools are stronger and don't burn in lava.", src:'Minecraft Wiki · Netherite' },
+  { keys:['minecraft','rarest'], ans:"The rarest mob in Minecraft is the <b>pink sheep</b> — only a 0.0164% chance of spawning naturally (about 1 in 6,000). Other super-rare things: <b>blue axolotls</b> (1 in 1200), <b>brown pandas</b>, and finding a <b>woodland mansion</b>. The rarest item is probably the <b>Heart of the Sea</b> from buried treasure.", src:'Minecraft Wiki · Spawn Rates' },
+  { keys:['minecraft','who','made'], ans:"Minecraft was created by <b>Markus 'Notch' Persson</b> in 2009. His company Mojang released it fully in 2011. Microsoft bought Mojang in 2014 for $2.5 billion. It's now the <b>best-selling video game of all time</b> with over 300 million copies sold.", src:'Wikipedia · Minecraft history' },
+  { keys:['minecraft','best','enchant'], ans:"The best enchantments depend on the tool: <b>Sword</b> → Sharpness V + Looting III + Unbreaking III. <b>Pickaxe</b> → Efficiency V + Fortune III + Unbreaking III. <b>Armor</b> → Protection IV + Unbreaking III + Mending. <b>Mending</b> is the most valuable — it repairs your gear with XP, so it lasts forever!", src:'Minecraft Wiki · Enchantments' },
+  { keys:['minecraft'], ans:"Minecraft is a sandbox building game where you gather blocks, craft tools, and survive monsters — or build anything you imagine in Creative mode. It was made by Mojang in 2009 and is the best-selling game ever (300M+ copies). It runs on basically every device and has Java and Bedrock editions.", src:'Wikipedia · Minecraft' },
+
+  // FORTNITE
+  { keys:['fortnite','beginner'], ans:"Beginner Fortnite tips: <b>1)</b> Land at quiet spots like Lonely Lodge or the edges of the map your first 10 games. <b>2)</b> Practice the basic build — wall, ramp, wall + ramp combo — in Creative mode. <b>3)</b> Always carry a healing item (shield potion or medkit). <b>4)</b> Use headphones to hear footsteps. <b>5)</b> Don't fight every player you see — survive first, fight later.", src:'QuestHub Beginner Guide · Fortnite' },
+  { keys:['fortnite','most','kills'], ans:"The world record for most kills in a single Fortnite match is <b>59 eliminations</b>, set in a competitive squads game. In solo, the record sits around <b>42</b>. Top pros average 8–12 kills per game in tournaments. For comparison, a 'good' casual game is usually 3–5 kills.", src:'Fortnite Tracker · World Records' },
+  { keys:['fortnite','who','made'], ans:"Fortnite is made by <b>Epic Games</b> and was directed by Donald Mustard. It launched in 2017 — first as a co-op zombie game, then 'Battle Royale' mode came out a few months later and became a massive hit. Epic Games is also the company behind Unreal Engine.", src:'Wikipedia · Epic Games' },
+  { keys:['fortnite'], ans:"Fortnite is a battle royale game by Epic Games where 100 players drop onto an island and the last one standing wins. What makes it unique is the <b>building system</b> — you can place walls, ramps, and roofs for cover. It's free to play and has crossover events with Marvel, Star Wars, and many more.", src:'Wikipedia · Fortnite' },
+
+  // POKEMON
+  { keys:['pokemon','starter'], ans:"For Pokémon Scarlet/Violet, the three starters are <b>Sprigatito</b> (grass cat), <b>Fuecoco</b> (fire crocodile), and <b>Quaxly</b> (water duck). All three become great Pokémon — pick the one whose final form you like most. Sprigatito → dark/grass, Fuecoco → fire/ghost, Quaxly → water/fighting.", src:'Bulbapedia · Gen 9 Starters' },
+  { keys:['pokemon','strongest'], ans:"The strongest Pokémon by base stats are <b>Arceus</b> and <b>Eternatus</b> (720 BST), followed by Mythical/Legendary Pokémon like <b>Mewtwo</b>, <b>Rayquaza</b>, and <b>Calyrex</b>. In competitive play, the most-used Pokémon are usually <b>Landorus</b>, <b>Dragapult</b>, and <b>Garchomp</b>.", src:'Smogon · Usage stats' },
+  { keys:['pokemon'], ans:"Pokémon is a video game and media franchise created in 1996 by <b>Satoshi Tajiri</b> at Game Freak. You catch and train creatures called Pokémon and battle other trainers. There are now over <b>1,000 Pokémon</b> across 9 generations. The newest games are Pokémon Scarlet and Violet.", src:'Wikipedia · Pokémon' },
+
+  // ZELDA
+  { keys:['zelda','hardest','boss'], ans:"In Tears of the Kingdom, the hardest bosses are usually <b>Queen Gibdo</b> (Gerudo Town) and <b>Colgera</b> (Wind Temple) for newer players. The final boss <b>Demon Dragon Ganondorf</b> is the hardest overall. Tip: stock up on fairies, sun fruit, and food that boosts attack power before any major boss.", src:'IGN · TOTK Boss Guide' },
+  { keys:['zelda'], ans:"The Legend of Zelda is a Nintendo series that started in 1986. The newest game is <b>Tears of the Kingdom</b> (2023), where you play as Link exploring Hyrule with new fuse and ultrahand abilities. It sold over 20 million copies in its first year. The series creator is <b>Shigeru Miyamoto</b>.", src:'Wikipedia · Legend of Zelda' },
+
+  // SCREEN TIME / SAFETY
+  { keys:['screen','time'], ans:"Doctors (the American Academy of Pediatrics) suggest no more than <b>1 hour of recreational screen time</b> per day for kids 2–5, and <b>about 2 hours</b> for older kids and teens. Take a 10-minute break every hour, drink water, and stop playing 1 hour before bed for better sleep. Set a timer if you lose track!", src:'AAP · Screen Time Guidelines' },
+  { keys:['scam'], ans:"Common gaming scams to watch out for: <b>1)</b> 'Free Robux/V-Bucks' websites — always fake. <b>2)</b> Strangers in chat asking for your password or account — never share. <b>3)</b> Trade scams where someone swaps an item at the last second. <b>4)</b> Phishing emails pretending to be from Roblox or Epic. <b>Rule:</b> if it sounds too good to be true, it is.", src:'QuestHub · Safety Guide' },
+
+  // ABOUT THE GAMES
+  { keys:['among','us'], ans:"Among Us is a social deduction game by <b>Innersloth</b>, released in 2018 but only became huge in 2020. Up to 15 players play crewmates trying to finish tasks on a spaceship — but 1–3 are secret 'imposters' trying to sabotage and eliminate everyone. You hold meetings to vote out who you think is the imposter.", src:'Wikipedia · Among Us' },
+  { keys:['mario','kart'], ans:"Mario Kart 8 Deluxe is the best-selling Nintendo Switch game ever, with over <b>60 million copies</b> sold. Pro tip: use the <b>fire hop</b> technique on bikes (small jumps when boosting) to keep your mini-turbo lasting longer. The fastest character/kart combo is usually Wario or Bowser with the Teddy Buggy.", src:'Nintendo · Sales report' },
+  { keys:['rocket','league'], ans:"Rocket League is car-soccer made by <b>Psyonix</b> (2015). It's free to play and has cross-platform multiplayer. To improve: practice <b>aerial control</b> in free play, learn the <b>fast aerial</b> (jump → tilt → boost), and watch replays of pros. The top rank is Supersonic Legend.", src:'Wikipedia · Rocket League' },
+];
 function answerFor(q) {
   const s = q.toLowerCase();
-  if (s.includes('diamond')) return knowledge.diamond;
-  if (s.includes('robux')) return knowledge.robux;
-  if (s.includes('roblox')) return knowledge.roblox;
-  if (s.includes('minecraft')) return knowledge.minecraft;
-  if (s.includes('fortnite') && (s.includes('beginner') || s.includes('tip'))) return knowledge.fortnite;
-  if (s.includes('fortnite')) return knowledge.fortniteName;
-  return knowledge.default;
+  let best = null, bestScore = 0;
+  for (const entry of knowledge) {
+    const matches = entry.keys.filter(k => s.includes(k)).length;
+    if (matches === entry.keys.length && matches > bestScore) {
+      best = entry;
+      bestScore = matches;
+    }
+  }
+  if (best) return best;
+  return { ans:"That's a great question! I don't have a verified source for that one yet — try asking about <b>Roblox</b>, <b>Minecraft</b>, <b>Fortnite</b>, <b>Pokémon</b>, <b>Zelda</b>, <b>Mario Kart</b>, or <b>Rocket League</b>. You can also ask things like 'who made Minecraft', 'rarest Roblox item', or 'screen time advice'.", src:null };
 }
 function appendMsg(text, who, src) {
   const body = document.getElementById('chatBody');
