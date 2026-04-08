@@ -1,0 +1,413 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>QuestHub — Gaming Tips, Guides & AI Helper for Kids and Teens</title>
+<meta name="description" content="QuestHub is a kid-safe gaming knowledge hub. Browse tips, guides, and ask the AI helper about Roblox, Fortnite, Minecraft and more.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@400;500;600;700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+:root {
+  --bg: #0f1226;
+  --bg-soft: #181c3a;
+  --panel: #1e2347;
+  --panel-2: #262c55;
+  --ink: #f5f7ff;
+  --muted: #a9b1d6;
+  --line: #2d3460;
+  --accent: #7c5cff;
+  --accent-2: #4cc9f0;
+  --pink: #ff6ec7;
+  --green: #3ddc97;
+  --amber: #ffc857;
+  --red: #ff5d73;
+  --max: 1200px;
+}
+* { margin: 0; padding: 0; box-sizing: border-box; }
+html, body { background: var(--bg); color: var(--ink); font-family: 'Inter', system-ui, sans-serif; line-height: 1.55; -webkit-font-smoothing: antialiased; }
+body {
+  background:
+    radial-gradient(1000px 600px at 10% -10%, rgba(124,92,255,0.25), transparent 60%),
+    radial-gradient(800px 500px at 90% 10%, rgba(76,201,240,0.18), transparent 60%),
+    var(--bg);
+  min-height: 100vh;
+}
+a { color: var(--accent-2); text-decoration: none; }
+a:hover { color: var(--pink); }
+h1, h2, h3, h4 { font-family: 'Fredoka', 'Inter', sans-serif; font-weight: 600; line-height: 1.2; }
+img { display: block; max-width: 100%; }
+
+/* Header */
+.topbar { border-bottom: 1px solid var(--line); background: rgba(15,18,38,0.85); backdrop-filter: blur(8px); position: sticky; top: 0; z-index: 100; }
+.topbar-inner { max-width: var(--max); margin: 0 auto; padding: 0.85rem 1.25rem; display: flex; align-items: center; gap: 1.25rem; }
+.logo { display: flex; align-items: center; gap: 0.6rem; font-family: 'Fredoka', sans-serif; font-weight: 700; font-size: 1.4rem; }
+.logo-mark { width: 36px; height: 36px; border-radius: 10px; background: linear-gradient(135deg, var(--accent), var(--pink)); display: grid; place-items: center; font-size: 1.1rem; box-shadow: 0 6px 20px rgba(124,92,255,0.45); }
+.logo-name span { color: var(--accent-2); }
+.nav { display: flex; gap: 0.4rem; margin-left: auto; flex-wrap: wrap; }
+.nav a { padding: 0.45rem 0.9rem; border-radius: 999px; color: var(--muted); font-size: 0.92rem; font-weight: 500; transition: all 0.2s; }
+.nav a:hover, .nav a.active { background: var(--panel); color: var(--ink); }
+.kid-badge { display: inline-flex; align-items: center; gap: 0.35rem; background: rgba(61,220,151,0.15); color: var(--green); border: 1px solid rgba(61,220,151,0.35); padding: 0.3rem 0.7rem; border-radius: 999px; font-size: 0.78rem; font-weight: 600; }
+
+/* Hero */
+.hero { max-width: var(--max); margin: 2.5rem auto 1.5rem; padding: 0 1.25rem; }
+.hero-grid { display: grid; grid-template-columns: 1.3fr 1fr; gap: 2rem; align-items: center; }
+.hero h1 { font-size: clamp(2rem, 4.5vw, 3.4rem); margin-bottom: 0.8rem; }
+.hero h1 .grad { background: linear-gradient(135deg, var(--accent-2), var(--pink)); -webkit-background-clip: text; background-clip: text; color: transparent; }
+.hero p.lede { color: var(--muted); font-size: 1.1rem; max-width: 56ch; margin-bottom: 1.5rem; }
+.hero-cta { display: flex; gap: 0.75rem; flex-wrap: wrap; }
+.btn { display: inline-flex; align-items: center; gap: 0.5rem; padding: 0.8rem 1.3rem; border-radius: 12px; font-weight: 600; font-size: 0.95rem; border: 0; cursor: pointer; transition: transform 0.15s, box-shadow 0.15s; }
+.btn-primary { background: linear-gradient(135deg, var(--accent), var(--pink)); color: white; box-shadow: 0 8px 24px rgba(124,92,255,0.4); }
+.btn-primary:hover { transform: translateY(-2px); box-shadow: 0 12px 32px rgba(124,92,255,0.55); color: white; }
+.btn-ghost { background: var(--panel); color: var(--ink); border: 1px solid var(--line); }
+.btn-ghost:hover { background: var(--panel-2); color: var(--ink); }
+
+.hero-card {
+  background: linear-gradient(160deg, var(--panel), var(--panel-2));
+  border: 1px solid var(--line);
+  border-radius: 18px;
+  padding: 1.4rem;
+  box-shadow: 0 24px 60px rgba(0,0,0,0.35);
+}
+.hero-card h3 { font-size: 1.05rem; margin-bottom: 0.8rem; display: flex; align-items: center; gap: 0.5rem; }
+.dot-live { width: 8px; height: 8px; border-radius: 50%; background: var(--green); box-shadow: 0 0 0 4px rgba(61,220,151,0.18); animation: pulse 1.6s ease-in-out infinite; }
+@keyframes pulse { 0%,100% { opacity: 1; } 50% { opacity: 0.5; } }
+.fact-list { list-style: none; display: flex; flex-direction: column; gap: 0.6rem; }
+.fact-list li { background: rgba(255,255,255,0.04); padding: 0.7rem 0.85rem; border-radius: 10px; font-size: 0.88rem; color: var(--muted); border-left: 3px solid var(--accent-2); }
+.fact-list li b { color: var(--ink); font-weight: 600; }
+
+/* Section shells */
+section.block { max-width: var(--max); margin: 3.5rem auto; padding: 0 1.25rem; }
+.block-head { display: flex; align-items: end; justify-content: space-between; margin-bottom: 1.3rem; gap: 1rem; flex-wrap: wrap; }
+.block-head h2 { font-size: 1.7rem; }
+.block-head p { color: var(--muted); font-size: 0.95rem; max-width: 56ch; }
+.eyebrow { color: var(--accent-2); font-size: 0.78rem; letter-spacing: 0.16em; text-transform: uppercase; font-weight: 700; margin-bottom: 0.4rem; }
+
+/* Game grid */
+.game-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(220px, 1fr)); gap: 1rem; }
+.game-card { background: var(--panel); border: 1px solid var(--line); border-radius: 14px; padding: 1rem; cursor: pointer; transition: transform 0.18s, border-color 0.18s, box-shadow 0.18s; }
+.game-card:hover { transform: translateY(-3px); border-color: var(--accent); box-shadow: 0 14px 30px rgba(124,92,255,0.25); }
+.game-thumb { width: 100%; aspect-ratio: 16/10; border-radius: 10px; display: grid; place-items: center; font-family: 'Fredoka', sans-serif; font-size: 1.4rem; font-weight: 700; color: white; margin-bottom: 0.75rem; }
+.gt-roblox { background: linear-gradient(135deg, #ff5d73, #ff8a4c); }
+.gt-fortnite { background: linear-gradient(135deg, #4cc9f0, #7c5cff); }
+.gt-minecraft { background: linear-gradient(135deg, #3ddc97, #2d6a4f); }
+.gt-among { background: linear-gradient(135deg, #ffc857, #ff5d73); }
+.gt-mario { background: linear-gradient(135deg, #ff5d73, #ffc857); }
+.gt-zelda { background: linear-gradient(135deg, #3ddc97, #4cc9f0); }
+.gt-pokemon { background: linear-gradient(135deg, #ffc857, #4cc9f0); }
+.gt-rocket { background: linear-gradient(135deg, #4cc9f0, #ff6ec7); }
+.game-card h4 { font-size: 1.05rem; margin-bottom: 0.25rem; }
+.game-meta { color: var(--muted); font-size: 0.8rem; display: flex; gap: 0.5rem; flex-wrap: wrap; align-items: center; }
+.tag { display: inline-block; background: rgba(124,92,255,0.18); color: #cbb9ff; padding: 0.15rem 0.55rem; border-radius: 999px; font-size: 0.72rem; font-weight: 600; }
+.tag.green { background: rgba(61,220,151,0.18); color: var(--green); }
+.tag.amber { background: rgba(255,200,87,0.18); color: var(--amber); }
+
+/* Two-col layout */
+.two-col { display: grid; grid-template-columns: 1.4fr 1fr; gap: 1.5rem; }
+
+/* Chat */
+.chat-card { background: var(--panel); border: 1px solid var(--line); border-radius: 18px; overflow: hidden; display: flex; flex-direction: column; min-height: 540px; }
+.chat-head { padding: 1rem 1.2rem; border-bottom: 1px solid var(--line); display: flex; align-items: center; gap: 0.75rem; background: var(--panel-2); }
+.chat-avatar { width: 38px; height: 38px; border-radius: 12px; background: linear-gradient(135deg, var(--accent-2), var(--accent)); display: grid; place-items: center; font-size: 1.1rem; }
+.chat-head h4 { font-size: 1rem; }
+.chat-head .sub { color: var(--muted); font-size: 0.78rem; }
+.chat-body { flex: 1; padding: 1rem 1.2rem; display: flex; flex-direction: column; gap: 0.85rem; overflow-y: auto; max-height: 420px; }
+.msg { max-width: 82%; padding: 0.7rem 0.95rem; border-radius: 14px; font-size: 0.92rem; }
+.msg.bot { background: rgba(76,201,240,0.12); border: 1px solid rgba(76,201,240,0.25); align-self: flex-start; border-bottom-left-radius: 4px; }
+.msg.user { background: linear-gradient(135deg, var(--accent), var(--pink)); color: white; align-self: flex-end; border-bottom-right-radius: 4px; }
+.msg.bot .src { display: block; margin-top: 0.5rem; font-size: 0.72rem; color: var(--muted); }
+.chat-input { border-top: 1px solid var(--line); padding: 0.85rem 1rem; display: flex; gap: 0.6rem; background: var(--panel-2); }
+.chat-input input { flex: 1; background: var(--bg-soft); border: 1px solid var(--line); color: var(--ink); padding: 0.75rem 1rem; border-radius: 10px; font-size: 0.95rem; font-family: inherit; outline: none; }
+.chat-input input:focus { border-color: var(--accent); }
+.chat-input button { background: linear-gradient(135deg, var(--accent), var(--pink)); border: 0; color: white; padding: 0 1.2rem; border-radius: 10px; font-weight: 600; cursor: pointer; }
+.suggest { padding: 0 1.2rem 1rem; display: flex; gap: 0.4rem; flex-wrap: wrap; }
+.suggest button { background: var(--bg-soft); border: 1px solid var(--line); color: var(--muted); font-size: 0.78rem; padding: 0.4rem 0.75rem; border-radius: 999px; cursor: pointer; font-family: inherit; }
+.suggest button:hover { border-color: var(--accent); color: var(--ink); }
+
+/* Tip / wiki list */
+.tip-list { display: flex; flex-direction: column; gap: 0.85rem; }
+.tip-item { background: var(--panel); border: 1px solid var(--line); border-radius: 14px; padding: 1rem 1.1rem; transition: border-color 0.18s; }
+.tip-item:hover { border-color: var(--accent); }
+.tip-item h4 { font-size: 1rem; margin-bottom: 0.3rem; display: flex; align-items: center; gap: 0.5rem; }
+.tip-item p { color: var(--muted); font-size: 0.86rem; margin-bottom: 0.6rem; }
+.tip-meta { display: flex; gap: 0.6rem; align-items: center; font-size: 0.78rem; color: var(--muted); flex-wrap: wrap; }
+.upvote { display: inline-flex; align-items: center; gap: 0.3rem; color: var(--green); font-weight: 600; }
+.verified { display: inline-flex; align-items: center; gap: 0.25rem; color: var(--accent-2); font-weight: 600; }
+
+/* Architecture */
+.arch-card { background: var(--panel); border: 1px solid var(--line); border-radius: 16px; padding: 1.2rem; }
+.arch-card h4 { font-size: 0.95rem; margin-bottom: 0.5rem; color: var(--accent-2); }
+.arch-card p { color: var(--muted); font-size: 0.85rem; }
+.arch-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 1rem; }
+.arch-step { display: flex; align-items: start; gap: 0.85rem; }
+.arch-num { flex-shrink: 0; width: 30px; height: 30px; border-radius: 8px; background: linear-gradient(135deg, var(--accent), var(--pink)); display: grid; place-items: center; font-weight: 700; font-size: 0.85rem; }
+
+/* Safety */
+.safety { background: linear-gradient(160deg, rgba(61,220,151,0.1), rgba(76,201,240,0.05)); border: 1px solid rgba(61,220,151,0.3); border-radius: 16px; padding: 1.5rem; }
+.safety h3 { color: var(--green); margin-bottom: 0.6rem; display: flex; align-items: center; gap: 0.5rem; }
+.safety ul { color: var(--muted); list-style: none; display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 0.6rem; margin-top: 0.8rem; font-size: 0.88rem; }
+.safety li::before { content: "✓ "; color: var(--green); font-weight: 700; }
+
+/* Footer */
+footer { border-top: 1px solid var(--line); margin-top: 4rem; padding: 2rem 1.25rem; text-align: center; color: var(--muted); font-size: 0.85rem; }
+footer a { margin: 0 0.4rem; }
+
+@media (max-width: 880px) {
+  .hero-grid, .two-col { grid-template-columns: 1fr; }
+  .nav { display: none; }
+}
+</style>
+</head>
+<body>
+
+<header class="topbar">
+  <div class="topbar-inner">
+    <a href="#" class="logo">
+      <span class="logo-mark">QH</span>
+      <span class="logo-name">Quest<span>Hub</span></span>
+    </a>
+    <nav class="nav">
+      <a href="#games" class="active">Games</a>
+      <a href="#chat">Ask AI</a>
+      <a href="#tips">Tips & Guides</a>
+      <a href="#architecture">How it Works</a>
+      <a href="#safety">Safety</a>
+    </nav>
+    <span class="kid-badge">★ Kid-Safe</span>
+  </div>
+</header>
+
+<section class="hero">
+  <div class="hero-grid">
+    <div>
+      <p class="eyebrow">Gaming knowledge hub</p>
+      <h1>Tips, guides &amp; an <span class="grad">AI helper</span> for the games you love.</h1>
+      <p class="lede">QuestHub is a friendly, kid-safe place where players share tips and an AI assistant answers your questions about Roblox, Fortnite, Minecraft and more — using verified guides and trusted sources.</p>
+      <div class="hero-cta">
+        <button class="btn btn-primary" onclick="document.getElementById('chat').scrollIntoView({behavior:'smooth'})">Ask the AI Helper →</button>
+        <button class="btn btn-ghost" onclick="document.getElementById('games').scrollIntoView({behavior:'smooth'})">Browse Games</button>
+      </div>
+    </div>
+    <aside class="hero-card">
+      <h3><span class="dot-live"></span> Trending right now</h3>
+      <ul class="fact-list">
+        <li><b>Minecraft 1.21 update</b> — new copper golems and crafter blocks are live.</li>
+        <li><b>Roblox</b> — Pet Simulator 99 just released a new event area.</li>
+        <li><b>Fortnite</b> — Chapter 5 finale is coming next weekend.</li>
+        <li><b>Rocket League</b> — best beginner controls for car aerial tricks.</li>
+      </ul>
+    </aside>
+  </div>
+</section>
+
+<section class="block" id="games">
+  <div class="block-head">
+    <div>
+      <p class="eyebrow">Game database</p>
+      <h2>Pick a game to explore</h2>
+    </div>
+    <p>Each game has verified facts, beginner guides, and tips from the community — all moderated to stay age-appropriate.</p>
+  </div>
+  <div class="game-grid" id="gameGrid"></div>
+</section>
+
+<section class="block" id="chat">
+  <div class="block-head">
+    <div>
+      <p class="eyebrow">AI helper</p>
+      <h2>Ask anything about your favorite games</h2>
+    </div>
+    <p>Powered by retrieval-augmented generation: the AI looks up trusted guides before answering, and it cites where each fact came from.</p>
+  </div>
+  <div class="two-col">
+    <div class="chat-card">
+      <div class="chat-head">
+        <div class="chat-avatar">🎮</div>
+        <div>
+          <h4>Quest — your gaming buddy</h4>
+          <div class="sub">Online • Kid-safe mode on</div>
+        </div>
+      </div>
+      <div class="chat-body" id="chatBody">
+        <div class="msg bot">Hey! I'm Quest. Ask me anything about Roblox, Minecraft, Fortnite, Mario or other games. I'll show you where I got my answer!</div>
+      </div>
+      <div class="suggest">
+        <button onclick="askSuggested('How do I get diamonds in Minecraft?')">How do I get diamonds in Minecraft?</button>
+        <button onclick="askSuggested('Best beginner tips for Fortnite?')">Best beginner tips for Fortnite?</button>
+        <button onclick="askSuggested('What are Robux?')">What are Robux?</button>
+      </div>
+      <div class="chat-input">
+        <input id="chatInput" type="text" placeholder="Type your question…" onkeydown="if(event.key==='Enter') sendChat()">
+        <button onclick="sendChat()">Send</button>
+      </div>
+    </div>
+
+    <div>
+      <div class="arch-card" style="margin-bottom: 1rem;">
+        <h4>How the AI answers</h4>
+        <p style="margin-bottom: 0.9rem;">Every reply follows this safe RAG pipeline:</p>
+        <div style="display: flex; flex-direction: column; gap: 0.7rem;">
+          <div class="arch-step"><div class="arch-num">1</div><div><b>Embed</b> your question into a search vector.</div></div>
+          <div class="arch-step"><div class="arch-num">2</div><div><b>Retrieve</b> the top guides from the knowledge base.</div></div>
+          <div class="arch-step"><div class="arch-num">3</div><div><b>Moderate</b> sources and answer for kid-safe content.</div></div>
+          <div class="arch-step"><div class="arch-num">4</div><div><b>Reply</b> with citations so you can read more.</div></div>
+        </div>
+      </div>
+      <div class="arch-card">
+        <h4>What it won't do</h4>
+        <p>No scams, no inappropriate content, no personal info collection. If Quest is unsure, it'll say "I'm not sure" instead of guessing.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="block" id="tips">
+  <div class="block-head">
+    <div>
+      <p class="eyebrow">Community tips</p>
+      <h2>Top guides this week</h2>
+    </div>
+    <p>Reddit-style upvotes, Wikipedia-style structure. Every tip is reviewed by a moderator before appearing here.</p>
+  </div>
+  <div class="tip-list" id="tipList"></div>
+</section>
+
+<section class="block" id="architecture">
+  <div class="block-head">
+    <div>
+      <p class="eyebrow">Under the hood</p>
+      <h2>How QuestHub is built</h2>
+    </div>
+    <p>A modern hybrid stack: structured database + vector search + AI, fed by safe APIs instead of bulk scraping.</p>
+  </div>
+  <div class="arch-grid">
+    <div class="arch-card"><h4>Frontend</h4><p>Next.js / React, mobile-first, accessible, no tracking.</p></div>
+    <div class="arch-card"><h4>API Layer</h4><p>FastAPI (Python) with auth, content, chat, and moderation services.</p></div>
+    <div class="arch-card"><h4>PostgreSQL</h4><p>Curated games, facts, guides, tags, users — the source of truth.</p></div>
+    <div class="arch-card"><h4>Vector DB</h4><p>Pinecone / Weaviate stores embeddings for fast semantic search.</p></div>
+    <div class="arch-card"><h4>Redis Cache</h4><p>Trending questions, rate limiting, session state.</p></div>
+    <div class="arch-card"><h4>RAG Chat</h4><p>Embed → retrieve → moderate → answer with Claude or GPT.</p></div>
+    <div class="arch-card"><h4>Ingestion</h4><p>Wikipedia + Reddit APIs, scheduled jobs, no bulk scraping.</p></div>
+    <div class="arch-card"><h4>Moderation</h4><p>OpenAI moderation API + keyword filters, kid-safe by default.</p></div>
+  </div>
+</section>
+
+<section class="block" id="safety">
+  <div class="safety">
+    <h3>★ Built for kids and teens</h3>
+    <p style="color: var(--muted);">Safety isn't a checkbox — it's part of every layer. Here's what we do:</p>
+    <ul>
+      <li>All content moderated before publishing</li>
+      <li>AI replies filtered for unsafe language</li>
+      <li>No personal info collected from kids</li>
+      <li>No links to scams or shady tools</li>
+      <li>Easy "Report this" button on every page</li>
+      <li>Sources cited so you can verify facts</li>
+    </ul>
+  </div>
+</section>
+
+<footer>
+  <div>QuestHub · A friendly gaming knowledge hub · Built with safety first</div>
+  <div style="margin-top: 0.6rem;"><a href="#games">Games</a>·<a href="#chat">Ask AI</a>·<a href="#tips">Tips</a>·<a href="#safety">Safety</a></div>
+</footer>
+
+<script>
+// ---- Game data ----
+const games = [
+  { id:'roblox', name:'Roblox', cls:'gt-roblox', label:'RBLX', genre:'Sandbox', age:'7+', tag:'Most popular' },
+  { id:'fortnite', name:'Fortnite', cls:'gt-fortnite', label:'FN', genre:'Battle Royale', age:'12+', tag:'Trending' },
+  { id:'minecraft', name:'Minecraft', cls:'gt-minecraft', label:'MC', genre:'Sandbox', age:'7+', tag:'Classic' },
+  { id:'among-us', name:'Among Us', cls:'gt-among', label:'AU', genre:'Social', age:'9+', tag:'Party' },
+  { id:'mario', name:'Mario Kart', cls:'gt-mario', label:'MK', genre:'Racing', age:'3+', tag:'Family' },
+  { id:'zelda', name:'Zelda: TOTK', cls:'gt-zelda', label:'TOTK', genre:'Adventure', age:'10+', tag:'Adventure' },
+  { id:'pokemon', name:'Pokémon SV', cls:'gt-pokemon', label:'PKMN', genre:'RPG', age:'7+', tag:'RPG' },
+  { id:'rocket', name:'Rocket League', cls:'gt-rocket', label:'RL', genre:'Sports', age:'9+', tag:'Sports' },
+];
+const grid = document.getElementById('gameGrid');
+games.forEach(g => {
+  const card = document.createElement('div');
+  card.className = 'game-card';
+  card.innerHTML = `
+    <div class="game-thumb ${g.cls}">${g.label}</div>
+    <h4>${g.name}</h4>
+    <div class="game-meta">
+      <span class="tag">${g.genre}</span>
+      <span class="tag green">Age ${g.age}</span>
+      <span class="tag amber">${g.tag}</span>
+    </div>`;
+  card.onclick = () => askSuggested(`Tell me about ${g.name}`);
+  grid.appendChild(card);
+});
+
+// ---- Tips ----
+const tips = [
+  { game:'Minecraft', title:'How to find diamonds fast', body:'Diamonds spawn most often between Y=-50 and Y=-64. Strip-mine with a branch pattern and watch out for lava!', votes:1284 },
+  { game:'Roblox', title:'Beginner trading safety', body:'Never accept "free Robux" offers. Always trade through the official Roblox trade window — and ask a parent first.', votes:982 },
+  { game:'Fortnite', title:'Land smart, win more', body:'Pick a quieter named location your first 5 games. Build muscle memory before fighting players.', votes:761 },
+  { game:'Minecraft', title:'Best villager trades for emeralds', body:'Librarians offering Mending books are gold. Lock in the trade by placing a lectern.', votes:642 },
+  { game:'Zelda: TOTK', title:'Easy fuse combos for early game', body:'Stick + Boko Horn = 2x damage. Spear + Rock Octorok = great range. Experiment!', votes:512 },
+];
+const tipList = document.getElementById('tipList');
+tips.forEach(t => {
+  const el = document.createElement('div');
+  el.className = 'tip-item';
+  el.innerHTML = `
+    <h4>${t.title} <span class="tag">${t.game}</span></h4>
+    <p>${t.body}</p>
+    <div class="tip-meta">
+      <span class="upvote">▲ ${t.votes.toLocaleString()}</span>
+      <span class="verified">✓ Moderator verified</span>
+      <span>· Source: official wiki</span>
+    </div>`;
+  tipList.appendChild(el);
+});
+
+// ---- Chat (mock RAG) ----
+const knowledge = {
+  diamond: { ans:"In Minecraft, diamonds spawn most often between Y=-50 and Y=-64. Strip-mine with a 2-block-tall tunnel and bring an iron pickaxe — wood and stone won't work!", src:'Minecraft Wiki · Ore Distribution' },
+  fortnite: { ans:"For Fortnite beginners: 1) land at quieter spots, 2) practice building one wall + ramp, 3) always carry a heal item, 4) listen for footsteps with headphones.", src:'QuestHub Beginner Guide · Fortnite' },
+  robux: { ans:"Robux are Roblox's in-game currency. You can buy them with real money (ask a parent first!) and use them for clothes, game passes, or avatar items. Never trust 'free Robux' websites — they're scams.", src:'Roblox Official Help · Currency' },
+  roblox: { ans:"Roblox is a platform where players make and share their own games. Popular ones include Adopt Me, Pet Sim 99, and Blox Fruits. It's free to play with optional Robux purchases.", src:'Wikipedia · Roblox' },
+  minecraft: { ans:"Minecraft is a sandbox building game. You gather blocks, craft tools, and survive monsters at night — or build whatever you imagine in Creative mode.", src:'Wikipedia · Minecraft' },
+  fortniteName: { ans:"Fortnite is a battle royale game where 100 players drop onto an island and the last one standing wins. You can also build walls and ramps for cover!", src:'Wikipedia · Fortnite' },
+  default: { ans:"Great question! I don't have a verified source for that yet. Try asking about Minecraft, Roblox, Fortnite, or Pokémon — I have lots of guides for those!", src:null }
+};
+function answerFor(q) {
+  const s = q.toLowerCase();
+  if (s.includes('diamond')) return knowledge.diamond;
+  if (s.includes('robux')) return knowledge.robux;
+  if (s.includes('roblox')) return knowledge.roblox;
+  if (s.includes('minecraft')) return knowledge.minecraft;
+  if (s.includes('fortnite') && (s.includes('beginner') || s.includes('tip'))) return knowledge.fortnite;
+  if (s.includes('fortnite')) return knowledge.fortniteName;
+  return knowledge.default;
+}
+function appendMsg(text, who, src) {
+  const body = document.getElementById('chatBody');
+  const m = document.createElement('div');
+  m.className = `msg ${who}`;
+  m.innerHTML = text + (src ? `<span class="src">📚 Source: ${src}</span>` : '');
+  body.appendChild(m);
+  body.scrollTop = body.scrollHeight;
+}
+function sendChat() {
+  const inp = document.getElementById('chatInput');
+  const q = inp.value.trim();
+  if (!q) return;
+  appendMsg(q, 'user');
+  inp.value = '';
+  setTimeout(() => {
+    const a = answerFor(q);
+    appendMsg(a.ans, 'bot', a.src);
+  }, 450);
+}
+function askSuggested(q) {
+  document.getElementById('chatInput').value = q;
+  document.getElementById('chat').scrollIntoView({behavior:'smooth'});
+  sendChat();
+}
+</script>
+</body>
+</html>
